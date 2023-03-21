@@ -1,25 +1,35 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Navbar from './components/Navbar';
+import Home from "./pages/Home";
+import About from "./pages/Aboutus";
+import Faq from "./pages/Faq";
+import Features from "./pages/Features";
+import Login from "./pages/Login";
+import Indranking from "./pages/Indranking";
+import Squadranking from "./pages/Squadrankings";
+import Meetpredictor from "./pages/Meetpredictor";
+import {Routes, Route} from "react-router-dom";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <Navbar />
+      <div className= "container">
+        <Routes>
+          <Route path="/" element={<Home />}/>
+          <Route path="/features" element={<Features />}/>
+          <Route path="/about" element={<About />}/>
+          <Route path="/faq" element={<Faq />}/>
+          <Route path="/login" element={<Login />}/>
+          <Route path="/Indranking" element={<Indranking />}/>
+          <Route path="/Squadranking" element={<Squadranking />}/>
+          <Route path="/Meetpredictor" element={<Meetpredictor />}/>
+        </Routes>
+      </div>
+    </>
+  )
 }
 
-export default App;
+export default App

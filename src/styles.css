@@ -1,0 +1,231 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.nav {
+    height: 25vh;
+    width: 100vw;
+    background: linear-gradient(rgb(238, 214, 34), rgb(96, 177, 228));
+    border-radius: .5rem;
+    padding: 5vw;
+    padding-top: 7vw;
+    padding-right: 10vw;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: left;
+    gap: 2rem;
+    font-size: 4vw;
+
+}
+
+.nav a {
+    color: inherit;
+    border-radius: .5rem;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10vw;
+    border: dashed blue;
+
+}
+
+
+.nav li {
+    height: 6vw;
+    width: 10vw;
+    padding-left: .5vw;
+    font-size: 2.5vw;
+
+}
+
+.nav li:hover {
+    border-radius: .5vw;
+    box-shadow: 0 8px 16px 0 #333;
+
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(120, 165, 214);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-image: url("./background_images/trackguy.png");
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: dashed red;
+
+}
+
+
+.homeCard1 {
+    height: 30vh;
+    width: 30vw;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border: solid #333;
+    border-radius: 1rem;
+    margin: .5rem;
+
+}
+
+.homeCard1 p {
+    margin-top: 5vw;
+}
+
+.homeCard1 img {
+    margin-top: 5vw;
+}
+
+.homeCard1:hover {
+    background-color: green;
+
+
+}
+
+.homeCard2 {
+    height: 30vh;
+    width: 30vw;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+
+    border: solid #333;
+    border-radius: 1rem;
+    margin: .5rem;
+
+
+}
+
+.homeCard2 p {
+    margin-top: 5vw;
+}
+
+.homeCard2 img {
+    margin-top: 5vw;
+}
+
+.homeCard2:hover {
+    background-color: green;
+
+
+}
+
+.homeCard3 {
+    height: 30vh;
+    width: 30vw;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+
+    border: solid #333;
+    border-radius: 1rem;
+    margin: .5rem;
+
+}
+
+.homeCard3 p {
+    margin-top: 5vw;
+}
+
+.homeCard3 img {
+    margin-top: 5vw;
+}
+
+.homeCard3:hover {
+    background-color: green;
+
+
+}
+
+
+
+.searchBox {
+    height: 30vh;
+    width: 90vw;
+
+    border: solid black;
+    height: 2rem;
+    width: 20rem;
+    float: left;
+}
+
+.card {
+    height: 10rem;
+    border: solid black;
+    border-radius: 1rem;
+    padding: .5rem;
+    text-align: center;
+    margin: 1rem;
+
+}
+
+.card:hover {
+    background-color: green;
+}
+
+
+.homeIcon {
+    margin-top: 1rem;
+    height: 3rem;
+    width: 3rem;
+}
+
+
+.homeBackground {
+    height: 100vh;
+    width: 100vw;
+}
+
+.squadContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1vw;
+}
+
+.squadContainer h1 {
+    height: fit-content;
+    width: 100vw;
+    text-decoration: underline black;
+    border: dashed red;
+}
+
+.squadContainer p {
+    width: 100vw;
+    border: dashed red;
+    height: 10vh;
+    text-align: center;
+    padding: 3vh 2vw;
+}
+
+.filterButton {
+    height: 8vh;
+    width: 20vw;
+    margin: 1vw;
+    background-color: rgb(187, 66, 90);
+    border-radius: 20%;
+    text-align: center;
+}
+
+.filterButton:hover {
+    background-color: crimson;
+
+}
