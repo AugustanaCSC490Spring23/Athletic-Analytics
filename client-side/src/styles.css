@@ -40,7 +40,6 @@ body {
     justify-content: center;
     gap: 10vw;
     border: dashed blue;
-
 }
 
 
@@ -49,13 +48,51 @@ body {
     width: 10vw;
     padding-left: .5vw;
     font-size: 2.5vw;
-
 }
 
 .nav li:hover {
     border-radius: .5vw;
     box-shadow: 0 8px 16px 0 #333;
+}
 
+.searchInput{
+    display: flex;
+}
+
+input{
+    border: none;
+    border-radius: 2px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-radius: .5rem;
+    font-size: 18px;
+    padding: 15px;
+    height: 5vh;
+    width: 60vw;
+}
+
+input:focus{
+    outline:none;
+}
+
+.dataResult{
+    margin-top: 1vh;
+    padding: 15px;
+    height:5vh;
+    width: 60vw;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: hidden;
+
+
+}
+
+.dataItem{
+    width: 10vw;
+    height:5vh;
+    display:flex;
+    align-items: center;
+    font-size: 18px;
+    color: black;
 }
 
 .container {
@@ -65,13 +102,11 @@ body {
     background-position: left;
     background-repeat: no-repeat;
     background-size: 110%;
-    background-image: url("./background_images/trackguy.png");
     padding-top: 2rem;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     border: dashed red;
-
 }
 
 

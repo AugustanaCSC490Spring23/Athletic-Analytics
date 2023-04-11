@@ -1,18 +1,8 @@
-import { useState, useEffect } from "react";
-import Axios from 'axios';
 import "../App.js";
 import { Link, useMatch, useResolvedPath } from 'react-router-dom';
+import Searchbar from "../components/Searchbar.js"
 
 export default function Home(){
-  const [trackList, setTrackList] = useState([]);
-  const [search, setSearch] = useState('');
-  console.log(search);
-  useEffect(() => {
-    Axios.get("http://localhost:3001/output").then((response) => {
-      setTrackList(response.data);
-      //console.log(JSON.stringify(response.data, null, 2))
-    });
-  }, []);
     return(
 
         <div className="container" >
@@ -32,25 +22,7 @@ export default function Home(){
 
 
             {/* This is the search bar component */}
-            <div className="searchBox">
-              <label>Search</label>
-                <input type="text" onChange={(e) => setSearch(e.target.value)} />
-                  <ul placeholder="Search a college or athlete...">
-                    {trackList.filter((val) => {
-                      return search.toLowerCase() === '' 
-                      ? val 
-                      : val.Name.toLowerCase().includes(search);
-                    })
-                    .map((val) => {
-                      return ( 
-                        <h1>
-                          {val.Name}
-                        </h1>
-                      );
-                  })}
-                </ul>
-            </div>
-
+            <Searchbar/>
 
         </div>
 
