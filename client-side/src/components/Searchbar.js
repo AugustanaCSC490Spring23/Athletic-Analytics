@@ -20,26 +20,25 @@ export default function Searchbar(){
             <div>
                 <div className="searchInputs">
                     <input type="text" placeholder="Search a college or Athlete..." onChange={(e) => setSearch(e.target.value)} />
-                    
-                        <div>
-                        {search.length != 0 && trackList.filter((val) => {
-                            return  search.toLowerCase() === '' 
+                    <div className ='searchIcon'>
+                        {/* <SearchIcon/> */}
+                    </div>
+                        {search.length != 0 && 
+                        
+                         trackList.filter((val) => {
+                           
+                            return search.toLowerCase() === '' 
                             ? val 
                             : val.Name.toLowerCase().includes(search);
-                        })
-                        .map((val) => {
-                            return ( 
-                            <a className='dataItem' href={val.link} target="_blank">
-                                {val.Name}
-                            </a>
-                            );
-                        })
+                            }).map((val) => {
+                                return ( 
+                                <a className='dataItem' href={val.link} target="_blank">
+                                    {val.Name}
+                                </a>
+                                 );
+                             })}
                         
-                        
-                        }
-                        </div>
                 </div>
-
             </div>
 
 

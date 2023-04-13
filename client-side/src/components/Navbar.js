@@ -1,33 +1,39 @@
 import { Link, useMatch, useResolvedPath } from 'react-router-dom';
-
+import navButton from "./NavButton.js";
 
 
 
 export default function Navbar(){
-    return (<nav className="nav">
+    return (
         
         
-        <Link to="/" className="site-title">Athletic Analytics</Link>
-        <ul>
-            <li>
+        <div className="navMenu">
+            <div className='navButton'>
+            <Link to="/" className="site-title">Menu</Link>
+            </div>
+
+            <div className='navButton'>
+            <Link to="/" className="site-title">Home</Link>
+            </div>
+            
+            <div className='navButton'>
             <CustomLink to="/features" className="active">Features</CustomLink>
-            </li>
+            </div>
 
-            <li>
+            <div className='navButton'>
             <CustomLink to="/faq" className="active">FAQ</CustomLink>
-            </li>
+            </div>
 
-            <li>
+            <div className='navButton'>
             <CustomLink to="/about" className="active">About</CustomLink>
-            </li>
+            </div>
 
-            <li>
+            <div className='navButton'>
             <CustomLink to="/login" className="active">Login</CustomLink>
-            </li>
+            </div>
 
-        </ul>
+        </div>
 
-    </nav>
 
     )
 }
