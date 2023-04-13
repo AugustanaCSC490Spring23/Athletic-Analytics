@@ -16,7 +16,7 @@ const db = mysql.createPool({
 });
 
 app.get("/output", (req, res) => {
-  const getOutput = "SELECT * FROM output1"
+  const getOutput = "SELECT Distinct output.Name FROM output"
   db.query(getOutput, (err, result) => {
     res.send(result);
   });

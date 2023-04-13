@@ -35,7 +35,7 @@ export default function Home(){
             <div className="searchBox">
               <label>Search</label>
                 <input type="text" onChange={(e) => setSearch(e.target.value)} />
-                  <ul placeholder="Search a college or athlete...">
+                  <ul placeholder="Search a college...">
                     {trackList.filter((val) => {
                       return search.toLowerCase() === '' 
                       ? val 
