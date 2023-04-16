@@ -20,6 +20,33 @@ body {
     padding: 5vw;
 
 }
+.dropbtn {
+    background-color: #fff;
+    color: #000;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    padding: 8px 16px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .dropdown:active .dropdown-content{
+    display: block;
+  }
+  
+  /* Style the dropdown links */
+  .dropdown-content a {
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
 
 .navButton {
     display: flex;
@@ -160,8 +187,8 @@ input:focus{
     color: rgb(88, 88, 88);
     text-shadow:rgb(0, 0, 0) -1px .5px;
     text-decoration: underline black;
-
 }
+
 .squadHeader p{
     padding-left: 5vw;
     padding-right: 5vw
@@ -186,7 +213,6 @@ input:focus{
     box-shadow: 3px 3px 3px 3px black;
 }
 
-
 .squadContainer p {
     width: 100vw;
     height: 10vh;
@@ -210,7 +236,42 @@ input:focus{
     
 }
 
-.filterButton:hover {
-    background-color: rgb(109, 109, 109);
-    cursor:pointer;
+.filterButton select{
+    border: none;
+    font-size: large;
+    height:inherit;
+    width: inherit -1vw;
+
 }
+
+.filterButton select:hover {
+    cursor:pointer;
+    border: none;
+}
+.filterButton select:active{
+    border: none;
+}
+
+.dropdownMenu{
+  
+    display:flex;
+    list-style: none;
+    text-align: center;
+    cursor: pointer;
+    justify-content: flex-end;
+    margin-right:2rem;
+}
+
+.dropdownMenuItem{
+    display: flex;
+    align-items: center;
+}
+
+
+.dropdownMenu a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    margin-right:2rem 
+}
+

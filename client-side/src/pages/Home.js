@@ -2,6 +2,7 @@ import "../App.js";
 import { Link, useMatch, useResolvedPath } from 'react-router-dom';
 import Searchbar from "../components/Searchbar.js"
 
+
 export default function Home(){
     return(
 
@@ -28,27 +29,8 @@ export default function Home(){
                         <div><img className="homeIcon" src={require("../icons/bar-chart.png" )}  alt="Meet Predictor"/> <p>Meet Predictor</p></div>
                     </Link>
                 </div>
-    
 
 
-            {/* This is the search bar component */}
-            <div className="searchBox">
-              <label>Search</label>
-                <input type="text" onChange={(e) => setSearch(e.target.value)} />
-                  <ul placeholder="Search a college...">
-                    {trackList.filter((val) => {
-                      return search.toLowerCase() === '' 
-                      ? val 
-                      : val.Name.toLowerCase().includes(search);
-                    })
-                    .map((val) => {
-                      return ( 
-                        <h1>
-                          {val.Name}
-                        </h1>
-                      );
-                  })}
-                </ul>
             </div>
 
 
