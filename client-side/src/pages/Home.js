@@ -2,6 +2,7 @@ import "../App.js";
 import { Link, useMatch, useResolvedPath } from 'react-router-dom';
 import Searchbar from "../components/Searchbar.js"
 
+
 export default function Home(){
     return(
 
@@ -28,10 +29,6 @@ export default function Home(){
                         <div><img className="homeIcon" src={require("../icons/bar-chart.png" )}  alt="Meet Predictor"/> <p>Meet Predictor</p></div>
                     </Link>
                 </div>
-    
-
-                    
-
 
 
             </div>

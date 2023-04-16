@@ -8,13 +8,15 @@ export default function Navbar(){
         
         
         <div className="navMenu">
-            <div className='navButton'>
-            <Link to="/" className="site-title">Menu</Link>
+            <div class="dropdown">
+            <button class="dropbtn">=</button>
+            <div class="dropdown-content">
+                <a href="/home">Home</a>
+                <a href="#">Squad Statistics</a>
+                <a href="#">Individual Statistics</a>
+            </div>
             </div>
 
-            <div className='navButton'>
-            <Link to="/" className="site-title">Home</Link>
-            </div>
             
             <div className='navButton'>
             <CustomLink to="/features" className="active">Features</CustomLink>
