@@ -9,30 +9,11 @@ export default function Home(){
         <div className="container" >
             {/* This is the search bar component */}
             <Searchbar/>
-            <div className='homeCard-menu'>
 
-            {/* This is cards that display on the homepage */}
-                <div className="homeCard">
-                    <Link to="/Squadranking" >  
-                        <div><img className="homeIcon" src={require("../icons/plus-or-minus.png" )}alt="Squad Rank"/> <p>Squad Rankings</p></div>
-                    </Link>
+            {/* This is where you'll put cards
+             that display on the homepage when the database updates the web scrape*/}
 
-                </div>
-                <div className="homeCard">
-                    <Link to="/Indranking" > 
-                        <div><img className="homeIcon" src={require("../icons/trophy.png")}alt="Individual Rankings"/><p>Individual Rankings</p> </div>
-                    </Link>
-                </div>
-
-                <div className="homeCard">
-                    <Link to="/Meetpredictor">  
-                        <div><img className="homeIcon" src={require("../icons/bar-chart.png" )}  alt="Meet Predictor"/> <p>Meet Predictor</p></div>
-                    </Link>
-                </div>
-
-
-            </div>
-
+        <div className='squadCard'> <h1>Where we will post web scrape updates (new times/records)</h1> </div>
 
         </div>
 

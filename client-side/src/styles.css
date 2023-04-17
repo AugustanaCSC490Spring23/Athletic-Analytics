@@ -6,6 +6,18 @@ body {
     margin: 0;
 }
 
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 110%;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/* Below is the Nav Bar Styling */
 
 .navMenu {
     display: flex;
@@ -20,35 +32,68 @@ body {
     padding: 5vw;
 
 }
-.dropbtn {
-    background-color: #fff;
-    color: #000;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    padding: 8px 16px;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    z-index: 1;
-  }
-  
-  .dropdown:active .dropdown-content{
-    display: block;
-  }
-  
-  /* Style the dropdown links */
-  .dropdown-content a {
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
+    /* Below is the Hamburger Menu Styling on Nav Bar */
 
-.navButton {
+.hamburgerMenu {
+    height: 6vw;
+    width: 30vw;
+}
+
+.childrenButton button{
+    background-color: none;
+    margin: 2px;
+    position:relative;
+    text-align: center;
+    border: none;
+    text-decoration: none;
+    font-family:'PT Sans',helvetica;
+    display:inline-block;
+    
+  }
+
+.childrenButton img{
+    display: block;
+    height: 6vw;
+    width: 10vw;
+}
+
+.hamburgerMenuBtn ul{
+    border-top: solid black;
+    border-right: solid black;
+    border-bottom: solid black;
+    border-top-right-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    position: absolute;
+    left: 0;
+    height: 60vh;
+    width: 40vw;
+    background-color: rgb(255, 255, 255);
+    margin: 2vh;
+    list-style: none;
+    padding-left: 0;
+
+
+}
+
+/* This is the actual styling of items in the nav bar*/
+.hamburgerListItem a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.28571429rem;
+}
+.hamburgerListItem a:hover{
+    text-decoration: underline;
+}
+
+/* This is the styling for between items in the list */
+ .hamburgerListItem {
+    margin-top: 3vh;
+
+}      
+        
+  
+  /* This is the NavBar Button styling */
+  .navButton {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,6 +120,10 @@ body {
     cursor:pointer;
 }
 
+/* Below is the searchbar styling */
+.searchBar{
+    z-index: 0;
+}
 .searchInputs{
     display: flex;
     margin-bottom: 5vh;
@@ -105,20 +154,6 @@ input:focus{
     outline:none;
 }
 
-.dataResult{
-    display: flex;
-    
-    margin-top: 1vh;
-    padding: 15px;
-    height:5vh;
-    width: 60vw;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    overflow: hidden;
-}
-
-.dataResult ::-webkit-scrollbar{
-    display:none;
-}
 
 .dataResult .dataItem{
     width: 10vw;
@@ -128,59 +163,10 @@ input:focus{
     color: black;
 }
 
-.container {
-    height: 100vh;
-    width: 100vw;
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: 110%;
-    padding-top: 2rem;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
 
 
-.homeMenu{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
 
-.homeCard {
-    height: 30vh;
-    width: 50vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: black;
-    border: solid #333;
-    border-radius: 1rem;
-    margin: .5rem;
-}
-
-.homeCard a{
-    text-decoration: none;
-    color: inherit;
-
-}
-.homeCard img{
-    margin-left: 4vw;
-}
-
-.homeCard:hover {
-    background-color: gray;
-
-
-}
-
-
-.homeIcon {
-    margin-top: 1rem;
-    height: 3rem;
-    width: 3rem;
-}
+/* This is the styling of the Squad rankings page */
 
 .squadHeader h2{
     padding-left: 5vw;
@@ -213,6 +199,9 @@ input:focus{
     box-shadow: 3px 3px 3px 3px black;
 }
 
+.squadCard h1{
+    margin-left: 3rem;
+}
 .squadContainer p {
     width: 100vw;
     height: 10vh;
@@ -252,26 +241,25 @@ input:focus{
     border: none;
 }
 
-.dropdownMenu{
-  
-    display:flex;
-    list-style: none;
-    text-align: center;
-    cursor: pointer;
-    justify-content: flex-end;
-    margin-right:2rem;
+/* This is the styling of the features page */
+
+.featureHeader{
+    margin-left: 3rem;
 }
 
-.dropdownMenuItem{
+/* This styles the format of the list of items */
+.featureItems{
     display: flex;
-    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+    
 }
 
+/* This styles the actual items */
+.featureCard{
+    margin: 2rem;
+    border: solid black;
+    padding: 3rem;
 
-.dropdownMenu a{
-    text-decoration: none;
-    color: white;
-    font-size: 1.1rem;
-    margin-right:2rem 
+
 }
-
