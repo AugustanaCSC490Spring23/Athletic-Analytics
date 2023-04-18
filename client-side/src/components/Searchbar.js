@@ -7,9 +7,9 @@ export default function Searchbar(){
 
     const [trackList, setTrackList] = useState([]);
     const [search, setSearch] = useState('');
-    console.log(search);
+   // console.log(search);
     useEffect(() => {
-      Axios.get("http://localhost:3001/output").then((response) => {
+      Axios.get("http://localhost:3001/DivisionIII").then((response) => {
         setTrackList(response.data);
         //console.log(JSON.stringify(response.data, null, 2))
       });

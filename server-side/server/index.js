@@ -3,6 +3,7 @@ const app = express();
 const mysql = require('mysql');
 const cors = require('cors');
 const bodyParser = require('body-parser');
+import Squadranking from '../../client-side/src/pages/Squadrankings';
 
 app.use(cors());
 app.use(express.json());
@@ -15,14 +16,27 @@ const db = mysql.createPool({
   database: 'cciwData'
 });
 
-app.get("/output", (req, res) => {
-  const getOutput = "SELECT * FROM output1"
+app.get("/DivisionIII", (req, res) => {
+  const getOutput = "SELECT * FROM DivisionIII LIMIT 3"
+  db.query(getOutput, (err, result) => {
+    res.send(result);
+  });
+}); 
+
+app.get("/DivisionII", (req, res) => {
+  const getOutput = "SELECT * FROM DivisionIII LIMIT 2"
+  db.query(getOutput, (err, result) => {
+    res.send(result);
+  });
+}); 
+app.get("/DivisionI", (req, res) => {
+  const getOutput = "SELECT * FROM DivisionIII LIMIT 1"
   db.query(getOutput, (err, result) => {
     res.send(result);
   });
 }); 
 app.get("/", (req, res)=> {
-  res.send("It's working");
+  res.send([]);
 });
 app.listen(3001, () => {
     console.log("Yay, your server is running on port 3001");
