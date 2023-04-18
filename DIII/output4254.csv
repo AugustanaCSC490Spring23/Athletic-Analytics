@@ -1,4 +1,4 @@
-Rank,Athlete(s),Year,Team,Time/Distance,Meet,Meet Date,Wind,Event,Conference,Gender
+Rank,Athlete(s),Year,Team,Time/Distance/Points,Meet,Meet Date,Wind,Event,Conference,Gender
 1,"Arthur, Kevin",SO-2,St. John's (Minn.),10.63,Wartburg Outdoor Select,"Apr 1, 2023",2.6,100 Meters,MIAC Outdoor Performance List,Men
 2,"Eben Ebai, Samuel",SR-4,St. Scholastica,10.84,St Thomas Tomcat Invitational,"Apr 7, 2023",0.8,100 Meters,MIAC Outdoor Performance List,Men
 3,"Morical, Nolan",SO-2,Concordia-Moorhead,10.86,USD Early Bird,"Apr 7, 2023",5.5,100 Meters,MIAC Outdoor Performance List,Men

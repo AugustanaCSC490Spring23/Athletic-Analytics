@@ -1,4 +1,4 @@
-Rank,Athlete(s),Year,Team,Time/Distance,Meet,Meet Date,Wind,Event,Conference,Gender
+Rank,Athlete(s),Year,Team,Time/Distance/Points,Meet,Meet Date,Wind,Event,Conference,Gender
 1,"Smith, Josh",SR-4,Loras,10.62,UW-Platteville Invitational,"Apr 14, 2023",-2.0,100 Meters,American Rivers Outdoor Performance List,Men
 2,"Bell, Jaylen",JR-3,Dubuque,10.70,Good Friday Open,"Apr 7, 2023",4.3,100 Meters,American Rivers Outdoor Performance List,Men
 2,"Williams, Randy",FR-1,Wartburg,10.70,Wartburg Outdoor Select,"Apr 1, 2023",2.6,100 Meters,American Rivers Outdoor Performance List,Men

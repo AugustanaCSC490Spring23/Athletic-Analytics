@@ -1,4 +1,4 @@
-Rank,Athlete(s),Year,Team,Time/Distance,Meet,Meet Date,Wind,Event,Conference,Gender
+Rank,Athlete(s),Year,Team,Time/Distance/Points,Meet,Meet Date,Wind,Event,Conference,Gender
 1,"Felix, Nate",SR-4,Fitchburg St.,11.17,Jim Sheehan Memorial Track Meet,"Apr 8, 2023",+0.0,100 Meters,MASCAC Outdoor Performance List,Men
 1,"Matias, Mason",SR-4,Bridgewater St.,11.17,Springfield College Classic,"Apr 8, 2023",1.5,100 Meters,MASCAC Outdoor Performance List,Men
 3,"Jacques, Brodie",SO-2,Worcester State,11.23,Jim Sheehan Memorial Track Meet,"Apr 8, 2023",-1.3,100 Meters,MASCAC Outdoor Performance List,Men

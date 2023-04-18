@@ -1,4 +1,4 @@
-Rank,Athlete(s),Year,Team,Time/Distance,Meet,Meet Date,Wind,Event,Conference,Gender
+Rank,Athlete(s),Year,Team,Time/Distance/Points,Meet,Meet Date,Wind,Event,Conference,Gender
 1,"Frank, Andy",SR-4,Ithaca,10.76,Muhlenberg Outdoor Invitational,"Apr 1, 2023",2.2,100 Meters,Liberty League Outdoor Performance List,Men
 2,"Jantzi, Justin",JR-3,RIT,10.95,Bison Outdoor Classic,"Apr 14, 2023",1.2,100 Meters,Liberty League Outdoor Performance List,Men
 2,"London, P.J.",SO-2,Rochester,10.95,Brockport Multi & Invitational,"Apr 14, 2023",0.5,100 Meters,Liberty League Outdoor Performance List,Men

@@ -1,4 +1,4 @@
-Rank,Athlete(s),Year,Team,Time/Distance,Meet,Meet Date,Wind,Event,Conference,Gender
+Rank,Athlete(s),Year,Team,Time/Distance/Points,Meet,Meet Date,Wind,Event,Conference,Gender
 1,"Mason, Jared",SR-4,Nichols,11.19,Penmen Relays,"Apr 15, 2023",0.5,100 Meters,Commonwealth Coast Outdoor Performance List,Men
 2,"Lonstein, Henry",SO-2,Gordon,11.27,Jonathan Tymann Invitational,"Apr 8, 2023",-0.4,100 Meters,Commonwealth Coast Outdoor Performance List,Men
 3,"McCluskey, Matthew",FR-1,Gordon,11.40,SILFEN INVITATIONAL 2023,"Apr 14, 2023",+0.0,100 Meters,Commonwealth Coast Outdoor Performance List,Men

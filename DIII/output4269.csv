@@ -1,4 +1,4 @@
-Rank,Athlete(s),Year,Team,Time/Distance,Meet,Meet Date,Wind,Event,Conference,Gender
+Rank,Athlete(s),Year,Team,Time/Distance/Points,Meet,Meet Date,Wind,Event,Conference,Gender
 1,"Jeffes, Josh",SO-2,SUNY Delhi,10.81,2023 Hamilton College Continental Invitational,"Apr 1, 2023",1.2,100 Meters,North Atlantic Conference Outdoor Performance List,Men
 2,"Davis, Deron",FR-1,SUNY Delhi,10.85,2023 Hamilton College Continental Invitational,"Apr 1, 2023",1.2,100 Meters,North Atlantic Conference Outdoor Performance List,Men
 3,"Raye, LJ",SO-2,Thomas College,10.91,Myrtle Beach Collegiate Challenge,"Mar 10, 2023",2.5,100 Meters,North Atlantic Conference Outdoor Performance List,Men

@@ -1,4 +1,4 @@
-Rank,Athlete(s),Year,Team,Time/Distance,Meet,Meet Date,Wind,Event,Conference,Gender
+Rank,Athlete(s),Year,Team,Time/Distance/Points,Meet,Meet Date,Wind,Event,Conference,Gender
 1,"Say, Conrad",JR-3,Johns Hopkins,10.82,Bison Outdoor Classic,"Apr 14, 2023",0.9,100 Meters,Centennial Conference Outdoor Performance List,Men
 2,"Coulter, Elliot",SO-2,Franklin & Marshall,10.90,40th Millersville Metrics,"Mar 31, 2023",2.9,100 Meters,Centennial Conference Outdoor Performance List,Men
 3,"Neuwirth, Russell",SR-4,Muhlenberg,10.99,Muhlenberg Outdoor Invitational,"Apr 1, 2023",2.2,100 Meters,Centennial Conference Outdoor Performance List,Men

@@ -38,7 +38,7 @@ for i in oConferenceList:
             he=[h.text.strip() for h in he]
             he[0]='Rank'
             he[1] = 'Athlete(s)'
-            he[4]='Time/Distance'
+            he[4]='Time/Distance/Points'
             he.append('Event')
             he.append('Conference')
             he.append('Gender')
@@ -109,3 +109,4 @@ for i in oConferenceList:
     with open(name, 'w', newline='') as csvfile:
         writer = csv.writer(csvfile)
         writer.writerows(data)
+        print(i)

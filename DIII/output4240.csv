@@ -1,4 +1,4 @@
-Rank,Athlete(s),Year,Team,Time/Distance,Meet,Meet Date,Wind,Event,Conference,Gender
+Rank,Athlete(s),Year,Team,Time/Distance/Points,Meet,Meet Date,Wind,Event,Conference,Gender
 1,"Anderson, Jackson",JR-3,Williams,10.57,PLNU Invitational,"Mar 25, 2023",2.1,100 Meters,NESCAC Outdoor Performance List,Men
 2,"Botsford, Luke",JR-3,Tufts,10.63,PLNU Invitational,"Mar 25, 2023",2.1,100 Meters,NESCAC Outdoor Performance List,Men
 3,"Davis, Jack",JR-3,Williams,10.75,PLNU Invitational,"Mar 25, 2023",2.1,100 Meters,NESCAC Outdoor Performance List,Men
@@ -107,13 +107,15 @@ Rank,Athlete(s),Year,Team,Time/Distance,Meet,Meet Date,Wind,Event,Conference,Gen
 48,"Alioto, Ava",SO-2,Trinity (Conn.),13.49,CGA Spring Invite,"Apr 8, 2023",1.6,100 Meters,NESCAC Outdoor Performance List,Women
 49,"Bruno, Maya",SO-2,Connecticut College,13.53,SILFEN INVITATIONAL 2023,"Apr 14, 2023",1.0,100 Meters,NESCAC Outdoor Performance List,Women
 50,"Gay, Isabelle",SR-4,Middlebury,13.63,Amherst College Spring Fling,"Apr 8, 2023",1.9,100 Meters,NESCAC Outdoor Performance List,Women
-51,"Appel, Jaidyn",JR-3,Tufts,13.78,Tufts Snowflake Classic,"Apr 1, 2023",+0.0,100 Meters,NESCAC Outdoor Performance List,Women
-52,"Rodriguez, Gabi",FR-1,Williams,13.80,PLNU Invitational,"Mar 25, 2023",3.3,100 Meters,NESCAC Outdoor Performance List,Women
-53,"Castano, Emmy",SO-2,Connecticut College,13.83,SILFEN INVITATIONAL 2023,"Apr 14, 2023",1.0,100 Meters,NESCAC Outdoor Performance List,Women
-54,"Morrison, Addie",SO-2,Middlebury,13.86,2023 Carla Coffey Invitational,"Apr 14, 2023",+0.0,100 Meters,NESCAC Outdoor Performance List,Women
-55,"Gott, Onna",SO-2,Connecticut College,13.95,SILFEN INVITATIONAL 2023,"Apr 14, 2023",1.0,100 Meters,NESCAC Outdoor Performance List,Women
-56,"Brophy, Julia",SO-2,Bates,13.99,Bates & Tufts @ RPI TriMeet,"Apr 8, 2023",2.2,100 Meters,NESCAC Outdoor Performance List,Women
-57,"Kanganis, Alisa",SO-2,Williams,14.00,Amherst College Spring Fling,"Apr 8, 2023",1.9,100 Meters,NESCAC Outdoor Performance List,Women
+51,"Turner, Hannah",FR-1,Hamilton,13.71,Hamilton College Mid-week Invitational,"Apr 18, 2023",0.1,100 Meters,NESCAC Outdoor Performance List,Women
+52,"Appel, Jaidyn",JR-3,Tufts,13.78,Tufts Snowflake Classic,"Apr 1, 2023",+0.0,100 Meters,NESCAC Outdoor Performance List,Women
+53,"Rodriguez, Gabi",FR-1,Williams,13.80,PLNU Invitational,"Mar 25, 2023",3.3,100 Meters,NESCAC Outdoor Performance List,Women
+54,"Castano, Emmy",SO-2,Connecticut College,13.83,SILFEN INVITATIONAL 2023,"Apr 14, 2023",1.0,100 Meters,NESCAC Outdoor Performance List,Women
+55,"Tratnyek, Claire",FR-1,Hamilton,13.84,Hamilton College Mid-week Invitational,"Apr 18, 2023",0.1,100 Meters,NESCAC Outdoor Performance List,Women
+56,"Morrison, Addie",SO-2,Middlebury,13.86,2023 Carla Coffey Invitational,"Apr 14, 2023",+0.0,100 Meters,NESCAC Outdoor Performance List,Women
+57,"Gott, Onna",SO-2,Connecticut College,13.95,SILFEN INVITATIONAL 2023,"Apr 14, 2023",1.0,100 Meters,NESCAC Outdoor Performance List,Women
+58,"Brophy, Julia",SO-2,Bates,13.99,Bates & Tufts @ RPI TriMeet,"Apr 8, 2023",2.2,100 Meters,NESCAC Outdoor Performance List,Women
+59,"Kanganis, Alisa",SO-2,Williams,14.00,Amherst College Spring Fling,"Apr 8, 2023",1.9,100 Meters,NESCAC Outdoor Performance List,Women
 1,"Botsford, Luke",JR-3,Tufts,21.28,Bates & Tufts @ RPI TriMeet,"Apr 8, 2023",0.3,200 Meters,NESCAC Outdoor Performance List,Men
 2,"Newman, Oscar",SO-2,Williams,21.63,PLNU Invitational,"Mar 25, 2023",1.3,200 Meters,NESCAC Outdoor Performance List,Men
 3,"Olson, Ajay",SR-4,Bowdoin,21.75,2023 Carla Coffey Invitational,"Apr 14, 2023",-1.4,200 Meters,NESCAC Outdoor Performance List,Men
@@ -257,17 +259,18 @@ Rank,Athlete(s),Year,Team,Time/Distance,Meet,Meet Date,Wind,Event,Conference,Gen
 79,"Alioto, Ava",SO-2,Trinity (Conn.),28.32,CGA Spring Invite,"Apr 8, 2023",2.0,200 Meters,NESCAC Outdoor Performance List,Women
 80,"Morrison, Addie",SO-2,Middlebury,28.47,Ross and Sharon Irwin meet,"Mar 18, 2023",2.4,200 Meters,NESCAC Outdoor Performance List,Women
 81,"Suplee, Kathryn",SO-2,Connecticut College,28.56,Tufts Snowflake Classic,"Apr 1, 2023",+0.0,200 Meters,NESCAC Outdoor Performance List,Women
+82,"Turner, Hannah",FR-1,Hamilton,28.63,Hamilton College Mid-week Invitational,"Apr 18, 2023",0.3,200 Meters,NESCAC Outdoor Performance List,Women
 82,"Egwuonwu, Cearah",FR-1,Middlebury,28.63,Amherst College Spring Fling,"Apr 8, 2023",0.8,200 Meters,NESCAC Outdoor Performance List,Women
-83,"Dovre, Inga",SO-2,Bowdoin,28.77,2023 Carla Coffey Invitational,"Apr 14, 2023",-1.3,200 Meters,NESCAC Outdoor Performance List,Women
-84,"Vaughn, Greta",FR-1,Williams,28.78,PLNU Invitational,"Mar 25, 2023",-0.1,200 Meters,NESCAC Outdoor Performance List,Women
-85,"Martin, Elsa",SO-2,Williams,28.87,Amherst College Spring Fling,"Apr 8, 2023",1.4,200 Meters,NESCAC Outdoor Performance List,Women
-86,"Masterson, Rachel",FR-1,Wesleyan,28.89,Wesleyan Swanson Invite,"Mar 26, 2023",3.4,200 Meters,NESCAC Outdoor Performance List,Women
-87,"Bruno, Maya",SO-2,Connecticut College,28.90,SILFEN INVITATIONAL 2023,"Apr 14, 2023",0.9,200 Meters,NESCAC Outdoor Performance List,Women
-88,"Kozick, Livia",JR-3,Bates,29.08,2023 Carla Coffey Invitational,"Apr 14, 2023",-1.3,200 Meters,NESCAC Outdoor Performance List,Women
-89,"Cortes, Camille",FR-1,Connecticut College,29.18,CGA Spring Invite,"Apr 8, 2023",2.0,200 Meters,NESCAC Outdoor Performance List,Women
-90,"Gott, Onna",SO-2,Connecticut College,29.23,Wesleyan Swanson Invite,"Mar 26, 2023",2.4,200 Meters,NESCAC Outdoor Performance List,Women
-91,"Khumalo, Nothando",JR-3,Bowdoin,29.25,2023 Carla Coffey Invitational,"Apr 14, 2023",-1.9,200 Meters,NESCAC Outdoor Performance List,Women
-92,"Ugokwe, Maelynn",JR-3,Tufts,29.27,2023 Carla Coffey Invitational,"Apr 14, 2023",-1.2,200 Meters,NESCAC Outdoor Performance List,Women
+84,"Dovre, Inga",SO-2,Bowdoin,28.77,2023 Carla Coffey Invitational,"Apr 14, 2023",-1.3,200 Meters,NESCAC Outdoor Performance List,Women
+85,"Vaughn, Greta",FR-1,Williams,28.78,PLNU Invitational,"Mar 25, 2023",-0.1,200 Meters,NESCAC Outdoor Performance List,Women
+86,"Martin, Elsa",SO-2,Williams,28.87,Amherst College Spring Fling,"Apr 8, 2023",1.4,200 Meters,NESCAC Outdoor Performance List,Women
+87,"Masterson, Rachel",FR-1,Wesleyan,28.89,Wesleyan Swanson Invite,"Mar 26, 2023",3.4,200 Meters,NESCAC Outdoor Performance List,Women
+88,"Bruno, Maya",SO-2,Connecticut College,28.90,SILFEN INVITATIONAL 2023,"Apr 14, 2023",0.9,200 Meters,NESCAC Outdoor Performance List,Women
+89,"Kozick, Livia",JR-3,Bates,29.08,2023 Carla Coffey Invitational,"Apr 14, 2023",-1.3,200 Meters,NESCAC Outdoor Performance List,Women
+90,"Cortes, Camille",FR-1,Connecticut College,29.18,CGA Spring Invite,"Apr 8, 2023",2.0,200 Meters,NESCAC Outdoor Performance List,Women
+91,"Gott, Onna",SO-2,Connecticut College,29.23,Wesleyan Swanson Invite,"Mar 26, 2023",2.4,200 Meters,NESCAC Outdoor Performance List,Women
+92,"Khumalo, Nothando",JR-3,Bowdoin,29.25,2023 Carla Coffey Invitational,"Apr 14, 2023",-1.9,200 Meters,NESCAC Outdoor Performance List,Women
+93,"Ugokwe, Maelynn",JR-3,Tufts,29.27,2023 Carla Coffey Invitational,"Apr 14, 2023",-1.2,200 Meters,NESCAC Outdoor Performance List,Women
 1,"Botsford, Luke",JR-3,Tufts,47.94,Bates & Tufts @ RPI TriMeet,"Apr 8, 2023",NaN,400 Meters,NESCAC Outdoor Performance List,Men
 2,"Christie, Markus",FR-1,Colby,48.88,UCONN Northeast Challenge,"Apr 14, 2023",NaN,400 Meters,NESCAC Outdoor Performance List,Men
 3,"Zanze, Ren",SO-2,Colby,48.92,Emory Thrills in the Hills 2023,"Mar 24, 2023",NaN,400 Meters,NESCAC Outdoor Performance List,Men
@@ -450,14 +453,15 @@ Rank,Athlete(s),Year,Team,Time/Distance,Meet,Meet Date,Wind,Event,Conference,Gen
 62,"Consolati, Luke",SO-2,Wesleyan,2:01.56,SILFEN INVITATIONAL 2023,"Apr 14, 2023",NaN,800 Meters,NESCAC Outdoor Performance List,Men
 63,"Migdole, Evan",FR-1,Bates,2:02.14,Bates & Tufts @ RPI TriMeet,"Apr 8, 2023",NaN,800 Meters,NESCAC Outdoor Performance List,Men
 64,"Nahigian, Jason",JR-3,Bates,2:02.35,Bates & Tufts @ RPI TriMeet,"Apr 8, 2023",NaN,800 Meters,NESCAC Outdoor Performance List,Men
-65,"Dube, Kyle",JR-3,Colby,2:02.84,Emory Thrills in the Hills 2023,"Mar 24, 2023",NaN,800 Meters,NESCAC Outdoor Performance List,Men
-66,"Richardson, Andrew",FR-1,Hamilton,2:02.87,27th Annual Monmouth University Track & Field Season Opener,"Mar 24, 2023",NaN,800 Meters,NESCAC Outdoor Performance List,Men
-67,"Wise, Will",FR-1,Wesleyan,2:02.95,Amherst College Spring Fling,"Apr 8, 2023",NaN,800 Meters,NESCAC Outdoor Performance List,Men
-68,"D'Aquila	, Robert",FR-1,Wesleyan,2:03.28,Wesleyan Swanson Invite,"Mar 26, 2023",NaN,800 Meters,NESCAC Outdoor Performance List,Men
-69,"Gould, Chris",FR-1,Colby,2:03.32,Jonathan Tymann Invitational,"Apr 8, 2023",NaN,800 Meters,NESCAC Outdoor Performance List,Men
-70,"Chidley, Simon",SO-2,Wesleyan,2:03.71,SILFEN INVITATIONAL 2023,"Apr 14, 2023",NaN,800 Meters,NESCAC Outdoor Performance List,Men
-71,"Kiefer, Jackson",SO-2,Tufts,2:03.89,Tufts Snowflake Classic,"Apr 1, 2023",NaN,800 Meters,NESCAC Outdoor Performance List,Men
-72,"Stathos, Cam",SO-2,Bates,2:03.97,Bates College Quad Meet,"Apr 1, 2023",NaN,800 Meters,NESCAC Outdoor Performance List,Men
+65,"Ingram, Benjamin",SO-2,Hamilton,2:02.77,Hamilton College Mid-week Invitational,"Apr 18, 2023",NaN,800 Meters,NESCAC Outdoor Performance List,Men
+66,"Dube, Kyle",JR-3,Colby,2:02.84,Emory Thrills in the Hills 2023,"Mar 24, 2023",NaN,800 Meters,NESCAC Outdoor Performance List,Men
+67,"Richardson, Andrew",FR-1,Hamilton,2:02.87,27th Annual Monmouth University Track & Field Season Opener,"Mar 24, 2023",NaN,800 Meters,NESCAC Outdoor Performance List,Men
+68,"Wise, Will",FR-1,Wesleyan,2:02.95,Amherst College Spring Fling,"Apr 8, 2023",NaN,800 Meters,NESCAC Outdoor Performance List,Men
+69,"D'Aquila	, Robert",FR-1,Wesleyan,2:03.28,Wesleyan Swanson Invite,"Mar 26, 2023",NaN,800 Meters,NESCAC Outdoor Performance List,Men
+70,"Gould, Chris",FR-1,Colby,2:03.32,Jonathan Tymann Invitational,"Apr 8, 2023",NaN,800 Meters,NESCAC Outdoor Performance List,Men
+71,"Chidley, Simon",SO-2,Wesleyan,2:03.71,SILFEN INVITATIONAL 2023,"Apr 14, 2023",NaN,800 Meters,NESCAC Outdoor Performance List,Men
+72,"Kiefer, Jackson",SO-2,Tufts,2:03.89,Tufts Snowflake Classic,"Apr 1, 2023",NaN,800 Meters,NESCAC Outdoor Performance List,Men
+73,"Stathos, Cam",SO-2,Bates,2:03.97,Bates College Quad Meet,"Apr 1, 2023",NaN,800 Meters,NESCAC Outdoor Performance List,Men
 1,"Neilon, Hannah",SR-4,Tufts,2:12.27,Mangrum Invitational,"Mar 24, 2023",NaN,800 Meters,NESCAC Outdoor Performance List,Women
 2,"Pedersen, Margo",SO-2,Amherst,2:14.91,2023 Carla Coffey Invitational,"Apr 14, 2023",NaN,800 Meters,NESCAC Outdoor Performance List,Women
 3,"Thompson, Elle",SO-2,Middlebury,2:15.13,PLNU Invitational,"Mar 25, 2023",NaN,800 Meters,NESCAC Outdoor Performance List,Women
@@ -1098,7 +1102,8 @@ Rank,Athlete(s),Year,Team,Time/Distance,Meet,Meet Date,Wind,Event,Conference,Gen
 7,"Quiet, Bailin, Bogan, Warren",NA,Trinity (Conn.),43.23,SILFEN INVITATIONAL 2023,"Apr 14, 2023",NaN,4 x 100 Relay,NESCAC Outdoor Performance List,Men
 8,"Haime, Firmin, Moreira, Aladin",NA,Connecticut College,43.42,SILFEN INVITATIONAL 2023,"Apr 14, 2023",NaN,4 x 100 Relay,NESCAC Outdoor Performance List,Men
 9,"Chu DeChristofa, Demers, Whitney, Xing",NA,Bowdoin,44.31,2023 Carla Coffey Invitational,"Apr 14, 2023",NaN,4 x 100 Relay,NESCAC Outdoor Performance List,Men
-10,"Hayes-Messinger, Dollhopf, Orellana, Giokaris",NA,Wesleyan,50.86,Wesleyan Swanson Invite,"Mar 26, 2023",NaN,4 x 100 Relay,NESCAC Outdoor Performance List,Men
+10,"Harmsen, Ngaw, Shaukat, Eltayeb",NA,Hamilton,44.79,Hamilton College Mid-week Invitational,"Apr 18, 2023",NaN,4 x 100 Relay,NESCAC Outdoor Performance List,Men
+11,"Hayes-Messinger, Dollhopf, Orellana, Giokaris",NA,Wesleyan,50.86,Wesleyan Swanson Invite,"Mar 26, 2023",NaN,4 x 100 Relay,NESCAC Outdoor Performance List,Men
 1,"White, Louie, Kaiden, Barns",NA,Middlebury,47.69,2023 Carla Coffey Invitational,"Apr 14, 2023",NaN,4 x 100 Relay,NESCAC Outdoor Performance List,Women
 2,"Tan, Arthur, Rusch, Sukup",NA,Williams,48.01,2023 Carla Coffey Invitational,"Apr 14, 2023",NaN,4 x 100 Relay,NESCAC Outdoor Performance List,Women
 2,"Harris, Kelly, Burhans, Devanny",NA,Wesleyan,48.01,SILFEN INVITATIONAL 2023,"Apr 14, 2023",NaN,4 x 100 Relay,NESCAC Outdoor Performance List,Women
@@ -1503,6 +1508,7 @@ Rank,Athlete(s),Year,Team,Time/Distance,Meet,Meet Date,Wind,Event,Conference,Gen
 18,"Morgan, Annie",SR-4,Connecticut College,27.19m,SILFEN INVITATIONAL 2023,"Apr 14, 2023",NaN,Javelin,NESCAC Outdoor Performance List,Women
 19,"Colfax, Hayden",SO-2,Williams,27.16m,PLNU Invitational,"Mar 25, 2023",NaN,Javelin,NESCAC Outdoor Performance List,Women
 20,"Rotti, Jen",JR-3,Tufts,27.04m,Bates & Tufts @ RPI TriMeet,"Apr 8, 2023",NaN,Javelin,NESCAC Outdoor Performance List,Women
+21,"Basel, Leah",JR-3,Hamilton,27.03m,Hamilton College Mid-week Invitational,"Apr 18, 2023",NaN,Javelin,NESCAC Outdoor Performance List,Women
 1,"Rubio, Emily",FR-1,Middlebury,4344,2023 Carla Coffey Invitational,"Apr 14, 2023",NaN,Heptathlon,NESCAC Outdoor Performance List,Women
 2,"Wheeler, Emma",JR-3,Connecticut College,4329,SILFEN INVITATIONAL 2023,"Apr 14, 2023",NaN,Heptathlon,NESCAC Outdoor Performance List,Women
 3,"Mazerolle, Livi",FR-1,Williams,4223,2023 Carla Coffey Invitational,"Apr 14, 2023",NaN,Heptathlon,NESCAC Outdoor Performance List,Women

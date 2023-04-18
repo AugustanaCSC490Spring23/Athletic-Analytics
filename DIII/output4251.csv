@@ -1,4 +1,4 @@
-Rank,Athlete(s),Year,Team,Time/Distance,Meet,Meet Date,Wind,Event,Conference,Gender
+Rank,Athlete(s),Year,Team,Time/Distance/Points,Meet,Meet Date,Wind,Event,Conference,Gender
 1,"Doss , Steven",FR-1,RIC,10.77,CGA Spring Invite,"Apr 8, 2023",2.0,100 Meters,Little East Outdoor Performance List,Men
 2,"Bazile, Flordan",FR-1,UMass Dartmouth,10.81,Jerry Gravel Classic,"Apr 15, 2023",-0.9,100 Meters,Little East Outdoor Performance List,Men
 3,"Shain, Ethan",SO-2,Southern Maine,11.09,Penmen Relays,"Apr 15, 2023",0.9,100 Meters,Little East Outdoor Performance List,Men

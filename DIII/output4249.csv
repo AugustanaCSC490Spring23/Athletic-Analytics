@@ -1,4 +1,4 @@
-Rank,Athlete(s),Year,Team,Time/Distance,Meet,Meet Date,Wind,Event,Conference,Gender
+Rank,Athlete(s),Year,Team,Time/Distance/Points,Meet,Meet Date,Wind,Event,Conference,Gender
 1,"Holland, Myron",JR-3,Elizabethtown,10.54,40th Millersville Metrics,"Mar 31, 2023",2.9,100 Meters,Landmark Conference Outdoor Performance List,Men
 2,"Gray, Trevor",SO-2,Moravian,10.83,Muhlenberg Outdoor Invitational,"Apr 1, 2023",2.2,100 Meters,Landmark Conference Outdoor Performance List,Men
 3,"Osai, Chilowe",SO-2,Catholic,11.08,Bison Outdoor Classic,"Apr 14, 2023",2.1,100 Meters,Landmark Conference Outdoor Performance List,Men

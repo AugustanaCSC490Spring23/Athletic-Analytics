@@ -1,4 +1,4 @@
-Rank,Athlete(s),Year,Team,Time/Distance,Meet,Meet Date,Wind,Event,Conference,Gender
+Rank,Athlete(s),Year,Team,Time/Distance/Points,Meet,Meet Date,Wind,Event,Conference,Gender
 1,"Spohn, Greysen",JR-3,Trine,10.83,Indiana DIII Track and Field Meet,"Apr 15, 2023",2.2,100 Meters,Michigan Intercollegiate Outdoor Performance List,Men
 2,"Danitz, Liam",FR-1,Hope,10.85,Don McGarey Invitational,"Mar 24, 2023",1.5,100 Meters,Michigan Intercollegiate Outdoor Performance List,Men
 3,"Chapman, DaMario",SO-2,Albion,10.96,"2023 Albion, Alma, Olivet Triangular","Apr 7, 2023",-0.1,100 Meters,Michigan Intercollegiate Outdoor Performance List,Men

@@ -1,4 +1,4 @@
-Rank,Athlete(s),Year,Team,Time/Distance,Meet,Meet Date,Wind,Event,Conference,Gender
+Rank,Athlete(s),Year,Team,Time/Distance/Points,Meet,Meet Date,Wind,Event,Conference,Gender
 1,"Beard, Ryan",SR-4,Westminster (Pa.),10.75,Dave Labor Invitational,"Mar 31, 2023",5.5,100 Meters,Presidents AC Outdoor Performance List,Men
 2,"Mathews, Isaiah",SR-4,Waynesburg,10.82,Tomcat Invitational,"Apr 15, 2023",0.6,100 Meters,Presidents AC Outdoor Performance List,Men
 3,"Cestaro, Anthony",FR-1,Washington & Jefferson,11.12,Bison Outdoor Classic,"Apr 14, 2023",-0.1,100 Meters,Presidents AC Outdoor Performance List,Men

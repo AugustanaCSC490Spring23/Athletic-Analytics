@@ -1,4 +1,4 @@
-Rank,Athlete(s),Year,Team,Time/Distance,Meet,Meet Date,Wind,Event,Conference,Gender
+Rank,Athlete(s),Year,Team,Time/Distance/Points,Meet,Meet Date,Wind,Event,Conference,Gender
 1,"Regan, Seth",JR-3,Springfield,10.78,SILFEN INVITATIONAL 2023,"Apr 14, 2023",1.0,100 Meters,NEWMAC Outdoor Performance List,Men
 2,"Scott, Michael",SO-2,Springfield,10.80,Springfield College Classic,"Apr 8, 2023",2.0,100 Meters,NEWMAC Outdoor Performance List,Men
 2,"Clement, Nolan",FR-1,MIT,10.80,UCONN Northeast Challenge,"Apr 14, 2023",3.3,100 Meters,NEWMAC Outdoor Performance List,Men
