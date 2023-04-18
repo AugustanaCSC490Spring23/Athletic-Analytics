@@ -25,6 +25,15 @@ for i in oConferenceList:
     data = []
     colleges = []
     rows = soup.find_all('tr')
+    headers = soup.find_all('thead')
+    for head in headers:
+        he = head.find_all('th')
+        he=[h.text.strip() for h in he]
+        he[0]='Rank'
+        he[1] = 'Athlete(s)'
+        he[4]='Time/Distance'
+        break
+    data.append(he)
     k=1
     for row in rows:
             cols = row.find_all('td')
@@ -47,8 +56,6 @@ for i in oConferenceList:
                     temp[4]=time
                     cols=temp
                 elif len(cols)>8 or (k>23):
-                    print(cols)
-                    print(i)
                     split = cols[4].split('.')
                     if len(split)>1:
                         temp2=cols
