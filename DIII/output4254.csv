@@ -1,748 +1,960 @@
-
-1,"Arthur, Kevin",SO-2,St. John's (Minn.),10.63,Wartburg Outdoor Select,"Apr 1, 2023",2.6
-2,"Eben Ebai, Samuel",SR-4,St. Scholastica,10.84,St Thomas Tomcat Invitational,"Apr 7, 2023",0.8
-3,"Morical, Nolan",SO-2,Concordia-Moorhead,10.86,USD Early Bird,"Apr 7, 2023",5.5
-4,"McConnell, Cameron",SO-2,Bethel (Minn.),11.08,St Thomas Tomcat Invitational,"Apr 7, 2023",2.4
-5,"Conneh, Varney",SR-4,Augsburg,11.19,Ross and Sharon Irwin meet,"Mar 18, 2023",0.6
-6,"Simon, Godsword",SO-2,Bethel (Minn.),11.26,St Thomas Tomcat Invitational,"Apr 7, 2023",0.8
-7,"Popoca, Emanuel",SO-2,St. John's (Minn.),11.27,Wartburg Outdoor Select,"Apr 1, 2023",2.4
-8,"McNearny, Devin",SO-2,St. Olaf,11.33,St Thomas Tomcat Invitational,"Apr 7, 2023",2.1
-9,"Alfaro Diedrich, Sean",SO-2,St. Scholastica,11.37,St Thomas Tomcat Invitational,"Apr 7, 2023",0.8
-10,"Smith, Albert",JR-3,Bethel (Minn.),11.40,St Thomas Tomcat Invitational,"Apr 7, 2023",2.4
-11,"Thomas, Reece",SO-2,Hamline,11.44,Dutch Invitational 2023,"Apr 7, 2023",1.6
-12,"Rhonemus, Wade",JR-3,Concordia-Moorhead,11.45,USD Early Bird,"Apr 7, 2023",3.9
-13,"Karngar, Trokon",JR-3,Bethel (Minn.),11.47,St Thomas Tomcat Invitational,"Apr 7, 2023",2.2
-14,"Petron, Jordan",SO-2,Concordia-Moorhead,11.53,USD Early Bird,"Apr 7, 2023",5.3
-15,"Moo, Eh Ler",SO-2,St. Olaf,11.54,St Thomas Tomcat Invitational,"Apr 7, 2023",2.1
-16,"Korum, Levi",SO-2,Bethel (Minn.),11.55,St Thomas Tomcat Invitational,"Apr 7, 2023",2.2
-17,"Smith, Kpeweh",SR-4,Augsburg,11.69,St Thomas Tomcat Invitational,"Apr 7, 2023",2.2
-18,"Cisewski, Antonio",SO-2,Saint Mary's (Minn.),11.70,Good Friday Open,"Apr 7, 2023",2.0
-19,"Robinson, Ozzie",FR-1,Hamline,11.71,Dutch Invitational 2023,"Apr 7, 2023",1.6
-20,"Sletta, Josh",SO-2,St. John's (Minn.),11.72,Wartburg Outdoor Select,"Apr 1, 2023",2.4
-21,"Redig, Kaedyn",SO-2,St. Scholastica,11.74,St Thomas Tomcat Invitational,"Apr 7, 2023",2.9
-21,"Morey, Aidan",FR-1,St. John's (Minn.),11.74,Wartburg Outdoor Select,"Apr 1, 2023",2.2
-23,"Gwin, Samuel",FR-1,St. Olaf,11.79,St Thomas Tomcat Invitational,"Apr 7, 2023",2.1
-23,"Charlton, Josh",SO-2,St. Olaf,11.79,St Thomas Tomcat Invitational,"Apr 7, 2023",2.1
-25,"Fochtman, Jack",FR-1,St. Olaf,11.81,St Thomas Tomcat Invitational,"Apr 7, 2023",2.9
-26,"Lee, Josh",SO-2,Bethel (Minn.),11.83,St Thomas Tomcat Invitational,"Apr 7, 2023",2.2
-27,"Collins, Adam",SO-2,St. John's (Minn.),11.84,Wartburg Outdoor Select,"Apr 1, 2023",2.2
-28,"Maile, John",FR-1,St. John's (Minn.),11.91,Wartburg Outdoor Select,"Apr 1, 2023",2.7
-29,"Schulze, Sam",SO-2,Gustavus Adolphus,"11.93
-@",Gustavus/Colorado College Dual Meet,"Apr 3, 2023",0.4
-30,"Anderson, Reese",FR-1,Carleton,11.97,St Thomas Tomcat Invitational,"Apr 7, 2023",0.4
-
+Rank,Athlete(s),Year,Team,Time/Distance,Meet,Meet Date,Wind,Event,Conference,Gender
+1,"Arthur, Kevin",SO-2,St. John's (Minn.),10.63,Wartburg Outdoor Select,"Apr 1, 2023",2.6,100 Meters,MIAC Outdoor Performance List,Men
+2,"Eben Ebai, Samuel",SR-4,St. Scholastica,10.84,St Thomas Tomcat Invitational,"Apr 7, 2023",0.8,100 Meters,MIAC Outdoor Performance List,Men
+3,"Morical, Nolan",SO-2,Concordia-Moorhead,10.86,USD Early Bird,"Apr 7, 2023",5.5,100 Meters,MIAC Outdoor Performance List,Men
+4,"Lord, Demetri",JR-3,St. Olaf,11.02,2023 Bryan Clay Invitational,"Apr 13, 2023",0.3,100 Meters,MIAC Outdoor Performance List,Men
+5,"McConnell, Cameron",SO-2,Bethel (Minn.),11.05,Bethel Invitational,"Apr 15, 2023",0.5,100 Meters,MIAC Outdoor Performance List,Men
+6,"Conneh, Varney",SR-4,Augsburg,11.19,Ross and Sharon Irwin meet,"Mar 18, 2023",0.6,100 Meters,MIAC Outdoor Performance List,Men
+7,"Schaffer, Dawson",JR-3,Concordia-Moorhead,11.25,SMU Cardinal Invitational,"Apr 15, 2023",-0.5,100 Meters,MIAC Outdoor Performance List,Men
+8,"Simon, Godsword",SO-2,Bethel (Minn.),11.26,St Thomas Tomcat Invitational,"Apr 7, 2023",0.8,100 Meters,MIAC Outdoor Performance List,Men
+9,"Popoca, Emanuel",SO-2,St. John's (Minn.),11.27,Wartburg Outdoor Select,"Apr 1, 2023",2.4,100 Meters,MIAC Outdoor Performance List,Men
+10,"McNearny, Devin",SO-2,St. Olaf,11.33,St Thomas Tomcat Invitational,"Apr 7, 2023",2.1,100 Meters,MIAC Outdoor Performance List,Men
+11,"Schegel, Abe",JR-3,Bethel (Minn.),11.34,Bethel Invitational,"Apr 15, 2023",0.5,100 Meters,MIAC Outdoor Performance List,Men
+12,"Skelly, Matthew",SO-2,Gustavus Adolphus,11.36,Bethel Invitational,"Apr 15, 2023",0.5,100 Meters,MIAC Outdoor Performance List,Men
+13,"Alfaro Diedrich, Sean",SO-2,St. Scholastica,11.37,St Thomas Tomcat Invitational,"Apr 7, 2023",0.8,100 Meters,MIAC Outdoor Performance List,Men
+14,"Smith, Albert",JR-3,Bethel (Minn.),11.40,St Thomas Tomcat Invitational,"Apr 7, 2023",2.4,100 Meters,MIAC Outdoor Performance List,Men
+15,"Thomas, Reece",SO-2,Hamline,11.44,Dutch Invitational 2023,"Apr 7, 2023",1.6,100 Meters,MIAC Outdoor Performance List,Men
+16,"Rhonemus, Wade",JR-3,Concordia-Moorhead,11.45,USD Early Bird,"Apr 7, 2023",3.9,100 Meters,MIAC Outdoor Performance List,Men
+17,"Karngar, Trokon",JR-3,Bethel (Minn.),11.47,St Thomas Tomcat Invitational,"Apr 7, 2023",2.2,100 Meters,MIAC Outdoor Performance List,Men
+18,"Adamson, Oliver",SO-2,Saint Mary's (Minn.),11.48,SMU Cardinal Invitational,"Apr 15, 2023",-0.5,100 Meters,MIAC Outdoor Performance List,Men
+19,"Arnold, Dylan",SO-2,St. Olaf,11.52,Bethel Invitational,"Apr 15, 2023",-0.9,100 Meters,MIAC Outdoor Performance List,Men
+20,"Petron, Jordan",SO-2,Concordia-Moorhead,11.53,USD Early Bird,"Apr 7, 2023",5.3,100 Meters,MIAC Outdoor Performance List,Men
+21,"Moo, Eh Ler",SO-2,St. Olaf,11.54,St Thomas Tomcat Invitational,"Apr 7, 2023",2.1,100 Meters,MIAC Outdoor Performance List,Men
+22,"Korum, Levi",SO-2,Bethel (Minn.),11.55,St Thomas Tomcat Invitational,"Apr 7, 2023",2.2,100 Meters,MIAC Outdoor Performance List,Men
+23,"Kritsberg, Ben",FR-1,Saint Mary's (Minn.),11.57,SMU Cardinal Invitational,"Apr 15, 2023",0.9,100 Meters,MIAC Outdoor Performance List,Men
+24,"Robinson, Ozzie",FR-1,Hamline,11.64,Bethel Invitational,"Apr 15, 2023",0.3,100 Meters,MIAC Outdoor Performance List,Men
+25,"Smith, Kpeweh",SR-4,Augsburg,11.69,St Thomas Tomcat Invitational,"Apr 7, 2023",2.2,100 Meters,MIAC Outdoor Performance List,Men
+26,"Cisewski, Antonio",SO-2,Saint Mary's (Minn.),11.70,Good Friday Open,"Apr 7, 2023",2.0,100 Meters,MIAC Outdoor Performance List,Men
+27,"Sletta, Josh",SO-2,St. John's (Minn.),11.72,Wartburg Outdoor Select,"Apr 1, 2023",2.4,100 Meters,MIAC Outdoor Performance List,Men
+28,"Morey, Aidan",FR-1,St. John's (Minn.),11.74,Wartburg Outdoor Select,"Apr 1, 2023",2.2,100 Meters,MIAC Outdoor Performance List,Men
+28,"Redig, Kaedyn",SO-2,St. Scholastica,11.74,St Thomas Tomcat Invitational,"Apr 7, 2023",2.9,100 Meters,MIAC Outdoor Performance List,Men
+30,"Fochtman, Jack",FR-1,St. Olaf,11.76,Bethel Invitational,"Apr 15, 2023",0.3,100 Meters,MIAC Outdoor Performance List,Men
 1,"Nelson, Birgen",SO-2,Gustavus Adolphus,"12.26
-@",Gustavus/Colorado College Dual Meet,"Apr 3, 2023",1.7
-2,"Stellmach, Sarah",SO-2,Bethel (Minn.),12.48,St Thomas Tomcat Invitational,"Apr 7, 2023",0.8
-3,"Rengo, Emily",FR-1,Concordia-Moorhead,12.50,USD Early Bird,"Apr 7, 2023",4.6
-4,"Carlson, Kate",SO-2,Gustavus Adolphus,"12.60
-@",Gustavus/Colorado College Dual Meet,"Apr 3, 2023",1.7
-5,"Stinson, Makayla",FR-1,St. Catherine (Minn.),12.74,St Thomas Tomcat Invitational,"Apr 7, 2023",0.3
-6,"Babalola, Jireh",JR-3,Bethel (Minn.),12.85,St Thomas Tomcat Invitational,"Apr 7, 2023",0.8
-7,"Gallagher, Kate",JR-3,St. Benedict,12.88,Wartburg Outdoor Select,"Apr 1, 2023",2.0
-8,"Hookom, Allison",FR-1,Augsburg,13.05,St Thomas Tomcat Invitational,"Apr 7, 2023",0.7
-9,"Miller, Danielle",SO-2,Gustavus Adolphus,"13.14
-@",Gustavus/Colorado College Dual Meet,"Apr 3, 2023",1.7
-10,"Lindner, Sarrah",FR-1,Gustavus Adolphus,"13.24
-@",Gustavus/Colorado College Dual Meet,"Apr 3, 2023",NWI
-11,"Nelson, Myah",FR-1,St. Benedict,13.26,St Thomas Tomcat Invitational,"Apr 7, 2023",0.3
-12,"Lott, Bianca",FR-1,Carleton,13.29,St Thomas Tomcat Invitational,"Apr 7, 2023",0.9
-13,"Hunter, Penny",JR-3,Macalester,13.36,Wartburg Outdoor Select,"Apr 1, 2023",1.5
-14,"Rodriguez, Santrice",FR-1,Augsburg,13.38,Ross and Sharon Irwin meet,"Mar 18, 2023",2.1
-15,"Roberts, Riley",SO-2,Carleton,13.44,St Thomas Tomcat Invitational,"Apr 7, 2023",0.3
-16,"Matre, Zoe",SO-2,St. Olaf,13.45,St Thomas Tomcat Invitational,"Apr 7, 2023",-0.6
-17,"King, Hannah",SO-2,Bethel (Minn.),13.49,St Thomas Tomcat Invitational,"Apr 7, 2023",0.9
-17,"Dimler, Lauren",FR-1,Gustavus Adolphus,"13.49
-@",Gustavus/Colorado College Dual Meet,"Apr 3, 2023",NWI
-19,"Rocheford, Lauren",FR-1,Gustavus Adolphus,"13.50
-@",Gustavus/Colorado College Dual Meet,"Apr 3, 2023",NWI
-20,"Munson, Samantha",FR-1,Saint Mary's (Minn.),13.51,Good Friday Open,"Apr 7, 2023",3.5
-21,"Bishop, Mya",JR-3,Augsburg,13.54,Ross and Sharon Irwin meet,"Mar 18, 2023",2.0
-22,"Heinecke, Carlie",SR-4,Concordia-Moorhead,13.61,St Thomas Tomcat Invitational,"Apr 7, 2023",0.3
-23,"Hernes, Ellie",FR-1,Bethel (Minn.),13.63,St Thomas Tomcat Invitational,"Apr 7, 2023",0.3
-24,"Nygaard, Kyla",FR-1,Concordia-Moorhead,13.65,St Thomas Tomcat Invitational,"Apr 7, 2023",0.3
-24,"Blanchette, Grace",JR-3,Carleton,13.65,St Thomas Tomcat Invitational,"Apr 7, 2023",0.9
-26,"Nelsen, Rachel",JR-3,St. Olaf,13.66,St Thomas Tomcat Invitational,"Apr 7, 2023",-0.3
-26,"Johnson, Hailey",SR-4,St. Benedict,13.66,St Thomas Tomcat Invitational,"Apr 7, 2023",0.3
-28,"Jensen, Jensi",FR-1,Gustavus Adolphus,"13.69
-@",Gustavus/Colorado College Dual Meet,"Apr 3, 2023",1.7
-29,"Woo, Liana",SO-2,Hamline,13.87,Dutch Invitational 2023,"Apr 7, 2023",2.4
-30,"Valley, Biz",SR-4,Hamline,13.93,Dutch Invitational 2023,"Apr 7, 2023",2.4
-
-1,"Wright, Cal",SR-4,Concordia-Moorhead,21.33,USD Early Bird,"Apr 7, 2023",5.4
-2,"Arthur, Kevin",SO-2,St. John's (Minn.),21.59,Wartburg Outdoor Select,"Apr 1, 2023",-1.3
-3,"Morical, Nolan",SO-2,Concordia-Moorhead,22.16,USD Early Bird,"Apr 7, 2023",3.5
-4,"Gagnon, Hayden",SR-4,Concordia-Moorhead,22.25,USD Early Bird,"Apr 7, 2023",6.0
-5,"Bulwa, Chris",SO-2,Saint Mary's (Minn.),22.28,Wash U Invite,"Mar 31, 2023",1.6
-6,"Heitler, Arlo",SO-2,Macalester,22.31,Wartburg Outdoor Select,"Apr 1, 2023",-1.3
-7,"Quiring, Wyatt",JR-3,Gustavus Adolphus,"22.46
-@",Jack Christiansen Invite,"Mar 31, 2023",0.1
-8,"Schaffer, Dawson",JR-3,Concordia-Moorhead,22.52,USD Early Bird,"Apr 7, 2023",4.9
-9,"Jackson, Garrett",SR-4,Saint Mary's (Minn.),22.79,Wash U Invite,"Mar 31, 2023",4.2
-10,"Johnson, Brady",SO-2,Saint Mary's (Minn.),22.83,Wash U Invite,"Mar 31, 2023",4.2
-11,"Adamson, Oliver",SO-2,Saint Mary's (Minn.),23.00,Good Friday Open,"Apr 7, 2023",2.4
-12,"Tiongson, Trevor",SO-2,Concordia-Moorhead,23.05,USD Early Bird,"Apr 7, 2023",4.9
-13,"Braun, Alec",SO-2,Bethel (Minn.),23.14,St Thomas Tomcat Invitational,"Apr 7, 2023",0.4
-14,"Haack, Tony",FR-1,Bethel (Minn.),23.15,St Thomas Tomcat Invitational,"Apr 7, 2023",1.5
-15,"McNearny, Devin",SO-2,St. Olaf,23.30,St Thomas Tomcat Invitational,"Apr 7, 2023",0.4
-16,"Popoca, Emanuel",SO-2,St. John's (Minn.),23.38,St Thomas Tomcat Invitational,"Apr 7, 2023",1.5
-17,"Petron, Jordan",SO-2,Concordia-Moorhead,23.54,USD Early Bird,"Apr 7, 2023",4.7
-18,"Cisewski, Antonio",SO-2,Saint Mary's (Minn.),23.55,Wash U Invite,"Mar 31, 2023",4.2
-19,"Truebenbach, Henry",SO-2,St. John's (Minn.),23.63,St Thomas Tomcat Invitational,"Apr 7, 2023",0.4
-20,"Anderson, Reese",FR-1,Carleton,23.69,Ross and Sharon Irwin meet,"Mar 18, 2023",1.2
-21,"Loder, Sebastian",FR-1,St. Olaf,23.71,St Thomas Tomcat Invitational,"Apr 7, 2023",1.5
-22,"Gwin, Samuel",FR-1,St. Olaf,23.82,St Thomas Tomcat Invitational,"Apr 7, 2023",0.7
-23,"Landherr, Fritz",SR-4,Augsburg,23.99,St Thomas Tomcat Invitational,"Apr 7, 2023",0.4
-24,"Deutschlander, Pierre",SO-2,St. John's (Minn.),24.16,St Thomas Tomcat Invitational,"Apr 7, 2023",0.4
-25,"Robinson, Ozzie",FR-1,Hamline,24.19,Dutch Invitational 2023,"Apr 7, 2023",3.4
-26,"Sletta, Josh",SO-2,St. John's (Minn.),24.25,Wartburg Outdoor Select,"Apr 1, 2023",-1.4
-27,"Fochtman, Jack",FR-1,St. Olaf,24.28,St Thomas Tomcat Invitational,"Apr 7, 2023",0.7
-28,"Kogut, Jacob",SO-2,Macalester,24.51,Wartburg Outdoor Select,"Apr 1, 2023",-1.4
-29,"Morey, Aidan",FR-1,St. John's (Minn.),24.57,Wartburg Outdoor Select,"Apr 1, 2023",-1.4
-30,"Maile, John",FR-1,St. John's (Minn.),25.06,Wartburg Outdoor Select,"Apr 1, 2023",-2.9
-
+@",Gustavus/Colorado College Dual Meet,"Apr 3, 2023",1.7,100 Meters,MIAC Outdoor Performance List,Women
+2,"Stellmach, Sarah",SO-2,Bethel (Minn.),12.48,St Thomas Tomcat Invitational,"Apr 7, 2023",0.8,100 Meters,MIAC Outdoor Performance List,Women
+3,"Rengo, Emily",FR-1,Concordia-Moorhead,12.50,USD Early Bird,"Apr 7, 2023",4.6,100 Meters,MIAC Outdoor Performance List,Women
+4,"Babalola, Jireh",JR-3,Bethel (Minn.),12.53,Bethel Invitational,"Apr 15, 2023",-0.5,100 Meters,MIAC Outdoor Performance List,Women
+5,"Carlson, Kate",SO-2,Gustavus Adolphus,12.56,Bethel Invitational,"Apr 15, 2023",-0.5,100 Meters,MIAC Outdoor Performance List,Women
+6,"Stinson, Makayla",FR-1,St. Catherine (Minn.),12.74,St Thomas Tomcat Invitational,"Apr 7, 2023",0.3,100 Meters,MIAC Outdoor Performance List,Women
+7,"Gallagher, Kate",JR-3,St. Benedict,12.88,Wartburg Outdoor Select,"Apr 1, 2023",2.0,100 Meters,MIAC Outdoor Performance List,Women
+8,"Twichell, Hadley",FR-1,Carleton,13.01,Bethel Invitational,"Apr 15, 2023",-0.5,100 Meters,MIAC Outdoor Performance List,Women
+9,"Hookom, Allison",FR-1,Augsburg,13.05,St Thomas Tomcat Invitational,"Apr 7, 2023",0.7,100 Meters,MIAC Outdoor Performance List,Women
+10,"Miller, Danielle",SO-2,Gustavus Adolphus,"13.14
+@",Gustavus/Colorado College Dual Meet,"Apr 3, 2023",1.7,100 Meters,MIAC Outdoor Performance List,Women
+11,"Nelson, Myah",FR-1,St. Benedict,13.19,Norse Invite,"Apr 15, 2023",-0.5,100 Meters,MIAC Outdoor Performance List,Women
+12,"Lindner, Sarrah",FR-1,Gustavus Adolphus,"13.24
+@",Gustavus/Colorado College Dual Meet,"Apr 3, 2023",NWI,100 Meters,MIAC Outdoor Performance List,Women
+12,"Fink, Ava",FR-1,St. Scholastica,13.24,SMU Cardinal Invitational,"Apr 15, 2023",0.3,100 Meters,MIAC Outdoor Performance List,Women
+14,"Hughes, Daneyah",FR-1,Gustavus Adolphus,13.27,Bethel Invitational,"Apr 15, 2023",-0.5,100 Meters,MIAC Outdoor Performance List,Women
+15,"Lott, Bianca",FR-1,Carleton,13.29,St Thomas Tomcat Invitational,"Apr 7, 2023",0.9,100 Meters,MIAC Outdoor Performance List,Women
+16,"Hunter, Penny",JR-3,Macalester,13.36,Wartburg Outdoor Select,"Apr 1, 2023",1.5,100 Meters,MIAC Outdoor Performance List,Women
+17,"Matre, Zoe",SO-2,St. Olaf,13.37,Bethel Invitational,"Apr 15, 2023",0.4,100 Meters,MIAC Outdoor Performance List,Women
+18,"Rodriguez, Santrice",FR-1,Augsburg,13.38,Ross and Sharon Irwin meet,"Mar 18, 2023",2.1,100 Meters,MIAC Outdoor Performance List,Women
+18,"Logelin, Ellie",JR-3,Hamline,13.38,Bethel Invitational,"Apr 15, 2023",-0.5,100 Meters,MIAC Outdoor Performance List,Women
+20,"Roberts, Riley",SO-2,Carleton,13.44,St Thomas Tomcat Invitational,"Apr 7, 2023",0.3,100 Meters,MIAC Outdoor Performance List,Women
+21,"Dimler, Lauren",FR-1,Gustavus Adolphus,13.45,Bethel Invitational,"Apr 15, 2023",-0.5,100 Meters,MIAC Outdoor Performance List,Women
+22,"King, Hannah",SO-2,Bethel (Minn.),13.47,Bethel Invitational,"Apr 15, 2023",0.4,100 Meters,MIAC Outdoor Performance List,Women
+23,"Carver, Zoe",FR-1,Macalester,13.50,Norse Invite,"Apr 15, 2023",0.4,100 Meters,MIAC Outdoor Performance List,Women
+23,"Rocheford, Lauren",FR-1,Gustavus Adolphus,"13.50
+@",Gustavus/Colorado College Dual Meet,"Apr 3, 2023",NWI,100 Meters,MIAC Outdoor Performance List,Women
+25,"Munson, Samantha",FR-1,Saint Mary's (Minn.),13.51,Good Friday Open,"Apr 7, 2023",3.5,100 Meters,MIAC Outdoor Performance List,Women
+26,"Bishop, Mya",JR-3,Augsburg,13.54,Ross and Sharon Irwin meet,"Mar 18, 2023",2.0,100 Meters,MIAC Outdoor Performance List,Women
+27,"Heinecke, Carlie",SR-4,Concordia-Moorhead,13.55,SMU Cardinal Invitational,"Apr 15, 2023",-1.0,100 Meters,MIAC Outdoor Performance List,Women
+28,"Nelsen, Rachel",JR-3,St. Olaf,13.56,Bethel Invitational,"Apr 15, 2023",0.8,100 Meters,MIAC Outdoor Performance List,Women
+29,"Holman, Ququ",JR-3,St. Olaf,13.60,Bethel Invitational,"Apr 15, 2023",0.2,100 Meters,MIAC Outdoor Performance List,Women
+30,"Hernes, Ellie",FR-1,Bethel (Minn.),13.63,St Thomas Tomcat Invitational,"Apr 7, 2023",0.3,100 Meters,MIAC Outdoor Performance List,Women
+1,"Wright, Cal",SR-4,Concordia-Moorhead,21.33,USD Early Bird,"Apr 7, 2023",5.4,200 Meters,MIAC Outdoor Performance List,Men
+2,"Arthur, Kevin",SO-2,St. John's (Minn.),21.59,Wartburg Outdoor Select,"Apr 1, 2023",-1.3,200 Meters,MIAC Outdoor Performance List,Men
+3,"Eben Ebai, Samuel",SR-4,St. Scholastica,21.77,SMU Cardinal Invitational,"Apr 15, 2023",-1.3,200 Meters,MIAC Outdoor Performance List,Men
+4,"Bulwa, Chris",SO-2,Saint Mary's (Minn.),22.15,SMU Cardinal Invitational,"Apr 15, 2023",-1.3,200 Meters,MIAC Outdoor Performance List,Men
+5,"Morical, Nolan",SO-2,Concordia-Moorhead,22.16,USD Early Bird,"Apr 7, 2023",3.5,200 Meters,MIAC Outdoor Performance List,Men
+6,"Heitler, Arlo",SO-2,Macalester,22.19,Norse Invite,"Apr 15, 2023",-1.5,200 Meters,MIAC Outdoor Performance List,Men
+7,"Gagnon, Hayden",SR-4,Concordia-Moorhead,22.25,USD Early Bird,"Apr 7, 2023",6.0,200 Meters,MIAC Outdoor Performance List,Men
+8,"Quiring, Wyatt",JR-3,Gustavus Adolphus,"22.46
+@",Jack Christiansen Invite,"Mar 31, 2023",0.1,200 Meters,MIAC Outdoor Performance List,Men
+9,"Schaffer, Dawson",JR-3,Concordia-Moorhead,22.52,USD Early Bird,"Apr 7, 2023",4.9,200 Meters,MIAC Outdoor Performance List,Men
+10,"McConnell, Cameron",SO-2,Bethel (Minn.),22.68,Bethel Invitational,"Apr 15, 2023",+0.0,200 Meters,MIAC Outdoor Performance List,Men
+10,"Asplin, Collin",FR-1,Bethel (Minn.),22.68,Bethel Invitational,"Apr 15, 2023",-0.9,200 Meters,MIAC Outdoor Performance List,Men
+12,"Wheeler, Caden",FR-1,St. John's (Minn.),22.73,Norse Invite,"Apr 15, 2023",-1.0,200 Meters,MIAC Outdoor Performance List,Men
+13,"Jackson, Garrett",SR-4,Saint Mary's (Minn.),22.75,SMU Cardinal Invitational,"Apr 15, 2023",-1.3,200 Meters,MIAC Outdoor Performance List,Men
+14,"Fisher, Henry",JR-3,St. Olaf,22.78,Bethel Invitational,"Apr 15, 2023",+0.0,200 Meters,MIAC Outdoor Performance List,Men
+15,"Johnson, Brady",SO-2,Saint Mary's (Minn.),22.83,Wash U Invite,"Mar 31, 2023",4.2,200 Meters,MIAC Outdoor Performance List,Men
+16,"Popoca, Emanuel",SO-2,St. John's (Minn.),22.91,Norse Invite,"Apr 15, 2023",-1.0,200 Meters,MIAC Outdoor Performance List,Men
+17,"Peterson, Jericho",SR-4,St. Scholastica,22.93,SMU Cardinal Invitational,"Apr 15, 2023",+0.0,200 Meters,MIAC Outdoor Performance List,Men
+18,"Adamson, Oliver",SO-2,Saint Mary's (Minn.),23.00,Good Friday Open,"Apr 7, 2023",2.4,200 Meters,MIAC Outdoor Performance List,Men
+19,"Tiongson, Trevor",SO-2,Concordia-Moorhead,23.05,USD Early Bird,"Apr 7, 2023",4.9,200 Meters,MIAC Outdoor Performance List,Men
+20,"Petron, Jordan",SO-2,Concordia-Moorhead,23.11,SMU Cardinal Invitational,"Apr 15, 2023",+0.0,200 Meters,MIAC Outdoor Performance List,Men
+21,"Braun, Alec",SO-2,Bethel (Minn.),23.14,St Thomas Tomcat Invitational,"Apr 7, 2023",0.4,200 Meters,MIAC Outdoor Performance List,Men
+22,"Haack, Tony",FR-1,Bethel (Minn.),23.15,St Thomas Tomcat Invitational,"Apr 7, 2023",1.5,200 Meters,MIAC Outdoor Performance List,Men
+23,"McNearny, Devin",SO-2,St. Olaf,23.19,Bethel Invitational,"Apr 15, 2023",+0.0,200 Meters,MIAC Outdoor Performance List,Men
+24,"Alfaro Diedrich, Sean",SO-2,St. Scholastica,23.30,SMU Cardinal Invitational,"Apr 15, 2023",+0.0,200 Meters,MIAC Outdoor Performance List,Men
+25,"Truebenbach, Henry",SO-2,St. John's (Minn.),23.31,Norse Invite,"Apr 15, 2023",-1.0,200 Meters,MIAC Outdoor Performance List,Men
+26,"Cisewski, Antonio",SO-2,Saint Mary's (Minn.),23.46,SMU Cardinal Invitational,"Apr 15, 2023",+0.0,200 Meters,MIAC Outdoor Performance List,Men
+27,"Anderson, Reese",FR-1,Carleton,23.69,Ross and Sharon Irwin meet,"Mar 18, 2023",1.2,200 Meters,MIAC Outdoor Performance List,Men
+27,"Skelly, Matthew",SO-2,Gustavus Adolphus,23.69,Bethel Invitational,"Apr 15, 2023",-0.9,200 Meters,MIAC Outdoor Performance List,Men
+29,"Kogut, Jacob",SO-2,Macalester,23.70,Norse Invite,"Apr 15, 2023",-1.0,200 Meters,MIAC Outdoor Performance List,Men
+30,"Loder, Sebastian",FR-1,St. Olaf,23.71,St Thomas Tomcat Invitational,"Apr 7, 2023",1.5,200 Meters,MIAC Outdoor Performance List,Men
 1,"Carlson, Kate",SO-2,Gustavus Adolphus,"26.13
-@",Gustavus/Colorado College Dual Meet,"Apr 3, 2023",NWI
-2,"Rengo, Emily",FR-1,Concordia-Moorhead,26.35,USD Early Bird,"Apr 7, 2023",3.8
-3,"Hookom, Allison",FR-1,Augsburg,26.49,Ross and Sharon Irwin meet,"Mar 18, 2023",1.0
-4,"Twichell, Hadley",FR-1,Carleton,26.59,St Thomas Tomcat Invitational,"Apr 7, 2023",2.2
-5,"Stinson, Makayla",FR-1,St. Catherine (Minn.),26.80,St Thomas Tomcat Invitational,"Apr 7, 2023",1.0
-5,"Kroschel, Karla",JR-3,St. Olaf,26.80,St Thomas Tomcat Invitational,"Apr 7, 2023",1.0
-7,"Brown, Makenna",SO-2,Bethel (Minn.),26.85,St Thomas Tomcat Invitational,"Apr 7, 2023",1.0
-8,"Bernardy, Lindsey",SR-4,Hamline,27.09,Dutch Invitational 2023,"Apr 7, 2023",3.9
-9,"Gallagher, Kate",JR-3,St. Benedict,27.24,St Thomas Tomcat Invitational,"Apr 7, 2023",2.2
-10,"Miller, Danielle",SO-2,Gustavus Adolphus,"27.31
-@",Gustavus/Colorado College Dual Meet,"Apr 3, 2023",NWI
-11,"Matre, Zoe",SO-2,St. Olaf,27.33,St Thomas Tomcat Invitational,"Apr 7, 2023",0.6
-11,"Gearin, Caroline",JR-3,Saint Mary's (Minn.),27.33,Wash U Invite,"Mar 31, 2023",2.7
-13,"Guler, Maddie",JR-3,Concordia-Moorhead,27.35,St Thomas Tomcat Invitational,"Apr 7, 2023",1.1
-14,"Rodriguez, Santrice",FR-1,Augsburg,27.41,Ross and Sharon Irwin meet,"Mar 18, 2023",2.4
-15,"Roberts, Riley",SO-2,Carleton,27.42,St Thomas Tomcat Invitational,"Apr 7, 2023",1.0
-16,"Swenson, Abbie",SO-2,Bethel (Minn.),27.51,St Thomas Tomcat Invitational,"Apr 7, 2023",0.6
-17,"Nelson, Myah",FR-1,St. Benedict,27.57,St Thomas Tomcat Invitational,"Apr 7, 2023",0.6
-18,"Logelin, Ellie",JR-3,Hamline,27.65,Dutch Invitational 2023,"Apr 7, 2023",2.7
-19,"Shercliffe, Meg",JR-3,Concordia-Moorhead,27.73,St Thomas Tomcat Invitational,"Apr 7, 2023",1.1
-20,"Lott, Bianca",FR-1,Carleton,27.80,St Thomas Tomcat Invitational,"Apr 7, 2023",0.6
-21,"Nyuga, Sidela",SO-2,St. Benedict,27.95,St Thomas Tomcat Invitational,"Apr 7, 2023",1.5
-22,"Dean, Morgan",FR-1,Bethel (Minn.),28.02,St Thomas Tomcat Invitational,"Apr 7, 2023",0.6
-23,"Blanchette, Grace",JR-3,Carleton,28.06,St Thomas Tomcat Invitational,"Apr 7, 2023",0.6
-24,"Nygaard, Kyla",FR-1,Concordia-Moorhead,28.07,St Thomas Tomcat Invitational,"Apr 7, 2023",1.1
-25,"Munson, Samantha",FR-1,Saint Mary's (Minn.),28.08,Wash U Invite,"Mar 31, 2023",2.7
-26,"Nelsen, Rachel",JR-3,St. Olaf,28.20,St Thomas Tomcat Invitational,"Apr 7, 2023",1.5
-26,"Bishop, Mya",JR-3,Augsburg,28.20,St Thomas Tomcat Invitational,"Apr 7, 2023",0.6
-28,"Utgaard, Abrianna",SR-4,Saint Mary's (Minn.),28.33,Wash U Invite,"Mar 31, 2023",2.7
-29,"Johnson, Hailey",SR-4,St. Benedict,28.41,St Thomas Tomcat Invitational,"Apr 7, 2023",1.0
-30,"Soule, Allison",FR-1,St. Olaf,28.49,St Thomas Tomcat Invitational,"Apr 7, 2023",1.5
-
-1,"Parent, Jacob",SO-2,Bethel (Minn.),47.00,St Thomas Tomcat Invitational,"Apr 7, 2023"
-2,"Wright, Cal",SR-4,Concordia-Moorhead,48.26,USD Early Bird,"Apr 7, 2023"
-3,"Gagnon, Hayden",SR-4,Concordia-Moorhead,48.66,USD Early Bird,"Apr 7, 2023"
-4,"Heitler, Arlo",SO-2,Macalester,48.78,St Thomas Tomcat Invitational,"Apr 7, 2023"
+@",Gustavus/Colorado College Dual Meet,"Apr 3, 2023",+0.0,200 Meters,MIAC Outdoor Performance List,Women
+2,"Rengo, Emily",FR-1,Concordia-Moorhead,26.35,USD Early Bird,"Apr 7, 2023",3.8,200 Meters,MIAC Outdoor Performance List,Women
+3,"Babalola, Jireh",JR-3,Bethel (Minn.),26.49,Bethel Invitational,"Apr 15, 2023",-0.9,200 Meters,MIAC Outdoor Performance List,Women
+3,"Hookom, Allison",FR-1,Augsburg,26.49,Ross and Sharon Irwin meet,"Mar 18, 2023",1.0,200 Meters,MIAC Outdoor Performance List,Women
+5,"Twichell, Hadley",FR-1,Carleton,26.59,St Thomas Tomcat Invitational,"Apr 7, 2023",2.2,200 Meters,MIAC Outdoor Performance List,Women
+6,"Stinson, Makayla",FR-1,St. Catherine (Minn.),26.80,St Thomas Tomcat Invitational,"Apr 7, 2023",1.0,200 Meters,MIAC Outdoor Performance List,Women
+6,"Kroschel, Karla",JR-3,St. Olaf,26.80,St Thomas Tomcat Invitational,"Apr 7, 2023",1.0,200 Meters,MIAC Outdoor Performance List,Women
+8,"Brown, Makenna",SO-2,Bethel (Minn.),26.85,St Thomas Tomcat Invitational,"Apr 7, 2023",1.0,200 Meters,MIAC Outdoor Performance List,Women
+9,"Salfer, Rebekah",SR-4,St. Olaf,27.07,2023 Bryan Clay Invitational,"Apr 13, 2023",0.5,200 Meters,MIAC Outdoor Performance List,Women
+10,"Bernardy, Lindsey",SR-4,Hamline,27.09,Dutch Invitational 2023,"Apr 7, 2023",3.9,200 Meters,MIAC Outdoor Performance List,Women
+11,"Fink, Ava",FR-1,St. Scholastica,27.11,SMU Cardinal Invitational,"Apr 15, 2023",-1.7,200 Meters,MIAC Outdoor Performance List,Women
+12,"Nelson, Myah",FR-1,St. Benedict,27.20,Norse Invite,"Apr 15, 2023",1.2,200 Meters,MIAC Outdoor Performance List,Women
+13,"Gallagher, Kate",JR-3,St. Benedict,27.24,St Thomas Tomcat Invitational,"Apr 7, 2023",2.2,200 Meters,MIAC Outdoor Performance List,Women
+14,"Gearin, Caroline",JR-3,Saint Mary's (Minn.),27.28,SMU Cardinal Invitational,"Apr 15, 2023",-1.7,200 Meters,MIAC Outdoor Performance List,Women
+15,"Miller, Danielle",SO-2,Gustavus Adolphus,"27.31
+@",Gustavus/Colorado College Dual Meet,"Apr 3, 2023",+0.0,200 Meters,MIAC Outdoor Performance List,Women
+16,"Matre, Zoe",SO-2,St. Olaf,27.33,St Thomas Tomcat Invitational,"Apr 7, 2023",0.6,200 Meters,MIAC Outdoor Performance List,Women
+17,"Guler, Maddie",JR-3,Concordia-Moorhead,27.35,St Thomas Tomcat Invitational,"Apr 7, 2023",1.1,200 Meters,MIAC Outdoor Performance List,Women
+18,"Rodriguez, Santrice",FR-1,Augsburg,27.41,Ross and Sharon Irwin meet,"Mar 18, 2023",2.4,200 Meters,MIAC Outdoor Performance List,Women
+19,"Roberts, Riley",SO-2,Carleton,27.42,St Thomas Tomcat Invitational,"Apr 7, 2023",1.0,200 Meters,MIAC Outdoor Performance List,Women
+20,"Nygaard, Kyla",FR-1,Concordia-Moorhead,27.50,SMU Cardinal Invitational,"Apr 15, 2023",-0.9,200 Meters,MIAC Outdoor Performance List,Women
+21,"Swenson, Abbie",SO-2,Bethel (Minn.),27.51,St Thomas Tomcat Invitational,"Apr 7, 2023",0.6,200 Meters,MIAC Outdoor Performance List,Women
+22,"Rakow, Ally",SO-2,Gustavus Adolphus,27.52,Bethel Invitational,"Apr 15, 2023",-0.9,200 Meters,MIAC Outdoor Performance List,Women
+23,"Shercliffe, Meg",JR-3,Concordia-Moorhead,27.65,SMU Cardinal Invitational,"Apr 15, 2023",-1.7,200 Meters,MIAC Outdoor Performance List,Women
+23,"Logelin, Ellie",JR-3,Hamline,27.65,Dutch Invitational 2023,"Apr 7, 2023",2.7,200 Meters,MIAC Outdoor Performance List,Women
+25,"Hunter, Penny",JR-3,Macalester,27.70,Norse Invite,"Apr 15, 2023",-1.7,200 Meters,MIAC Outdoor Performance List,Women
+26,"Johnson, Hailey",SR-4,St. Benedict,27.74,Norse Invite,"Apr 15, 2023",1.2,200 Meters,MIAC Outdoor Performance List,Women
+27,"Selle, Peyton",JR-3,Concordia-Moorhead,27.77,SMU Cardinal Invitational,"Apr 15, 2023",-0.9,200 Meters,MIAC Outdoor Performance List,Women
+28,"Lott, Bianca",FR-1,Carleton,27.80,St Thomas Tomcat Invitational,"Apr 7, 2023",0.6,200 Meters,MIAC Outdoor Performance List,Women
+29,"Hughes, Daneyah",FR-1,Gustavus Adolphus,27.84,Bethel Invitational,"Apr 15, 2023",-0.5,200 Meters,MIAC Outdoor Performance List,Women
+30,"Dimler, Lauren",FR-1,Gustavus Adolphus,27.89,Bethel Invitational,"Apr 15, 2023",-0.5,200 Meters,MIAC Outdoor Performance List,Women
+1,"Parent, Jacob",SO-2,Bethel (Minn.),47.00,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Men
+2,"Wright, Cal",SR-4,Concordia-Moorhead,48.26,USD Early Bird,"Apr 7, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Men
+3,"Gagnon, Hayden",SR-4,Concordia-Moorhead,48.66,USD Early Bird,"Apr 7, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Men
+4,"Heitler, Arlo",SO-2,Macalester,48.78,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Men
 5,"Quiring, Wyatt",JR-3,Gustavus Adolphus,"49.32
-@",Jack Christiansen Invite,"Mar 31, 2023"
-6,"Wheeler, Caden",FR-1,St. John's (Minn.),49.80,St Thomas Tomcat Invitational,"Apr 7, 2023"
-7,"Nelson, Grant",FR-1,Bethel (Minn.),49.86,St Thomas Tomcat Invitational,"Apr 7, 2023"
-8,"Kubicek, Noah",FR-1,St. Scholastica,50.05,St Thomas Tomcat Invitational,"Apr 7, 2023"
-9,"Bulwa, Chris",SO-2,Saint Mary's (Minn.),50.08,Good Friday Open,"Apr 7, 2023"
-10,"Anderson, Reese",FR-1,Carleton,50.84,Ross and Sharon Irwin meet,"Mar 18, 2023"
-11,"Schwinghamer, John",SR-4,St. Scholastica,51.17,St Thomas Tomcat Invitational,"Apr 7, 2023"
-12,"Loder, Sebastian",FR-1,St. Olaf,51.25,St Thomas Tomcat Invitational,"Apr 7, 2023"
-13,"Conzemius, Ryan",SO-2,St. John's (Minn.),51.41,St Thomas Tomcat Invitational,"Apr 7, 2023"
-14,"Asplin, Collin",FR-1,Bethel (Minn.),51.66,St Thomas Tomcat Invitational,"Apr 7, 2023"
-15,"Haack, Tony",FR-1,Bethel (Minn.),51.82,St Thomas Tomcat Invitational,"Apr 7, 2023"
-16,"Peterson, Jericho",SR-4,St. Scholastica,51.90,St Thomas Tomcat Invitational,"Apr 7, 2023"
-17,"Fisher, Henry",JR-3,St. Olaf,51.96,St Thomas Tomcat Invitational,"Apr 7, 2023"
-18,"Tiongson, Trevor",SO-2,Concordia-Moorhead,51.97,USD Early Bird,"Apr 7, 2023"
-19,"Jackson, Garrett",SR-4,Saint Mary's (Minn.),51.99,Good Friday Open,"Apr 7, 2023"
-20,"Ash, Ethan",SO-2,Carleton,52.01,Ross and Sharon Irwin meet,"Mar 18, 2023"
-21,"Johnson, Brady",SO-2,Saint Mary's (Minn.),52.28,Good Friday Open,"Apr 7, 2023"
-22,"Rhonemus, Wade",JR-3,Concordia-Moorhead,52.52,USD Early Bird,"Apr 7, 2023"
-23,"Anderson, Tyler",SO-2,St. Scholastica,52.55,St Thomas Tomcat Invitational,"Apr 7, 2023"
-24,"Ali, Kalid",SO-2,Macalester,52.88,St Thomas Tomcat Invitational,"Apr 7, 2023"
-25,"Langheim, Aiden",FR-1,St. John's (Minn.),53.00,St Thomas Tomcat Invitational,"Apr 7, 2023"
-26,"Landherr, Fritz",SR-4,Augsburg,53.13,Ross and Sharon Irwin meet,"Mar 18, 2023"
-27,"Schaffer, Dawson",JR-3,Concordia-Moorhead,53.23,USD Early Bird,"Apr 7, 2023"
-28,"Truebenbach, Henry",SO-2,St. John's (Minn.),53.55,Wartburg Outdoor Select,"Apr 1, 2023"
-29,"Deutschlander, Pierre",SO-2,St. John's (Minn.),54.11,St Thomas Tomcat Invitational,"Apr 7, 2023"
-30,"Kinnucan, Ryan",SR-4,Macalester,54.33,St Thomas Tomcat Invitational,"Apr 7, 2023"
-
-1,"Hookom, Allison",FR-1,Augsburg,59.42,Ross and Sharon Irwin meet,"Mar 18, 2023"
-2,"Gregg, Hailey",SO-2,Bethel (Minn.),59.78,St Thomas Tomcat Invitational,"Apr 7, 2023"
-3,"Twichell, Hadley",FR-1,Carleton,1:00.15,St Thomas Tomcat Invitational,"Apr 7, 2023"
-4,"Brown, Makenna",SO-2,Bethel (Minn.),1:00.46,St Thomas Tomcat Invitational,"Apr 7, 2023"
-5,"Kroschel, Karla",JR-3,St. Olaf,1:00.94,St Thomas Tomcat Invitational,"Apr 7, 2023"
-6,"Shercliffe, Meg",JR-3,Concordia-Moorhead,1:01.27,St Thomas Tomcat Invitational,"Apr 7, 2023"
-7,"Gearin, Caroline",JR-3,Saint Mary's (Minn.),1:01.57,Good Friday Open,"Apr 7, 2023"
-8,"Swenson, Abbie",SO-2,Bethel (Minn.),1:01.71,St Thomas Tomcat Invitational,"Apr 7, 2023"
-9,"Guler, Maddie",JR-3,Concordia-Moorhead,1:01.78,St Thomas Tomcat Invitational,"Apr 7, 2023"
-10,"Holman, Ququ",JR-3,St. Olaf,1:02.16,St Thomas Tomcat Invitational,"Apr 7, 2023"
-11,"Dean, Morgan",FR-1,Bethel (Minn.),1:02.18,St Thomas Tomcat Invitational,"Apr 7, 2023"
-12,"Storbakken, Emma",SO-2,St. Olaf,1:02.37,St Thomas Tomcat Invitational,"Apr 7, 2023"
-13,"Nyuga, Sidela",SO-2,St. Benedict,1:02.68,Wartburg Outdoor Select,"Apr 1, 2023"
-14,"Wilson, Rachael",FR-1,St. Olaf,1:02.82,St Thomas Tomcat Invitational,"Apr 7, 2023"
-15,"Pfeiffer, Ruth",FR-1,St. Olaf,1:03.18,St Thomas Tomcat Invitational,"Apr 7, 2023"
-16,"Doyle, Erin",JR-3,St. Catherine (Minn.),1:04.25,St Thomas Tomcat Invitational,"Apr 7, 2023"
-17,"Fynboh, Isabel",FR-1,Gustavus Adolphus,"1:04.34
-@",Gustavus/Colorado College Dual Meet,"Apr 3, 2023"
-18,"Ellefson, Jaden",FR-1,St. Scholastica,1:04.37,St Thomas Tomcat Invitational,"Apr 7, 2023"
-19,"Utgaard, Abrianna",SR-4,Saint Mary's (Minn.),1:04.58,Good Friday Open,"Apr 7, 2023"
-19,"Nelson, Kayla",FR-1,St. Scholastica,1:04.58,St Thomas Tomcat Invitational,"Apr 7, 2023"
-21,"Pelowski, Madi",FR-1,Bethel (Minn.),1:04.70,St Thomas Tomcat Invitational,"Apr 7, 2023"
-22,"Rodriguez, Madeline",SR-4,Macalester,1:04.74,St Thomas Tomcat Invitational,"Apr 7, 2023"
-23,"Kiminiski, Anna",JR-3,St. Scholastica,1:05.23,St Thomas Tomcat Invitational,"Apr 7, 2023"
-24,"Soule, Allison",FR-1,St. Olaf,1:05.60,St Thomas Tomcat Invitational,"Apr 7, 2023"
-25,"Stinson, Makayla",FR-1,St. Catherine (Minn.),1:06.17,Ross and Sharon Irwin meet,"Mar 18, 2023"
-26,"Wrzesien, Caitlyn",SO-2,Bethel (Minn.),1:06.32,St Thomas Tomcat Invitational,"Apr 7, 2023"
-27,"Wrzesien, Caley",SO-2,Bethel (Minn.),1:06.36,St Thomas Tomcat Invitational,"Apr 7, 2023"
-28,"Meyer, Abbie",FR-1,Saint Mary's (Minn.),1:09.10,Good Friday Open,"Apr 7, 2023"
-29,"Heller, Madisyn",SO-2,Saint Mary's (Minn.),1:12.51,Good Friday Open,"Apr 7, 2023"
-
-1,"Asfaw, Getinat",JR-3,Augsburg,1:55.71,Ross and Sharon Irwin meet,"Mar 18, 2023"
-2,"Kelly, Will",JR-3,St. Olaf,1:57.02,St Thomas Tomcat Invitational,"Apr 7, 2023"
-3,"Mattock, Will",SO-2,St. John's (Minn.),1:57.45,St Thomas Tomcat Invitational,"Apr 7, 2023"
-4,"Nichols, Gabe",FR-1,Carleton,1:57.65,Redlands Invitational (Collegiate),"Mar 17, 2023"
-5,"St. Peter, Nick",FR-1,St. John's (Minn.),1:57.88,St Thomas Tomcat Invitational,"Apr 7, 2023"
-6,"Ash, Ethan",SO-2,Carleton,1:58.14,Redlands Invitational (Collegiate),"Mar 17, 2023"
-7,"Douglas, Derek",SO-2,St. Scholastica,1:58.36,St Thomas Tomcat Invitational,"Apr 7, 2023"
-8,"Berg, Riley",SO-2,St. John's (Minn.),1:58.44,Wartburg Outdoor Select,"Apr 1, 2023"
-9,"Anderson, Reese",FR-1,Carleton,1:58.60,Redlands Invitational (Collegiate),"Mar 17, 2023"
-10,"Rupnow, Markus",SO-2,Gustavus Adolphus,1:58.92,Warrior Invitational,"Apr 6, 2023"
-11,"Hussien, Sakariya",SR-4,Augsburg,1:59.09,Ross and Sharon Irwin meet,"Mar 18, 2023"
-12,"Coffey, Olaf",SO-2,St. Olaf,2:00.13,St Thomas Tomcat Invitational,"Apr 7, 2023"
-13,"Estrada, Gabe",JR-3,St. Olaf,2:01.51,St Thomas Tomcat Invitational,"Apr 7, 2023"
-14,"Schonebaum, Henry",FR-1,Macalester,2:02.04,St Thomas Tomcat Invitational,"Apr 7, 2023"
-15,"Schmidt, Otto",SO-2,St. Olaf,2:02.12,St Thomas Tomcat Invitational,"Apr 7, 2023"
-16,"Nemecek, Lance",FR-1,St. Olaf,2:02.47,St Thomas Tomcat Invitational,"Apr 7, 2023"
-17,"Montreuil, Owen",FR-1,St. John's (Minn.),2:02.66,St Thomas Tomcat Invitational,"Apr 7, 2023"
-18,"Kuecker, Gabe",SO-2,Bethel (Minn.),2:03.02,St Thomas Tomcat Invitational,"Apr 7, 2023"
-19,"Turlington, Kevin",FR-1,St. Olaf,2:03.07,St Thomas Tomcat Invitational,"Apr 7, 2023"
-20,"Lebakken, Jay",FR-1,Macalester,2:03.59,St Thomas Tomcat Invitational,"Apr 7, 2023"
-21,"Doran, Eli",FR-1,St. Olaf,2:03.87,St Thomas Tomcat Invitational,"Apr 7, 2023"
-22,"Malecha, Thomas",FR-1,Macalester,2:03.88,St Thomas Tomcat Invitational,"Apr 7, 2023"
-23,"Marsh, Jackson",SO-2,St. Olaf,2:04.01,St Thomas Tomcat Invitational,"Apr 7, 2023"
-24,"Hartney, Sean",SO-2,St. Olaf,2:04.14,St Thomas Tomcat Invitational,"Apr 7, 2023"
-25,"Thomas, Aidan",SO-2,St. John's (Minn.),2:04.69,St Thomas Tomcat Invitational,"Apr 7, 2023"
-26,"Munoz, Julian",JR-3,St. Olaf,2:04.71,St Thomas Tomcat Invitational,"Apr 7, 2023"
-27,"Hage, Daniel",JR-3,Bethel (Minn.),2:04.95,St Thomas Tomcat Invitational,"Apr 7, 2023"
-28,"Gallmeier, Zander",FR-1,Concordia-Moorhead,2:05.00,USD Early Bird,"Apr 7, 2023"
-29,"Ali, Kalid",SO-2,Macalester,2:05.03,Wartburg Outdoor Select,"Apr 1, 2023"
-30,"Wondimu, Bereket",JR-3,Augsburg,2:05.17,Ross and Sharon Irwin meet,"Mar 18, 2023"
-
-1,"Maddux, Alexandra",SR-4,Hamline,2:16.21,Dutch Invitational 2023,"Apr 7, 2023"
-2,"Smith, Fiona",JR-3,St. Benedict,2:19.14,St Thomas Tomcat Invitational,"Apr 7, 2023"
-3,"Erickson, Lara",SO-2,Carleton,2:20.96,St Thomas Tomcat Invitational,"Apr 7, 2023"
-4,"Silverstein, Celia",FR-1,Carleton,2:21.24,St Thomas Tomcat Invitational,"Apr 7, 2023"
-5,"Fromm, Jules",SO-2,St. Olaf,2:22.54,St Thomas Tomcat Invitational,"Apr 7, 2023"
-6,"Gernandt, Ruby",SO-2,Bethel (Minn.),2:25.95,St Thomas Tomcat Invitational,"Apr 7, 2023"
-7,"Smith, Kalli",SO-2,St. Benedict,2:26.02,St Thomas Tomcat Invitational,"Apr 7, 2023"
-8,"Wyatt, Isabel",FR-1,St. Olaf,2:26.29,St Thomas Tomcat Invitational,"Apr 7, 2023"
-9,"Sholing, Ellie",SR-4,St. Scholastica,2:26.37,St Thomas Tomcat Invitational,"Apr 7, 2023"
-10,"Smith, Sadie Ray",JR-3,Carleton,2:26.41,St Thomas Tomcat Invitational,"Apr 7, 2023"
-11,"Young, Ella",JR-3,St. Benedict,2:26.98,St Thomas Tomcat Invitational,"Apr 7, 2023"
-12,"Wilkins, Hadley",FR-1,Macalester,2:27.14,St Thomas Tomcat Invitational,"Apr 7, 2023"
-13,"Verkinnes, Brooke",FR-1,St. Benedict,2:27.41,St Thomas Tomcat Invitational,"Apr 7, 2023"
-14,"Call, Sophie",JR-3,St. Olaf,2:27.92,St Thomas Tomcat Invitational,"Apr 7, 2023"
-15,"Manhard, Abbie",FR-1,St. Olaf,2:28.38,St Thomas Tomcat Invitational,"Apr 7, 2023"
-16,"Wyland, Lucia",JR-3,St. Olaf,2:29.20,St Thomas Tomcat Invitational,"Apr 7, 2023"
-17,"Mauzer, Riley",JR-3,St. Olaf,2:30.02,St Thomas Tomcat Invitational,"Apr 7, 2023"
-18,"Pirone, Mara",FR-1,Macalester,2:31.51,St Thomas Tomcat Invitational,"Apr 7, 2023"
-19,"Shirley, Ava",FR-1,St. Olaf,2:32.80,St Thomas Tomcat Invitational,"Apr 7, 2023"
-20,"Lyngen, Lucy",JR-3,St. Benedict,2:33.69,St Thomas Tomcat Invitational,"Apr 7, 2023"
-21,"Blanchette, Grace",JR-3,Carleton,2:34.25,44th Aztec Invitational,"Mar 23, 2023"
-22,"Warren, Anna",SO-2,Macalester,2:34.39,St Thomas Tomcat Invitational,"Apr 7, 2023"
-23,"Mathews, Jalisa",SR-4,Hamline,2:34.40,Dutch Invitational 2023,"Apr 7, 2023"
-24,"Gonsalez, Nicole",FR-1,St. Olaf,2:35.47,St Thomas Tomcat Invitational,"Apr 7, 2023"
-25,"McMahon, Caeli",FR-1,Saint Mary's (Minn.),2:36.01,Good Friday Open,"Apr 7, 2023"
-26,"Juntunen-Novak, Ava",SO-2,St. Benedict,2:36.32,St Thomas Tomcat Invitational,"Apr 7, 2023"
-27,"Conrad, Brooklyn",FR-1,Augsburg,2:37.11,Ross and Sharon Irwin meet,"Mar 18, 2023"
-28,"Thurston, Karley",JR-3,Macalester,2:37.49,Wartburg Outdoor Select,"Apr 1, 2023"
-29,"Rysdahl, Kaye",SO-2,Bethel (Minn.),2:37.75,St Thomas Tomcat Invitational,"Apr 7, 2023"
-30,"Frosch, Megan",FR-1,Saint Mary's (Minn.),2:38.22,Good Friday Open,"Apr 7, 2023"
-
-1,"Nichols, Gabe",FR-1,Carleton,3:53.81,Ross and Sharon Irwin meet,"Mar 18, 2023"
-2,"Young, Lloyd",SO-2,St. John's (Minn.),3:54.98,St Thomas Tomcat Invitational,"Apr 7, 2023"
-3,"Grove, Carter",SO-2,St. John's (Minn.),3:57.49,St Thomas Tomcat Invitational,"Apr 7, 2023"
-4,"Bati, Mohammed",FR-1,Augsburg,3:58.75,St Thomas Tomcat Invitational,"Apr 7, 2023"
-5,"Olsson, Tor",SO-2,Macalester,3:59.09,St Thomas Tomcat Invitational,"Apr 7, 2023"
-6,"Diekmann, Dillon",JR-3,St. John's (Minn.),3:59.26,St Thomas Tomcat Invitational,"Apr 7, 2023"
-7,"Munoz, Julian",JR-3,St. Olaf,4:00.19,St Thomas Tomcat Invitational,"Apr 7, 2023"
-8,"Coffey, Olaf",SO-2,St. Olaf,4:00.34,St Thomas Tomcat Invitational,"Apr 7, 2023"
-9,"Turlington, Kevin",FR-1,St. Olaf,4:01.13,St Thomas Tomcat Invitational,"Apr 7, 2023"
-10,"Asfaw, Getinat",JR-3,Augsburg,4:01.33,Ross and Sharon Irwin meet,"Mar 18, 2023"
-11,"Crotteau, Ben",SO-2,Macalester,4:01.64,St Thomas Tomcat Invitational,"Apr 7, 2023"
-12,"Hussien, Sakariya",SR-4,Augsburg,4:02.26,Ross and Sharon Irwin meet,"Mar 18, 2023"
-13,"Neu, Nathan",SO-2,St. Scholastica,4:04.44,St Thomas Tomcat Invitational,"Apr 7, 2023"
-14,"Doran, Eli",FR-1,St. Olaf,4:05.68,St Thomas Tomcat Invitational,"Apr 7, 2023"
-15,"Hartney, Sean",SO-2,St. Olaf,4:06.54,St Thomas Tomcat Invitational,"Apr 7, 2023"
-16,"Ihrke, Nick",SO-2,Macalester,4:08.46,St Thomas Tomcat Invitational,"Apr 7, 2023"
-17,"Marsh, Jackson",SO-2,St. Olaf,4:08.70,St Thomas Tomcat Invitational,"Apr 7, 2023"
-18,"Skemp, Andrew",SO-2,St. Olaf,4:09.57,St Thomas Tomcat Invitational,"Apr 7, 2023"
-19,"Peterson, Luke",SO-2,Bethel (Minn.),4:10.12,St Thomas Tomcat Invitational,"Apr 7, 2023"
-20,"Kloeppner, Daniel",SO-2,St. John's (Minn.),4:10.76,St Thomas Tomcat Invitational,"Apr 7, 2023"
-21,"Moore, Cullen",FR-1,St. Olaf,4:11.90,St Thomas Tomcat Invitational,"Apr 7, 2023"
-22,"St. Peter, Nick",FR-1,St. John's (Minn.),4:12.26,Wartburg Outdoor Select,"Apr 1, 2023"
-23,"Adams, Brock",SO-2,Macalester,4:12.48,Wartburg Outdoor Select,"Apr 1, 2023"
-24,"Edwards, Tyler",FR-1,Macalester,4:12.66,St Thomas Tomcat Invitational,"Apr 7, 2023"
-25,"Lawhead, Brock",JR-3,St. Olaf,4:12.93,St Thomas Tomcat Invitational,"Apr 7, 2023"
-26,"Fendig, Alex",JR-3,Macalester,4:13.00,St Thomas Tomcat Invitational,"Apr 7, 2023"
-27,"Nelson, Clark",SO-2,Bethel (Minn.),4:13.84,St Thomas Tomcat Invitational,"Apr 7, 2023"
-28,"Chamberlin, Owen",FR-1,St. Olaf,4:13.90,St Thomas Tomcat Invitational,"Apr 7, 2023"
-29,"Montresor, Kevin",JR-3,St. Olaf,4:13.97,St Thomas Tomcat Invitational,"Apr 7, 2023"
-30,"Stewart, Tad",SO-2,Bethel (Minn.),4:14.39,St Thomas Tomcat Invitational,"Apr 7, 2023"
-
-1,"Smith, Fiona",JR-3,St. Benedict,4:31.94,St Thomas Tomcat Invitational,"Apr 7, 2023"
-2,"Albrecht, Christine",JR-3,St. Olaf,4:40.46,St Thomas Tomcat Invitational,"Apr 7, 2023"
-3,"Blanchard, Mary",SO-2,Carleton,4:41.85,St Thomas Tomcat Invitational,"Apr 7, 2023"
-4,"Ihde, Annessa",SO-2,Bethel (Minn.),4:41.93,St Thomas Tomcat Invitational,"Apr 7, 2023"
-5,"Carlson, Sofia",SO-2,St. Olaf,4:47.75,St Thomas Tomcat Invitational,"Apr 7, 2023"
-6,"Landis, Ella",FR-1,St. Olaf,4:49.88,St Thomas Tomcat Invitational,"Apr 7, 2023"
-7,"Bode, Alison",SO-2,St. Olaf,4:49.90,St Thomas Tomcat Invitational,"Apr 7, 2023"
-8,"Moeller, Grace",FR-1,St. Olaf,4:53.42,St Thomas Tomcat Invitational,"Apr 7, 2023"
-9,"Theodosopolous, Sky",FR-1,Macalester,4:53.53,St Thomas Tomcat Invitational,"Apr 7, 2023"
-10,"Abernethy, Sophie",SO-2,St. Olaf,4:55.03,St Thomas Tomcat Invitational,"Apr 7, 2023"
-11,"Maahs, Keiley",JR-3,St. Benedict,4:57.09,St Thomas Tomcat Invitational,"Apr 7, 2023"
-12,"Harms, Josie",SO-2,Bethel (Minn.),4:57.50,St Thomas Tomcat Invitational,"Apr 7, 2023"
-13,"Call, Bella",JR-3,St. Olaf,4:59.61,St Thomas Tomcat Invitational,"Apr 7, 2023"
-14,"Frolek, Drew",SO-2,Concordia-Moorhead,5:02.83,USD Early Bird,"Apr 7, 2023"
-15,"McCloskey, Molly Kate",FR-1,St. Olaf,5:04.64,St Thomas Tomcat Invitational,"Apr 7, 2023"
-16,"Maddux, Alicia",FR-1,Hamline,5:05.28,Dutch Invitational 2023,"Apr 7, 2023"
-17,"Kiolbasa, Annie",JR-3,St. Benedict,5:05.97,St Thomas Tomcat Invitational,"Apr 7, 2023"
-18,"Tetmeyer, Bridget",JR-3,St. Benedict,5:07.00,St Thomas Tomcat Invitational,"Apr 7, 2023"
-19,"Dieschbourg, Morgan",SO-2,Carleton,5:07.85,St Thomas Tomcat Invitational,"Apr 7, 2023"
-20,"Kenney, Mary",FR-1,St. Benedict,5:08.00,St Thomas Tomcat Invitational,"Apr 7, 2023"
-21,"Nelson, Esther",SO-2,Bethel (Minn.),5:09.39,St Thomas Tomcat Invitational,"Apr 7, 2023"
-22,"Ulrich, Kate",SO-2,Carleton,5:10.14,St Thomas Tomcat Invitational,"Apr 7, 2023"
-23,"Conrad, Brooklyn",FR-1,Augsburg,5:14.00,St Thomas Tomcat Invitational,"Apr 7, 2023"
-24,"Thurston, Karley",JR-3,Macalester,5:14.28,St Thomas Tomcat Invitational,"Apr 7, 2023"
-25,"Krumm, Ella",SO-2,Macalester,5:15.26,St Thomas Tomcat Invitational,"Apr 7, 2023"
-26,"Coyle, Sylvia",SO-2,Macalester,5:15.71,St Thomas Tomcat Invitational,"Apr 7, 2023"
-27,"Hay, Anna",FR-1,Bethel (Minn.),5:18.24,St Thomas Tomcat Invitational,"Apr 7, 2023"
-28,"Craven, Ava",SO-2,St. Olaf,5:19.11,St Thomas Tomcat Invitational,"Apr 7, 2023"
-29,"Lewis, Margo",SO-2,Carleton,5:19.56,St Thomas Tomcat Invitational,"Apr 7, 2023"
-30,"Jay, Annie",SO-2,Carleton,5:20.50,St Thomas Tomcat Invitational,"Apr 7, 2023"
-
-1,"Bocovich, Logan",JR-3,St. Olaf,14:14.49,Wash U Distance Carnival Saturday 2023,"Apr 1, 2023"
-2,"Kelly, Will",JR-3,St. Olaf,14:18.74,Wash U Distance Carnival Saturday 2023,"Apr 1, 2023"
-3,"Bati, Mohammed",FR-1,Augsburg,14:32.98,Ross and Sharon Irwin meet,"Mar 18, 2023"
-4,"Young, Lloyd",SO-2,St. John's (Minn.),14:38.64,UW-Platteville Invitational,"Apr 14, 2023"
-5,"Nichols, Gabe",FR-1,Carleton,14:53.21,Mangrum Invitational,"Mar 24, 2023"
-6,"Grove, Carter",SO-2,St. John's (Minn.),14:53.66,UW-Platteville Invitational,"Apr 14, 2023"
-7,"Turlington, Kevin",FR-1,St. Olaf,14:59.53,UW-Platteville Invitational,"Apr 14, 2023"
-8,"Skemp, Andrew",SO-2,St. Olaf,14:59.86,UW-Platteville Invitational,"Apr 14, 2023"
-9,"Coffey, Olaf",SO-2,St. Olaf,15:09.67,UW-Platteville Invitational,"Apr 14, 2023"
-10,"Cavanaugh, Eamon",SO-2,St. John's (Minn.),15:11.00,UW-Platteville Invitational,"Apr 14, 2023"
-11,"Cote, Anders",JR-3,St. Olaf,15:12.10,UW-Platteville Invitational,"Apr 14, 2023"
-12,"St George, Aidan",SO-2,Bethel (Minn.),15:13.43,St Thomas Tomcat Invitational,"Apr 7, 2023"
-13,"Crotteau, Ben",SO-2,Macalester,15:16.50,Wartburg Outdoor Select,"Apr 1, 2023"
-14,"Munoz, Julian",JR-3,St. Olaf,15:20.39,UW-Platteville Invitational,"Apr 14, 2023"
-15,"Montresor, Kevin",JR-3,St. Olaf,15:20.88,UW-Platteville Invitational,"Apr 14, 2023"
-16,"Thompson, Reese",SO-2,Bethel (Minn.),15:26.34,St Thomas Tomcat Invitational,"Apr 7, 2023"
-17,"McKee, Reece",SO-2,Macalester,15:28.86,Wartburg Outdoor Select,"Apr 1, 2023"
-18,"Lyford, Derk",JR-3,St. Olaf,15:35.62,UW-Platteville Invitational,"Apr 14, 2023"
-19,"Olsson, Tor",SO-2,Macalester,15:48.92,Wartburg Outdoor Select,"Apr 1, 2023"
-20,"Peske, Cole",SR-4,Macalester,15:55.47,St Thomas Tomcat Invitational,"Apr 7, 2023"
-21,"Galloway, Jordan",FR-1,Macalester,15:56.33,St Thomas Tomcat Invitational,"Apr 7, 2023"
-22,"Edwards, Tyler",FR-1,Macalester,15:57.87,Wartburg Outdoor Select,"Apr 1, 2023"
-23,"Ihrke, Nick",SO-2,Macalester,16:01.27,Wartburg Outdoor Select,"Apr 1, 2023"
-24,"Fendig, Alex",JR-3,Macalester,16:02.88,Wartburg Outdoor Select,"Apr 1, 2023"
-25,"Graber, Grant",SO-2,Bethel (Minn.),16:03.60,St Thomas Tomcat Invitational,"Apr 7, 2023"
-26,"Schneider, Grant",FR-1,Saint Mary's (Minn.),16:08.26,Wash U Distance Carnival Friday Night,"Mar 31, 2023"
-27,"Adams, Brock",SO-2,Macalester,16:15.35,St Thomas Tomcat Invitational,"Apr 7, 2023"
-28,"Appel, Aidan",SO-2,Macalester,16:21.21,Wartburg Outdoor Select,"Apr 1, 2023"
-29,"Vite, Mauricio",JR-3,St. Olaf,16:23.34,St Thomas Tomcat Invitational,"Apr 7, 2023"
-30,"Gathje, Joseph",SO-2,St. John's (Minn.),16:27.62,Wartburg Outdoor Select,"Apr 1, 2023"
-
-1,"Smith, Fiona",JR-3,St. Benedict,16:26.20,Wartburg Outdoor Select,"Apr 1, 2023"
-2,"Mayfield, Clara",JR-3,Carleton,16:30.62,Bob Larsen Distance Carnival,"Mar 24, 2023"
-3,"Carlson, Sofia",SO-2,St. Olaf,17:04.03,UW-Platteville Invitational,"Apr 14, 2023"
-4,"McManus, Sophie",SO-2,Carleton,17:22.90,St Thomas Tomcat Invitational,"Apr 7, 2023"
-5,"Bode, Alison",SO-2,St. Olaf,17:42.62,UW-Platteville Invitational,"Apr 14, 2023"
-6,"Walda, Lauren",FR-1,St. Olaf,17:45.27,St Thomas Tomcat Invitational,"Apr 7, 2023"
-7,"Ward, Phoebe",SO-2,Carleton,18:10.62,St Thomas Tomcat Invitational,"Apr 7, 2023"
-8,"Helmer, Maj-Lis",JR-3,St. Scholastica,18:12.57,St Thomas Tomcat Invitational,"Apr 7, 2023"
-9,"Kiolbasa, Annie",JR-3,St. Benedict,18:33.72,Wartburg Outdoor Select,"Apr 1, 2023"
-10,"Larsen, Aliya",SO-2,Carleton,18:35.24,St Thomas Tomcat Invitational,"Apr 7, 2023"
-11,"Everest, Julia",JR-3,St. Olaf,18:40.01,St Thomas Tomcat Invitational,"Apr 7, 2023"
-12,"Johnson, Gracie",FR-1,Augsburg,18:56.97,Ross and Sharon Irwin meet,"Mar 18, 2023"
-13,"Larsen-Schmidt, Gracia",SO-2,St. Olaf,19:12.42,St Thomas Tomcat Invitational,"Apr 7, 2023"
-14,"Roberdeau, Libby",JR-3,Hamline,19:23.74,Dutch Invitational 2023,"Apr 7, 2023"
-15,"Votruba, Maggie",SO-2,Carleton,19:29.29,St Thomas Tomcat Invitational,"Apr 7, 2023"
-16,"Norvell, Seneca",JR-3,St. Olaf,19:35.38,St Thomas Tomcat Invitational,"Apr 7, 2023"
-17,"Colnes, Jesse",SR-4,Macalester,19:42.32,St Thomas Tomcat Invitational,"Apr 7, 2023"
-18,"Hardwick, Laura",SO-2,Bethel (Minn.),20:02.65,St Thomas Tomcat Invitational,"Apr 7, 2023"
-19,"Gossard, Sophie",JR-3,St. Olaf,20:15.85,St Thomas Tomcat Invitational,"Apr 7, 2023"
-20,"Plechaty, Zoe",JR-3,St. Olaf,20:18.77,St Thomas Tomcat Invitational,"Apr 7, 2023"
-21,"Moorjani, Raina",SO-2,Bethel (Minn.),20:23.08,St Thomas Tomcat Invitational,"Apr 7, 2023"
-22,"Klobe, Kendra",SO-2,Saint Mary's (Minn.),20:35.74,Wash U Distance Carnival Friday Night,"Mar 31, 2023"
-23,"Thompson, Hailley",FR-1,St. Benedict,20:49.88,St Thomas Tomcat Invitational,"Apr 7, 2023"
-24,"Nelson, Brenna",JR-3,St. Catherine (Minn.),20:52.80,St Thomas Tomcat Invitational,"Apr 7, 2023"
-25,"Adams, Charlotte",SR-4,Hamline,21:05.20,Dutch Invitational 2023,"Apr 7, 2023"
-26,"Harvey, Lily",SO-2,St. Catherine (Minn.),21:45.75,St Thomas Tomcat Invitational,"Apr 7, 2023"
-27,"Ivesdal, Grace",SR-4,Concordia-Moorhead,22:05.56,USD Early Bird,"Apr 7, 2023"
-
-1,"Bowman, Henry",JR-3,Carleton,31:11.76,Mangrum Invitational,"Mar 24, 2023"
-
-1,"Nelson, Birgen",SO-2,Gustavus Adolphus,13.88,Duke Invitational,"Apr 6, 2023",-0.2
-2,"Sealock, Kelsie",SO-2,Bethel (Minn.),13.98,St Thomas Tomcat Invitational,"Apr 7, 2023",2.5
-3,"Salfer, Rebekah",SR-4,St. Olaf,15.46,St Thomas Tomcat Invitational,"Apr 7, 2023",2.5
-4,"Bodin, Gabby",JR-3,St. Catherine (Minn.),15.49,St Thomas Tomcat Invitational,"Apr 7, 2023",2.5
-5,"Berg, Lauren",FR-1,St. Benedict,15.61,Wartburg Outdoor Select,"Apr 1, 2023",0.9
-6,"Miller, Danielle",SO-2,Gustavus Adolphus,"15.74
-@",Gustavus/Colorado College Dual Meet,"Apr 3, 2023",1.8
-7,"Hernes, Ellie",FR-1,Bethel (Minn.),15.85,St Thomas Tomcat Invitational,"Apr 7, 2023",1.5
-8,"Nelson, AnnaGrace",SO-2,Bethel (Minn.),15.93,St Thomas Tomcat Invitational,"Apr 7, 2023",1.5
-8,"Blanchette, Grace",JR-3,Carleton,15.93,St Thomas Tomcat Invitational,"Apr 7, 2023",1.5
-10,"Dimler, Lauren",FR-1,Gustavus Adolphus,"16.11
-@",Gustavus/Colorado College Dual Meet,"Apr 3, 2023",1.8
-11,"Huetten, Makenna",SO-2,Gustavus Adolphus,"16.14
-@",Gustavus/Colorado College Dual Meet,"Apr 3, 2023",1.8
-12,"Williams, McKenzie",JR-3,St. Scholastica,16.53,St Thomas Tomcat Invitational,"Apr 7, 2023",1.5
-13,"Floren, Justus",SO-2,St. Benedict,16.57,Wartburg Outdoor Select,"Apr 1, 2023",0.9
-14,"Barlue, Burnices",JR-3,St. Catherine (Minn.),16.67,Ross and Sharon Irwin meet,"Mar 18, 2023",1.7
-15,"Kalevik, Jenna",SO-2,Concordia-Moorhead,16.90,St Thomas Tomcat Invitational,"Apr 7, 2023",2.9
-16,"Scholten, Hailey",FR-1,Bethel (Minn.),17.04,St Thomas Tomcat Invitational,"Apr 7, 2023",2.8
-17,"King, Hannah",SO-2,Bethel (Minn.),17.06,St Thomas Tomcat Invitational,"Apr 7, 2023",2.9
-18,"Lilleberg, Nicole",SR-4,Concordia-Moorhead,17.14,Rittgers Invitational,"Apr 7, 2023",-1.9
-19,"Darling, Kiernan",SO-2,Concordia-Moorhead,17.30,USD Early Bird,"Apr 7, 2023",4.5
-20,"Hobby, Sarah Beth",JR-3,Macalester,17.58,Wartburg Outdoor Select,"Apr 1, 2023",3.1
-21,"Johnson, Lily",SO-2,St. Olaf,18.34,St Thomas Tomcat Invitational,"Apr 7, 2023",2.9
-22,"Schuele, Emma",FR-1,St. Benedict,18.38,Wartburg Outdoor Select,"Apr 1, 2023",3.1
-23,"Josephson, Madi",FR-1,St. Benedict,18.39,St Thomas Tomcat Invitational,"Apr 7, 2023",2.9
-24,"Sahly, Emma",SO-2,St. Olaf,18.68,St Thomas Tomcat Invitational,"Apr 7, 2023",2.8
-25,"Rocheford, Lauren",FR-1,Gustavus Adolphus,"18.69
-@",Gustavus/Colorado College Dual Meet,"Apr 3, 2023",1.8
-26,"Farley, Lucy",FR-1,St. Benedict,19.88,St Thomas Tomcat Invitational,"Apr 7, 2023",2.9
-27,"Moe, Hannah",FR-1,Bethel (Minn.),20.48,St Thomas Tomcat Invitational,"Apr 7, 2023",2.8
-
-1,"Ekiyor, Jayson",SO-2,Bethel (Minn.),14.37,St Thomas Tomcat Invitational,"Apr 7, 2023",1.5
-2,"Kramarczuk, Lucas",JR-3,St. Olaf,14.40,St Thomas Tomcat Invitational,"Apr 7, 2023",1.5
-3,"Lord, Demetri",JR-3,St. Olaf,15.50,St Thomas Tomcat Invitational,"Apr 7, 2023",1.5
-4,"Myres, David",SO-2,Bethel (Minn.),15.57,St Thomas Tomcat Invitational,"Apr 7, 2023",1.5
-5,"Ferrin, Pryce",FR-1,Bethel (Minn.),15.88,St Thomas Tomcat Invitational,"Apr 7, 2023",1.5
-6,"Lelwica, Max",SO-2,St. John's (Minn.),16.52,Wartburg Outdoor Select,"Apr 1, 2023",2.5
-7,"Lee, Josh",SO-2,Bethel (Minn.),16.54,St Thomas Tomcat Invitational,"Apr 7, 2023",1.5
-8,"Clayton, Trajen",FR-1,Augsburg,16.55,St Thomas Tomcat Invitational,"Apr 7, 2023",1.5
-9,"Rhonemus, Wade",JR-3,Concordia-Moorhead,16.56,USD Early Bird,"Apr 7, 2023",3.5
-10,"Nissen, Matthew",JR-3,St. Olaf,16.73,St Thomas Tomcat Invitational,"Apr 7, 2023",1.5
-11,"Borst, Layton",SO-2,St. Olaf,17.14,St Thomas Tomcat Invitational,"Apr 7, 2023",1.3
-12,"Buxell, Riley",FR-1,St. John's (Minn.),17.24,Wartburg Outdoor Select,"Apr 1, 2023",4.1
-13,"Skemp, Will",FR-1,St. Olaf,17.35,St Thomas Tomcat Invitational,"Apr 7, 2023",1.3
-14,"Bassett, Jackson",SO-2,St. Olaf,17.78,St Thomas Tomcat Invitational,"Apr 7, 2023",1.5
-15,"Stefanowicz, Sebastian",FR-1,Macalester,17.84,Wartburg Outdoor Select,"Apr 1, 2023",3.2
-16,"Thurk, Anthony",SO-2,St. John's (Minn.),18.19,Wartburg Outdoor Select,"Apr 1, 2023",4.1
-17,"Cogley, Andrew",SO-2,St. Olaf,19.03,St Thomas Tomcat Invitational,"Apr 7, 2023",1.3
-18,"Wada, Aki",FR-1,Macalester,19.53,Wartburg Outdoor Select,"Apr 1, 2023",4.1
-
-1,"Smith, Joel",JR-3,Bethel (Minn.),52.90,St Thomas Tomcat Invitational,"Apr 7, 2023"
-2,"Labine, Brady",SR-4,St. John's (Minn.),54.77,St Thomas Tomcat Invitational,"Apr 7, 2023"
-3,"Myres, David",SO-2,Bethel (Minn.),55.25,St Thomas Tomcat Invitational,"Apr 7, 2023"
-4,"Karngar, Trokon",JR-3,Bethel (Minn.),58.51,St Thomas Tomcat Invitational,"Apr 7, 2023"
-5,"Meeker, Caleb",SO-2,Bethel (Minn.),59.27,St Thomas Tomcat Invitational,"Apr 7, 2023"
-6,"Bosley, Mason",SR-4,Macalester,59.51,St Thomas Tomcat Invitational,"Apr 7, 2023"
-7,"Schonebaum, Henry",FR-1,Macalester,1:00.05,Wartburg Outdoor Select,"Apr 1, 2023"
-8,"Buxell, Riley",FR-1,St. John's (Minn.),1:00.85,Wartburg Outdoor Select,"Apr 1, 2023"
-9,"Skemp, Will",FR-1,St. Olaf,1:01.18,St Thomas Tomcat Invitational,"Apr 7, 2023"
-10,"Wada, Aki",FR-1,Macalester,1:01.57,Wartburg Outdoor Select,"Apr 1, 2023"
-11,"Clayton, Trajen",FR-1,Augsburg,1:01.70,Ross and Sharon Irwin meet,"Mar 18, 2023"
-12,"Ellis, Charles",SO-2,St. John's (Minn.),1:02.05,St Thomas Tomcat Invitational,"Apr 7, 2023"
-13,"Schulze, Sam",SO-2,Gustavus Adolphus,"1:02.16
-@",Gustavus/Colorado College Dual Meet,"Apr 3, 2023"
-14,"Pettis, Andrei",FR-1,Hamline,1:02.98,Dutch Invitational 2023,"Apr 7, 2023"
-15,"Ortiz, Raul",SO-2,Hamline,1:04.41,Dutch Invitational 2023,"Apr 7, 2023"
-16,"Baker, Grant",SO-2,Gustavus Adolphus,"1:09.80
-@",Gustavus/Colorado College Dual Meet,"Apr 3, 2023"
-
-1,"Berg, Lauren",FR-1,St. Benedict,1:05.61,St Thomas Tomcat Invitational,"Apr 7, 2023"
-2,"Salfer, Rebekah",SR-4,St. Olaf,1:06.30,St Thomas Tomcat Invitational,"Apr 7, 2023"
-3,"Smith, Jessie",SO-2,Bethel (Minn.),1:10.00,St Thomas Tomcat Invitational,"Apr 7, 2023"
-4,"Huetten, Makenna",SO-2,Gustavus Adolphus,"1:12.33
-@",Gustavus/Colorado College Dual Meet,"Apr 3, 2023"
-5,"Lilleberg, Nicole",SR-4,Concordia-Moorhead,1:12.66,Rittgers Invitational,"Apr 7, 2023"
-6,"Scholten, Hailey",FR-1,Bethel (Minn.),1:13.16,St Thomas Tomcat Invitational,"Apr 7, 2023"
-7,"Lorenz, Kelly",SR-4,Concordia-Moorhead,1:13.60,USD Early Bird,"Apr 7, 2023"
-8,"Sahly, Emma",SO-2,St. Olaf,1:14.69,St Thomas Tomcat Invitational,"Apr 7, 2023"
-9,"Sims, Jaeden",FR-1,Macalester,1:15.22,St Thomas Tomcat Invitational,"Apr 7, 2023"
-10,"Rocheford, Lauren",FR-1,Gustavus Adolphus,"1:17.42
-@",Gustavus/Colorado College Dual Meet,"Apr 3, 2023"
-11,"Schuele, Emma",FR-1,St. Benedict,1:18.41,Wartburg Outdoor Select,"Apr 1, 2023"
-12,"Chevalier, Ava",FR-1,Concordia-Moorhead,1:19.96,USD Early Bird,"Apr 7, 2023"
-
-1,"Kelly, Will",JR-3,St. Olaf,9:09.75,St Thomas Tomcat Invitational,"Apr 7, 2023"
-2,"Cote, Anders",JR-3,St. Olaf,9:33.56,St Thomas Tomcat Invitational,"Apr 7, 2023"
-3,"Grove, Carter",SO-2,St. John's (Minn.),9:38.49,Wartburg Outdoor Select,"Apr 1, 2023"
-4,"McKee, Reece",SO-2,Macalester,9:43.10,St Thomas Tomcat Invitational,"Apr 7, 2023"
-5,"Estrada, Gabe",JR-3,St. Olaf,10:05.61,St Thomas Tomcat Invitational,"Apr 7, 2023"
-6,"Deaver, Jack",FR-1,St. Olaf,10:07.27,St Thomas Tomcat Invitational,"Apr 7, 2023"
-7,"Lyford, Derk",JR-3,St. Olaf,10:13.61,St Thomas Tomcat Invitational,"Apr 7, 2023"
-8,"Brodie, Aric",SR-4,Hamline,10:16.66,Dutch Invitational 2023,"Apr 7, 2023"
-9,"Gathje, Joseph",SO-2,St. John's (Minn.),10:17.79,St Thomas Tomcat Invitational,"Apr 7, 2023"
-10,"Leonard, Ethan",SO-2,St. John's (Minn.),10:27.17,St Thomas Tomcat Invitational,"Apr 7, 2023"
-11,"Chalmers, Aiden",FR-1,St. John's (Minn.),10:35.15,St Thomas Tomcat Invitational,"Apr 7, 2023"
-12,"Nowacki, Cole",JR-3,Concordia-Moorhead,10:41.28,USD Early Bird,"Apr 7, 2023"
-
-1,"Rugloski, Emily",SR-4,Concordia-Moorhead,11:52.21,USD Early Bird,"Apr 7, 2023"
-2,"Kenney, Mary",FR-1,St. Benedict,12:14.98,Wartburg Outdoor Select,"Apr 1, 2023"
-3,"Tetmeyer, Bridget",JR-3,St. Benedict,12:20.48,Wartburg Outdoor Select,"Apr 1, 2023"
-4,"Maahs, Keiley",JR-3,St. Benedict,12:25.17,Wartburg Outdoor Select,"Apr 1, 2023"
-5,"Breed, Brittany",FR-1,St. Catherine (Minn.),13:04.96,St Thomas Tomcat Invitational,"Apr 7, 2023"
-6,"Tess, Emily",SO-2,St. Benedict,14:17.32,St Thomas Tomcat Invitational,"Apr 7, 2023"
-7,"Brandt, Morgan",SR-4,St. Catherine (Minn.),14:31.49,St Thomas Tomcat Invitational,"Apr 7, 2023"
-
-1,"Ekiyor, Nelson, McConnell, Parent",NA,Bethel (Minn.),41.71,St Thomas Tomcat Invitational,"Apr 7, 2023"
-2,"Popoca, Arthur, Labine, Wheeler",NA,St. John's (Minn.),42.41,Wartburg Outdoor Select,"Apr 1, 2023"
-3,"Hodin, Wada, Stefanowicz, Kogut",NA,Macalester,46.13,Wartburg Outdoor Select,"Apr 1, 2023"
-
-1,"Babalola, Sealock, King, Stellmach",NA,Bethel (Minn.),48.83,St Thomas Tomcat Invitational,"Apr 7, 2023"
-2,"Miller, Nelson, Lindner, Carlson",NA,Gustavus Adolphus,"49.20
-@",Gustavus/Colorado College Dual Meet,"Apr 3, 2023"
-3,"Bishop, Hookom, Cesare, Rodriguez",NA,Augsburg,50.42,Ross and Sharon Irwin meet,"Mar 18, 2023"
-4,"Nichols, Stinson, Schepper, Doyle",NA,St. Catherine (Minn.),51.31,St Thomas Tomcat Invitational,"Apr 7, 2023"
-5,"Sims, Falkowski, Hunter, Crewey",NA,Macalester,53.34,Wartburg Outdoor Select,"Apr 1, 2023"
-
-1,"Johnson, Jackson, Adamson, Bulwa",NA,Saint Mary's (Minn.),3:32.58,Good Friday Open,"Apr 7, 2023"
-2,"Hage, Nelson, Kuecker, Peterson",NA,Bethel (Minn.),3:35.22,St Thomas Tomcat Invitational,"Apr 7, 2023"
-3,"Kinnucan, Schonebaum, Ali, Heitler",NA,Macalester,3:35.88,Wartburg Outdoor Select,"Apr 1, 2023"
-
-1,"Bernardy, Logelin, Grabau, Nelson",NA,Hamline,4:15.28,Dutch Invitational 2023,"Apr 7, 2023"
-2,"Amundson, Sims, Wilkins, Hunter",NA,Macalester,4:17.61,Wartburg Outdoor Select,"Apr 1, 2023"
-3,"Blanchard, Silverstein, Erickson, Smith",NA,Carleton,4:17.87,St Thomas Tomcat Invitational,"Apr 7, 2023"
-4,"Nelson, Ihde, Gernandt, Hay",NA,Bethel (Minn.),4:20.92,St Thomas Tomcat Invitational,"Apr 7, 2023"
-5,"Shirley, Call, Wyatt, Manhard",NA,St. Olaf,4:24.75,St Thomas Tomcat Invitational,"Apr 7, 2023"
-6,"McMahon, Meyer, Frosch, Gearin",NA,Saint Mary's (Minn.),4:28.33,Good Friday Open,"Apr 7, 2023"
-7,"Fynboh, Huetten, Dimler, Rocheford",NA,Gustavus Adolphus,"4:34.70
-@",Gustavus/Colorado College Dual Meet,"Apr 3, 2023"
-
-1,"Thurk, Anthony",SO-2,St. John's (Minn.),1.85m,Wartburg Outdoor Select,"Apr 1, 2023",
-1,"Braun, Michael",SO-2,Hamline,1.85m,Dutch Invitational 2023,"Apr 7, 2023",
-1,"Swenson, Simon",FR-1,Bethel (Minn.),1.85m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-4,"Braun, Alec",SO-2,Bethel (Minn.),1.80m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-4,"Ungar, Alec",SO-2,St. John's (Minn.),1.80m,Wartburg Outdoor Select,"Apr 1, 2023",
-4,"Schegel, Abe",JR-3,Bethel (Minn.),1.80m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-4,"Seiler, Alex",SO-2,St. John's (Minn.),1.80m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-8,"Rhonemus, Wade",JR-3,Concordia-Moorhead,1.79m,USD Early Bird,"Apr 7, 2023",
-9,"Cogley, Andrew",SO-2,St. Olaf,1.75m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-10,"Lee, Iain",FR-1,Hamline,1.70m,Dutch Invitational 2023,"Apr 7, 2023",
-11,"Wellman, Trevor",SO-2,Bethel (Minn.),1.65m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-11,"Smith, Micah",JR-3,Bethel (Minn.),1.65m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-13,"Schulze, Sam",SO-2,Gustavus Adolphus,1.55m,Gustavus/Colorado College Dual Meet,"Apr 3, 2023",
-
-1,"Floren, Justus",SO-2,St. Benedict,1.60m,Wartburg Outdoor Select,"Apr 1, 2023",
-2,"Nichols, Claire",SR-4,St. Catherine (Minn.),1.50m,Ross and Sharon Irwin meet,"Mar 18, 2023",
-3,"Bodin, Gabby",JR-3,St. Catherine (Minn.),1.48m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-3,"Nelson, AnnaGrace",SO-2,Bethel (Minn.),1.48m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-5,"Blanchette, Grace",JR-3,Carleton,1.44m,44th Aztec Invitational,"Mar 23, 2023",
-6,"Hobby, Sarah Beth",JR-3,Macalester,1.43m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-6,"Kalevik, Jenna",SO-2,Concordia-Moorhead,1.43m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-6,"Moe, Hannah",FR-1,Bethel (Minn.),1.43m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-9,"Strampe, Toria",SO-2,St. Scholastica,1.38m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-9,"Fischer, Sofia",FR-1,St. Scholastica,1.38m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-
-1,"Arnold, Dylan",SO-2,St. Olaf,4.67m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-1,"Charbonneau, Joseph",SO-2,St. John's (Minn.),4.67m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-3,"Gardeen, Samuel",SO-2,Bethel (Minn.),4.37m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-4,"Guth, Kole",FR-1,St. John's (Minn.),4.22m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-4,"DeGross, Mason",SO-2,St. John's (Minn.),4.22m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-6,"Gatz, Aidan",SO-2,Saint Mary's (Minn.),4.10m,Good Friday Open,"Apr 7, 2023",
-7,"Adams, Andrew",SO-2,St. John's (Minn.),3.92m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-8,"Cella, Jack",FR-1,Concordia-Moorhead,3.86m,USD Early Bird,"Apr 7, 2023",
-9,"Rhonemus, Wade",JR-3,Concordia-Moorhead,3.80m,USD Early Bird,"Apr 7, 2023",
-10,"Doom, Max",SO-2,St. John's (Minn.),3.62m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-10,"Borst, Layton",SO-2,St. Olaf,3.62m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-10,"Johnston, Josh",FR-1,St. John's (Minn.),3.62m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-13,"Engstrom, Oliver",FR-1,Hamline,3.35m,Dutch Invitational 2023,"Apr 7, 2023",
-14,"Daenzer, Luke",FR-1,Bethel (Minn.),3.32m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-
-1,"Gearin, Caroline",JR-3,Saint Mary's (Minn.),3.50m,Wash U Invite,"Mar 31, 2023",
-2,"Lilland, Jessica",SO-2,Bethel (Minn.),3.37m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-3,"Salfer, Caitlin",SR-4,St. Benedict,3.07m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-4,"Buffetta, Sabrina",SO-2,St. Benedict,2.77m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-4,"Cordes, Julia",SR-4,St. Olaf,2.77m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-6,"Pierson, Grace",SR-4,Hamline,2.75m,Dutch Invitational 2023,"Apr 7, 2023",
-7,"Harris, Signe",SO-2,Concordia-Moorhead,2.54m,USD Early Bird,"Apr 7, 2023",
-8,"Roberts, Melanie",JR-3,St. Olaf,2.47m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-9,"Green, Lizzie",FR-1,Hamline,2.45m,Dutch Invitational 2023,"Apr 7, 2023",
-9,"Luepke, Bria",FR-1,Hamline,2.45m,Dutch Invitational 2023,"Apr 7, 2023",
-11,"Ramsdell, Lily",SO-2,Hamline,2.15m,Dutch Invitational 2023,"Apr 7, 2023",
-
-1,"Kramarczuk, Lucas",JR-3,St. Olaf,6.73m,St Thomas Tomcat Invitational,"Apr 7, 2023",-0.1,
-2,"Nelson, Grant",FR-1,Bethel (Minn.),6.69m,St Thomas Tomcat Invitational,"Apr 7, 2023",0.4,
-3,"Moo, Eh Ler",SO-2,St. Olaf,6.61m,St Thomas Tomcat Invitational,"Apr 7, 2023",1.2,
-4,"Swenson, Simon",FR-1,Bethel (Minn.),6.56m,St Thomas Tomcat Invitational,"Apr 7, 2023",+0.0,
-5,"Cisewski, Antonio",SO-2,Saint Mary's (Minn.),6.47m,Good Friday Open,"Apr 7, 2023",3.0,
-6,"Rhonemus, Wade",JR-3,Concordia-Moorhead,6.39m,USD Early Bird,"Apr 7, 2023",2.7,
-7,"Stroschein, Weston",SO-2,St. Scholastica,6.25m,St Thomas Tomcat Invitational,"Apr 7, 2023",1.1,
-8,"Schaffer, Zach",FR-1,St. John's (Minn.),6.18m,Wartburg Outdoor Select,"Apr 1, 2023",2.4,
-9,"Watson, Teris",FR-1,Hamline,6.15m,Dutch Invitational 2023,"Apr 7, 2023",1.7,
-10,"Collins, Joe",FR-1,Hamline,5.45m,Dutch Invitational 2023,"Apr 7, 2023",2.2,
-
-1,"Hernes, Ellie",FR-1,Bethel (Minn.),5.14m,St Thomas Tomcat Invitational,"Apr 7, 2023",+0.0,
-2,"Dimler, Lauren",FR-1,Gustavus Adolphus,5.04m,Gustavus/Colorado College Dual Meet,"Apr 3, 2023",-0.7,
-3,"Nelson, AnnaGrace",SO-2,Bethel (Minn.),5.02m,St Thomas Tomcat Invitational,"Apr 7, 2023",-0.3,
-4,"Lindner, Sarrah",FR-1,Gustavus Adolphus,5.01m,Gustavus/Colorado College Dual Meet,"Apr 3, 2023",-1.5,
-5,"Schepper, Reilee",SR-4,St. Catherine (Minn.),4.93m,St Thomas Tomcat Invitational,"Apr 7, 2023",1.0,
-6,"Parker, Ainslee",JR-3,St. Olaf,4.87m,St Thomas Tomcat Invitational,"Apr 7, 2023",-1.2,
-6,"Floren, Justus",SO-2,St. Benedict,4.87m,Wartburg Outdoor Select,"Apr 1, 2023",4.6,
-8,"Blanchette, Grace",JR-3,Carleton,4.82m,44th Aztec Invitational,"Mar 23, 2023",+0.0,
-9,"Nichols, Claire",SR-4,St. Catherine (Minn.),4.77m,St Thomas Tomcat Invitational,"Apr 7, 2023",-1.8,
-10,"Hobby, Sarah Beth",JR-3,Macalester,4.66m,Wartburg Outdoor Select,"Apr 1, 2023",3.8,
-11,"Johnson, Lily",SO-2,St. Olaf,4.63m,St Thomas Tomcat Invitational,"Apr 7, 2023",+0.0,
-12,"Sautter, Kaitlyn",FR-1,St. Scholastica,4.60m,St Thomas Tomcat Invitational,"Apr 7, 2023",0.9,
-13,"Leverentz, Bryana",SR-4,St. Catherine (Minn.),4.59m,Ross and Sharon Irwin meet,"Mar 18, 2023",-1.6,
-14,"Cesare, CC",FR-1,Augsburg,4.57m,St Thomas Tomcat Invitational,"Apr 7, 2023",2.6,
-15,"Christensen, Izzy",FR-1,St. Benedict,4.49m,St Thomas Tomcat Invitational,"Apr 7, 2023",0.8,
-15,"Doyle, Erin",JR-3,St. Catherine (Minn.),4.49m,Ross and Sharon Irwin meet,"Mar 18, 2023",-1.2,
-17,"Sikes, Jane",SO-2,St. Olaf,4.39m,St Thomas Tomcat Invitational,"Apr 7, 2023",0.3,
-18,"Moe, Hannah",FR-1,Bethel (Minn.),4.02m,St Thomas Tomcat Invitational,"Apr 7, 2023",1.9,
-
-1,"Hodin, Riley",SO-2,Macalester,13.56m,Wartburg Outdoor Select,"Apr 1, 2023",4.6,
-2,"Braun, Michael",SO-2,Hamline,13.49m,Dutch Invitational 2023,"Apr 7, 2023",2.6,
-3,"Crnkovich, Alex",SO-2,St. John's (Minn.),13.19m,Wartburg Outdoor Select,"Apr 1, 2023",2.3,
-4,"Souksavath, Sean",JR-3,St. Olaf,12.15m,St Thomas Tomcat Invitational,"Apr 7, 2023",-1.8,
-5,"Johnson, Brady",SO-2,Saint Mary's (Minn.),12.09m,Wash U Invite,"Mar 31, 2023",NWI,
-6,"Stefanowicz, Sebastian",FR-1,Macalester,11.72m,Wartburg Outdoor Select,"Apr 1, 2023",5.0,
-7,"Bosley, Mason",SR-4,Macalester,11.49m,Wartburg Outdoor Select,"Apr 1, 2023",2.3,
-
-1,"Amundson, Journey",SR-4,Macalester,11.79m,Wartburg Outdoor Select,"Apr 1, 2023",2.9,
-2,"Cesare, CC",FR-1,Augsburg,10.77m,St Thomas Tomcat Invitational,"Apr 7, 2023",NWI,
-3,"Schepper, Reilee",SR-4,St. Catherine (Minn.),10.69m,St Thomas Tomcat Invitational,"Apr 7, 2023",0.2,
-4,"Lindner, Sarrah",FR-1,Gustavus Adolphus,10.54m,Gustavus/Colorado College Dual Meet,"Apr 3, 2023",-1.4,
-5,"Barlue, Burnices",JR-3,St. Catherine (Minn.),10.08m,Ross and Sharon Irwin meet,"Mar 18, 2023",-0.4,
-6,"Lilleberg, Nicole",SR-4,Concordia-Moorhead,9.72m,Rittgers Invitational,"Apr 7, 2023",NWI,
-7,"Sims, Jaeden",FR-1,Macalester,9.65m,Wartburg Outdoor Select,"Apr 1, 2023",2.0,
-8,"Leverentz, Bryana",SR-4,St. Catherine (Minn.),9.55m,St Thomas Tomcat Invitational,"Apr 7, 2023",-1.0,
-9,"Darling, Kiernan",SO-2,Concordia-Moorhead,9.45m,USD Early Bird,"Apr 7, 2023",2.3,
-10,"Nichols, Kyra",SR-4,Concordia-Moorhead,9.41m,St Thomas Tomcat Invitational,"Apr 7, 2023",-0.6,
-11,"Anderson, Danielle",JR-3,St. Benedict,9.25m,St Thomas Tomcat Invitational,"Apr 7, 2023",+0.0,
-12,"Strampe, Toria",SO-2,St. Scholastica,9.18m,St Thomas Tomcat Invitational,"Apr 7, 2023",+0.0,
-
-1,"Feist, Cade",SO-2,St. Olaf,15.18m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-2,"Mollison, Andrew",JR-3,St. Olaf,13.86m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-3,"Beseth, Trent",SO-2,St. Scholastica,13.72m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-4,"Hokanson, Adam",FR-1,Bethel (Minn.),13.55m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-5,"Dedry, Arnauld",JR-3,St. Olaf,12.63m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-6,"DeWall, Kaleb",SO-2,St. John's (Minn.),12.26m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-7,"Edelman, Ryan",FR-1,St. Olaf,12.12m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-8,"Jacklen, Christopher",JR-3,St. Scholastica,11.42m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-9,"Mills, Austin",FR-1,Macalester,11.25m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-10,"Fritz, Casen",SO-2,Saint Mary's (Minn.),10.34m,Wash U Invite,"Mar 31, 2023",
-11,"Oachs, Jacob",SO-2,Bethel (Minn.),9.99m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-12,"Yang, Aiden",SO-2,Macalester,9.58m,Wartburg Outdoor Select,"Apr 1, 2023",
-13,"Turqueza, Keenan",FR-1,St. John's (Minn.),9.43m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-14,"Rhonemus, Wade",JR-3,Concordia-Moorhead,8.15m,USD Early Bird,"Apr 7, 2023",
-
-1,"Roethler, Emma",SO-2,Bethel (Minn.),12.53m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-2,"Wilhelm, Nora",FR-1,Bethel (Minn.),12.34m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-3,"Keske, Aleah",JR-3,St. Olaf,11.96m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-4,"Meyers, Molly",SR-4,Hamline,11.80m,Dutch Invitational 2023,"Apr 7, 2023",
-5,"Kubes, Samantha",JR-3,Saint Mary's (Minn.),11.51m,Good Friday Open,"Apr 7, 2023",
-6,"Jackman, Sydney",SO-2,Saint Mary's (Minn.),11.47m,Good Friday Open,"Apr 7, 2023",
-7,"Joos, Haley",JR-3,St. Benedict,10.97m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-7,"Biggins, Ellie",SR-4,Hamline,10.97m,Dutch Invitational 2023,"Apr 7, 2023",
-9,"Wallendal, Morgan",SO-2,Saint Mary's (Minn.),10.74m,Good Friday Open,"Apr 7, 2023",
-10,"Johnson, Emma",SO-2,St. Olaf,10.46m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-11,"Hobby, Sarah Beth",JR-3,Macalester,10.45m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-12,"Al-Juhari, Alea",SR-4,St. Olaf,10.35m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-13,"Horvath, Chando",JR-3,St. Catherine (Minn.),9.95m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-14,"Althoff, Abby",JR-3,St. Catherine (Minn.),9.68m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-15,"Speratos, Anna",FR-1,Bethel (Minn.),9.53m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-16,"Torres, Alexis",SO-2,St. Benedict,9.35m,Wartburg Outdoor Select,"Apr 1, 2023",
-17,"Blanchette, Grace",JR-3,Carleton,9.19m,44th Aztec Invitational,"Mar 23, 2023",
-18,"Sampson, Skyla",FR-1,St. Benedict,9.10m,Wartburg Outdoor Select,"Apr 1, 2023",
-19,"Kangas, Brooke",SO-2,Concordia-Moorhead,8.82m,USD Early Bird,"Apr 7, 2023",
-20,"Becker, Anna",SO-2,Saint Mary's (Minn.),8.34m,Wash U Invite,"Mar 31, 2023",
-21,"Hansen, Liz",FR-1,St. Benedict,8.06m,Wartburg Outdoor Select,"Apr 1, 2023",
-22,"Wehrspann, Lydia",SR-4,St. Catherine (Minn.),8.01m,Ross and Sharon Irwin meet,"Mar 18, 2023",
-23,"Kordus, Grace",FR-1,St. Catherine (Minn.),7.91m,Ross and Sharon Irwin meet,"Mar 18, 2023",
-24,"Boelter, Ella",FR-1,Bethel (Minn.),7.86m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-
-1,"Ramirez, Ricky",SO-2,Concordia-Moorhead,42.99m,USD Early Bird,"Apr 7, 2023",
-2,"Mensen, Joseph",SO-2,St. John's (Minn.),37.40m,Wartburg Outdoor Select,"Apr 1, 2023",
-3,"Menache, Max",SO-2,Macalester,37.13m,Wartburg Outdoor Select,"Apr 1, 2023",
-4,"Yang, Aiden",SO-2,Macalester,34.65m,Wartburg Outdoor Select,"Apr 1, 2023",
-5,"Kienholz, Carter",SO-2,Hamline,34.32m,Dutch Invitational 2023,"Apr 7, 2023",
-6,"Fritz, Casen",SO-2,Saint Mary's (Minn.),32.46m,Wash U Invite,"Mar 31, 2023",
-7,"Wright, Victor",SR-4,Macalester,30.92m,Wartburg Outdoor Select,"Apr 1, 2023",
-8,"DeWall, Kaleb",SO-2,St. John's (Minn.),30.68m,Wartburg Outdoor Select,"Apr 1, 2023",
-9,"Rhonemus, Wade",JR-3,Concordia-Moorhead,29.20m,USD Early Bird,"Apr 7, 2023",
-
-1,"Wallendal, Morgan",SO-2,Saint Mary's (Minn.),38.52m,Good Friday Open,"Apr 7, 2023",
-2,"Kangas, Allyson",SR-4,Concordia-Moorhead,36.60m,USD Early Bird,"Apr 7, 2023",
-3,"Hunt, Jade",SO-2,Hamline,36.49m,Dutch Invitational 2023,"Apr 7, 2023",
-4,"Joos, Haley",JR-3,St. Benedict,32.02m,Wartburg Outdoor Select,"Apr 1, 2023",
-5,"Kubes, Samantha",JR-3,Saint Mary's (Minn.),31.93m,Wash U Invite,"Mar 31, 2023",
-6,"Dates, Desirae",FR-1,Hamline,31.83m,Dutch Invitational 2023,"Apr 7, 2023",
-7,"Horvath, Chando",JR-3,St. Catherine (Minn.),30.33m,Ross and Sharon Irwin meet,"Mar 18, 2023",
-8,"Kangas, Brooke",SO-2,Concordia-Moorhead,29.51m,USD Early Bird,"Apr 7, 2023",
-9,"Reed, Madison",JR-3,Hamline,29.37m,Dutch Invitational 2023,"Apr 7, 2023",
-10,"Jackman, Sydney",SO-2,Saint Mary's (Minn.),29.05m,Good Friday Open,"Apr 7, 2023",
-11,"Torres, Alexis",SO-2,St. Benedict,27.18m,Wartburg Outdoor Select,"Apr 1, 2023",
-12,"Becker, Anna",SO-2,Saint Mary's (Minn.),25.55m,Good Friday Open,"Apr 7, 2023",
-13,"Schmidt, Anna",FR-1,Hamline,25.09m,Dutch Invitational 2023,"Apr 7, 2023",
-14,"Tracy, Brooke",FR-1,Hamline,23.13m,Dutch Invitational 2023,"Apr 7, 2023",
-15,"Blake, Romona-Shae",FR-1,Hamline,18.83m,Dutch Invitational 2023,"Apr 7, 2023",
-16,"Kordus, Grace",FR-1,St. Catherine (Minn.),16.79m,Ross and Sharon Irwin meet,"Mar 18, 2023",
-
-1,"Larsen, Evan",SO-2,Bethel (Minn.),45.96m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-2,"Menache, Max",SO-2,Macalester,45.47m,Wartburg Outdoor Select,"Apr 1, 2023",
-3,"Fritz, Casen",SO-2,Saint Mary's (Minn.),45.02m,Wash U Invite,"Mar 31, 2023",
-4,"Mollet, Eli",JR-3,St. John's (Minn.),44.67m,Wartburg Outdoor Select,"Apr 1, 2023",
-5,"Mensen, Joseph",SO-2,St. John's (Minn.),43.28m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-6,"Feist, Cade",SO-2,St. Olaf,42.75m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-7,"Edelman, Ryan",FR-1,St. Olaf,41.90m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-8,"Steger, Grant",JR-3,St. Scholastica,41.74m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-9,"Wright, Victor",SR-4,Macalester,38.80m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-10,"Hokanson, Adam",FR-1,Bethel (Minn.),36.76m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-11,"Dedry, Arnauld",JR-3,St. Olaf,35.23m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-12,"Kuriscak, Tom",FR-1,St. John's (Minn.),34.78m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-13,"Mills, Austin",FR-1,Macalester,33.56m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-14,"McGlynn, Galen",FR-1,St. Olaf,31.90m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-15,"Turqueza, Keenan",FR-1,St. John's (Minn.),30.47m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-16,"Ramirez, Ricky",SO-2,Concordia-Moorhead,29.61m,USD Early Bird,"Apr 7, 2023",
-17,"Oachs, Jacob",SO-2,Bethel (Minn.),28.83m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-18,"Lutkauskas, Niko",FR-1,St. Scholastica,26.47m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-
-1,"Reed, Madison",JR-3,Hamline,47.36m,Dutch Invitational 2023,"Apr 7, 2023",
-2,"Kangas, Allyson",SR-4,Concordia-Moorhead,47.35m,USD Early Bird,"Apr 7, 2023",
-3,"Kubes, Samantha",JR-3,Saint Mary's (Minn.),47.25m,Good Friday Open,"Apr 7, 2023",
-4,"Beckmann, Maggie",SR-4,St. Benedict,47.15m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-5,"Beneke, Lily",JR-3,St. Scholastica,46.97m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-6,"Becker, Anna",SO-2,Saint Mary's (Minn.),43.54m,Wash U Invite,"Mar 31, 2023",
-7,"Horvath, Chando",JR-3,St. Catherine (Minn.),42.65m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-8,"Lukenbill, Molly",SO-2,Bethel (Minn.),42.22m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-9,"Ellinghuysen, Lexi",SO-2,Bethel (Minn.),41.06m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-10,"Joos, Haley",JR-3,St. Benedict,38.07m,Wartburg Outdoor Select,"Apr 1, 2023",
-11,"Hunt, Jade",SO-2,Hamline,38.05m,Dutch Invitational 2023,"Apr 7, 2023",
-12,"Tracy, Brooke",FR-1,Hamline,37.02m,Dutch Invitational 2023,"Apr 7, 2023",
-13,"Wallendal, Morgan",SO-2,Saint Mary's (Minn.),36.65m,Good Friday Open,"Apr 7, 2023",
-14,"Bechtold, Kendall",SR-4,St. Benedict,36.47m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-15,"Dates, Desirae",FR-1,Hamline,35.04m,Dutch Invitational 2023,"Apr 7, 2023",
-16,"Jackman, Sydney",SO-2,Saint Mary's (Minn.),33.93m,Wash U Invite,"Mar 31, 2023",
-17,"Roethler, Emma",SO-2,Bethel (Minn.),33.70m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-18,"Irsfeld, Peyton",JR-3,St. Olaf,33.54m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-19,"Keske, Aleah",JR-3,St. Olaf,32.67m,St Thomas Tomcat Invitational,"Apr 7, 2023",
-20,"Althoff, Abby",JR-3,St. Catherine (Minn.),31.29m,Ross and Sharon Irwin meet,"Mar 18, 2023",
-21,"Wehrspann, Lydia",SR-4,St. Catherine (Minn.),30.03m,Ross and Sharon Irwin meet,"Mar 18, 2023",
-22,"Kangas, Brooke",SO-2,Concordia-Moorhead,29.94m,USD Early Bird,"Apr 7, 2023",
-23,"Blake, Romona-Shae",FR-1,Hamline,29.78m,Dutch Invitational 2023,"Apr 7, 2023",
-24,"Kordus, Grace",FR-1,St. Catherine (Minn.),15.54m,Ross and Sharon Irwin meet,"Mar 18, 2023",
-
-1,"Hague, Brett",SO-2,St. John's (Minn.),59.74m,UTA Invitational,"Mar 9, 2023",
-2,"Hennen, Logan",SO-2,St. John's (Minn.),50.85m,Wartburg Outdoor Select,"Apr 1, 2023",
-3,"Degen, Mitchell",FR-1,St. John's (Minn.),45.66m,Wartburg Outdoor Select,"Apr 1, 2023",
-4,"Rhonemus, Wade",JR-3,Concordia-Moorhead,43.21m,USD Early Bird,"Apr 7, 2023",
-5,"Bosley, Mason",SR-4,Macalester,40.38m,Wartburg Outdoor Select,"Apr 1, 2023",
-6,"Yang, Aiden",SO-2,Macalester,38.70m,Wartburg Outdoor Select,"Apr 1, 2023",
-7,"Lelwica, Max",SO-2,St. John's (Minn.),37.27m,Wartburg Outdoor Select,"Apr 1, 2023",
-8,"Mollet, Sam",FR-1,St. John's (Minn.),33.81m,Wartburg Outdoor Select,"Apr 1, 2023",
-
-1,"Leverentz, Bryana",SR-4,St. Catherine (Minn.),40.81m,Ross and Sharon Irwin meet,"Mar 18, 2023",
-2,"Blanchette, Grace",JR-3,Carleton,37.71m,44th Aztec Invitational,"Mar 23, 2023",
-3,"Hobby, Sarah Beth",JR-3,Macalester,34.23m,Wartburg Outdoor Select,"Apr 1, 2023",
-4,"Sampson, Skyla",FR-1,St. Benedict,19.91m,Wartburg Outdoor Select,"Apr 1, 2023",
-5,"Johnson, Isabelle",FR-1,Concordia-Moorhead,19.27m,USD Early Bird,"Apr 7, 2023",
-6,"Hansen, Liz",FR-1,St. Benedict,18.54m,Wartburg Outdoor Select,"Apr 1, 2023",
-7,"Ivesdal, Grace",SR-4,Concordia-Moorhead,17.10m,USD Early Bird,"Apr 7, 2023",
-
-1,"Blanchette, Grace",JR-3,Carleton,4069,44th Aztec Invitational,"Mar 23, 2023"
-
-1,"Rhonemus, Wade",JR-3,Concordia-Moorhead,5897,USD Early Bird,"Apr 7, 2023"
+@",Jack Christiansen Invite,"Mar 31, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Men
+6,"Wheeler, Caden",FR-1,St. John's (Minn.),49.80,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Men
+7,"Nelson, Grant",FR-1,Bethel (Minn.),49.86,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Men
+8,"Kubicek, Noah",FR-1,St. Scholastica,50.05,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Men
+9,"Bulwa, Chris",SO-2,Saint Mary's (Minn.),50.08,Good Friday Open,"Apr 7, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Men
+10,"Loder, Sebastian",FR-1,St. Olaf,50.32,Bethel Invitational,"Apr 15, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Men
+11,"Douglas, Derek",SO-2,St. Scholastica,50.64,SMU Cardinal Invitational,"Apr 15, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Men
+12,"Anderson, Reese",FR-1,Carleton,50.84,Ross and Sharon Irwin meet,"Mar 18, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Men
+13,"Conzemius, Ryan",SO-2,St. John's (Minn.),50.99,Norse Invite,"Apr 15, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Men
+14,"Schwinghamer, John",SR-4,St. Scholastica,51.10,SMU Cardinal Invitational,"Apr 15, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Men
+15,"Zeitchick, Seth",SO-2,Gustavus Adolphus,51.43,Bethel Invitational,"Apr 15, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Men
+16,"Peterson, Jericho",SR-4,St. Scholastica,51.48,SMU Cardinal Invitational,"Apr 15, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Men
+17,"Zahrbock, Simon",SR-4,Concordia-Moorhead,51.52,SMU Cardinal Invitational,"Apr 15, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Men
+18,"Asplin, Collin",FR-1,Bethel (Minn.),51.66,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Men
+19,"Haack, Tony",FR-1,Bethel (Minn.),51.82,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Men
+20,"Lord, Demetri",JR-3,St. Olaf,51.89,2023 Bryan Clay Invitational,"Apr 13, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Men
+21,"Fisher, Henry",JR-3,St. Olaf,51.96,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Men
+22,"Tiongson, Trevor",SO-2,Concordia-Moorhead,51.97,USD Early Bird,"Apr 7, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Men
+23,"Jackson, Garrett",SR-4,Saint Mary's (Minn.),51.99,Good Friday Open,"Apr 7, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Men
+24,"Montreuil, Owen",FR-1,St. John's (Minn.),52.01,Norse Invite,"Apr 15, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Men
+24,"Ash, Ethan",SO-2,Carleton,52.01,Ross and Sharon Irwin meet,"Mar 18, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Men
+26,"Johnson, Brady",SO-2,Saint Mary's (Minn.),52.28,Good Friday Open,"Apr 7, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Men
+27,"Gushwa, Agro",SO-2,Gustavus Adolphus,52.31,Bethel Invitational,"Apr 15, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Men
+28,"Anderson, Tyler",SO-2,St. Scholastica,52.36,SMU Cardinal Invitational,"Apr 15, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Men
+29,"Rhonemus, Wade",JR-3,Concordia-Moorhead,52.52,USD Early Bird,"Apr 7, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Men
+30,"Kennedy, Liam",SO-2,Carleton,52.58,Bethel Invitational,"Apr 15, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Men
+1,"Stellmach, Sarah",SO-2,Bethel (Minn.),57.55,Bethel Invitational,"Apr 15, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Women
+2,"Gregg, Hailey",SO-2,Bethel (Minn.),59.22,Bethel Invitational,"Apr 15, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Women
+3,"Hookom, Allison",FR-1,Augsburg,59.42,Ross and Sharon Irwin meet,"Mar 18, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Women
+4,"Twichell, Hadley",FR-1,Carleton,1:00.15,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Women
+5,"Brown, Makenna",SO-2,Bethel (Minn.),1:00.46,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Women
+5,"Bernardy, Lindsey",SR-4,Hamline,1:00.46,Bethel Invitational,"Apr 15, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Women
+7,"Guler, Maddie",JR-3,Concordia-Moorhead,1:00.62,SMU Cardinal Invitational,"Apr 15, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Women
+8,"Kroschel, Karla",JR-3,St. Olaf,1:00.94,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Women
+9,"Dean, Morgan",FR-1,Bethel (Minn.),1:01.03,Bethel Invitational,"Apr 15, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Women
+10,"Shercliffe, Meg",JR-3,Concordia-Moorhead,1:01.27,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Women
+11,"Gearin, Caroline",JR-3,Saint Mary's (Minn.),1:01.57,Good Friday Open,"Apr 7, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Women
+12,"Swenson, Abbie",SO-2,Bethel (Minn.),1:01.71,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Women
+13,"Nyuga, Sidela",SO-2,St. Benedict,1:02.05,Norse Invite,"Apr 15, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Women
+14,"Holman, Ququ",JR-3,St. Olaf,1:02.16,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Women
+15,"Wilkins, Hadley",FR-1,Macalester,1:02.27,Norse Invite,"Apr 15, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Women
+16,"Fromm, Jules",SO-2,St. Olaf,1:02.31,Bethel Invitational,"Apr 15, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Women
+17,"Storbakken, Emma",SO-2,St. Olaf,1:02.37,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Women
+18,"Pfeiffer, Ruth",FR-1,St. Olaf,1:02.40,Bethel Invitational,"Apr 15, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Women
+19,"Silverstein, Celia",FR-1,Carleton,1:02.43,Bethel Invitational,"Apr 15, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Women
+20,"Hauger, Sydney",SO-2,Gustavus Adolphus,1:02.50,Bethel Invitational,"Apr 15, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Women
+21,"Rocheford, Lauren",FR-1,Gustavus Adolphus,1:02.80,Bethel Invitational,"Apr 15, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Women
+22,"Wilson, Rachael",FR-1,St. Olaf,1:02.82,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Women
+23,"Nelson, Kayla",FR-1,St. Scholastica,1:03.43,SMU Cardinal Invitational,"Apr 15, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Women
+24,"Wyatt, Isabel",FR-1,St. Olaf,1:03.53,Bethel Invitational,"Apr 15, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Women
+25,"Kiminiski, Anna",JR-3,St. Scholastica,1:03.61,SMU Cardinal Invitational,"Apr 15, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Women
+26,"Rodriguez, Madeline",SR-4,Macalester,1:04.06,Norse Invite,"Apr 15, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Women
+27,"Knapp, Emerson",SO-2,St. Benedict,1:04.12,Norse Invite,"Apr 15, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Women
+28,"Fynboh, Isabel",FR-1,Gustavus Adolphus,1:04.18,Bethel Invitational,"Apr 15, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Women
+29,"Case, Mia",FR-1,St. Scholastica,1:04.24,SMU Cardinal Invitational,"Apr 15, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Women
+30,"Doyle, Erin",JR-3,St. Catherine (Minn.),1:04.25,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,400 Meters,MIAC Outdoor Performance List,Women
+1,"Ash, Ethan",SO-2,Carleton,1:55.31,Bethel Invitational,"Apr 15, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Men
+2,"Asfaw, Getinat",JR-3,Augsburg,1:55.71,Ross and Sharon Irwin meet,"Mar 18, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Men
+3,"Meier, Josh",SO-2,Carleton,1:56.28,Bethel Invitational,"Apr 15, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Men
+4,"St. Peter, Nick",FR-1,St. John's (Minn.),1:56.37,Norse Invite,"Apr 15, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Men
+5,"Diekmann, Dillon",JR-3,St. John's (Minn.),1:56.60,Norse Invite,"Apr 15, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Men
+6,"Clausing, Nathan",SO-2,St. John's (Minn.),1:56.62,Norse Invite,"Apr 15, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Men
+7,"Kelly, Will",JR-3,St. Olaf,1:57.02,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Men
+8,"Mattock, Will",SO-2,St. John's (Minn.),1:57.45,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Men
+9,"Rengo, Samuel",SO-2,St. John's (Minn.),1:57.62,Norse Invite,"Apr 15, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Men
+10,"Olsson, Tor",SO-2,Macalester,1:57.65,Norse Invite,"Apr 15, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Men
+10,"Nichols, Gabe",FR-1,Carleton,1:57.65,Redlands Invitational (Collegiate),"Mar 17, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Men
+12,"Douglas, Derek",SO-2,St. Scholastica,1:58.36,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Men
+13,"Berg, Riley",SO-2,St. John's (Minn.),1:58.44,Wartburg Outdoor Select,"Apr 1, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Men
+14,"Anderson, Reese",FR-1,Carleton,1:58.60,Redlands Invitational (Collegiate),"Mar 17, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Men
+15,"Neu, Nathan",SO-2,St. Scholastica,1:58.71,SMU Cardinal Invitational,"Apr 15, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Men
+16,"Rupnow, Markus",SO-2,Gustavus Adolphus,1:58.92,Warrior Invitational,"Apr 6, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Men
+17,"Crotteau, Ben",SO-2,Macalester,1:59.02,Norse Invite,"Apr 15, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Men
+18,"Hussien, Sakariya",SR-4,Augsburg,1:59.09,Ross and Sharon Irwin meet,"Mar 18, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Men
+19,"Johnson, Solomon",SR-4,Concordia-Moorhead,1:59.38,SMU Cardinal Invitational,"Apr 15, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Men
+20,"Nelson, Clark",SO-2,Bethel (Minn.),1:59.42,Bethel Invitational,"Apr 15, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Men
+21,"Coffey, Olaf",SO-2,St. Olaf,2:00.13,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Men
+22,"Moore, Cullen",FR-1,St. Olaf,2:00.49,Bethel Invitational,"Apr 15, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Men
+23,"Wielgos, Jake",SO-2,Gustavus Adolphus,2:00.51,Bethel Invitational,"Apr 15, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Men
+24,"Kloeppner, Daniel",SO-2,St. John's (Minn.),2:00.80,Norse Invite,"Apr 15, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Men
+25,"Roehl, Carson",SO-2,Gustavus Adolphus,2:00.94,Bethel Invitational,"Apr 15, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Men
+26,"Marble, Jack",SO-2,Gustavus Adolphus,2:01.25,Bethel Invitational,"Apr 15, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Men
+27,"Kuecker, Gabe",SO-2,Bethel (Minn.),2:01.28,Bethel Invitational,"Apr 15, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Men
+28,"Estrada, Gabe",JR-3,St. Olaf,2:01.51,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Men
+29,"Nemecek, Lance",FR-1,St. Olaf,2:01.90,Bethel Invitational,"Apr 15, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Men
+30,"Adams, Brock",SO-2,Macalester,2:01.99,Norse Invite,"Apr 15, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Men
+1,"Ihde, Annessa",SO-2,Bethel (Minn.),2:13.78,Bethel Invitational,"Apr 15, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Women
+2,"Maddux, Alexandra",SR-4,Hamline,2:16.21,Dutch Invitational 2023,"Apr 7, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Women
+3,"Smith, Fiona",JR-3,St. Benedict,2:19.14,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Women
+4,"Blanchard, Mary",SO-2,Carleton,2:19.83,Bethel Invitational,"Apr 15, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Women
+5,"Erickson, Lara",SO-2,Carleton,2:20.96,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Women
+6,"Silverstein, Celia",FR-1,Carleton,2:21.24,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Women
+7,"Frolek, Drew",SO-2,Concordia-Moorhead,2:21.63,SMU Cardinal Invitational,"Apr 15, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Women
+8,"Young, Ella",JR-3,St. Benedict,2:21.93,Norse Invite,"Apr 15, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Women
+9,"Sholing, Ellie",SR-4,St. Scholastica,2:22.09,SMU Cardinal Invitational,"Apr 15, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Women
+10,"Fromm, Jules",SO-2,St. Olaf,2:22.54,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Women
+11,"Abernethy, Sophie",SO-2,St. Olaf,2:24.85,Bethel Invitational,"Apr 15, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Women
+12,"Moeller, Grace",FR-1,St. Olaf,2:25.78,Bethel Invitational,"Apr 15, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Women
+13,"Gernandt, Ruby",SO-2,Bethel (Minn.),2:25.95,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Women
+14,"Smith, Kalli",SO-2,St. Benedict,2:25.96,Norse Invite,"Apr 15, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Women
+15,"Wyatt, Isabel",FR-1,St. Olaf,2:26.29,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Women
+16,"Smith, Sadie Ray",JR-3,Carleton,2:26.41,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Women
+17,"Landis, Ella",FR-1,St. Olaf,2:26.46,Bethel Invitational,"Apr 15, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Women
+18,"Theodosopolous, Sky",FR-1,Macalester,2:26.87,Norse Invite,"Apr 15, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Women
+19,"Wilkins, Hadley",FR-1,Macalester,2:27.14,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Women
+20,"Verkinnes, Brooke",FR-1,St. Benedict,2:27.41,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Women
+21,"Call, Sophie",JR-3,St. Olaf,2:27.92,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Women
+22,"Hage, Evie",SO-2,Bethel (Minn.),2:28.01,Bethel Invitational,"Apr 15, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Women
+23,"Manhard, Abbie",FR-1,St. Olaf,2:28.38,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Women
+24,"Warren, Anna",SO-2,Macalester,2:28.51,Norse Invite,"Apr 15, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Women
+25,"Cook, Alex",SR-4,St. Benedict,2:28.54,Norse Invite,"Apr 15, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Women
+26,"Wyland, Lucia",JR-3,St. Olaf,2:29.20,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Women
+27,"Zielsdorf, Natalie",FR-1,St. Benedict,2:29.41,Norse Invite,"Apr 15, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Women
+28,"Lyngen, Lucy",JR-3,St. Benedict,2:29.74,Norse Invite,"Apr 15, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Women
+29,"Pirone, Mara",FR-1,Macalester,2:29.76,Norse Invite,"Apr 15, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Women
+30,"Mauzer, Riley",JR-3,St. Olaf,2:30.02,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,800 Meters,MIAC Outdoor Performance List,Women
+1,"Nichols, Gabe",FR-1,Carleton,3:53.81,Ross and Sharon Irwin meet,"Mar 18, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Men
+2,"Young, Lloyd",SO-2,St. John's (Minn.),3:54.98,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Men
+3,"Grove, Carter",SO-2,St. John's (Minn.),3:57.49,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Men
+4,"Bati, Mohammed",FR-1,Augsburg,3:58.75,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Men
+5,"Olsson, Tor",SO-2,Macalester,3:59.09,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Men
+6,"Diekmann, Dillon",JR-3,St. John's (Minn.),3:59.26,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Men
+7,"Munoz, Julian",JR-3,St. Olaf,4:00.19,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Men
+8,"Coffey, Olaf",SO-2,St. Olaf,4:00.34,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Men
+9,"Turlington, Kevin",FR-1,St. Olaf,4:01.13,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Men
+10,"Asfaw, Getinat",JR-3,Augsburg,4:01.33,Ross and Sharon Irwin meet,"Mar 18, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Men
+11,"Crotteau, Ben",SO-2,Macalester,4:01.38,Norse Invite,"Apr 15, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Men
+12,"DeWall, Lars",JR-3,St. Scholastica,4:02.21,SMU Cardinal Invitational,"Apr 15, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Men
+13,"Hussien, Sakariya",SR-4,Augsburg,4:02.26,Ross and Sharon Irwin meet,"Mar 18, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Men
+14,"McKee, Reece",SO-2,Macalester,4:02.77,Norse Invite,"Apr 15, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Men
+15,"Neu, Nathan",SO-2,St. Scholastica,4:04.44,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Men
+16,"Hartney, Sean",SO-2,St. Olaf,4:05.07,Bethel Invitational,"Apr 15, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Men
+17,"Mattock, Will",SO-2,St. John's (Minn.),4:05.63,Norse Invite,"Apr 15, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Men
+18,"Doran, Eli",FR-1,St. Olaf,4:05.68,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Men
+19,"Chalmers, Aiden",FR-1,St. John's (Minn.),4:06.37,Norse Invite,"Apr 15, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Men
+20,"Ihrke, Nick",SO-2,Macalester,4:06.90,Norse Invite,"Apr 15, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Men
+21,"Smith, Tyler",SO-2,Gustavus Adolphus,4:07.74,Bethel Invitational,"Apr 15, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Men
+22,"Marsh, Jackson",SO-2,St. Olaf,4:08.70,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Men
+23,"Adams, Brock",SO-2,Macalester,4:08.82,Norse Invite,"Apr 15, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Men
+24,"Rupnow, Markus",SO-2,Gustavus Adolphus,4:09.24,Bethel Invitational,"Apr 15, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Men
+25,"Skemp, Andrew",SO-2,St. Olaf,4:09.57,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Men
+26,"Peterson, Luke",SO-2,Bethel (Minn.),4:10.12,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Men
+27,"Chamberlin, Owen",FR-1,St. Olaf,4:10.24,Bethel Invitational,"Apr 15, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Men
+28,"Kloeppner, Daniel",SO-2,St. John's (Minn.),4:10.76,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Men
+29,"Lee, Joe",SO-2,Concordia-Moorhead,4:11.70,SMU Cardinal Invitational,"Apr 15, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Men
+30,"Moore, Cullen",FR-1,St. Olaf,4:11.90,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Men
+1,"Smith, Fiona",JR-3,St. Benedict,4:31.94,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Women
+2,"Albrecht, Christine",JR-3,St. Olaf,4:40.46,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Women
+3,"Blanchard, Mary",SO-2,Carleton,4:41.85,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Women
+4,"Ihde, Annessa",SO-2,Bethel (Minn.),4:41.93,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Women
+5,"Maddux, Alexandra",SR-4,Hamline,4:43.02,Bethel Invitational,"Apr 15, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Women
+6,"Carlson, Sofia",SO-2,St. Olaf,4:47.75,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Women
+7,"Landis, Ella",FR-1,St. Olaf,4:49.88,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Women
+8,"Bode, Alison",SO-2,St. Olaf,4:49.90,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Women
+9,"Moeller, Grace",FR-1,St. Olaf,4:53.42,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Women
+10,"Theodosopolous, Sky",FR-1,Macalester,4:53.53,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Women
+11,"Abernethy, Sophie",SO-2,St. Olaf,4:55.03,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Women
+12,"Maahs, Keiley",JR-3,St. Benedict,4:57.09,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Women
+13,"Rowland, Libby",SO-2,Carleton,4:57.35,Bethel Invitational,"Apr 15, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Women
+14,"Harms, Josie",SO-2,Bethel (Minn.),4:57.50,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Women
+15,"Ward, Phoebe",SO-2,Carleton,4:57.87,Bethel Invitational,"Apr 15, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Women
+16,"Tilley, Rainey",JR-3,Carleton,4:59.00,Bethel Invitational,"Apr 15, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Women
+17,"Walukas, Kailyn",SO-2,Gustavus Adolphus,4:59.33,Bethel Invitational,"Apr 15, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Women
+18,"Call, Bella",JR-3,St. Olaf,4:59.61,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Women
+19,"Schafer, Nell",JR-3,Carleton,5:00.56,Bethel Invitational,"Apr 15, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Women
+20,"Frolek, Drew",SO-2,Concordia-Moorhead,5:02.83,USD Early Bird,"Apr 7, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Women
+21,"Kiolbasa, Annie",JR-3,St. Benedict,5:03.82,Norse Invite,"Apr 15, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Women
+22,"Gernandt, Ruby",SO-2,Bethel (Minn.),5:04.20,Bethel Invitational,"Apr 15, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Women
+23,"Helmer, Maj-Lis",JR-3,St. Scholastica,5:04.29,SMU Cardinal Invitational,"Apr 15, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Women
+24,"McCloskey, Molly Kate",FR-1,St. Olaf,5:04.64,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Women
+25,"Maddux, Alicia",FR-1,Hamline,5:05.28,Dutch Invitational 2023,"Apr 7, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Women
+26,"Tetmeyer, Bridget",JR-3,St. Benedict,5:07.00,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Women
+27,"Dieschbourg, Morgan",SO-2,Carleton,5:07.85,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Women
+28,"Larsen, Aliya",SO-2,Carleton,5:07.94,Bethel Invitational,"Apr 15, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Women
+29,"Kenney, Mary",FR-1,St. Benedict,5:08.00,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Women
+30,"Nelson, Esther",SO-2,Bethel (Minn.),5:09.39,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,1500 Meters,MIAC Outdoor Performance List,Women
+1,"Bocovich, Logan",JR-3,St. Olaf,14:14.49,Wash U Distance Carnival Saturday 2023,"Apr 1, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Men
+2,"Kelly, Will",JR-3,St. Olaf,14:18.74,Wash U Distance Carnival Saturday 2023,"Apr 1, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Men
+3,"Bati, Mohammed",FR-1,Augsburg,14:32.98,Ross and Sharon Irwin meet,"Mar 18, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Men
+4,"Young, Lloyd",SO-2,St. John's (Minn.),14:38.64,UW-Platteville Invitational,"Apr 14, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Men
+5,"Llewellyn, Roy",FR-1,Carleton,14:52.29,Bethel Invitational,"Apr 15, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Men
+6,"Bowman, Henry",JR-3,Carleton,14:52.96,Bethel Invitational,"Apr 15, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Men
+7,"Nichols, Gabe",FR-1,Carleton,14:53.21,Mangrum Invitational,"Mar 24, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Men
+8,"Grove, Carter",SO-2,St. John's (Minn.),14:53.66,UW-Platteville Invitational,"Apr 14, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Men
+9,"Turlington, Kevin",FR-1,St. Olaf,14:59.53,UW-Platteville Invitational,"Apr 14, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Men
+10,"Skemp, Andrew",SO-2,St. Olaf,14:59.86,UW-Platteville Invitational,"Apr 14, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Men
+11,"Coffey, Olaf",SO-2,St. Olaf,15:09.67,UW-Platteville Invitational,"Apr 14, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Men
+12,"Cavanaugh, Eamon",SO-2,St. John's (Minn.),15:11.00,UW-Platteville Invitational,"Apr 14, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Men
+13,"Cote, Anders",JR-3,St. Olaf,15:12.10,UW-Platteville Invitational,"Apr 14, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Men
+14,"St George, Aidan",SO-2,Bethel (Minn.),15:13.43,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Men
+15,"Crotteau, Ben",SO-2,Macalester,15:16.50,Wartburg Outdoor Select,"Apr 1, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Men
+16,"Munoz, Julian",JR-3,St. Olaf,15:20.39,UW-Platteville Invitational,"Apr 14, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Men
+17,"Montresor, Kevin",JR-3,St. Olaf,15:20.88,UW-Platteville Invitational,"Apr 14, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Men
+18,"Thompson, Reese",SO-2,Bethel (Minn.),15:26.34,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Men
+19,"McKee, Reece",SO-2,Macalester,15:28.86,Wartburg Outdoor Select,"Apr 1, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Men
+20,"Lyford, Derk",JR-3,St. Olaf,15:35.62,UW-Platteville Invitational,"Apr 14, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Men
+21,"Hinchcliffe, Henry",SO-2,Gustavus Adolphus,15:39.02,Bethel Invitational,"Apr 15, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Men
+22,"Max, Parker",FR-1,St. Olaf,15:40.34,Bethel Invitational,"Apr 15, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Men
+23,"Manzur Strandlund, Gael",FR-1,St. Olaf,15:44.06,Bethel Invitational,"Apr 15, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Men
+24,"Aoki-Sherwood, Ben",JR-3,Carleton,15:44.63,Bethel Invitational,"Apr 15, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Men
+25,"Deaver, Jack",FR-1,St. Olaf,15:46.30,Bethel Invitational,"Apr 15, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Men
+26,"Edwards, Tyler",FR-1,Macalester,15:47.65,Norse Invite,"Apr 15, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Men
+27,"Olsson, Tor",SO-2,Macalester,15:48.92,Wartburg Outdoor Select,"Apr 1, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Men
+28,"Appel, Aidan",SO-2,Macalester,15:54.25,Norse Invite,"Apr 15, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Men
+29,"Peske, Cole",SR-4,Macalester,15:55.47,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Men
+30,"McCullough, Logan",SO-2,Gustavus Adolphus,15:55.57,Bethel Invitational,"Apr 15, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Men
+1,"Smith, Fiona",JR-3,St. Benedict,16:26.20,Wartburg Outdoor Select,"Apr 1, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Women
+2,"Mayfield, Clara",JR-3,Carleton,16:30.62,Bob Larsen Distance Carnival,"Mar 24, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Women
+3,"Carlson, Sofia",SO-2,St. Olaf,17:04.03,UW-Platteville Invitational,"Apr 14, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Women
+4,"Preisser, Hannah",SO-2,Carleton,17:21.94,Bethel Invitational,"Apr 15, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Women
+5,"McManus, Sophie",SO-2,Carleton,17:22.90,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Women
+6,"Bode, Alison",SO-2,St. Olaf,17:42.62,UW-Platteville Invitational,"Apr 14, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Women
+7,"Walda, Lauren",FR-1,St. Olaf,17:45.27,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Women
+8,"Call, Bella",JR-3,St. Olaf,17:59.78,Bethel Invitational,"Apr 15, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Women
+9,"Ward, Phoebe",SO-2,Carleton,18:10.62,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Women
+10,"Helmer, Maj-Lis",JR-3,St. Scholastica,18:12.57,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Women
+11,"Villalobos, Evelyn",SO-2,Gustavus Adolphus,18:18.64,Bethel Invitational,"Apr 15, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Women
+12,"Kiolbasa, Annie",JR-3,St. Benedict,18:33.72,Wartburg Outdoor Select,"Apr 1, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Women
+13,"Larsen, Aliya",SO-2,Carleton,18:35.24,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Women
+14,"Everest, Julia",JR-3,St. Olaf,18:40.01,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Women
+15,"Larsen-Schmidt, Gracia",SO-2,St. Olaf,18:55.54,Bethel Invitational,"Apr 15, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Women
+16,"Johnson, Gracie",FR-1,Augsburg,18:56.97,Ross and Sharon Irwin meet,"Mar 18, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Women
+17,"Borgmann, Marte",JR-3,Carleton,18:59.03,Bethel Invitational,"Apr 15, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Women
+18,"Rugloski, Emily",SR-4,Concordia-Moorhead,19:04.07,SMU Cardinal Invitational,"Apr 15, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Women
+19,"Roberdeau, Libby",JR-3,Hamline,19:23.74,Dutch Invitational 2023,"Apr 7, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Women
+20,"Yeager, Elise",JR-3,St. Benedict,19:26.35,Norse Invite,"Apr 15, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Women
+21,"Decker, Anna",SO-2,Bethel (Minn.),19:28.60,Bethel Invitational,"Apr 15, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Women
+22,"Votruba, Maggie",SO-2,Carleton,19:29.29,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Women
+23,"Stackhouse, Madison",FR-1,Bethel (Minn.),19:29.97,Bethel Invitational,"Apr 15, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Women
+24,"Norvell, Seneca",JR-3,St. Olaf,19:35.38,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Women
+25,"Colnes, Jesse",SR-4,Macalester,19:39.85,Norse Invite,"Apr 15, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Women
+26,"Coyle, Sylvia",SO-2,Macalester,19:41.40,Norse Invite,"Apr 15, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Women
+27,"Franke, Erin",SR-4,Macalester,19:49.89,Norse Invite,"Apr 15, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Women
+28,"Hardwick, Laura",SO-2,Bethel (Minn.),20:02.65,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Women
+29,"Bitner, Lauren",JR-3,St. Olaf,20:05.82,Bethel Invitational,"Apr 15, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Women
+30,"Gossard, Sophie",JR-3,St. Olaf,20:15.85,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,5000 Meters,MIAC Outdoor Performance List,Women
+1,"Bocovich, Logan",JR-3,St. Olaf,29:35.40,2023 Bryan Clay Invitational,"Apr 13, 2023",NaN,"10,000 Meters",MIAC Outdoor Performance List,Men
+2,"Bowman, Henry",JR-3,Carleton,31:11.76,Mangrum Invitational,"Mar 24, 2023",NaN,"10,000 Meters",MIAC Outdoor Performance List,Men
+1,"Smith, Fiona",JR-3,St. Benedict,33:23.89,63rd Annual Mt. SAC Relays,"Apr 12, 2023",NaN,"10,000 Meters",MIAC Outdoor Performance List,Women
+1,"Nelson, Birgen",SO-2,Gustavus Adolphus,13.88,Duke Invitational,"Apr 6, 2023",-0.2,100 Hurdles,MIAC Outdoor Performance List,Women
+2,"Sealock, Kelsie",SO-2,Bethel (Minn.),13.98,St Thomas Tomcat Invitational,"Apr 7, 2023",2.5,100 Hurdles,MIAC Outdoor Performance List,Women
+3,"Salfer, Rebekah",SR-4,St. Olaf,15.46,St Thomas Tomcat Invitational,"Apr 7, 2023",2.5,100 Hurdles,MIAC Outdoor Performance List,Women
+4,"Bodin, Gabby",JR-3,St. Catherine (Minn.),15.49,St Thomas Tomcat Invitational,"Apr 7, 2023",2.5,100 Hurdles,MIAC Outdoor Performance List,Women
+5,"Hughes, Daneyah",FR-1,Gustavus Adolphus,15.50,Bethel Invitational,"Apr 15, 2023",-0.4,100 Hurdles,MIAC Outdoor Performance List,Women
+6,"Berg, Lauren",FR-1,St. Benedict,15.61,Wartburg Outdoor Select,"Apr 1, 2023",0.9,100 Hurdles,MIAC Outdoor Performance List,Women
+7,"Miller, Danielle",SO-2,Gustavus Adolphus,"15.74
+@",Gustavus/Colorado College Dual Meet,"Apr 3, 2023",1.8,100 Hurdles,MIAC Outdoor Performance List,Women
+8,"Blanchette, Grace",JR-3,Carleton,15.78,Bethel Invitational,"Apr 15, 2023",1.4,100 Hurdles,MIAC Outdoor Performance List,Women
+9,"Hernes, Ellie",FR-1,Bethel (Minn.),15.85,St Thomas Tomcat Invitational,"Apr 7, 2023",1.5,100 Hurdles,MIAC Outdoor Performance List,Women
+10,"Nelson, AnnaGrace",SO-2,Bethel (Minn.),15.93,St Thomas Tomcat Invitational,"Apr 7, 2023",1.5,100 Hurdles,MIAC Outdoor Performance List,Women
+11,"Floren, Justus",SO-2,St. Benedict,15.96,Norse Invite,"Apr 15, 2023",1.6,100 Hurdles,MIAC Outdoor Performance List,Women
+11,"Williams, McKenzie",JR-3,St. Scholastica,15.96,SMU Cardinal Invitational,"Apr 15, 2023",-0.1,100 Hurdles,MIAC Outdoor Performance List,Women
+13,"Selle, Peyton",JR-3,Concordia-Moorhead,15.98,SMU Cardinal Invitational,"Apr 15, 2023",-0.1,100 Hurdles,MIAC Outdoor Performance List,Women
+14,"Huetten, Makenna",SO-2,Gustavus Adolphus,16.09,Bethel Invitational,"Apr 15, 2023",-0.4,100 Hurdles,MIAC Outdoor Performance List,Women
+15,"Dimler, Lauren",FR-1,Gustavus Adolphus,"16.11
+@",Gustavus/Colorado College Dual Meet,"Apr 3, 2023",1.8,100 Hurdles,MIAC Outdoor Performance List,Women
+16,"Barlue, Burnices",JR-3,St. Catherine (Minn.),16.67,Ross and Sharon Irwin meet,"Mar 18, 2023",1.7,100 Hurdles,MIAC Outdoor Performance List,Women
+17,"Kalevik, Jenna",SO-2,Concordia-Moorhead,16.74,SMU Cardinal Invitational,"Apr 15, 2023",-0.1,100 Hurdles,MIAC Outdoor Performance List,Women
+18,"King, Hannah",SO-2,Bethel (Minn.),16.84,Bethel Invitational,"Apr 15, 2023",1.2,100 Hurdles,MIAC Outdoor Performance List,Women
+19,"Stackhouse , Ally",SO-2,Bethel (Minn.),16.99,Bethel Invitational,"Apr 15, 2023",-0.4,100 Hurdles,MIAC Outdoor Performance List,Women
+20,"Scholten, Hailey",FR-1,Bethel (Minn.),17.04,St Thomas Tomcat Invitational,"Apr 7, 2023",2.8,100 Hurdles,MIAC Outdoor Performance List,Women
+21,"Lilleberg, Nicole",SR-4,Concordia-Moorhead,17.14,Rittgers Invitational,"Apr 7, 2023",-1.9,100 Hurdles,MIAC Outdoor Performance List,Women
+22,"Darling, Kiernan",SO-2,Concordia-Moorhead,17.30,USD Early Bird,"Apr 7, 2023",4.5,100 Hurdles,MIAC Outdoor Performance List,Women
+23,"Josephson, Madi",FR-1,St. Benedict,17.40,Norse Invite,"Apr 15, 2023",+0.0,100 Hurdles,MIAC Outdoor Performance List,Women
+24,"Hobby, Sarah Beth",JR-3,Macalester,17.58,Wartburg Outdoor Select,"Apr 1, 2023",3.1,100 Hurdles,MIAC Outdoor Performance List,Women
+25,"Johnson, Lily",SO-2,St. Olaf,17.68,Bethel Invitational,"Apr 15, 2023",1.4,100 Hurdles,MIAC Outdoor Performance List,Women
+26,"Hannah, Gabrielle",SO-2,Hamline,17.84,Bethel Invitational,"Apr 15, 2023",1.2,100 Hurdles,MIAC Outdoor Performance List,Women
+27,"Sahly, Emma",SO-2,St. Olaf,18.17,Bethel Invitational,"Apr 15, 2023",-0.4,100 Hurdles,MIAC Outdoor Performance List,Women
+28,"Schuele, Emma",FR-1,St. Benedict,18.20,Norse Invite,"Apr 15, 2023",+0.0,100 Hurdles,MIAC Outdoor Performance List,Women
+29,"Rocheford, Lauren",FR-1,Gustavus Adolphus,"18.69
+@",Gustavus/Colorado College Dual Meet,"Apr 3, 2023",1.8,100 Hurdles,MIAC Outdoor Performance List,Women
+30,"Selisker, Ellie",JR-3,St. Benedict,19.01,Norse Invite,"Apr 15, 2023",+0.0,100 Hurdles,MIAC Outdoor Performance List,Women
+1,"Ekiyor, Jayson",SO-2,Bethel (Minn.),14.37,St Thomas Tomcat Invitational,"Apr 7, 2023",1.5,110 Hurdles,MIAC Outdoor Performance List,Men
+2,"Kramarczuk, Lucas",JR-3,St. Olaf,14.40,St Thomas Tomcat Invitational,"Apr 7, 2023",1.5,110 Hurdles,MIAC Outdoor Performance List,Men
+3,"Sampson, Josh",SO-2,Bethel (Minn.),14.54,Bethel Invitational,"Apr 15, 2023",0.4,110 Hurdles,MIAC Outdoor Performance List,Men
+4,"Myres, David",SO-2,Bethel (Minn.),15.30,Bethel Invitational,"Apr 15, 2023",0.4,110 Hurdles,MIAC Outdoor Performance List,Men
+5,"Lord, Demetri",JR-3,St. Olaf,15.50,St Thomas Tomcat Invitational,"Apr 7, 2023",1.5,110 Hurdles,MIAC Outdoor Performance List,Men
+6,"Ferrin, Pryce",FR-1,Bethel (Minn.),15.71,Bethel Invitational,"Apr 15, 2023",-1.3,110 Hurdles,MIAC Outdoor Performance List,Men
+7,"Clark, Logan",FR-1,Concordia-Moorhead,15.89,SMU Cardinal Invitational,"Apr 15, 2023",0.4,110 Hurdles,MIAC Outdoor Performance List,Men
+8,"Lelwica, Max",SO-2,St. John's (Minn.),16.52,Wartburg Outdoor Select,"Apr 1, 2023",2.5,110 Hurdles,MIAC Outdoor Performance List,Men
+9,"Lee, Josh",SO-2,Bethel (Minn.),16.54,St Thomas Tomcat Invitational,"Apr 7, 2023",1.5,110 Hurdles,MIAC Outdoor Performance List,Men
+10,"Clayton, Trajen",FR-1,Augsburg,16.55,St Thomas Tomcat Invitational,"Apr 7, 2023",1.5,110 Hurdles,MIAC Outdoor Performance List,Men
+10,"Nissen, Matthew",JR-3,St. Olaf,16.55,Bethel Invitational,"Apr 15, 2023",0.2,110 Hurdles,MIAC Outdoor Performance List,Men
+12,"Rhonemus, Wade",JR-3,Concordia-Moorhead,16.56,USD Early Bird,"Apr 7, 2023",3.5,110 Hurdles,MIAC Outdoor Performance List,Men
+13,"Mahamud, Hamza",FR-1,Macalester,16.73,Norse Invite,"Apr 15, 2023",+0.0,110 Hurdles,MIAC Outdoor Performance List,Men
+14,"Buxell, Riley",FR-1,St. John's (Minn.),16.86,Norse Invite,"Apr 15, 2023",+0.0,110 Hurdles,MIAC Outdoor Performance List,Men
+15,"Borst, Layton",SO-2,St. Olaf,17.14,St Thomas Tomcat Invitational,"Apr 7, 2023",1.3,110 Hurdles,MIAC Outdoor Performance List,Men
+16,"Stefanowicz, Sebastian",FR-1,Macalester,17.19,Norse Invite,"Apr 15, 2023",+0.0,110 Hurdles,MIAC Outdoor Performance List,Men
+17,"Blaeser, Aiden",FR-1,St. John's (Minn.),17.24,Norse Invite,"Apr 15, 2023",+0.0,110 Hurdles,MIAC Outdoor Performance List,Men
+18,"Skemp, Will",FR-1,St. Olaf,17.35,St Thomas Tomcat Invitational,"Apr 7, 2023",1.3,110 Hurdles,MIAC Outdoor Performance List,Men
+19,"Bassett, Jackson",SO-2,St. Olaf,17.78,St Thomas Tomcat Invitational,"Apr 7, 2023",1.5,110 Hurdles,MIAC Outdoor Performance List,Men
+20,"Thurk, Anthony",SO-2,St. John's (Minn.),18.19,Wartburg Outdoor Select,"Apr 1, 2023",4.1,110 Hurdles,MIAC Outdoor Performance List,Men
+21,"Cogley, Andrew",SO-2,St. Olaf,19.03,St Thomas Tomcat Invitational,"Apr 7, 2023",1.3,110 Hurdles,MIAC Outdoor Performance List,Men
+22,"Wada, Aki",FR-1,Macalester,19.53,Wartburg Outdoor Select,"Apr 1, 2023",4.1,110 Hurdles,MIAC Outdoor Performance List,Men
+1,"Smith, Joel",JR-3,Bethel (Minn.),52.44,Bethel Invitational,"Apr 15, 2023",NaN,400 Hurdles,MIAC Outdoor Performance List,Men
+2,"Ekiyor, Jayson",SO-2,Bethel (Minn.),53.09,Bethel Invitational,"Apr 15, 2023",NaN,400 Hurdles,MIAC Outdoor Performance List,Men
+3,"Labine, Brady",SR-4,St. John's (Minn.),54.77,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,400 Hurdles,MIAC Outdoor Performance List,Men
+4,"Myres, David",SO-2,Bethel (Minn.),55.25,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,400 Hurdles,MIAC Outdoor Performance List,Men
+5,"Karngar, Trokon",JR-3,Bethel (Minn.),57.15,Bethel Invitational,"Apr 15, 2023",NaN,400 Hurdles,MIAC Outdoor Performance List,Men
+6,"Meeker, Caleb",SO-2,Bethel (Minn.),59.23,Bethel Invitational,"Apr 15, 2023",NaN,400 Hurdles,MIAC Outdoor Performance List,Men
+7,"Bosley, Mason",SR-4,Macalester,59.37,Norse Invite,"Apr 15, 2023",NaN,400 Hurdles,MIAC Outdoor Performance List,Men
+8,"Schonebaum, Henry",FR-1,Macalester,59.38,Norse Invite,"Apr 15, 2023",NaN,400 Hurdles,MIAC Outdoor Performance List,Men
+9,"Karg, Caleb",FR-1,Concordia-Moorhead,59.56,SMU Cardinal Invitational,"Apr 15, 2023",NaN,400 Hurdles,MIAC Outdoor Performance List,Men
+10,"Buxell, Riley",FR-1,St. John's (Minn.),1:00.04,Norse Invite,"Apr 15, 2023",NaN,400 Hurdles,MIAC Outdoor Performance List,Men
+11,"Skemp, Will",FR-1,St. Olaf,1:01.18,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,400 Hurdles,MIAC Outdoor Performance List,Men
+12,"Blaeser, Aiden",FR-1,St. John's (Minn.),1:01.49,Norse Invite,"Apr 15, 2023",NaN,400 Hurdles,MIAC Outdoor Performance List,Men
+13,"Wada, Aki",FR-1,Macalester,1:01.57,Wartburg Outdoor Select,"Apr 1, 2023",NaN,400 Hurdles,MIAC Outdoor Performance List,Men
+14,"Clayton, Trajen",FR-1,Augsburg,1:01.70,Ross and Sharon Irwin meet,"Mar 18, 2023",NaN,400 Hurdles,MIAC Outdoor Performance List,Men
+15,"Ellis, Charles",SO-2,St. John's (Minn.),1:02.05,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,400 Hurdles,MIAC Outdoor Performance List,Men
+16,"Schulze, Sam",SO-2,Gustavus Adolphus,"1:02.16
+@",Gustavus/Colorado College Dual Meet,"Apr 3, 2023",NaN,400 Hurdles,MIAC Outdoor Performance List,Men
+17,"Pettis, Andrei",FR-1,Hamline,1:02.98,Dutch Invitational 2023,"Apr 7, 2023",NaN,400 Hurdles,MIAC Outdoor Performance List,Men
+18,"Ortiz, Raul",SO-2,Hamline,1:04.41,Dutch Invitational 2023,"Apr 7, 2023",NaN,400 Hurdles,MIAC Outdoor Performance List,Men
+19,"Baker, Grant",SO-2,Gustavus Adolphus,"1:09.80
+@",Gustavus/Colorado College Dual Meet,"Apr 3, 2023",NaN,400 Hurdles,MIAC Outdoor Performance List,Men
+1,"Nelson, Birgen",SO-2,Gustavus Adolphus,1:03.21,Bethel Invitational,"Apr 15, 2023",NaN,400 Hurdles,MIAC Outdoor Performance List,Women
+2,"Berg, Lauren",FR-1,St. Benedict,1:05.61,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,400 Hurdles,MIAC Outdoor Performance List,Women
+3,"Salfer, Rebekah",SR-4,St. Olaf,1:06.30,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,400 Hurdles,MIAC Outdoor Performance List,Women
+4,"Paulson, Annie",FR-1,Bethel (Minn.),1:08.04,Bethel Invitational,"Apr 15, 2023",NaN,400 Hurdles,MIAC Outdoor Performance List,Women
+5,"Williams, McKenzie",JR-3,St. Scholastica,1:08.41,SMU Cardinal Invitational,"Apr 15, 2023",NaN,400 Hurdles,MIAC Outdoor Performance List,Women
+6,"Smith , Jessie",SO-2,Bethel (Minn.),1:09.14,Bethel Invitational,"Apr 15, 2023",NaN,400 Hurdles,MIAC Outdoor Performance List,Women
+7,"Huetten, Makenna",SO-2,Gustavus Adolphus,1:10.10,Bethel Invitational,"Apr 15, 2023",NaN,400 Hurdles,MIAC Outdoor Performance List,Women
+8,"Danielzuk, Katie",SR-4,Hamline,1:12.27,Bethel Invitational,"Apr 15, 2023",NaN,400 Hurdles,MIAC Outdoor Performance List,Women
+9,"Lilleberg, Nicole",SR-4,Concordia-Moorhead,1:12.66,Rittgers Invitational,"Apr 7, 2023",NaN,400 Hurdles,MIAC Outdoor Performance List,Women
+10,"Scholten, Hailey",FR-1,Bethel (Minn.),1:13.16,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,400 Hurdles,MIAC Outdoor Performance List,Women
+11,"Lorenz, Kelly",SR-4,Concordia-Moorhead,1:13.60,USD Early Bird,"Apr 7, 2023",NaN,400 Hurdles,MIAC Outdoor Performance List,Women
+12,"Revoir, Sophia",FR-1,Concordia-Moorhead,1:13.85,SMU Cardinal Invitational,"Apr 15, 2023",NaN,400 Hurdles,MIAC Outdoor Performance List,Women
+13,"Aurelius, Andreiana",JR-3,Hamline,1:14.51,Bethel Invitational,"Apr 15, 2023",NaN,400 Hurdles,MIAC Outdoor Performance List,Women
+14,"Sahly, Emma",SO-2,St. Olaf,1:14.69,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,400 Hurdles,MIAC Outdoor Performance List,Women
+15,"Sims, Jaeden",FR-1,Macalester,1:15.22,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,400 Hurdles,MIAC Outdoor Performance List,Women
+16,"Rocheford, Lauren",FR-1,Gustavus Adolphus,"1:17.42
+@",Gustavus/Colorado College Dual Meet,"Apr 3, 2023",NaN,400 Hurdles,MIAC Outdoor Performance List,Women
+17,"Chevalier, Ava",FR-1,Concordia-Moorhead,1:17.68,SMU Cardinal Invitational,"Apr 15, 2023",NaN,400 Hurdles,MIAC Outdoor Performance List,Women
+18,"Schuele, Emma",FR-1,St. Benedict,1:18.41,Wartburg Outdoor Select,"Apr 1, 2023",NaN,400 Hurdles,MIAC Outdoor Performance List,Women
+1,"Kelly, Will",JR-3,St. Olaf,8:58.95,2023 Bryan Clay Invitational,"Apr 13, 2023",NaN,3000 Steeplechase,MIAC Outdoor Performance List,Men
+2,"Cote, Anders",JR-3,St. Olaf,9:33.56,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,3000 Steeplechase,MIAC Outdoor Performance List,Men
+3,"Grove, Carter",SO-2,St. John's (Minn.),9:38.49,Wartburg Outdoor Select,"Apr 1, 2023",NaN,3000 Steeplechase,MIAC Outdoor Performance List,Men
+4,"McKee, Reece",SO-2,Macalester,9:43.10,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,3000 Steeplechase,MIAC Outdoor Performance List,Men
+5,"LaVigne, Trevor",SO-2,Gustavus Adolphus,9:57.16,Bethel Invitational,"Apr 15, 2023",NaN,3000 Steeplechase,MIAC Outdoor Performance List,Men
+6,"Olson, Tanner",SR-4,Concordia-Moorhead,9:58.42,SMU Cardinal Invitational,"Apr 15, 2023",NaN,3000 Steeplechase,MIAC Outdoor Performance List,Men
+7,"Lyness, Indy",FR-1,Carleton,9:59.27,Bethel Invitational,"Apr 15, 2023",NaN,3000 Steeplechase,MIAC Outdoor Performance List,Men
+8,"Thompson, Reese",SO-2,Bethel (Minn.),10:01.62,Bethel Invitational,"Apr 15, 2023",NaN,3000 Steeplechase,MIAC Outdoor Performance List,Men
+9,"Estrada, Gabe",JR-3,St. Olaf,10:05.61,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,3000 Steeplechase,MIAC Outdoor Performance List,Men
+10,"Deaver, Jack",FR-1,St. Olaf,10:07.27,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,3000 Steeplechase,MIAC Outdoor Performance List,Men
+11,"Lyford, Derk",JR-3,St. Olaf,10:13.61,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,3000 Steeplechase,MIAC Outdoor Performance List,Men
+12,"Peske, Cole",SR-4,Macalester,10:14.46,Norse Invite,"Apr 15, 2023",NaN,3000 Steeplechase,MIAC Outdoor Performance List,Men
+13,"Hanley, Brett",SO-2,Carleton,10:15.74,Bethel Invitational,"Apr 15, 2023",NaN,3000 Steeplechase,MIAC Outdoor Performance List,Men
+14,"Lange, Emerson",FR-1,Carleton,10:15.77,Bethel Invitational,"Apr 15, 2023",NaN,3000 Steeplechase,MIAC Outdoor Performance List,Men
+15,"Fendig, Alex",JR-3,Macalester,10:16.22,Norse Invite,"Apr 15, 2023",NaN,3000 Steeplechase,MIAC Outdoor Performance List,Men
+16,"Brodie, Aric",SR-4,Hamline,10:16.66,Dutch Invitational 2023,"Apr 7, 2023",NaN,3000 Steeplechase,MIAC Outdoor Performance List,Men
+17,"Gathje, Joseph",SO-2,St. John's (Minn.),10:17.79,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,3000 Steeplechase,MIAC Outdoor Performance List,Men
+18,"Nemanich, Thomas",SO-2,St. John's (Minn.),10:22.73,Norse Invite,"Apr 15, 2023",NaN,3000 Steeplechase,MIAC Outdoor Performance List,Men
+19,"Leonard, Ethan",SO-2,St. John's (Minn.),10:27.17,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,3000 Steeplechase,MIAC Outdoor Performance List,Men
+20,"Groshelle, Gavin",FR-1,Concordia-Moorhead,10:29.99,SMU Cardinal Invitational,"Apr 15, 2023",NaN,3000 Steeplechase,MIAC Outdoor Performance List,Men
+21,"Kalsnes, Jonah",SO-2,Gustavus Adolphus,10:30.63,Bethel Invitational,"Apr 15, 2023",NaN,3000 Steeplechase,MIAC Outdoor Performance List,Men
+22,"Chalmers, Aiden",FR-1,St. John's (Minn.),10:35.15,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,3000 Steeplechase,MIAC Outdoor Performance List,Men
+23,"LiaBraaten, Lucas",FR-1,Hamline,10:39.99,Bethel Invitational,"Apr 15, 2023",NaN,3000 Steeplechase,MIAC Outdoor Performance List,Men
+24,"Nowacki, Cole",JR-3,Concordia-Moorhead,10:41.28,USD Early Bird,"Apr 7, 2023",NaN,3000 Steeplechase,MIAC Outdoor Performance List,Men
+25,"Trzynka, Nick",SO-2,Concordia-Moorhead,10:47.36,SMU Cardinal Invitational,"Apr 15, 2023",NaN,3000 Steeplechase,MIAC Outdoor Performance List,Men
+26,"Janzen, Will",FR-1,Gustavus Adolphus,11:09.54,Bethel Invitational,"Apr 15, 2023",NaN,3000 Steeplechase,MIAC Outdoor Performance List,Men
+1,"Albrecht, Christine",JR-3,St. Olaf,11:00.02,Bethel Invitational,"Apr 15, 2023",NaN,3000 Steeplechase,MIAC Outdoor Performance List,Women
+2,"McManus, Sophie",SO-2,Carleton,11:17.82,Bethel Invitational,"Apr 15, 2023",NaN,3000 Steeplechase,MIAC Outdoor Performance List,Women
+3,"Maahs, Keiley",JR-3,St. Benedict,11:51.76,Norse Invite,"Apr 15, 2023",NaN,3000 Steeplechase,MIAC Outdoor Performance List,Women
+4,"Rugloski, Emily",SR-4,Concordia-Moorhead,11:52.21,USD Early Bird,"Apr 7, 2023",NaN,3000 Steeplechase,MIAC Outdoor Performance List,Women
+5,"Harms, Josie",SO-2,Bethel (Minn.),11:53.75,Bethel Invitational,"Apr 15, 2023",NaN,3000 Steeplechase,MIAC Outdoor Performance List,Women
+6,"Tetmeyer, Bridget",JR-3,St. Benedict,11:55.27,Norse Invite,"Apr 15, 2023",NaN,3000 Steeplechase,MIAC Outdoor Performance List,Women
+7,"Kenney, Mary",FR-1,St. Benedict,12:12.73,Norse Invite,"Apr 15, 2023",NaN,3000 Steeplechase,MIAC Outdoor Performance List,Women
+8,"Hagen, Sydney",SO-2,Gustavus Adolphus,12:25.18,Bethel Invitational,"Apr 15, 2023",NaN,3000 Steeplechase,MIAC Outdoor Performance List,Women
+9,"Weberg, Molly",SO-2,Gustavus Adolphus,12:29.91,Bethel Invitational,"Apr 15, 2023",NaN,3000 Steeplechase,MIAC Outdoor Performance List,Women
+10,"Thurston, Karley",JR-3,Macalester,12:40.14,Norse Invite,"Apr 15, 2023",NaN,3000 Steeplechase,MIAC Outdoor Performance List,Women
+11,"Johnson, Airial",SO-2,Concordia-Moorhead,12:51.97,SMU Cardinal Invitational,"Apr 15, 2023",NaN,3000 Steeplechase,MIAC Outdoor Performance List,Women
+12,"Hay, Anna",FR-1,Bethel (Minn.),12:54.43,Bethel Invitational,"Apr 15, 2023",NaN,3000 Steeplechase,MIAC Outdoor Performance List,Women
+13,"Severson, Julia",SO-2,Gustavus Adolphus,12:57.73,Bethel Invitational,"Apr 15, 2023",NaN,3000 Steeplechase,MIAC Outdoor Performance List,Women
+14,"Breed, Brittany",FR-1,St. Catherine (Minn.),13:04.96,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,3000 Steeplechase,MIAC Outdoor Performance List,Women
+15,"Tillman, Lauren",SO-2,Gustavus Adolphus,13:20.68,Bethel Invitational,"Apr 15, 2023",NaN,3000 Steeplechase,MIAC Outdoor Performance List,Women
+16,"Revoir, Sophia",FR-1,Concordia-Moorhead,13:34.26,SMU Cardinal Invitational,"Apr 15, 2023",NaN,3000 Steeplechase,MIAC Outdoor Performance List,Women
+17,"Tess, Emily",SO-2,St. Benedict,14:08.78,Norse Invite,"Apr 15, 2023",NaN,3000 Steeplechase,MIAC Outdoor Performance List,Women
+18,"Brandt, Morgan",SR-4,St. Catherine (Minn.),14:21.25,Bethel Invitational,"Apr 15, 2023",NaN,3000 Steeplechase,MIAC Outdoor Performance List,Women
+1,"Ekiyor, Nelson, McConnell, Parent",NA,Bethel (Minn.),41.30,Bethel Invitational,"Apr 15, 2023",NaN,4 x 100 Relay,MIAC Outdoor Performance List,Men
+2,"Popoca, Arthur, Labine, Wheeler",NA,St. John's (Minn.),42.41,Wartburg Outdoor Select,"Apr 1, 2023",NaN,4 x 100 Relay,MIAC Outdoor Performance List,Men
+3,"Skelly, Quiring, Zeitchick, Flentje",NA,Gustavus Adolphus,43.46,Bethel Invitational,"Apr 15, 2023",NaN,4 x 100 Relay,MIAC Outdoor Performance List,Men
+4,"Gaye, Thomas, Pettis, Robinson",NA,Hamline,43.50,Bethel Invitational,"Apr 15, 2023",NaN,4 x 100 Relay,MIAC Outdoor Performance List,Men
+5,"Morical, Schaffer, Petron, Clark",NA,Concordia-Moorhead,43.71,SMU Cardinal Invitational,"Apr 15, 2023",NaN,4 x 100 Relay,MIAC Outdoor Performance List,Men
+6,"Mahamud, Kinnucan, Kogut, Zong-Naba",NA,Macalester,45.32,Norse Invite,"Apr 15, 2023",NaN,4 x 100 Relay,MIAC Outdoor Performance List,Men
+1,"Babalola, Sealock, Brown, Stellmach",NA,Bethel (Minn.),47.94,Bethel Invitational,"Apr 15, 2023",NaN,4 x 100 Relay,MIAC Outdoor Performance List,Women
+2,"Miller, Nelson, Geraets, Carlson",NA,Gustavus Adolphus,48.02,Bethel Invitational,"Apr 15, 2023",NaN,4 x 100 Relay,MIAC Outdoor Performance List,Women
+3,"Guler, Rengo, Heinecke, Nygaard",NA,Concordia-Moorhead,50.37,SMU Cardinal Invitational,"Apr 15, 2023",NaN,4 x 100 Relay,MIAC Outdoor Performance List,Women
+4,"Bishop, Hookom, Cesare, Rodriguez",NA,Augsburg,50.42,Ross and Sharon Irwin meet,"Mar 18, 2023",NaN,4 x 100 Relay,MIAC Outdoor Performance List,Women
+5,"Roberts, Ferguson, Blanchette, Twichell",NA,Carleton,50.75,Bethel Invitational,"Apr 15, 2023",NaN,4 x 100 Relay,MIAC Outdoor Performance List,Women
+6,"Nelson, Johnson, Josephson, Gallagher",NA,St. Benedict,51.17,Norse Invite,"Apr 15, 2023",NaN,4 x 100 Relay,MIAC Outdoor Performance List,Women
+7,"Nichols, Stinson, Schepper, Doyle",NA,St. Catherine (Minn.),51.31,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,4 x 100 Relay,MIAC Outdoor Performance List,Women
+8,"Grabau, Logelin, Nelson, Woo",NA,Hamline,51.95,Bethel Invitational,"Apr 15, 2023",NaN,4 x 100 Relay,MIAC Outdoor Performance List,Women
+9,"Sims, Falkowski, Hunter, Crewey",NA,Macalester,53.34,Wartburg Outdoor Select,"Apr 1, 2023",NaN,4 x 100 Relay,MIAC Outdoor Performance List,Women
+1,"Liu, Nelson, Myres, Parent",NA,Bethel (Minn.),3:17.77,Bethel Invitational,"Apr 15, 2023",NaN,4 x 400 Relay,MIAC Outdoor Performance List,Men
+2,"Jackson, Johnson, Adamson, Bulwa",NA,Saint Mary's (Minn.),3:22.47,SMU Cardinal Invitational,"Apr 15, 2023",NaN,4 x 400 Relay,MIAC Outdoor Performance List,Men
+3,"Schwinghamer, Lynch, Douglas, Kubicek",NA,St. Scholastica,3:23.90,SMU Cardinal Invitational,"Apr 15, 2023",NaN,4 x 400 Relay,MIAC Outdoor Performance List,Men
+4,"Bittner, McNearny, Fisher, Loder",NA,St. Olaf,3:25.51,Bethel Invitational,"Apr 15, 2023",NaN,4 x 400 Relay,MIAC Outdoor Performance List,Men
+5,"Wheeler, Mattock, Langheim, Montreuil",NA,St. John's (Minn.),3:26.47,Norse Invite,"Apr 15, 2023",NaN,4 x 400 Relay,MIAC Outdoor Performance List,Men
+6,"Heitler, Schonebaum, Kogut, Kinnucan",NA,Macalester,3:27.88,Norse Invite,"Apr 15, 2023",NaN,4 x 400 Relay,MIAC Outdoor Performance List,Men
+7,"Kennedy, Ash, Meier, Scott",NA,Carleton,3:28.59,Bethel Invitational,"Apr 15, 2023",NaN,4 x 400 Relay,MIAC Outdoor Performance List,Men
+8,"Ortiz, Pettis, Pfenning-Wendt, Couper",NA,Hamline,3:35.74,Bethel Invitational,"Apr 15, 2023",NaN,4 x 400 Relay,MIAC Outdoor Performance List,Men
+9,"Kessel, Chilala, Birkeland, Krueger",NA,Concordia-Moorhead,3:38.19,SMU Cardinal Invitational,"Apr 15, 2023",NaN,4 x 400 Relay,MIAC Outdoor Performance List,Men
+10,"Stageberg, Roehl, Fossen, Marble",NA,Gustavus Adolphus,3:39.69,Bethel Invitational,"Apr 15, 2023",NaN,4 x 400 Relay,MIAC Outdoor Performance List,Men
+1,"Sealock, Gregg, Ihde, Brown",NA,Bethel (Minn.),3:58.23,Bethel Invitational,"Apr 15, 2023",NaN,4 x 400 Relay,MIAC Outdoor Performance List,Women
+2,"Blanchard, Ferguson, Erickson, Twichell",NA,Carleton,4:06.91,Bethel Invitational,"Apr 15, 2023",NaN,4 x 400 Relay,MIAC Outdoor Performance List,Women
+3,"Holman, Kroschel, Wilson, Storbakken",NA,St. Olaf,4:07.54,Bethel Invitational,"Apr 15, 2023",NaN,4 x 400 Relay,MIAC Outdoor Performance List,Women
+4,"Knapp, Ganley, Nyuga, Berg",NA,St. Benedict,4:09.52,Norse Invite,"Apr 15, 2023",NaN,4 x 400 Relay,MIAC Outdoor Performance List,Women
+5,"Guler, Selle, Wunderlich, Frolek",NA,Concordia-Moorhead,4:09.98,SMU Cardinal Invitational,"Apr 15, 2023",NaN,4 x 400 Relay,MIAC Outdoor Performance List,Women
+6,"Ellefson, Nelson, Kiminiski, Sholing",NA,St. Scholastica,4:12.66,SMU Cardinal Invitational,"Apr 15, 2023",NaN,4 x 400 Relay,MIAC Outdoor Performance List,Women
+7,"Bernardy, Logelin, Grabau, Nelson",NA,Hamline,4:15.28,Dutch Invitational 2023,"Apr 7, 2023",NaN,4 x 400 Relay,MIAC Outdoor Performance List,Women
+8,"Amundson, Sims, Wilkins, Hunter",NA,Macalester,4:17.61,Wartburg Outdoor Select,"Apr 1, 2023",NaN,4 x 400 Relay,MIAC Outdoor Performance List,Women
+9,"Hauger, Fynboh, Walukas, Wagner",NA,Gustavus Adolphus,4:18.74,Bethel Invitational,"Apr 15, 2023",NaN,4 x 400 Relay,MIAC Outdoor Performance List,Women
+10,"McMahon, Meyer, Frosch, Gearin",NA,Saint Mary's (Minn.),4:28.33,Good Friday Open,"Apr 7, 2023",NaN,4 x 400 Relay,MIAC Outdoor Performance List,Women
+1,"Bies, Danny",SO-2,Gustavus Adolphus,1.93m,Bethel Invitational,"Apr 15, 2023",NaN,High Jump,MIAC Outdoor Performance List,Men
+2,"Braun, Michael",SO-2,Hamline,1.90m,Bethel Invitational,"Apr 15, 2023",NaN,High Jump,MIAC Outdoor Performance List,Men
+3,"Swenson, Simon",FR-1,Bethel (Minn.),1.85m,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,High Jump,MIAC Outdoor Performance List,Men
+3,"Thurk, Anthony",SO-2,St. John's (Minn.),1.85m,Wartburg Outdoor Select,"Apr 1, 2023",NaN,High Jump,MIAC Outdoor Performance List,Men
+5,"Schegel, Abe",JR-3,Bethel (Minn.),1.80m,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,High Jump,MIAC Outdoor Performance List,Men
+5,"Seiler, Alex",SO-2,St. John's (Minn.),1.80m,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,High Jump,MIAC Outdoor Performance List,Men
+5,"Braun, Alec",SO-2,Bethel (Minn.),1.80m,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,High Jump,MIAC Outdoor Performance List,Men
+5,"Lord, Demetri",JR-3,St. Olaf,1.80m,2023 Bryan Clay Invitational,"Apr 13, 2023",NaN,High Jump,MIAC Outdoor Performance List,Men
+5,"Subramanian, Aravindh",JR-3,Carleton,1.80m,Bethel Invitational,"Apr 15, 2023",NaN,High Jump,MIAC Outdoor Performance List,Men
+5,"Ungar, Alec",SO-2,St. John's (Minn.),1.80m,Wartburg Outdoor Select,"Apr 1, 2023",NaN,High Jump,MIAC Outdoor Performance List,Men
+11,"Rhonemus, Wade",JR-3,Concordia-Moorhead,1.79m,USD Early Bird,"Apr 7, 2023",NaN,High Jump,MIAC Outdoor Performance List,Men
+12,"Cline-Cole, Ethan",SO-2,Carleton,1.75m,Bethel Invitational,"Apr 15, 2023",NaN,High Jump,MIAC Outdoor Performance List,Men
+12,"Cogley, Andrew",SO-2,St. Olaf,1.75m,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,High Jump,MIAC Outdoor Performance List,Men
+14,"Lee, Iain",FR-1,Hamline,1.70m,Dutch Invitational 2023,"Apr 7, 2023",NaN,High Jump,MIAC Outdoor Performance List,Men
+15,"Smith, Micah",JR-3,Bethel (Minn.),1.65m,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,High Jump,MIAC Outdoor Performance List,Men
+15,"Sullivan, Logan",SO-2,Gustavus Adolphus,1.65m,Bethel Invitational,"Apr 15, 2023",NaN,High Jump,MIAC Outdoor Performance List,Men
+15,"Wellman, Trevor",SO-2,Bethel (Minn.),1.65m,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,High Jump,MIAC Outdoor Performance List,Men
+18,"Schulze, Sam",SO-2,Gustavus Adolphus,1.55m,Gustavus/Colorado College Dual Meet,"Apr 3, 2023",NaN,High Jump,MIAC Outdoor Performance List,Men
+1,"Hovey, Glasha",FR-1,Bethel (Minn.),1.65m,Bethel Invitational,"Apr 15, 2023",NaN,High Jump,MIAC Outdoor Performance List,Women
+2,"Floren, Justus",SO-2,St. Benedict,1.60m,Wartburg Outdoor Select,"Apr 1, 2023",NaN,High Jump,MIAC Outdoor Performance List,Women
+3,"Bangs, Lindsay",SO-2,Gustavus Adolphus,1.50m,Bethel Invitational,"Apr 15, 2023",NaN,High Jump,MIAC Outdoor Performance List,Women
+3,"Kalevik, Jenna",SO-2,Concordia-Moorhead,1.50m,SMU Cardinal Invitational,"Apr 15, 2023",NaN,High Jump,MIAC Outdoor Performance List,Women
+3,"Nichols, Claire",SR-4,St. Catherine (Minn.),1.50m,Ross and Sharon Irwin meet,"Mar 18, 2023",NaN,High Jump,MIAC Outdoor Performance List,Women
+3,"Selisker, Ellie",JR-3,St. Benedict,1.50m,Norse Invite,"Apr 15, 2023",NaN,High Jump,MIAC Outdoor Performance List,Women
+3,"Rakow, Ally",SO-2,Gustavus Adolphus,1.50m,Bethel Invitational,"Apr 15, 2023",NaN,High Jump,MIAC Outdoor Performance List,Women
+8,"Bodin, Gabby",JR-3,St. Catherine (Minn.),1.48m,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,High Jump,MIAC Outdoor Performance List,Women
+8,"Nelson, AnnaGrace",SO-2,Bethel (Minn.),1.48m,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,High Jump,MIAC Outdoor Performance List,Women
+10,"Hobby, Sarah Beth",JR-3,Macalester,1.45m,Norse Invite,"Apr 15, 2023",NaN,High Jump,MIAC Outdoor Performance List,Women
+10,"Strampe, Toria",SO-2,St. Scholastica,1.45m,SMU Cardinal Invitational,"Apr 15, 2023",NaN,High Jump,MIAC Outdoor Performance List,Women
+10,"Fischer, Sofia",FR-1,St. Scholastica,1.45m,SMU Cardinal Invitational,"Apr 15, 2023",NaN,High Jump,MIAC Outdoor Performance List,Women
+13,"Blanchette, Grace",JR-3,Carleton,1.44m,44th Aztec Invitational,"Mar 23, 2023",NaN,High Jump,MIAC Outdoor Performance List,Women
+14,"Moe, Hannah",FR-1,Bethel (Minn.),1.43m,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,High Jump,MIAC Outdoor Performance List,Women
+14,"Salfer, Rebekah",SR-4,St. Olaf,1.43m,2023 Bryan Clay Invitational,"Apr 13, 2023",NaN,High Jump,MIAC Outdoor Performance List,Women
+16,"Luehrs, Jensen",SO-2,Gustavus Adolphus,1.40m,Bethel Invitational,"Apr 15, 2023",NaN,High Jump,MIAC Outdoor Performance List,Women
+17,"Lee, Maddox",FR-1,Gustavus Adolphus,1.35m,Bethel Invitational,"Apr 15, 2023",NaN,High Jump,MIAC Outdoor Performance List,Women
+18,"Cappelmann, Lauren",FR-1,Macalester,1.30m,Norse Invite,"Apr 15, 2023",NaN,High Jump,MIAC Outdoor Performance List,Women
+18,"Wgeishofski, Sydnie",FR-1,St. Scholastica,1.30m,SMU Cardinal Invitational,"Apr 15, 2023",NaN,High Jump,MIAC Outdoor Performance List,Women
+20,"Hannah, Gabrielle",SO-2,Hamline,1.25m,Bethel Invitational,"Apr 15, 2023",NaN,High Jump,MIAC Outdoor Performance List,Women
+1,"Charbonneau, Joseph",SO-2,St. John's (Minn.),4.67m,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,Pole Vault,MIAC Outdoor Performance List,Men
+1,"Arnold, Dylan",SO-2,St. Olaf,4.67m,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,Pole Vault,MIAC Outdoor Performance List,Men
+3,"Guth, Kole",FR-1,St. John's (Minn.),4.50m,Norse Invite,"Apr 15, 2023",NaN,Pole Vault,MIAC Outdoor Performance List,Men
+4,"Gardeen, Samuel",SO-2,Bethel (Minn.),4.40m,Bethel Invitational,"Apr 15, 2023",NaN,Pole Vault,MIAC Outdoor Performance List,Men
+5,"DeGross, Mason",SO-2,St. John's (Minn.),4.22m,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,Pole Vault,MIAC Outdoor Performance List,Men
+6,"Gatz, Aidan",SO-2,Saint Mary's (Minn.),4.10m,Good Friday Open,"Apr 7, 2023",NaN,Pole Vault,MIAC Outdoor Performance List,Men
+7,"Adams, Andrew",SO-2,St. John's (Minn.),3.92m,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,Pole Vault,MIAC Outdoor Performance List,Men
+8,"Cella, Jack",FR-1,Concordia-Moorhead,3.86m,USD Early Bird,"Apr 7, 2023",NaN,Pole Vault,MIAC Outdoor Performance List,Men
+9,"Walker, Erik",SO-2,Gustavus Adolphus,3.80m,Bethel Invitational,"Apr 15, 2023",NaN,Pole Vault,MIAC Outdoor Performance List,Men
+9,"Ream, Joe",FR-1,Gustavus Adolphus,3.80m,Bethel Invitational,"Apr 15, 2023",NaN,Pole Vault,MIAC Outdoor Performance List,Men
+9,"Rhonemus, Wade",JR-3,Concordia-Moorhead,3.80m,USD Early Bird,"Apr 7, 2023",NaN,Pole Vault,MIAC Outdoor Performance List,Men
+9,"Schegel, Abe",JR-3,Bethel (Minn.),3.80m,Bethel Invitational,"Apr 15, 2023",NaN,Pole Vault,MIAC Outdoor Performance List,Men
+13,"McCormick, Connor",FR-1,Gustavus Adolphus,3.65m,Bethel Invitational,"Apr 15, 2023",NaN,Pole Vault,MIAC Outdoor Performance List,Men
+13,"Marzinske, Logan",SO-2,Gustavus Adolphus,3.65m,Bethel Invitational,"Apr 15, 2023",NaN,Pole Vault,MIAC Outdoor Performance List,Men
+13,"Menter, Forest",FR-1,St. Olaf,3.65m,Bethel Invitational,"Apr 15, 2023",NaN,Pole Vault,MIAC Outdoor Performance List,Men
+13,"Adams, Tim",SO-2,Carleton,3.65m,Bethel Invitational,"Apr 15, 2023",NaN,Pole Vault,MIAC Outdoor Performance List,Men
+13,"Borst, Layton",SO-2,St. Olaf,3.65m,Bethel Invitational,"Apr 15, 2023",NaN,Pole Vault,MIAC Outdoor Performance List,Men
+18,"Doom, Max",SO-2,St. John's (Minn.),3.62m,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,Pole Vault,MIAC Outdoor Performance List,Men
+18,"Johnston, Josh",FR-1,St. John's (Minn.),3.62m,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,Pole Vault,MIAC Outdoor Performance List,Men
+20,"Elahi, Rayan",JR-3,St. Olaf,3.50m,Bethel Invitational,"Apr 15, 2023",NaN,Pole Vault,MIAC Outdoor Performance List,Men
+20,"Engstrom, Oliver",FR-1,Hamline,3.50m,Bethel Invitational,"Apr 15, 2023",NaN,Pole Vault,MIAC Outdoor Performance List,Men
+22,"Daenzer, Luke",FR-1,Bethel (Minn.),3.35m,Bethel Invitational,"Apr 15, 2023",NaN,Pole Vault,MIAC Outdoor Performance List,Men
+22,"Smith, Micah",JR-3,Bethel (Minn.),3.35m,Bethel Invitational,"Apr 15, 2023",NaN,Pole Vault,MIAC Outdoor Performance List,Men
+22,"Mikla, Aiden",SO-2,Gustavus Adolphus,3.35m,Bethel Invitational,"Apr 15, 2023",NaN,Pole Vault,MIAC Outdoor Performance List,Men
+25,"Lord, Demetri",JR-3,St. Olaf,3.10m,2023 Bryan Clay Invitational,"Apr 13, 2023",NaN,Pole Vault,MIAC Outdoor Performance List,Men
+26,"Schulze, Sam",SO-2,Gustavus Adolphus,3.05m,Bethel Invitational,"Apr 15, 2023",NaN,Pole Vault,MIAC Outdoor Performance List,Men
+26,"Kallstrom, Brandon",SO-2,Bethel (Minn.),3.05m,Bethel Invitational,"Apr 15, 2023",NaN,Pole Vault,MIAC Outdoor Performance List,Men
+28,"Wellman , Trevor",SO-2,Bethel (Minn.),2.75m,Bethel Invitational,"Apr 15, 2023",NaN,Pole Vault,MIAC Outdoor Performance List,Men
+28,"Anderson, Reese",FR-1,Carleton,2.75m,Bethel Invitational,"Apr 15, 2023",NaN,Pole Vault,MIAC Outdoor Performance List,Men
+1,"Gearin, Caroline",JR-3,Saint Mary's (Minn.),3.50m,Wash U Invite,"Mar 31, 2023",NaN,Pole Vault,MIAC Outdoor Performance List,Women
+2,"Lilland, Jessica",SO-2,Bethel (Minn.),3.49m,Bethel Invitational,"Apr 15, 2023",NaN,Pole Vault,MIAC Outdoor Performance List,Women
+3,"Salfer, Caitlin",SR-4,St. Benedict,3.07m,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,Pole Vault,MIAC Outdoor Performance List,Women
+4,"Litton, Emily",JR-3,Carleton,2.89m,Bethel Invitational,"Apr 15, 2023",NaN,Pole Vault,MIAC Outdoor Performance List,Women
+4,"Pierson, Grace",SR-4,Hamline,2.89m,Bethel Invitational,"Apr 15, 2023",NaN,Pole Vault,MIAC Outdoor Performance List,Women
+4,"Bunker, Jenna",SO-2,Gustavus Adolphus,2.89m,Bethel Invitational,"Apr 15, 2023",NaN,Pole Vault,MIAC Outdoor Performance List,Women
+7,"Buffetta, Sabrina",SO-2,St. Benedict,2.77m,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,Pole Vault,MIAC Outdoor Performance List,Women
+7,"Cordes, Julia",SR-4,St. Olaf,2.77m,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,Pole Vault,MIAC Outdoor Performance List,Women
+9,"Selberg, LIllian",SO-2,Gustavus Adolphus,2.74m,Bethel Invitational,"Apr 15, 2023",NaN,Pole Vault,MIAC Outdoor Performance List,Women
+10,"Green, Lizzie",FR-1,Hamline,2.59m,Bethel Invitational,"Apr 15, 2023",NaN,Pole Vault,MIAC Outdoor Performance List,Women
+10,"Lee, Maddox",FR-1,Gustavus Adolphus,2.59m,Bethel Invitational,"Apr 15, 2023",NaN,Pole Vault,MIAC Outdoor Performance List,Women
+10,"Ramsdell, Lily",SO-2,Hamline,2.59m,Bethel Invitational,"Apr 15, 2023",NaN,Pole Vault,MIAC Outdoor Performance List,Women
+13,"Harris, Signe",SO-2,Concordia-Moorhead,2.54m,USD Early Bird,"Apr 7, 2023",NaN,Pole Vault,MIAC Outdoor Performance List,Women
+14,"Roberts, Melanie",JR-3,St. Olaf,2.47m,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,Pole Vault,MIAC Outdoor Performance List,Women
+15,"Luepke, Bria",FR-1,Hamline,2.45m,Dutch Invitational 2023,"Apr 7, 2023",NaN,Pole Vault,MIAC Outdoor Performance List,Women
+16,"Abernethy, Sophie",SO-2,St. Olaf,2.14m,Bethel Invitational,"Apr 15, 2023",NaN,Pole Vault,MIAC Outdoor Performance List,Women
+1,"Kramarczuk, Lucas",JR-3,St. Olaf,6.73m,St Thomas Tomcat Invitational,"Apr 7, 2023",-0.1,Long Jump,MIAC Outdoor Performance List,Men
+2,"Nelson, Grant",FR-1,Bethel (Minn.),6.69m,St Thomas Tomcat Invitational,"Apr 7, 2023",0.4,Long Jump,MIAC Outdoor Performance List,Men
+3,"Moo, Eh Ler",SO-2,St. Olaf,6.61m,St Thomas Tomcat Invitational,"Apr 7, 2023",1.2,Long Jump,MIAC Outdoor Performance List,Men
+4,"Schaffer, Zach",FR-1,St. John's (Minn.),6.57m,Norse Invite,"Apr 15, 2023",+0.0,Long Jump,MIAC Outdoor Performance List,Men
+5,"Swenson, Simon",FR-1,Bethel (Minn.),6.56m,St Thomas Tomcat Invitational,"Apr 7, 2023",+0.0,Long Jump,MIAC Outdoor Performance List,Men
+6,"Cisewski, Antonio",SO-2,Saint Mary's (Minn.),6.54m,SMU Cardinal Invitational,"Apr 15, 2023",1.5,Long Jump,MIAC Outdoor Performance List,Men
+7,"Lord, Demetri",JR-3,St. Olaf,6.40m,2023 Bryan Clay Invitational,"Apr 13, 2023",0.2,Long Jump,MIAC Outdoor Performance List,Men
+8,"Rhonemus, Wade",JR-3,Concordia-Moorhead,6.39m,USD Early Bird,"Apr 7, 2023",2.7,Long Jump,MIAC Outdoor Performance List,Men
+9,"Stroschein, Weston",SO-2,St. Scholastica,6.25m,St Thomas Tomcat Invitational,"Apr 7, 2023",1.1,Long Jump,MIAC Outdoor Performance List,Men
+10,"Watson, Teris",FR-1,Hamline,6.15m,Dutch Invitational 2023,"Apr 7, 2023",1.7,Long Jump,MIAC Outdoor Performance List,Men
+11,"Hermes, Nick",SO-2,Concordia-Moorhead,6.10m,SMU Cardinal Invitational,"Apr 15, 2023",0.9,Long Jump,MIAC Outdoor Performance List,Men
+12,"Charlton, Josh",SO-2,St. Olaf,6.07m,Bethel Invitational,"Apr 15, 2023",0.4,Long Jump,MIAC Outdoor Performance List,Men
+13,"Le, Nathan",SO-2,Gustavus Adolphus,5.96m,Bethel Invitational,"Apr 15, 2023",1.1,Long Jump,MIAC Outdoor Performance List,Men
+14,"Ungar, Alec",SO-2,St. John's (Minn.),5.93m,Norse Invite,"Apr 15, 2023",+0.0,Long Jump,MIAC Outdoor Performance List,Men
+15,"Lelwica, Max",SO-2,St. John's (Minn.),5.91m,Norse Invite,"Apr 15, 2023",0.1,Long Jump,MIAC Outdoor Performance List,Men
+16,"Souksavath, Sean",JR-3,St. Olaf,5.89m,Bethel Invitational,"Apr 15, 2023",0.7,Long Jump,MIAC Outdoor Performance List,Men
+17,"Marsh, Anthony",SO-2,Concordia-Moorhead,5.84m,Kansas Relays,"Apr 13, 2023",1.5,Long Jump,MIAC Outdoor Performance List,Men
+18,"Pearson, Spencer",FR-1,Gustavus Adolphus,5.79m,Bethel Invitational,"Apr 15, 2023",0.5,Long Jump,MIAC Outdoor Performance List,Men
+19,"Subah, Isaiah",SO-2,Gustavus Adolphus,5.69m,Bethel Invitational,"Apr 15, 2023",1.2,Long Jump,MIAC Outdoor Performance List,Men
+20,"Carlson, Kirk",FR-1,Gustavus Adolphus,5.63m,Bethel Invitational,"Apr 15, 2023",+0.0,Long Jump,MIAC Outdoor Performance List,Men
+21,"Schulze, Sam",SO-2,Gustavus Adolphus,5.62m,Bethel Invitational,"Apr 15, 2023",0.9,Long Jump,MIAC Outdoor Performance List,Men
+22,"Redig, Kaedyn",SO-2,St. Scholastica,5.59m,SMU Cardinal Invitational,"Apr 15, 2023",0.6,Long Jump,MIAC Outdoor Performance List,Men
+23,"Collins, Joe",FR-1,Hamline,5.45m,Dutch Invitational 2023,"Apr 7, 2023",2.2,Long Jump,MIAC Outdoor Performance List,Men
+23,"LaMott, Gavin",SO-2,St. John's (Minn.),5.45m,Norse Invite,"Apr 15, 2023",0.8,Long Jump,MIAC Outdoor Performance List,Men
+25,"McCormick, Connor",FR-1,Gustavus Adolphus,5.28m,Bethel Invitational,"Apr 15, 2023",+0.0,Long Jump,MIAC Outdoor Performance List,Men
+26,"Rikkers, Sam",JR-3,St. Olaf,5.27m,Bethel Invitational,"Apr 15, 2023",+0.0,Long Jump,MIAC Outdoor Performance List,Men
+27,"Lee, Iain",FR-1,Hamline,5.16m,Bethel Invitational,"Apr 15, 2023",0.2,Long Jump,MIAC Outdoor Performance List,Men
+28,"Nelson, Tucker",FR-1,Concordia-Moorhead,5.10m,SMU Cardinal Invitational,"Apr 15, 2023",0.3,Long Jump,MIAC Outdoor Performance List,Men
+29,"Schmidt, Joe",SO-2,Gustavus Adolphus,4.35m,Bethel Invitational,"Apr 15, 2023",+0.0,Long Jump,MIAC Outdoor Performance List,Men
+1,"Amundson, Journey",SR-4,Macalester,5.15m,Norse Invite,"Apr 15, 2023",+0.0,Long Jump,MIAC Outdoor Performance List,Women
+2,"Hernes, Ellie",FR-1,Bethel (Minn.),5.14m,St Thomas Tomcat Invitational,"Apr 7, 2023",+0.0,Long Jump,MIAC Outdoor Performance List,Women
+3,"Dimler, Lauren",FR-1,Gustavus Adolphus,5.04m,Gustavus/Colorado College Dual Meet,"Apr 3, 2023",-0.7,Long Jump,MIAC Outdoor Performance List,Women
+4,"Nelson, AnnaGrace",SO-2,Bethel (Minn.),5.02m,St Thomas Tomcat Invitational,"Apr 7, 2023",-0.3,Long Jump,MIAC Outdoor Performance List,Women
+5,"Lindner, Sarrah",FR-1,Gustavus Adolphus,5.01m,Gustavus/Colorado College Dual Meet,"Apr 3, 2023",-1.5,Long Jump,MIAC Outdoor Performance List,Women
+5,"Schepper, Reilee",SR-4,St. Catherine (Minn.),5.01m,Bethel Invitational,"Apr 15, 2023",2.0,Long Jump,MIAC Outdoor Performance List,Women
+7,"Kes, Madi",SO-2,Gustavus Adolphus,4.97m,Bethel Invitational,"Apr 15, 2023",1.0,Long Jump,MIAC Outdoor Performance List,Women
+8,"Blanchette, Grace",JR-3,Carleton,4.95m,Bethel Invitational,"Apr 15, 2023",1.3,Long Jump,MIAC Outdoor Performance List,Women
+9,"Rengo, Emily",FR-1,Concordia-Moorhead,4.92m,SMU Cardinal Invitational,"Apr 15, 2023",0.5,Long Jump,MIAC Outdoor Performance List,Women
+10,"Sundberg, Maren",FR-1,Gustavus Adolphus,4.90m,Bethel Invitational,"Apr 15, 2023",1.0,Long Jump,MIAC Outdoor Performance List,Women
+11,"Shercliffe, Meg",JR-3,Concordia-Moorhead,4.89m,SMU Cardinal Invitational,"Apr 15, 2023",4.2,Long Jump,MIAC Outdoor Performance List,Women
+12,"Floren, Justus",SO-2,St. Benedict,4.87m,Wartburg Outdoor Select,"Apr 1, 2023",4.6,Long Jump,MIAC Outdoor Performance List,Women
+12,"Parker, Ainslee",JR-3,St. Olaf,4.87m,St Thomas Tomcat Invitational,"Apr 7, 2023",-1.2,Long Jump,MIAC Outdoor Performance List,Women
+14,"Nichols, Claire",SR-4,St. Catherine (Minn.),4.77m,St Thomas Tomcat Invitational,"Apr 7, 2023",-1.8,Long Jump,MIAC Outdoor Performance List,Women
+15,"Salfer, Rebekah",SR-4,St. Olaf,4.69m,2023 Bryan Clay Invitational,"Apr 13, 2023",+0.0,Long Jump,MIAC Outdoor Performance List,Women
+16,"Hobby, Sarah Beth",JR-3,Macalester,4.66m,Wartburg Outdoor Select,"Apr 1, 2023",3.8,Long Jump,MIAC Outdoor Performance List,Women
+17,"Johnson, Lily",SO-2,St. Olaf,4.63m,St Thomas Tomcat Invitational,"Apr 7, 2023",+0.0,Long Jump,MIAC Outdoor Performance List,Women
+18,"Sautter, Kaitlyn",FR-1,St. Scholastica,4.60m,St Thomas Tomcat Invitational,"Apr 7, 2023",0.9,Long Jump,MIAC Outdoor Performance List,Women
+19,"Leverentz, Bryana",SR-4,St. Catherine (Minn.),4.59m,Ross and Sharon Irwin meet,"Mar 18, 2023",-1.6,Long Jump,MIAC Outdoor Performance List,Women
+20,"Darling, Kiernan",SO-2,Concordia-Moorhead,4.58m,SMU Cardinal Invitational,"Apr 15, 2023",1.5,Long Jump,MIAC Outdoor Performance List,Women
+21,"Josephson, Madi",FR-1,St. Benedict,4.57m,Norse Invite,"Apr 15, 2023",0.6,Long Jump,MIAC Outdoor Performance List,Women
+21,"Cesare, CC",FR-1,Augsburg,4.57m,St Thomas Tomcat Invitational,"Apr 7, 2023",2.6,Long Jump,MIAC Outdoor Performance List,Women
+23,"Barlue, Burnices",JR-3,St. Catherine (Minn.),4.53m,Bethel Invitational,"Apr 15, 2023",0.8,Long Jump,MIAC Outdoor Performance List,Women
+24,"Greeder, Caylee",SO-2,Gustavus Adolphus,4.52m,Bethel Invitational,"Apr 15, 2023",2.4,Long Jump,MIAC Outdoor Performance List,Women
+25,"Christensen, Izzy",FR-1,St. Benedict,4.49m,St Thomas Tomcat Invitational,"Apr 7, 2023",0.8,Long Jump,MIAC Outdoor Performance List,Women
+25,"Doyle, Erin",JR-3,St. Catherine (Minn.),4.49m,Ross and Sharon Irwin meet,"Mar 18, 2023",-1.2,Long Jump,MIAC Outdoor Performance List,Women
+27,"Kalevik, Jenna",SO-2,Concordia-Moorhead,4.48m,SMU Cardinal Invitational,"Apr 15, 2023",3.4,Long Jump,MIAC Outdoor Performance List,Women
+28,"Sikes, Jane",SO-2,St. Olaf,4.39m,St Thomas Tomcat Invitational,"Apr 7, 2023",0.3,Long Jump,MIAC Outdoor Performance List,Women
+29,"McClelland, Eva",FR-1,Gustavus Adolphus,4.35m,Bethel Invitational,"Apr 15, 2023",1.0,Long Jump,MIAC Outdoor Performance List,Women
+30,"Kiminiski, Anna",JR-3,St. Scholastica,4.33m,SMU Cardinal Invitational,"Apr 15, 2023",1.2,Long Jump,MIAC Outdoor Performance List,Women
+1,"Kramarczuk, Lucas",JR-3,St. Olaf,14.07m,2023 Bryan Clay Invitational,"Apr 13, 2023",+0.0,Triple Jump,MIAC Outdoor Performance List,Men
+2,"Wade, Elijah",SO-2,St. John's (Minn.),13.66m,Norse Invite,"Apr 15, 2023",1.5,Triple Jump,MIAC Outdoor Performance List,Men
+3,"Hodin, Riley",SO-2,Macalester,13.56m,Wartburg Outdoor Select,"Apr 1, 2023",4.6,Triple Jump,MIAC Outdoor Performance List,Men
+4,"Braun, Michael",SO-2,Hamline,13.49m,Dutch Invitational 2023,"Apr 7, 2023",2.6,Triple Jump,MIAC Outdoor Performance List,Men
+5,"Crnkovich, Alex",SO-2,St. John's (Minn.),13.19m,Wartburg Outdoor Select,"Apr 1, 2023",2.3,Triple Jump,MIAC Outdoor Performance List,Men
+6,"Johnson, Brady",SO-2,Saint Mary's (Minn.),12.48m,SMU Cardinal Invitational,"Apr 15, 2023",1.0,Triple Jump,MIAC Outdoor Performance List,Men
+7,"Pearson, Spencer",FR-1,Gustavus Adolphus,12.42m,Bethel Invitational,"Apr 15, 2023",1.5,Triple Jump,MIAC Outdoor Performance List,Men
+8,"Veimau, Justin",JR-3,Macalester,12.21m,Norse Invite,"Apr 15, 2023",1.1,Triple Jump,MIAC Outdoor Performance List,Men
+9,"Souksavath, Sean",JR-3,St. Olaf,12.15m,St Thomas Tomcat Invitational,"Apr 7, 2023",-1.8,Triple Jump,MIAC Outdoor Performance List,Men
+10,"Cline-Cole, Ethan",SO-2,Carleton,12.00m,Bethel Invitational,"Apr 15, 2023",1.3,Triple Jump,MIAC Outdoor Performance List,Men
+11,"Thompson, Gabe",SO-2,Concordia-Moorhead,11.94m,SMU Cardinal Invitational,"Apr 15, 2023",-0.7,Triple Jump,MIAC Outdoor Performance List,Men
+12,"Stefanowicz, Sebastian",FR-1,Macalester,11.72m,Wartburg Outdoor Select,"Apr 1, 2023",5.0,Triple Jump,MIAC Outdoor Performance List,Men
+13,"Bosley, Mason",SR-4,Macalester,11.49m,Wartburg Outdoor Select,"Apr 1, 2023",2.3,Triple Jump,MIAC Outdoor Performance List,Men
+1,"Amundson, Journey",SR-4,Macalester,11.79m,Wartburg Outdoor Select,"Apr 1, 2023",2.9,Triple Jump,MIAC Outdoor Performance List,Women
+2,"Hernes, Ellie",FR-1,Bethel (Minn.),11.23m,Bethel Invitational,"Apr 15, 2023",1.8,Triple Jump,MIAC Outdoor Performance List,Women
+3,"Kes, Madi",SO-2,Gustavus Adolphus,11.00m,Bethel Invitational,"Apr 15, 2023",+0.0,Triple Jump,MIAC Outdoor Performance List,Women
+4,"Cesare, CC",FR-1,Augsburg,10.77m,St Thomas Tomcat Invitational,"Apr 7, 2023",NWI,Triple Jump,MIAC Outdoor Performance List,Women
+5,"Nelson, AnnaGrace",SO-2,Bethel (Minn.),10.73m,Bethel Invitational,"Apr 15, 2023",1.7,Triple Jump,MIAC Outdoor Performance List,Women
+6,"Schepper, Reilee",SR-4,St. Catherine (Minn.),10.69m,St Thomas Tomcat Invitational,"Apr 7, 2023",0.2,Triple Jump,MIAC Outdoor Performance List,Women
+7,"Lindner, Sarrah",FR-1,Gustavus Adolphus,10.54m,Gustavus/Colorado College Dual Meet,"Apr 3, 2023",-1.4,Triple Jump,MIAC Outdoor Performance List,Women
+8,"Parker, Ainslee",JR-3,St. Olaf,10.35m,Bethel Invitational,"Apr 15, 2023",0.4,Triple Jump,MIAC Outdoor Performance List,Women
+9,"Barlue, Burnices",JR-3,St. Catherine (Minn.),10.08m,Ross and Sharon Irwin meet,"Mar 18, 2023",-0.4,Triple Jump,MIAC Outdoor Performance List,Women
+9,"Guy, Lili",SO-2,Gustavus Adolphus,10.08m,Bethel Invitational,"Apr 15, 2023",+0.0,Triple Jump,MIAC Outdoor Performance List,Women
+11,"Roberts, Melanie",JR-3,St. Olaf,9.97m,Bethel Invitational,"Apr 15, 2023",0.1,Triple Jump,MIAC Outdoor Performance List,Women
+12,"Wunderlich, Mary",SO-2,Concordia-Moorhead,9.81m,SMU Cardinal Invitational,"Apr 15, 2023",-0.3,Triple Jump,MIAC Outdoor Performance List,Women
+13,"Lilleberg, Nicole",SR-4,Concordia-Moorhead,9.72m,Rittgers Invitational,"Apr 7, 2023",NWI,Triple Jump,MIAC Outdoor Performance List,Women
+14,"Sims, Jaeden",FR-1,Macalester,9.65m,Wartburg Outdoor Select,"Apr 1, 2023",2.0,Triple Jump,MIAC Outdoor Performance List,Women
+15,"Leverentz, Bryana",SR-4,St. Catherine (Minn.),9.55m,St Thomas Tomcat Invitational,"Apr 7, 2023",-1.0,Triple Jump,MIAC Outdoor Performance List,Women
+16,"McClelland, Eva",FR-1,Gustavus Adolphus,9.46m,Bethel Invitational,"Apr 15, 2023",+0.0,Triple Jump,MIAC Outdoor Performance List,Women
+17,"Nichols, Kyra",SR-4,Concordia-Moorhead,9.45m,SMU Cardinal Invitational,"Apr 15, 2023",1.0,Triple Jump,MIAC Outdoor Performance List,Women
+17,"Darling, Kiernan",SO-2,Concordia-Moorhead,9.45m,USD Early Bird,"Apr 7, 2023",2.3,Triple Jump,MIAC Outdoor Performance List,Women
+19,"Anderson, Danielle",JR-3,St. Benedict,9.25m,St Thomas Tomcat Invitational,"Apr 7, 2023",+0.0,Triple Jump,MIAC Outdoor Performance List,Women
+19,"Sikes, Jane",SO-2,St. Olaf,9.25m,Bethel Invitational,"Apr 15, 2023",+0.0,Triple Jump,MIAC Outdoor Performance List,Women
+21,"Strampe, Toria",SO-2,St. Scholastica,9.21m,SMU Cardinal Invitational,"Apr 15, 2023",-1.2,Triple Jump,MIAC Outdoor Performance List,Women
+22,"Wgeishofski, Sydnie",FR-1,St. Scholastica,9.19m,SMU Cardinal Invitational,"Apr 15, 2023",0.5,Triple Jump,MIAC Outdoor Performance List,Women
+23,"Laryea, Emelia",FR-1,Gustavus Adolphus,9.03m,Bethel Invitational,"Apr 15, 2023",0.1,Triple Jump,MIAC Outdoor Performance List,Women
+24,"Martinson, Aneleise",FR-1,Concordia-Moorhead,9.02m,SMU Cardinal Invitational,"Apr 15, 2023",1.1,Triple Jump,MIAC Outdoor Performance List,Women
+1,"Feist, Cade",SO-2,St. Olaf,15.18m,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Men
+2,"Steger, Grant",JR-3,St. Scholastica,14.70m,SMU Cardinal Invitational,"Apr 15, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Men
+3,"Mollison, Andrew",JR-3,St. Olaf,14.52m,Bethel Invitational,"Apr 15, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Men
+4,"Beseth, Trent",SO-2,St. Scholastica,13.72m,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Men
+5,"Hokanson, Adam",FR-1,Bethel (Minn.),13.55m,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Men
+6,"Mollet, Eli",JR-3,St. John's (Minn.),12.64m,Norse Invite,"Apr 15, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Men
+7,"Dedry, Arnauld",JR-3,St. Olaf,12.63m,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Men
+8,"Larsen, Evan",SO-2,Bethel (Minn.),12.58m,Bethel Invitational,"Apr 15, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Men
+9,"DeWall, Kaleb",SO-2,St. John's (Minn.),12.57m,Norse Invite,"Apr 15, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Men
+10,"Spurgeon, Eli",FR-1,Gustavus Adolphus,12.35m,Bethel Invitational,"Apr 15, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Men
+11,"Mills, Austin",FR-1,Macalester,12.29m,Norse Invite,"Apr 15, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Men
+12,"Edelman, Ryan",FR-1,St. Olaf,12.12m,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Men
+12,"Kaeppe, Trajan",SO-2,Gustavus Adolphus,12.12m,Bethel Invitational,"Apr 15, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Men
+14,"Davis, Jon",FR-1,St. John's (Minn.),11.72m,Norse Invite,"Apr 15, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Men
+15,"Menache, Max",SO-2,Macalester,11.44m,Norse Invite,"Apr 15, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Men
+16,"Jacklen, Christopher",JR-3,St. Scholastica,11.42m,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Men
+17,"Lord, Demetri",JR-3,St. Olaf,11.39m,2023 Bryan Clay Invitational,"Apr 13, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Men
+18,"Schmitz, Callim",FR-1,Gustavus Adolphus,11.06m,Bethel Invitational,"Apr 15, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Men
+19,"Fahnbulleh, Arthur",FR-1,Concordia-Moorhead,10.95m,SMU Cardinal Invitational,"Apr 15, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Men
+20,"Brown, Jakob",SO-2,Concordia-Moorhead,10.90m,SMU Cardinal Invitational,"Apr 15, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Men
+21,"Fritz, Casen",SO-2,Saint Mary's (Minn.),10.34m,Wash U Invite,"Mar 31, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Men
+22,"Oachs, Jacob",SO-2,Bethel (Minn.),10.25m,Bethel Invitational,"Apr 15, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Men
+23,"Turqueza, Keenan",FR-1,St. John's (Minn.),9.59m,Norse Invite,"Apr 15, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Men
+24,"Yang, Aiden",SO-2,Macalester,9.58m,Wartburg Outdoor Select,"Apr 1, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Men
+25,"Rhonemus, Wade",JR-3,Concordia-Moorhead,8.15m,USD Early Bird,"Apr 7, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Men
+26,"Delaske, Dylan",SO-2,Bethel (Minn.),7.46m,Bethel Invitational,"Apr 15, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Men
+1,"Poe, Annika",SO-2,Gustavus Adolphus,13.65m,Bethel Invitational,"Apr 15, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Women
+2,"Roethler, Emma",SO-2,Bethel (Minn.),12.53m,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Women
+3,"Wilhelm, Nora",FR-1,Bethel (Minn.),12.34m,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Women
+4,"Kubes, Samantha",JR-3,Saint Mary's (Minn.),12.05m,SMU Cardinal Invitational,"Apr 15, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Women
+5,"Keske, Aleah",JR-3,St. Olaf,11.96m,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Women
+6,"Kangas, Allyson",SR-4,Concordia-Moorhead,11.91m,SMU Cardinal Invitational,"Apr 15, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Women
+7,"Meyers, Molly",SR-4,Hamline,11.80m,Dutch Invitational 2023,"Apr 7, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Women
+8,"Dates, Desirae",FR-1,Hamline,11.53m,Bethel Invitational,"Apr 15, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Women
+9,"Jackman, Sydney",SO-2,Saint Mary's (Minn.),11.47m,Good Friday Open,"Apr 7, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Women
+10,"Wallendal, Morgan",SO-2,Saint Mary's (Minn.),11.44m,SMU Cardinal Invitational,"Apr 15, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Women
+11,"Biggins, Ellie",SR-4,Hamline,11.19m,Bethel Invitational,"Apr 15, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Women
+12,"Brainer, Lexi",SO-2,Hamline,11.14m,Bethel Invitational,"Apr 15, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Women
+13,"Brennan, Kelley",FR-1,Gustavus Adolphus,11.12m,Bethel Invitational,"Apr 15, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Women
+14,"Joos, Haley",JR-3,St. Benedict,10.97m,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Women
+15,"Beckmann, Maggie",SR-4,St. Benedict,10.96m,Norse Invite,"Apr 15, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Women
+16,"Nelson, Nicole",SO-2,Gustavus Adolphus,10.66m,Bethel Invitational,"Apr 15, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Women
+17,"Floren, Justus",SO-2,St. Benedict,10.53m,Norse Invite,"Apr 15, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Women
+18,"Salfer, Rebekah",SR-4,St. Olaf,10.52m,2023 Bryan Clay Invitational,"Apr 13, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Women
+19,"Johnson, Emma",SO-2,St. Olaf,10.46m,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Women
+20,"Hobby, Sarah Beth",JR-3,Macalester,10.45m,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Women
+21,"Horvath, Chando",JR-3,St. Catherine (Minn.),10.42m,SMU Cardinal Invitational,"Apr 15, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Women
+22,"Al-Juhari, Alea",SR-4,St. Olaf,10.35m,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Women
+23,"Hughes, Daniyah",FR-1,Gustavus Adolphus,10.09m,Bethel Invitational,"Apr 15, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Women
+24,"Engen, Ella",FR-1,St. Scholastica,9.92m,SMU Cardinal Invitational,"Apr 15, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Women
+25,"Case, Mia",FR-1,St. Scholastica,9.80m,SMU Cardinal Invitational,"Apr 15, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Women
+26,"Selle, Peyton",JR-3,Concordia-Moorhead,9.69m,SMU Cardinal Invitational,"Apr 15, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Women
+27,"Althoff, Abby",JR-3,St. Catherine (Minn.),9.68m,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Women
+28,"Speratos, Anna",FR-1,Bethel (Minn.),9.53m,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Women
+29,"Kalevik, Jenna",SO-2,Concordia-Moorhead,9.42m,SMU Cardinal Invitational,"Apr 15, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Women
+30,"Torres, Alexis",SO-2,St. Benedict,9.35m,Wartburg Outdoor Select,"Apr 1, 2023",NaN,Shot Put,MIAC Outdoor Performance List,Women
+1,"Beseth, Trent",SO-2,St. Scholastica,43.22m,SMU Cardinal Invitational,"Apr 15, 2023",NaN,Discus,MIAC Outdoor Performance List,Men
+2,"Ramirez, Ricky",SO-2,Concordia-Moorhead,42.99m,USD Early Bird,"Apr 7, 2023",NaN,Discus,MIAC Outdoor Performance List,Men
+3,"Wright, Victor",SR-4,Macalester,42.25m,Norse Invite,"Apr 15, 2023",NaN,Discus,MIAC Outdoor Performance List,Men
+4,"Menache, Max",SO-2,Macalester,40.89m,Norse Invite,"Apr 15, 2023",NaN,Discus,MIAC Outdoor Performance List,Men
+5,"Steger, Grant",JR-3,St. Scholastica,40.68m,SMU Cardinal Invitational,"Apr 15, 2023",NaN,Discus,MIAC Outdoor Performance List,Men
+5,"Mollet, Eli",JR-3,St. John's (Minn.),40.68m,Norse Invite,"Apr 15, 2023",NaN,Discus,MIAC Outdoor Performance List,Men
+7,"Larsen, Evan",SO-2,Bethel (Minn.),40.56m,Bethel Invitational,"Apr 15, 2023",NaN,Discus,MIAC Outdoor Performance List,Men
+8,"Edelman, Ryan",FR-1,St. Olaf,39.81m,Bethel Invitational,"Apr 15, 2023",NaN,Discus,MIAC Outdoor Performance List,Men
+9,"Hillstrom, Dominik",SO-2,Concordia-Moorhead,39.03m,SMU Cardinal Invitational,"Apr 15, 2023",NaN,Discus,MIAC Outdoor Performance List,Men
+10,"Mensen, Joseph",SO-2,St. John's (Minn.),38.59m,Norse Invite,"Apr 15, 2023",NaN,Discus,MIAC Outdoor Performance List,Men
+11,"Jacklen, Christopher",JR-3,St. Scholastica,38.38m,SMU Cardinal Invitational,"Apr 15, 2023",NaN,Discus,MIAC Outdoor Performance List,Men
+12,"Dedry, Arnauld",JR-3,St. Olaf,38.04m,Bethel Invitational,"Apr 15, 2023",NaN,Discus,MIAC Outdoor Performance List,Men
+13,"Lelwica, Max",SO-2,St. John's (Minn.),36.25m,Norse Invite,"Apr 15, 2023",NaN,Discus,MIAC Outdoor Performance List,Men
+14,"Fahnbulleh, Arthur",FR-1,Concordia-Moorhead,35.51m,SMU Cardinal Invitational,"Apr 15, 2023",NaN,Discus,MIAC Outdoor Performance List,Men
+15,"Spurgeon, Eli",FR-1,Gustavus Adolphus,34.73m,Bethel Invitational,"Apr 15, 2023",NaN,Discus,MIAC Outdoor Performance List,Men
+16,"Yang, Aiden",SO-2,Macalester,34.65m,Wartburg Outdoor Select,"Apr 1, 2023",NaN,Discus,MIAC Outdoor Performance List,Men
+17,"DeWall, Kaleb",SO-2,St. John's (Minn.),34.56m,Norse Invite,"Apr 15, 2023",NaN,Discus,MIAC Outdoor Performance List,Men
+18,"Kienholz, Carter",SO-2,Hamline,34.32m,Dutch Invitational 2023,"Apr 7, 2023",NaN,Discus,MIAC Outdoor Performance List,Men
+19,"Borst, Layton",SO-2,St. Olaf,33.99m,Bethel Invitational,"Apr 15, 2023",NaN,Discus,MIAC Outdoor Performance List,Men
+20,"Hokanson, Adam",FR-1,Bethel (Minn.),32.64m,Bethel Invitational,"Apr 15, 2023",NaN,Discus,MIAC Outdoor Performance List,Men
+21,"Fritz, Casen",SO-2,Saint Mary's (Minn.),32.46m,Wash U Invite,"Mar 31, 2023",NaN,Discus,MIAC Outdoor Performance List,Men
+22,"Kaeppe, Trajan",SO-2,Gustavus Adolphus,31.99m,Bethel Invitational,"Apr 15, 2023",NaN,Discus,MIAC Outdoor Performance List,Men
+23,"McGlynn, Galen",FR-1,St. Olaf,31.88m,Bethel Invitational,"Apr 15, 2023",NaN,Discus,MIAC Outdoor Performance List,Men
+24,"Davis, Jon",FR-1,St. John's (Minn.),31.49m,Norse Invite,"Apr 15, 2023",NaN,Discus,MIAC Outdoor Performance List,Men
+25,"Thurk, Anthony",SO-2,St. John's (Minn.),31.31m,Norse Invite,"Apr 15, 2023",NaN,Discus,MIAC Outdoor Performance List,Men
+26,"Schmitz, Callim",FR-1,Gustavus Adolphus,30.84m,Bethel Invitational,"Apr 15, 2023",NaN,Discus,MIAC Outdoor Performance List,Men
+27,"Gregory, Joshua",FR-1,Gustavus Adolphus,30.01m,Bethel Invitational,"Apr 15, 2023",NaN,Discus,MIAC Outdoor Performance List,Men
+28,"Cogley, Andrew",SO-2,St. Olaf,29.92m,Bethel Invitational,"Apr 15, 2023",NaN,Discus,MIAC Outdoor Performance List,Men
+29,"Rhonemus, Wade",JR-3,Concordia-Moorhead,29.20m,USD Early Bird,"Apr 7, 2023",NaN,Discus,MIAC Outdoor Performance List,Men
+30,"Lord, Demetri",JR-3,St. Olaf,29.03m,2023 Bryan Clay Invitational,"Apr 13, 2023",NaN,Discus,MIAC Outdoor Performance List,Men
+1,"Wallendal, Morgan",SO-2,Saint Mary's (Minn.),38.52m,Good Friday Open,"Apr 7, 2023",NaN,Discus,MIAC Outdoor Performance List,Women
+2,"Poe, Annika",SO-2,Gustavus Adolphus,38.47m,Bethel Invitational,"Apr 15, 2023",NaN,Discus,MIAC Outdoor Performance List,Women
+3,"Keske, Aleah",JR-3,St. Olaf,37.61m,Bethel Invitational,"Apr 15, 2023",NaN,Discus,MIAC Outdoor Performance List,Women
+4,"Reed, Madison",JR-3,Hamline,37.05m,Bethel Invitational,"Apr 15, 2023",NaN,Discus,MIAC Outdoor Performance List,Women
+5,"Hunt, Jade",SO-2,Hamline,36.64m,Bethel Invitational,"Apr 15, 2023",NaN,Discus,MIAC Outdoor Performance List,Women
+6,"Kangas, Allyson",SR-4,Concordia-Moorhead,36.60m,USD Early Bird,"Apr 7, 2023",NaN,Discus,MIAC Outdoor Performance List,Women
+7,"Dates, Desirae",FR-1,Hamline,35.31m,Bethel Invitational,"Apr 15, 2023",NaN,Discus,MIAC Outdoor Performance List,Women
+8,"Dummer, Claire",SO-2,Concordia-Moorhead,35.03m,SMU Cardinal Invitational,"Apr 15, 2023",NaN,Discus,MIAC Outdoor Performance List,Women
+9,"Beckmann, Maggie",SR-4,St. Benedict,34.84m,Norse Invite,"Apr 15, 2023",NaN,Discus,MIAC Outdoor Performance List,Women
+10,"Wilhelm, Nora",FR-1,Bethel (Minn.),34.24m,Bethel Invitational,"Apr 15, 2023",NaN,Discus,MIAC Outdoor Performance List,Women
+11,"Engen, Ella",FR-1,St. Scholastica,33.70m,SMU Cardinal Invitational,"Apr 15, 2023",NaN,Discus,MIAC Outdoor Performance List,Women
+12,"Joos, Haley",JR-3,St. Benedict,32.02m,Wartburg Outdoor Select,"Apr 1, 2023",NaN,Discus,MIAC Outdoor Performance List,Women
+13,"Hughes, Daniyah",FR-1,Gustavus Adolphus,31.98m,Bethel Invitational,"Apr 15, 2023",NaN,Discus,MIAC Outdoor Performance List,Women
+14,"Kubes, Samantha",JR-3,Saint Mary's (Minn.),31.93m,Wash U Invite,"Mar 31, 2023",NaN,Discus,MIAC Outdoor Performance List,Women
+15,"Horvath, Chando",JR-3,St. Catherine (Minn.),31.81m,SMU Cardinal Invitational,"Apr 15, 2023",NaN,Discus,MIAC Outdoor Performance List,Women
+16,"Kangas, Brooke",SO-2,Concordia-Moorhead,31.57m,SMU Cardinal Invitational,"Apr 15, 2023",NaN,Discus,MIAC Outdoor Performance List,Women
+17,"Johnson, Emma",SO-2,St. Olaf,31.20m,Bethel Invitational,"Apr 15, 2023",NaN,Discus,MIAC Outdoor Performance List,Women
+18,"Banse, Grace",FR-1,Gustavus Adolphus,30.71m,Bethel Invitational,"Apr 15, 2023",NaN,Discus,MIAC Outdoor Performance List,Women
+19,"Mendez, Aries",FR-1,St. Olaf,29.09m,Bethel Invitational,"Apr 15, 2023",NaN,Discus,MIAC Outdoor Performance List,Women
+20,"Jackman, Sydney",SO-2,Saint Mary's (Minn.),29.05m,Good Friday Open,"Apr 7, 2023",NaN,Discus,MIAC Outdoor Performance List,Women
+21,"Ellinghuysen, Lexi",SO-2,Bethel (Minn.),28.76m,Bethel Invitational,"Apr 15, 2023",NaN,Discus,MIAC Outdoor Performance List,Women
+22,"Gendreau, Kaya",FR-1,St. Olaf,28.00m,Bethel Invitational,"Apr 15, 2023",NaN,Discus,MIAC Outdoor Performance List,Women
+23,"Irsfeld, Peyton",JR-3,St. Olaf,27.88m,Bethel Invitational,"Apr 15, 2023",NaN,Discus,MIAC Outdoor Performance List,Women
+24,"Torres, Alexis",SO-2,St. Benedict,27.18m,Wartburg Outdoor Select,"Apr 1, 2023",NaN,Discus,MIAC Outdoor Performance List,Women
+25,"Speratos, Anna",FR-1,Bethel (Minn.),27.09m,Bethel Invitational,"Apr 15, 2023",NaN,Discus,MIAC Outdoor Performance List,Women
+26,"Lukenbill, Molly",SO-2,Bethel (Minn.),26.49m,Bethel Invitational,"Apr 15, 2023",NaN,Discus,MIAC Outdoor Performance List,Women
+27,"Becker, Anna",SO-2,Saint Mary's (Minn.),25.55m,Good Friday Open,"Apr 7, 2023",NaN,Discus,MIAC Outdoor Performance List,Women
+28,"Schmidt, Anna",FR-1,Hamline,25.09m,Dutch Invitational 2023,"Apr 7, 2023",NaN,Discus,MIAC Outdoor Performance List,Women
+29,"Schlosser, Cailey",SO-2,Concordia-Moorhead,24.96m,SMU Cardinal Invitational,"Apr 15, 2023",NaN,Discus,MIAC Outdoor Performance List,Women
+30,"Sampson, Skyla",FR-1,St. Benedict,24.75m,Norse Invite,"Apr 15, 2023",NaN,Discus,MIAC Outdoor Performance List,Women
+1,"Beiswanger, Joshua",SO-2,Gustavus Adolphus,55.96m,Bethel Invitational,"Apr 15, 2023",NaN,Hammer,MIAC Outdoor Performance List,Men
+2,"Larsen, Evan",SO-2,Bethel (Minn.),51.53m,Bethel Invitational,"Apr 15, 2023",NaN,Hammer,MIAC Outdoor Performance List,Men
+3,"Steger, Grant",JR-3,St. Scholastica,47.40m,SMU Cardinal Invitational,"Apr 15, 2023",NaN,Hammer,MIAC Outdoor Performance List,Men
+4,"Menache, Max",SO-2,Macalester,46.97m,Norse Invite,"Apr 15, 2023",NaN,Hammer,MIAC Outdoor Performance List,Men
+5,"Edelman, Ryan",FR-1,St. Olaf,46.36m,Bethel Invitational,"Apr 15, 2023",NaN,Hammer,MIAC Outdoor Performance List,Men
+6,"Fritz, Casen",SO-2,Saint Mary's (Minn.),45.02m,Wash U Invite,"Mar 31, 2023",NaN,Hammer,MIAC Outdoor Performance List,Men
+7,"Mollet, Eli",JR-3,St. John's (Minn.),44.67m,Wartburg Outdoor Select,"Apr 1, 2023",NaN,Hammer,MIAC Outdoor Performance List,Men
+8,"Mensen, Joseph",SO-2,St. John's (Minn.),44.07m,Norse Invite,"Apr 15, 2023",NaN,Hammer,MIAC Outdoor Performance List,Men
+9,"Feist, Cade",SO-2,St. Olaf,43.25m,Bethel Invitational,"Apr 15, 2023",NaN,Hammer,MIAC Outdoor Performance List,Men
+10,"Hokanson, Adam",FR-1,Bethel (Minn.),41.70m,Bethel Invitational,"Apr 15, 2023",NaN,Hammer,MIAC Outdoor Performance List,Men
+11,"Hague, Brett",SO-2,St. John's (Minn.),41.59m,Norse Invite,"Apr 15, 2023",NaN,Hammer,MIAC Outdoor Performance List,Men
+12,"Beseth, Trent",SO-2,St. Scholastica,41.53m,SMU Cardinal Invitational,"Apr 15, 2023",NaN,Hammer,MIAC Outdoor Performance List,Men
+13,"Wright, Victor",SR-4,Macalester,38.80m,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,Hammer,MIAC Outdoor Performance List,Men
+14,"Kuriscak, Tom",FR-1,St. John's (Minn.),37.95m,Norse Invite,"Apr 15, 2023",NaN,Hammer,MIAC Outdoor Performance List,Men
+15,"Hillstrom, Dominik",SO-2,Concordia-Moorhead,37.27m,SMU Cardinal Invitational,"Apr 15, 2023",NaN,Hammer,MIAC Outdoor Performance List,Men
+16,"Mills, Austin",FR-1,Macalester,37.23m,Norse Invite,"Apr 15, 2023",NaN,Hammer,MIAC Outdoor Performance List,Men
+17,"McGlynn, Galen",FR-1,St. Olaf,35.67m,Bethel Invitational,"Apr 15, 2023",NaN,Hammer,MIAC Outdoor Performance List,Men
+18,"Dedry, Arnauld",JR-3,St. Olaf,35.23m,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,Hammer,MIAC Outdoor Performance List,Men
+19,"Oachs, Jacob",SO-2,Bethel (Minn.),33.08m,Bethel Invitational,"Apr 15, 2023",NaN,Hammer,MIAC Outdoor Performance List,Men
+20,"Davis, Jon",FR-1,St. John's (Minn.),31.78m,Norse Invite,"Apr 15, 2023",NaN,Hammer,MIAC Outdoor Performance List,Men
+21,"DeWall, Kaleb",SO-2,St. John's (Minn.),31.29m,Norse Invite,"Apr 15, 2023",NaN,Hammer,MIAC Outdoor Performance List,Men
+22,"Turqueza, Keenan",FR-1,St. John's (Minn.),30.47m,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,Hammer,MIAC Outdoor Performance List,Men
+23,"Ramirez, Ricky",SO-2,Concordia-Moorhead,29.61m,USD Early Bird,"Apr 7, 2023",NaN,Hammer,MIAC Outdoor Performance List,Men
+24,"Brown, Jakob",SO-2,Concordia-Moorhead,29.28m,SMU Cardinal Invitational,"Apr 15, 2023",NaN,Hammer,MIAC Outdoor Performance List,Men
+25,"Lutkauskas, Niko",FR-1,St. Scholastica,28.52m,SMU Cardinal Invitational,"Apr 15, 2023",NaN,Hammer,MIAC Outdoor Performance List,Men
+26,"Fahnbulleh, Arthur",FR-1,Concordia-Moorhead,19.77m,SMU Cardinal Invitational,"Apr 15, 2023",NaN,Hammer,MIAC Outdoor Performance List,Men
+1,"Beneke, Lily",JR-3,St. Scholastica,48.53m,SMU Cardinal Invitational,"Apr 15, 2023",NaN,Hammer,MIAC Outdoor Performance List,Women
+2,"Kangas, Allyson",SR-4,Concordia-Moorhead,47.66m,SMU Cardinal Invitational,"Apr 15, 2023",NaN,Hammer,MIAC Outdoor Performance List,Women
+3,"Kubes, Samantha",JR-3,Saint Mary's (Minn.),47.46m,SMU Cardinal Invitational,"Apr 15, 2023",NaN,Hammer,MIAC Outdoor Performance List,Women
+4,"Reed, Madison",JR-3,Hamline,47.36m,Dutch Invitational 2023,"Apr 7, 2023",NaN,Hammer,MIAC Outdoor Performance List,Women
+5,"Beckmann, Maggie",SR-4,St. Benedict,47.15m,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,Hammer,MIAC Outdoor Performance List,Women
+6,"Lukenbill, Molly",SO-2,Bethel (Minn.),44.41m,Bethel Invitational,"Apr 15, 2023",NaN,Hammer,MIAC Outdoor Performance List,Women
+7,"Becker, Anna",SO-2,Saint Mary's (Minn.),43.54m,Wash U Invite,"Mar 31, 2023",NaN,Hammer,MIAC Outdoor Performance List,Women
+8,"Brainer, Lexi",SO-2,Hamline,43.11m,Bethel Invitational,"Apr 15, 2023",NaN,Hammer,MIAC Outdoor Performance List,Women
+9,"Brennan, Kelley",FR-1,Gustavus Adolphus,43.04m,Bethel Invitational,"Apr 15, 2023",NaN,Hammer,MIAC Outdoor Performance List,Women
+10,"Horvath, Chando",JR-3,St. Catherine (Minn.),42.65m,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,Hammer,MIAC Outdoor Performance List,Women
+11,"Keske, Aleah",JR-3,St. Olaf,41.17m,Bethel Invitational,"Apr 15, 2023",NaN,Hammer,MIAC Outdoor Performance List,Women
+12,"Ellinghuysen, Lexi",SO-2,Bethel (Minn.),41.06m,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,Hammer,MIAC Outdoor Performance List,Women
+13,"Wilhelm, Nora",FR-1,Bethel (Minn.),40.06m,Bethel Invitational,"Apr 15, 2023",NaN,Hammer,MIAC Outdoor Performance List,Women
+14,"Joos, Haley",JR-3,St. Benedict,39.19m,Norse Invite,"Apr 15, 2023",NaN,Hammer,MIAC Outdoor Performance List,Women
+15,"Hunt, Jade",SO-2,Hamline,38.05m,Dutch Invitational 2023,"Apr 7, 2023",NaN,Hammer,MIAC Outdoor Performance List,Women
+16,"Irsfeld, Peyton",JR-3,St. Olaf,37.39m,Bethel Invitational,"Apr 15, 2023",NaN,Hammer,MIAC Outdoor Performance List,Women
+17,"Tracy, Brooke",FR-1,Hamline,37.02m,Dutch Invitational 2023,"Apr 7, 2023",NaN,Hammer,MIAC Outdoor Performance List,Women
+18,"Wallendal, Morgan",SO-2,Saint Mary's (Minn.),36.98m,SMU Cardinal Invitational,"Apr 15, 2023",NaN,Hammer,MIAC Outdoor Performance List,Women
+19,"Bechtold, Kendall",SR-4,St. Benedict,36.47m,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,Hammer,MIAC Outdoor Performance List,Women
+20,"Johnson, Emma",SO-2,St. Olaf,36.18m,Bethel Invitational,"Apr 15, 2023",NaN,Hammer,MIAC Outdoor Performance List,Women
+21,"Speratos, Anna",FR-1,Bethel (Minn.),35.76m,Bethel Invitational,"Apr 15, 2023",NaN,Hammer,MIAC Outdoor Performance List,Women
+22,"Dates, Desirae",FR-1,Hamline,35.04m,Dutch Invitational 2023,"Apr 7, 2023",NaN,Hammer,MIAC Outdoor Performance List,Women
+23,"Engen, Ella",FR-1,St. Scholastica,34.64m,SMU Cardinal Invitational,"Apr 15, 2023",NaN,Hammer,MIAC Outdoor Performance List,Women
+24,"Jackman, Sydney",SO-2,Saint Mary's (Minn.),33.93m,Wash U Invite,"Mar 31, 2023",NaN,Hammer,MIAC Outdoor Performance List,Women
+25,"Roethler, Emma",SO-2,Bethel (Minn.),33.70m,St Thomas Tomcat Invitational,"Apr 7, 2023",NaN,Hammer,MIAC Outdoor Performance List,Women
+26,"Kangas, Brooke",SO-2,Concordia-Moorhead,32.32m,SMU Cardinal Invitational,"Apr 15, 2023",NaN,Hammer,MIAC Outdoor Performance List,Women
+27,"Aslanian, Elise",SO-2,St. Olaf,32.06m,Bethel Invitational,"Apr 15, 2023",NaN,Hammer,MIAC Outdoor Performance List,Women
+28,"Althoff, Abby",JR-3,St. Catherine (Minn.),31.29m,Ross and Sharon Irwin meet,"Mar 18, 2023",NaN,Hammer,MIAC Outdoor Performance List,Women
+29,"Stritesky, Ella",FR-1,St. Scholastica,31.28m,SMU Cardinal Invitational,"Apr 15, 2023",NaN,Hammer,MIAC Outdoor Performance List,Women
+30,"Schlosser, Cailey",SO-2,Concordia-Moorhead,30.31m,SMU Cardinal Invitational,"Apr 15, 2023",NaN,Hammer,MIAC Outdoor Performance List,Women
+1,"Hague, Brett",SO-2,St. John's (Minn.),59.74m,UTA Invitational,"Mar 9, 2023",NaN,Javelin,MIAC Outdoor Performance List,Men
+2,"Hennen, Logan",SO-2,St. John's (Minn.),50.85m,Wartburg Outdoor Select,"Apr 1, 2023",NaN,Javelin,MIAC Outdoor Performance List,Men
+3,"Eckersley-Ray, Noah",JR-3,Carleton,46.19m,Bethel Invitational,"Apr 15, 2023",NaN,Javelin,MIAC Outdoor Performance List,Men
+4,"Yang, Aiden",SO-2,Macalester,45.72m,Norse Invite,"Apr 15, 2023",NaN,Javelin,MIAC Outdoor Performance List,Men
+5,"Degen, Mitchell",FR-1,St. John's (Minn.),45.66m,Wartburg Outdoor Select,"Apr 1, 2023",NaN,Javelin,MIAC Outdoor Performance List,Men
+6,"Borst, Layton",SO-2,St. Olaf,45.10m,Bethel Invitational,"Apr 15, 2023",NaN,Javelin,MIAC Outdoor Performance List,Men
+7,"Rhonemus, Wade",JR-3,Concordia-Moorhead,43.21m,USD Early Bird,"Apr 7, 2023",NaN,Javelin,MIAC Outdoor Performance List,Men
+8,"Bosley, Mason",SR-4,Macalester,42.06m,Norse Invite,"Apr 15, 2023",NaN,Javelin,MIAC Outdoor Performance List,Men
+9,"Meyer, Jack",SO-2,St. John's (Minn.),41.94m,Norse Invite,"Apr 15, 2023",NaN,Javelin,MIAC Outdoor Performance List,Men
+10,"Cogley, Andrew",SO-2,St. Olaf,41.60m,Bethel Invitational,"Apr 15, 2023",NaN,Javelin,MIAC Outdoor Performance List,Men
+11,"Sotiropoulos, Simon",SO-2,St. Scholastica,40.43m,SMU Cardinal Invitational,"Apr 15, 2023",NaN,Javelin,MIAC Outdoor Performance List,Men
+12,"Smith, Micah",JR-3,Bethel (Minn.),40.07m,Bethel Invitational,"Apr 15, 2023",NaN,Javelin,MIAC Outdoor Performance List,Men
+13,"Oviguian, Peter",SO-2,Gustavus Adolphus,39.62m,Bethel Invitational,"Apr 15, 2023",NaN,Javelin,MIAC Outdoor Performance List,Men
+14,"Veimau, Justin",JR-3,Macalester,38.60m,Norse Invite,"Apr 15, 2023",NaN,Javelin,MIAC Outdoor Performance List,Men
+15,"Lutkauskas, Niko",FR-1,St. Scholastica,37.36m,SMU Cardinal Invitational,"Apr 15, 2023",NaN,Javelin,MIAC Outdoor Performance List,Men
+16,"Lelwica, Max",SO-2,St. John's (Minn.),37.27m,Wartburg Outdoor Select,"Apr 1, 2023",NaN,Javelin,MIAC Outdoor Performance List,Men
+17,"Mollet, Sam",FR-1,St. John's (Minn.),37.06m,Norse Invite,"Apr 15, 2023",NaN,Javelin,MIAC Outdoor Performance List,Men
+18,"Thurk, Anthony",SO-2,St. John's (Minn.),37.02m,Norse Invite,"Apr 15, 2023",NaN,Javelin,MIAC Outdoor Performance List,Men
+19,"Kallstrom, Brandon",SO-2,Bethel (Minn.),36.74m,Bethel Invitational,"Apr 15, 2023",NaN,Javelin,MIAC Outdoor Performance List,Men
+20,"Cruel, Alijah",FR-1,St. Olaf,35.83m,Bethel Invitational,"Apr 15, 2023",NaN,Javelin,MIAC Outdoor Performance List,Men
+21,"Lord, Demetri",JR-3,St. Olaf,35.56m,2023 Bryan Clay Invitational,"Apr 13, 2023",NaN,Javelin,MIAC Outdoor Performance List,Men
+22,"Wellman , Trevor",SO-2,Bethel (Minn.),33.59m,Bethel Invitational,"Apr 15, 2023",NaN,Javelin,MIAC Outdoor Performance List,Men
+23,"Ramirez, Gael",SO-2,Bethel (Minn.),33.58m,Bethel Invitational,"Apr 15, 2023",NaN,Javelin,MIAC Outdoor Performance List,Men
+24,"McGlynn, Galen",FR-1,St. Olaf,32.69m,Bethel Invitational,"Apr 15, 2023",NaN,Javelin,MIAC Outdoor Performance List,Men
+25,"Meeker, Caleb",SO-2,Bethel (Minn.),32.19m,Bethel Invitational,"Apr 15, 2023",NaN,Javelin,MIAC Outdoor Performance List,Men
+26,"Schmidt, Joe",SO-2,Gustavus Adolphus,31.59m,Bethel Invitational,"Apr 15, 2023",NaN,Javelin,MIAC Outdoor Performance List,Men
+27,"McCormick, Connor",FR-1,Gustavus Adolphus,31.51m,Bethel Invitational,"Apr 15, 2023",NaN,Javelin,MIAC Outdoor Performance List,Men
+28,"Schulze, Sam",SO-2,Gustavus Adolphus,30.53m,Bethel Invitational,"Apr 15, 2023",NaN,Javelin,MIAC Outdoor Performance List,Men
+29,"Carlson, Kirk",FR-1,Gustavus Adolphus,26.96m,Bethel Invitational,"Apr 15, 2023",NaN,Javelin,MIAC Outdoor Performance List,Men
+30,"Gregory, Joshua",FR-1,Gustavus Adolphus,26.89m,Bethel Invitational,"Apr 15, 2023",NaN,Javelin,MIAC Outdoor Performance List,Men
+1,"Leverentz, Bryana",SR-4,St. Catherine (Minn.),40.81m,Ross and Sharon Irwin meet,"Mar 18, 2023",NaN,Javelin,MIAC Outdoor Performance List,Women
+2,"Blanchette, Grace",JR-3,Carleton,37.71m,44th Aztec Invitational,"Mar 23, 2023",NaN,Javelin,MIAC Outdoor Performance List,Women
+3,"Floren, Justus",SO-2,St. Benedict,36.71m,Norse Invite,"Apr 15, 2023",NaN,Javelin,MIAC Outdoor Performance List,Women
+4,"Sealock, Kelsie",SO-2,Bethel (Minn.),36.23m,Bethel Invitational,"Apr 15, 2023",NaN,Javelin,MIAC Outdoor Performance List,Women
+5,"Hobby, Sarah Beth",JR-3,Macalester,34.47m,Norse Invite,"Apr 15, 2023",NaN,Javelin,MIAC Outdoor Performance List,Women
+6,"Swenson, Abbie",SO-2,Bethel (Minn.),32.29m,Bethel Invitational,"Apr 15, 2023",NaN,Javelin,MIAC Outdoor Performance List,Women
+7,"Aslanian, Elise",SO-2,St. Olaf,32.13m,Bethel Invitational,"Apr 15, 2023",NaN,Javelin,MIAC Outdoor Performance List,Women
+8,"Selle, Peyton",JR-3,Concordia-Moorhead,31.57m,SMU Cardinal Invitational,"Apr 15, 2023",NaN,Javelin,MIAC Outdoor Performance List,Women
+9,"Joerger, Alli",SO-2,Gustavus Adolphus,30.82m,Bethel Invitational,"Apr 15, 2023",NaN,Javelin,MIAC Outdoor Performance List,Women
+10,"Gromacki, Gabby",FR-1,Gustavus Adolphus,30.60m,Bethel Invitational,"Apr 15, 2023",NaN,Javelin,MIAC Outdoor Performance List,Women
+11,"Luehrs, Jensen",SO-2,Gustavus Adolphus,30.27m,Bethel Invitational,"Apr 15, 2023",NaN,Javelin,MIAC Outdoor Performance List,Women
+12,"Werk, Aubrie",JR-3,Concordia-Moorhead,30.14m,SMU Cardinal Invitational,"Apr 15, 2023",NaN,Javelin,MIAC Outdoor Performance List,Women
+13,"Mendez, Aries",FR-1,St. Olaf,28.42m,Bethel Invitational,"Apr 15, 2023",NaN,Javelin,MIAC Outdoor Performance List,Women
+14,"Salfer, Rebekah",SR-4,St. Olaf,27.32m,2023 Bryan Clay Invitational,"Apr 13, 2023",NaN,Javelin,MIAC Outdoor Performance List,Women
+15,"Anderson, Regan",SO-2,Concordia-Moorhead,25.85m,SMU Cardinal Invitational,"Apr 15, 2023",NaN,Javelin,MIAC Outdoor Performance List,Women
+16,"Young, Ella",JR-3,St. Benedict,24.99m,Norse Invite,"Apr 15, 2023",NaN,Javelin,MIAC Outdoor Performance List,Women
+17,"Franke, Erin",SR-4,Macalester,24.66m,Norse Invite,"Apr 15, 2023",NaN,Javelin,MIAC Outdoor Performance List,Women
+18,"Sampson, Skyla",FR-1,St. Benedict,23.18m,Norse Invite,"Apr 15, 2023",NaN,Javelin,MIAC Outdoor Performance List,Women
+19,"Schlosser, Cailey",SO-2,Concordia-Moorhead,23.01m,SMU Cardinal Invitational,"Apr 15, 2023",NaN,Javelin,MIAC Outdoor Performance List,Women
+20,"Hansen, Liz",FR-1,St. Benedict,22.65m,Norse Invite,"Apr 15, 2023",NaN,Javelin,MIAC Outdoor Performance List,Women
+21,"Gendreau, Kaya",FR-1,St. Olaf,21.79m,Bethel Invitational,"Apr 15, 2023",NaN,Javelin,MIAC Outdoor Performance List,Women
+22,"Nelson, Molly",FR-1,Bethel (Minn.),21.72m,Bethel Invitational,"Apr 15, 2023",NaN,Javelin,MIAC Outdoor Performance List,Women
+23,"Greeder, Caylee",SO-2,Gustavus Adolphus,20.97m,Bethel Invitational,"Apr 15, 2023",NaN,Javelin,MIAC Outdoor Performance List,Women
+24,"Johnson, Isabelle",FR-1,Concordia-Moorhead,20.59m,SMU Cardinal Invitational,"Apr 15, 2023",NaN,Javelin,MIAC Outdoor Performance List,Women
+25,"Moe, Hannah",FR-1,Bethel (Minn.),17.56m,Bethel Invitational,"Apr 15, 2023",NaN,Javelin,MIAC Outdoor Performance List,Women
+26,"Ivesdal, Grace",SR-4,Concordia-Moorhead,17.40m,SMU Cardinal Invitational,"Apr 15, 2023",NaN,Javelin,MIAC Outdoor Performance List,Women
+27,"Scholten, Hailey",FR-1,Bethel (Minn.),16.82m,Bethel Invitational,"Apr 15, 2023",NaN,Javelin,MIAC Outdoor Performance List,Women
+28,"Selisker, Ellie",JR-3,St. Benedict,16.19m,Norse Invite,"Apr 15, 2023",NaN,Javelin,MIAC Outdoor Performance List,Women
+29,"Johnson, Lily",SO-2,St. Olaf,12.87m,Bethel Invitational,"Apr 15, 2023",NaN,Javelin,MIAC Outdoor Performance List,Women
+1,"Salfer, Rebekah",SR-4,St. Olaf,4145,2023 Bryan Clay Invitational,"Apr 13, 2023",NaN,Heptathlon,MIAC Outdoor Performance List,Women
+2,"Blanchette, Grace",JR-3,Carleton,4069,44th Aztec Invitational,"Mar 23, 2023",NaN,Heptathlon,MIAC Outdoor Performance List,Women
+1,"Lord, Demetri",JR-3,St. Olaf,6054,2023 Bryan Clay Invitational,"Apr 13, 2023",NaN,Decathlon,MIAC Outdoor Performance List,Men
+2,"Rhonemus, Wade",JR-3,Concordia-Moorhead,5897,USD Early Bird,"Apr 7, 2023",NaN,Decathlon,MIAC Outdoor Performance List,Men

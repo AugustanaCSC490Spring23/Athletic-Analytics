@@ -1,738 +1,704 @@
-
-1,"Jefferson, Elijah",SO-2,Texas Lutheran,10.48,D3 Challenge,"Mar 25, 2023",1.3
-2,"Wilson, Wyatt",SO-2,Texas Lutheran,10.74,D3 Challenge,"Mar 25, 2023",1.3
+Rank,Athlete(s),Year,Team,Time/Distance,Meet,Meet Date,Wind,Event,Conference,Gender
+1,"Jefferson, Elijah",SO-2,Texas Lutheran,10.48,D3 Challenge,"Mar 25, 2023",1.3,100 Meters,SCAC Outdoor Performance List,Men
+2,"Wilson, Wyatt",SO-2,Texas Lutheran,10.74,D3 Challenge,"Mar 25, 2023",1.3,100 Meters,SCAC Outdoor Performance List,Men
 3,"Williams, Josh",FR-1,Colorado College,"10.81
-@",Gustavus/Colorado College Dual Meet,"Apr 3, 2023",0.1
-4,"Anderson, Azariah",SO-2,Trinity (Tex.),10.85,David Noble Relays,"Apr 7, 2023",0.9
-5,"Guzman, Weston",FR-1,Texas Lutheran,10.88,D3 Challenge,"Mar 25, 2023",1.3
-6,"Grigsby, Legend",JR-3,Trinity (Tex.),10.91,D3 Challenge,"Mar 25, 2023",1.3
-7,"Piken, Orie",FR-1,Trinity (Tex.),10.96,D3 Challenge,"Mar 25, 2023",1.2
-8,"Ikwuemesi, Chuks",SO-2,Southwestern (Tex.),10.97,David Noble Relays,"Apr 7, 2023",2.9
-9,"Powell-Chimene, Bryce",JR-3,Texas Lutheran,11.02,David Noble Relays,"Apr 7, 2023",0.9
-10,"Rainey, Brian",SO-2,Trinity (Tex.),11.04,D3 Challenge,"Mar 25, 2023",1.3
-10,"Davis, Victor",FR-1,St. Thomas (Tex.),11.04,The 40th Victor Lopez Classic (College),"Mar 23, 2023",0.5
-12,"Witt, Evan",SR-4,Trinity (Tex.),11.22,D3 Challenge,"Mar 25, 2023",1.2
-13,"Bullinger, Drew",SR-4,Trinity (Tex.),11.23,D3 Challenge,"Mar 25, 2023",1.2
-14,"Franks, Rickey",FR-1,Texas Lutheran,11.24,D3 Challenge,"Mar 25, 2023",1.2
-14,"Freeney, Justin",FR-1,Texas Lutheran,11.24,David Noble Relays,"Apr 7, 2023",1.1
-16,"Taisague, Gianni",JR-3,Southwestern (Tex.),11.26,D3 Challenge,"Mar 25, 2023",0.6
-17,"Mingo, Makale",SO-2,St. Thomas (Tex.),11.27,The 40th Victor Lopez Classic (College),"Mar 23, 2023",1.2
-18,"Burns, Colin",FR-1,Texas Lutheran,11.34,D3 Challenge,"Mar 25, 2023",2.1
-19,"Jackson, Zakyrn",SO-2,Southwestern (Tex.),11.37,2023 Trinity Invitational,"Mar 3, 2023",0.8
-19,"Hunter, Lydell",FR-1,Centenary (La.),11.37,Southern Arkansas-Dan Veach Invite,"Mar 25, 2023",0.8
-21,"Perry, Holden",SO-2,Colorado College,"11.38
-@",Gustavus/Colorado College Dual Meet,"Apr 3, 2023",0.1
-22,"Sun, Kyle",SO-2,Colorado College,"11.39
-@",Gustavus/Colorado College Dual Meet,"Apr 3, 2023",0.1
-23,"Lee, Austin",JR-3,Trinity (Tex.),11.43,D3 Challenge,"Mar 25, 2023",1.2
-24,"Svacina, Trent",FR-1,Trinity (Tex.),11.45,D3 Challenge,"Mar 25, 2023",2.1
-25,"Harris, Coby",SO-2,Centenary (La.),11.48,Pelican Relays,"Apr 8, 2023",2.0
-
-1,"Murdock, Trinity",JR-3,Texas Lutheran,12.42,D3 Challenge,"Mar 25, 2023",1.7
-2,"Selber, Danya",JR-3,Trinity (Tex.),12.60,David Noble Relays,"Apr 7, 2023",0.9
-2,"Hinton, Ny'Cierra",SO-2,St. Thomas (Tex.),12.60,The 40th Victor Lopez Classic (College),"Mar 23, 2023",1.0
-2,"Roderique, Mykler",FR-1,St. Thomas (Tex.),12.60,2023 Trinity Invitational,"Mar 3, 2023",1.0
-5,"Puig, Avery",SR-4,Trinity (Tex.),12.75,David Noble Relays,"Apr 7, 2023",1.4
-6,"Subawalla, Yasmin",SR-4,Trinity (Tex.),12.77,D3 Challenge,"Mar 25, 2023",3.5
-7,"Garcia, Natalie",FR-1,Texas Lutheran,12.84,2023 Trinity Invitational,"Mar 3, 2023",1.2
-7,"Lippert, Clara",FR-1,Colorado College,"12.84
-@",Gustavus/Colorado College Dual Meet,"Apr 3, 2023",1.7
-9,"Areola, Joy",SO-2,Trinity (Tex.),12.89,D3 Challenge,"Mar 25, 2023",1.7
-10,"Oloyede, Shekinah",SR-4,Colorado College,"12.90
-@",Gustavus/Colorado College Dual Meet,"Apr 3, 2023",1.7
-10,"Nation, Ebonee",FR-1,St. Thomas (Tex.),12.90,Cameron Burrell Alumni Invitational,"Apr 7, 2023",1.2
-12,"Mackrell, Lauren",SR-4,Southwestern (Tex.),12.91,David Noble Relays,"Apr 7, 2023",1.3
-13,"Williams, Ja'Keia",JR-3,Texas Lutheran,12.93,D3 Challenge,"Mar 25, 2023",1.7
-14,"Norrell, Taylor",SO-2,Texas Lutheran,12.94,D3 Challenge,"Mar 25, 2023",1.7
-15,"Provost, Trinity",FR-1,St. Thomas (Tex.),12.99,The 40th Victor Lopez Classic (College),"Mar 23, 2023",0.9
-16,"Cavazos, Ciara",SO-2,Texas Lutheran,13.16,D3 Challenge,"Mar 25, 2023",3.5
-17,"Lopez, Leilani",SO-2,Texas Lutheran,13.22,2023 Trinity Invitational,"Mar 3, 2023",1.0
-18,"Davis, Claudia",FR-1,St. Thomas (Tex.),13.24,2023 Trinity Invitational,"Mar 3, 2023",1.2
-19,"Noe, Aliya",FR-1,Trinity (Tex.),13.27,D3 Challenge,"Mar 25, 2023",3.5
-20,"Bartlett, Sage",FR-1,Texas Lutheran,13.29,D3 Challenge,"Mar 25, 2023",3.5
-21,"Gomez, Sirena",SO-2,Texas Lutheran,13.34,David Noble Relays,"Apr 7, 2023",2.3
-22,"Pilarski, Katelin",FR-1,Southwestern (Tex.),13.36,2023 Trinity Invitational,"Mar 3, 2023",0.8
-23,"Tanner, Kamilah",FR-1,Texas Lutheran,13.39,D3 Challenge,"Mar 25, 2023",3.5
-24,"Garza, Sophia",FR-1,Trinity (Tex.),13.54,2023 Trinity Invitational,"Mar 3, 2023",+0.0
-25,"Jones, Emma",FR-1,Colorado College,13.56,Occidental Distance Carnival & Spring Break Classic (Co,"Mar 11, 2023",1.3
-
-1,"Jefferson, Elijah",SO-2,Texas Lutheran,21.05,D3 Challenge,"Mar 25, 2023",1.1
+@",Gustavus/Colorado College Dual Meet,"Apr 3, 2023",0.1,100 Meters,SCAC Outdoor Performance List,Men
+4,"Anderson, Azariah",SO-2,Trinity (Tex.),10.85,David Noble Relays,"Apr 7, 2023",0.9,100 Meters,SCAC Outdoor Performance List,Men
+5,"Ikwuemesi, Chuks",SO-2,Southwestern (Tex.),10.87,2023 War Hawk Classic,"Apr 14, 2023",2.5,100 Meters,SCAC Outdoor Performance List,Men
+6,"Guzman, Weston",FR-1,Texas Lutheran,10.88,D3 Challenge,"Mar 25, 2023",1.3,100 Meters,SCAC Outdoor Performance List,Men
+7,"Grigsby, Legend",JR-3,Trinity (Tex.),10.91,D3 Challenge,"Mar 25, 2023",1.3,100 Meters,SCAC Outdoor Performance List,Men
+7,"Mcintyre, Bryce",JR-3,St. Thomas (Tex.),10.91,Carl Kight Invitational & Multis,"Apr 13, 2023",3.2,100 Meters,SCAC Outdoor Performance List,Men
+9,"Kapyamba, Kashala",FR-1,St. Thomas (Tex.),10.94,Carl Kight Invitational & Multis,"Apr 13, 2023",1.4,100 Meters,SCAC Outdoor Performance List,Men
+10,"Piken, Orie",FR-1,Trinity (Tex.),10.96,D3 Challenge,"Mar 25, 2023",1.2,100 Meters,SCAC Outdoor Performance List,Men
+11,"Powell-Chimene, Bryce",JR-3,Texas Lutheran,11.02,David Noble Relays,"Apr 7, 2023",0.9,100 Meters,SCAC Outdoor Performance List,Men
+12,"Davis, Victor",FR-1,St. Thomas (Tex.),11.03,Carl Kight Invitational & Multis,"Apr 13, 2023",3.2,100 Meters,SCAC Outdoor Performance List,Men
+13,"Rainey, Brian",SO-2,Trinity (Tex.),11.04,D3 Challenge,"Mar 25, 2023",1.3,100 Meters,SCAC Outdoor Performance List,Men
+14,"Bullinger, Drew",SR-4,Trinity (Tex.),11.08,Kingsville Cactus Cup,"Apr 15, 2023",1.3,100 Meters,SCAC Outdoor Performance List,Men
+15,"Taisague, Gianni",JR-3,Southwestern (Tex.),11.11,2023 War Hawk Classic,"Apr 14, 2023",3.5,100 Meters,SCAC Outdoor Performance List,Men
+15,"Waller, Eduardo",SO-2,St. Thomas (Tex.),11.11,Carl Kight Invitational & Multis,"Apr 13, 2023",1.4,100 Meters,SCAC Outdoor Performance List,Men
+17,"Franks, Rickey",FR-1,Texas Lutheran,11.16,2023 War Hawk Classic,"Apr 14, 2023",3.5,100 Meters,SCAC Outdoor Performance List,Men
+18,"Witt, Evan",SR-4,Trinity (Tex.),11.18,Kingsville Cactus Cup,"Apr 15, 2023",1.3,100 Meters,SCAC Outdoor Performance List,Men
+19,"Freeney, Justin",FR-1,Texas Lutheran,11.24,David Noble Relays,"Apr 7, 2023",1.1,100 Meters,SCAC Outdoor Performance List,Men
+20,"Burns, Colin",FR-1,Texas Lutheran,11.27,2023 War Hawk Classic,"Apr 14, 2023",3.3,100 Meters,SCAC Outdoor Performance List,Men
+20,"Mingo, Makale",SO-2,St. Thomas (Tex.),11.27,The 40th Victor Lopez Classic (College),"Mar 23, 2023",1.2,100 Meters,SCAC Outdoor Performance List,Men
+22,"Jackson, Zakyrn",SO-2,Southwestern (Tex.),11.37,2023 Trinity Invitational,"Mar 3, 2023",0.8,100 Meters,SCAC Outdoor Performance List,Men
+22,"Hunter, Lydell",FR-1,Centenary (La.),11.37,Southern Arkansas-Dan Veach Invite,"Mar 25, 2023",0.8,100 Meters,SCAC Outdoor Performance List,Men
+24,"Perry, Holden",SO-2,Colorado College,"11.38
+@",Gustavus/Colorado College Dual Meet,"Apr 3, 2023",0.1,100 Meters,SCAC Outdoor Performance List,Men
+25,"Sun, Kyle",SO-2,Colorado College,"11.39
+@",Gustavus/Colorado College Dual Meet,"Apr 3, 2023",0.1,100 Meters,SCAC Outdoor Performance List,Men
+1,"Murdock, Trinity",JR-3,Texas Lutheran,12.42,D3 Challenge,"Mar 25, 2023",1.7,100 Meters,SCAC Outdoor Performance List,Women
+2,"Nation, Ebonee",FR-1,St. Thomas (Tex.),12.50,Carl Kight Invitational & Multis,"Apr 13, 2023",2.4,100 Meters,SCAC Outdoor Performance List,Women
+3,"Hinton, Ny'Cierra",SO-2,St. Thomas (Tex.),12.60,The 40th Victor Lopez Classic (College),"Mar 23, 2023",1.0,100 Meters,SCAC Outdoor Performance List,Women
+3,"Roderique, Mykler",FR-1,St. Thomas (Tex.),12.60,2023 Trinity Invitational,"Mar 3, 2023",1.0,100 Meters,SCAC Outdoor Performance List,Women
+3,"Selber, Danya",JR-3,Trinity (Tex.),12.60,David Noble Relays,"Apr 7, 2023",0.9,100 Meters,SCAC Outdoor Performance List,Women
+6,"Puig, Avery",SR-4,Trinity (Tex.),12.75,David Noble Relays,"Apr 7, 2023",1.4,100 Meters,SCAC Outdoor Performance List,Women
+7,"Mackrell, Lauren",SR-4,Southwestern (Tex.),12.76,2023 War Hawk Classic,"Apr 14, 2023",2.9,100 Meters,SCAC Outdoor Performance List,Women
+8,"Subawalla, Yasmin",SR-4,Trinity (Tex.),12.77,D3 Challenge,"Mar 25, 2023",3.5,100 Meters,SCAC Outdoor Performance List,Women
+9,"Garcia, Natalie",FR-1,Texas Lutheran,12.84,2023 Trinity Invitational,"Mar 3, 2023",1.2,100 Meters,SCAC Outdoor Performance List,Women
+9,"Lippert, Clara",FR-1,Colorado College,"12.84
+@",Gustavus/Colorado College Dual Meet,"Apr 3, 2023",1.7,100 Meters,SCAC Outdoor Performance List,Women
+11,"Areola, Joy",SO-2,Trinity (Tex.),12.89,D3 Challenge,"Mar 25, 2023",1.7,100 Meters,SCAC Outdoor Performance List,Women
+12,"Oloyede, Shekinah",SR-4,Colorado College,"12.90
+@",Gustavus/Colorado College Dual Meet,"Apr 3, 2023",1.7,100 Meters,SCAC Outdoor Performance List,Women
+13,"Williams, Ja'Keia",JR-3,Texas Lutheran,12.93,D3 Challenge,"Mar 25, 2023",1.7,100 Meters,SCAC Outdoor Performance List,Women
+14,"Norrell, Taylor",SO-2,Texas Lutheran,12.94,D3 Challenge,"Mar 25, 2023",1.7,100 Meters,SCAC Outdoor Performance List,Women
+14,"Powell, Makayla",FR-1,St. Thomas (Tex.),12.94,Carl Kight Invitational & Multis,"Apr 13, 2023",3.2,100 Meters,SCAC Outdoor Performance List,Women
+16,"Provost, Trinity",FR-1,St. Thomas (Tex.),12.99,The 40th Victor Lopez Classic (College),"Mar 23, 2023",0.9,100 Meters,SCAC Outdoor Performance List,Women
+17,"Thompson, Dejahnae",JR-3,Southwestern (Tex.),13.09,2023 War Hawk Classic,"Apr 14, 2023",2.4,100 Meters,SCAC Outdoor Performance List,Women
+18,"Cavazos, Ciara",SO-2,Texas Lutheran,13.16,D3 Challenge,"Mar 25, 2023",3.5,100 Meters,SCAC Outdoor Performance List,Women
+19,"Lopez, Leilani",SO-2,Texas Lutheran,13.22,2023 Trinity Invitational,"Mar 3, 2023",1.0,100 Meters,SCAC Outdoor Performance List,Women
+20,"Davis, Claudia",FR-1,St. Thomas (Tex.),13.24,2023 Trinity Invitational,"Mar 3, 2023",1.2,100 Meters,SCAC Outdoor Performance List,Women
+21,"Noe, Aliya",FR-1,Trinity (Tex.),13.27,D3 Challenge,"Mar 25, 2023",3.5,100 Meters,SCAC Outdoor Performance List,Women
+22,"Bartlett, Sage",FR-1,Texas Lutheran,13.29,D3 Challenge,"Mar 25, 2023",3.5,100 Meters,SCAC Outdoor Performance List,Women
+23,"Gomez, Sirena",SO-2,Texas Lutheran,13.34,David Noble Relays,"Apr 7, 2023",2.3,100 Meters,SCAC Outdoor Performance List,Women
+24,"Pilarski, Katelin",FR-1,Southwestern (Tex.),13.36,2023 Trinity Invitational,"Mar 3, 2023",0.8,100 Meters,SCAC Outdoor Performance List,Women
+25,"Tanner, Kamilah",FR-1,Texas Lutheran,13.39,D3 Challenge,"Mar 25, 2023",3.5,100 Meters,SCAC Outdoor Performance List,Women
+1,"Jefferson, Elijah",SO-2,Texas Lutheran,21.05,D3 Challenge,"Mar 25, 2023",1.1,200 Meters,SCAC Outdoor Performance List,Men
 2,"Williams, Josh",FR-1,Colorado College,"21.57
-@",Gustavus/Colorado College Dual Meet,"Apr 3, 2023",NWI
-3,"Mcintyre, Bryce",JR-3,St. Thomas (Tex.),21.93,The 40th Victor Lopez Classic (College),"Mar 23, 2023",1.5
-4,"Wilson, Wyatt",SO-2,Texas Lutheran,21.94,D3 Challenge,"Mar 25, 2023",1.1
-5,"Powell-Chimene, Bryce",JR-3,Texas Lutheran,22.04,D3 Challenge,"Mar 25, 2023",2.0
-6,"Piken, Orie",FR-1,Trinity (Tex.),22.11,D3 Challenge,"Mar 25, 2023",2.0
-7,"Gilmore, Ethan",SR-4,Trinity (Tex.),22.17,D3 Challenge,"Mar 25, 2023",1.1
-8,"Grigsby, Legend",JR-3,Trinity (Tex.),22.35,David Noble Relays,"Apr 7, 2023",0.5
-8,"Kapyamba, Kashala",FR-1,St. Thomas (Tex.),22.35,The 40th Victor Lopez Classic (College),"Mar 23, 2023",0.6
-10,"Freeney, Justin",FR-1,Texas Lutheran,22.40,D3 Challenge,"Mar 25, 2023",1.1
-11,"Jackson, Zakyrn",SO-2,Southwestern (Tex.),22.43,2023 Trinity Invitational,"Mar 3, 2023",2.4
-12,"Waller, Eduardo",SO-2,St. Thomas (Tex.),22.49,The 40th Victor Lopez Classic (College),"Mar 23, 2023",0.6
-12,"Bishop, Grant",JR-3,Trinity (Tex.),22.49,2023 Trinity Invitational,"Mar 3, 2023",0.6
-14,"Guzman, Weston",FR-1,Texas Lutheran,22.52,D3 Challenge,"Mar 25, 2023",2.0
-15,"Brachett, Kaleb",JR-3,Texas Lutheran,22.53,D3 Challenge,"Mar 25, 2023",2.0
-16,"Davis, Victor",FR-1,St. Thomas (Tex.),22.54,2023 Trinity Invitational,"Mar 3, 2023",2.4
-17,"Maxey, Jamal",SO-2,Southwestern (Tex.),22.56,2023 Trinity Invitational,"Mar 3, 2023",0.4
-18,"Ikwuemesi, Chuks",SO-2,Southwestern (Tex.),22.60,David Noble Relays,"Apr 7, 2023",1.1
-19,"Bullinger, Drew",SR-4,Trinity (Tex.),22.65,D3 Challenge,"Mar 25, 2023",2.0
-20,"King, Michael",FR-1,Southwestern (Tex.),22.76,Ice Breaker Classic,"Mar 17, 2023",3.0
-21,"Olmsted, Jonathan",FR-1,Dallas,22.84,Southern Arkansas-Dan Veach Invite,"Mar 25, 2023",2.3
-22,"Witt, Evan",SR-4,Trinity (Tex.),22.85,David Noble Relays,"Apr 7, 2023",+0.0
-23,"Lee, Austin",JR-3,Trinity (Tex.),22.88,D3 Challenge,"Mar 25, 2023",1.8
-24,"Perry, Holden",SO-2,Colorado College,"22.94
-@",Kit Mayer Classic,"Apr 7, 2023",+0.0
-25,"Miller, Ralph",SR-4,Texas Lutheran,23.19,David Noble Relays,"Apr 7, 2023",1.1
-
-1,"Provost, Trinity",FR-1,St. Thomas (Tex.),25.82,The 40th Victor Lopez Classic (College),"Mar 23, 2023",-0.5
-2,"Gray, CC",SO-2,Trinity (Tex.),26.03,David Noble Relays,"Apr 7, 2023",1.8
-3,"Selber, Danya",JR-3,Trinity (Tex.),26.05,David Noble Relays,"Apr 7, 2023",1.5
-4,"Sawyers, Kaela",SO-2,St. Thomas (Tex.),26.10,Cameron Burrell Alumni Invitational,"Apr 7, 2023",1.7
-5,"Ledat, Sealan",SR-4,Trinity (Tex.),26.14,D3 Challenge,"Mar 25, 2023",+0.0
-6,"Powell, Makayla",FR-1,St. Thomas (Tex.),26.23,The 40th Victor Lopez Classic (College),"Mar 23, 2023",-0.5
+@",Gustavus/Colorado College Dual Meet,"Apr 3, 2023",1.1,200 Meters,SCAC Outdoor Performance List,Men
+3,"Wilson, Wyatt",SO-2,Texas Lutheran,21.77,2023 War Hawk Classic,"Apr 14, 2023",2.3,200 Meters,SCAC Outdoor Performance List,Men
+4,"Mcintyre, Bryce",JR-3,St. Thomas (Tex.),21.93,The 40th Victor Lopez Classic (College),"Mar 23, 2023",1.5,200 Meters,SCAC Outdoor Performance List,Men
+5,"Powell-Chimene, Bryce",JR-3,Texas Lutheran,21.98,2023 War Hawk Classic,"Apr 14, 2023",2.3,200 Meters,SCAC Outdoor Performance List,Men
+6,"Piken, Orie",FR-1,Trinity (Tex.),22.11,D3 Challenge,"Mar 25, 2023",2.0,200 Meters,SCAC Outdoor Performance List,Men
+7,"Gilmore, Ethan",SR-4,Trinity (Tex.),22.17,D3 Challenge,"Mar 25, 2023",1.1,200 Meters,SCAC Outdoor Performance List,Men
+8,"Kapyamba, Kashala",FR-1,St. Thomas (Tex.),22.27,Carl Kight Invitational & Multis,"Apr 13, 2023",1.4,200 Meters,SCAC Outdoor Performance List,Men
+8,"Freeney, Justin",FR-1,Texas Lutheran,22.27,2023 War Hawk Classic,"Apr 14, 2023",2.1,200 Meters,SCAC Outdoor Performance List,Men
+10,"Grigsby, Legend",JR-3,Trinity (Tex.),22.35,David Noble Relays,"Apr 7, 2023",0.5,200 Meters,SCAC Outdoor Performance List,Men
+11,"Olmsted, Jonathan",FR-1,Dallas,22.41,2023 War Hawk Classic,"Apr 14, 2023",3.8,200 Meters,SCAC Outdoor Performance List,Men
+12,"Jackson, Zakyrn",SO-2,Southwestern (Tex.),22.43,2023 Trinity Invitational,"Mar 3, 2023",2.4,200 Meters,SCAC Outdoor Performance List,Men
+13,"Bishop, Grant",JR-3,Trinity (Tex.),22.49,2023 Trinity Invitational,"Mar 3, 2023",0.6,200 Meters,SCAC Outdoor Performance List,Men
+13,"Waller, Eduardo",SO-2,St. Thomas (Tex.),22.49,The 40th Victor Lopez Classic (College),"Mar 23, 2023",0.6,200 Meters,SCAC Outdoor Performance List,Men
+15,"Guzman, Weston",FR-1,Texas Lutheran,22.52,D3 Challenge,"Mar 25, 2023",2.0,200 Meters,SCAC Outdoor Performance List,Men
+16,"Brachett, Kaleb",JR-3,Texas Lutheran,22.53,D3 Challenge,"Mar 25, 2023",2.0,200 Meters,SCAC Outdoor Performance List,Men
+17,"Davis, Victor",FR-1,St. Thomas (Tex.),22.54,2023 Trinity Invitational,"Mar 3, 2023",2.4,200 Meters,SCAC Outdoor Performance List,Men
+18,"Maxey, Jamal",SO-2,Southwestern (Tex.),22.56,2023 Trinity Invitational,"Mar 3, 2023",0.4,200 Meters,SCAC Outdoor Performance List,Men
+19,"Ikwuemesi, Chuks",SO-2,Southwestern (Tex.),22.60,David Noble Relays,"Apr 7, 2023",1.1,200 Meters,SCAC Outdoor Performance List,Men
+20,"Bullinger, Drew",SR-4,Trinity (Tex.),22.65,D3 Challenge,"Mar 25, 2023",2.0,200 Meters,SCAC Outdoor Performance List,Men
+21,"King, Michael",FR-1,Southwestern (Tex.),22.76,Ice Breaker Classic,"Mar 17, 2023",3.0,200 Meters,SCAC Outdoor Performance List,Men
+22,"Baly, Kaelen",FR-1,Southwestern (Tex.),22.78,2023 War Hawk Classic,"Apr 14, 2023",1.7,200 Meters,SCAC Outdoor Performance List,Men
+23,"Witt, Evan",SR-4,Trinity (Tex.),22.85,David Noble Relays,"Apr 7, 2023",+0.0,200 Meters,SCAC Outdoor Performance List,Men
+24,"Lee, Austin",JR-3,Trinity (Tex.),22.88,D3 Challenge,"Mar 25, 2023",1.8,200 Meters,SCAC Outdoor Performance List,Men
+25,"Perry, Holden",SO-2,Colorado College,"22.94
+@",Kit Mayer Classic,"Apr 7, 2023",+0.0,200 Meters,SCAC Outdoor Performance List,Men
+1,"Provost, Trinity",FR-1,St. Thomas (Tex.),25.82,The 40th Victor Lopez Classic (College),"Mar 23, 2023",-0.5,200 Meters,SCAC Outdoor Performance List,Women
+2,"Gray, CC",SO-2,Trinity (Tex.),26.03,David Noble Relays,"Apr 7, 2023",1.8,200 Meters,SCAC Outdoor Performance List,Women
+3,"Selber, Danya",JR-3,Trinity (Tex.),26.05,David Noble Relays,"Apr 7, 2023",1.5,200 Meters,SCAC Outdoor Performance List,Women
+4,"Sawyers, Kaela",SO-2,St. Thomas (Tex.),26.10,Cameron Burrell Alumni Invitational,"Apr 7, 2023",1.7,200 Meters,SCAC Outdoor Performance List,Women
+5,"Ledat, Sealan",SR-4,Trinity (Tex.),26.14,D3 Challenge,"Mar 25, 2023",+0.0,200 Meters,SCAC Outdoor Performance List,Women
+6,"Powell, Makayla",FR-1,St. Thomas (Tex.),26.18,Carl Kight Invitational & Multis,"Apr 13, 2023",-2.1,200 Meters,SCAC Outdoor Performance List,Women
 7,"Lippert, Clara",FR-1,Colorado College,"26.24
-@",Gustavus/Colorado College Dual Meet,"Apr 3, 2023",NWI
-8,"Garcia, Natalie",FR-1,Texas Lutheran,26.33,D3 Challenge,"Mar 25, 2023",+0.0
-9,"Jackson, Aliya",JR-3,Trinity (Tex.),26.47,David Noble Relays,"Apr 7, 2023",0.8
-10,"Hinton, Ny'Cierra",SO-2,St. Thomas (Tex.),26.59,2023 Trinity Invitational,"Mar 3, 2023",0.5
-11,"Kotfas, Taylor",SR-4,Trinity (Tex.),26.79,2023 Trinity Invitational,"Mar 3, 2023",0.5
-12,"Williams, Ja'Keia",JR-3,Texas Lutheran,26.85,2023 Trinity Invitational,"Mar 3, 2023",1.6
-13,"Mackrell, Lauren",SR-4,Southwestern (Tex.),27.01,David Noble Relays,"Apr 7, 2023",1.2
-14,"Jones, Emma",FR-1,Colorado College,"27.08
-@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023",0.8
-15,"Oloyede, Shekinah",SR-4,Colorado College,"27.09
-@",Gustavus/Colorado College Dual Meet,"Apr 3, 2023",NWI
-16,"Subawalla, Yasmin",SR-4,Trinity (Tex.),27.30,David Noble Relays,"Apr 7, 2023",2.0
-17,"Canas, LeeAnndrea",FR-1,Texas Lutheran,27.37,David Noble Relays,"Apr 7, 2023",1.8
-18,"Recknagel, Ashlynn",FR-1,Texas Lutheran,27.50,D3 Challenge,"Mar 25, 2023",+0.0
-19,"Norrell, Taylor",SO-2,Texas Lutheran,27.56,2023 Trinity Invitational,"Mar 3, 2023",1.6
-20,"Thompson, Dejahnae",SR-4,Southwestern (Tex.),27.70,2023 Trinity Invitational,"Mar 3, 2023",0.3
-21,"Vera, Nelsy",FR-1,St. Thomas (Tex.),27.78,The 40th Victor Lopez Classic (College),"Mar 23, 2023",-0.7
-22,"Tanner, Kamilah",FR-1,Texas Lutheran,27.81,D3 Challenge,"Mar 25, 2023",2.1
-23,"Lopez, Leilani",SO-2,Texas Lutheran,27.86,2023 Trinity Invitational,"Mar 3, 2023",1.7
-24,"Pilarski, Katelin",FR-1,Southwestern (Tex.),27.99,2023 Trinity Invitational,"Mar 3, 2023",0.3
-25,"Gomez, Sirena",SO-2,Texas Lutheran,28.15,David Noble Relays,"Apr 7, 2023",1.5
-
+@",Gustavus/Colorado College Dual Meet,"Apr 3, 2023",+0.0,200 Meters,SCAC Outdoor Performance List,Women
+8,"Garcia, Natalie",FR-1,Texas Lutheran,26.33,D3 Challenge,"Mar 25, 2023",+0.0,200 Meters,SCAC Outdoor Performance List,Women
+9,"Jackson, Aliya",JR-3,Trinity (Tex.),26.47,David Noble Relays,"Apr 7, 2023",0.8,200 Meters,SCAC Outdoor Performance List,Women
+10,"Hinton, Ny'Cierra",SO-2,St. Thomas (Tex.),26.59,2023 Trinity Invitational,"Mar 3, 2023",0.5,200 Meters,SCAC Outdoor Performance List,Women
+11,"Kotfas, Taylor",SR-4,Trinity (Tex.),26.79,2023 Trinity Invitational,"Mar 3, 2023",0.5,200 Meters,SCAC Outdoor Performance List,Women
+12,"Williams, Ja'Keia",JR-3,Texas Lutheran,26.85,2023 Trinity Invitational,"Mar 3, 2023",1.6,200 Meters,SCAC Outdoor Performance List,Women
+13,"Van Meter, Lilly",SO-2,Southwestern (Tex.),26.89,2023 War Hawk Classic,"Apr 14, 2023",2.3,200 Meters,SCAC Outdoor Performance List,Women
+14,"Stinson, Christina",SO-2,St. Thomas (Tex.),26.92,Carl Kight Invitational & Multis,"Apr 13, 2023",-1.8,200 Meters,SCAC Outdoor Performance List,Women
+15,"Subawalla, Yasmin",SR-4,Trinity (Tex.),26.99,Kingsville Cactus Cup,"Apr 15, 2023",0.7,200 Meters,SCAC Outdoor Performance List,Women
+16,"Mackrell, Lauren",SR-4,Southwestern (Tex.),27.01,David Noble Relays,"Apr 7, 2023",1.2,200 Meters,SCAC Outdoor Performance List,Women
+17,"Jones, Emma",FR-1,Colorado College,"27.08
+@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023",0.8,200 Meters,SCAC Outdoor Performance List,Women
+18,"Oloyede, Shekinah",SR-4,Colorado College,"27.09
+@",Gustavus/Colorado College Dual Meet,"Apr 3, 2023",+0.0,200 Meters,SCAC Outdoor Performance List,Women
+19,"Canas, LeeAnndrea",FR-1,Texas Lutheran,27.37,David Noble Relays,"Apr 7, 2023",1.8,200 Meters,SCAC Outdoor Performance List,Women
+20,"Thompson, Dejahnae",JR-3,Southwestern (Tex.),27.42,2023 War Hawk Classic,"Apr 14, 2023",2.3,200 Meters,SCAC Outdoor Performance List,Women
+21,"Recknagel, Ashlynn",FR-1,Texas Lutheran,27.50,D3 Challenge,"Mar 25, 2023",+0.0,200 Meters,SCAC Outdoor Performance List,Women
+22,"Vera, Nelsy",FR-1,St. Thomas (Tex.),27.54,Carl Kight Invitational & Multis,"Apr 13, 2023",1.8,200 Meters,SCAC Outdoor Performance List,Women
+23,"Norrell, Taylor",SO-2,Texas Lutheran,27.56,2023 Trinity Invitational,"Mar 3, 2023",1.6,200 Meters,SCAC Outdoor Performance List,Women
+24,"Tanner, Kamilah",FR-1,Texas Lutheran,27.81,D3 Challenge,"Mar 25, 2023",2.1,200 Meters,SCAC Outdoor Performance List,Women
+25,"Lopez, Leilani",SO-2,Texas Lutheran,27.86,2023 Trinity Invitational,"Mar 3, 2023",1.7,200 Meters,SCAC Outdoor Performance List,Women
 1,"Williams, Josh",FR-1,Colorado College,"48.75
-@",Kit Mayer Classic,"Apr 7, 2023"
-2,"Mcintyre, Bryce",JR-3,St. Thomas (Tex.),48.86,2023 Trinity Invitational,"Mar 3, 2023"
-3,"Waller, Eduardo",SO-2,St. Thomas (Tex.),49.22,The 40th Victor Lopez Classic (College),"Mar 23, 2023"
-4,"Powell-Chimene, Bryce",JR-3,Texas Lutheran,49.47,2023 Trinity Invitational,"Mar 3, 2023"
-5,"Olmsted, Jonathan",FR-1,Dallas,49.53,2023 MC Spring Cleaning Classic,"Mar 4, 2023"
-6,"Gilmore, Ethan",SR-4,Trinity (Tex.),49.83,D3 Challenge,"Mar 25, 2023"
-7,"Ladreyt, Nic",SO-2,Trinity (Tex.),50.38,2023 Trinity Invitational,"Mar 3, 2023"
-8,"Maxey, Jamal",SO-2,Southwestern (Tex.),50.42,Ice Breaker Classic,"Mar 17, 2023"
-9,"Bishop, Grant",JR-3,Trinity (Tex.),50.66,2023 Trinity Invitational,"Mar 3, 2023"
-10,"Freeney, Justin",FR-1,Texas Lutheran,50.70,2023 Trinity Invitational,"Mar 3, 2023"
-11,"Kapyamba, Kashala",FR-1,St. Thomas (Tex.),50.92,2023 Trinity Invitational,"Mar 3, 2023"
-12,"Bonilla, Marco",FR-1,Trinity (Tex.),51.04,2023 Trinity Invitational,"Mar 3, 2023"
-13,"King, Michael",FR-1,Southwestern (Tex.),51.17,Ice Breaker Classic,"Mar 17, 2023"
-14,"Vann, John",FR-1,Southwestern (Tex.),51.29,Ice Breaker Classic,"Mar 17, 2023"
-15,"Venious, Xavier",JR-3,Centenary (La.),51.49,Louisiana Tech Jim Mize Invita,"Mar 17, 2023"
-16,"Brachett, Kaleb",JR-3,Texas Lutheran,51.59,D3 Challenge,"Mar 25, 2023"
-17,"Parra, Josue",JR-3,Trinity (Tex.),51.87,D3 Challenge,"Mar 25, 2023"
-18,"Miller, Ralph",SR-4,Texas Lutheran,51.91,D3 Challenge,"Mar 25, 2023"
-19,"Veal, Terrence",SO-2,St. Thomas (Tex.),52.38,Cameron Burrell Alumni Invitational,"Apr 7, 2023"
-20,"Baly, Kaelen",FR-1,Southwestern (Tex.),52.54,David Noble Relays,"Apr 7, 2023"
-21,"Davis, Jadyn",SR-4,Texas Lutheran,52.97,2023 Trinity Invitational,"Mar 3, 2023"
-22,"Jackson, Zakyrn",SO-2,Southwestern (Tex.),53.04,David Noble Relays,"Apr 7, 2023"
-23,"Brisco, Will",SO-2,St. Thomas (Tex.),53.13,The 40th Victor Lopez Classic (College),"Mar 23, 2023"
-24,"Boisselier, Marco",SR-4,Trinity (Tex.),53.20,2023 Trinity Invitational,"Mar 3, 2023"
-25,"Gunsbury, Liam",JR-3,Colorado College,"53.25
-@",Kit Mayer Classic,"Apr 7, 2023"
-
-1,"Kotfas, Taylor",SR-4,Trinity (Tex.),58.96,D3 Challenge,"Mar 25, 2023"
-2,"Gray, CC",SO-2,Trinity (Tex.),59.40,2023 Trinity Invitational,"Mar 3, 2023"
-3,"Powell, Makayla",FR-1,St. Thomas (Tex.),59.47,The 40th Victor Lopez Classic (College),"Mar 23, 2023"
-4,"Jackson, Aliya",JR-3,Trinity (Tex.),1:00.17,David Noble Relays,"Apr 7, 2023"
-5,"Stinson, Christina",SO-2,St. Thomas (Tex.),1:00.18,Cameron Burrell Alumni Invitational,"Apr 7, 2023"
-6,"Ledat, Sealan",SR-4,Trinity (Tex.),1:00.85,David Noble Relays,"Apr 7, 2023"
-7,"Lippert, Clara",FR-1,Colorado College,1:00.93,Occidental Distance Carnival & Spring Break Classic (Co,"Mar 11, 2023"
+@",Kit Mayer Classic,"Apr 7, 2023",NaN,400 Meters,SCAC Outdoor Performance List,Men
+2,"Mcintyre, Bryce",JR-3,St. Thomas (Tex.),48.86,2023 Trinity Invitational,"Mar 3, 2023",NaN,400 Meters,SCAC Outdoor Performance List,Men
+3,"Powell-Chimene, Bryce",JR-3,Texas Lutheran,49.14,2023 War Hawk Classic,"Apr 14, 2023",NaN,400 Meters,SCAC Outdoor Performance List,Men
+4,"Waller, Eduardo",SO-2,St. Thomas (Tex.),49.22,The 40th Victor Lopez Classic (College),"Mar 23, 2023",NaN,400 Meters,SCAC Outdoor Performance List,Men
+5,"Olmsted, Jonathan",FR-1,Dallas,49.28,2023 War Hawk Classic,"Apr 14, 2023",NaN,400 Meters,SCAC Outdoor Performance List,Men
+6,"Gilmore, Ethan",SR-4,Trinity (Tex.),49.83,D3 Challenge,"Mar 25, 2023",NaN,400 Meters,SCAC Outdoor Performance List,Men
+7,"Freeney, Justin",FR-1,Texas Lutheran,50.34,2023 War Hawk Classic,"Apr 14, 2023",NaN,400 Meters,SCAC Outdoor Performance List,Men
+8,"Ladreyt, Nic",SO-2,Trinity (Tex.),50.38,2023 Trinity Invitational,"Mar 3, 2023",NaN,400 Meters,SCAC Outdoor Performance List,Men
+9,"Maxey, Jamal",SO-2,Southwestern (Tex.),50.42,Ice Breaker Classic,"Mar 17, 2023",NaN,400 Meters,SCAC Outdoor Performance List,Men
+10,"Bishop, Grant",JR-3,Trinity (Tex.),50.66,2023 Trinity Invitational,"Mar 3, 2023",NaN,400 Meters,SCAC Outdoor Performance List,Men
+11,"Kapyamba, Kashala",FR-1,St. Thomas (Tex.),50.92,2023 Trinity Invitational,"Mar 3, 2023",NaN,400 Meters,SCAC Outdoor Performance List,Men
+12,"Bonilla, Marco",FR-1,Trinity (Tex.),51.04,2023 Trinity Invitational,"Mar 3, 2023",NaN,400 Meters,SCAC Outdoor Performance List,Men
+13,"King, Michael",FR-1,Southwestern (Tex.),51.17,Ice Breaker Classic,"Mar 17, 2023",NaN,400 Meters,SCAC Outdoor Performance List,Men
+14,"Smith, Jacob",FR-1,St. Thomas (Tex.),51.25,Carl Kight Invitational & Multis,"Apr 13, 2023",NaN,400 Meters,SCAC Outdoor Performance List,Men
+15,"Vann, John",FR-1,Southwestern (Tex.),51.29,Ice Breaker Classic,"Mar 17, 2023",NaN,400 Meters,SCAC Outdoor Performance List,Men
+16,"Venious, Xavier",JR-3,Centenary (La.),51.49,Louisiana Tech Jim Mize Invita,"Mar 17, 2023",NaN,400 Meters,SCAC Outdoor Performance List,Men
+17,"Veal, Terrence",SO-2,St. Thomas (Tex.),51.54,Carl Kight Invitational & Multis,"Apr 13, 2023",NaN,400 Meters,SCAC Outdoor Performance List,Men
+18,"Brachett, Kaleb",JR-3,Texas Lutheran,51.59,D3 Challenge,"Mar 25, 2023",NaN,400 Meters,SCAC Outdoor Performance List,Men
+19,"Jackson, Zakyrn",SO-2,Southwestern (Tex.),51.86,2023 War Hawk Classic,"Apr 14, 2023",NaN,400 Meters,SCAC Outdoor Performance List,Men
+20,"Parra, Josue",JR-3,Trinity (Tex.),51.87,D3 Challenge,"Mar 25, 2023",NaN,400 Meters,SCAC Outdoor Performance List,Men
+21,"Miller, Ralph",SR-4,Texas Lutheran,51.91,D3 Challenge,"Mar 25, 2023",NaN,400 Meters,SCAC Outdoor Performance List,Men
+22,"Baly, Kaelen",FR-1,Southwestern (Tex.),51.92,2023 War Hawk Classic,"Apr 14, 2023",NaN,400 Meters,SCAC Outdoor Performance List,Men
+23,"McBride, DaMante",FR-1,Texas Lutheran,52.44,2023 War Hawk Classic,"Apr 14, 2023",NaN,400 Meters,SCAC Outdoor Performance List,Men
+24,"Davis, Jadyn",SR-4,Texas Lutheran,52.97,2023 Trinity Invitational,"Mar 3, 2023",NaN,400 Meters,SCAC Outdoor Performance List,Men
+25,"Brisco, Will",SO-2,St. Thomas (Tex.),53.13,The 40th Victor Lopez Classic (College),"Mar 23, 2023",NaN,400 Meters,SCAC Outdoor Performance List,Men
+1,"Kotfas, Taylor",SR-4,Trinity (Tex.),58.96,D3 Challenge,"Mar 25, 2023",NaN,400 Meters,SCAC Outdoor Performance List,Women
+2,"Gray, CC",SO-2,Trinity (Tex.),59.40,2023 Trinity Invitational,"Mar 3, 2023",NaN,400 Meters,SCAC Outdoor Performance List,Women
+3,"Powell, Makayla",FR-1,St. Thomas (Tex.),59.47,The 40th Victor Lopez Classic (College),"Mar 23, 2023",NaN,400 Meters,SCAC Outdoor Performance List,Women
+4,"Jackson, Aliya",JR-3,Trinity (Tex.),1:00.17,David Noble Relays,"Apr 7, 2023",NaN,400 Meters,SCAC Outdoor Performance List,Women
+5,"Stinson, Christina",SO-2,St. Thomas (Tex.),1:00.18,Cameron Burrell Alumni Invitational,"Apr 7, 2023",NaN,400 Meters,SCAC Outdoor Performance List,Women
+6,"Ledat, Sealan",SR-4,Trinity (Tex.),1:00.85,David Noble Relays,"Apr 7, 2023",NaN,400 Meters,SCAC Outdoor Performance List,Women
+7,"Lippert, Clara",FR-1,Colorado College,1:00.93,Occidental Distance Carnival & Spring Break Classic (Co,"Mar 11, 2023",NaN,400 Meters,SCAC Outdoor Performance List,Women
 8,"Shove, Maddie",FR-1,Colorado College,"1:01.04
-@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023"
-9,"Williams, Ja'Keia",JR-3,Texas Lutheran,1:01.07,David Noble Relays,"Apr 7, 2023"
-10,"Neff, Arden",SO-2,Southwestern (Tex.),1:01.14,D3 Challenge,"Mar 25, 2023"
-11,"Jones, Emma",FR-1,Colorado College,1:01.34,Occidental Distance Carnival & Spring Break Classic (Co,"Mar 11, 2023"
-12,"Huck, Hayley",JR-3,Trinity (Tex.),1:01.46,D3 Challenge,"Mar 25, 2023"
-13,"Fowkes, Emma",JR-3,Colorado College,"1:01.51
-@",Kit Mayer Classic,"Apr 7, 2023"
-14,"Van Meter, Lilly",SO-2,Southwestern (Tex.),1:01.76,2023 Trinity Invitational,"Mar 3, 2023"
-15,"Canas, LeeAnndrea",FR-1,Texas Lutheran,1:02.06,2023 Trinity Invitational,"Mar 3, 2023"
-16,"Recknagel, Ashlynn",FR-1,Texas Lutheran,1:03.31,2023 Trinity Invitational,"Mar 3, 2023"
+@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023",NaN,400 Meters,SCAC Outdoor Performance List,Women
+9,"Williams, Ja'Keia",JR-3,Texas Lutheran,1:01.07,David Noble Relays,"Apr 7, 2023",NaN,400 Meters,SCAC Outdoor Performance List,Women
+9,"Van Meter, Lilly",SO-2,Southwestern (Tex.),1:01.07,2023 War Hawk Classic,"Apr 14, 2023",NaN,400 Meters,SCAC Outdoor Performance List,Women
+11,"Neff, Arden",SO-2,Southwestern (Tex.),1:01.14,D3 Challenge,"Mar 25, 2023",NaN,400 Meters,SCAC Outdoor Performance List,Women
+12,"Jones, Emma",FR-1,Colorado College,1:01.34,Occidental Distance Carnival & Spring Break Classic (Co,"Mar 11, 2023",NaN,400 Meters,SCAC Outdoor Performance List,Women
+13,"Huck, Hayley",JR-3,Trinity (Tex.),1:01.46,D3 Challenge,"Mar 25, 2023",NaN,400 Meters,SCAC Outdoor Performance List,Women
+14,"Fowkes, Emma",JR-3,Colorado College,"1:01.51
+@",Kit Mayer Classic,"Apr 7, 2023",NaN,400 Meters,SCAC Outdoor Performance List,Women
+15,"Canas, LeeAnndrea",FR-1,Texas Lutheran,1:02.06,2023 Trinity Invitational,"Mar 3, 2023",NaN,400 Meters,SCAC Outdoor Performance List,Women
+16,"Recknagel, Ashlynn",FR-1,Texas Lutheran,1:03.31,2023 Trinity Invitational,"Mar 3, 2023",NaN,400 Meters,SCAC Outdoor Performance List,Women
 17,"Goodfried, Abby",FR-1,Colorado College,"1:03.42
-@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023"
-18,"Thompson, Dejahnae",SR-4,Southwestern (Tex.),1:03.87,2023 Trinity Invitational,"Mar 3, 2023"
-19,"Vera, Nelsy",FR-1,St. Thomas (Tex.),1:04.16,Cameron Burrell Alumni Invitational,"Apr 7, 2023"
-20,"Gnecco, Emily",FR-1,Trinity (Tex.),1:04.32,D3 Challenge,"Mar 25, 2023"
-21,"Branch, Shinaya",FR-1,Centenary (La.),1:06.12,2023 Hendrix Invitational,"Mar 10, 2023"
-22,"Martin, Alexa",FR-1,Texas Lutheran,1:06.51,2023 Trinity Invitational,"Mar 3, 2023"
-23,"Summers, Samyia",FR-1,St. Thomas (Tex.),1:06.68,2023 Trinity Invitational,"Mar 3, 2023"
-24,"Iannelli, Brenna",JR-3,Texas Lutheran,1:07.14,2023 Trinity Invitational,"Mar 3, 2023"
-25,"Hernandez, Agnes",SO-2,Dallas,1:07.72,2023 MC Spring Cleaning Classic,"Mar 4, 2023"
-
+@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023",NaN,400 Meters,SCAC Outdoor Performance List,Women
+18,"Thompson, Dejahnae",SR-4,Southwestern (Tex.),1:03.87,2023 Trinity Invitational,"Mar 3, 2023",NaN,400 Meters,SCAC Outdoor Performance List,Women
+19,"Vera, Nelsy",FR-1,St. Thomas (Tex.),1:04.16,Cameron Burrell Alumni Invitational,"Apr 7, 2023",NaN,400 Meters,SCAC Outdoor Performance List,Women
+20,"Gnecco, Emily",FR-1,Trinity (Tex.),1:04.32,D3 Challenge,"Mar 25, 2023",NaN,400 Meters,SCAC Outdoor Performance List,Women
+21,"Taylor, Caeli",JR-3,Texas Lutheran,1:05.96,2023 War Hawk Classic,"Apr 14, 2023",NaN,400 Meters,SCAC Outdoor Performance List,Women
+22,"Branch, Shinaya",FR-1,Centenary (La.),1:06.12,2023 Hendrix Invitational,"Mar 10, 2023",NaN,400 Meters,SCAC Outdoor Performance List,Women
+23,"Martin, Alexa",FR-1,Texas Lutheran,1:06.51,2023 Trinity Invitational,"Mar 3, 2023",NaN,400 Meters,SCAC Outdoor Performance List,Women
+24,"Summers, Samyia",FR-1,St. Thomas (Tex.),1:06.68,2023 Trinity Invitational,"Mar 3, 2023",NaN,400 Meters,SCAC Outdoor Performance List,Women
+25,"Iannelli, Brenna",JR-3,Texas Lutheran,1:07.14,2023 Trinity Invitational,"Mar 3, 2023",NaN,400 Meters,SCAC Outdoor Performance List,Women
 1,"Barnes, Rabbit",FR-1,Colorado College,"1:53.57
-@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023"
-2,"Langer, Sebastian",FR-1,Trinity (Tex.),1:54.42,D3 Challenge,"Mar 25, 2023"
-3,"Green, Luis",SR-4,Texas Lutheran,1:55.03,Bobcat Invitational 2023,"Mar 30, 2023"
-4,"Salony, Will",SO-2,Trinity (Tex.),1:55.07,Bobcat Invitational 2023,"Mar 30, 2023"
-5,"Gallagher, Jared",SO-2,Trinity (Tex.),1:57.28,2023 Trinity Invitational,"Mar 3, 2023"
-6,"Smith, Jacob",FR-1,St. Thomas (Tex.),1:57.45,2023 Trinity Invitational,"Mar 3, 2023"
-7,"Desai, Rushil",JR-3,Trinity (Tex.),1:57.48,2023 Trinity Invitational,"Mar 3, 2023"
-8,"Carpio, Jhancarlos",SO-2,St. Thomas (Tex.),1:57.86,The 40th Victor Lopez Classic (College),"Mar 23, 2023"
-9,"Jonsson, Marco",SO-2,Trinity (Tex.),1:58.25,D3 Challenge,"Mar 25, 2023"
-10,"Santos, Aidan",JR-3,Colorado College,1:59.72,Occidental Distance Carnival & Spring Break Classic (Co,"Mar 11, 2023"
+@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023",NaN,800 Meters,SCAC Outdoor Performance List,Men
+2,"Langer, Sebastian",FR-1,Trinity (Tex.),1:54.42,D3 Challenge,"Mar 25, 2023",NaN,800 Meters,SCAC Outdoor Performance List,Men
+3,"Green, Luis",SR-4,Texas Lutheran,1:55.03,Bobcat Invitational 2023,"Mar 30, 2023",NaN,800 Meters,SCAC Outdoor Performance List,Men
+4,"Salony, Will",SO-2,Trinity (Tex.),1:55.07,Bobcat Invitational 2023,"Mar 30, 2023",NaN,800 Meters,SCAC Outdoor Performance List,Men
+5,"Gallagher, Jared",SO-2,Trinity (Tex.),1:57.28,2023 Trinity Invitational,"Mar 3, 2023",NaN,800 Meters,SCAC Outdoor Performance List,Men
+6,"Smith, Jacob",FR-1,St. Thomas (Tex.),1:57.45,2023 Trinity Invitational,"Mar 3, 2023",NaN,800 Meters,SCAC Outdoor Performance List,Men
+7,"Desai, Rushil",JR-3,Trinity (Tex.),1:57.48,2023 Trinity Invitational,"Mar 3, 2023",NaN,800 Meters,SCAC Outdoor Performance List,Men
+8,"Carpio, Jhancarlos",SO-2,St. Thomas (Tex.),1:57.86,The 40th Victor Lopez Classic (College),"Mar 23, 2023",NaN,800 Meters,SCAC Outdoor Performance List,Men
+9,"Jonsson, Marco",SO-2,Trinity (Tex.),1:58.25,D3 Challenge,"Mar 25, 2023",NaN,800 Meters,SCAC Outdoor Performance List,Men
+10,"Santos, Aidan",JR-3,Colorado College,1:59.72,Occidental Distance Carnival & Spring Break Classic (Co,"Mar 11, 2023",NaN,800 Meters,SCAC Outdoor Performance List,Men
 11,"Settles, James",JR-3,Colorado College,"2:00.49
-@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023"
-12,"Urbina, James",JR-3,St. Thomas (Tex.),2:00.58,The 40th Victor Lopez Classic (College),"Mar 23, 2023"
+@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023",NaN,800 Meters,SCAC Outdoor Performance List,Men
+12,"Urbina, James",JR-3,St. Thomas (Tex.),2:00.58,The 40th Victor Lopez Classic (College),"Mar 23, 2023",NaN,800 Meters,SCAC Outdoor Performance List,Men
 13,"Castette, Ethan",FR-1,Colorado College,"2:00.59
-@",Kit Mayer Classic,"Apr 7, 2023"
-14,"McBride, DaMante",FR-1,Texas Lutheran,2:00.89,D3 Challenge,"Mar 25, 2023"
+@",Kit Mayer Classic,"Apr 7, 2023",NaN,800 Meters,SCAC Outdoor Performance List,Men
+14,"McBride, DaMante",FR-1,Texas Lutheran,2:00.89,D3 Challenge,"Mar 25, 2023",NaN,800 Meters,SCAC Outdoor Performance List,Men
 15,"Moran, Jay",JR-3,Colorado College,"2:01.34
-@",Kit Mayer Classic,"Apr 7, 2023"
-16,"Ceballos, Gabriel",FR-1,Texas Lutheran,2:01.60,David Noble Relays,"Apr 7, 2023"
+@",Kit Mayer Classic,"Apr 7, 2023",NaN,800 Meters,SCAC Outdoor Performance List,Men
+16,"Ceballos, Gabriel",FR-1,Texas Lutheran,2:01.60,David Noble Relays,"Apr 7, 2023",NaN,800 Meters,SCAC Outdoor Performance List,Men
 17,"Margolis, Ruben",FR-1,Colorado College,"2:04.80
-@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023"
-18,"Washington, Adrian",JR-3,Southwestern (Tex.),2:06.19,2023 Trinity Invitational,"Mar 3, 2023"
-19,"Brisco, Will",SO-2,St. Thomas (Tex.),2:07.24,2023 Trinity Invitational,"Mar 3, 2023"
+@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023",NaN,800 Meters,SCAC Outdoor Performance List,Men
+18,"Washington, Adrian",JR-3,Southwestern (Tex.),2:06.19,2023 Trinity Invitational,"Mar 3, 2023",NaN,800 Meters,SCAC Outdoor Performance List,Men
+19,"Brisco, Will",SO-2,St. Thomas (Tex.),2:07.24,2023 Trinity Invitational,"Mar 3, 2023",NaN,800 Meters,SCAC Outdoor Performance List,Men
 20,"Williams, Crosby",SO-2,Colorado College,"2:07.84
-@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023"
-21,"Mendoza, Marc",FR-1,St. Thomas (Tex.),2:09.39,TSU Relays College Division,"Mar 17, 2023"
+@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023",NaN,800 Meters,SCAC Outdoor Performance List,Men
+21,"Mendoza, Marc",FR-1,St. Thomas (Tex.),2:09.39,TSU Relays College Division,"Mar 17, 2023",NaN,800 Meters,SCAC Outdoor Performance List,Men
 22,"Jones, Walt",SO-2,Colorado College,"2:09.54
-@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023"
-23,"Cherry, Ayden",JR-3,Colorado College,"2:10.24
-@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023"
-24,"Singer, Sam",FR-1,Colorado College,"2:12.84
-@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023"
-25,"Kim, Vincent",SR-4,Southwestern (Tex.),2:13.79,Ice Breaker Classic,"Mar 17, 2023"
-
+@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023",NaN,800 Meters,SCAC Outdoor Performance List,Men
+23,"Wolf , Lucas",SR-4,St. Thomas (Tex.),2:10.01,Carl Kight Invitational & Multis,"Apr 13, 2023",NaN,800 Meters,SCAC Outdoor Performance List,Men
+24,"Cherry, Ayden",JR-3,Colorado College,"2:10.24
+@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023",NaN,800 Meters,SCAC Outdoor Performance List,Men
+25,"Singer, Sam",FR-1,Colorado College,"2:12.84
+@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023",NaN,800 Meters,SCAC Outdoor Performance List,Men
 1,"Fullerton, Ella",FR-1,Colorado College,"2:18.92
-@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023"
+@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023",NaN,800 Meters,SCAC Outdoor Performance List,Women
 2,"Shove, Maddie",FR-1,Colorado College,"2:19.04
-@",Kit Mayer Classic,"Apr 7, 2023"
+@",Kit Mayer Classic,"Apr 7, 2023",NaN,800 Meters,SCAC Outdoor Performance List,Women
 3,"Olson, Isabel",SO-2,Colorado College,"2:19.92
-@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023"
+@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023",NaN,800 Meters,SCAC Outdoor Performance List,Women
 4,"Matson, Tori",SR-4,Colorado College,"2:21.79
-@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023"
-5,"Tangney, Paige",SR-4,Trinity (Tex.),2:22.03,David Noble Relays,"Apr 7, 2023"
-6,"Goodfried, Abby",FR-1,Colorado College,2:22.98,Ed Boitano Invitational 2023,"Mar 3, 2023"
-7,"Gnecco, Emily",FR-1,Trinity (Tex.),2:23.38,Bobcat Invitational 2023,"Mar 30, 2023"
-8,"Habeck, Madison",JR-3,Trinity (Tex.),2:23.53,David Noble Relays,"Apr 7, 2023"
-9,"Gurule, Josette",FR-1,Trinity (Tex.),2:23.97,David Noble Relays,"Apr 7, 2023"
+@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023",NaN,800 Meters,SCAC Outdoor Performance List,Women
+5,"Tangney, Paige",SR-4,Trinity (Tex.),2:22.03,David Noble Relays,"Apr 7, 2023",NaN,800 Meters,SCAC Outdoor Performance List,Women
+6,"Goodfried, Abby",FR-1,Colorado College,2:22.98,Ed Boitano Invitational 2023,"Mar 3, 2023",NaN,800 Meters,SCAC Outdoor Performance List,Women
+7,"Gnecco, Emily",FR-1,Trinity (Tex.),2:23.38,Bobcat Invitational 2023,"Mar 30, 2023",NaN,800 Meters,SCAC Outdoor Performance List,Women
+8,"Habeck, Madison",JR-3,Trinity (Tex.),2:23.53,David Noble Relays,"Apr 7, 2023",NaN,800 Meters,SCAC Outdoor Performance List,Women
+9,"Gurule, Josette",FR-1,Trinity (Tex.),2:23.97,David Noble Relays,"Apr 7, 2023",NaN,800 Meters,SCAC Outdoor Performance List,Women
 10,"Lamb, May",SO-2,Colorado College,"2:24.20
-@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023"
-11,"Keena, Gianna",FR-1,Trinity (Tex.),2:24.71,D3 Challenge,"Mar 25, 2023"
-12,"Leal, Aaliyah",FR-1,Texas Lutheran,2:24.84,David Noble Relays,"Apr 7, 2023"
-13,"Sainz, Gish",SO-2,Trinity (Tex.),2:25.66,Bobcat Invitational 2023,"Mar 30, 2023"
-14,"Skinner, Karelann",JR-3,St. Thomas (Tex.),2:26.87,The 40th Victor Lopez Classic (College),"Mar 23, 2023"
-15,"Quinn, Clare",SR-4,Colorado College,"2:28.45
-@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023"
-16,"Mueting, Mara",SO-2,Colorado College,"2:30.45
-@",Kit Mayer Classic,"Apr 7, 2023"
-17,"Goulas, Abby",FR-1,Colorado College,"2:31.10
-@",Kit Mayer Classic,"Apr 7, 2023"
-18,"Pertuit, Emma",SR-4,Southwestern (Tex.),2:32.00,2023 Trinity Invitational,"Mar 3, 2023"
-19,"Frogge, Brooktie",FR-1,Colorado College,"2:32.10
-@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023"
-20,"Taylor, Caeli",JR-3,Texas Lutheran,2:32.79,2023 Trinity Invitational,"Mar 3, 2023"
-21,"Perez, Hailey",FR-1,St. Thomas (Tex.),2:33.54,The 40th Victor Lopez Classic (College),"Mar 23, 2023"
-22,"McLauchlin, Elizabeth",SO-2,Trinity (Tex.),2:34.07,David Noble Relays,"Apr 7, 2023"
-23,"Stepaniak, Elizabeth",SO-2,St. Thomas (Tex.),2:34.76,Cameron Burrell Alumni Invitational,"Apr 7, 2023"
-24,"Steele, Breanna",FR-1,Southwestern (Tex.),2:35.29,David Noble Relays,"Apr 7, 2023"
-25,"Derry, Emmaline",FR-1,Colorado College,"2:36.57
-@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023"
-
-1,"Barnes, Rabbit",FR-1,Colorado College,3:52.54,Wichita State KT Woodman Classic,"Apr 7, 2023"
-2,"Salony, Will",SO-2,Trinity (Tex.),3:53.92,Bobcat Invitational 2023,"Mar 30, 2023"
+@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023",NaN,800 Meters,SCAC Outdoor Performance List,Women
+11,"Keena, Gianna",FR-1,Trinity (Tex.),2:24.71,D3 Challenge,"Mar 25, 2023",NaN,800 Meters,SCAC Outdoor Performance List,Women
+12,"Leal, Aaliyah",FR-1,Texas Lutheran,2:24.84,David Noble Relays,"Apr 7, 2023",NaN,800 Meters,SCAC Outdoor Performance List,Women
+13,"Sainz, Gish",SO-2,Trinity (Tex.),2:25.66,Bobcat Invitational 2023,"Mar 30, 2023",NaN,800 Meters,SCAC Outdoor Performance List,Women
+14,"Skinner, Karelann",JR-3,St. Thomas (Tex.),2:26.87,The 40th Victor Lopez Classic (College),"Mar 23, 2023",NaN,800 Meters,SCAC Outdoor Performance List,Women
+15,"Chiella, Rachel",SO-2,Southwestern (Tex.),2:27.93,2023 War Hawk Classic,"Apr 14, 2023",NaN,800 Meters,SCAC Outdoor Performance List,Women
+16,"Quinn, Clare",SR-4,Colorado College,"2:28.45
+@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023",NaN,800 Meters,SCAC Outdoor Performance List,Women
+17,"Mueting, Mara",SO-2,Colorado College,"2:30.45
+@",Kit Mayer Classic,"Apr 7, 2023",NaN,800 Meters,SCAC Outdoor Performance List,Women
+18,"Goulas, Abby",FR-1,Colorado College,"2:31.10
+@",Kit Mayer Classic,"Apr 7, 2023",NaN,800 Meters,SCAC Outdoor Performance List,Women
+19,"Stepaniak, Elizabeth",SO-2,St. Thomas (Tex.),2:31.33,Carl Kight Invitational & Multis,"Apr 13, 2023",NaN,800 Meters,SCAC Outdoor Performance List,Women
+20,"Pertuit, Emma",SR-4,Southwestern (Tex.),2:32.00,2023 Trinity Invitational,"Mar 3, 2023",NaN,800 Meters,SCAC Outdoor Performance List,Women
+21,"Frogge, Brooktie",FR-1,Colorado College,"2:32.10
+@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023",NaN,800 Meters,SCAC Outdoor Performance List,Women
+22,"Taylor, Caeli",JR-3,Texas Lutheran,2:32.79,2023 Trinity Invitational,"Mar 3, 2023",NaN,800 Meters,SCAC Outdoor Performance List,Women
+23,"Steele, Breanna",FR-1,Southwestern (Tex.),2:32.83,2023 War Hawk Classic,"Apr 14, 2023",NaN,800 Meters,SCAC Outdoor Performance List,Women
+24,"Perez, Hailey",FR-1,St. Thomas (Tex.),2:33.54,The 40th Victor Lopez Classic (College),"Mar 23, 2023",NaN,800 Meters,SCAC Outdoor Performance List,Women
+25,"McLauchlin, Elizabeth",SO-2,Trinity (Tex.),2:34.07,David Noble Relays,"Apr 7, 2023",NaN,800 Meters,SCAC Outdoor Performance List,Women
+1,"Salony, Will",SO-2,Trinity (Tex.),3:52.54,2023 Bryan Clay Invitational,"Apr 13, 2023",NaN,1500 Meters,SCAC Outdoor Performance List,Men
+1,"Barnes, Rabbit",FR-1,Colorado College,3:52.54,Wichita State KT Woodman Classic,"Apr 7, 2023",NaN,1500 Meters,SCAC Outdoor Performance List,Men
 3,"Settles, James",JR-3,Colorado College,"3:56.59
-@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023"
-4,"Flores, Diego",JR-3,Trinity (Tex.),4:01.83,David Noble Relays,"Apr 7, 2023"
-5,"Tresaugue, Ryan",SO-2,Trinity (Tex.),4:02.18,The 40th Victor Lopez Classic (College),"Mar 23, 2023"
-6,"Rager-Aguiar, Ryan",SO-2,Trinity (Tex.),4:02.19,David Noble Relays,"Apr 7, 2023"
-7,"Carpio, Jhancarlos",SO-2,St. Thomas (Tex.),4:02.36,The 40th Victor Lopez Classic (College),"Mar 23, 2023"
-8,"Langer, Sebastian",FR-1,Trinity (Tex.),4:02.39,The 40th Victor Lopez Classic (College),"Mar 23, 2023"
+@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023",NaN,1500 Meters,SCAC Outdoor Performance List,Men
+4,"Flores, Diego",JR-3,Trinity (Tex.),4:01.83,David Noble Relays,"Apr 7, 2023",NaN,1500 Meters,SCAC Outdoor Performance List,Men
+5,"Tresaugue, Ryan",SO-2,Trinity (Tex.),4:02.18,The 40th Victor Lopez Classic (College),"Mar 23, 2023",NaN,1500 Meters,SCAC Outdoor Performance List,Men
+6,"Rager-Aguiar, Ryan",SO-2,Trinity (Tex.),4:02.19,David Noble Relays,"Apr 7, 2023",NaN,1500 Meters,SCAC Outdoor Performance List,Men
+7,"Carpio, Jhancarlos",SO-2,St. Thomas (Tex.),4:02.36,The 40th Victor Lopez Classic (College),"Mar 23, 2023",NaN,1500 Meters,SCAC Outdoor Performance List,Men
+8,"Langer, Sebastian",FR-1,Trinity (Tex.),4:02.39,The 40th Victor Lopez Classic (College),"Mar 23, 2023",NaN,1500 Meters,SCAC Outdoor Performance List,Men
 9,"Swanson, Devlin",JR-3,Colorado College,"4:02.56
-@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023"
-10,"Urbina, James",JR-3,St. Thomas (Tex.),4:02.93,The 40th Victor Lopez Classic (College),"Mar 23, 2023"
-11,"Whittemore, Huck",FR-1,Colorado College,4:04.53,Wichita State KT Woodman Classic,"Apr 7, 2023"
-12,"Whittemore, Ben",SR-4,Trinity (Tex.),4:04.86,Bobcat Invitational 2023,"Mar 30, 2023"
+@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023",NaN,1500 Meters,SCAC Outdoor Performance List,Men
+10,"Urbina, James",JR-3,St. Thomas (Tex.),4:02.93,The 40th Victor Lopez Classic (College),"Mar 23, 2023",NaN,1500 Meters,SCAC Outdoor Performance List,Men
+11,"Whittemore, Huck",FR-1,Colorado College,4:04.53,Wichita State KT Woodman Classic,"Apr 7, 2023",NaN,1500 Meters,SCAC Outdoor Performance List,Men
+12,"Whittemore, Ben",SR-4,Trinity (Tex.),4:04.86,Bobcat Invitational 2023,"Mar 30, 2023",NaN,1500 Meters,SCAC Outdoor Performance List,Men
 13,"Kitazono, Brett",JR-3,Colorado College,"4:05.54
-@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023"
-14,"Cura, Carlos",SO-2,Texas Lutheran,4:05.55,D3 Challenge,"Mar 25, 2023"
-15,"Jonsson, Marco",SO-2,Trinity (Tex.),4:06.06,The 40th Victor Lopez Classic (College),"Mar 23, 2023"
-16,"White, Jackson",SO-2,Trinity (Tex.),4:08.16,The 40th Victor Lopez Classic (College),"Mar 23, 2023"
-17,"Gallagher, Jared",SO-2,Trinity (Tex.),4:10.55,The 40th Victor Lopez Classic (College),"Mar 23, 2023"
-18,"Margolis, Ruben",FR-1,Colorado College,4:10.64,Wichita State KT Woodman Classic,"Apr 7, 2023"
-19,"Green, Koby",SR-4,Texas Lutheran,4:10.88,Bobcat Invitational 2023,"Mar 30, 2023"
-20,"Armijo, Brian",SO-2,Southwestern (Tex.),4:10.89,2023 Trinity Invitational,"Mar 3, 2023"
-21,"Welden, William",SO-2,Trinity (Tex.),4:13.27,Bobcat Invitational 2023,"Mar 30, 2023"
+@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023",NaN,1500 Meters,SCAC Outdoor Performance List,Men
+14,"Cura, Carlos",SO-2,Texas Lutheran,4:05.55,D3 Challenge,"Mar 25, 2023",NaN,1500 Meters,SCAC Outdoor Performance List,Men
+15,"Jonsson, Marco",SO-2,Trinity (Tex.),4:06.06,The 40th Victor Lopez Classic (College),"Mar 23, 2023",NaN,1500 Meters,SCAC Outdoor Performance List,Men
+16,"White, Jackson",SO-2,Trinity (Tex.),4:08.16,The 40th Victor Lopez Classic (College),"Mar 23, 2023",NaN,1500 Meters,SCAC Outdoor Performance List,Men
+17,"Gallagher, Jared",SO-2,Trinity (Tex.),4:10.55,The 40th Victor Lopez Classic (College),"Mar 23, 2023",NaN,1500 Meters,SCAC Outdoor Performance List,Men
+18,"Margolis, Ruben",FR-1,Colorado College,4:10.64,Wichita State KT Woodman Classic,"Apr 7, 2023",NaN,1500 Meters,SCAC Outdoor Performance List,Men
+19,"Green, Koby",SR-4,Texas Lutheran,4:10.88,Bobcat Invitational 2023,"Mar 30, 2023",NaN,1500 Meters,SCAC Outdoor Performance List,Men
+20,"Armijo, Brian",SO-2,Southwestern (Tex.),4:10.89,2023 Trinity Invitational,"Mar 3, 2023",NaN,1500 Meters,SCAC Outdoor Performance List,Men
+21,"Welden, William",SO-2,Trinity (Tex.),4:13.27,Bobcat Invitational 2023,"Mar 30, 2023",NaN,1500 Meters,SCAC Outdoor Performance List,Men
 22,"Cherry, Ayden",JR-3,Colorado College,"4:13.31
-@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023"
-23,"Rush, James",FR-1,Trinity (Tex.),4:13.63,David Noble Relays,"Apr 7, 2023"
-24,"Solis, Hector",FR-1,St. Thomas (Tex.),4:14.08,2023 Trinity Invitational,"Mar 3, 2023"
+@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023",NaN,1500 Meters,SCAC Outdoor Performance List,Men
+23,"Rush, James",FR-1,Trinity (Tex.),4:13.63,David Noble Relays,"Apr 7, 2023",NaN,1500 Meters,SCAC Outdoor Performance List,Men
+24,"Solis, Hector",FR-1,St. Thomas (Tex.),4:14.08,2023 Trinity Invitational,"Mar 3, 2023",NaN,1500 Meters,SCAC Outdoor Performance List,Men
 25,"Jones, Walt",SO-2,Colorado College,"4:16.30
-@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023"
-
-1,"Rankin, Sydney",SO-2,Colorado College,4:37.11,Occidental Distance Carnival & Spring Break Classic (Co,"Mar 11, 2023"
+@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023",NaN,1500 Meters,SCAC Outdoor Performance List,Men
+1,"Rankin, Sydney",SO-2,Colorado College,4:37.11,Occidental Distance Carnival & Spring Break Classic (Co,"Mar 11, 2023",NaN,1500 Meters,SCAC Outdoor Performance List,Women
 2,"Quinn, Clare",SR-4,Colorado College,"4:45.58
-@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023"
+@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023",NaN,1500 Meters,SCAC Outdoor Performance List,Women
 3,"Singer, Elliot",SO-2,Colorado College,"4:47.26
-@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023"
-4,"Olson, Isabel",SO-2,Colorado College,4:49.75,Occidental Distance Carnival & Spring Break Classic (Co,"Mar 11, 2023"
-5,"Gnecco, Emily",FR-1,Trinity (Tex.),4:54.91,Bobcat Invitational 2023,"Mar 30, 2023"
-6,"Frogge, Brooktie",FR-1,Colorado College,4:55.13,Wichita State KT Woodman Classic,"Apr 7, 2023"
-7,"Lamb, May",SO-2,Colorado College,4:55.61,Wichita State KT Woodman Classic,"Apr 7, 2023"
+@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023",NaN,1500 Meters,SCAC Outdoor Performance List,Women
+4,"Olson, Isabel",SO-2,Colorado College,4:49.75,Occidental Distance Carnival & Spring Break Classic (Co,"Mar 11, 2023",NaN,1500 Meters,SCAC Outdoor Performance List,Women
+5,"Gnecco, Emily",FR-1,Trinity (Tex.),4:54.91,Bobcat Invitational 2023,"Mar 30, 2023",NaN,1500 Meters,SCAC Outdoor Performance List,Women
+6,"Frogge, Brooktie",FR-1,Colorado College,4:55.13,Wichita State KT Woodman Classic,"Apr 7, 2023",NaN,1500 Meters,SCAC Outdoor Performance List,Women
+7,"Lamb, May",SO-2,Colorado College,4:55.61,Wichita State KT Woodman Classic,"Apr 7, 2023",NaN,1500 Meters,SCAC Outdoor Performance List,Women
 8,"Mueller-Hickler, Alison",FR-1,Colorado College,"4:56.04
-@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023"
-9,"Habeck, Madison",JR-3,Trinity (Tex.),4:56.59,The 40th Victor Lopez Classic (College),"Mar 23, 2023"
-10,"Chiella, Rachel",SO-2,Southwestern (Tex.),4:58.13,Ice Breaker Classic,"Mar 17, 2023"
-11,"Tangney, Paige",SR-4,Trinity (Tex.),4:58.36,Bobcat Invitational 2023,"Mar 30, 2023"
-12,"Keena, Gianna",FR-1,Trinity (Tex.),4:59.48,The 40th Victor Lopez Classic (College),"Mar 23, 2023"
-13,"Gurule, Josette",FR-1,Trinity (Tex.),5:00.82,The 40th Victor Lopez Classic (College),"Mar 23, 2023"
-14,"Catron, Ellie",JR-3,Trinity (Tex.),5:01.86,The 40th Victor Lopez Classic (College),"Mar 23, 2023"
-15,"Sainz, Gish",SO-2,Trinity (Tex.),5:02.71,David Noble Relays,"Apr 7, 2023"
+@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023",NaN,1500 Meters,SCAC Outdoor Performance List,Women
+9,"Habeck, Madison",JR-3,Trinity (Tex.),4:56.59,The 40th Victor Lopez Classic (College),"Mar 23, 2023",NaN,1500 Meters,SCAC Outdoor Performance List,Women
+10,"Chiella, Rachel",SO-2,Southwestern (Tex.),4:58.13,Ice Breaker Classic,"Mar 17, 2023",NaN,1500 Meters,SCAC Outdoor Performance List,Women
+11,"Tangney, Paige",SR-4,Trinity (Tex.),4:58.36,Bobcat Invitational 2023,"Mar 30, 2023",NaN,1500 Meters,SCAC Outdoor Performance List,Women
+12,"Keena, Gianna",FR-1,Trinity (Tex.),4:59.48,The 40th Victor Lopez Classic (College),"Mar 23, 2023",NaN,1500 Meters,SCAC Outdoor Performance List,Women
+13,"Gurule, Josette",FR-1,Trinity (Tex.),5:00.82,The 40th Victor Lopez Classic (College),"Mar 23, 2023",NaN,1500 Meters,SCAC Outdoor Performance List,Women
+14,"Catron, Ellie",JR-3,Trinity (Tex.),5:01.86,The 40th Victor Lopez Classic (College),"Mar 23, 2023",NaN,1500 Meters,SCAC Outdoor Performance List,Women
+15,"Sainz, Gish",SO-2,Trinity (Tex.),5:02.71,David Noble Relays,"Apr 7, 2023",NaN,1500 Meters,SCAC Outdoor Performance List,Women
 16,"Gilmer, Lila",FR-1,Colorado College,"5:03.88
-@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023"
-17,"McLauchlin, Elizabeth",SO-2,Trinity (Tex.),5:04.44,Bobcat Invitational 2023,"Mar 30, 2023"
-18,"Kaster, Elaine",SR-4,Trinity (Tex.),5:04.83,David Noble Relays,"Apr 7, 2023"
+@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023",NaN,1500 Meters,SCAC Outdoor Performance List,Women
+17,"McLauchlin, Elizabeth",SO-2,Trinity (Tex.),5:04.44,Bobcat Invitational 2023,"Mar 30, 2023",NaN,1500 Meters,SCAC Outdoor Performance List,Women
+18,"Kaster, Elaine",SR-4,Trinity (Tex.),5:04.83,David Noble Relays,"Apr 7, 2023",NaN,1500 Meters,SCAC Outdoor Performance List,Women
 19,"White, Liz",FR-1,Colorado College,"5:05.06
-@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023"
+@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023",NaN,1500 Meters,SCAC Outdoor Performance List,Women
 20,"Williams, Dafna",SR-4,Colorado College,"5:07.02
-@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023"
+@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023",NaN,1500 Meters,SCAC Outdoor Performance List,Women
 21,"Furman, Charlotte",SR-4,Colorado College,"5:07.88
-@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023"
-22,"Mueting, Mara",SO-2,Colorado College,"5:10.47
-@(1)",Gustavus/Colorado College Dual Meet,"Apr 3, 2023"
-23,"Helgaas, Britt",SO-2,Colorado College,"5:10.74
-@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023"
-24,"Hernandez, Samantha",JR-3,St. Thomas (Tex.),5:11.09,Bobcat Invitational 2023,"Mar 30, 2023"
-25,"Martinez, Ashley",JR-3,St. Thomas (Tex.),5:13.87,The 40th Victor Lopez Classic (College),"Mar 23, 2023"
-
-1,"Settles, James",JR-3,Colorado College,14:23.05,Occidental Distance Carnival & Spring Break Classic (Co,"Mar 11, 2023"
-2,"Swanson, Devlin",JR-3,Colorado College,14:45.86,Occidental Distance Carnival & Spring Break Classic (Co,"Mar 11, 2023"
-3,"Kitazono, Brett",JR-3,Colorado College,14:59.29,Occidental Distance Carnival & Spring Break Classic (Co,"Mar 11, 2023"
-4,"Carpio, Jhancarlos",SO-2,St. Thomas (Tex.),15:02.82,Occidental Distance Carnival & Spring Break Classic (Co,"Mar 11, 2023"
-5,"Urbina, James",JR-3,St. Thomas (Tex.),15:05.52,Occidental Distance Carnival & Spring Break Classic (Co,"Mar 11, 2023"
-6,"Salony, Will",SO-2,Trinity (Tex.),15:07.02,The 40th Victor Lopez Classic (College),"Mar 23, 2023"
-7,"Cherry, Ayden",JR-3,Colorado College,15:14.13,Occidental Distance Carnival & Spring Break Classic (Co,"Mar 11, 2023"
-8,"Flores, Diego",JR-3,Trinity (Tex.),15:20.76,The 40th Victor Lopez Classic (College),"Mar 23, 2023"
-9,"Snowdon, Theo",SR-4,Colorado College,15:27.37,Occidental Distance Carnival & Spring Break Classic (Co,"Mar 11, 2023"
-10,"White, Jackson",SO-2,Trinity (Tex.),15:28.15,Bobcat Invitational 2023,"Mar 30, 2023"
-11,"Wolf , Lucas",SR-4,St. Thomas (Tex.),15:31.39,Occidental Distance Carnival & Spring Break Classic (Co,"Mar 11, 2023"
-12,"Karg, Eli",SO-2,Trinity (Tex.),15:32.44,David Noble Relays,"Apr 7, 2023"
-13,"Trevino, Nathaniel",FR-1,Trinity (Tex.),15:33.60,David Noble Relays,"Apr 7, 2023"
-14,"Armijo, Brian",SO-2,Southwestern (Tex.),15:35.41,2023 Trinity Invitational,"Mar 3, 2023"
-15,"Solis, Hector",FR-1,St. Thomas (Tex.),15:38.25,Occidental Distance Carnival & Spring Break Classic (Co,"Mar 11, 2023"
-16,"Tresaugue, Ryan",SO-2,Trinity (Tex.),15:38.26,David Noble Relays,"Apr 7, 2023"
-17,"Cura, Carlos",SO-2,Texas Lutheran,15:40.10,2023 Trinity Invitational,"Mar 3, 2023"
-18,"Smith-Miodownik, Lucaiah",SR-4,Colorado College,15:46.45,Occidental Distance Carnival & Spring Break Classic (Co,"Mar 11, 2023"
-19,"Bullock, Joe",FR-1,Colorado College,15:50.56,Wichita State KT Woodman Classic,"Apr 7, 2023"
-20,"Rush, James",FR-1,Trinity (Tex.),15:50.87,David Noble Relays,"Apr 7, 2023"
-21,"Whittemore, Ben",SR-4,Trinity (Tex.),15:51.02,The 40th Victor Lopez Classic (College),"Mar 23, 2023"
-22,"Wines, William",FR-1,Southwestern (Tex.),15:51.98,David Noble Relays,"Apr 7, 2023"
-23,"Jones, Walt",SO-2,Colorado College,15:57.97,Wichita State KT Woodman Classic,"Apr 7, 2023"
-24,"Nasky, Logan",FR-1,Trinity (Tex.),15:58.44,David Noble Relays,"Apr 7, 2023"
-25,"Green, Koby",SR-4,Texas Lutheran,16:01.73,D3 Challenge,"Mar 25, 2023"
-
-1,"Singer, Elliot",SO-2,Colorado College,17:47.39,Wichita State KT Woodman Classic,"Apr 7, 2023"
-2,"Quinn, Clare",SR-4,Colorado College,17:50.08,Wichita State KT Woodman Classic,"Apr 7, 2023"
-3,"Mueller-Hickler, Alison",FR-1,Colorado College,18:05.59,Occidental Distance Carnival & Spring Break Classic (Co,"Mar 11, 2023"
-4,"Rankin, Sydney",SO-2,Colorado College,18:14.09,Wichita State KT Woodman Classic,"Apr 7, 2023"
-5,"Furman, Charlotte",SR-4,Colorado College,18:20.35,Wichita State KT Woodman Classic,"Apr 7, 2023"
-6,"Helgaas, Britt",SO-2,Colorado College,18:26.23,Wichita State KT Woodman Classic,"Apr 7, 2023"
-7,"Kaster, Elaine",SR-4,Trinity (Tex.),18:29.00,2023 Trinity Invitational,"Mar 3, 2023"
-8,"Williams, Dafna",SR-4,Colorado College,18:36.31,Wichita State KT Woodman Classic,"Apr 7, 2023"
-9,"White, Liz",FR-1,Colorado College,18:42.23,Occidental Distance Carnival & Spring Break Classic (Co,"Mar 11, 2023"
-10,"Catron, Ellie",JR-3,Trinity (Tex.),18:51.58,David Noble Relays,"Apr 7, 2023"
-11,"Chiella, Rachel",SO-2,Southwestern (Tex.),19:16.18,Ice Breaker Classic,"Mar 17, 2023"
-12,"Sanchez, Sophia",SR-4,St. Thomas (Tex.),19:18.68,Occidental Distance Carnival & Spring Break Classic (Co,"Mar 11, 2023"
-13,"Miller, Em",FR-1,Trinity (Tex.),19:32.51,David Noble Relays,"Apr 7, 2023"
-14,"Kennedy, Alissa",SO-2,Texas Lutheran,19:40.10,David Noble Relays,"Apr 7, 2023"
-15,"Craighead, Nicole",FR-1,Colorado College,19:45.38,Wichita State KT Woodman Classic,"Apr 7, 2023"
-16,"Martinez, Ashley",JR-3,St. Thomas (Tex.),19:46.23,Occidental Distance Carnival & Spring Break Classic (Co,"Mar 11, 2023"
-17,"Etzel, Grace",FR-1,Trinity (Tex.),19:50.13,David Noble Relays,"Apr 7, 2023"
-18,"Kutsner, Lynzie",SR-4,Trinity (Tex.),20:01.40,David Noble Relays,"Apr 7, 2023"
-19,"McLauchlin, Elizabeth",SO-2,Trinity (Tex.),20:06.29,David Noble Relays,"Apr 7, 2023"
-20,"Hernandez, Samantha",JR-3,St. Thomas (Tex.),20:15.39,The 40th Victor Lopez Classic (College),"Mar 23, 2023"
-21,"Lucero, Kristin",SO-2,Texas Lutheran,20:17.52,D3 Challenge,"Mar 25, 2023"
-22,"Brazil, Lily",SR-4,Colorado College,20:23.43,Wichita State KT Woodman Classic,"Apr 7, 2023"
-23,"Dykstra, Maia",SR-4,Trinity (Tex.),20:23.77,David Noble Relays,"Apr 7, 2023"
-24,"Perez, Hailey",FR-1,St. Thomas (Tex.),20:24.19,Occidental Distance Carnival & Spring Break Classic (Co,"Mar 11, 2023"
-25,"King, Anna",SR-4,Trinity (Tex.),20:41.32,2023 Trinity Invitational,"Mar 3, 2023"
-
-1,"Settles, James",JR-3,Colorado College,30:20.80,Wichita State KT Woodman Classic,"Apr 7, 2023"
-2,"Swanson, Devlin",JR-3,Colorado College,31:00.75,Wichita State KT Woodman Classic,"Apr 7, 2023"
-3,"Armijo, Brian",SO-2,Southwestern (Tex.),32:10.55,Ice Breaker Classic,"Mar 17, 2023"
-4,"Wines, William",FR-1,Southwestern (Tex.),33:24.42,Ice Breaker Classic,"Mar 17, 2023"
-5,"Schwein, Dominic",FR-1,Colorado College,33:31.92,Wichita State KT Woodman Classic,"Apr 7, 2023"
-6,"Bailey, Xander",SO-2,Southwestern (Tex.),33:54.06,Ice Breaker Classic,"Mar 17, 2023"
-7,"Cunningham, Drew",FR-1,St. Thomas (Tex.),34:12.70,The 40th Victor Lopez Classic (College),"Mar 23, 2023"
-8,"Rosenquist, Cade",FR-1,Southwestern (Tex.),34:49.10,Ice Breaker Classic,"Mar 17, 2023"
-
-1,"Williams, Dafna",SR-4,Colorado College,38:33.24,Occidental Distance Carnival & Spring Break Classic (Co,"Mar 11, 2023"
-2,"Helgaas, Britt",SO-2,Colorado College,38:50.87,Occidental Distance Carnival & Spring Break Classic (Co,"Mar 11, 2023"
-3,"Furman, Charlotte",SR-4,Colorado College,39:08.52,Occidental Distance Carnival & Spring Break Classic (Co,"Mar 11, 2023"
-4,"Brazil, Lily",SR-4,Colorado College,44:48.39,Occidental Distance Carnival & Spring Break Classic (Co,"Mar 11, 2023"
-
-1,"Nation, Ebonee",FR-1,St. Thomas (Tex.),14.92,Bobcat Invitational 2023,"Mar 30, 2023",1.2
-2,"Puig, Avery",SR-4,Trinity (Tex.),15.53,D3 Challenge,"Mar 25, 2023",4.5
-3,"Norrell, Taylor",SO-2,Texas Lutheran,15.59,D3 Challenge,"Mar 25, 2023",4.5
-4,"Selber, Danya",JR-3,Trinity (Tex.),15.77,D3 Challenge,"Mar 25, 2023",4.5
-5,"Huck, Hayley",JR-3,Trinity (Tex.),15.88,D3 Challenge,"Mar 25, 2023",4.5
-6,"Cavazos, Ciara",SO-2,Texas Lutheran,16.01,D3 Challenge,"Mar 25, 2023",4.5
+@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023",NaN,1500 Meters,SCAC Outdoor Performance List,Women
+22,"Helgaas, Britt",SO-2,Colorado College,"5:10.74
+@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023",NaN,1500 Meters,SCAC Outdoor Performance List,Women
+23,"Hernandez, Samantha",JR-3,St. Thomas (Tex.),5:11.09,Bobcat Invitational 2023,"Mar 30, 2023",NaN,1500 Meters,SCAC Outdoor Performance List,Women
+24,"Mueting, Mara",SO-2,Colorado College,"5:12.19
+@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023",NaN,1500 Meters,SCAC Outdoor Performance List,Women
+25,"Martinez, Ashley",JR-3,St. Thomas (Tex.),5:13.87,The 40th Victor Lopez Classic (College),"Mar 23, 2023",NaN,1500 Meters,SCAC Outdoor Performance List,Women
+1,"Settles, James",JR-3,Colorado College,14:23.05,Occidental Distance Carnival & Spring Break Classic (Co,"Mar 11, 2023",NaN,5000 Meters,SCAC Outdoor Performance List,Men
+2,"Swanson, Devlin",JR-3,Colorado College,14:45.86,Occidental Distance Carnival & Spring Break Classic (Co,"Mar 11, 2023",NaN,5000 Meters,SCAC Outdoor Performance List,Men
+3,"Kitazono, Brett",JR-3,Colorado College,14:59.29,Occidental Distance Carnival & Spring Break Classic (Co,"Mar 11, 2023",NaN,5000 Meters,SCAC Outdoor Performance List,Men
+4,"Carpio, Jhancarlos",SO-2,St. Thomas (Tex.),15:02.82,Occidental Distance Carnival & Spring Break Classic (Co,"Mar 11, 2023",NaN,5000 Meters,SCAC Outdoor Performance List,Men
+5,"Urbina, James",JR-3,St. Thomas (Tex.),15:05.52,Occidental Distance Carnival & Spring Break Classic (Co,"Mar 11, 2023",NaN,5000 Meters,SCAC Outdoor Performance List,Men
+6,"Salony, Will",SO-2,Trinity (Tex.),15:07.02,The 40th Victor Lopez Classic (College),"Mar 23, 2023",NaN,5000 Meters,SCAC Outdoor Performance List,Men
+7,"Cherry, Ayden",JR-3,Colorado College,15:14.13,Occidental Distance Carnival & Spring Break Classic (Co,"Mar 11, 2023",NaN,5000 Meters,SCAC Outdoor Performance List,Men
+8,"Flores, Diego",JR-3,Trinity (Tex.),15:20.76,The 40th Victor Lopez Classic (College),"Mar 23, 2023",NaN,5000 Meters,SCAC Outdoor Performance List,Men
+9,"Snowdon, Theo",SR-4,Colorado College,15:27.37,Occidental Distance Carnival & Spring Break Classic (Co,"Mar 11, 2023",NaN,5000 Meters,SCAC Outdoor Performance List,Men
+10,"White, Jackson",SO-2,Trinity (Tex.),15:28.15,Bobcat Invitational 2023,"Mar 30, 2023",NaN,5000 Meters,SCAC Outdoor Performance List,Men
+11,"Wolf , Lucas",SR-4,St. Thomas (Tex.),15:31.39,Occidental Distance Carnival & Spring Break Classic (Co,"Mar 11, 2023",NaN,5000 Meters,SCAC Outdoor Performance List,Men
+12,"Karg, Eli",SO-2,Trinity (Tex.),15:32.44,David Noble Relays,"Apr 7, 2023",NaN,5000 Meters,SCAC Outdoor Performance List,Men
+13,"Trevino, Nathaniel",FR-1,Trinity (Tex.),15:33.60,David Noble Relays,"Apr 7, 2023",NaN,5000 Meters,SCAC Outdoor Performance List,Men
+14,"Armijo, Brian",SO-2,Southwestern (Tex.),15:35.41,2023 Trinity Invitational,"Mar 3, 2023",NaN,5000 Meters,SCAC Outdoor Performance List,Men
+15,"Solis, Hector",FR-1,St. Thomas (Tex.),15:38.25,Occidental Distance Carnival & Spring Break Classic (Co,"Mar 11, 2023",NaN,5000 Meters,SCAC Outdoor Performance List,Men
+16,"Tresaugue, Ryan",SO-2,Trinity (Tex.),15:38.26,David Noble Relays,"Apr 7, 2023",NaN,5000 Meters,SCAC Outdoor Performance List,Men
+17,"Cura, Carlos",SO-2,Texas Lutheran,15:40.10,2023 Trinity Invitational,"Mar 3, 2023",NaN,5000 Meters,SCAC Outdoor Performance List,Men
+18,"Smith-Miodownik, Lucaiah",SR-4,Colorado College,15:46.45,Occidental Distance Carnival & Spring Break Classic (Co,"Mar 11, 2023",NaN,5000 Meters,SCAC Outdoor Performance List,Men
+19,"Bullock, Joe",FR-1,Colorado College,15:50.56,Wichita State KT Woodman Classic,"Apr 7, 2023",NaN,5000 Meters,SCAC Outdoor Performance List,Men
+20,"Rush, James",FR-1,Trinity (Tex.),15:50.87,David Noble Relays,"Apr 7, 2023",NaN,5000 Meters,SCAC Outdoor Performance List,Men
+21,"Whittemore, Ben",SR-4,Trinity (Tex.),15:51.02,The 40th Victor Lopez Classic (College),"Mar 23, 2023",NaN,5000 Meters,SCAC Outdoor Performance List,Men
+22,"Wines, William",FR-1,Southwestern (Tex.),15:51.98,David Noble Relays,"Apr 7, 2023",NaN,5000 Meters,SCAC Outdoor Performance List,Men
+23,"Jones, Walt",SO-2,Colorado College,15:57.97,Wichita State KT Woodman Classic,"Apr 7, 2023",NaN,5000 Meters,SCAC Outdoor Performance List,Men
+24,"Nasky, Logan",FR-1,Trinity (Tex.),15:58.44,David Noble Relays,"Apr 7, 2023",NaN,5000 Meters,SCAC Outdoor Performance List,Men
+25,"Green, Koby",SR-4,Texas Lutheran,16:01.73,D3 Challenge,"Mar 25, 2023",NaN,5000 Meters,SCAC Outdoor Performance List,Men
+1,"Singer, Elliot",SO-2,Colorado College,17:47.39,Wichita State KT Woodman Classic,"Apr 7, 2023",NaN,5000 Meters,SCAC Outdoor Performance List,Women
+2,"Quinn, Clare",SR-4,Colorado College,17:50.08,Wichita State KT Woodman Classic,"Apr 7, 2023",NaN,5000 Meters,SCAC Outdoor Performance List,Women
+3,"Mueller-Hickler, Alison",FR-1,Colorado College,18:05.59,Occidental Distance Carnival & Spring Break Classic (Co,"Mar 11, 2023",NaN,5000 Meters,SCAC Outdoor Performance List,Women
+4,"Rankin, Sydney",SO-2,Colorado College,18:14.09,Wichita State KT Woodman Classic,"Apr 7, 2023",NaN,5000 Meters,SCAC Outdoor Performance List,Women
+5,"Furman, Charlotte",SR-4,Colorado College,18:20.35,Wichita State KT Woodman Classic,"Apr 7, 2023",NaN,5000 Meters,SCAC Outdoor Performance List,Women
+6,"Helgaas, Britt",SO-2,Colorado College,18:26.23,Wichita State KT Woodman Classic,"Apr 7, 2023",NaN,5000 Meters,SCAC Outdoor Performance List,Women
+7,"Kaster, Elaine",SR-4,Trinity (Tex.),18:29.00,2023 Trinity Invitational,"Mar 3, 2023",NaN,5000 Meters,SCAC Outdoor Performance List,Women
+8,"Williams, Dafna",SR-4,Colorado College,18:36.31,Wichita State KT Woodman Classic,"Apr 7, 2023",NaN,5000 Meters,SCAC Outdoor Performance List,Women
+9,"White, Liz",FR-1,Colorado College,18:42.23,Occidental Distance Carnival & Spring Break Classic (Co,"Mar 11, 2023",NaN,5000 Meters,SCAC Outdoor Performance List,Women
+10,"Catron, Ellie",JR-3,Trinity (Tex.),18:51.58,David Noble Relays,"Apr 7, 2023",NaN,5000 Meters,SCAC Outdoor Performance List,Women
+11,"Chiella, Rachel",SO-2,Southwestern (Tex.),19:16.18,Ice Breaker Classic,"Mar 17, 2023",NaN,5000 Meters,SCAC Outdoor Performance List,Women
+12,"Sanchez, Sophia",SR-4,St. Thomas (Tex.),19:18.68,Occidental Distance Carnival & Spring Break Classic (Co,"Mar 11, 2023",NaN,5000 Meters,SCAC Outdoor Performance List,Women
+13,"Miller, Em",FR-1,Trinity (Tex.),19:32.51,David Noble Relays,"Apr 7, 2023",NaN,5000 Meters,SCAC Outdoor Performance List,Women
+14,"Kennedy, Alissa",SO-2,Texas Lutheran,19:40.10,David Noble Relays,"Apr 7, 2023",NaN,5000 Meters,SCAC Outdoor Performance List,Women
+15,"Craighead, Nicole",FR-1,Colorado College,19:45.38,Wichita State KT Woodman Classic,"Apr 7, 2023",NaN,5000 Meters,SCAC Outdoor Performance List,Women
+16,"Martinez, Ashley",JR-3,St. Thomas (Tex.),19:46.23,Occidental Distance Carnival & Spring Break Classic (Co,"Mar 11, 2023",NaN,5000 Meters,SCAC Outdoor Performance List,Women
+17,"Etzel, Grace",FR-1,Trinity (Tex.),19:50.13,David Noble Relays,"Apr 7, 2023",NaN,5000 Meters,SCAC Outdoor Performance List,Women
+18,"Kutsner, Lynzie",SR-4,Trinity (Tex.),20:01.40,David Noble Relays,"Apr 7, 2023",NaN,5000 Meters,SCAC Outdoor Performance List,Women
+19,"McLauchlin, Elizabeth",SO-2,Trinity (Tex.),20:06.29,David Noble Relays,"Apr 7, 2023",NaN,5000 Meters,SCAC Outdoor Performance List,Women
+20,"Hernandez, Samantha",JR-3,St. Thomas (Tex.),20:15.39,The 40th Victor Lopez Classic (College),"Mar 23, 2023",NaN,5000 Meters,SCAC Outdoor Performance List,Women
+21,"Lucero, Kristin",SO-2,Texas Lutheran,20:17.52,D3 Challenge,"Mar 25, 2023",NaN,5000 Meters,SCAC Outdoor Performance List,Women
+22,"Brazil, Lily",SR-4,Colorado College,20:23.43,Wichita State KT Woodman Classic,"Apr 7, 2023",NaN,5000 Meters,SCAC Outdoor Performance List,Women
+23,"Dykstra, Maia",SR-4,Trinity (Tex.),20:23.77,David Noble Relays,"Apr 7, 2023",NaN,5000 Meters,SCAC Outdoor Performance List,Women
+24,"Perez, Hailey",FR-1,St. Thomas (Tex.),20:24.19,Occidental Distance Carnival & Spring Break Classic (Co,"Mar 11, 2023",NaN,5000 Meters,SCAC Outdoor Performance List,Women
+25,"King, Anna",SR-4,Trinity (Tex.),20:41.32,2023 Trinity Invitational,"Mar 3, 2023",NaN,5000 Meters,SCAC Outdoor Performance List,Women
+1,"Settles, James",JR-3,Colorado College,30:20.80,Wichita State KT Woodman Classic,"Apr 7, 2023",NaN,"10,000 Meters",SCAC Outdoor Performance List,Men
+2,"Swanson, Devlin",JR-3,Colorado College,31:00.75,Wichita State KT Woodman Classic,"Apr 7, 2023",NaN,"10,000 Meters",SCAC Outdoor Performance List,Men
+3,"Armijo, Brian",SO-2,Southwestern (Tex.),32:10.55,Ice Breaker Classic,"Mar 17, 2023",NaN,"10,000 Meters",SCAC Outdoor Performance List,Men
+4,"Wines, William",FR-1,Southwestern (Tex.),33:24.42,Ice Breaker Classic,"Mar 17, 2023",NaN,"10,000 Meters",SCAC Outdoor Performance List,Men
+5,"Schwein, Dominic",FR-1,Colorado College,33:31.92,Wichita State KT Woodman Classic,"Apr 7, 2023",NaN,"10,000 Meters",SCAC Outdoor Performance List,Men
+6,"Bailey, Xander",SO-2,Southwestern (Tex.),33:54.06,Ice Breaker Classic,"Mar 17, 2023",NaN,"10,000 Meters",SCAC Outdoor Performance List,Men
+7,"Cunningham, Drew",FR-1,St. Thomas (Tex.),34:12.70,The 40th Victor Lopez Classic (College),"Mar 23, 2023",NaN,"10,000 Meters",SCAC Outdoor Performance List,Men
+8,"Rosenquist, Cade",FR-1,Southwestern (Tex.),34:49.10,Ice Breaker Classic,"Mar 17, 2023",NaN,"10,000 Meters",SCAC Outdoor Performance List,Men
+1,"Williams, Dafna",SR-4,Colorado College,38:33.24,Occidental Distance Carnival & Spring Break Classic (Co,"Mar 11, 2023",NaN,"10,000 Meters",SCAC Outdoor Performance List,Women
+2,"Helgaas, Britt",SO-2,Colorado College,38:50.87,Occidental Distance Carnival & Spring Break Classic (Co,"Mar 11, 2023",NaN,"10,000 Meters",SCAC Outdoor Performance List,Women
+3,"Furman, Charlotte",SR-4,Colorado College,39:08.52,Occidental Distance Carnival & Spring Break Classic (Co,"Mar 11, 2023",NaN,"10,000 Meters",SCAC Outdoor Performance List,Women
+4,"Brazil, Lily",SR-4,Colorado College,44:48.39,Occidental Distance Carnival & Spring Break Classic (Co,"Mar 11, 2023",NaN,"10,000 Meters",SCAC Outdoor Performance List,Women
+1,"Nation, Ebonee",FR-1,St. Thomas (Tex.),14.92,Bobcat Invitational 2023,"Mar 30, 2023",1.2,100 Hurdles,SCAC Outdoor Performance List,Women
+2,"Selber, Danya",JR-3,Trinity (Tex.),15.38,Kingsville Cactus Cup,"Apr 15, 2023",1.6,100 Hurdles,SCAC Outdoor Performance List,Women
+3,"Norrell, Taylor",SO-2,Texas Lutheran,15.75,2023 Trinity Invitational,"Mar 3, 2023",1.1,100 Hurdles,SCAC Outdoor Performance List,Women
+4,"Dunlap, Barbara",FR-1,Southwestern (Tex.),15.88,2023 War Hawk Classic,"Apr 14, 2023",3.0,100 Hurdles,SCAC Outdoor Performance List,Women
+5,"Puig, Avery",SR-4,Trinity (Tex.),15.89,David Noble Relays,"Apr 7, 2023",0.9,100 Hurdles,SCAC Outdoor Performance List,Women
+6,"Cavazos, Ciara",SO-2,Texas Lutheran,15.92,2023 War Hawk Classic,"Apr 14, 2023",3.0,100 Hurdles,SCAC Outdoor Performance List,Women
 7,"Fowkes, Emma",JR-3,Colorado College,"16.03
-@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023",-0.2
-8,"Neff, Arden",SO-2,Southwestern (Tex.),16.14,Ice Breaker Classic,"Mar 17, 2023",0.6
-9,"Dunlap, Barbara",FR-1,Southwestern (Tex.),16.81,D3 Challenge,"Mar 25, 2023",2.0
-10,"Brown, Katelyn",FR-1,Texas Lutheran,16.95,D3 Challenge,"Mar 25, 2023",2.0
-11,"McWhorter, Lily",FR-1,Southwestern (Tex.),17.00,D3 Challenge,"Mar 25, 2023",2.0
-12,"Penders, Lauren",FR-1,Southwestern (Tex.),17.78,D3 Challenge,"Mar 25, 2023",2.0
-13,"Malloy, Julianna",FR-1,Centenary (La.),17.82,Southern Arkansas-Dan Veach Invite,"Mar 25, 2023",0.7
-14,"Chiella, Jessie",SO-2,Southwestern (Tex.),17.97,David Noble Relays,"Apr 7, 2023",1.8
-15,"Cha, Cherryn",SO-2,Southwestern (Tex.),18.45,2023 Trinity Invitational,"Mar 3, 2023",1.5
-16,"Soni, Asha",FR-1,Colorado College,18.92,Ed Boitano Invitational 2023,"Mar 3, 2023",0.7
-17,"Delgado, Sophia",SO-2,St. Thomas (Tex.),19.12,Cameron Burrell Alumni Invitational,"Apr 7, 2023",1.9
-
-1,"Anderson, Azariah",SO-2,Trinity (Tex.),14.19,D3 Challenge,"Mar 25, 2023",3.8
-2,"Johnson, Justin",JR-3,Trinity (Tex.),14.74,D3 Challenge,"Mar 25, 2023",3.8
-3,"Fulcomer, Noah",SR-4,Trinity (Tex.),15.30,D3 Challenge,"Mar 25, 2023",3.3
-4,"Bullinger, Drew",SR-4,Trinity (Tex.),15.46,D3 Challenge,"Mar 25, 2023",3.8
-5,"Parrish, Michael",SO-2,Southwestern (Tex.),15.56,D3 Challenge,"Mar 25, 2023",3.3
-6,"Haass, Garrett",FR-1,Texas Lutheran,15.64,David Noble Relays,"Apr 7, 2023",0.1
-7,"Anderson, Kyle",SR-4,Trinity (Tex.),15.84,David Noble Relays,"Apr 7, 2023",1.4
-8,"Leonce, Jalen",JR-3,Trinity (Tex.),16.24,D3 Challenge,"Mar 25, 2023",3.8
-9,"Duggan, Kris",FR-1,Trinity (Tex.),16.36,2023 Trinity Invitational,"Mar 3, 2023",1.4
-
-1,"Johnson, Justin",JR-3,Trinity (Tex.),55.21,David Noble Relays,"Apr 7, 2023"
-2,"Anderson, Kyle",SR-4,Trinity (Tex.),55.86,David Noble Relays,"Apr 7, 2023"
-3,"Venious, Xavier",JR-3,Centenary (La.),56.78,Pelican Relays,"Apr 8, 2023"
-4,"Parrish, Michael",SO-2,Southwestern (Tex.),57.46,Ice Breaker Classic,"Mar 17, 2023"
-5,"Franks, Rickey",FR-1,Texas Lutheran,57.89,David Noble Relays,"Apr 7, 2023"
-6,"Leonce, Jalen",JR-3,Trinity (Tex.),58.70,David Noble Relays,"Apr 7, 2023"
-7,"Fulcomer, Noah",SR-4,Trinity (Tex.),59.63,2023 Trinity Invitational,"Mar 3, 2023"
-8,"King, Michael",FR-1,Southwestern (Tex.),1:00.19,D3 Challenge,"Mar 25, 2023"
-9,"Buscemi, Sebastian",SO-2,Trinity (Tex.),1:00.28,D3 Challenge,"Mar 25, 2023"
-10,"Garcia, Jason",JR-3,Texas Lutheran,1:00.83,Bobcat Invitational 2023,"Mar 30, 2023"
-11,"Grissom, Jacob",FR-1,Texas Lutheran,1:03.82,David Noble Relays,"Apr 7, 2023"
-
-1,"Neff, Arden",SO-2,Southwestern (Tex.),1:07.03,David Noble Relays,"Apr 7, 2023"
-2,"Puig, Avery",SR-4,Trinity (Tex.),1:07.93,Bobcat Invitational 2023,"Mar 30, 2023"
-3,"Huck, Hayley",JR-3,Trinity (Tex.),1:08.89,Bobcat Invitational 2023,"Mar 30, 2023"
-4,"Bartlett, Sage",FR-1,Texas Lutheran,1:10.36,Bobcat Invitational 2023,"Mar 30, 2023"
-5,"McWhorter, Lily",FR-1,Southwestern (Tex.),1:10.42,D3 Challenge,"Mar 25, 2023"
+@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023",-0.2,100 Hurdles,SCAC Outdoor Performance List,Women
+8,"Neff, Arden",SO-2,Southwestern (Tex.),16.14,Ice Breaker Classic,"Mar 17, 2023",0.6,100 Hurdles,SCAC Outdoor Performance List,Women
+9,"Huck, Hayley",JR-3,Trinity (Tex.),16.38,David Noble Relays,"Apr 7, 2023",1.8,100 Hurdles,SCAC Outdoor Performance List,Women
+10,"Brown, Katelyn",FR-1,Texas Lutheran,16.95,D3 Challenge,"Mar 25, 2023",2.0,100 Hurdles,SCAC Outdoor Performance List,Women
+11,"McWhorter, Lily",FR-1,Southwestern (Tex.),17.00,D3 Challenge,"Mar 25, 2023",2.0,100 Hurdles,SCAC Outdoor Performance List,Women
+12,"Delgado, Sophia",SO-2,St. Thomas (Tex.),17.64,Carl Kight Invitational & Multis,"Apr 13, 2023",0.8,100 Hurdles,SCAC Outdoor Performance List,Women
+13,"Penders, Lauren",FR-1,Southwestern (Tex.),17.70,2023 War Hawk Classic,"Apr 14, 2023",2.1,100 Hurdles,SCAC Outdoor Performance List,Women
+14,"Malloy, Julianna",FR-1,Centenary (La.),17.82,Southern Arkansas-Dan Veach Invite,"Mar 25, 2023",0.7,100 Hurdles,SCAC Outdoor Performance List,Women
+14,"Cha, Cherryn",SO-2,Southwestern (Tex.),17.82,2023 War Hawk Classic,"Apr 14, 2023",2.1,100 Hurdles,SCAC Outdoor Performance List,Women
+16,"Chiella, Jessie",SO-2,Southwestern (Tex.),17.97,David Noble Relays,"Apr 7, 2023",1.8,100 Hurdles,SCAC Outdoor Performance List,Women
+17,"Soni, Asha",FR-1,Colorado College,18.92,Ed Boitano Invitational 2023,"Mar 3, 2023",0.7,100 Hurdles,SCAC Outdoor Performance List,Women
+1,"Anderson, Azariah",SO-2,Trinity (Tex.),14.19,D3 Challenge,"Mar 25, 2023",3.8,110 Hurdles,SCAC Outdoor Performance List,Men
+2,"Johnson, Justin",JR-3,Trinity (Tex.),14.74,D3 Challenge,"Mar 25, 2023",3.8,110 Hurdles,SCAC Outdoor Performance List,Men
+3,"Fulcomer, Noah",SR-4,Trinity (Tex.),15.30,D3 Challenge,"Mar 25, 2023",3.3,110 Hurdles,SCAC Outdoor Performance List,Men
+4,"Haass, Garrett",FR-1,Texas Lutheran,15.40,2023 War Hawk Classic,"Apr 14, 2023",1.1,110 Hurdles,SCAC Outdoor Performance List,Men
+5,"Bullinger, Drew",SR-4,Trinity (Tex.),15.46,D3 Challenge,"Mar 25, 2023",3.8,110 Hurdles,SCAC Outdoor Performance List,Men
+6,"Parrish, Michael",SO-2,Southwestern (Tex.),15.56,D3 Challenge,"Mar 25, 2023",3.3,110 Hurdles,SCAC Outdoor Performance List,Men
+7,"Anderson, Kyle",SR-4,Trinity (Tex.),15.84,David Noble Relays,"Apr 7, 2023",1.4,110 Hurdles,SCAC Outdoor Performance List,Men
+8,"Leonce, Jalen",JR-3,Trinity (Tex.),16.24,D3 Challenge,"Mar 25, 2023",3.8,110 Hurdles,SCAC Outdoor Performance List,Men
+9,"Duggan, Kris",FR-1,Trinity (Tex.),16.36,2023 Trinity Invitational,"Mar 3, 2023",1.4,110 Hurdles,SCAC Outdoor Performance List,Men
+1,"Johnson, Justin",JR-3,Trinity (Tex.),55.21,David Noble Relays,"Apr 7, 2023",NaN,400 Hurdles,SCAC Outdoor Performance List,Men
+2,"Anderson, Kyle",SR-4,Trinity (Tex.),55.86,David Noble Relays,"Apr 7, 2023",NaN,400 Hurdles,SCAC Outdoor Performance List,Men
+3,"Venious, Xavier",JR-3,Centenary (La.),56.78,Pelican Relays,"Apr 8, 2023",NaN,400 Hurdles,SCAC Outdoor Performance List,Men
+4,"Parrish, Michael",SO-2,Southwestern (Tex.),57.46,Ice Breaker Classic,"Mar 17, 2023",NaN,400 Hurdles,SCAC Outdoor Performance List,Men
+5,"Franks, Rickey",FR-1,Texas Lutheran,57.50,2023 War Hawk Classic,"Apr 14, 2023",NaN,400 Hurdles,SCAC Outdoor Performance List,Men
+6,"Leonce, Jalen",JR-3,Trinity (Tex.),58.70,David Noble Relays,"Apr 7, 2023",NaN,400 Hurdles,SCAC Outdoor Performance List,Men
+7,"Fulcomer, Noah",SR-4,Trinity (Tex.),59.63,2023 Trinity Invitational,"Mar 3, 2023",NaN,400 Hurdles,SCAC Outdoor Performance List,Men
+8,"Garcia, Jason",JR-3,Texas Lutheran,1:00.08,2023 War Hawk Classic,"Apr 14, 2023",NaN,400 Hurdles,SCAC Outdoor Performance List,Men
+9,"King, Michael",FR-1,Southwestern (Tex.),1:00.19,D3 Challenge,"Mar 25, 2023",NaN,400 Hurdles,SCAC Outdoor Performance List,Men
+10,"Buscemi, Sebastian",SO-2,Trinity (Tex.),1:00.28,D3 Challenge,"Mar 25, 2023",NaN,400 Hurdles,SCAC Outdoor Performance List,Men
+11,"Stuckey, Drew",FR-1,Southwestern (Tex.),1:00.60,2023 War Hawk Classic,"Apr 14, 2023",NaN,400 Hurdles,SCAC Outdoor Performance List,Men
+12,"Grissom, Jacob",FR-1,Texas Lutheran,1:01.66,2023 War Hawk Classic,"Apr 14, 2023",NaN,400 Hurdles,SCAC Outdoor Performance List,Men
+1,"Neff, Arden",SO-2,Southwestern (Tex.),1:04.82,2023 War Hawk Classic,"Apr 14, 2023",NaN,400 Hurdles,SCAC Outdoor Performance List,Women
+2,"Puig, Avery",SR-4,Trinity (Tex.),1:07.93,Bobcat Invitational 2023,"Mar 30, 2023",NaN,400 Hurdles,SCAC Outdoor Performance List,Women
+3,"Huck, Hayley",JR-3,Trinity (Tex.),1:08.89,Bobcat Invitational 2023,"Mar 30, 2023",NaN,400 Hurdles,SCAC Outdoor Performance List,Women
+4,"McWhorter, Lily",FR-1,Southwestern (Tex.),1:09.67,2023 War Hawk Classic,"Apr 14, 2023",NaN,400 Hurdles,SCAC Outdoor Performance List,Women
+5,"Bartlett, Sage",FR-1,Texas Lutheran,1:10.36,Bobcat Invitational 2023,"Mar 30, 2023",NaN,400 Hurdles,SCAC Outdoor Performance List,Women
 6,"Fowkes, Emma",JR-3,Colorado College,"1:10.63
-@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023"
-7,"Nation, Ebonee",FR-1,St. Thomas (Tex.),1:12.36,The 40th Victor Lopez Classic (College),"Mar 23, 2023"
-8,"Delgado, Sophia",SO-2,St. Thomas (Tex.),1:13.08,Bobcat Invitational 2023,"Mar 30, 2023"
-9,"Tanner, Kamilah",FR-1,Texas Lutheran,1:13.31,D3 Challenge,"Mar 25, 2023"
-10,"Penders, Lauren",FR-1,Southwestern (Tex.),1:14.79,D3 Challenge,"Mar 25, 2023"
-11,"Adams, Ashley",JR-3,Texas Lutheran,1:17.10,2023 Trinity Invitational,"Mar 3, 2023"
-
-1,"Flores, Diego",JR-3,Trinity (Tex.),9:28.27,Bobcat Invitational 2023,"Mar 30, 2023"
-2,"Urbina, James",JR-3,St. Thomas (Tex.),9:44.55,Cameron Burrell Alumni Invitational,"Apr 7, 2023"
-3,"Santos, Luc",FR-1,Colorado College,10:09.82,Wichita State KT Woodman Classic,"Apr 7, 2023"
-4,"Singer, Sam",FR-1,Colorado College,10:09.83,Wichita State KT Woodman Classic,"Apr 7, 2023"
-5,"Greene, Eli",SO-2,Trinity (Tex.),10:11.04,2023 Trinity Invitational,"Mar 3, 2023"
-6,"Rager-Aguiar, Ryan",SO-2,Trinity (Tex.),10:23.76,Bobcat Invitational 2023,"Mar 30, 2023"
-7,"Nasky, Logan",FR-1,Trinity (Tex.),10:24.89,Bobcat Invitational 2023,"Mar 30, 2023"
-8,"Cruz, Melvin",JR-3,Trinity (Tex.),10:38.70,Bobcat Invitational 2023,"Mar 30, 2023"
-9,"Meckel, Ash",FR-1,Trinity (Tex.),10:54.33,Bobcat Invitational 2023,"Mar 30, 2023"
-10,"Vaughan, Landon",FR-1,Trinity (Tex.),11:05.36,Bobcat Invitational 2023,"Mar 30, 2023"
-
-1,"Catron, Ellie",JR-3,Trinity (Tex.),11:31.34,2023 Trinity Invitational,"Mar 3, 2023"
-2,"Chiella, Rachel",SO-2,Southwestern (Tex.),11:59.68,Bobcat Invitational 2023,"Mar 30, 2023"
-3,"Solano, Julia",JR-3,Colorado College,12:04.65,Wichita State KT Woodman Classic,"Apr 7, 2023"
-4,"White, Liz",FR-1,Colorado College,12:19.84,Wichita State KT Woodman Classic,"Apr 7, 2023"
-5,"Dykstra, Maia",SR-4,Trinity (Tex.),12:38.06,Bobcat Invitational 2023,"Mar 30, 2023"
-6,"Thompson, Elizabeth",SO-2,Trinity (Tex.),13:16.96,2023 Trinity Invitational,"Mar 3, 2023"
-7,"Martinez, Hallie",FR-1,Southwestern (Tex.),14:26.55,2023 Trinity Invitational,"Mar 3, 2023"
-8,"Landon, Melissa",JR-3,Schreiner,14:30.85,D3 Challenge,"Mar 25, 2023"
-
-1,"Freeney, Wilson, Powell-Chimene, Jefferson",NA,Texas Lutheran,41.20,Bobcat Invitational 2023,"Mar 30, 2023"
-2,"Grigsby, Anderson, Rainey, Gilmore",NA,Trinity (Tex.),41.70,2023 Trinity Invitational,"Mar 3, 2023"
-3,"Taisague, Jackson, Maxey, King",NA,Southwestern (Tex.),42.84,2023 Trinity Invitational,"Mar 3, 2023"
-4,"Mingo, Mattox, Kapyamba, Davis",NA,St. Thomas (Tex.),43.17,TSU Relays College Division,"Mar 17, 2023"
+@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023",NaN,400 Hurdles,SCAC Outdoor Performance List,Women
+7,"Nation, Ebonee",FR-1,St. Thomas (Tex.),1:12.36,The 40th Victor Lopez Classic (College),"Mar 23, 2023",NaN,400 Hurdles,SCAC Outdoor Performance List,Women
+8,"Delgado, Sophia",SO-2,St. Thomas (Tex.),1:13.08,Bobcat Invitational 2023,"Mar 30, 2023",NaN,400 Hurdles,SCAC Outdoor Performance List,Women
+9,"Tanner, Kamilah",FR-1,Texas Lutheran,1:13.31,D3 Challenge,"Mar 25, 2023",NaN,400 Hurdles,SCAC Outdoor Performance List,Women
+10,"Penders, Lauren",FR-1,Southwestern (Tex.),1:14.79,D3 Challenge,"Mar 25, 2023",NaN,400 Hurdles,SCAC Outdoor Performance List,Women
+11,"Adams, Ashley",JR-3,Texas Lutheran,1:17.10,2023 Trinity Invitational,"Mar 3, 2023",NaN,400 Hurdles,SCAC Outdoor Performance List,Women
+1,"Flores, Diego",JR-3,Trinity (Tex.),9:28.27,Bobcat Invitational 2023,"Mar 30, 2023",NaN,3000 Steeplechase,SCAC Outdoor Performance List,Men
+2,"Urbina, James",JR-3,St. Thomas (Tex.),9:44.55,Cameron Burrell Alumni Invitational,"Apr 7, 2023",NaN,3000 Steeplechase,SCAC Outdoor Performance List,Men
+3,"Santos, Luc",FR-1,Colorado College,10:09.82,Wichita State KT Woodman Classic,"Apr 7, 2023",NaN,3000 Steeplechase,SCAC Outdoor Performance List,Men
+4,"Singer, Sam",FR-1,Colorado College,10:09.83,Wichita State KT Woodman Classic,"Apr 7, 2023",NaN,3000 Steeplechase,SCAC Outdoor Performance List,Men
+5,"Greene, Eli",SO-2,Trinity (Tex.),10:11.04,2023 Trinity Invitational,"Mar 3, 2023",NaN,3000 Steeplechase,SCAC Outdoor Performance List,Men
+6,"Rager-Aguiar, Ryan",SO-2,Trinity (Tex.),10:23.76,Bobcat Invitational 2023,"Mar 30, 2023",NaN,3000 Steeplechase,SCAC Outdoor Performance List,Men
+7,"Nasky, Logan",FR-1,Trinity (Tex.),10:24.89,Bobcat Invitational 2023,"Mar 30, 2023",NaN,3000 Steeplechase,SCAC Outdoor Performance List,Men
+8,"Cruz, Melvin",JR-3,Trinity (Tex.),10:38.70,Bobcat Invitational 2023,"Mar 30, 2023",NaN,3000 Steeplechase,SCAC Outdoor Performance List,Men
+9,"Meckel, Ash",FR-1,Trinity (Tex.),10:54.33,Bobcat Invitational 2023,"Mar 30, 2023",NaN,3000 Steeplechase,SCAC Outdoor Performance List,Men
+10,"Vaughan, Landon",FR-1,Trinity (Tex.),11:05.36,Bobcat Invitational 2023,"Mar 30, 2023",NaN,3000 Steeplechase,SCAC Outdoor Performance List,Men
+1,"Catron, Ellie",JR-3,Trinity (Tex.),11:31.34,2023 Trinity Invitational,"Mar 3, 2023",NaN,3000 Steeplechase,SCAC Outdoor Performance List,Women
+2,"Chiella, Rachel",SO-2,Southwestern (Tex.),11:59.68,Bobcat Invitational 2023,"Mar 30, 2023",NaN,3000 Steeplechase,SCAC Outdoor Performance List,Women
+3,"Solano, Julia",JR-3,Colorado College,12:04.65,Wichita State KT Woodman Classic,"Apr 7, 2023",NaN,3000 Steeplechase,SCAC Outdoor Performance List,Women
+4,"White, Liz",FR-1,Colorado College,12:19.84,Wichita State KT Woodman Classic,"Apr 7, 2023",NaN,3000 Steeplechase,SCAC Outdoor Performance List,Women
+5,"Dykstra, Maia",SR-4,Trinity (Tex.),12:38.06,Bobcat Invitational 2023,"Mar 30, 2023",NaN,3000 Steeplechase,SCAC Outdoor Performance List,Women
+6,"Thompson, Elizabeth",SO-2,Trinity (Tex.),13:16.96,2023 Trinity Invitational,"Mar 3, 2023",NaN,3000 Steeplechase,SCAC Outdoor Performance List,Women
+7,"Martinez, Hallie",FR-1,Southwestern (Tex.),14:26.55,2023 Trinity Invitational,"Mar 3, 2023",NaN,3000 Steeplechase,SCAC Outdoor Performance List,Women
+8,"Landon, Melissa",JR-3,Schreiner,14:30.85,D3 Challenge,"Mar 25, 2023",NaN,3000 Steeplechase,SCAC Outdoor Performance List,Women
+1,"Freeney, Wilson, Powell-Chimene, Jefferson",NA,Texas Lutheran,41.20,Bobcat Invitational 2023,"Mar 30, 2023",NaN,4 x 100 Relay,SCAC Outdoor Performance List,Men
+2,"Grigsby, Anderson, Rainey, Gilmore",NA,Trinity (Tex.),41.70,2023 Trinity Invitational,"Mar 3, 2023",NaN,4 x 100 Relay,SCAC Outdoor Performance List,Men
+3,"Taisague, Jackson, Maxey, King",NA,Southwestern (Tex.),42.84,2023 Trinity Invitational,"Mar 3, 2023",NaN,4 x 100 Relay,SCAC Outdoor Performance List,Men
+4,"Mingo, Mattox, Kapyamba, Davis",NA,St. Thomas (Tex.),43.17,TSU Relays College Division,"Mar 17, 2023",NaN,4 x 100 Relay,SCAC Outdoor Performance List,Men
 4,"Sun, Williams, Todd-Taraday, Perry",NA,Colorado College,"43.17
-@",Kit Mayer Classic,"Apr 7, 2023"
-6,"Hunter, Harris, Ware, Venious",NA,Centenary (La.),43.74,Southern Arkansas-Dan Veach Invite,"Mar 25, 2023"
-
-1,"Norrell, Williams, Murdock, Garcia",NA,Texas Lutheran,48.42,Bobcat Invitational 2023,"Mar 30, 2023"
-2,"Sawyers, Hinton, Provost, Roderique",NA,St. Thomas (Tex.),48.53,2023 Trinity Invitational,"Mar 3, 2023"
-3,"Subawalla, Ledat, Areola, Selber",NA,Trinity (Tex.),49.07,2023 Trinity Invitational,"Mar 3, 2023"
-4,"Neff, Thompson, Mackrell, Pilarski",NA,Southwestern (Tex.),49.64,David Noble Relays,"Apr 7, 2023"
+@",Kit Mayer Classic,"Apr 7, 2023",NaN,4 x 100 Relay,SCAC Outdoor Performance List,Men
+6,"Hunter, Harris, Ware, Venious",NA,Centenary (La.),43.74,Southern Arkansas-Dan Veach Invite,"Mar 25, 2023",NaN,4 x 100 Relay,SCAC Outdoor Performance List,Men
+1,"Norrell, Williams, Murdock, Garcia",NA,Texas Lutheran,48.42,Bobcat Invitational 2023,"Mar 30, 2023",NaN,4 x 100 Relay,SCAC Outdoor Performance List,Women
+2,"Sawyers, Hinton, Provost, Roderique",NA,St. Thomas (Tex.),48.53,2023 Trinity Invitational,"Mar 3, 2023",NaN,4 x 100 Relay,SCAC Outdoor Performance List,Women
+3,"Subawalla, Ledat, Areola, Selber",NA,Trinity (Tex.),49.07,2023 Trinity Invitational,"Mar 3, 2023",NaN,4 x 100 Relay,SCAC Outdoor Performance List,Women
+4,"Neff, Thompson, Mackrell, Pilarski",NA,Southwestern (Tex.),49.64,David Noble Relays,"Apr 7, 2023",NaN,4 x 100 Relay,SCAC Outdoor Performance List,Women
 5,"Fowkes, Lippert, Jones, Oloyede",NA,Colorado College,"50.15
-@",Kit Mayer Classic,"Apr 7, 2023"
-
-1,"Gilmore, Johnson, Parra, Ladreyt",NA,Trinity (Tex.),3:17.35,2023 95th Clyde Littlefield Texas Relays,"Mar 29, 2023"
-2,"Freeney, Green, Brachett, Powell-Chimene",NA,Texas Lutheran,3:19.22,Bobcat Invitational 2023,"Mar 30, 2023"
-3,"Waller, Mcintyre, Kapyamba, Smith",NA,St. Thomas (Tex.),3:20.11,The 40th Victor Lopez Classic (College),"Mar 23, 2023"
-4,"King, Jackson, Baly, Vann",NA,Southwestern (Tex.),3:24.60,2023 Trinity Invitational,"Mar 3, 2023"
+@",Kit Mayer Classic,"Apr 7, 2023",NaN,4 x 100 Relay,SCAC Outdoor Performance List,Women
+1,"Gilmore, Johnson, Parra, Ladreyt",NA,Trinity (Tex.),3:17.35,2023 95th Clyde Littlefield Texas Relays,"Mar 29, 2023",NaN,4 x 400 Relay,SCAC Outdoor Performance List,Men
+2,"Freeney, Green, Brachett, Powell-Chimene",NA,Texas Lutheran,3:19.22,Bobcat Invitational 2023,"Mar 30, 2023",NaN,4 x 400 Relay,SCAC Outdoor Performance List,Men
+3,"Waller, Mcintyre, Kapyamba, Smith",NA,St. Thomas (Tex.),3:20.11,The 40th Victor Lopez Classic (College),"Mar 23, 2023",NaN,4 x 400 Relay,SCAC Outdoor Performance List,Men
+4,"King, Jackson, Baly, Vann",NA,Southwestern (Tex.),3:24.60,2023 Trinity Invitational,"Mar 3, 2023",NaN,4 x 400 Relay,SCAC Outdoor Performance List,Men
 5,"Williams, Castette, Santos, Barnes",NA,Colorado College,"3:27.23
-@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023"
-6,"Venious, Melton, Harris, Hunter",NA,Centenary (La.),3:42.31,Louisiana Tech Jim Mize Invita,"Mar 17, 2023"
-
-1,"Gray, Kotfas, Jackson, Huck",NA,Trinity (Tex.),4:00.91,Bobcat Invitational 2023,"Mar 30, 2023"
-2,"Williams, Canas, Leal, Bartlett",NA,Texas Lutheran,4:08.87,D3 Challenge,"Mar 25, 2023"
+@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023",NaN,4 x 400 Relay,SCAC Outdoor Performance List,Men
+6,"Venious, Melton, Harris, Hunter",NA,Centenary (La.),3:42.31,Louisiana Tech Jim Mize Invita,"Mar 17, 2023",NaN,4 x 400 Relay,SCAC Outdoor Performance List,Men
+1,"Gray, Kotfas, Jackson, Huck",NA,Trinity (Tex.),4:00.91,Bobcat Invitational 2023,"Mar 30, 2023",NaN,4 x 400 Relay,SCAC Outdoor Performance List,Women
+2,"Williams, Canas, Leal, Bartlett",NA,Texas Lutheran,4:08.87,D3 Challenge,"Mar 25, 2023",NaN,4 x 400 Relay,SCAC Outdoor Performance List,Women
 3,"Lippert, Goodfried, Shove, Jones",NA,Colorado College,"4:09.35
-@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023"
-4,"Powell, Stinson, Vera, Summers",NA,St. Thomas (Tex.),4:11.41,The 40th Victor Lopez Classic (College),"Mar 23, 2023"
-5,"Neff, Thompson, McWhorter, Van Meter",NA,Southwestern (Tex.),4:13.52,David Noble Relays,"Apr 7, 2023"
-
-1,"Washington, Adrian",JR-3,Southwestern (Tex.),2.02m,D3 Challenge,"Mar 25, 2023",
-1,"Twitero, Gerrit",SO-2,Texas Lutheran,2.02m,D3 Challenge,"Mar 25, 2023",
-3,"Hicks, Matthew",SO-2,St. Thomas (Tex.),2.00m,2023 Trinity Invitational,"Mar 3, 2023",
-4,"Griscom, Greyson",JR-3,Texas Lutheran,1.87m,D3 Challenge,"Mar 25, 2023",
-4,"Tyler, Cooper",SR-4,Trinity (Tex.),1.87m,D3 Challenge,"Mar 25, 2023",
-6,"Diagana, Bocar",FR-1,Trinity (Tex.),1.85m,2023 Trinity Invitational,"Mar 3, 2023",
-6,"Svacina, Trent",FR-1,Trinity (Tex.),1.85m,David Noble Relays,"Apr 7, 2023",
-8,"Santos, Aidan",JR-3,Colorado College,1.76m,Gustavus/Colorado College Dual Meet,"Apr 3, 2023",
-9,"Duggan, Kris",FR-1,Trinity (Tex.),1.75m,2023 Trinity Invitational,"Mar 3, 2023",
-10,"Vincent, Nathan",JR-3,Colorado College,1.60m,Gustavus/Colorado College Dual Meet,"Apr 3, 2023",
-10,"Disney, Aidan",FR-1,Colorado College,1.60m,Gustavus/Colorado College Dual Meet,"Apr 3, 2023",
-
-1,"Kwan, April",JR-3,Colorado College,1.53m,Kit Mayer Classic,"Apr 7, 2023",
-1,"Jones, Emma",FR-1,Colorado College,1.53m,Kit Mayer Classic,"Apr 7, 2023",
-3,"Fowkes, Emma",JR-3,Colorado College,1.50m,Occidental Distance Carnival & Spring Break Classic (Co,"Mar 11, 2023",
-4,"Bohlinger, Peyton",SR-4,Trinity (Tex.),1.46m,D3 Challenge,"Mar 25, 2023",
-4,"Brown, Katelyn",FR-1,Texas Lutheran,1.46m,D3 Challenge,"Mar 25, 2023",
-4,"Semaj, Phoenix",FR-1,Texas Lutheran,1.46m,D3 Challenge,"Mar 25, 2023",
-7,"Durham, Demi",SO-2,Trinity (Tex.),1.41m,D3 Challenge,"Mar 25, 2023",
-7,"Jones, Hannah",SR-4,Southwestern (Tex.),1.41m,D3 Challenge,"Mar 25, 2023",
-7,"Chiella, Rachel",SO-2,Southwestern (Tex.),1.41m,D3 Challenge,"Mar 25, 2023",
-7,"Harvey, Jenna",SO-2,Trinity (Tex.),1.41m,D3 Challenge,"Mar 25, 2023",
-11,"McWhorter, Lily",FR-1,Southwestern (Tex.),1.36m,D3 Challenge,"Mar 25, 2023",
-11,"Landon, Melissa",JR-3,Schreiner,1.36m,D3 Challenge,"Mar 25, 2023",
-13,"Van Meter, Lilly",SO-2,Southwestern (Tex.),1.30m,2023 Trinity Invitational,"Mar 3, 2023",
-
-1,"Acero, Ezra",SO-2,Texas Lutheran,4.80m,D3 Challenge,"Mar 25, 2023",
-2,"Jacobs, Seth",FR-1,Trinity (Tex.),4.55m,2023 Trinity Invitational,"Mar 3, 2023",
-3,"Suarez, Adrian",FR-1,Trinity (Tex.),4.25m,2023 Trinity Invitational,"Mar 3, 2023",
-4,"Clancy, Cutter",FR-1,Texas Lutheran,3.45m,D3 Challenge,"Mar 25, 2023",
-
-1,"Wietstruck, Maddy",SO-2,Trinity (Tex.),3.45m,David Noble Relays,"Apr 7, 2023",
-2,"Recknagel, Ashlynn",FR-1,Texas Lutheran,3.30m,David Noble Relays,"Apr 7, 2023",
-3,"Dawson, Lily",JR-3,Texas Lutheran,3.15m,David Noble Relays,"Apr 7, 2023",
-4,"Dueitt, Bailey",SR-4,Trinity (Tex.),3.05m,2023 Trinity Invitational,"Mar 3, 2023",
-5,"Leishman, Kaelin",FR-1,Trinity (Tex.),3.00m,David Noble Relays,"Apr 7, 2023",
-6,"Motelet, Leandra",FR-1,Southwestern (Tex.),2.80m,Ice Breaker Classic,"Mar 17, 2023",
-7,"Rivera, Isabelle",FR-1,Southwestern (Tex.),2.75m,2023 Trinity Invitational,"Mar 3, 2023",
-8,"Iannelli, Brenna",JR-3,Texas Lutheran,2.40m,D3 Challenge,"Mar 25, 2023",
-
-1,"Hampton, Casey",SR-4,Trinity (Tex.),7.19m,2023 Trinity Invitational,"Mar 3, 2023",1.6,
-2,"Maxey, Jamal",SO-2,Southwestern (Tex.),6.99m,David Noble Relays,"Apr 7, 2023",0.9,
-3,"Mcintyre, Bryce",JR-3,St. Thomas (Tex.),6.87m,Bobcat Invitational 2023,"Mar 30, 2023",4.0,
-4,"Lanxon, David",FR-1,Southwestern (Tex.),6.80m,D3 Challenge,"Mar 25, 2023",4.0,
-5,"Mingo, Makale",SO-2,St. Thomas (Tex.),6.51m,The 40th Victor Lopez Classic (College),"Mar 23, 2023",1.3,
-6,"Roper, Michael",FR-1,Southwestern (Tex.),6.33m,Ice Breaker Classic,"Mar 17, 2023",NWI,
-7,"Johnson, Justin",JR-3,Trinity (Tex.),6.31m,2023 Trinity Invitational,"Mar 3, 2023",-1.5,
-8,"Moore, Xadrian",FR-1,Trinity (Tex.),6.20m,2023 Trinity Invitational,"Mar 3, 2023",+0.0,
-9,"Diagana, Bocar",FR-1,Trinity (Tex.),6.15m,2023 Trinity Invitational,"Mar 3, 2023",+0.0,
-10,"Savoy, Kellen",FR-1,Schreiner,6.13m,D3 Challenge,"Mar 25, 2023",2.7,
-11,"Betsey, Cullen",JR-3,Trinity (Tex.),6.10m,2023 Trinity Invitational,"Mar 3, 2023",1.1,
-12,"Asadourian, Conor",SO-2,Texas Lutheran,6.07m,D3 Challenge,"Mar 25, 2023",3.5,
-13,"Horton, Darnell",FR-1,Texas Lutheran,5.88m,David Noble Relays,"Apr 7, 2023",2.3,
-14,"Logan, Javin",FR-1,Texas Lutheran,5.45m,D3 Challenge,"Mar 25, 2023",2.4,
-15,"Johnson, Scott",SO-2,Southwestern (Tex.),5.44m,David Noble Relays,"Apr 7, 2023",1.2,
-16,"Lii, Payton",SR-4,Centenary (La.),5.08m,2023 MC Spring Cleaning Classic,"Mar 4, 2023",NWI,
-17,"Disney, Aidan",FR-1,Colorado College,4.57m,Gustavus/Colorado College Dual Meet,"Apr 3, 2023",-2.5,
-
-1,"Areola, Joy",SO-2,Trinity (Tex.),5.29m,2023 Trinity Invitational,"Mar 3, 2023",+0.0,
-2,"Davis, Claudia",FR-1,St. Thomas (Tex.),5.07m,The 40th Victor Lopez Classic (College),"Mar 23, 2023",1.0,
-3,"Noe, Aliya",FR-1,Trinity (Tex.),4.97m,David Noble Relays,"Apr 7, 2023",2.0,
-4,"Lippert, Clara",FR-1,Colorado College,4.89m,Gustavus/Colorado College Dual Meet,"Apr 3, 2023",-3.3,
-5,"Branch, Shinaya",FR-1,Centenary (La.),4.81m,2023 MC Spring Cleaning Classic,"Mar 4, 2023",NWI,
-6,"Burnett, Courtney",JR-3,Texas Lutheran,4.72m,D3 Challenge,"Mar 25, 2023",2.6,
-6,"Kwan, April",JR-3,Colorado College,4.72m,Kit Mayer Classic,"Apr 7, 2023",+0.0,
-8,"Chiella, Jessie",SO-2,Southwestern (Tex.),4.53m,2023 Trinity Invitational,"Mar 3, 2023",+0.0,
-8,"Van Meter, Lilly",SO-2,Southwestern (Tex.),4.53m,Ice Breaker Classic,"Mar 17, 2023",NWI,
-10,"Gonzales, Valeria",FR-1,St. Thomas (Tex.),4.46m,Cameron Burrell Alumni Invitational,"Apr 7, 2023",NWI,
-10,"Brown, Katelyn",FR-1,Texas Lutheran,4.46m,D3 Challenge,"Mar 25, 2023",4.2,
-12,"Lee, Brittany",FR-1,Texas Lutheran,4.31m,D3 Challenge,"Mar 25, 2023",1.6,
-12,"Vera, Nelsy",FR-1,St. Thomas (Tex.),4.31m,Cameron Burrell Alumni Invitational,"Apr 7, 2023",NWI,
-14,"Rivera, Isabelle",FR-1,Southwestern (Tex.),4.27m,David Noble Relays,"Apr 7, 2023",2.4,
-15,"Cha, Cherryn",SO-2,Southwestern (Tex.),4.14m,2023 Trinity Invitational,"Mar 3, 2023",+0.0,
-16,"Fowkes, Emma",JR-3,Colorado College,4.05m,Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023",+0.0,
-17,"Jones, Hannah",SR-4,Southwestern (Tex.),3.75m,Ice Breaker Classic,"Mar 17, 2023",NWI,
-
-1,"Johnson, Justin",JR-3,Trinity (Tex.),13.65m,2023 Trinity Invitational,"Mar 3, 2023",-1.6,
-2,"Roper, Michael",FR-1,Southwestern (Tex.),13.55m,D3 Challenge,"Mar 25, 2023",+0.0,
-3,"Diagana, Bocar",FR-1,Trinity (Tex.),13.43m,2023 Trinity Invitational,"Mar 3, 2023",-1.7,
-4,"Twitero, Gerrit",SO-2,Texas Lutheran,12.85m,D3 Challenge,"Mar 25, 2023",+0.0,
-5,"Hicks, Matthew",SO-2,St. Thomas (Tex.),12.74m,2023 Trinity Invitational,"Mar 3, 2023",-1.6,
-6,"Mattox, Jacolby",SO-2,St. Thomas (Tex.),12.21m,2023 Trinity Invitational,"Mar 3, 2023",-1.0,
-7,"Duggan, Kris",FR-1,Trinity (Tex.),11.71m,2023 Trinity Invitational,"Mar 3, 2023",-1.9,
-8,"Griscom, Greyson",JR-3,Texas Lutheran,11.31m,D3 Challenge,"Mar 25, 2023",+0.0,
-
-1,"Areola, Joy",SO-2,Trinity (Tex.),11.36m,David Noble Relays,"Apr 7, 2023",-0.8,
-2,"Wietstruck, Maddy",SO-2,Trinity (Tex.),11.15m,D3 Challenge,"Mar 25, 2023",1.1,
-3,"Noe, Aliya",FR-1,Trinity (Tex.),10.58m,David Noble Relays,"Apr 7, 2023",0.2,
-4,"Chiella, Jessie",SO-2,Southwestern (Tex.),9.82m,Ice Breaker Classic,"Mar 17, 2023",NWI,
-5,"Burnett, Courtney",JR-3,Texas Lutheran,9.62m,2023 Trinity Invitational,"Mar 3, 2023",2.3,
-6,"Brown, Katelyn",FR-1,Texas Lutheran,9.46m,D3 Challenge,"Mar 25, 2023",1.4,
-7,"Kwan, April",JR-3,Colorado College,9.24m,Ed Boitano Invitational 2023,"Mar 3, 2023",+0.0,
-
-1,"Harris, Dalon",FR-1,Texas Lutheran,15.25m,David Noble Relays,"Apr 7, 2023",
-2,"Denman, Riley",SO-2,Texas Lutheran,13.80m,Bobcat Invitational 2023,"Mar 30, 2023",
-3,"Graham, Leighton",SR-4,Colorado College,13.51m,Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023",
-4,"Maughn, Andrew",FR-1,Texas Lutheran,13.49m,D3 Challenge,"Mar 25, 2023",
-5,"Jimenez, Arturo",JR-3,Southwestern (Tex.),12.83m,2023 Trinity Invitational,"Mar 3, 2023",
-6,"Schake, Heath",JR-3,Trinity (Tex.),12.63m,D3 Challenge,"Mar 25, 2023",
-7,"Williams, Allen",JR-3,Texas Lutheran,11.91m,David Noble Relays,"Apr 7, 2023",
-8,"Davila, Dominic",SO-2,Southwestern (Tex.),11.47m,D3 Challenge,"Mar 25, 2023",
-9,"Cook, Chase",JR-3,Texas Lutheran,11.37m,2023 Trinity Invitational,"Mar 3, 2023",
-10,"Lima, Julio",JR-3,Dallas,10.92m,2023 North Texas Classic,"Apr 8, 2023",
-11,"Hamway, Liam",SO-2,Dallas,10.89m,2023 North Texas Classic,"Apr 8, 2023",
-12,"Dawson, Sam",SR-4,Southwestern (Tex.),10.44m,2023 Trinity Invitational,"Mar 3, 2023",
-13,"Zuniga, Ezvyn",SO-2,Texas Lutheran,10.27m,D3 Challenge,"Mar 25, 2023",
-14,"Perez, Alejandro",FR-1,Texas Lutheran,9.93m,2023 Trinity Invitational,"Mar 3, 2023",
-15,"Bradshaw, William",FR-1,Southwestern (Tex.),9.90m,2023 Trinity Invitational,"Mar 3, 2023",
-16,"Wagner, Grey",SR-4,Southwestern (Tex.),9.70m,Ice Breaker Classic,"Mar 17, 2023",
-17,"King, Gabriel",JR-3,Dallas,9.52m,2023 MC Spring Cleaning Classic,"Mar 4, 2023",
-18,"Hessbrook, Diego",SO-2,Texas Lutheran,9.21m,2023 Trinity Invitational,"Mar 3, 2023",
-19,"Orf, Nathanial",FR-1,Dallas,7.66m,2023 North Texas Classic,"Apr 8, 2023",
-20,"Mulcahy, Connor",JR-3,Dallas,7.51m,Southern Arkansas-Dan Veach Invite,"Mar 25, 2023",
-21,"Sinor, Andrew",FR-1,Southwestern (Tex.),7.15m,D3 Challenge,"Mar 25, 2023",
-
-1,"Rodriguez, Julissa",SO-2,Texas Lutheran,12.07m,Bobcat Invitational 2023,"Mar 30, 2023",
-2,"Styra, Emagen",FR-1,Texas Lutheran,11.97m,D3 Challenge,"Mar 25, 2023",
-3,"Nava, Maggie",JR-3,Trinity (Tex.),11.71m,David Noble Relays,"Apr 7, 2023",
-4,"Smith, Kirsten",FR-1,Texas Lutheran,11.06m,David Noble Relays,"Apr 7, 2023",
-5,"Seabolt, Madeleine",FR-1,Trinity (Tex.),11.01m,2023 Trinity Invitational,"Mar 3, 2023",
-6,"Francois, Kierra",SR-4,Trinity (Tex.),11.00m,David Noble Relays,"Apr 7, 2023",
-7,"Capell, Erin",SO-2,Colorado College,10.77m,Gustavus/Colorado College Dual Meet,"Apr 3, 2023",
-8,"Ballengee, Kate",SO-2,Trinity (Tex.),10.44m,David Noble Relays,"Apr 7, 2023",
-9,"Flax, Maya",SO-2,Texas Lutheran,10.31m,David Noble Relays,"Apr 7, 2023",
-10,"Kubenka, Kenna",FR-1,Texas Lutheran,10.02m,David Noble Relays,"Apr 7, 2023",
-11,"Burnett, Courtney",JR-3,Texas Lutheran,9.36m,2023 Trinity Invitational,"Mar 3, 2023",
-12,"Ross, Emma",JR-3,Trinity (Tex.),9.03m,David Noble Relays,"Apr 7, 2023",
-13,"Durham, Demi",SO-2,Trinity (Tex.),8.91m,2023 Trinity Invitational,"Mar 3, 2023",
-14,"Schonberg, Madison",FR-1,Centenary (La.),8.81m,Southern Arkansas-Dan Veach Invite,"Mar 25, 2023",
-15,"Gutierrez, Gizelle",SR-4,Texas Lutheran,8.59m,2023 Trinity Invitational,"Mar 3, 2023",
-16,"Salazar, Aubrey",FR-1,Centenary (La.),8.11m,Southern Arkansas-Dan Veach Invite,"Mar 25, 2023",
-17,"Malone, Macie",JR-3,Schreiner,8.01m,D3 Challenge,"Mar 25, 2023",
-18,"Barlage, Riley",SR-4,Southwestern (Tex.),7.79m,D3 Challenge,"Mar 25, 2023",
-19,"Ramirez, Jessie",SR-4,Dallas,7.33m,2023 North Texas Classic,"Apr 8, 2023",
-20,"Fowkes, Emma",JR-3,Colorado College,7.18m,Gustavus/Colorado College Dual Meet,"Apr 3, 2023",
-
-1,"Graham, Leighton",SR-4,Colorado College,45.36m,Gustavus/Colorado College Dual Meet,"Apr 3, 2023",
-2,"Harris, Dalon",FR-1,Texas Lutheran,40.15m,2023 Trinity Invitational,"Mar 3, 2023",
-3,"Perez, Alejandro",FR-1,Texas Lutheran,39.04m,D3 Challenge,"Mar 25, 2023",
-4,"Geiger, Weston",JR-3,Texas Lutheran,39.03m,David Noble Relays,"Apr 7, 2023",
-5,"Witkow, Jack",SO-2,Trinity (Tex.),38.51m,David Noble Relays,"Apr 7, 2023",
-6,"Cook, Chase",JR-3,Texas Lutheran,38.40m,2023 Trinity Invitational,"Mar 3, 2023",
-7,"Denman, Riley",SO-2,Texas Lutheran,36.53m,2023 Trinity Invitational,"Mar 3, 2023",
-8,"Marshall, Morris",FR-1,Texas Lutheran,36.28m,D3 Challenge,"Mar 25, 2023",
-9,"Schake, Heath",JR-3,Trinity (Tex.),36.07m,D3 Challenge,"Mar 25, 2023",
-10,"Brown, Kevin",SR-4,Centenary (La.),34.32m,Pelican Relays,"Apr 8, 2023",
-11,"Williams, Allen",JR-3,Texas Lutheran,33.73m,D3 Challenge,"Mar 25, 2023",
-12,"Bradshaw, William",FR-1,Southwestern (Tex.),32.18m,Ice Breaker Classic,"Mar 17, 2023",
-13,"Wagner, Grey",SR-4,Southwestern (Tex.),31.19m,Ice Breaker Classic,"Mar 17, 2023",
-14,"Sullivan, Dylan",SO-2,Southwestern (Tex.),30.67m,D3 Challenge,"Mar 25, 2023",
-15,"Pruske, Chris",SR-4,Trinity (Tex.),30.54m,2023 Trinity Invitational,"Mar 3, 2023",
-16,"Lima, Julio",JR-3,Dallas,25.85m,2023 Hendrix Invitational,"Mar 10, 2023",
-17,"Hamway, Liam",SO-2,Dallas,25.45m,2023 Hendrix Invitational,"Mar 10, 2023",
-18,"King, Gabriel",JR-3,Dallas,23.83m,2023 MC Spring Cleaning Classic,"Mar 4, 2023",
-19,"Orf, Nathanial",FR-1,Dallas,17.89m,2023 MC Spring Cleaning Classic,"Mar 4, 2023",
-20,"Mulcahy, Connor",JR-3,Dallas,16.52m,Southern Arkansas-Dan Veach Invite,"Mar 25, 2023",
-
-1,"Francois, Kierra",SR-4,Trinity (Tex.),38.49m,2023 Trinity Invitational,"Mar 3, 2023",
-2,"Wilson-Larkin, Brianna",FR-1,Texas Lutheran,38.32m,D3 Challenge,"Mar 25, 2023",
-3,"Seabolt, Madeleine",FR-1,Trinity (Tex.),38.03m,2023 Trinity Invitational,"Mar 3, 2023",
-4,"Rodriguez, Julissa",SO-2,Texas Lutheran,36.50m,David Noble Relays,"Apr 7, 2023",
-5,"Ballengee, Kate",SO-2,Trinity (Tex.),35.38m,David Noble Relays,"Apr 7, 2023",
-6,"Smith, Kirsten",FR-1,Texas Lutheran,33.85m,D3 Challenge,"Mar 25, 2023",
-7,"Nava, Maggie",JR-3,Trinity (Tex.),32.87m,2023 Trinity Invitational,"Mar 3, 2023",
-8,"Styra, Emagen",FR-1,Texas Lutheran,32.73m,David Noble Relays,"Apr 7, 2023",
-9,"Gutierrez, Gizelle",SR-4,Texas Lutheran,32.72m,D3 Challenge,"Mar 25, 2023",
-10,"Braun, Sydney",FR-1,Southwestern (Tex.),32.56m,D3 Challenge,"Mar 25, 2023",
-11,"Wilson, Heather",FR-1,Southwestern (Tex.),31.54m,D3 Challenge,"Mar 25, 2023",
-12,"Hamilton, Kaila",FR-1,Southwestern (Tex.),29.62m,D3 Challenge,"Mar 25, 2023",
-13,"Capell, Erin",SO-2,Colorado College,28.99m,Ed Boitano Invitational 2023,"Mar 3, 2023",
-14,"Schonberg, Madison",FR-1,Centenary (La.),28.66m,Pelican Relays,"Apr 8, 2023",
-15,"Case, Avery",FR-1,Trinity (Tex.),27.65m,2023 Trinity Invitational,"Mar 3, 2023",
-16,"Salazar, Aubrey",FR-1,Centenary (La.),26.81m,Southern Arkansas-Dan Veach Invite,"Mar 25, 2023",
-17,"Ross, Emma",JR-3,Trinity (Tex.),25.94m,David Noble Relays,"Apr 7, 2023",
-18,"Kubenka, Kenna",FR-1,Texas Lutheran,25.57m,2023 Trinity Invitational,"Mar 3, 2023",
-19,"Ramirez, Jessie",SR-4,Dallas,19.11m,Southern Arkansas-Dan Veach Invite,"Mar 25, 2023",
-20,"Malone, Macie",JR-3,Schreiner,17.26m,2023 Trinity Invitational,"Mar 3, 2023",
-
-1,"Cook, Chase",JR-3,Texas Lutheran,46.30m,David Noble Relays,"Apr 7, 2023",
-2,"Denman, Riley",SO-2,Texas Lutheran,44.80m,David Noble Relays,"Apr 7, 2023",
-3,"Geiger, Weston",JR-3,Texas Lutheran,41.90m,2023 Trinity Invitational,"Mar 3, 2023",
-4,"Schake, Heath",JR-3,Trinity (Tex.),41.14m,David Noble Relays,"Apr 7, 2023",
-5,"Maughn, Andrew",FR-1,Texas Lutheran,37.76m,D3 Challenge,"Mar 25, 2023",
-6,"Rupe, Simon",SO-2,Southwestern (Tex.),36.31m,D3 Challenge,"Mar 25, 2023",
-7,"Williams, Allen",JR-3,Texas Lutheran,36.16m,David Noble Relays,"Apr 7, 2023",
-8,"Wagner, Grey",SR-4,Southwestern (Tex.),35.32m,David Noble Relays,"Apr 7, 2023",
-9,"Jimenez, Arturo",JR-3,Southwestern (Tex.),35.24m,David Noble Relays,"Apr 7, 2023",
-10,"Witkow, Jack",SO-2,Trinity (Tex.),33.75m,2023 Trinity Invitational,"Mar 3, 2023",
-11,"Hollis-Roberts, Joshua",SR-4,Schreiner,33.33m,D3 Challenge,"Mar 25, 2023",
-12,"Bradshaw, William",FR-1,Southwestern (Tex.),32.93m,D3 Challenge,"Mar 25, 2023",
-13,"Dawson, Sam",SR-4,Southwestern (Tex.),32.56m,2023 Trinity Invitational,"Mar 3, 2023",
-14,"Pruske, Chris",SR-4,Trinity (Tex.),31.48m,David Noble Relays,"Apr 7, 2023",
-15,"Davila, Dominic",SO-2,Southwestern (Tex.),30.37m,David Noble Relays,"Apr 7, 2023",
-16,"Clancy, Cutter",FR-1,Texas Lutheran,29.29m,D3 Challenge,"Mar 25, 2023",
-17,"Hessbrook, Diego",SO-2,Texas Lutheran,28.06m,D3 Challenge,"Mar 25, 2023",
-18,"Sinor, Andrew",FR-1,Southwestern (Tex.),26.29m,David Noble Relays,"Apr 7, 2023",
-
-1,"Francois, Kierra",SR-4,Trinity (Tex.),45.48m,David Noble Relays,"Apr 7, 2023",
-2,"Rodriguez, Julissa",SO-2,Texas Lutheran,41.47m,2023 Trinity Invitational,"Mar 3, 2023",
-3,"Wilson-Larkin, Brianna",FR-1,Texas Lutheran,39.99m,David Noble Relays,"Apr 7, 2023",
-4,"Barlage, Riley",SR-4,Southwestern (Tex.),39.06m,David Noble Relays,"Apr 7, 2023",
-5,"Kubenka, Kenna",FR-1,Texas Lutheran,39.04m,2023 Trinity Invitational,"Mar 3, 2023",
-6,"Smith, Kirsten",FR-1,Texas Lutheran,38.14m,David Noble Relays,"Apr 7, 2023",
-7,"Nava, Maggie",JR-3,Trinity (Tex.),35.92m,D3 Challenge,"Mar 25, 2023",
-8,"Ballengee, Kate",SO-2,Trinity (Tex.),34.45m,D3 Challenge,"Mar 25, 2023",
-9,"Gutierrez, Gizelle",SR-4,Texas Lutheran,33.90m,David Noble Relays,"Apr 7, 2023",
-10,"Wilson, Heather",FR-1,Southwestern (Tex.),30.74m,Ice Breaker Classic,"Mar 17, 2023",
-11,"Braun, Sydney",FR-1,Southwestern (Tex.),30.73m,David Noble Relays,"Apr 7, 2023",
-12,"Hammer, Ericka",FR-1,Texas Lutheran,30.70m,D3 Challenge,"Mar 25, 2023",
-13,"Styra, Emagen",FR-1,Texas Lutheran,30.19m,D3 Challenge,"Mar 25, 2023",
-14,"Hamilton, Kaila",FR-1,Southwestern (Tex.),27.31m,D3 Challenge,"Mar 25, 2023",
-15,"Ross, Emma",JR-3,Trinity (Tex.),21.90m,David Noble Relays,"Apr 7, 2023",
-
-1,"Tyler, Cooper",SR-4,Trinity (Tex.),54.53m,D3 Challenge,"Mar 25, 2023",
-2,"Geiger, Weston",JR-3,Texas Lutheran,54.41m,D3 Challenge,"Mar 25, 2023",
-3,"Acero, Ezra",SO-2,Texas Lutheran,50.50m,2023 Trinity Invitational,"Mar 3, 2023",
-4,"Jackson, Pierce",SO-2,Trinity (Tex.),49.48m,D3 Challenge,"Mar 25, 2023",
-5,"Sullivan, Dylan",SO-2,Southwestern (Tex.),48.63m,2023 Trinity Invitational,"Mar 3, 2023",
-6,"Clancy, Cutter",FR-1,Texas Lutheran,47.19m,D3 Challenge,"Mar 25, 2023",
-7,"Brown, Kevin",SR-4,Centenary (La.),47.06m,Louisiana Tech Jim Mize Invita,"Mar 17, 2023",
-8,"Johnson, Scott",SO-2,Southwestern (Tex.),45.05m,David Noble Relays,"Apr 7, 2023",
-9,"Pruske, Chris",SR-4,Trinity (Tex.),42.71m,2023 Trinity Invitational,"Mar 3, 2023",
-10,"Rupe, Simon",SO-2,Southwestern (Tex.),42.32m,2023 Trinity Invitational,"Mar 3, 2023",
-11,"Turner, Markel",JR-3,Texas Lutheran,41.72m,D3 Challenge,"Mar 25, 2023",
-12,"Zuniga, Ezvyn",SO-2,Texas Lutheran,38.93m,2023 Trinity Invitational,"Mar 3, 2023",
-13,"Hamway, Liam",SO-2,Dallas,36.96m,2023 North Texas Classic,"Apr 8, 2023",
-14,"Perry, Holden",SO-2,Colorado College,36.57m,Occidental Distance Carnival & Spring Break Classic (Co,"Mar 11, 2023",
-15,"Weaver, Mika",SO-2,Texas Lutheran,35.07m,D3 Challenge,"Mar 25, 2023",
-16,"Dawson, Sam",SR-4,Southwestern (Tex.),34.45m,2023 Trinity Invitational,"Mar 3, 2023",
-17,"Vincent, Nathan",JR-3,Colorado College,34.20m,Kit Mayer Classic,"Apr 7, 2023",
-18,"Shichman, Jacob",SR-4,Colorado College,33.57m,Kit Mayer Classic,"Apr 7, 2023",
-19,"Urbina, Christian",SR-4,Texas Lutheran,33.19m,2023 Trinity Invitational,"Mar 3, 2023",
-20,"Lima, Julio",JR-3,Dallas,32.86m,2023 North Texas Classic,"Apr 8, 2023",
-21,"Orf, Nathanial",FR-1,Dallas,26.80m,2023 MC Spring Cleaning Classic,"Mar 4, 2023",
-22,"King, Gabriel",JR-3,Dallas,21.50m,2023 MC Spring Cleaning Classic,"Mar 4, 2023",
-
-1,"Francois, Kierra",SR-4,Trinity (Tex.),36.69m,David Noble Relays,"Apr 7, 2023",
-2,"Rodriguez, Julissa",SO-2,Texas Lutheran,32.13m,D3 Challenge,"Mar 25, 2023",
-3,"Seabolt, Madeleine",FR-1,Trinity (Tex.),31.21m,Bobcat Invitational 2023,"Mar 30, 2023",
-4,"Hubbard, Taylor",JR-3,Southwestern (Tex.),30.94m,D3 Challenge,"Mar 25, 2023",
-5,"Gutierrez, Gizelle",SR-4,Texas Lutheran,30.65m,D3 Challenge,"Mar 25, 2023",
-6,"Martin, Alexa",FR-1,Texas Lutheran,29.91m,D3 Challenge,"Mar 25, 2023",
-7,"Braun, Sydney",FR-1,Southwestern (Tex.),29.73m,David Noble Relays,"Apr 7, 2023",
-8,"Maciel, Julia",SR-4,Texas Lutheran,29.31m,D3 Challenge,"Mar 25, 2023",
-9,"Wilson, Heather",FR-1,Southwestern (Tex.),29.23m,D3 Challenge,"Mar 25, 2023",
-10,"Styra, Emagen",FR-1,Texas Lutheran,28.59m,David Noble Relays,"Apr 7, 2023",
-11,"Smith, Kirsten",FR-1,Texas Lutheran,27.31m,D3 Challenge,"Mar 25, 2023",
-12,"Kubenka, Kenna",FR-1,Texas Lutheran,25.34m,D3 Challenge,"Mar 25, 2023",
-13,"Burnett, Courtney",JR-3,Texas Lutheran,24.63m,2023 Trinity Invitational,"Mar 3, 2023",
-14,"Naito, Ann Louise",JR-3,Colorado College,22.70m,Kit Mayer Classic,"Apr 7, 2023",
-15,"Lopez, Leilani",SO-2,Texas Lutheran,22.65m,2023 Trinity Invitational,"Mar 3, 2023",
-16,"Durham, Demi",SO-2,Trinity (Tex.),22.32m,David Noble Relays,"Apr 7, 2023",
-17,"Case, Avery",FR-1,Trinity (Tex.),20.85m,2023 Trinity Invitational,"Mar 3, 2023",
-18,"Jones, Hannah",SR-4,Southwestern (Tex.),20.50m,D3 Challenge,"Mar 25, 2023",
-19,"Bram, Naomi",SR-4,Colorado College,19.06m,Kit Mayer Classic,"Apr 7, 2023",
-20,"Ballengee, Kate",SO-2,Trinity (Tex.),18.61m,2023 Trinity Invitational,"Mar 3, 2023",
-21,"Fowkes, Emma",JR-3,Colorado College,18.53m,Occidental Distance Carnival & Spring Break Classic (Co,"Mar 11, 2023",
-22,"Malone, Macie",JR-3,Schreiner,17.13m,2023 Trinity Invitational,"Mar 3, 2023",
-23,"Jones, Emma",FR-1,Colorado College,16.37m,Ed Boitano Invitational 2023,"Mar 3, 2023",
+@",Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023",NaN,4 x 400 Relay,SCAC Outdoor Performance List,Women
+4,"Powell, Stinson, Vera, Summers",NA,St. Thomas (Tex.),4:11.41,The 40th Victor Lopez Classic (College),"Mar 23, 2023",NaN,4 x 400 Relay,SCAC Outdoor Performance List,Women
+5,"Neff, Thompson, McWhorter, Van Meter",NA,Southwestern (Tex.),4:13.52,David Noble Relays,"Apr 7, 2023",NaN,4 x 400 Relay,SCAC Outdoor Performance List,Women
+1,"Washington, Adrian",JR-3,Southwestern (Tex.),2.02m,D3 Challenge,"Mar 25, 2023",NaN,High Jump,SCAC Outdoor Performance List,Men
+1,"Twitero, Gerrit",SO-2,Texas Lutheran,2.02m,D3 Challenge,"Mar 25, 2023",NaN,High Jump,SCAC Outdoor Performance List,Men
+3,"Hicks, Matthew",SO-2,St. Thomas (Tex.),2.00m,2023 Trinity Invitational,"Mar 3, 2023",NaN,High Jump,SCAC Outdoor Performance List,Men
+4,"Tyler, Cooper",SR-4,Trinity (Tex.),1.87m,D3 Challenge,"Mar 25, 2023",NaN,High Jump,SCAC Outdoor Performance List,Men
+4,"Griscom, Greyson",JR-3,Texas Lutheran,1.87m,D3 Challenge,"Mar 25, 2023",NaN,High Jump,SCAC Outdoor Performance List,Men
+6,"Svacina, Trent",FR-1,Trinity (Tex.),1.85m,David Noble Relays,"Apr 7, 2023",NaN,High Jump,SCAC Outdoor Performance List,Men
+6,"Diagana, Bocar",FR-1,Trinity (Tex.),1.85m,2023 Trinity Invitational,"Mar 3, 2023",NaN,High Jump,SCAC Outdoor Performance List,Men
+8,"Santos, Aidan",JR-3,Colorado College,1.76m,Gustavus/Colorado College Dual Meet,"Apr 3, 2023",NaN,High Jump,SCAC Outdoor Performance List,Men
+9,"Duggan, Kris",FR-1,Trinity (Tex.),1.75m,2023 Trinity Invitational,"Mar 3, 2023",NaN,High Jump,SCAC Outdoor Performance List,Men
+10,"Disney, Aidan",FR-1,Colorado College,1.60m,Gustavus/Colorado College Dual Meet,"Apr 3, 2023",NaN,High Jump,SCAC Outdoor Performance List,Men
+10,"Vincent, Nathan",JR-3,Colorado College,1.60m,Gustavus/Colorado College Dual Meet,"Apr 3, 2023",NaN,High Jump,SCAC Outdoor Performance List,Men
+1,"Kwan, April",JR-3,Colorado College,1.53m,Kit Mayer Classic,"Apr 7, 2023",NaN,High Jump,SCAC Outdoor Performance List,Women
+1,"Jones, Emma",FR-1,Colorado College,1.53m,Kit Mayer Classic,"Apr 7, 2023",NaN,High Jump,SCAC Outdoor Performance List,Women
+3,"Fowkes, Emma",JR-3,Colorado College,1.50m,Occidental Distance Carnival & Spring Break Classic (Co,"Mar 11, 2023",NaN,High Jump,SCAC Outdoor Performance List,Women
+4,"Bohlinger, Peyton",SR-4,Trinity (Tex.),1.46m,D3 Challenge,"Mar 25, 2023",NaN,High Jump,SCAC Outdoor Performance List,Women
+4,"Brown, Katelyn",FR-1,Texas Lutheran,1.46m,D3 Challenge,"Mar 25, 2023",NaN,High Jump,SCAC Outdoor Performance List,Women
+4,"Semaj, Phoenix",FR-1,Texas Lutheran,1.46m,D3 Challenge,"Mar 25, 2023",NaN,High Jump,SCAC Outdoor Performance List,Women
+7,"Durham, Demi",SO-2,Trinity (Tex.),1.41m,D3 Challenge,"Mar 25, 2023",NaN,High Jump,SCAC Outdoor Performance List,Women
+7,"Jones, Hannah",SR-4,Southwestern (Tex.),1.41m,D3 Challenge,"Mar 25, 2023",NaN,High Jump,SCAC Outdoor Performance List,Women
+7,"Chiella, Rachel",SO-2,Southwestern (Tex.),1.41m,D3 Challenge,"Mar 25, 2023",NaN,High Jump,SCAC Outdoor Performance List,Women
+7,"Harvey, Jenna",SO-2,Trinity (Tex.),1.41m,D3 Challenge,"Mar 25, 2023",NaN,High Jump,SCAC Outdoor Performance List,Women
+11,"McWhorter, Lily",FR-1,Southwestern (Tex.),1.36m,D3 Challenge,"Mar 25, 2023",NaN,High Jump,SCAC Outdoor Performance List,Women
+11,"Landon, Melissa",JR-3,Schreiner,1.36m,D3 Challenge,"Mar 25, 2023",NaN,High Jump,SCAC Outdoor Performance List,Women
+13,"Van Meter, Lilly",SO-2,Southwestern (Tex.),1.30m,2023 Trinity Invitational,"Mar 3, 2023",NaN,High Jump,SCAC Outdoor Performance List,Women
+1,"Acero, Ezra",SO-2,Texas Lutheran,4.80m,D3 Challenge,"Mar 25, 2023",NaN,Pole Vault,SCAC Outdoor Performance List,Men
+2,"Jacobs, Seth",FR-1,Trinity (Tex.),4.55m,2023 Trinity Invitational,"Mar 3, 2023",NaN,Pole Vault,SCAC Outdoor Performance List,Men
+3,"Suarez, Adrian",FR-1,Trinity (Tex.),4.25m,2023 Trinity Invitational,"Mar 3, 2023",NaN,Pole Vault,SCAC Outdoor Performance List,Men
+4,"Clancy, Cutter",FR-1,Texas Lutheran,3.67m,2023 War Hawk Classic,"Apr 14, 2023",NaN,Pole Vault,SCAC Outdoor Performance List,Men
+1,"Wietstruck, Maddy",SO-2,Trinity (Tex.),3.45m,David Noble Relays,"Apr 7, 2023",NaN,Pole Vault,SCAC Outdoor Performance List,Women
+2,"Recknagel, Ashlynn",FR-1,Texas Lutheran,3.30m,David Noble Relays,"Apr 7, 2023",NaN,Pole Vault,SCAC Outdoor Performance List,Women
+3,"Dawson, Lily",JR-3,Texas Lutheran,3.15m,David Noble Relays,"Apr 7, 2023",NaN,Pole Vault,SCAC Outdoor Performance List,Women
+4,"Dueitt, Bailey",SR-4,Trinity (Tex.),3.10m,Kingsville Cactus Cup,"Apr 15, 2023",NaN,Pole Vault,SCAC Outdoor Performance List,Women
+5,"Leishman, Kaelin",FR-1,Trinity (Tex.),3.00m,David Noble Relays,"Apr 7, 2023",NaN,Pole Vault,SCAC Outdoor Performance List,Women
+6,"Motelet, Leandra",FR-1,Southwestern (Tex.),2.80m,Ice Breaker Classic,"Mar 17, 2023",NaN,Pole Vault,SCAC Outdoor Performance List,Women
+7,"Rivera, Isabelle",FR-1,Southwestern (Tex.),2.75m,2023 Trinity Invitational,"Mar 3, 2023",NaN,Pole Vault,SCAC Outdoor Performance List,Women
+8,"Iannelli, Brenna",JR-3,Texas Lutheran,2.40m,D3 Challenge,"Mar 25, 2023",NaN,Pole Vault,SCAC Outdoor Performance List,Women
+1,"Maxey, Jamal",SO-2,Southwestern (Tex.),7.28m,2023 War Hawk Classic,"Apr 14, 2023",1.5,Long Jump,SCAC Outdoor Performance List,Men
+2,"Hampton, Casey",SR-4,Trinity (Tex.),7.19m,2023 Trinity Invitational,"Mar 3, 2023",1.6,Long Jump,SCAC Outdoor Performance List,Men
+3,"Mcintyre, Bryce",JR-3,St. Thomas (Tex.),6.87m,Bobcat Invitational 2023,"Mar 30, 2023",4.0,Long Jump,SCAC Outdoor Performance List,Men
+4,"Lanxon, David",FR-1,Southwestern (Tex.),6.80m,D3 Challenge,"Mar 25, 2023",4.0,Long Jump,SCAC Outdoor Performance List,Men
+5,"Mingo, Makale",SO-2,St. Thomas (Tex.),6.51m,The 40th Victor Lopez Classic (College),"Mar 23, 2023",1.3,Long Jump,SCAC Outdoor Performance List,Men
+6,"Asadourian, Conor",SO-2,Texas Lutheran,6.35m,2023 War Hawk Classic,"Apr 14, 2023",1.6,Long Jump,SCAC Outdoor Performance List,Men
+7,"Roper, Michael",FR-1,Southwestern (Tex.),6.32m,2023 Trinity Invitational,"Mar 3, 2023",1.2,Long Jump,SCAC Outdoor Performance List,Men
+8,"Johnson, Justin",JR-3,Trinity (Tex.),6.31m,2023 Trinity Invitational,"Mar 3, 2023",-1.5,Long Jump,SCAC Outdoor Performance List,Men
+9,"Moore, Xadrian",FR-1,Trinity (Tex.),6.20m,2023 Trinity Invitational,"Mar 3, 2023",+0.0,Long Jump,SCAC Outdoor Performance List,Men
+10,"Diagana, Bocar",FR-1,Trinity (Tex.),6.15m,2023 Trinity Invitational,"Mar 3, 2023",+0.0,Long Jump,SCAC Outdoor Performance List,Men
+11,"Savoy, Kellen",FR-1,Schreiner,6.13m,D3 Challenge,"Mar 25, 2023",2.7,Long Jump,SCAC Outdoor Performance List,Men
+12,"Betsey, Cullen",JR-3,Trinity (Tex.),6.10m,2023 Trinity Invitational,"Mar 3, 2023",1.1,Long Jump,SCAC Outdoor Performance List,Men
+13,"Horton, Darnell",FR-1,Texas Lutheran,6.08m,2023 War Hawk Classic,"Apr 14, 2023",2.8,Long Jump,SCAC Outdoor Performance List,Men
+14,"Johnson, Scott",SO-2,Southwestern (Tex.),5.90m,2023 War Hawk Classic,"Apr 14, 2023",2.6,Long Jump,SCAC Outdoor Performance List,Men
+15,"Logan, Javin",FR-1,Texas Lutheran,5.45m,D3 Challenge,"Mar 25, 2023",2.4,Long Jump,SCAC Outdoor Performance List,Men
+16,"Disney, Aidan",FR-1,Colorado College,4.57m,Gustavus/Colorado College Dual Meet,"Apr 3, 2023",-2.5,Long Jump,SCAC Outdoor Performance List,Men
+1,"Areola, Joy",SO-2,Trinity (Tex.),5.29m,2023 Trinity Invitational,"Mar 3, 2023",+0.0,Long Jump,SCAC Outdoor Performance List,Women
+2,"Davis, Claudia",FR-1,St. Thomas (Tex.),5.07m,The 40th Victor Lopez Classic (College),"Mar 23, 2023",1.0,Long Jump,SCAC Outdoor Performance List,Women
+3,"Noe, Aliya",FR-1,Trinity (Tex.),4.97m,David Noble Relays,"Apr 7, 2023",2.0,Long Jump,SCAC Outdoor Performance List,Women
+4,"Lippert, Clara",FR-1,Colorado College,4.89m,Gustavus/Colorado College Dual Meet,"Apr 3, 2023",-3.3,Long Jump,SCAC Outdoor Performance List,Women
+5,"Kwan, April",JR-3,Colorado College,4.72m,Kit Mayer Classic,"Apr 7, 2023",+0.0,Long Jump,SCAC Outdoor Performance List,Women
+5,"Burnett, Courtney",JR-3,Texas Lutheran,4.72m,D3 Challenge,"Mar 25, 2023",2.6,Long Jump,SCAC Outdoor Performance List,Women
+7,"Brown, Katelyn",FR-1,Texas Lutheran,4.56m,2023 War Hawk Classic,"Apr 14, 2023",2.9,Long Jump,SCAC Outdoor Performance List,Women
+8,"Chiella, Jessie",SO-2,Southwestern (Tex.),4.53m,2023 Trinity Invitational,"Mar 3, 2023",+0.0,Long Jump,SCAC Outdoor Performance List,Women
+9,"Van Meter, Lilly",SO-2,Southwestern (Tex.),4.51m,David Noble Relays,"Apr 7, 2023",2.1,Long Jump,SCAC Outdoor Performance List,Women
+10,"Gonzales, Valeria",FR-1,St. Thomas (Tex.),4.46m,Cameron Burrell Alumni Invitational,"Apr 7, 2023",+0.0,Long Jump,SCAC Outdoor Performance List,Women
+11,"Matherson, Destini",FR-1,Texas Lutheran,4.45m,2023 War Hawk Classic,"Apr 14, 2023",1.2,Long Jump,SCAC Outdoor Performance List,Women
+12,"Lee, Brittany",FR-1,Texas Lutheran,4.31m,D3 Challenge,"Mar 25, 2023",1.6,Long Jump,SCAC Outdoor Performance List,Women
+12,"Vera, Nelsy",FR-1,St. Thomas (Tex.),4.31m,Cameron Burrell Alumni Invitational,"Apr 7, 2023",+0.0,Long Jump,SCAC Outdoor Performance List,Women
+14,"Rivera, Isabelle",FR-1,Southwestern (Tex.),4.27m,David Noble Relays,"Apr 7, 2023",2.4,Long Jump,SCAC Outdoor Performance List,Women
+15,"Cha, Cherryn",SO-2,Southwestern (Tex.),4.16m,2023 War Hawk Classic,"Apr 14, 2023",2.2,Long Jump,SCAC Outdoor Performance List,Women
+16,"Fowkes, Emma",JR-3,Colorado College,4.05m,Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023",+0.0,Long Jump,SCAC Outdoor Performance List,Women
+17,"Jones, Hannah",SR-4,Southwestern (Tex.),3.71m,2023 Trinity Invitational,"Mar 3, 2023",0.4,Long Jump,SCAC Outdoor Performance List,Women
+1,"Johnson, Justin",JR-3,Trinity (Tex.),13.65m,2023 Trinity Invitational,"Mar 3, 2023",-1.6,Triple Jump,SCAC Outdoor Performance List,Men
+2,"Roper, Michael",FR-1,Southwestern (Tex.),13.55m,D3 Challenge,"Mar 25, 2023",+0.0,Triple Jump,SCAC Outdoor Performance List,Men
+3,"Diagana, Bocar",FR-1,Trinity (Tex.),13.43m,2023 Trinity Invitational,"Mar 3, 2023",-1.7,Triple Jump,SCAC Outdoor Performance List,Men
+4,"Twitero, Gerrit",SO-2,Texas Lutheran,12.85m,D3 Challenge,"Mar 25, 2023",+0.0,Triple Jump,SCAC Outdoor Performance List,Men
+5,"Hicks, Matthew",SO-2,St. Thomas (Tex.),12.74m,2023 Trinity Invitational,"Mar 3, 2023",-1.6,Triple Jump,SCAC Outdoor Performance List,Men
+6,"Mattox, Jacolby",SO-2,St. Thomas (Tex.),12.21m,2023 Trinity Invitational,"Mar 3, 2023",-1.0,Triple Jump,SCAC Outdoor Performance List,Men
+7,"Marshall, Morris",FR-1,Texas Lutheran,12.05m,2023 War Hawk Classic,"Apr 14, 2023",0.2,Triple Jump,SCAC Outdoor Performance List,Men
+8,"Duggan, Kris",FR-1,Trinity (Tex.),11.71m,2023 Trinity Invitational,"Mar 3, 2023",-1.9,Triple Jump,SCAC Outdoor Performance List,Men
+9,"Griscom, Greyson",JR-3,Texas Lutheran,11.31m,D3 Challenge,"Mar 25, 2023",+0.0,Triple Jump,SCAC Outdoor Performance List,Men
+1,"Areola, Joy",SO-2,Trinity (Tex.),11.36m,David Noble Relays,"Apr 7, 2023",-0.8,Triple Jump,SCAC Outdoor Performance List,Women
+2,"Wietstruck, Maddy",SO-2,Trinity (Tex.),11.15m,D3 Challenge,"Mar 25, 2023",1.1,Triple Jump,SCAC Outdoor Performance List,Women
+3,"Noe, Aliya",FR-1,Trinity (Tex.),10.58m,David Noble Relays,"Apr 7, 2023",0.2,Triple Jump,SCAC Outdoor Performance List,Women
+4,"Chiella, Jessie",SO-2,Southwestern (Tex.),9.82m,Ice Breaker Classic,"Mar 17, 2023",+0.0,Triple Jump,SCAC Outdoor Performance List,Women
+5,"Burnett, Courtney",JR-3,Texas Lutheran,9.74m,2023 War Hawk Classic,"Apr 14, 2023",3.1,Triple Jump,SCAC Outdoor Performance List,Women
+6,"Brown, Katelyn",FR-1,Texas Lutheran,9.66m,2023 War Hawk Classic,"Apr 14, 2023",2.1,Triple Jump,SCAC Outdoor Performance List,Women
+7,"Kwan, April",JR-3,Colorado College,9.24m,Ed Boitano Invitational 2023,"Mar 3, 2023",+0.0,Triple Jump,SCAC Outdoor Performance List,Women
+1,"Harris, Dalon",FR-1,Texas Lutheran,15.25m,David Noble Relays,"Apr 7, 2023",NaN,Shot Put,SCAC Outdoor Performance List,Men
+2,"Denman, Riley",SO-2,Texas Lutheran,13.80m,Bobcat Invitational 2023,"Mar 30, 2023",NaN,Shot Put,SCAC Outdoor Performance List,Men
+3,"Maughn, Andrew",FR-1,Texas Lutheran,13.62m,2023 War Hawk Classic,"Apr 14, 2023",NaN,Shot Put,SCAC Outdoor Performance List,Men
+4,"Graham, Leighton",SR-4,Colorado College,13.51m,Dr. Dan Caprioglio CSU Pueblo Early Bird Invitational,"Mar 17, 2023",NaN,Shot Put,SCAC Outdoor Performance List,Men
+5,"Jimenez, Arturo",JR-3,Southwestern (Tex.),12.83m,2023 Trinity Invitational,"Mar 3, 2023",NaN,Shot Put,SCAC Outdoor Performance List,Men
+6,"Schake, Heath",JR-3,Trinity (Tex.),12.63m,D3 Challenge,"Mar 25, 2023",NaN,Shot Put,SCAC Outdoor Performance List,Men
+7,"Williams, Allen",JR-3,Texas Lutheran,12.11m,2023 War Hawk Classic,"Apr 14, 2023",NaN,Shot Put,SCAC Outdoor Performance List,Men
+8,"Geiger, Weston",JR-3,Texas Lutheran,12.10m,2023 War Hawk Classic,"Apr 14, 2023",NaN,Shot Put,SCAC Outdoor Performance List,Men
+9,"Zuniga, Ezvyn",SO-2,Texas Lutheran,11.52m,2023 War Hawk Classic,"Apr 14, 2023",NaN,Shot Put,SCAC Outdoor Performance List,Men
+10,"Davila, Dominic",SO-2,Southwestern (Tex.),11.47m,D3 Challenge,"Mar 25, 2023",NaN,Shot Put,SCAC Outdoor Performance List,Men
+11,"Cook, Chase",JR-3,Texas Lutheran,11.37m,2023 Trinity Invitational,"Mar 3, 2023",NaN,Shot Put,SCAC Outdoor Performance List,Men
+12,"Lima, Julio",JR-3,Dallas,10.92m,2023 North Texas Classic,"Apr 8, 2023",NaN,Shot Put,SCAC Outdoor Performance List,Men
+13,"Hamway, Liam",SO-2,Dallas,10.89m,2023 North Texas Classic,"Apr 8, 2023",NaN,Shot Put,SCAC Outdoor Performance List,Men
+14,"Dawson, Sam",SR-4,Southwestern (Tex.),10.44m,2023 Trinity Invitational,"Mar 3, 2023",NaN,Shot Put,SCAC Outdoor Performance List,Men
+15,"Bradshaw, William",FR-1,Southwestern (Tex.),10.12m,2023 War Hawk Classic,"Apr 14, 2023",NaN,Shot Put,SCAC Outdoor Performance List,Men
+16,"Perez, Alejandro",FR-1,Texas Lutheran,9.93m,2023 Trinity Invitational,"Mar 3, 2023",NaN,Shot Put,SCAC Outdoor Performance List,Men
+17,"Wagner, Grey",SR-4,Southwestern (Tex.),9.70m,Ice Breaker Classic,"Mar 17, 2023",NaN,Shot Put,SCAC Outdoor Performance List,Men
+18,"King, Gabriel",JR-3,Dallas,9.52m,2023 MC Spring Cleaning Classic,"Mar 4, 2023",NaN,Shot Put,SCAC Outdoor Performance List,Men
+19,"Hessbrook, Diego",SO-2,Texas Lutheran,9.21m,2023 Trinity Invitational,"Mar 3, 2023",NaN,Shot Put,SCAC Outdoor Performance List,Men
+20,"Sinor, Andrew",FR-1,Southwestern (Tex.),7.85m,2023 War Hawk Classic,"Apr 14, 2023",NaN,Shot Put,SCAC Outdoor Performance List,Men
+21,"Orf, Nathanial",FR-1,Dallas,7.66m,2023 North Texas Classic,"Apr 8, 2023",NaN,Shot Put,SCAC Outdoor Performance List,Men
+22,"Mulcahy, Connor",JR-3,Dallas,7.51m,Southern Arkansas-Dan Veach Invite,"Mar 25, 2023",NaN,Shot Put,SCAC Outdoor Performance List,Men
+1,"Rodriguez, Julissa",SO-2,Texas Lutheran,12.07m,Bobcat Invitational 2023,"Mar 30, 2023",NaN,Shot Put,SCAC Outdoor Performance List,Women
+2,"Styra, Emagen",FR-1,Texas Lutheran,11.97m,D3 Challenge,"Mar 25, 2023",NaN,Shot Put,SCAC Outdoor Performance List,Women
+3,"Nava, Maggie",JR-3,Trinity (Tex.),11.71m,David Noble Relays,"Apr 7, 2023",NaN,Shot Put,SCAC Outdoor Performance List,Women
+4,"Smith, Kirsten",FR-1,Texas Lutheran,11.06m,David Noble Relays,"Apr 7, 2023",NaN,Shot Put,SCAC Outdoor Performance List,Women
+5,"Seabolt, Madeleine",FR-1,Trinity (Tex.),11.01m,2023 Trinity Invitational,"Mar 3, 2023",NaN,Shot Put,SCAC Outdoor Performance List,Women
+6,"Francois, Kierra",SR-4,Trinity (Tex.),11.00m,David Noble Relays,"Apr 7, 2023",NaN,Shot Put,SCAC Outdoor Performance List,Women
+7,"Capell, Erin",SO-2,Colorado College,10.77m,Gustavus/Colorado College Dual Meet,"Apr 3, 2023",NaN,Shot Put,SCAC Outdoor Performance List,Women
+8,"Ballengee, Kate",SO-2,Trinity (Tex.),10.44m,David Noble Relays,"Apr 7, 2023",NaN,Shot Put,SCAC Outdoor Performance List,Women
+9,"Flax, Maya",SO-2,Texas Lutheran,10.31m,David Noble Relays,"Apr 7, 2023",NaN,Shot Put,SCAC Outdoor Performance List,Women
+10,"Kubenka, Kenna",FR-1,Texas Lutheran,10.02m,David Noble Relays,"Apr 7, 2023",NaN,Shot Put,SCAC Outdoor Performance List,Women
+11,"Hamilton, Kaila",FR-1,Southwestern (Tex.),9.68m,2023 War Hawk Classic,"Apr 14, 2023",NaN,Shot Put,SCAC Outdoor Performance List,Women
+12,"Burnett, Courtney",JR-3,Texas Lutheran,9.36m,2023 Trinity Invitational,"Mar 3, 2023",NaN,Shot Put,SCAC Outdoor Performance List,Women
+13,"Ross, Emma",JR-3,Trinity (Tex.),9.03m,David Noble Relays,"Apr 7, 2023",NaN,Shot Put,SCAC Outdoor Performance List,Women
+14,"Durham, Demi",SO-2,Trinity (Tex.),8.91m,2023 Trinity Invitational,"Mar 3, 2023",NaN,Shot Put,SCAC Outdoor Performance List,Women
+15,"Schonberg, Madison",FR-1,Centenary (La.),8.81m,Southern Arkansas-Dan Veach Invite,"Mar 25, 2023",NaN,Shot Put,SCAC Outdoor Performance List,Women
+16,"Gutierrez, Gizelle",SR-4,Texas Lutheran,8.59m,2023 Trinity Invitational,"Mar 3, 2023",NaN,Shot Put,SCAC Outdoor Performance List,Women
+17,"Braun, Sydney",FR-1,Southwestern (Tex.),8.54m,2023 War Hawk Classic,"Apr 14, 2023",NaN,Shot Put,SCAC Outdoor Performance List,Women
+18,"Hubbard, Taylor",JR-3,Southwestern (Tex.),8.33m,2023 War Hawk Classic,"Apr 14, 2023",NaN,Shot Put,SCAC Outdoor Performance List,Women
+19,"Salazar, Aubrey",FR-1,Centenary (La.),8.11m,Southern Arkansas-Dan Veach Invite,"Mar 25, 2023",NaN,Shot Put,SCAC Outdoor Performance List,Women
+20,"Malone, Macie",JR-3,Schreiner,8.01m,D3 Challenge,"Mar 25, 2023",NaN,Shot Put,SCAC Outdoor Performance List,Women
+21,"Barlage, Riley",SR-4,Southwestern (Tex.),7.79m,D3 Challenge,"Mar 25, 2023",NaN,Shot Put,SCAC Outdoor Performance List,Women
+22,"Ramirez, Jessie",SR-4,Dallas,7.33m,2023 North Texas Classic,"Apr 8, 2023",NaN,Shot Put,SCAC Outdoor Performance List,Women
+23,"Fowkes, Emma",JR-3,Colorado College,7.18m,Gustavus/Colorado College Dual Meet,"Apr 3, 2023",NaN,Shot Put,SCAC Outdoor Performance List,Women
+1,"Graham, Leighton",SR-4,Colorado College,45.36m,Gustavus/Colorado College Dual Meet,"Apr 3, 2023",NaN,Discus,SCAC Outdoor Performance List,Men
+2,"Witkow, Jack",SO-2,Trinity (Tex.),40.46m,Kingsville Cactus Cup,"Apr 15, 2023",NaN,Discus,SCAC Outdoor Performance List,Men
+3,"Harris, Dalon",FR-1,Texas Lutheran,40.15m,2023 Trinity Invitational,"Mar 3, 2023",NaN,Discus,SCAC Outdoor Performance List,Men
+4,"Cook, Chase",JR-3,Texas Lutheran,39.68m,2023 War Hawk Classic,"Apr 14, 2023",NaN,Discus,SCAC Outdoor Performance List,Men
+5,"Perez, Alejandro",FR-1,Texas Lutheran,39.04m,D3 Challenge,"Mar 25, 2023",NaN,Discus,SCAC Outdoor Performance List,Men
+6,"Geiger, Weston",JR-3,Texas Lutheran,39.03m,David Noble Relays,"Apr 7, 2023",NaN,Discus,SCAC Outdoor Performance List,Men
+7,"Schake, Heath",JR-3,Trinity (Tex.),37.52m,Kingsville Cactus Cup,"Apr 15, 2023",NaN,Discus,SCAC Outdoor Performance List,Men
+8,"Denman, Riley",SO-2,Texas Lutheran,36.53m,2023 Trinity Invitational,"Mar 3, 2023",NaN,Discus,SCAC Outdoor Performance List,Men
+9,"Marshall, Morris",FR-1,Texas Lutheran,36.28m,D3 Challenge,"Mar 25, 2023",NaN,Discus,SCAC Outdoor Performance List,Men
+10,"Brown, Kevin",SR-4,Centenary (La.),34.32m,Pelican Relays,"Apr 8, 2023",NaN,Discus,SCAC Outdoor Performance List,Men
+11,"Williams, Allen",JR-3,Texas Lutheran,33.73m,D3 Challenge,"Mar 25, 2023",NaN,Discus,SCAC Outdoor Performance List,Men
+12,"Bradshaw, William",FR-1,Southwestern (Tex.),32.18m,Ice Breaker Classic,"Mar 17, 2023",NaN,Discus,SCAC Outdoor Performance List,Men
+13,"Wagner, Grey",SR-4,Southwestern (Tex.),31.19m,Ice Breaker Classic,"Mar 17, 2023",NaN,Discus,SCAC Outdoor Performance List,Men
+14,"Sullivan, Dylan",SO-2,Southwestern (Tex.),30.67m,D3 Challenge,"Mar 25, 2023",NaN,Discus,SCAC Outdoor Performance List,Men
+15,"Pruske, Chris",SR-4,Trinity (Tex.),30.54m,2023 Trinity Invitational,"Mar 3, 2023",NaN,Discus,SCAC Outdoor Performance List,Men
+16,"Lima, Julio",JR-3,Dallas,25.85m,2023 Hendrix Invitational,"Mar 10, 2023",NaN,Discus,SCAC Outdoor Performance List,Men
+17,"Hamway, Liam",SO-2,Dallas,25.45m,2023 Hendrix Invitational,"Mar 10, 2023",NaN,Discus,SCAC Outdoor Performance List,Men
+18,"King, Gabriel",JR-3,Dallas,23.83m,2023 MC Spring Cleaning Classic,"Mar 4, 2023",NaN,Discus,SCAC Outdoor Performance List,Men
+19,"Orf, Nathanial",FR-1,Dallas,21.57m,2023 War Hawk Classic,"Apr 14, 2023",NaN,Discus,SCAC Outdoor Performance List,Men
+20,"Mulcahy, Connor",JR-3,Dallas,19.05m,2023 War Hawk Classic,"Apr 14, 2023",NaN,Discus,SCAC Outdoor Performance List,Men
+1,"Francois, Kierra",SR-4,Trinity (Tex.),38.49m,2023 Trinity Invitational,"Mar 3, 2023",NaN,Discus,SCAC Outdoor Performance List,Women
+2,"Wilson-Larkin, Brianna",FR-1,Texas Lutheran,38.32m,D3 Challenge,"Mar 25, 2023",NaN,Discus,SCAC Outdoor Performance List,Women
+3,"Seabolt, Madeleine",FR-1,Trinity (Tex.),38.03m,2023 Trinity Invitational,"Mar 3, 2023",NaN,Discus,SCAC Outdoor Performance List,Women
+4,"Ballengee, Kate",SO-2,Trinity (Tex.),37.11m,Kingsville Cactus Cup,"Apr 15, 2023",NaN,Discus,SCAC Outdoor Performance List,Women
+5,"Rodriguez, Julissa",SO-2,Texas Lutheran,36.50m,David Noble Relays,"Apr 7, 2023",NaN,Discus,SCAC Outdoor Performance List,Women
+6,"Smith, Kirsten",FR-1,Texas Lutheran,33.85m,D3 Challenge,"Mar 25, 2023",NaN,Discus,SCAC Outdoor Performance List,Women
+7,"Braun, Sydney",FR-1,Southwestern (Tex.),33.77m,2023 War Hawk Classic,"Apr 14, 2023",NaN,Discus,SCAC Outdoor Performance List,Women
+8,"Nava, Maggie",JR-3,Trinity (Tex.),32.87m,2023 Trinity Invitational,"Mar 3, 2023",NaN,Discus,SCAC Outdoor Performance List,Women
+9,"Styra, Emagen",FR-1,Texas Lutheran,32.73m,David Noble Relays,"Apr 7, 2023",NaN,Discus,SCAC Outdoor Performance List,Women
+10,"Gutierrez, Gizelle",SR-4,Texas Lutheran,32.72m,D3 Challenge,"Mar 25, 2023",NaN,Discus,SCAC Outdoor Performance List,Women
+11,"Wilson, Heather",FR-1,Southwestern (Tex.),31.54m,D3 Challenge,"Mar 25, 2023",NaN,Discus,SCAC Outdoor Performance List,Women
+12,"Hamilton, Kaila",FR-1,Southwestern (Tex.),29.62m,D3 Challenge,"Mar 25, 2023",NaN,Discus,SCAC Outdoor Performance List,Women
+13,"Capell, Erin",SO-2,Colorado College,28.99m,Ed Boitano Invitational 2023,"Mar 3, 2023",NaN,Discus,SCAC Outdoor Performance List,Women
+14,"Schonberg, Madison",FR-1,Centenary (La.),28.66m,Pelican Relays,"Apr 8, 2023",NaN,Discus,SCAC Outdoor Performance List,Women
+15,"Case, Avery",FR-1,Trinity (Tex.),27.65m,2023 Trinity Invitational,"Mar 3, 2023",NaN,Discus,SCAC Outdoor Performance List,Women
+16,"Ross, Emma",JR-3,Trinity (Tex.),27.45m,Kingsville Cactus Cup,"Apr 15, 2023",NaN,Discus,SCAC Outdoor Performance List,Women
+17,"Salazar, Aubrey",FR-1,Centenary (La.),26.81m,Southern Arkansas-Dan Veach Invite,"Mar 25, 2023",NaN,Discus,SCAC Outdoor Performance List,Women
+18,"Kubenka, Kenna",FR-1,Texas Lutheran,25.57m,2023 Trinity Invitational,"Mar 3, 2023",NaN,Discus,SCAC Outdoor Performance List,Women
+19,"Ramirez, Jessie",SR-4,Dallas,19.11m,Southern Arkansas-Dan Veach Invite,"Mar 25, 2023",NaN,Discus,SCAC Outdoor Performance List,Women
+20,"Malone, Macie",JR-3,Schreiner,18.39m,2023 War Hawk Classic,"Apr 14, 2023",NaN,Discus,SCAC Outdoor Performance List,Women
+1,"Cook, Chase",JR-3,Texas Lutheran,46.37m,2023 War Hawk Classic,"Apr 14, 2023",NaN,Hammer,SCAC Outdoor Performance List,Men
+2,"Denman, Riley",SO-2,Texas Lutheran,45.88m,2023 War Hawk Classic,"Apr 14, 2023",NaN,Hammer,SCAC Outdoor Performance List,Men
+3,"Geiger, Weston",JR-3,Texas Lutheran,41.90m,2023 Trinity Invitational,"Mar 3, 2023",NaN,Hammer,SCAC Outdoor Performance List,Men
+4,"Schake, Heath",JR-3,Trinity (Tex.),41.14m,David Noble Relays,"Apr 7, 2023",NaN,Hammer,SCAC Outdoor Performance List,Men
+5,"Maughn, Andrew",FR-1,Texas Lutheran,37.76m,D3 Challenge,"Mar 25, 2023",NaN,Hammer,SCAC Outdoor Performance List,Men
+6,"Williams, Allen",JR-3,Texas Lutheran,36.61m,2023 War Hawk Classic,"Apr 14, 2023",NaN,Hammer,SCAC Outdoor Performance List,Men
+7,"Rupe, Simon",SO-2,Southwestern (Tex.),36.31m,D3 Challenge,"Mar 25, 2023",NaN,Hammer,SCAC Outdoor Performance List,Men
+8,"Wagner, Grey",SR-4,Southwestern (Tex.),35.32m,David Noble Relays,"Apr 7, 2023",NaN,Hammer,SCAC Outdoor Performance List,Men
+9,"Jimenez, Arturo",JR-3,Southwestern (Tex.),35.24m,David Noble Relays,"Apr 7, 2023",NaN,Hammer,SCAC Outdoor Performance List,Men
+10,"Witkow, Jack",SO-2,Trinity (Tex.),34.77m,Kingsville Cactus Cup,"Apr 15, 2023",NaN,Hammer,SCAC Outdoor Performance List,Men
+11,"Davila, Dominic",SO-2,Southwestern (Tex.),34.70m,2023 War Hawk Classic,"Apr 14, 2023",NaN,Hammer,SCAC Outdoor Performance List,Men
+12,"Hollis-Roberts, Joshua",SR-4,Schreiner,33.33m,D3 Challenge,"Mar 25, 2023",NaN,Hammer,SCAC Outdoor Performance List,Men
+13,"Bradshaw, William",FR-1,Southwestern (Tex.),32.93m,D3 Challenge,"Mar 25, 2023",NaN,Hammer,SCAC Outdoor Performance List,Men
+14,"Dawson, Sam",SR-4,Southwestern (Tex.),32.56m,2023 Trinity Invitational,"Mar 3, 2023",NaN,Hammer,SCAC Outdoor Performance List,Men
+15,"Hessbrook, Diego",SO-2,Texas Lutheran,32.41m,2023 War Hawk Classic,"Apr 14, 2023",NaN,Hammer,SCAC Outdoor Performance List,Men
+16,"Pruske, Chris",SR-4,Trinity (Tex.),31.48m,David Noble Relays,"Apr 7, 2023",NaN,Hammer,SCAC Outdoor Performance List,Men
+17,"Clancy, Cutter",FR-1,Texas Lutheran,31.20m,2023 War Hawk Classic,"Apr 14, 2023",NaN,Hammer,SCAC Outdoor Performance List,Men
+18,"Sinor, Andrew",FR-1,Southwestern (Tex.),28.50m,2023 War Hawk Classic,"Apr 14, 2023",NaN,Hammer,SCAC Outdoor Performance List,Men
+19,"Turner, Markel",JR-3,Texas Lutheran,23.89m,2023 War Hawk Classic,"Apr 14, 2023",NaN,Hammer,SCAC Outdoor Performance List,Men
+1,"Francois, Kierra",SR-4,Trinity (Tex.),45.48m,David Noble Relays,"Apr 7, 2023",NaN,Hammer,SCAC Outdoor Performance List,Women
+2,"Rodriguez, Julissa",SO-2,Texas Lutheran,45.13m,2023 War Hawk Classic,"Apr 14, 2023",NaN,Hammer,SCAC Outdoor Performance List,Women
+3,"Barlage, Riley",SR-4,Southwestern (Tex.),41.19m,2023 War Hawk Classic,"Apr 14, 2023",NaN,Hammer,SCAC Outdoor Performance List,Women
+4,"Wilson-Larkin, Brianna",FR-1,Texas Lutheran,39.99m,David Noble Relays,"Apr 7, 2023",NaN,Hammer,SCAC Outdoor Performance List,Women
+5,"Smith, Kirsten",FR-1,Texas Lutheran,39.83m,2023 War Hawk Classic,"Apr 14, 2023",NaN,Hammer,SCAC Outdoor Performance List,Women
+6,"Kubenka, Kenna",FR-1,Texas Lutheran,39.04m,2023 Trinity Invitational,"Mar 3, 2023",NaN,Hammer,SCAC Outdoor Performance List,Women
+7,"Gutierrez, Gizelle",SR-4,Texas Lutheran,37.47m,2023 War Hawk Classic,"Apr 14, 2023",NaN,Hammer,SCAC Outdoor Performance List,Women
+8,"Nava, Maggie",JR-3,Trinity (Tex.),35.92m,D3 Challenge,"Mar 25, 2023",NaN,Hammer,SCAC Outdoor Performance List,Women
+9,"Braun, Sydney",FR-1,Southwestern (Tex.),35.76m,2023 War Hawk Classic,"Apr 14, 2023",NaN,Hammer,SCAC Outdoor Performance List,Women
+10,"Ballengee, Kate",SO-2,Trinity (Tex.),34.45m,D3 Challenge,"Mar 25, 2023",NaN,Hammer,SCAC Outdoor Performance List,Women
+11,"Styra, Emagen",FR-1,Texas Lutheran,33.90m,2023 War Hawk Classic,"Apr 14, 2023",NaN,Hammer,SCAC Outdoor Performance List,Women
+12,"Hamilton, Kaila",FR-1,Southwestern (Tex.),31.49m,2023 War Hawk Classic,"Apr 14, 2023",NaN,Hammer,SCAC Outdoor Performance List,Women
+13,"Wilson, Heather",FR-1,Southwestern (Tex.),30.74m,Ice Breaker Classic,"Mar 17, 2023",NaN,Hammer,SCAC Outdoor Performance List,Women
+14,"Hammer, Ericka",FR-1,Texas Lutheran,30.70m,D3 Challenge,"Mar 25, 2023",NaN,Hammer,SCAC Outdoor Performance List,Women
+15,"Ross, Emma",JR-3,Trinity (Tex.),21.90m,David Noble Relays,"Apr 7, 2023",NaN,Hammer,SCAC Outdoor Performance List,Women
+1,"Tyler, Cooper",SR-4,Trinity (Tex.),54.53m,D3 Challenge,"Mar 25, 2023",NaN,Javelin,SCAC Outdoor Performance List,Men
+2,"Geiger, Weston",JR-3,Texas Lutheran,54.41m,D3 Challenge,"Mar 25, 2023",NaN,Javelin,SCAC Outdoor Performance List,Men
+3,"Acero, Ezra",SO-2,Texas Lutheran,50.50m,2023 Trinity Invitational,"Mar 3, 2023",NaN,Javelin,SCAC Outdoor Performance List,Men
+4,"Jackson, Pierce",SO-2,Trinity (Tex.),49.48m,D3 Challenge,"Mar 25, 2023",NaN,Javelin,SCAC Outdoor Performance List,Men
+5,"Sullivan, Dylan",SO-2,Southwestern (Tex.),48.63m,2023 Trinity Invitational,"Mar 3, 2023",NaN,Javelin,SCAC Outdoor Performance List,Men
+6,"Clancy, Cutter",FR-1,Texas Lutheran,47.19m,D3 Challenge,"Mar 25, 2023",NaN,Javelin,SCAC Outdoor Performance List,Men
+7,"Brown, Kevin",SR-4,Centenary (La.),47.06m,Louisiana Tech Jim Mize Invita,"Mar 17, 2023",NaN,Javelin,SCAC Outdoor Performance List,Men
+8,"Johnson, Scott",SO-2,Southwestern (Tex.),45.05m,David Noble Relays,"Apr 7, 2023",NaN,Javelin,SCAC Outdoor Performance List,Men
+9,"Pruske, Chris",SR-4,Trinity (Tex.),42.71m,2023 Trinity Invitational,"Mar 3, 2023",NaN,Javelin,SCAC Outdoor Performance List,Men
+10,"Rupe, Simon",SO-2,Southwestern (Tex.),42.32m,2023 Trinity Invitational,"Mar 3, 2023",NaN,Javelin,SCAC Outdoor Performance List,Men
+11,"Turner, Markel",JR-3,Texas Lutheran,41.72m,D3 Challenge,"Mar 25, 2023",NaN,Javelin,SCAC Outdoor Performance List,Men
+12,"Zuniga, Ezvyn",SO-2,Texas Lutheran,40.63m,2023 War Hawk Classic,"Apr 14, 2023",NaN,Javelin,SCAC Outdoor Performance List,Men
+13,"Weaver, Mika",SO-2,Texas Lutheran,37.37m,2023 War Hawk Classic,"Apr 14, 2023",NaN,Javelin,SCAC Outdoor Performance List,Men
+14,"Hamway, Liam",SO-2,Dallas,36.96m,2023 North Texas Classic,"Apr 8, 2023",NaN,Javelin,SCAC Outdoor Performance List,Men
+15,"Perry, Holden",SO-2,Colorado College,36.57m,Occidental Distance Carnival & Spring Break Classic (Co,"Mar 11, 2023",NaN,Javelin,SCAC Outdoor Performance List,Men
+16,"Dawson, Sam",SR-4,Southwestern (Tex.),34.45m,2023 Trinity Invitational,"Mar 3, 2023",NaN,Javelin,SCAC Outdoor Performance List,Men
+17,"Vincent, Nathan",JR-3,Colorado College,34.20m,Kit Mayer Classic,"Apr 7, 2023",NaN,Javelin,SCAC Outdoor Performance List,Men
+18,"Shichman, Jacob",SR-4,Colorado College,33.57m,Kit Mayer Classic,"Apr 7, 2023",NaN,Javelin,SCAC Outdoor Performance List,Men
+19,"Urbina, Christian",SR-4,Texas Lutheran,33.19m,2023 Trinity Invitational,"Mar 3, 2023",NaN,Javelin,SCAC Outdoor Performance List,Men
+20,"Lima, Julio",JR-3,Dallas,32.86m,2023 North Texas Classic,"Apr 8, 2023",NaN,Javelin,SCAC Outdoor Performance List,Men
+21,"Orf, Nathanial",FR-1,Dallas,26.80m,2023 MC Spring Cleaning Classic,"Mar 4, 2023",NaN,Javelin,SCAC Outdoor Performance List,Men
+22,"King, Gabriel",JR-3,Dallas,21.50m,2023 MC Spring Cleaning Classic,"Mar 4, 2023",NaN,Javelin,SCAC Outdoor Performance List,Men
+1,"Francois, Kierra",SR-4,Trinity (Tex.),36.69m,David Noble Relays,"Apr 7, 2023",NaN,Javelin,SCAC Outdoor Performance List,Women
+2,"Seabolt, Madeleine",FR-1,Trinity (Tex.),34.82m,Kingsville Cactus Cup,"Apr 15, 2023",NaN,Javelin,SCAC Outdoor Performance List,Women
+3,"Wilson, Heather",FR-1,Southwestern (Tex.),33.08m,2023 War Hawk Classic,"Apr 14, 2023",NaN,Javelin,SCAC Outdoor Performance List,Women
+4,"Rodriguez, Julissa",SO-2,Texas Lutheran,32.13m,D3 Challenge,"Mar 25, 2023",NaN,Javelin,SCAC Outdoor Performance List,Women
+5,"Hubbard, Taylor",JR-3,Southwestern (Tex.),30.94m,D3 Challenge,"Mar 25, 2023",NaN,Javelin,SCAC Outdoor Performance List,Women
+6,"Gutierrez, Gizelle",SR-4,Texas Lutheran,30.65m,D3 Challenge,"Mar 25, 2023",NaN,Javelin,SCAC Outdoor Performance List,Women
+7,"Martin, Alexa",FR-1,Texas Lutheran,29.91m,D3 Challenge,"Mar 25, 2023",NaN,Javelin,SCAC Outdoor Performance List,Women
+8,"Braun, Sydney",FR-1,Southwestern (Tex.),29.73m,David Noble Relays,"Apr 7, 2023",NaN,Javelin,SCAC Outdoor Performance List,Women
+9,"Maciel, Julia",SR-4,Texas Lutheran,29.31m,D3 Challenge,"Mar 25, 2023",NaN,Javelin,SCAC Outdoor Performance List,Women
+10,"Styra, Emagen",FR-1,Texas Lutheran,28.59m,David Noble Relays,"Apr 7, 2023",NaN,Javelin,SCAC Outdoor Performance List,Women
+11,"Smith, Kirsten",FR-1,Texas Lutheran,27.31m,D3 Challenge,"Mar 25, 2023",NaN,Javelin,SCAC Outdoor Performance List,Women
+12,"Kubenka, Kenna",FR-1,Texas Lutheran,25.34m,D3 Challenge,"Mar 25, 2023",NaN,Javelin,SCAC Outdoor Performance List,Women
+13,"Burnett, Courtney",JR-3,Texas Lutheran,24.63m,2023 Trinity Invitational,"Mar 3, 2023",NaN,Javelin,SCAC Outdoor Performance List,Women
+14,"Naito, Ann Louise",JR-3,Colorado College,22.70m,Kit Mayer Classic,"Apr 7, 2023",NaN,Javelin,SCAC Outdoor Performance List,Women
+15,"Lopez, Leilani",SO-2,Texas Lutheran,22.65m,2023 Trinity Invitational,"Mar 3, 2023",NaN,Javelin,SCAC Outdoor Performance List,Women
+16,"Durham, Demi",SO-2,Trinity (Tex.),22.32m,David Noble Relays,"Apr 7, 2023",NaN,Javelin,SCAC Outdoor Performance List,Women
+17,"Case, Avery",FR-1,Trinity (Tex.),20.85m,2023 Trinity Invitational,"Mar 3, 2023",NaN,Javelin,SCAC Outdoor Performance List,Women
+18,"Jones, Hannah",SR-4,Southwestern (Tex.),20.50m,D3 Challenge,"Mar 25, 2023",NaN,Javelin,SCAC Outdoor Performance List,Women
+19,"Motelet, Leandra",FR-1,Southwestern (Tex.),20.36m,2023 War Hawk Classic,"Apr 14, 2023",NaN,Javelin,SCAC Outdoor Performance List,Women
+20,"Bram, Naomi",SR-4,Colorado College,19.06m,Kit Mayer Classic,"Apr 7, 2023",NaN,Javelin,SCAC Outdoor Performance List,Women
+21,"Ballengee, Kate",SO-2,Trinity (Tex.),18.61m,2023 Trinity Invitational,"Mar 3, 2023",NaN,Javelin,SCAC Outdoor Performance List,Women
+22,"Fowkes, Emma",JR-3,Colorado College,18.53m,Occidental Distance Carnival & Spring Break Classic (Co,"Mar 11, 2023",NaN,Javelin,SCAC Outdoor Performance List,Women
+23,"Malone, Macie",JR-3,Schreiner,17.13m,2023 Trinity Invitational,"Mar 3, 2023",NaN,Javelin,SCAC Outdoor Performance List,Women
+24,"Jones, Emma",FR-1,Colorado College,16.37m,Ed Boitano Invitational 2023,"Mar 3, 2023",NaN,Javelin,SCAC Outdoor Performance List,Women

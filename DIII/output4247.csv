@@ -1,403 +1,384 @@
-
-1,"Hadasz, Andrew",JR-3,Utica,11.01,2023 Hamilton College Continental Invitational,"Apr 1, 2023",1.2
-2,"Welch, Mike",SR-4,Nazareth,11.13,Geneseo Early Season Invitational,"Apr 2, 2023",1.8
-3,"Cuvilly, Curtis",SR-4,St. John Fisher,11.17,Geneseo Early Season Invitational,"Apr 2, 2023",1.7
-4,"Flynn, Nolan",FR-1,Utica,11.20,Wesleyan Swanson Invite,"Mar 26, 2023",2.7
-5,"Bishop, Brady",SO-2,St. John Fisher,11.23,Geneseo Early Season Invitational,"Apr 2, 2023",1.8
-6,"Kurtz, Evan",SO-2,Houghton,11.34,Geneseo Early Season Invitational,"Apr 2, 2023",1.7
-7,"Peters, Neil",SO-2,Alfred,11.35,Geneseo Early Season Invitational,"Apr 2, 2023",1.2
-8,"Yeager, Malachi",JR-3,Houghton,11.37,Geneseo Early Season Invitational,"Apr 2, 2023",1.3
-9,"Pomykaj, Jack",FR-1,Nazareth,11.39,Geneseo Early Season Invitational,"Apr 2, 2023",1.7
-10,"Wynn, Trenton",SR-4,St. John Fisher,11.43,Utica Pioneer Spring Invite,"Apr 7, 2023",1.5
-
-1,"Lettsome, Zhane",FR-1,St. John Fisher,12.49,Geneseo Early Season Invitational,"Apr 2, 2023",2.6
-2,"Franz, Ciarra",SO-2,St. John Fisher,12.53,Utica Pioneer Spring Invite,"Apr 7, 2023",+0.0
-3,"Johnson, Brenna",SR-4,Nazareth,12.54,RIT Invitational,"Apr 8, 2023",+0.0
-3,"Kurbs, Michaela",JR-3,St. John Fisher,12.54,Geneseo Early Season Invitational,"Apr 2, 2023",2.6
-5,"Rowley, Isabelle",FR-1,St. John Fisher,12.70,Geneseo Early Season Invitational,"Apr 2, 2023",1.5
-6,"Mix, Mackenzie",SO-2,Utica,12.71,2023 Hamilton College Continental Invitational,"Apr 1, 2023",2.1
-7,"Morley, Alaina",FR-1,Nazareth,12.86,Geneseo Early Season Invitational,"Apr 2, 2023",1.5
-8,"Ragule, Hannah",JR-3,Nazareth,12.99,Geneseo Early Season Invitational,"Apr 2, 2023",1.5
-9,"Meade, Laura",SR-4,Utica,13.03,Utica Pioneer Spring Invite,"Apr 7, 2023",+0.0
-10,"Le, Brenda",SO-2,St. John Fisher,13.10,Geneseo Early Season Invitational,"Apr 2, 2023",0.9
-
-1,"Hadasz, Andrew",JR-3,Utica,22.04,2023 Hamilton College Continental Invitational,"Apr 1, 2023",1.3
-2,"Flynn, Nolan",FR-1,Utica,22.76,Wesleyan Swanson Invite,"Mar 26, 2023",1.7
-3,"Lewis, Ben",SO-2,Nazareth,22.82,RIT Invitational,"Apr 8, 2023",0.7
-4,"Peters, Neil",SO-2,Alfred,22.86,Geneseo Early Season Invitational,"Apr 2, 2023",-0.9
-5,"Simmons, Jonathan",SO-2,Utica,23.06,2023 Hamilton College Continental Invitational,"Apr 1, 2023",3.5
-6,"Kain , Ethan",SR-4,Utica,23.11,Wesleyan Swanson Invite,"Mar 26, 2023",1.7
-7,"Kurtz, Evan",SO-2,Houghton,23.18,RIT Invitational,"Apr 8, 2023",2.6
-8,"Tinney, Shane",SR-4,Utica,23.21,Wesleyan Swanson Invite,"Mar 26, 2023",1.6
-9,"Bishop, Brady",SO-2,St. John Fisher,23.26,Geneseo Early Season Invitational,"Apr 2, 2023",-0.9
-10,"Ferris, Cole",FR-1,St. John Fisher,23.28,Utica Pioneer Spring Invite,"Apr 7, 2023",0.3
-
-1,"Mix, Mackenzie",SO-2,Utica,25.83,2023 Hamilton College Continental Invitational,"Apr 1, 2023",1.1
-2,"Lettsome, Zhane",FR-1,St. John Fisher,26.15,Geneseo Early Season Invitational,"Apr 2, 2023",-0.3
-3,"Wright, Grace",SO-2,St. John Fisher,26.90,Geneseo Early Season Invitational,"Apr 2, 2023",-1.7
-4,"Rowley, Isabelle",FR-1,St. John Fisher,27.20,Geneseo Early Season Invitational,"Apr 2, 2023",-0.8
-5,"Wisniewski, Alexandria",SO-2,Houghton,27.24,RIT Invitational,"Apr 8, 2023",0.7
-5,"Young, Lina",FR-1,Alfred,27.24,Geneseo Early Season Invitational,"Apr 2, 2023",0.3
-7,"Simione, Claudia",SO-2,Utica,27.30,2023 Hamilton College Continental Invitational,"Apr 1, 2023",1.6
-8,"Morley, Alaina",FR-1,Nazareth,27.38,RIT Invitational,"Apr 8, 2023",1.4
-9,"Siewert, Hannah",SO-2,Houghton,27.67,RIT Invitational,"Apr 8, 2023",1.4
-10,"Lasher, Alexis",FR-1,Nazareth,27.80,RIT Invitational,"Apr 8, 2023",1.4
-
-1,"Savage, Jaylen",FR-1,Nazareth,50.41,RIT Invitational,"Apr 8, 2023"
-2,"Ferris, Cole",FR-1,St. John Fisher,50.88,Geneseo Early Season Invitational,"Apr 2, 2023"
-3,"Hadasz, Andrew",JR-3,Utica,51.84,Wesleyan Swanson Invite,"Mar 26, 2023"
-4,"McAllister, Gavin",FR-1,Nazareth,52.05,RIT Invitational,"Apr 8, 2023"
-5,"Kerr, Connor",SO-2,Alfred,52.23,Myrtle Beach Collegiate Challenge,"Mar 10, 2023"
-6,"Simmons, Jonathan",SO-2,Utica,52.27,2023 Hamilton College Continental Invitational,"Apr 1, 2023"
-7,"Bishop, Brady",SO-2,St. John Fisher,52.33,Utica Pioneer Spring Invite,"Apr 7, 2023"
-8,"Kain , Ethan",SR-4,Utica,52.45,2023 Hamilton College Continental Invitational,"Apr 1, 2023"
-9,"Mecca, George",SO-2,Alfred,52.49,Myrtle Beach Collegiate Challenge,"Mar 10, 2023"
-10,"Lewandowski, Brennan",SO-2,Houghton,52.75,Geneseo Early Season Invitational,"Apr 2, 2023"
-
-1,"Shea, Samantha",SR-4,St. John Fisher,57.85,Utica Pioneer Spring Invite,"Apr 7, 2023"
-2,"Gilbert, Olivia",JR-3,Alfred,1:00.73,Geneseo Early Season Invitational,"Apr 2, 2023"
-3,"Wright, Grace",SO-2,St. John Fisher,1:01.11,Geneseo Early Season Invitational,"Apr 2, 2023"
-4,"Wisniewski, Alexandria",SO-2,Houghton,1:01.88,RIT Invitational,"Apr 8, 2023"
-5,"Shaker, Mary",SO-2,Houghton,1:02.76,Geneseo Early Season Invitational,"Apr 2, 2023"
-6,"Fredrickson, Hayly",SO-2,St. John Fisher,1:04.07,Geneseo Early Season Invitational,"Apr 2, 2023"
-7,"Wright, Emma",SO-2,St. John Fisher,1:05.09,Geneseo Early Season Invitational,"Apr 2, 2023"
-8,"Gould, Leigha",JR-3,Nazareth,1:05.14,RIT Invitational,"Apr 8, 2023"
-9,"Lasher, Alexis",FR-1,Nazareth,1:05.42,RIT Invitational,"Apr 8, 2023"
-10,"Tricarico, Ashley",SO-2,Hartwick,1:05.82,2023 Hamilton College Continental Invitational,"Apr 1, 2023"
-
-1,"Healy, Patrick",SR-4,Nazareth,1:58.52,RIT Invitational,"Apr 8, 2023"
-2,"Eustace, James",SO-2,Houghton,1:59.17,RIT Invitational,"Apr 8, 2023"
-3,"Andersen, Myles",SR-4,St. John Fisher,2:01.45,Utica Pioneer Spring Invite,"Apr 7, 2023"
-4,"Briggs, Peter",SO-2,St. John Fisher,2:01.69,Utica Pioneer Spring Invite,"Apr 7, 2023"
-5,"Lohmann, Hayden",JR-3,Utica,2:02.50,Utica Pioneer Spring Invite,"Apr 7, 2023"
-6,"Vargo, Tristan",SO-2,Utica,2:02.86,Utica Pioneer Spring Invite,"Apr 7, 2023"
-7,"Jeralds, Tobias",FR-1,Utica,2:03.87,Utica Pioneer Spring Invite,"Apr 7, 2023"
-8,"Esquivel, Dylan",SO-2,St. John Fisher,2:04.36,Utica Pioneer Spring Invite,"Apr 7, 2023"
-9,"Williams, Kenny",JR-3,Nazareth,2:04.51,Geneseo Early Season Invitational,"Apr 2, 2023"
-10,"McAllister, Gavin",FR-1,Nazareth,2:04.85,Geneseo Early Season Invitational,"Apr 2, 2023"
-
-1,"Szumloz, Abbey",SR-4,Nazareth,2:23.02,Geneseo Early Season Invitational,"Apr 2, 2023"
-2,"Heath, Isabella",JR-3,Nazareth,2:27.20,Geneseo Early Season Invitational,"Apr 2, 2023"
-3,"Feeney, Mackenzie",JR-3,Sage,2:27.83,Utica Pioneer Spring Invite,"Apr 7, 2023"
-4,"Gilbert, Olivia",JR-3,Alfred,2:27.93,Myrtle Beach Collegiate Challenge,"Mar 10, 2023"
-5,"Burrichter, Amanda",FR-1,Houghton,2:27.94,RIT Invitational,"Apr 8, 2023"
-6,"Impaglia, Ella",FR-1,Nazareth,2:28.57,RIT Invitational,"Apr 8, 2023"
-7,"Voloshen, Caitlin",FR-1,St. John Fisher,2:29.17,Utica Pioneer Spring Invite,"Apr 7, 2023"
-8,"Dening, Jade",SO-2,Utica,2:29.24,2023 Hamilton College Continental Invitational,"Apr 1, 2023"
-9,"Binney, Kyra",FR-1,Houghton,2:29.61,Geneseo Early Season Invitational,"Apr 2, 2023"
-10,"Ackley, Paige",JR-3,Nazareth,2:30.39,RIT Invitational,"Apr 8, 2023"
-
-1,"Bowers, Nathan",SR-4,Nazareth,4:04.03,RIT Invitational,"Apr 8, 2023"
-2,"Healy, Patrick",SR-4,Nazareth,4:07.41,Geneseo Early Season Invitational,"Apr 2, 2023"
-3,"Tucker, Zach",SO-2,Houghton,4:12.04,RIT Invitational,"Apr 8, 2023"
-4,"DiRubbo, Tony",JR-3,St. John Fisher,4:12.50,Utica Pioneer Spring Invite,"Apr 7, 2023"
-5,"Bixler, Amos",FR-1,Houghton,4:12.71,Geneseo Early Season Invitational,"Apr 2, 2023"
-6,"Eells, Cade",SO-2,Nazareth,4:13.45,RIT Invitational,"Apr 8, 2023"
-7,"Billings, Ethan",JR-3,St. John Fisher,4:13.90,Utica Pioneer Spring Invite,"Apr 7, 2023"
-8,"Glashauser, Ethan",JR-3,Nazareth,4:15.33,RIT Invitational,"Apr 8, 2023"
-9,"Nash, Riley",SO-2,St. John Fisher,4:17.60,Utica Pioneer Spring Invite,"Apr 7, 2023"
-10,"Kasper, Caleb",SO-2,Houghton,4:17.84,RIT Invitational,"Apr 8, 2023"
-
-1,"Burrichter, Amanda",FR-1,Houghton,4:46.83,RIT Invitational,"Apr 8, 2023"
-2,"DeMichele, Lauren",JR-3,St. John Fisher,4:59.11,Utica Pioneer Spring Invite,"Apr 7, 2023"
-3,"Dening, Jade",SO-2,Utica,4:59.84,Utica Pioneer Spring Invite,"Apr 7, 2023"
-4,"Weaver, Emily",SR-4,Nazareth,5:02.51,RIT Invitational,"Apr 8, 2023"
-5,"Feeney, Mackenzie",JR-3,Sage,5:05.49,RPI Under the Lights Invite 2023,"Apr 14, 2023"
-6,"Voloshen, Caitlin",FR-1,St. John Fisher,5:07.17,Geneseo Early Season Invitational,"Apr 2, 2023"
-7,"Hall, McKenzie",SO-2,Alfred,5:07.47,2023 Jim Taylor Invite,"Mar 24, 2023"
-8,"Impaglia, Ella",FR-1,Nazareth,5:07.62,Geneseo Early Season Invitational,"Apr 2, 2023"
-9,"Hanning, Lilianna",JR-3,Nazareth,5:09.80,RIT Invitational,"Apr 8, 2023"
-10,"Ackley, Paige",JR-3,Nazareth,5:13.31,Geneseo Early Season Invitational,"Apr 2, 2023"
-
-1,"Eells, Cade",SO-2,Nazareth,15:20.52,Geneseo Early Season Invitational,"Apr 2, 2023"
-2,"Billings, Ethan",JR-3,St. John Fisher,15:47.28,Geneseo Early Season Invitational,"Apr 2, 2023"
-3,"Nash, Riley",SO-2,St. John Fisher,16:00.46,Geneseo Early Season Invitational,"Apr 2, 2023"
-4,"Brown, Zachary",FR-1,Utica,16:09.75,Utica Pioneer Spring Invite,"Apr 7, 2023"
-5,"Roberts, Michael",JR-3,Utica,16:17.63,Utica Pioneer Spring Invite,"Apr 7, 2023"
-6,"Ferri, Nick",SO-2,St. John Fisher,16:21.32,Geneseo Early Season Invitational,"Apr 2, 2023"
-7,"Leotta, Anthony",FR-1,Utica,16:22.05,Utica Pioneer Spring Invite,"Apr 7, 2023"
-8,"Allen, Ben",FR-1,Houghton,16:31.75,Geneseo Early Season Invitational,"Apr 2, 2023"
-9,"Nicosia, Brandon",SR-4,St. John Fisher,16:32.94,Geneseo Early Season Invitational,"Apr 2, 2023"
-10,"Havens, Kevin",SR-4,St. John Fisher,16:49.51,Geneseo Early Season Invitational,"Apr 2, 2023"
-
-1,"Burrichter, Amanda",FR-1,Houghton,18:01.03,Geneseo Early Season Invitational,"Apr 2, 2023"
-2,"McGee, Brigid",JR-3,St. John Fisher,19:08.23,Utica Pioneer Spring Invite,"Apr 7, 2023"
-3,"Ingellis, Elizabeth",SO-2,Sage,19:08.83,2023 Hamilton College Continental Invitational,"Apr 1, 2023"
-4,"Hall, McKenzie",SO-2,Alfred,19:12.33,Geneseo Early Season Invitational,"Apr 2, 2023"
-5,"Prouty, Sophia",SR-4,St. John Fisher,19:16.85,Geneseo Early Season Invitational,"Apr 2, 2023"
-6,"Almy, Lauren",JR-3,St. John Fisher,19:40.13,Geneseo Early Season Invitational,"Apr 2, 2023"
-7,"Haas, Brynita",FR-1,Hartwick,19:47.41,Utica Pioneer Spring Invite,"Apr 7, 2023"
-8,"McCoy, Kennedy",SO-2,Houghton,19:49.13,Geneseo Early Season Invitational,"Apr 2, 2023"
-9,"Jablonski, Mari",JR-3,Alfred,20:06.38,Myrtle Beach Collegiate Challenge,"Mar 10, 2023"
-10,"Perry, Abigail",JR-3,St. John Fisher,20:50.52,Geneseo Early Season Invitational,"Apr 2, 2023"
-
-1,"Bowers, Nathan",SR-4,Nazareth,32:27.31,Geneseo Early Season Invitational,"Apr 2, 2023"
-2,"Reimann, Matt",JR-3,Nazareth,32:33.17,Geneseo Early Season Invitational,"Apr 2, 2023"
-3,"Kasper, Caleb",SO-2,Houghton,32:36.13,Geneseo Early Season Invitational,"Apr 2, 2023"
-4,"Jackson, Connor",FR-1,Nazareth,34:11.64,Geneseo Early Season Invitational,"Apr 2, 2023"
-
-1,"Domaracki, Rachel",SO-2,Houghton,38:37.48,Geneseo Early Season Invitational,"Apr 2, 2023"
-2,"DeMichele, Lauren",JR-3,St. John Fisher,39:12.21,Geneseo Early Season Invitational,"Apr 2, 2023"
-3,"Hanning, Lilianna",JR-3,Nazareth,39:23.94,Geneseo Early Season Invitational,"Apr 2, 2023"
-4,"Ingellis, Elizabeth",SO-2,Sage,39:29.69,Utica Pioneer Spring Invite,"Apr 7, 2023"
-5,"McGee, Brigid",JR-3,St. John Fisher,39:36.93,Geneseo Early Season Invitational,"Apr 2, 2023"
-6,"Witt, Laura",JR-3,St. John Fisher,40:11.91,Geneseo Early Season Invitational,"Apr 2, 2023"
-7,"Morin, Megan",SR-4,Nazareth,40:39.31,Geneseo Early Season Invitational,"Apr 2, 2023"
-8,"Prouty, Sophia",SR-4,St. John Fisher,40:48.93,Utica Pioneer Spring Invite,"Apr 7, 2023"
-9,"Almy, Lauren",JR-3,St. John Fisher,41:19.94,Utica Pioneer Spring Invite,"Apr 7, 2023"
-10,"Jablonski, Mari",JR-3,Alfred,41:38.81,Geneseo Early Season Invitational,"Apr 2, 2023"
-
-1,"Franz, Ciarra",SO-2,St. John Fisher,14.49,Geneseo Early Season Invitational,"Apr 2, 2023",4.7
-2,"Meade, Laura",SR-4,Utica,16.58,Utica Pioneer Spring Invite,"Apr 7, 2023",1.8
-3,"Vanderhoof, Sydney",SR-4,Nazareth,16.81,RIT Invitational,"Apr 8, 2023",-3.1
-4,"Ragule, Hannah",JR-3,Nazareth,16.90,Geneseo Early Season Invitational,"Apr 2, 2023",4.7
-5,"Spila, Anne",SO-2,Alfred,17.22,2023 Jim Taylor Invite,"Mar 24, 2023",-1.0
-6,"Durso, Bianca",JR-3,Alfred,17.54,Geneseo Early Season Invitational,"Apr 2, 2023",2.2
-7,"Rexford, Lily",FR-1,St. John Fisher,17.56,Utica Pioneer Spring Invite,"Apr 7, 2023",1.8
-8,"Fredrickson, Hayly",SO-2,St. John Fisher,17.59,Utica Pioneer Spring Invite,"Apr 7, 2023",1.8
-9,"Fredrickson, Logan",SO-2,St. John Fisher,18.24,Geneseo Early Season Invitational,"Apr 2, 2023",4.0
-10,"Devitt, Nora",SO-2,Utica,18.45,2023 Hamilton College Continental Invitational,"Apr 1, 2023",-0.4
-
-1,"Lund, Aaron",FR-1,Nazareth,15.49,Geneseo Early Season Invitational,"Apr 2, 2023",4.0
-2,"McCauslin, Connor",SR-4,Nazareth,15.65,Geneseo Early Season Invitational,"Apr 2, 2023",1.6
-3,"Thomas, Holden",FR-1,Nazareth,16.27,RIT Invitational,"Apr 8, 2023",0.9
-4,"Valentin, Justin",JR-3,Utica,16.46,2023 Hamilton College Continental Invitational,"Apr 1, 2023",-2.1
-5,"Belanger, Avery",FR-1,Houghton,16.81,Geneseo Early Season Invitational,"Apr 2, 2023",4.0
-6,"DeShane, Ryan",FR-1,Nazareth,17.12,Geneseo Early Season Invitational,"Apr 2, 2023",-2.1
-7,"DeKing, Cole",SO-2,Utica,17.13,Wesleyan Swanson Invite,"Mar 26, 2023",2.4
-8,"Defio, Luke",SO-2,St. John Fisher,17.41,Geneseo Early Season Invitational,"Apr 2, 2023",1.6
-9,"Bowers, Josiah",SR-4,St. John Fisher,17.98,Utica Pioneer Spring Invite,"Apr 7, 2023",1.0
-10,"Pomykaj, Jack",FR-1,Nazareth,18.12,RIT Invitational,"Apr 8, 2023",0.9
-
-1,"Lund, Aaron",FR-1,Nazareth,57.76,Geneseo Early Season Invitational,"Apr 2, 2023"
-2,"Simmons, Jonathan",SO-2,Utica,59.34,Utica Pioneer Spring Invite,"Apr 7, 2023"
-3,"Thomas, Holden",FR-1,Nazareth,1:00.13,Geneseo Early Season Invitational,"Apr 2, 2023"
-4,"Billinger, TyJon",FR-1,Utica,1:00.25,2023 Hamilton College Continental Invitational,"Apr 1, 2023"
-5,"Mecca, George",SO-2,Alfred,1:00.41,Myrtle Beach Collegiate Challenge,"Mar 10, 2023"
-6,"Wieder, Andrew",JR-3,Utica,1:01.38,Utica Pioneer Spring Invite,"Apr 7, 2023"
-7,"Welch, Mike",SR-4,Nazareth,1:02.01,Geneseo Early Season Invitational,"Apr 2, 2023"
-8,"Hartigan, Rob",JR-3,St. John Fisher,1:02.03,Geneseo Early Season Invitational,"Apr 2, 2023"
-9,"Nasso, Collin",SO-2,Houghton,1:02.28,Geneseo Early Season Invitational,"Apr 2, 2023"
-10,"Acquard, Mathieu",SR-4,St. John Fisher,1:02.83,Utica Pioneer Spring Invite,"Apr 7, 2023"
-
-1,"Le, Brenda",SO-2,St. John Fisher,1:08.38,Geneseo Early Season Invitational,"Apr 2, 2023"
-2,"Wisniewski, Alexandria",SO-2,Houghton,1:08.43,Geneseo Early Season Invitational,"Apr 2, 2023"
-3,"Fredrickson, Hayly",SO-2,St. John Fisher,1:09.78,Utica Pioneer Spring Invite,"Apr 7, 2023"
-4,"Susa, Shiana",FR-1,Nazareth,1:10.81,Geneseo Early Season Invitational,"Apr 2, 2023"
-5,"Luba, Samantha",FR-1,Nazareth,1:11.24,Geneseo Early Season Invitational,"Apr 2, 2023"
-6,"Rexford, Lily",FR-1,St. John Fisher,1:13.86,Geneseo Early Season Invitational,"Apr 2, 2023"
-7,"Meade, Laura",SR-4,Utica,1:14.32,Wesleyan Swanson Invite,"Mar 26, 2023"
-8,"Spivey, Tirzah",FR-1,Sage,1:15.15,RPI Under the Lights Invite 2023,"Apr 14, 2023"
-9,"Widmer, Katie",SO-2,Houghton,1:19.92,Geneseo Early Season Invitational,"Apr 2, 2023"
-10,"Ivery, Crystal",FR-1,Sage,1:23.56,2023 Hamilton College Continental Invitational,"Apr 1, 2023"
-
-1,"Roberts, Michael",JR-3,Utica,10:05.12,2023 Hamilton College Continental Invitational,"Apr 1, 2023"
-2,"Havens, Kevin",SR-4,St. John Fisher,10:21.79,Utica Pioneer Spring Invite,"Apr 7, 2023"
-3,"Dean, Finnegan",FR-1,Alfred,10:30.68,Geneseo Early Season Invitational,"Apr 2, 2023"
-4,"Jeralds, Tobias",FR-1,Utica,10:31.35,2023 Hamilton College Continental Invitational,"Apr 1, 2023"
-5,"Leotta, Anthony",FR-1,Utica,10:42.27,2023 Hamilton College Continental Invitational,"Apr 1, 2023"
-6,"Rozvora, Bogdan",SR-4,St. John Fisher,10:43.15,Geneseo Early Season Invitational,"Apr 2, 2023"
-7,"Brown, Zachary",FR-1,Utica,10:59.66,2023 Hamilton College Continental Invitational,"Apr 1, 2023"
-
-1,"Dening, Jade",SO-2,Utica,12:15.46,2023 Hamilton College Continental Invitational,"Apr 1, 2023"
-2,"Antonini, Sabrina",SO-2,St. John Fisher,12:36.57,Utica Pioneer Spring Invite,"Apr 7, 2023"
-3,"O'Toole, Ashley",SR-4,Alfred,13:11.37,2023 Jim Taylor Invite,"Mar 24, 2023"
-4,"Dolloff, Maggie",SO-2,St. John Fisher,14:05.14,Utica Pioneer Spring Invite,"Apr 7, 2023"
-5,"Burlette, Noella",SO-2,Utica,14:08.67,2023 Hamilton College Continental Invitational,"Apr 1, 2023"
-6,"Reed, Kyla",FR-1,Utica,14:29.10,2023 Hamilton College Continental Invitational,"Apr 1, 2023"
-7,"Ridgway, Sophie",SO-2,Hartwick,15:05.65,Utica Pioneer Spring Invite,"Apr 7, 2023"
-
-1,"Wright, Hadasz, Tinney, Kain",NA,Utica,43.01,Utica Pioneer Spring Invite,"Apr 7, 2023"
-2,"Wendt, Jackson, Joseph, Peters",NA,Alfred,43.73,2023 Jim Taylor Invite,"Mar 24, 2023"
-3,"Cuvilly, Ferris, Wynn, Bishop",NA,St. John Fisher,43.77,Utica Pioneer Spring Invite,"Apr 7, 2023"
-4,"Conteh, Best, Worrell, Mason",NA,Hartwick,45.33,2023 Hamilton College Continental Invitational,"Apr 1, 2023"
-5,"Adadjo, Harkness, Rivera, Simpson",NA,Sage,47.15,RPI Under the Lights Invite 2023,"Apr 14, 2023"
-
-1,"Kurbs, Lettsome, Shea, Franz",NA,St. John Fisher,48.67,Utica Pioneer Spring Invite,"Apr 7, 2023"
-2,"Clarke, Simione, Glomski, Gholson",NA,Utica,52.32,2023 Hamilton College Continental Invitational,"Apr 1, 2023"
-3,"Durso, Young, Ryckman, Spila",NA,Alfred,53.51,Myrtle Beach Collegiate Challenge,"Mar 10, 2023"
-
-1,"Welch, McAllister, Savage, Lewis",NA,Nazareth,3:25.39,RIT Invitational,"Apr 8, 2023"
-2,"Hadasz, Kain, Simmons, Flynn",NA,Utica,3:32.65,Wesleyan Swanson Invite,"Mar 26, 2023"
-3,"Briggs, Andersen, Ferris, Acquard",NA,St. John Fisher,3:34.82,Utica Pioneer Spring Invite,"Apr 7, 2023"
-4,"Scriven, Noel, Kerr, Flint",NA,Alfred,3:39.58,2023 Jim Taylor Invite,"Mar 24, 2023"
-5,"Harkness, Langer, Pellegrini, Adadjo",NA,Sage,3:46.30,Utica Pioneer Spring Invite,"Apr 7, 2023"
-6,"Freda, Rogers, Mason, Catalano",NA,Hartwick,3:48.02,Utica Pioneer Spring Invite,"Apr 7, 2023"
-7,"Brito, Nasso, Belanger, Lewandowski",NA,Houghton,3:48.22,Geneseo Early Season Invitational,"Apr 2, 2023"
-
-1,"Susa, Luba, LaSalle, Heath",NA,Nazareth,4:23.24,RIT Invitational,"Apr 8, 2023"
-2,"Meade, Dening, Cruz-Bermudez, Burlette",NA,Utica,4:23.51,Utica Pioneer Spring Invite,"Apr 7, 2023"
-3,"O'Toole, Solly, Lutkins, Hall",NA,Alfred,4:32.24,2023 Jim Taylor Invite,"Mar 24, 2023"
-4,"Spivey, Ivery, Losee, Feeney",NA,Sage,4:46.30,Utica Pioneer Spring Invite,"Apr 7, 2023"
-
-1,"Brown, Jeralds, Leotta, Lohmann",NA,Utica,8:49.42,Wesleyan Swanson Invite,"Mar 26, 2023"
-2,"Mecca, Sesmas, Kerr, Flint",NA,Alfred,8:55.18,Myrtle Beach Collegiate Challenge,"Mar 10, 2023"
-
-1,"Sharpe, Dening, Burlette, Reed",NA,Utica,10:58.40,Wesleyan Swanson Invite,"Mar 26, 2023"
-
-1,"DePaull, Bryant",FR-1,St. John Fisher,1.95m,Utica Pioneer Spring Invite,"Apr 7, 2023",
-1,"Wright, Zuriel",JR-3,Utica,1.95m,2023 Hamilton College Continental Invitational,"Apr 1, 2023",
-3,"Cochrane, Sean",JR-3,St. John Fisher,1.94m,Geneseo Early Season Invitational,"Apr 2, 2023",
-4,"McCaskill, Kaiden",FR-1,Utica,1.85m,2023 Hamilton College Continental Invitational,"Apr 1, 2023",
-4,"Hobin, Blake",FR-1,Utica,1.85m,Wesleyan Swanson Invite,"Mar 26, 2023",
-6,"Wieder, Andrew",JR-3,Utica,1.80m,Wesleyan Swanson Invite,"Mar 26, 2023",
-7,"Reid, Kyle",SO-2,Nazareth,1.76m,Geneseo Early Season Invitational,"Apr 2, 2023",
-7,"DeVasto, A.J.",SR-4,Nazareth,1.76m,RIT Invitational,"Apr 8, 2023",
-7,"Yeager, Malachi",JR-3,Houghton,1.76m,Geneseo Early Season Invitational,"Apr 2, 2023",
-10,"Jones, Cooper",SO-2,Utica,1.75m,Wesleyan Swanson Invite,"Mar 26, 2023",
-
-1,"Williamson, Hayden",SO-2,Houghton,1.57m,RIT Invitational,"Apr 8, 2023",
-2,"Durso, Bianca",JR-3,Alfred,1.52m,2023 Jim Taylor Invite,"Mar 24, 2023",
-3,"Vogel, Claudia",JR-3,St. John Fisher,1.50m,Utica Pioneer Spring Invite,"Apr 7, 2023",
-4,"Sinclair, Amina",SO-2,Utica,1.48m,Wesleyan Swanson Invite,"Mar 26, 2023",
-5,"Morley, Alaina",FR-1,Nazareth,1.47m,Geneseo Early Season Invitational,"Apr 2, 2023",
-5,"Spila, Anne",SO-2,Alfred,1.47m,2023 Jim Taylor Invite,"Mar 24, 2023",
-7,"Williams, Aaliyah",FR-1,Hartwick,1.45m,Utica Pioneer Spring Invite,"Apr 7, 2023",
-8,"Ion, Ana",SO-2,Alfred,1.42m,2023 Jim Taylor Invite,"Mar 24, 2023",
-8,"Jacques, Sarah",FR-1,St. John Fisher,1.42m,Geneseo Early Season Invitational,"Apr 2, 2023",
-10,"LaSalle, Sydney",FR-1,Nazareth,1.37m,Geneseo Early Season Invitational,"Apr 2, 2023",
-
-1,"Pomerleau, Josh",SR-4,Nazareth,4.30m,Geneseo Early Season Invitational,"Apr 2, 2023",
-2,"Bletsko, Jason",FR-1,Nazareth,4.10m,Geneseo Early Season Invitational,"Apr 2, 2023",
-3,"Rathburn, Jack",FR-1,Utica,4.00m,Wesleyan Swanson Invite,"Mar 26, 2023",
-4,"Pomykaj, Jack",FR-1,Nazareth,3.85m,RIT Invitational,"Apr 8, 2023",
-5,"Szekeres, Brady",SO-2,Utica,3.50m,Utica Pioneer Spring Invite,"Apr 7, 2023",
-5,"Wieder, Andrew",JR-3,Utica,3.50m,Utica Pioneer Spring Invite,"Apr 7, 2023",
-7,"Palmer, Adam",SO-2,St. John Fisher,3.40m,Geneseo Early Season Invitational,"Apr 2, 2023",
-8,"Lund, Aaron",FR-1,Nazareth,3.25m,RIT Invitational,"Apr 8, 2023",
-9,"Bowers, Josiah",SR-4,St. John Fisher,3.05m,Utica Pioneer Spring Invite,"Apr 7, 2023",
-10,"Piper, Zach",FR-1,St. John Fisher,2.75m,Utica Pioneer Spring Invite,"Apr 7, 2023",
-
-1,"Morse, Isabel",FR-1,Nazareth,3.25m,RIT Invitational,"Apr 8, 2023",
-2,"Tornusciolo, Kiara",FR-1,Nazareth,3.15m,Geneseo Early Season Invitational,"Apr 2, 2023",
-3,"Frech, Emily",SO-2,St. John Fisher,2.80m,Utica Pioneer Spring Invite,"Apr 7, 2023",
-4,"Fredrickson, Hayly",SO-2,St. John Fisher,2.70m,Geneseo Early Season Invitational,"Apr 2, 2023",
-5,"Fischler, Sofie",SO-2,Nazareth,2.65m,RIT Invitational,"Apr 8, 2023",
-
-1,"Wright, Zuriel",JR-3,Utica,6.80m,Wesleyan Swanson Invite,"Mar 26, 2023",4.0,
-2,"Lopez-Testillano, Ivan",SR-4,St. John Fisher,6.72m,Geneseo Early Season Invitational,"Apr 2, 2023",0.1,
-3,"DePaull, Bryant",FR-1,St. John Fisher,6.40m,Geneseo Early Season Invitational,"Apr 2, 2023",0.7,
-4,"Cochrane, Sean",JR-3,St. John Fisher,6.30m,Geneseo Early Season Invitational,"Apr 2, 2023",1.8,
-5,"Billinger, TyJon",FR-1,Utica,6.29m,2023 Hamilton College Continental Invitational,"Apr 1, 2023",-2.3,
-6,"Ryan, Andrew",FR-1,Houghton,6.20m,Geneseo Early Season Invitational,"Apr 2, 2023",0.6,
-7,"Rivera, Noah",FR-1,Sage,6.05m,Utica Pioneer Spring Invite,"Apr 7, 2023",2.9,
-7,"Reifsteck, Adam",FR-1,Nazareth,6.05m,RIT Invitational,"Apr 8, 2023",+0.0,
-9,"Quomony, Corey",SO-2,Hartwick,5.90m,Utica Pioneer Spring Invite,"Apr 7, 2023",0.5,
-10,"Pomykaj, Jack",FR-1,Nazareth,5.89m,RIT Invitational,"Apr 8, 2023",-1.8,
-
-1,"Duell, Veronica",SO-2,St. John Fisher,5.53m,Geneseo Early Season Invitational,"Apr 2, 2023",1.7,
-2,"Spila, Anne",SO-2,Alfred,5.44m,Geneseo Early Season Invitational,"Apr 2, 2023",1.4,
-3,"Johnson, Brenna",SR-4,Nazareth,5.42m,RIT Invitational,"Apr 8, 2023",+0.0,
-4,"Kurbs, Michaela",JR-3,St. John Fisher,5.32m,Utica Pioneer Spring Invite,"Apr 7, 2023",1.1,
-5,"Heath, Isabella",JR-3,Nazareth,5.09m,RIT Invitational,"Apr 8, 2023",+0.0,
-5,"Devitt, Nora",SO-2,Utica,5.09m,Utica Pioneer Spring Invite,"Apr 7, 2023",1.2,
-7,"Meade, Laura",SR-4,Utica,5.03m,Wesleyan Swanson Invite,"Mar 26, 2023",2.0,
-7,"Leahey, McKenzie",SR-4,Nazareth,5.03m,Geneseo Early Season Invitational,"Apr 2, 2023",0.9,
-9,"Morley, Alaina",FR-1,Nazareth,4.89m,RIT Invitational,"Apr 8, 2023",+0.0,
-10,"Williamson, Hayden",SO-2,Houghton,4.80m,Geneseo Early Season Invitational,"Apr 2, 2023",0.4,
-
-1,"Lopez-Testillano, Ivan",SR-4,St. John Fisher,14.24m,Geneseo Early Season Invitational,"Apr 2, 2023",2.1,
-2,"Billinger, TyJon",FR-1,Utica,13.21m,2023 Hamilton College Continental Invitational,"Apr 1, 2023",+0.0,
-3,"Belanger, Avery",FR-1,Houghton,13.12m,Geneseo Early Season Invitational,"Apr 2, 2023",2.0,
-4,"Rivera, Noah",FR-1,Sage,12.95m,2023 Hamilton College Continental Invitational,"Apr 1, 2023",2.2,
-5,"DeShane, Ryan",FR-1,Nazareth,12.33m,Geneseo Early Season Invitational,"Apr 2, 2023",2.5,
-6,"Jones, Cooper",SO-2,Utica,11.30m,Utica Pioneer Spring Invite,"Apr 7, 2023",0.4,
-
-1,"Ragule, Hannah",JR-3,Nazareth,10.83m,RIT Invitational,"Apr 8, 2023",0.2,
-2,"Solly, Nyah",FR-1,Alfred,10.78m,2023 Jim Taylor Invite,"Mar 24, 2023",+0.0,
-3,"Ion, Ana",SO-2,Alfred,10.66m,2023 Jim Taylor Invite,"Mar 24, 2023",+0.0,
-4,"Devitt, Nora",SO-2,Utica,10.61m,Utica Pioneer Spring Invite,"Apr 7, 2023",0.1,
-5,"Heath, Isabella",JR-3,Nazareth,10.58m,RIT Invitational,"Apr 8, 2023",+0.0,
-6,"Meade, Laura",SR-4,Utica,10.42m,Utica Pioneer Spring Invite,"Apr 7, 2023",2.6,
-7,"LaSalle, Sydney",FR-1,Nazareth,10.22m,RIT Invitational,"Apr 8, 2023",+0.0,
-8,"Gholson, Zeniyah",FR-1,Utica,9.99m,Utica Pioneer Spring Invite,"Apr 7, 2023",2.1,
-9,"Leahey, McKenzie",SR-4,Nazareth,9.93m,RIT Invitational,"Apr 8, 2023",+0.0,
-10,"Idzi, Miah",SO-2,Houghton,9.82m,Geneseo Early Season Invitational,"Apr 2, 2023",2.7,
-
-1,"Logan, Hunter",JR-3,Utica,15.86m,Utica Pioneer Spring Invite,"Apr 7, 2023",
-2,"Coddington, John",SO-2,Sage,14.65m,RPI Under the Lights Invite 2023,"Apr 14, 2023",
-3,"Crocker, Jason",FR-1,Alfred,14.11m,Geneseo Early Season Invitational,"Apr 2, 2023",
-4,"Mays III, Billie",SO-2,Utica,13.69m,Wesleyan Swanson Invite,"Mar 26, 2023",
-5,"Swavely, Justin",SO-2,Utica,13.44m,2023 Hamilton College Continental Invitational,"Apr 1, 2023",
-6,"McNeil, Michael",SO-2,Utica,12.82m,Wesleyan Swanson Invite,"Mar 26, 2023",
-7,"DeKing, Cole",SO-2,Utica,12.34m,Utica Pioneer Spring Invite,"Apr 7, 2023",
-8,"Glasser, Ashton",FR-1,St. John Fisher,11.94m,Utica Pioneer Spring Invite,"Apr 7, 2023",
-9,"Dunn, Thomas",SO-2,Utica,11.83m,Utica Pioneer Spring Invite,"Apr 7, 2023",
-10,"Barnes, Jacob",JR-3,Utica,11.67m,2023 Hamilton College Continental Invitational,"Apr 1, 2023",
-
-1,"Fahy, Jane",SR-4,Utica,12.94m,2023 Hamilton College Continental Invitational,"Apr 1, 2023",
-2,"Palmer, Madison",JR-3,Alfred,11.63m,Geneseo Early Season Invitational,"Apr 2, 2023",
-3,"King, Makenna",JR-3,St. John Fisher,11.28m,Utica Pioneer Spring Invite,"Apr 7, 2023",
-4,"McGuinness, Erin",FR-1,St. John Fisher,11.05m,Utica Pioneer Spring Invite,"Apr 7, 2023",
-5,"Graves, Duanena",FR-1,Utica,10.69m,Utica Pioneer Spring Invite,"Apr 7, 2023",
-6,"O'Brien, Lyndsay",SR-4,St. John Fisher,10.56m,Utica Pioneer Spring Invite,"Apr 7, 2023",
-7,"Evans, Kathryn",SO-2,Houghton,10.11m,Geneseo Early Season Invitational,"Apr 2, 2023",
-8,"Richard, Lea",JR-3,Nazareth,10.10m,RIT Invitational,"Apr 8, 2023",
-9,"Brinck, Megan",FR-1,Utica,9.61m,Utica Pioneer Spring Invite,"Apr 7, 2023",
-10,"Wall, Giovanna",SO-2,Hartwick,9.59m,Utica Pioneer Spring Invite,"Apr 7, 2023",
-
-1,"Kelly, Antwan",JR-3,Utica,44.52m,Utica Pioneer Spring Invite,"Apr 7, 2023",
-2,"Florian, Nathan",SR-4,Utica,43.46m,Utica Pioneer Spring Invite,"Apr 7, 2023",
-3,"McNeil, Michael",SO-2,Utica,38.84m,Utica Pioneer Spring Invite,"Apr 7, 2023",
-4,"Coddington, John",SO-2,Sage,38.49m,Utica Pioneer Spring Invite,"Apr 7, 2023",
-5,"Yeager, Malachi",JR-3,Houghton,38.46m,Geneseo Early Season Invitational,"Apr 2, 2023",
-6,"Grove, Bryce",FR-1,St. John Fisher,37.82m,Utica Pioneer Spring Invite,"Apr 7, 2023",
-7,"Logan, Hunter",JR-3,Utica,37.77m,Utica Pioneer Spring Invite,"Apr 7, 2023",
-8,"Parnapy, Andrew",SO-2,Alfred,36.37m,Geneseo Early Season Invitational,"Apr 2, 2023",
-9,"Talbot, Joshua",FR-1,Utica,35.11m,Utica Pioneer Spring Invite,"Apr 7, 2023",
-10,"Curr, Joey",FR-1,St. John Fisher,34.99m,Geneseo Early Season Invitational,"Apr 2, 2023",
-
-1,"King, Makenna",JR-3,St. John Fisher,42.62m,Utica Pioneer Spring Invite,"Apr 7, 2023",
-2,"Florian, Sarah",FR-1,Utica,34.52m,Wesleyan Swanson Invite,"Mar 26, 2023",
-3,"Fahy, Jane",SR-4,Utica,34.46m,2023 Hamilton College Continental Invitational,"Apr 1, 2023",
-4,"DeSanctis, Gabrielle",JR-3,Utica,31.04m,Utica Pioneer Spring Invite,"Apr 7, 2023",
-5,"McGuinness, Erin",FR-1,St. John Fisher,30.92m,Utica Pioneer Spring Invite,"Apr 7, 2023",
-6,"Knapp, Hallie",FR-1,St. John Fisher,30.83m,Utica Pioneer Spring Invite,"Apr 7, 2023",
-7,"Graves, Duanena",FR-1,Utica,29.94m,Utica Pioneer Spring Invite,"Apr 7, 2023",
-8,"O'Brien, Lyndsay",SR-4,St. John Fisher,29.11m,Utica Pioneer Spring Invite,"Apr 7, 2023",
-9,"Richard, Lea",JR-3,Nazareth,28.33m,RIT Invitational,"Apr 8, 2023",
-10,"Palmer, Madison",JR-3,Alfred,26.64m,2023 Jim Taylor Invite,"Mar 24, 2023",
-
-1,"Coddington, John",SO-2,Sage,49.49m,Utica Pioneer Spring Invite,"Apr 7, 2023",
-2,"Kelly, Antwan",JR-3,Utica,48.62m,Utica Pioneer Spring Invite,"Apr 7, 2023",
-3,"Swavely, Justin",SO-2,Utica,45.39m,2023 Hamilton College Continental Invitational,"Apr 1, 2023",
-4,"Bickford, Jack",SR-4,St. John Fisher,45.06m,Utica Pioneer Spring Invite,"Apr 7, 2023",
-5,"Kaplan, Brandon",FR-1,St. John Fisher,44.76m,Utica Pioneer Spring Invite,"Apr 7, 2023",
-6,"Borghardt, Spencer",FR-1,Utica,43.06m,Utica Pioneer Spring Invite,"Apr 7, 2023",
-7,"Brown, Mark",JR-3,Utica,42.80m,2023 Hamilton College Continental Invitational,"Apr 1, 2023",
-8,"Barnes, Jacob",JR-3,Utica,39.93m,Utica Pioneer Spring Invite,"Apr 7, 2023",
-9,"Berlin, Kenneth",SO-2,Alfred,39.13m,Myrtle Beach Collegiate Challenge,"Mar 10, 2023",
-10,"Reyome, Keegan",SR-4,St. John Fisher,34.91m,Utica Pioneer Spring Invite,"Apr 7, 2023",
-
-1,"Richard, Lea",JR-3,Nazareth,46.99m,Geneseo Early Season Invitational,"Apr 2, 2023",
-2,"Palmer, Madison",JR-3,Alfred,43.57m,Geneseo Early Season Invitational,"Apr 2, 2023",
-3,"King, Makenna",JR-3,St. John Fisher,43.32m,Utica Pioneer Spring Invite,"Apr 7, 2023",
-4,"Moyer, Grace",SO-2,Nazareth,42.51m,Geneseo Early Season Invitational,"Apr 2, 2023",
-5,"Costello, Emilia",SO-2,Utica,41.29m,2023 Hamilton College Continental Invitational,"Apr 1, 2023",
-6,"McIntyre, Jazelle",FR-1,St. John Fisher,40.06m,Geneseo Early Season Invitational,"Apr 2, 2023",
-7,"DeSanctis, Gabrielle",JR-3,Utica,38.56m,Utica Pioneer Spring Invite,"Apr 7, 2023",
-8,"Whorf, Skyler",JR-3,Utica,35.25m,Utica Pioneer Spring Invite,"Apr 7, 2023",
-9,"Bailey, Ranasia",FR-1,Utica,34.58m,Utica Pioneer Spring Invite,"Apr 7, 2023",
-10,"Brinck, Megan",FR-1,Utica,34.02m,Utica Pioneer Spring Invite,"Apr 7, 2023",
-
-1,"Swavely, Justin",SO-2,Utica,58.92m,Utica Pioneer Spring Invite,"Apr 7, 2023",
-2,"Berlin, Kenneth",SO-2,Alfred,47.74m,Geneseo Early Season Invitational,"Apr 2, 2023",
-3,"Jeralds, Tobias",FR-1,Utica,46.50m,Wesleyan Swanson Invite,"Mar 26, 2023",
-4,"Simpson, Kaiden",FR-1,Sage,45.99m,RPI Under the Lights Invite 2023,"Apr 14, 2023",
-5,"Hobin, Blake",FR-1,Utica,45.04m,2023 Hamilton College Continental Invitational,"Apr 1, 2023",
-6,"Barnes, Jacob",JR-3,Utica,44.80m,2023 Hamilton College Continental Invitational,"Apr 1, 2023",
-7,"Yeager, Malachi",JR-3,Houghton,43.76m,Geneseo Early Season Invitational,"Apr 2, 2023",
-8,"Burns, Robert",FR-1,Hartwick,42.52m,2023 Hamilton College Continental Invitational,"Apr 1, 2023",
-9,"Wieder, Andrew",JR-3,Utica,41.98m,Utica Pioneer Spring Invite,"Apr 7, 2023",
-10,"Lund, Aaron",FR-1,Nazareth,36.17m,Geneseo Early Season Invitational,"Apr 2, 2023",
-
-1,"Nuzzo, Abigail",FR-1,Houghton,29.95m,Geneseo Early Season Invitational,"Apr 2, 2023",
-2,"Meade, Laura",SR-4,Utica,29.94m,Utica Pioneer Spring Invite,"Apr 7, 2023",
-3,"Sylvester, Ada",JR-3,St. John Fisher,28.55m,Geneseo Early Season Invitational,"Apr 2, 2023",
-4,"Knaisch, Abbie",FR-1,Utica,25.88m,Utica Pioneer Spring Invite,"Apr 7, 2023",
-5,"DeSanctis, Gabrielle",JR-3,Utica,25.00m,Wesleyan Swanson Invite,"Mar 26, 2023",
-6,"Spila, Anne",SO-2,Alfred,23.33m,Myrtle Beach Collegiate Challenge,"Mar 10, 2023",
-7,"Vogel, Claudia",JR-3,St. John Fisher,23.24m,Geneseo Early Season Invitational,"Apr 2, 2023",
-8,"Palmer, Madison",JR-3,Alfred,22.93m,2023 Jim Taylor Invite,"Mar 24, 2023",
-9,"Lundgren, Paige",SO-2,St. John Fisher,21.43m,Geneseo Early Season Invitational,"Apr 2, 2023",
-10,"Durso, Bianca",JR-3,Alfred,20.97m,Myrtle Beach Collegiate Challenge,"Mar 10, 2023",
+Rank,Athlete(s),Year,Team,Time/Distance,Meet,Meet Date,Wind,Event,Conference,Gender
+1,"Hadasz, Andrew",JR-3,Utica,11.01,2023 Hamilton College Continental Invitational,"Apr 1, 2023",1.2,100 Meters,Empire 8 Outdoor Performance List,Men
+2,"Welch, Mike",SR-4,Nazareth,11.13,Geneseo Early Season Invitational,"Apr 2, 2023",1.8,100 Meters,Empire 8 Outdoor Performance List,Men
+3,"Spicer, Alex",FR,Alfred,11.16,2023 Messiah Multi/Invitational,"Apr 13, 2023",1.2,100 Meters,Empire 8 Outdoor Performance List,Men
+4,"Cuvilly, Curtis",SR-4,St. John Fisher,11.17,Geneseo Early Season Invitational,"Apr 2, 2023",1.7,100 Meters,Empire 8 Outdoor Performance List,Men
+5,"Flynn, Nolan",FR-1,Utica,11.20,Wesleyan Swanson Invite,"Mar 26, 2023",2.7,100 Meters,Empire 8 Outdoor Performance List,Men
+6,"Bishop, Brady",SO-2,St. John Fisher,11.23,Geneseo Early Season Invitational,"Apr 2, 2023",1.8,100 Meters,Empire 8 Outdoor Performance List,Men
+7,"Kurtz, Evan",SO-2,Houghton,11.34,Geneseo Early Season Invitational,"Apr 2, 2023",1.7,100 Meters,Empire 8 Outdoor Performance List,Men
+8,"Peters, Neil",SO-2,Alfred,11.35,Geneseo Early Season Invitational,"Apr 2, 2023",1.2,100 Meters,Empire 8 Outdoor Performance List,Men
+9,"Trimboli, Timothy",FR,Alfred,11.37,2023 Messiah Multi/Invitational,"Apr 13, 2023",1.2,100 Meters,Empire 8 Outdoor Performance List,Men
+9,"Pomykaj, Jack",FR-1,Nazareth,11.37,Brockport Multi & Invitational,"Apr 14, 2023",1.1,100 Meters,Empire 8 Outdoor Performance List,Men
+1,"Lettsome, Zhane",FR-1,St. John Fisher,12.49,Geneseo Early Season Invitational,"Apr 2, 2023",2.6,100 Meters,Empire 8 Outdoor Performance List,Women
+2,"Franz, Ciarra",SO-2,St. John Fisher,12.53,Utica Pioneer Spring Invite,"Apr 7, 2023",+0.0,100 Meters,Empire 8 Outdoor Performance List,Women
+3,"Johnson, Brenna",SR-4,Nazareth,12.54,RIT Invitational,"Apr 8, 2023",+0.0,100 Meters,Empire 8 Outdoor Performance List,Women
+3,"Kurbs, Michaela",JR-3,St. John Fisher,12.54,Geneseo Early Season Invitational,"Apr 2, 2023",2.6,100 Meters,Empire 8 Outdoor Performance List,Women
+5,"Rowley, Isabelle",FR-1,St. John Fisher,12.70,Geneseo Early Season Invitational,"Apr 2, 2023",1.5,100 Meters,Empire 8 Outdoor Performance List,Women
+6,"Mix, Mackenzie",SO-2,Utica,12.71,2023 Hamilton College Continental Invitational,"Apr 1, 2023",2.1,100 Meters,Empire 8 Outdoor Performance List,Women
+7,"Morley, Alaina",FR-1,Nazareth,12.86,Geneseo Early Season Invitational,"Apr 2, 2023",1.5,100 Meters,Empire 8 Outdoor Performance List,Women
+8,"Ragule, Hannah",JR-3,Nazareth,12.99,Geneseo Early Season Invitational,"Apr 2, 2023",1.5,100 Meters,Empire 8 Outdoor Performance List,Women
+9,"Meade, Laura",SR-4,Utica,13.03,Utica Pioneer Spring Invite,"Apr 7, 2023",+0.0,100 Meters,Empire 8 Outdoor Performance List,Women
+10,"Le, Brenda",SO-2,St. John Fisher,13.10,Geneseo Early Season Invitational,"Apr 2, 2023",0.9,100 Meters,Empire 8 Outdoor Performance List,Women
+1,"Hadasz, Andrew",JR-3,Utica,22.04,2023 Hamilton College Continental Invitational,"Apr 1, 2023",1.3,200 Meters,Empire 8 Outdoor Performance List,Men
+2,"Spicer, Alex",FR,Alfred,22.30,2023 Messiah Multi/Invitational,"Apr 13, 2023",1.2,200 Meters,Empire 8 Outdoor Performance List,Men
+2,"Welch, Mike",SR-4,Nazareth,22.30,Brockport Multi & Invitational,"Apr 14, 2023",2.7,200 Meters,Empire 8 Outdoor Performance List,Men
+4,"Flynn, Nolan",FR-1,Utica,22.76,Wesleyan Swanson Invite,"Mar 26, 2023",1.7,200 Meters,Empire 8 Outdoor Performance List,Men
+5,"Bishop, Brady",SO-2,St. John Fisher,22.81,Bison Outdoor Classic,"Apr 14, 2023",+0.0,200 Meters,Empire 8 Outdoor Performance List,Men
+6,"Lewis, Ben",SO-2,Nazareth,22.82,RIT Invitational,"Apr 8, 2023",0.7,200 Meters,Empire 8 Outdoor Performance List,Men
+7,"Savage, Jaylen",FR-1,Nazareth,22.83,Brockport Multi & Invitational,"Apr 14, 2023",2.7,200 Meters,Empire 8 Outdoor Performance List,Men
+8,"Peters, Neil",SO-2,Alfred,22.86,Geneseo Early Season Invitational,"Apr 2, 2023",-0.9,200 Meters,Empire 8 Outdoor Performance List,Men
+9,"Simmons, Jonathan",SO-2,Utica,23.06,2023 Hamilton College Continental Invitational,"Apr 1, 2023",3.5,200 Meters,Empire 8 Outdoor Performance List,Men
+10,"Kain , Ethan",SR-4,Utica,23.11,Wesleyan Swanson Invite,"Mar 26, 2023",1.7,200 Meters,Empire 8 Outdoor Performance List,Men
+1,"Shea, Samantha",SR-4,St. John Fisher,25.69,Bison Outdoor Classic,"Apr 14, 2023",0.3,200 Meters,Empire 8 Outdoor Performance List,Women
+2,"Mix, Mackenzie",SO-2,Utica,25.83,2023 Hamilton College Continental Invitational,"Apr 1, 2023",1.1,200 Meters,Empire 8 Outdoor Performance List,Women
+3,"Lettsome, Zhane",FR-1,St. John Fisher,25.92,Bison Outdoor Classic,"Apr 14, 2023",1.6,200 Meters,Empire 8 Outdoor Performance List,Women
+4,"Alper, Megan",JR,Alfred,26.80,2023 Messiah Multi/Invitational,"Apr 13, 2023",1.1,200 Meters,Empire 8 Outdoor Performance List,Women
+5,"Wright, Grace",SO-2,St. John Fisher,26.90,Geneseo Early Season Invitational,"Apr 2, 2023",-1.7,200 Meters,Empire 8 Outdoor Performance List,Women
+6,"Rowley, Isabelle",FR-1,St. John Fisher,27.20,Geneseo Early Season Invitational,"Apr 2, 2023",-0.8,200 Meters,Empire 8 Outdoor Performance List,Women
+7,"Wisniewski, Alexandria",SO-2,Houghton,27.24,RIT Invitational,"Apr 8, 2023",0.7,200 Meters,Empire 8 Outdoor Performance List,Women
+7,"Young, Lina",FR-1,Alfred,27.24,Geneseo Early Season Invitational,"Apr 2, 2023",0.3,200 Meters,Empire 8 Outdoor Performance List,Women
+9,"Simione, Claudia",SO-2,Utica,27.30,2023 Hamilton College Continental Invitational,"Apr 1, 2023",1.6,200 Meters,Empire 8 Outdoor Performance List,Women
+10,"Spila, Anne",SO-2,Alfred,27.34,2023 Messiah Multi/Invitational,"Apr 13, 2023",1.0,200 Meters,Empire 8 Outdoor Performance List,Women
+1,"Welch, Mike",SR-4,Nazareth,50.20,Brockport Multi & Invitational,"Apr 14, 2023",NaN,400 Meters,Empire 8 Outdoor Performance List,Men
+2,"Savage, Jaylen",FR-1,Nazareth,50.41,RIT Invitational,"Apr 8, 2023",NaN,400 Meters,Empire 8 Outdoor Performance List,Men
+3,"Ferris, Cole",FR-1,St. John Fisher,50.63,Bison Outdoor Classic,"Apr 14, 2023",NaN,400 Meters,Empire 8 Outdoor Performance List,Men
+4,"Bishop, Brady",SO-2,St. John Fisher,51.66,Bison Outdoor Classic,"Apr 14, 2023",NaN,400 Meters,Empire 8 Outdoor Performance List,Men
+5,"Hadasz, Andrew",JR-3,Utica,51.84,Wesleyan Swanson Invite,"Mar 26, 2023",NaN,400 Meters,Empire 8 Outdoor Performance List,Men
+6,"McAllister, Gavin",FR-1,Nazareth,52.05,RIT Invitational,"Apr 8, 2023",NaN,400 Meters,Empire 8 Outdoor Performance List,Men
+7,"Hartigan, Rob",JR-3,St. John Fisher,52.21,Bison Outdoor Classic,"Apr 14, 2023",NaN,400 Meters,Empire 8 Outdoor Performance List,Men
+8,"Kerr, Connor",SO-2,Alfred,52.23,Myrtle Beach Collegiate Challenge,"Mar 10, 2023",NaN,400 Meters,Empire 8 Outdoor Performance List,Men
+9,"Simmons, Jonathan",SO-2,Utica,52.27,2023 Hamilton College Continental Invitational,"Apr 1, 2023",NaN,400 Meters,Empire 8 Outdoor Performance List,Men
+10,"Sokolovsky, Noam",SO-2,Alfred,52.41,2023 Messiah Multi/Invitational,"Apr 13, 2023",NaN,400 Meters,Empire 8 Outdoor Performance List,Men
+1,"Shea, Samantha",SR-4,St. John Fisher,56.69,Bison Outdoor Classic,"Apr 14, 2023",NaN,400 Meters,Empire 8 Outdoor Performance List,Women
+2,"Johnson, Brenna",SR-4,Nazareth,57.78,Brockport Multi & Invitational,"Apr 14, 2023",NaN,400 Meters,Empire 8 Outdoor Performance List,Women
+3,"Wright, Grace",SO-2,St. John Fisher,59.21,Bison Outdoor Classic,"Apr 14, 2023",NaN,400 Meters,Empire 8 Outdoor Performance List,Women
+4,"Gilbert, Olivia",JR-3,Alfred,1:00.73,Geneseo Early Season Invitational,"Apr 2, 2023",NaN,400 Meters,Empire 8 Outdoor Performance List,Women
+5,"Wisniewski, Alexandria",SO-2,Houghton,1:01.88,RIT Invitational,"Apr 8, 2023",NaN,400 Meters,Empire 8 Outdoor Performance List,Women
+6,"Shaker, Mary",SO-2,Houghton,1:02.76,Geneseo Early Season Invitational,"Apr 2, 2023",NaN,400 Meters,Empire 8 Outdoor Performance List,Women
+7,"Heath, Isabella",JR-3,Nazareth,1:03.65,Brockport Multi & Invitational,"Apr 14, 2023",NaN,400 Meters,Empire 8 Outdoor Performance List,Women
+8,"Fredrickson, Hayly",SO-2,St. John Fisher,1:04.07,Geneseo Early Season Invitational,"Apr 2, 2023",NaN,400 Meters,Empire 8 Outdoor Performance List,Women
+9,"Wright, Emma",SO-2,St. John Fisher,1:05.09,Geneseo Early Season Invitational,"Apr 2, 2023",NaN,400 Meters,Empire 8 Outdoor Performance List,Women
+10,"Gould, Leigha",JR-3,Nazareth,1:05.14,RIT Invitational,"Apr 8, 2023",NaN,400 Meters,Empire 8 Outdoor Performance List,Women
+1,"Healy, Patrick",SR-4,Nazareth,1:58.52,RIT Invitational,"Apr 8, 2023",NaN,800 Meters,Empire 8 Outdoor Performance List,Men
+2,"Andersen, Myles",SR-4,St. John Fisher,1:58.53,Bison Outdoor Classic,"Apr 14, 2023",NaN,800 Meters,Empire 8 Outdoor Performance List,Men
+3,"Briggs, Peter",SO-2,St. John Fisher,1:59.06,Bison Outdoor Classic,"Apr 14, 2023",NaN,800 Meters,Empire 8 Outdoor Performance List,Men
+4,"Eustace, James",SO-2,Houghton,1:59.17,RIT Invitational,"Apr 8, 2023",NaN,800 Meters,Empire 8 Outdoor Performance List,Men
+5,"DiRubbo, Tony",JR-3,St. John Fisher,2:00.01,Bison Outdoor Classic,"Apr 14, 2023",NaN,800 Meters,Empire 8 Outdoor Performance List,Men
+6,"McAllister, Gavin",FR-1,Nazareth,2:01.34,Brockport Multi & Invitational,"Apr 14, 2023",NaN,800 Meters,Empire 8 Outdoor Performance List,Men
+7,"Lohmann, Hayden",JR-3,Utica,2:02.50,Utica Pioneer Spring Invite,"Apr 7, 2023",NaN,800 Meters,Empire 8 Outdoor Performance List,Men
+8,"Vargo, Tristan",SO-2,Utica,2:02.86,Utica Pioneer Spring Invite,"Apr 7, 2023",NaN,800 Meters,Empire 8 Outdoor Performance List,Men
+9,"Jeralds, Tobias",FR-1,Utica,2:03.87,Utica Pioneer Spring Invite,"Apr 7, 2023",NaN,800 Meters,Empire 8 Outdoor Performance List,Men
+10,"Esquivel, Dylan",SO-2,St. John Fisher,2:04.36,Utica Pioneer Spring Invite,"Apr 7, 2023",NaN,800 Meters,Empire 8 Outdoor Performance List,Men
+1,"Gilbert, Olivia",JR-3,Alfred,2:22.56,2023 Messiah Multi/Invitational,"Apr 13, 2023",NaN,800 Meters,Empire 8 Outdoor Performance List,Women
+2,"Szumloz, Abbey",SR-4,Nazareth,2:23.02,Geneseo Early Season Invitational,"Apr 2, 2023",NaN,800 Meters,Empire 8 Outdoor Performance List,Women
+3,"Dening, Jade",SO-2,Utica,2:25.12,Jerry Gravel Classic,"Apr 15, 2023",NaN,800 Meters,Empire 8 Outdoor Performance List,Women
+4,"Heath, Isabella",JR-3,Nazareth,2:27.20,Geneseo Early Season Invitational,"Apr 2, 2023",NaN,800 Meters,Empire 8 Outdoor Performance List,Women
+5,"Feeney, Mackenzie",JR-3,Sage,2:27.83,Utica Pioneer Spring Invite,"Apr 7, 2023",NaN,800 Meters,Empire 8 Outdoor Performance List,Women
+6,"Burrichter, Amanda",FR-1,Houghton,2:27.94,RIT Invitational,"Apr 8, 2023",NaN,800 Meters,Empire 8 Outdoor Performance List,Women
+7,"Impaglia, Ella",FR-1,Nazareth,2:28.57,RIT Invitational,"Apr 8, 2023",NaN,800 Meters,Empire 8 Outdoor Performance List,Women
+8,"Cruz-Bermudez, Janaiya",JR-3,Utica,2:28.58,Jerry Gravel Classic,"Apr 15, 2023",NaN,800 Meters,Empire 8 Outdoor Performance List,Women
+9,"Voloshen, Caitlin",FR-1,St. John Fisher,2:29.17,Utica Pioneer Spring Invite,"Apr 7, 2023",NaN,800 Meters,Empire 8 Outdoor Performance List,Women
+10,"Binney, Kyra",FR-1,Houghton,2:29.61,Geneseo Early Season Invitational,"Apr 2, 2023",NaN,800 Meters,Empire 8 Outdoor Performance List,Women
+1,"Healy, Patrick",SR-4,Nazareth,4:02.72,Bison Outdoor Classic,"Apr 14, 2023",NaN,1500 Meters,Empire 8 Outdoor Performance List,Men
+2,"Bowers, Nathan",SR-4,Nazareth,4:04.03,RIT Invitational,"Apr 8, 2023",NaN,1500 Meters,Empire 8 Outdoor Performance List,Men
+3,"Bixler, Amos",FR-1,Houghton,4:10.93,Brockport Multi & Invitational,"Apr 14, 2023",NaN,1500 Meters,Empire 8 Outdoor Performance List,Men
+4,"Tucker, Zach",SO-2,Houghton,4:12.04,RIT Invitational,"Apr 8, 2023",NaN,1500 Meters,Empire 8 Outdoor Performance List,Men
+5,"Eustace, James",SO-2,Houghton,4:12.38,Brockport Multi & Invitational,"Apr 14, 2023",NaN,1500 Meters,Empire 8 Outdoor Performance List,Men
+6,"DiRubbo, Tony",JR-3,St. John Fisher,4:12.50,Utica Pioneer Spring Invite,"Apr 7, 2023",NaN,1500 Meters,Empire 8 Outdoor Performance List,Men
+7,"Eells, Cade",SO-2,Nazareth,4:13.45,RIT Invitational,"Apr 8, 2023",NaN,1500 Meters,Empire 8 Outdoor Performance List,Men
+8,"Billings, Ethan",JR-3,St. John Fisher,4:13.90,Utica Pioneer Spring Invite,"Apr 7, 2023",NaN,1500 Meters,Empire 8 Outdoor Performance List,Men
+9,"Nash, Riley",SO-2,St. John Fisher,4:14.10,Brockport Multi & Invitational,"Apr 14, 2023",NaN,1500 Meters,Empire 8 Outdoor Performance List,Men
+10,"Glashauser, Ethan",JR-3,Nazareth,4:15.33,RIT Invitational,"Apr 8, 2023",NaN,1500 Meters,Empire 8 Outdoor Performance List,Men
+1,"Burrichter, Amanda",FR-1,Houghton,4:42.72,Bison Outdoor Classic,"Apr 14, 2023",NaN,1500 Meters,Empire 8 Outdoor Performance List,Women
+2,"Voloshen, Caitlin",FR-1,St. John Fisher,4:57.08,Bison Outdoor Classic,"Apr 14, 2023",NaN,1500 Meters,Empire 8 Outdoor Performance List,Women
+3,"Impaglia, Ella",FR-1,Nazareth,4:58.84,Brockport Multi & Invitational,"Apr 14, 2023",NaN,1500 Meters,Empire 8 Outdoor Performance List,Women
+4,"DeMichele, Lauren",JR-3,St. John Fisher,4:59.11,Utica Pioneer Spring Invite,"Apr 7, 2023",NaN,1500 Meters,Empire 8 Outdoor Performance List,Women
+5,"Dening, Jade",SO-2,Utica,4:59.84,Utica Pioneer Spring Invite,"Apr 7, 2023",NaN,1500 Meters,Empire 8 Outdoor Performance List,Women
+6,"Hall, McKenzie",SO-2,Alfred,5:00.46,2023 Messiah Multi/Invitational,"Apr 13, 2023",NaN,1500 Meters,Empire 8 Outdoor Performance List,Women
+7,"Witt, Laura",JR-3,St. John Fisher,5:02.09,Brockport Multi & Invitational,"Apr 14, 2023",NaN,1500 Meters,Empire 8 Outdoor Performance List,Women
+8,"Weaver, Emily",SR-4,Nazareth,5:02.51,RIT Invitational,"Apr 8, 2023",NaN,1500 Meters,Empire 8 Outdoor Performance List,Women
+9,"Grinnell, Olivia",FR-1,St. John Fisher,5:02.90,Bison Outdoor Classic,"Apr 14, 2023",NaN,1500 Meters,Empire 8 Outdoor Performance List,Women
+10,"Feeney, Mackenzie",JR-3,Sage,5:05.49,RPI Under the Lights Invite 2023,"Apr 14, 2023",NaN,1500 Meters,Empire 8 Outdoor Performance List,Women
+1,"Bowers, Nathan",SR-4,Nazareth,14:51.19,Bison Outdoor Classic,"Apr 14, 2023",NaN,5000 Meters,Empire 8 Outdoor Performance List,Men
+2,"Kasper, Caleb",SO-2,Houghton,15:20.36,Bison Outdoor Classic,"Apr 14, 2023",NaN,5000 Meters,Empire 8 Outdoor Performance List,Men
+3,"Eells, Cade",SO-2,Nazareth,15:20.52,Geneseo Early Season Invitational,"Apr 2, 2023",NaN,5000 Meters,Empire 8 Outdoor Performance List,Men
+4,"Reimann, Matt",JR-3,Nazareth,15:22.25,Bison Outdoor Classic,"Apr 14, 2023",NaN,5000 Meters,Empire 8 Outdoor Performance List,Men
+5,"Billings, Ethan",JR-3,St. John Fisher,15:34.74,Bison Outdoor Classic,"Apr 14, 2023",NaN,5000 Meters,Empire 8 Outdoor Performance List,Men
+6,"Tucker, Zach",SO-2,Houghton,15:58.12,Brockport Multi & Invitational,"Apr 14, 2023",NaN,5000 Meters,Empire 8 Outdoor Performance List,Men
+7,"Nash, Riley",SO-2,St. John Fisher,16:00.46,Geneseo Early Season Invitational,"Apr 2, 2023",NaN,5000 Meters,Empire 8 Outdoor Performance List,Men
+8,"Brown, Zachary",FR-1,Utica,16:09.75,Utica Pioneer Spring Invite,"Apr 7, 2023",NaN,5000 Meters,Empire 8 Outdoor Performance List,Men
+9,"Roberts, Michael",JR-3,Utica,16:17.63,Utica Pioneer Spring Invite,"Apr 7, 2023",NaN,5000 Meters,Empire 8 Outdoor Performance List,Men
+10,"Ferri, Nick",SO-2,St. John Fisher,16:21.32,Geneseo Early Season Invitational,"Apr 2, 2023",NaN,5000 Meters,Empire 8 Outdoor Performance List,Men
+1,"Burrichter, Amanda",FR-1,Houghton,18:01.03,Geneseo Early Season Invitational,"Apr 2, 2023",NaN,5000 Meters,Empire 8 Outdoor Performance List,Women
+2,"Hanning, Lilianna",JR-3,Nazareth,18:17.59,Bison Outdoor Classic,"Apr 14, 2023",NaN,5000 Meters,Empire 8 Outdoor Performance List,Women
+3,"Domaracki, Rachel",SO-2,Houghton,18:30.48,Bison Outdoor Classic,"Apr 14, 2023",NaN,5000 Meters,Empire 8 Outdoor Performance List,Women
+4,"McGee, Brigid",JR-3,St. John Fisher,19:08.23,Utica Pioneer Spring Invite,"Apr 7, 2023",NaN,5000 Meters,Empire 8 Outdoor Performance List,Women
+5,"Ingellis, Elizabeth",SO-2,Sage,19:08.83,2023 Hamilton College Continental Invitational,"Apr 1, 2023",NaN,5000 Meters,Empire 8 Outdoor Performance List,Women
+6,"Hall, McKenzie",SO-2,Alfred,19:12.33,Geneseo Early Season Invitational,"Apr 2, 2023",NaN,5000 Meters,Empire 8 Outdoor Performance List,Women
+7,"Prouty, Sophia",SR-4,St. John Fisher,19:16.85,Geneseo Early Season Invitational,"Apr 2, 2023",NaN,5000 Meters,Empire 8 Outdoor Performance List,Women
+8,"Almy, Lauren",JR-3,St. John Fisher,19:40.13,Geneseo Early Season Invitational,"Apr 2, 2023",NaN,5000 Meters,Empire 8 Outdoor Performance List,Women
+9,"Haas, Brynita",FR-1,Hartwick,19:47.41,Utica Pioneer Spring Invite,"Apr 7, 2023",NaN,5000 Meters,Empire 8 Outdoor Performance List,Women
+10,"McCoy, Kennedy",SO-2,Houghton,19:49.13,Geneseo Early Season Invitational,"Apr 2, 2023",NaN,5000 Meters,Empire 8 Outdoor Performance List,Women
+1,"Bowers, Nathan",SR-4,Nazareth,32:27.31,Geneseo Early Season Invitational,"Apr 2, 2023",NaN,"10,000 Meters",Empire 8 Outdoor Performance List,Men
+2,"Reimann, Matt",JR-3,Nazareth,32:33.17,Geneseo Early Season Invitational,"Apr 2, 2023",NaN,"10,000 Meters",Empire 8 Outdoor Performance List,Men
+3,"Kasper, Caleb",SO-2,Houghton,32:36.13,Geneseo Early Season Invitational,"Apr 2, 2023",NaN,"10,000 Meters",Empire 8 Outdoor Performance List,Men
+4,"Jackson, Connor",FR-1,Nazareth,34:11.64,Geneseo Early Season Invitational,"Apr 2, 2023",NaN,"10,000 Meters",Empire 8 Outdoor Performance List,Men
+5,"Nicosia, Brandon",SR-4,St. John Fisher,34:53.86,Brockport Multi & Invitational,"Apr 14, 2023",NaN,"10,000 Meters",Empire 8 Outdoor Performance List,Men
+6,"Ferri, Nick",SO-2,St. John Fisher,34:58.21,Brockport Multi & Invitational,"Apr 14, 2023",NaN,"10,000 Meters",Empire 8 Outdoor Performance List,Men
+1,"Domaracki, Rachel",SO-2,Houghton,38:37.48,Geneseo Early Season Invitational,"Apr 2, 2023",NaN,"10,000 Meters",Empire 8 Outdoor Performance List,Women
+2,"DeMichele, Lauren",JR-3,St. John Fisher,39:12.21,Geneseo Early Season Invitational,"Apr 2, 2023",NaN,"10,000 Meters",Empire 8 Outdoor Performance List,Women
+3,"Hanning, Lilianna",JR-3,Nazareth,39:23.94,Geneseo Early Season Invitational,"Apr 2, 2023",NaN,"10,000 Meters",Empire 8 Outdoor Performance List,Women
+4,"Ingellis, Elizabeth",SO-2,Sage,39:29.69,Utica Pioneer Spring Invite,"Apr 7, 2023",NaN,"10,000 Meters",Empire 8 Outdoor Performance List,Women
+5,"McGee, Brigid",JR-3,St. John Fisher,39:36.93,Geneseo Early Season Invitational,"Apr 2, 2023",NaN,"10,000 Meters",Empire 8 Outdoor Performance List,Women
+6,"Witt, Laura",JR-3,St. John Fisher,40:11.91,Geneseo Early Season Invitational,"Apr 2, 2023",NaN,"10,000 Meters",Empire 8 Outdoor Performance List,Women
+7,"Morin, Megan",SR-4,Nazareth,40:39.31,Geneseo Early Season Invitational,"Apr 2, 2023",NaN,"10,000 Meters",Empire 8 Outdoor Performance List,Women
+8,"Prouty, Sophia",SR-4,St. John Fisher,40:48.93,Utica Pioneer Spring Invite,"Apr 7, 2023",NaN,"10,000 Meters",Empire 8 Outdoor Performance List,Women
+9,"Almy, Lauren",JR-3,St. John Fisher,41:19.94,Utica Pioneer Spring Invite,"Apr 7, 2023",NaN,"10,000 Meters",Empire 8 Outdoor Performance List,Women
+10,"Jablonski, Mari",JR-3,Alfred,41:38.81,Geneseo Early Season Invitational,"Apr 2, 2023",NaN,"10,000 Meters",Empire 8 Outdoor Performance List,Women
+1,"Franz, Ciarra",SO-2,St. John Fisher,14.49,Geneseo Early Season Invitational,"Apr 2, 2023",4.7,100 Hurdles,Empire 8 Outdoor Performance List,Women
+2,"Vanderhoof, Sydney",SR-4,Nazareth,16.41,Brockport Multi & Invitational,"Apr 14, 2023",2.1,100 Hurdles,Empire 8 Outdoor Performance List,Women
+3,"Meade, Laura",SR-4,Utica,16.58,Utica Pioneer Spring Invite,"Apr 7, 2023",1.8,100 Hurdles,Empire 8 Outdoor Performance List,Women
+4,"Spila, Anne",SO-2,Alfred,16.80,2023 Messiah Multi/Invitational,"Apr 13, 2023",1.6,100 Hurdles,Empire 8 Outdoor Performance List,Women
+5,"Ragule, Hannah",JR-3,Nazareth,16.90,Geneseo Early Season Invitational,"Apr 2, 2023",4.7,100 Hurdles,Empire 8 Outdoor Performance List,Women
+6,"Rexford, Lily",FR-1,St. John Fisher,17.48,Brockport Multi & Invitational,"Apr 14, 2023",1.8,100 Hurdles,Empire 8 Outdoor Performance List,Women
+7,"Durso, Bianca",JR-3,Alfred,17.54,Geneseo Early Season Invitational,"Apr 2, 2023",2.2,100 Hurdles,Empire 8 Outdoor Performance List,Women
+8,"Fredrickson, Hayly",SO-2,St. John Fisher,17.59,Utica Pioneer Spring Invite,"Apr 7, 2023",1.8,100 Hurdles,Empire 8 Outdoor Performance List,Women
+9,"Wall, Giovanna",SO-2,Hartwick,17.94,Cortland Upstate Alternative,"Apr 15, 2023",3.4,100 Hurdles,Empire 8 Outdoor Performance List,Women
+10,"Fredrickson, Logan",SO-2,St. John Fisher,18.24,Geneseo Early Season Invitational,"Apr 2, 2023",4.0,100 Hurdles,Empire 8 Outdoor Performance List,Women
+1,"Lund, Aaron",FR-1,Nazareth,15.49,Geneseo Early Season Invitational,"Apr 2, 2023",4.0,110 Hurdles,Empire 8 Outdoor Performance List,Men
+2,"McCauslin, Connor",SR-4,Nazareth,15.65,Geneseo Early Season Invitational,"Apr 2, 2023",1.6,110 Hurdles,Empire 8 Outdoor Performance List,Men
+3,"Thomas, Holden",FR-1,Nazareth,16.05,Brockport Multi & Invitational,"Apr 14, 2023",0.6,110 Hurdles,Empire 8 Outdoor Performance List,Men
+4,"Valentin, Justin",JR-3,Utica,16.46,2023 Hamilton College Continental Invitational,"Apr 1, 2023",-2.1,110 Hurdles,Empire 8 Outdoor Performance List,Men
+5,"Belanger, Avery",FR-1,Houghton,16.81,Geneseo Early Season Invitational,"Apr 2, 2023",4.0,110 Hurdles,Empire 8 Outdoor Performance List,Men
+6,"Defio, Luke",SO-2,St. John Fisher,16.87,Brockport Multi & Invitational,"Apr 14, 2023",1.6,110 Hurdles,Empire 8 Outdoor Performance List,Men
+7,"DeShane, Ryan",FR-1,Nazareth,17.12,Geneseo Early Season Invitational,"Apr 2, 2023",-2.1,110 Hurdles,Empire 8 Outdoor Performance List,Men
+8,"DeKing, Cole",SO-2,Utica,17.13,Wesleyan Swanson Invite,"Mar 26, 2023",2.4,110 Hurdles,Empire 8 Outdoor Performance List,Men
+9,"Bowers, Josiah",SR-4,St. John Fisher,17.72,Brockport Multi & Invitational,"Apr 14, 2023",0.6,110 Hurdles,Empire 8 Outdoor Performance List,Men
+10,"Pomykaj, Jack",FR-1,Nazareth,17.81,Brockport Multi & Invitational,"Apr 14, 2023",1.0,110 Hurdles,Empire 8 Outdoor Performance List,Men
+1,"Abuelmaali, Rashid",JR,Alfred,57.12,2023 Messiah Multi/Invitational,"Apr 13, 2023",NaN,400 Hurdles,Empire 8 Outdoor Performance List,Men
+2,"Lund, Aaron",FR-1,Nazareth,57.76,Geneseo Early Season Invitational,"Apr 2, 2023",NaN,400 Hurdles,Empire 8 Outdoor Performance List,Men
+3,"Mecca, George",SO-2,Alfred,58.22,2023 Messiah Multi/Invitational,"Apr 13, 2023",NaN,400 Hurdles,Empire 8 Outdoor Performance List,Men
+4,"Ruggio, John",JR-3,St. John Fisher,58.25,Brockport Multi & Invitational,"Apr 14, 2023",NaN,400 Hurdles,Empire 8 Outdoor Performance List,Men
+5,"Simmons, Jonathan",SO-2,Utica,58.96,Jerry Gravel Classic,"Apr 15, 2023",NaN,400 Hurdles,Empire 8 Outdoor Performance List,Men
+6,"Defio, Luke",SO-2,St. John Fisher,59.58,Brockport Multi & Invitational,"Apr 14, 2023",NaN,400 Hurdles,Empire 8 Outdoor Performance List,Men
+7,"Thomas, Holden",FR-1,Nazareth,59.81,Brockport Multi & Invitational,"Apr 14, 2023",NaN,400 Hurdles,Empire 8 Outdoor Performance List,Men
+8,"Billinger, TyJon",FR-1,Utica,1:00.25,2023 Hamilton College Continental Invitational,"Apr 1, 2023",NaN,400 Hurdles,Empire 8 Outdoor Performance List,Men
+9,"Wieder, Andrew",JR-3,Utica,1:01.38,Utica Pioneer Spring Invite,"Apr 7, 2023",NaN,400 Hurdles,Empire 8 Outdoor Performance List,Men
+10,"Welch, Mike",SR-4,Nazareth,1:02.01,Geneseo Early Season Invitational,"Apr 2, 2023",NaN,400 Hurdles,Empire 8 Outdoor Performance List,Men
+1,"Mix, Mackenzie",SO-2,Utica,1:07.57,Jerry Gravel Classic,"Apr 15, 2023",NaN,400 Hurdles,Empire 8 Outdoor Performance List,Women
+2,"Wisniewski, Alexandria",SO-2,Houghton,1:08.20,Brockport Multi & Invitational,"Apr 14, 2023",NaN,400 Hurdles,Empire 8 Outdoor Performance List,Women
+3,"Le, Brenda",SO-2,St. John Fisher,1:08.38,Geneseo Early Season Invitational,"Apr 2, 2023",NaN,400 Hurdles,Empire 8 Outdoor Performance List,Women
+4,"Fredrickson, Hayly",SO-2,St. John Fisher,1:09.77,Brockport Multi & Invitational,"Apr 14, 2023",NaN,400 Hurdles,Empire 8 Outdoor Performance List,Women
+5,"Meade, Laura",SR-4,Utica,1:10.03,Jerry Gravel Classic,"Apr 15, 2023",NaN,400 Hurdles,Empire 8 Outdoor Performance List,Women
+6,"Susa, Shiana",FR-1,Nazareth,1:10.81,Geneseo Early Season Invitational,"Apr 2, 2023",NaN,400 Hurdles,Empire 8 Outdoor Performance List,Women
+7,"Luba, Samantha",FR-1,Nazareth,1:11.24,Geneseo Early Season Invitational,"Apr 2, 2023",NaN,400 Hurdles,Empire 8 Outdoor Performance List,Women
+8,"Rexford, Lily",FR-1,St. John Fisher,1:13.86,Geneseo Early Season Invitational,"Apr 2, 2023",NaN,400 Hurdles,Empire 8 Outdoor Performance List,Women
+9,"Spivey, Tirzah",FR-1,Sage,1:15.15,RPI Under the Lights Invite 2023,"Apr 14, 2023",NaN,400 Hurdles,Empire 8 Outdoor Performance List,Women
+10,"Widmer, Katie",SO-2,Houghton,1:18.57,Brockport Multi & Invitational,"Apr 14, 2023",NaN,400 Hurdles,Empire 8 Outdoor Performance List,Women
+1,"Roberts, Michael",JR-3,Utica,10:05.12,2023 Hamilton College Continental Invitational,"Apr 1, 2023",NaN,3000 Steeplechase,Empire 8 Outdoor Performance List,Men
+2,"Havens, Kevin",SR-4,St. John Fisher,10:21.79,Utica Pioneer Spring Invite,"Apr 7, 2023",NaN,3000 Steeplechase,Empire 8 Outdoor Performance List,Men
+3,"Dean, Finnegan",FR-1,Alfred,10:30.68,Geneseo Early Season Invitational,"Apr 2, 2023",NaN,3000 Steeplechase,Empire 8 Outdoor Performance List,Men
+4,"Jeralds, Tobias",FR-1,Utica,10:31.35,2023 Hamilton College Continental Invitational,"Apr 1, 2023",NaN,3000 Steeplechase,Empire 8 Outdoor Performance List,Men
+5,"Leotta, Anthony",FR-1,Utica,10:42.27,2023 Hamilton College Continental Invitational,"Apr 1, 2023",NaN,3000 Steeplechase,Empire 8 Outdoor Performance List,Men
+6,"Rozvora, Bogdan",SR-4,St. John Fisher,10:43.15,Geneseo Early Season Invitational,"Apr 2, 2023",NaN,3000 Steeplechase,Empire 8 Outdoor Performance List,Men
+7,"Brown, Zachary",FR-1,Utica,10:59.66,2023 Hamilton College Continental Invitational,"Apr 1, 2023",NaN,3000 Steeplechase,Empire 8 Outdoor Performance List,Men
+8,"Sandoval, Joshua",SO-2,St. John Fisher,11:25.34,Brockport Multi & Invitational,"Apr 14, 2023",NaN,3000 Steeplechase,Empire 8 Outdoor Performance List,Men
+9,"Anderson, Brian",JR,Alfred,11:27.76,2023 Messiah Multi/Invitational,"Apr 13, 2023",NaN,3000 Steeplechase,Empire 8 Outdoor Performance List,Men
+10,"Full, Kyle",FR,Alfred,12:35.84,2023 Messiah Multi/Invitational,"Apr 13, 2023",NaN,3000 Steeplechase,Empire 8 Outdoor Performance List,Men
+1,"Weaver, Emily",SR-4,Nazareth,11:49.97,Bison Outdoor Classic,"Apr 14, 2023",NaN,3000 Steeplechase,Empire 8 Outdoor Performance List,Women
+2,"Dening, Jade",SO-2,Utica,12:15.46,2023 Hamilton College Continental Invitational,"Apr 1, 2023",NaN,3000 Steeplechase,Empire 8 Outdoor Performance List,Women
+3,"Antonini, Sabrina",SO-2,St. John Fisher,12:36.57,Utica Pioneer Spring Invite,"Apr 7, 2023",NaN,3000 Steeplechase,Empire 8 Outdoor Performance List,Women
+4,"O'Toole, Ashley",SR-4,Alfred,12:59.84,2023 Messiah Multi/Invitational,"Apr 13, 2023",NaN,3000 Steeplechase,Empire 8 Outdoor Performance List,Women
+5,"McCoy, Kennedy",SO-2,Houghton,13:10.84,Brockport Multi & Invitational,"Apr 14, 2023",NaN,3000 Steeplechase,Empire 8 Outdoor Performance List,Women
+6,"List, Allison",FR-1,St. John Fisher,13:13.30,Brockport Multi & Invitational,"Apr 14, 2023",NaN,3000 Steeplechase,Empire 8 Outdoor Performance List,Women
+7,"Dolloff, Maggie",SO-2,St. John Fisher,13:51.50,Brockport Multi & Invitational,"Apr 14, 2023",NaN,3000 Steeplechase,Empire 8 Outdoor Performance List,Women
+8,"Burlette, Noella",SO-2,Utica,14:08.67,2023 Hamilton College Continental Invitational,"Apr 1, 2023",NaN,3000 Steeplechase,Empire 8 Outdoor Performance List,Women
+9,"Reed, Kyla",FR-1,Utica,14:29.10,2023 Hamilton College Continental Invitational,"Apr 1, 2023",NaN,3000 Steeplechase,Empire 8 Outdoor Performance List,Women
+10,"Ridgway, Sophie",SO-2,Hartwick,15:05.65,Utica Pioneer Spring Invite,"Apr 7, 2023",NaN,3000 Steeplechase,Empire 8 Outdoor Performance List,Women
+1,"Wright, Hadasz, Tinney, Kain",NA,Utica,43.01,Utica Pioneer Spring Invite,"Apr 7, 2023",NaN,4 x 100 Relay,Empire 8 Outdoor Performance List,Men
+2,"Wendt, Jackson, Joseph, Peters",NA,Alfred,43.73,2023 Jim Taylor Invite,"Mar 24, 2023",NaN,4 x 100 Relay,Empire 8 Outdoor Performance List,Men
+3,"Cuvilly, Ferris, Wynn, Bishop",NA,St. John Fisher,43.77,Utica Pioneer Spring Invite,"Apr 7, 2023",NaN,4 x 100 Relay,Empire 8 Outdoor Performance List,Men
+4,"Conteh, Best, Worrell, Mason",NA,Hartwick,45.33,2023 Hamilton College Continental Invitational,"Apr 1, 2023",NaN,4 x 100 Relay,Empire 8 Outdoor Performance List,Men
+5,"Adadjo, Harkness, Rivera, Simpson",NA,Sage,47.15,RPI Under the Lights Invite 2023,"Apr 14, 2023",NaN,4 x 100 Relay,Empire 8 Outdoor Performance List,Men
+1,"Kurbs, Shea, Lettsome, Franz",NA,St. John Fisher,48.01,Bison Outdoor Classic,"Apr 14, 2023",NaN,4 x 100 Relay,Empire 8 Outdoor Performance List,Women
+2,"Morley, Johnson, Lasher, Ragule",NA,Nazareth,51.70,Brockport Multi & Invitational,"Apr 14, 2023",NaN,4 x 100 Relay,Empire 8 Outdoor Performance List,Women
+3,"Clarke, Simione, Glomski, Gholson",NA,Utica,52.32,2023 Hamilton College Continental Invitational,"Apr 1, 2023",NaN,4 x 100 Relay,Empire 8 Outdoor Performance List,Women
+4,"Wisniewski, Shaker, Heinl, Siewert",NA,Houghton,52.56,Brockport Multi & Invitational,"Apr 14, 2023",NaN,4 x 100 Relay,Empire 8 Outdoor Performance List,Women
+5,"Durso, Young, Ryckman, Spila",NA,Alfred,53.51,Myrtle Beach Collegiate Challenge,"Mar 10, 2023",NaN,4 x 100 Relay,Empire 8 Outdoor Performance List,Women
+1,"Welch, McAllister, Savage, Lewis",NA,Nazareth,3:25.39,RIT Invitational,"Apr 8, 2023",NaN,4 x 400 Relay,Empire 8 Outdoor Performance List,Men
+2,"Hadasz, Kain, Simmons, Flynn",NA,Utica,3:32.65,Wesleyan Swanson Invite,"Mar 26, 2023",NaN,4 x 400 Relay,Empire 8 Outdoor Performance List,Men
+3,"Briggs, Andersen, Ferris, Acquard",NA,St. John Fisher,3:34.82,Utica Pioneer Spring Invite,"Apr 7, 2023",NaN,4 x 400 Relay,Empire 8 Outdoor Performance List,Men
+4,"Kerr, Thammavong, Lagos, Lagos",NA,Alfred,3:39.01,2023 Messiah Multi/Invitational,"Apr 13, 2023",NaN,4 x 400 Relay,Empire 8 Outdoor Performance List,Men
+5,"Harkness, Langer, Pellegrini, Adadjo",NA,Sage,3:46.30,Utica Pioneer Spring Invite,"Apr 7, 2023",NaN,4 x 400 Relay,Empire 8 Outdoor Performance List,Men
+6,"Freda, Rogers, Mason, Catalano",NA,Hartwick,3:48.02,Utica Pioneer Spring Invite,"Apr 7, 2023",NaN,4 x 400 Relay,Empire 8 Outdoor Performance List,Men
+7,"Brito, Nasso, Belanger, Lewandowski",NA,Houghton,3:48.22,Geneseo Early Season Invitational,"Apr 2, 2023",NaN,4 x 400 Relay,Empire 8 Outdoor Performance List,Men
+1,"Dening, Burlette, Reed, Zacharewicz",NA,Utica,4:08.58,Jerry Gravel Classic,"Apr 15, 2023",NaN,4 x 400 Relay,Empire 8 Outdoor Performance List,Women
+2,"Susa, Luba, LaSalle, Heath",NA,Nazareth,4:23.24,RIT Invitational,"Apr 8, 2023",NaN,4 x 400 Relay,Empire 8 Outdoor Performance List,Women
+3,"O'Toole, Solly, Lutkins, Hall",NA,Alfred,4:32.24,2023 Jim Taylor Invite,"Mar 24, 2023",NaN,4 x 400 Relay,Empire 8 Outdoor Performance List,Women
+4,"Spivey, Ivery, Losee, Feeney",NA,Sage,4:46.30,Utica Pioneer Spring Invite,"Apr 7, 2023",NaN,4 x 400 Relay,Empire 8 Outdoor Performance List,Women
+1,"Mecca, Flint, Sokolovsky, Sesmas",NA,Alfred,8:33.23,2023 Messiah Multi/Invitational,"Apr 13, 2023",NaN,4 x 800 Relay,Empire 8 Outdoor Performance List,Men
+2,"Brown, Jeralds, Leotta, Lohmann",NA,Utica,8:49.42,Wesleyan Swanson Invite,"Mar 26, 2023",NaN,4 x 800 Relay,Empire 8 Outdoor Performance List,Men
+1,"Gilbert, Hall, Lutkins, Page",NA,Alfred,10:20.24,2023 Messiah Multi/Invitational,"Apr 13, 2023",NaN,4 x 800 Relay,Empire 8 Outdoor Performance List,Women
+2,"Sharpe, Dening, Burlette, Reed",NA,Utica,10:58.40,Wesleyan Swanson Invite,"Mar 26, 2023",NaN,4 x 800 Relay,Empire 8 Outdoor Performance List,Women
+1,"Cochrane, Sean",JR-3,St. John Fisher,1.96m,Brockport Multi & Invitational,"Apr 14, 2023",NaN,High Jump,Empire 8 Outdoor Performance List,Men
+2,"Wright, Zuriel",JR-3,Utica,1.95m,2023 Hamilton College Continental Invitational,"Apr 1, 2023",NaN,High Jump,Empire 8 Outdoor Performance List,Men
+2,"DePaull, Bryant",FR-1,St. John Fisher,1.95m,Utica Pioneer Spring Invite,"Apr 7, 2023",NaN,High Jump,Empire 8 Outdoor Performance List,Men
+4,"McCaskill, Kaiden",FR-1,Utica,1.90m,Jerry Gravel Classic,"Apr 15, 2023",NaN,High Jump,Empire 8 Outdoor Performance List,Men
+5,"Lewandowski, Brennan",SO-2,Houghton,1.86m,Brockport Multi & Invitational,"Apr 14, 2023",NaN,High Jump,Empire 8 Outdoor Performance List,Men
+6,"Hobin, Blake",FR-1,Utica,1.85m,Wesleyan Swanson Invite,"Mar 26, 2023",NaN,High Jump,Empire 8 Outdoor Performance List,Men
+7,"Reid, Kyle",SO-2,Nazareth,1.81m,Brockport Multi & Invitational,"Apr 14, 2023",NaN,High Jump,Empire 8 Outdoor Performance List,Men
+7,"DeVasto, A.J.",SR-4,Nazareth,1.81m,Brockport Multi & Invitational,"Apr 14, 2023",NaN,High Jump,Empire 8 Outdoor Performance List,Men
+9,"Wieder, Andrew",JR-3,Utica,1.80m,Wesleyan Swanson Invite,"Mar 26, 2023",NaN,High Jump,Empire 8 Outdoor Performance List,Men
+10,"Yeager, Malachi",JR-3,Houghton,1.78m,Bison Outdoor Classic,"Apr 14, 2023",NaN,High Jump,Empire 8 Outdoor Performance List,Men
+1,"Williamson, Hayden",SO-2,Houghton,1.57m,RIT Invitational,"Apr 8, 2023",NaN,High Jump,Empire 8 Outdoor Performance List,Women
+2,"Vogel, Claudia",JR-3,St. John Fisher,1.52m,Brockport Multi & Invitational,"Apr 14, 2023",NaN,High Jump,Empire 8 Outdoor Performance List,Women
+2,"Durso, Bianca",JR-3,Alfred,1.52m,2023 Jim Taylor Invite,"Mar 24, 2023",NaN,High Jump,Empire 8 Outdoor Performance List,Women
+2,"Jacques, Sarah",FR-1,St. John Fisher,1.52m,Brockport Multi & Invitational,"Apr 14, 2023",NaN,High Jump,Empire 8 Outdoor Performance List,Women
+5,"Sinclair, Amina",SO-2,Utica,1.48m,Wesleyan Swanson Invite,"Mar 26, 2023",NaN,High Jump,Empire 8 Outdoor Performance List,Women
+6,"Morley, Alaina",FR-1,Nazareth,1.47m,Geneseo Early Season Invitational,"Apr 2, 2023",NaN,High Jump,Empire 8 Outdoor Performance List,Women
+6,"Spila, Anne",SO-2,Alfred,1.47m,2023 Jim Taylor Invite,"Mar 24, 2023",NaN,High Jump,Empire 8 Outdoor Performance List,Women
+6,"Carlson, Angela",SO-2,St. John Fisher,1.47m,Brockport Multi & Invitational,"Apr 14, 2023",NaN,High Jump,Empire 8 Outdoor Performance List,Women
+9,"Williams, Aaliyah",FR-1,Hartwick,1.45m,Utica Pioneer Spring Invite,"Apr 7, 2023",NaN,High Jump,Empire 8 Outdoor Performance List,Women
+10,"Ion, Ana",SO-2,Alfred,1.42m,2023 Jim Taylor Invite,"Mar 24, 2023",NaN,High Jump,Empire 8 Outdoor Performance List,Women
+1,"Pomerleau, Josh",SR-4,Nazareth,4.30m,Geneseo Early Season Invitational,"Apr 2, 2023",NaN,Pole Vault,Empire 8 Outdoor Performance List,Men
+2,"Bletsko, Jason",FR-1,Nazareth,4.10m,Geneseo Early Season Invitational,"Apr 2, 2023",NaN,Pole Vault,Empire 8 Outdoor Performance List,Men
+3,"Rathburn, Jack",FR-1,Utica,4.00m,Wesleyan Swanson Invite,"Mar 26, 2023",NaN,Pole Vault,Empire 8 Outdoor Performance List,Men
+4,"Pomykaj, Jack",FR-1,Nazareth,3.90m,Brockport Multi & Invitational,"Apr 14, 2023",NaN,Pole Vault,Empire 8 Outdoor Performance List,Men
+5,"Yeager, Malachi",JR-3,Houghton,3.85m,Bison Outdoor Classic,"Apr 14, 2023",NaN,Pole Vault,Empire 8 Outdoor Performance List,Men
+6,"Szekeres, Brady",SO-2,Utica,3.50m,Utica Pioneer Spring Invite,"Apr 7, 2023",NaN,Pole Vault,Empire 8 Outdoor Performance List,Men
+6,"Wieder, Andrew",JR-3,Utica,3.50m,Utica Pioneer Spring Invite,"Apr 7, 2023",NaN,Pole Vault,Empire 8 Outdoor Performance List,Men
+8,"Palmer, Adam",SO-2,St. John Fisher,3.40m,Geneseo Early Season Invitational,"Apr 2, 2023",NaN,Pole Vault,Empire 8 Outdoor Performance List,Men
+8,"Blowers, Maxwell",SR-4,St. John Fisher,3.40m,Brockport Multi & Invitational,"Apr 14, 2023",NaN,Pole Vault,Empire 8 Outdoor Performance List,Men
+10,"Lund, Aaron",FR-1,Nazareth,3.25m,RIT Invitational,"Apr 8, 2023",NaN,Pole Vault,Empire 8 Outdoor Performance List,Men
+1,"Morse, Isabel",FR-1,Nazareth,3.40m,Brockport Multi & Invitational,"Apr 14, 2023",NaN,Pole Vault,Empire 8 Outdoor Performance List,Women
+2,"Tornusciolo, Kiara",FR-1,Nazareth,3.15m,Geneseo Early Season Invitational,"Apr 2, 2023",NaN,Pole Vault,Empire 8 Outdoor Performance List,Women
+3,"Frech, Emily",SO-2,St. John Fisher,2.80m,Utica Pioneer Spring Invite,"Apr 7, 2023",NaN,Pole Vault,Empire 8 Outdoor Performance List,Women
+4,"Fredrickson, Hayly",SO-2,St. John Fisher,2.70m,Geneseo Early Season Invitational,"Apr 2, 2023",NaN,Pole Vault,Empire 8 Outdoor Performance List,Women
+5,"Fischler, Sofie",SO-2,Nazareth,2.65m,RIT Invitational,"Apr 8, 2023",NaN,Pole Vault,Empire 8 Outdoor Performance List,Women
+1,"Wright, Zuriel",JR-3,Utica,6.80m,Wesleyan Swanson Invite,"Mar 26, 2023",4.0,Long Jump,Empire 8 Outdoor Performance List,Men
+2,"Lopez-Testillano, Ivan",SR-4,St. John Fisher,6.72m,Geneseo Early Season Invitational,"Apr 2, 2023",0.1,Long Jump,Empire 8 Outdoor Performance List,Men
+3,"Reifsteck, Adam",FR-1,Nazareth,6.45m,Brockport Multi & Invitational,"Apr 14, 2023",2.1,Long Jump,Empire 8 Outdoor Performance List,Men
+4,"DePaull, Bryant",FR-1,St. John Fisher,6.40m,Geneseo Early Season Invitational,"Apr 2, 2023",0.7,Long Jump,Empire 8 Outdoor Performance List,Men
+5,"Billinger, TyJon",FR-1,Utica,6.32m,Jerry Gravel Classic,"Apr 15, 2023",1.6,Long Jump,Empire 8 Outdoor Performance List,Men
+6,"Cochrane, Sean",JR-3,St. John Fisher,6.30m,Geneseo Early Season Invitational,"Apr 2, 2023",1.8,Long Jump,Empire 8 Outdoor Performance List,Men
+7,"Ryan, Andrew",FR-1,Houghton,6.20m,Geneseo Early Season Invitational,"Apr 2, 2023",0.6,Long Jump,Empire 8 Outdoor Performance List,Men
+8,"Lund, Aaron",FR-1,Nazareth,6.17m,Brockport Multi & Invitational,"Apr 14, 2023",1.7,Long Jump,Empire 8 Outdoor Performance List,Men
+9,"Yeager, Malachi",JR-3,Houghton,6.10m,Bison Outdoor Classic,"Apr 14, 2023",0.9,Long Jump,Empire 8 Outdoor Performance List,Men
+10,"Pomykaj, Jack",FR-1,Nazareth,6.09m,Brockport Multi & Invitational,"Apr 14, 2023",1.8,Long Jump,Empire 8 Outdoor Performance List,Men
+1,"Kurbs, Michaela",JR-3,St. John Fisher,5.57m,Brockport Multi & Invitational,"Apr 14, 2023",1.2,Long Jump,Empire 8 Outdoor Performance List,Women
+2,"Duell, Veronica",SO-2,St. John Fisher,5.53m,Geneseo Early Season Invitational,"Apr 2, 2023",1.7,Long Jump,Empire 8 Outdoor Performance List,Women
+3,"Johnson, Brenna",SR-4,Nazareth,5.49m,Brockport Multi & Invitational,"Apr 14, 2023",1.5,Long Jump,Empire 8 Outdoor Performance List,Women
+4,"Spila, Anne",SO-2,Alfred,5.44m,Geneseo Early Season Invitational,"Apr 2, 2023",1.4,Long Jump,Empire 8 Outdoor Performance List,Women
+5,"Leahey, McKenzie",SR-4,Nazareth,5.20m,Brockport Multi & Invitational,"Apr 14, 2023",0.1,Long Jump,Empire 8 Outdoor Performance List,Women
+6,"Ragule, Hannah",JR-3,Nazareth,5.16m,Brockport Multi & Invitational,"Apr 14, 2023",+0.0,Long Jump,Empire 8 Outdoor Performance List,Women
+7,"Devitt, Nora",SO-2,Utica,5.09m,Utica Pioneer Spring Invite,"Apr 7, 2023",1.2,Long Jump,Empire 8 Outdoor Performance List,Women
+7,"Heath, Isabella",JR-3,Nazareth,5.09m,RIT Invitational,"Apr 8, 2023",+0.0,Long Jump,Empire 8 Outdoor Performance List,Women
+9,"Meade, Laura",SR-4,Utica,5.03m,Wesleyan Swanson Invite,"Mar 26, 2023",2.0,Long Jump,Empire 8 Outdoor Performance List,Women
+10,"Durso, Bianca",JR-3,Alfred,5.00m,2023 Messiah Multi/Invitational,"Apr 13, 2023",0.4,Long Jump,Empire 8 Outdoor Performance List,Women
+1,"Lopez-Testillano, Ivan",SR-4,St. John Fisher,14.30m,Brockport Multi & Invitational,"Apr 14, 2023",-0.5,Triple Jump,Empire 8 Outdoor Performance List,Men
+2,"Billinger, TyJon",FR-1,Utica,13.21m,2023 Hamilton College Continental Invitational,"Apr 1, 2023",+0.0,Triple Jump,Empire 8 Outdoor Performance List,Men
+3,"Belanger, Avery",FR-1,Houghton,13.12m,Geneseo Early Season Invitational,"Apr 2, 2023",2.0,Triple Jump,Empire 8 Outdoor Performance List,Men
+4,"Rivera, Noah",FR-1,Sage,12.95m,2023 Hamilton College Continental Invitational,"Apr 1, 2023",2.2,Triple Jump,Empire 8 Outdoor Performance List,Men
+5,"DeShane, Ryan",FR-1,Nazareth,12.33m,Geneseo Early Season Invitational,"Apr 2, 2023",2.5,Triple Jump,Empire 8 Outdoor Performance List,Men
+6,"Schools, Jordan",SR,Alfred,12.30m,2023 Messiah Multi/Invitational,"Apr 13, 2023",1.0,Triple Jump,Empire 8 Outdoor Performance List,Men
+7,"Reifsteck, Adam",FR-1,Nazareth,12.25m,Brockport Multi & Invitational,"Apr 14, 2023",0.7,Triple Jump,Empire 8 Outdoor Performance List,Men
+8,"Jones, Cooper",SO-2,Utica,11.82m,Jerry Gravel Classic,"Apr 15, 2023",0.3,Triple Jump,Empire 8 Outdoor Performance List,Men
+8,"Luckey, Gavin",JR-3,Houghton,11.82m,Brockport Multi & Invitational,"Apr 14, 2023",+0.0,Triple Jump,Empire 8 Outdoor Performance List,Men
+1,"Perry, Danielle",JR,Alfred,11.07m,2023 Messiah Multi/Invitational,"Apr 13, 2023",-0.6,Triple Jump,Empire 8 Outdoor Performance List,Women
+2,"Meade, Laura",SR-4,Utica,10.96m,Jerry Gravel Classic,"Apr 15, 2023",0.3,Triple Jump,Empire 8 Outdoor Performance List,Women
+3,"Ragule, Hannah",JR-3,Nazareth,10.83m,RIT Invitational,"Apr 8, 2023",0.2,Triple Jump,Empire 8 Outdoor Performance List,Women
+4,"Solly, Nyah",FR-1,Alfred,10.78m,2023 Jim Taylor Invite,"Mar 24, 2023",+0.0,Triple Jump,Empire 8 Outdoor Performance List,Women
+5,"Ion, Ana",SO-2,Alfred,10.66m,2023 Jim Taylor Invite,"Mar 24, 2023",+0.0,Triple Jump,Empire 8 Outdoor Performance List,Women
+6,"Devitt, Nora",SO-2,Utica,10.61m,Utica Pioneer Spring Invite,"Apr 7, 2023",0.1,Triple Jump,Empire 8 Outdoor Performance List,Women
+7,"Heath, Isabella",JR-3,Nazareth,10.58m,RIT Invitational,"Apr 8, 2023",+0.0,Triple Jump,Empire 8 Outdoor Performance List,Women
+8,"LaSalle, Sydney",FR-1,Nazareth,10.22m,RIT Invitational,"Apr 8, 2023",+0.0,Triple Jump,Empire 8 Outdoor Performance List,Women
+9,"Gholson, Zeniyah",FR-1,Utica,9.99m,Utica Pioneer Spring Invite,"Apr 7, 2023",2.1,Triple Jump,Empire 8 Outdoor Performance List,Women
+10,"Leahey, McKenzie",SR-4,Nazareth,9.93m,RIT Invitational,"Apr 8, 2023",+0.0,Triple Jump,Empire 8 Outdoor Performance List,Women
+1,"Logan, Hunter",JR-3,Utica,15.86m,Utica Pioneer Spring Invite,"Apr 7, 2023",NaN,Shot Put,Empire 8 Outdoor Performance List,Men
+2,"Coddington, John",SO-2,Sage,14.65m,RPI Under the Lights Invite 2023,"Apr 14, 2023",NaN,Shot Put,Empire 8 Outdoor Performance List,Men
+3,"Crocker, Jason",FR-1,Alfred,14.11m,Geneseo Early Season Invitational,"Apr 2, 2023",NaN,Shot Put,Empire 8 Outdoor Performance List,Men
+4,"Mays III, Billie",SO-2,Utica,13.89m,Jerry Gravel Classic,"Apr 15, 2023",NaN,Shot Put,Empire 8 Outdoor Performance List,Men
+5,"McCoy, Saul",FR,Alfred,13.61m,2023 Messiah Multi/Invitational,"Apr 13, 2023",NaN,Shot Put,Empire 8 Outdoor Performance List,Men
+6,"Swavely, Justin",SO-2,Utica,13.44m,2023 Hamilton College Continental Invitational,"Apr 1, 2023",NaN,Shot Put,Empire 8 Outdoor Performance List,Men
+7,"McNeil, Michael",SO-2,Utica,12.82m,Wesleyan Swanson Invite,"Mar 26, 2023",NaN,Shot Put,Empire 8 Outdoor Performance List,Men
+8,"DeKing, Cole",SO-2,Utica,12.78m,Jerry Gravel Classic,"Apr 15, 2023",NaN,Shot Put,Empire 8 Outdoor Performance List,Men
+9,"Reitz, Nicholas",SR,Alfred,12.01m,2023 Messiah Multi/Invitational,"Apr 13, 2023",NaN,Shot Put,Empire 8 Outdoor Performance List,Men
+10,"Glasser, Ashton",FR-1,St. John Fisher,11.94m,Utica Pioneer Spring Invite,"Apr 7, 2023",NaN,Shot Put,Empire 8 Outdoor Performance List,Men
+1,"Fahy, Jane",SR-4,Utica,12.94m,2023 Hamilton College Continental Invitational,"Apr 1, 2023",NaN,Shot Put,Empire 8 Outdoor Performance List,Women
+2,"King, Makenna",JR-3,St. John Fisher,12.25m,Brockport Multi & Invitational,"Apr 14, 2023",NaN,Shot Put,Empire 8 Outdoor Performance List,Women
+3,"Palmer, Madison",JR-3,Alfred,11.63m,Geneseo Early Season Invitational,"Apr 2, 2023",NaN,Shot Put,Empire 8 Outdoor Performance List,Women
+4,"O'Brien, Lyndsay",SR-4,St. John Fisher,11.23m,Brockport Multi & Invitational,"Apr 14, 2023",NaN,Shot Put,Empire 8 Outdoor Performance List,Women
+5,"McGuinness, Erin",FR-1,St. John Fisher,11.11m,Brockport Multi & Invitational,"Apr 14, 2023",NaN,Shot Put,Empire 8 Outdoor Performance List,Women
+6,"Richard, Lea",JR-3,Nazareth,10.92m,Brockport Multi & Invitational,"Apr 14, 2023",NaN,Shot Put,Empire 8 Outdoor Performance List,Women
+7,"Graves, Duanena",FR-1,Utica,10.69m,Utica Pioneer Spring Invite,"Apr 7, 2023",NaN,Shot Put,Empire 8 Outdoor Performance List,Women
+8,"Bailey, Ranasia",FR-1,Utica,10.19m,Jerry Gravel Classic,"Apr 15, 2023",NaN,Shot Put,Empire 8 Outdoor Performance List,Women
+9,"Evans, Kathryn",SO-2,Houghton,10.11m,Geneseo Early Season Invitational,"Apr 2, 2023",NaN,Shot Put,Empire 8 Outdoor Performance List,Women
+10,"Ion, Ana",SO-2,Alfred,10.09m,2023 Messiah Multi/Invitational,"Apr 13, 2023",NaN,Shot Put,Empire 8 Outdoor Performance List,Women
+1,"Kelly, Antwan",JR-3,Utica,44.52m,Utica Pioneer Spring Invite,"Apr 7, 2023",NaN,Discus,Empire 8 Outdoor Performance List,Men
+2,"Florian, Nathan",SR-4,Utica,43.46m,Utica Pioneer Spring Invite,"Apr 7, 2023",NaN,Discus,Empire 8 Outdoor Performance List,Men
+3,"McNeil, Michael",SO-2,Utica,38.84m,Utica Pioneer Spring Invite,"Apr 7, 2023",NaN,Discus,Empire 8 Outdoor Performance List,Men
+4,"Coddington, John",SO-2,Sage,38.49m,Utica Pioneer Spring Invite,"Apr 7, 2023",NaN,Discus,Empire 8 Outdoor Performance List,Men
+5,"Yeager, Malachi",JR-3,Houghton,38.46m,Geneseo Early Season Invitational,"Apr 2, 2023",NaN,Discus,Empire 8 Outdoor Performance List,Men
+6,"Parnapy, Andrew",SO-2,Alfred,38.28m,2023 Messiah Multi/Invitational,"Apr 13, 2023",NaN,Discus,Empire 8 Outdoor Performance List,Men
+7,"Grove, Bryce",FR-1,St. John Fisher,37.82m,Utica Pioneer Spring Invite,"Apr 7, 2023",NaN,Discus,Empire 8 Outdoor Performance List,Men
+8,"Logan, Hunter",JR-3,Utica,37.77m,Utica Pioneer Spring Invite,"Apr 7, 2023",NaN,Discus,Empire 8 Outdoor Performance List,Men
+9,"Crocker, Jason",FR-1,Alfred,36.93m,2023 Messiah Multi/Invitational,"Apr 13, 2023",NaN,Discus,Empire 8 Outdoor Performance List,Men
+10,"Talbot, Joshua",FR-1,Utica,35.39m,Jerry Gravel Classic,"Apr 15, 2023",NaN,Discus,Empire 8 Outdoor Performance List,Men
+1,"King, Makenna",JR-3,St. John Fisher,42.62m,Utica Pioneer Spring Invite,"Apr 7, 2023",NaN,Discus,Empire 8 Outdoor Performance List,Women
+2,"Fahy, Jane",SR-4,Utica,36.01m,Jerry Gravel Classic,"Apr 15, 2023",NaN,Discus,Empire 8 Outdoor Performance List,Women
+3,"Florian, Sarah",FR-1,Utica,34.52m,Wesleyan Swanson Invite,"Mar 26, 2023",NaN,Discus,Empire 8 Outdoor Performance List,Women
+4,"DeSanctis, Gabrielle",JR-3,Utica,31.04m,Utica Pioneer Spring Invite,"Apr 7, 2023",NaN,Discus,Empire 8 Outdoor Performance List,Women
+5,"McGuinness, Erin",FR-1,St. John Fisher,30.92m,Utica Pioneer Spring Invite,"Apr 7, 2023",NaN,Discus,Empire 8 Outdoor Performance List,Women
+6,"Knapp, Hallie",FR-1,St. John Fisher,30.83m,Utica Pioneer Spring Invite,"Apr 7, 2023",NaN,Discus,Empire 8 Outdoor Performance List,Women
+7,"Palmer, Madison",JR-3,Alfred,30.46m,2023 Messiah Multi/Invitational,"Apr 13, 2023",NaN,Discus,Empire 8 Outdoor Performance List,Women
+8,"Graves, Duanena",FR-1,Utica,29.94m,Utica Pioneer Spring Invite,"Apr 7, 2023",NaN,Discus,Empire 8 Outdoor Performance List,Women
+9,"Enke, Emelia",FR,Alfred,29.92m,2023 Messiah Multi/Invitational,"Apr 13, 2023",NaN,Discus,Empire 8 Outdoor Performance List,Women
+10,"O'Brien, Lyndsay",SR-4,St. John Fisher,29.11m,Utica Pioneer Spring Invite,"Apr 7, 2023",NaN,Discus,Empire 8 Outdoor Performance List,Women
+1,"Kelly, Antwan",JR-3,Utica,51.12m,Jerry Gravel Classic,"Apr 15, 2023",NaN,Hammer,Empire 8 Outdoor Performance List,Men
+2,"Coddington, John",SO-2,Sage,49.49m,Utica Pioneer Spring Invite,"Apr 7, 2023",NaN,Hammer,Empire 8 Outdoor Performance List,Men
+3,"Swavely, Justin",SO-2,Utica,47.51m,Jerry Gravel Classic,"Apr 15, 2023",NaN,Hammer,Empire 8 Outdoor Performance List,Men
+4,"Bickford, Jack",SR-4,St. John Fisher,46.33m,Brockport Multi & Invitational,"Apr 14, 2023",NaN,Hammer,Empire 8 Outdoor Performance List,Men
+5,"Kaplan, Brandon",FR-1,St. John Fisher,44.76m,Utica Pioneer Spring Invite,"Apr 7, 2023",NaN,Hammer,Empire 8 Outdoor Performance List,Men
+6,"Brown, Mark",JR-3,Utica,43.69m,Jerry Gravel Classic,"Apr 15, 2023",NaN,Hammer,Empire 8 Outdoor Performance List,Men
+7,"Borghardt, Spencer",FR-1,Utica,43.32m,Jerry Gravel Classic,"Apr 15, 2023",NaN,Hammer,Empire 8 Outdoor Performance List,Men
+8,"Barnes, Jacob",JR-3,Utica,39.93m,Utica Pioneer Spring Invite,"Apr 7, 2023",NaN,Hammer,Empire 8 Outdoor Performance List,Men
+9,"Berlin, Kenneth",SO-2,Alfred,39.13m,Myrtle Beach Collegiate Challenge,"Mar 10, 2023",NaN,Hammer,Empire 8 Outdoor Performance List,Men
+10,"Talbot, Joshua",FR-1,Utica,37.72m,Jerry Gravel Classic,"Apr 15, 2023",NaN,Hammer,Empire 8 Outdoor Performance List,Men
+1,"Richard, Lea",JR-3,Nazareth,47.23m,Brockport Multi & Invitational,"Apr 14, 2023",NaN,Hammer,Empire 8 Outdoor Performance List,Women
+2,"Palmer, Madison",JR-3,Alfred,43.57m,Geneseo Early Season Invitational,"Apr 2, 2023",NaN,Hammer,Empire 8 Outdoor Performance List,Women
+3,"Costello, Emilia",SO-2,Utica,43.46m,Jerry Gravel Classic,"Apr 15, 2023",NaN,Hammer,Empire 8 Outdoor Performance List,Women
+4,"King, Makenna",JR-3,St. John Fisher,43.32m,Utica Pioneer Spring Invite,"Apr 7, 2023",NaN,Hammer,Empire 8 Outdoor Performance List,Women
+5,"Moyer, Grace",SO-2,Nazareth,42.51m,Geneseo Early Season Invitational,"Apr 2, 2023",NaN,Hammer,Empire 8 Outdoor Performance List,Women
+6,"McIntyre, Jazelle",FR-1,St. John Fisher,40.06m,Geneseo Early Season Invitational,"Apr 2, 2023",NaN,Hammer,Empire 8 Outdoor Performance List,Women
+7,"DeSanctis, Gabrielle",JR-3,Utica,38.81m,Jerry Gravel Classic,"Apr 15, 2023",NaN,Hammer,Empire 8 Outdoor Performance List,Women
+8,"Brinck, Megan",FR-1,Utica,37.45m,Jerry Gravel Classic,"Apr 15, 2023",NaN,Hammer,Empire 8 Outdoor Performance List,Women
+9,"Whorf, Skyler",JR-3,Utica,36.94m,Jerry Gravel Classic,"Apr 15, 2023",NaN,Hammer,Empire 8 Outdoor Performance List,Women
+10,"Bailey, Ranasia",FR-1,Utica,34.58m,Utica Pioneer Spring Invite,"Apr 7, 2023",NaN,Hammer,Empire 8 Outdoor Performance List,Women
+1,"Swavely, Justin",SO-2,Utica,58.92m,Utica Pioneer Spring Invite,"Apr 7, 2023",NaN,Javelin,Empire 8 Outdoor Performance List,Men
+2,"Grove, Bryce",FR-1,St. John Fisher,47.84m,Brockport Multi & Invitational,"Apr 14, 2023",NaN,Javelin,Empire 8 Outdoor Performance List,Men
+3,"Berlin, Kenneth",SO-2,Alfred,47.74m,Geneseo Early Season Invitational,"Apr 2, 2023",NaN,Javelin,Empire 8 Outdoor Performance List,Men
+4,"Jeralds, Tobias",FR-1,Utica,46.50m,Wesleyan Swanson Invite,"Mar 26, 2023",NaN,Javelin,Empire 8 Outdoor Performance List,Men
+5,"Simpson, Kaiden",FR-1,Sage,45.99m,RPI Under the Lights Invite 2023,"Apr 14, 2023",NaN,Javelin,Empire 8 Outdoor Performance List,Men
+6,"Hobin, Blake",FR-1,Utica,45.04m,2023 Hamilton College Continental Invitational,"Apr 1, 2023",NaN,Javelin,Empire 8 Outdoor Performance List,Men
+6,"Barnes, Jacob",JR-3,Utica,45.04m,Jerry Gravel Classic,"Apr 15, 2023",NaN,Javelin,Empire 8 Outdoor Performance List,Men
+8,"Foley, Sean",JR,Alfred,44.74m,2023 Messiah Multi/Invitational,"Apr 13, 2023",NaN,Javelin,Empire 8 Outdoor Performance List,Men
+9,"Burns, Robert",FR-1,Hartwick,44.22m,Cortland Upstate Alternative,"Apr 15, 2023",NaN,Javelin,Empire 8 Outdoor Performance List,Men
+10,"Yeager, Malachi",JR-3,Houghton,43.76m,Geneseo Early Season Invitational,"Apr 2, 2023",NaN,Javelin,Empire 8 Outdoor Performance List,Men
+1,"Nuzzo, Abigail",FR-1,Houghton,29.95m,Geneseo Early Season Invitational,"Apr 2, 2023",NaN,Javelin,Empire 8 Outdoor Performance List,Women
+2,"Meade, Laura",SR-4,Utica,29.94m,Utica Pioneer Spring Invite,"Apr 7, 2023",NaN,Javelin,Empire 8 Outdoor Performance List,Women
+3,"Sylvester, Ada",JR-3,St. John Fisher,28.55m,Geneseo Early Season Invitational,"Apr 2, 2023",NaN,Javelin,Empire 8 Outdoor Performance List,Women
+4,"Knaisch, Abbie",FR-1,Utica,25.88m,Utica Pioneer Spring Invite,"Apr 7, 2023",NaN,Javelin,Empire 8 Outdoor Performance List,Women
+5,"DeSanctis, Gabrielle",JR-3,Utica,25.00m,Wesleyan Swanson Invite,"Mar 26, 2023",NaN,Javelin,Empire 8 Outdoor Performance List,Women
+6,"Vogel, Claudia",JR-3,St. John Fisher,24.64m,Brockport Multi & Invitational,"Apr 14, 2023",NaN,Javelin,Empire 8 Outdoor Performance List,Women
+7,"Spila, Anne",SO-2,Alfred,23.33m,Myrtle Beach Collegiate Challenge,"Mar 10, 2023",NaN,Javelin,Empire 8 Outdoor Performance List,Women
+8,"Palmer, Madison",JR-3,Alfred,22.93m,2023 Jim Taylor Invite,"Mar 24, 2023",NaN,Javelin,Empire 8 Outdoor Performance List,Women
+9,"Durso, Bianca",JR-3,Alfred,21.76m,2023 Messiah Multi/Invitational,"Apr 13, 2023",NaN,Javelin,Empire 8 Outdoor Performance List,Women
+10,"Dinsmore, Atticus",FR-1,Hartwick,21.54m,Cortland Upstate Alternative,"Apr 15, 2023",NaN,Javelin,Empire 8 Outdoor Performance List,Women
+1,"Spila, Anne",SO-2,Alfred,3766,2023 Messiah Multi/Invitational,"Apr 13, 2023",NaN,Heptathlon,Empire 8 Outdoor Performance List,Women
+2,"Durso, Bianca",JR-3,Alfred,3591,2023 Messiah Multi/Invitational,"Apr 13, 2023",NaN,Heptathlon,Empire 8 Outdoor Performance List,Women
+3,"Fredrickson, Logan",SO-2,St. John Fisher,2943,Brockport Multi & Invitational,"Apr 14, 2023",NaN,Heptathlon,Empire 8 Outdoor Performance List,Women
+1,"Yeager, Malachi",JR-3,Houghton,5792,Bison Outdoor Classic,"Apr 14, 2023",NaN,Decathlon,Empire 8 Outdoor Performance List,Men
+2,"Lund, Aaron",FR-1,Nazareth,5647,Brockport Multi & Invitational,"Apr 14, 2023",NaN,Decathlon,Empire 8 Outdoor Performance List,Men
+3,"Pomykaj, Jack",FR-1,Nazareth,5292,Brockport Multi & Invitational,"Apr 14, 2023",NaN,Decathlon,Empire 8 Outdoor Performance List,Men
+4,"Bowers, Josiah",SR-4,St. John Fisher,5113,Brockport Multi & Invitational,"Apr 14, 2023",NaN,Decathlon,Empire 8 Outdoor Performance List,Men
+5,"Blowers, Maxwell",SR-4,St. John Fisher,4805,Brockport Multi & Invitational,"Apr 14, 2023",NaN,Decathlon,Empire 8 Outdoor Performance List,Men
