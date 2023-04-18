@@ -1,3 +1,8 @@
+/* So far this component is unused. 
+I found an easier way to do it through HTML but 
+this may be needed later */
+
+
 export const DropdownItems = [
     {
         id: '1',

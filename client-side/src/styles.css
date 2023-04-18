@@ -2,9 +2,7 @@
     box-sizing: border-box;
 }
 
-body {
-    margin: 0;
-}
+
 
 .container {
     height: 100vh;
@@ -17,44 +15,90 @@ body {
     justify-content: center;
     flex-wrap: wrap;
 }
-/* Below is the Nav Bar Styling */
-
-.navMenu {
+/* ************* Below is the NAV BAR Styling  ************* */
+.navbar{
+    background-color: rgb(241, 241, 241);
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10vw;
-    height: 10vh;
-    width: 100vw;
-    color: black;
+    height: 70px;
     border-bottom: solid black;
-    border-radius: 1rem;
-    padding: 5vw;
+    padding: 2vh;
+    margin-top: 2vh;
+
 
 }
-    /* Below is the Hamburger Menu Styling on Nav Bar */
+
+.navbarItems{
+    height:  50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* This is the Item styling  (just the bullet points tbh*/
+.navButton {
+    margin-left: 2vw;
+    margin-right: 2vw; 
+    color: inherit;    
+    text-align: center;
+    list-style: none;
+
+}
+
+/* This styles the text inside the button */
+.navButton a{
+    padding:1rem;
+    text-decoration: none;
+    color: inherit;
+    font-size: 2vw;
+
+}
+
+/* This styles what happens when the cursor hovers over a navButton*/
+.navButton a:hover {
+    border-radius: .5vw;
+    text-decoration: underline black;
+    cursor:pointer;
+}
+
+
+/* ************* This is the div tag for the NavMenu ************* */
+.navMenu {
+    height: 70px;
+    width: 50px;
+    color: black;
+    border-radius: 1rem;
+}
+/* Below is the Hamburger Menu Styling on Nav Bar */
 
 .hamburgerMenu {
-    height: 6vw;
-    width: 30vw;
+    margin-top: 3vh;
+    height: inherit;
+    width: inherit;
 }
 
 .childrenButton button{
     background-color: none;
-    margin: 2px;
     position:relative;
     text-align: center;
     border: none;
     text-decoration: none;
     font-family:'PT Sans',helvetica;
-    display:inline-block;
+    
     
   }
 
+.childrenButton button:hover{
+    cursor: pointer;
+
+}
+
 .childrenButton img{
     display: block;
-    height: 6vw;
-    width: 10vw;
+    height: 30px;
+    width: 50px;
 }
 
 .hamburgerMenuBtn ul{
@@ -66,7 +110,7 @@ body {
     position: absolute;
     left: 0;
     height: 60vh;
-    width: 40vw;
+    width: 25vw;
     background-color: rgb(255, 255, 255);
     margin: 2vh;
     list-style: none;
@@ -75,7 +119,7 @@ body {
 
 }
 
-/* This is the actual styling of items in the nav bar*/
+/* This is the actual styling of text inside the dropdownMenu */
 .hamburgerListItem a{
     text-decoration: none;
     color: black;
@@ -91,36 +135,7 @@ body {
 
 }      
         
-  
-  /* This is the NavBar Button styling */
-  .navButton {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 6vw;
-    width: 10vw;
-    font-size: 3vw;
-    color: inherit;    
-    text-align: center;
-    list-style: none;
-
-}
-.navButton a{
-    text-decoration: none;
-    color: inherit;
-}
-
-.navButton li{
-    text-decoration: none;
-}
-
-.navButton:hover {
-    border-radius: .5vw;
-    text-decoration: underline black;
-    cursor:pointer;
-}
-
-/* Below is the searchbar styling */
+/* ************* Below is the searchbar styling  ************* */
 .searchBar{
     z-index: 0;
 }
@@ -166,7 +181,7 @@ input:focus{
 
 
 
-/* This is the styling of the Squad rankings page */
+/* ************* This is the styling of the Squad rankings page ************* */
 
 .squadHeader h2{
     padding-left: 5vw;
@@ -225,6 +240,7 @@ input:focus{
     
 }
 
+/* ************** This is the styling of the filter options ************* */
 .filterButton select{
     border: none;
     font-size: large;
@@ -241,7 +257,7 @@ input:focus{
     border: none;
 }
 
-/* This is the styling of the features page */
+/* ************* This is the styling of the features page  ************* */
 
 .featureHeader{
     margin-left: 3rem;
