@@ -8,7 +8,6 @@ import Features from "./pages/Features";
 import Login from "./pages/Login";
 import Indranking from "./pages/Indranking";
 import Squadranking from "./pages/Squadrankings";
-import Meetpredictor from "./pages/Meetpredictor";
 import {Routes, Route} from "react-router-dom";
 
 
@@ -25,7 +24,6 @@ function App() {
           <Route path="/login" element={<Login />}/>
           <Route path="/Indranking" element={<Indranking />}/>
           <Route path="/Squadranking" element={<Squadranking />}/>
-          <Route path="/Meetpredictor" element={<Meetpredictor />}/>
         </Routes>
       </div>
     </>

@@ -1,3 +1,8 @@
+/* So far this component is unused. 
+I found an easier way to do it through HTML but 
+this may be needed later */
+
+
 import React, { useState, useEffect } from "react";
 import {DropdownItems} from "./DropdownItems";
 
