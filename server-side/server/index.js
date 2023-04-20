@@ -3,7 +3,6 @@ const app = express();
 const mysql = require('mysql');
 const cors = require('cors');
 const bodyParser = require('body-parser');
-// import Squadranking from '../../client-side/src/pages/Squadrankings';
 
 app.use(cors());
 app.use(express.json());
@@ -13,24 +12,24 @@ const db = mysql.createPool({
   host: '104.197.133.232',
   user: 'root',
   password: 'AthleticAnalytics',
-  database: 'cciwData'
+  database: 'diii'
 });
 
 app.get("/DivisionIII", (req, res) => {
-  const getOutput = "SELECT * FROM DivisionIII LIMIT 3"
+  const getOutput = "SELECT * FROM CCIW LIMIT 3"
   db.query(getOutput, (err, result) => {
     res.send(result);
   });
 }); 
 
 app.get("/DivisionII", (req, res) => {
-  const getOutput = "SELECT * FROM DivisionIII LIMIT 2"
+  const getOutput = "SELECT * FROM CCIW LIMIT 2"
   db.query(getOutput, (err, result) => {
     res.send(result);
   });
 }); 
 app.get("/DivisionI", (req, res) => {
-  const getOutput = "SELECT * FROM DivisionIII LIMIT 1"
+  const getOutput = "SELECT * FROM CCIW LIMIT 1"
   db.query(getOutput, (err, result) => {
     res.send(result);
   });

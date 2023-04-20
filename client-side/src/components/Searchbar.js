@@ -29,11 +29,11 @@ export default function Searchbar(){
                            
                             return search.toLowerCase() === '' 
                             ? val 
-                            : val.Name.toLowerCase().includes(search);
+                            : val.Athlete.toLowerCase().includes(search);
                             }).map((val) => {
                                 return ( 
                                 <a className='dataItem' href={val.link} target="_blank">
-                                    {val.Name}
+                                    {val.Athlete}
                                 </a>
                                  );
                              })}

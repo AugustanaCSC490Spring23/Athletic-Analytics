@@ -26,7 +26,7 @@ export default function Squadranking(){
         try {
             const axiosLink = "http://localhost:3001/" + division;
             console.log("Send get request " + axiosLink);
-            const response = await Axios.get(axiosLink);
+            const response = await Axios.get(axiosLink); 
             console.log(typeof(response.data));
             console.log("data recieved");
             console.log(response.data);
@@ -148,6 +148,14 @@ export default function Squadranking(){
                     <h3> Team </h3>
                     <h3> Conference </h3>
                     <h3> Score </h3>
+                    {trackList.map((val) => {
+                    return (
+                        <a className='dataItem' href={val.link} target="_blank">
+                            {val.Athlete}
+                        </a>
+                    );
+                    }
+                        )}  
 
                 </div>
 
@@ -165,7 +173,7 @@ export default function Squadranking(){
                     </div>
 
                 </div>
-            </div>  
+            </div>   
                     
 
         </div>
