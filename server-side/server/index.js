@@ -3,7 +3,7 @@ const app = express();
 const mysql = require('mysql');
 const cors = require('cors');
 const bodyParser = require('body-parser');
-import Squadranking from '../../client-side/src/pages/Squadrankings';
+// import Squadranking from '../../client-side/src/pages/Squadrankings';
 
 app.use(cors());
 app.use(express.json());

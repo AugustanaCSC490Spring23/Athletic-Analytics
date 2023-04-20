@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import BurgerMenuIcon from "../icons/BurgerMenuIcon.svg"
 
 const DisplayChildrenButton = ({ children }) => {
   const [showChildren, setShowChildren] = useState(false);
@@ -10,7 +9,7 @@ const DisplayChildrenButton = ({ children }) => {
 
   return (
     <div className="childrenButton">
-      <button onClick={handleButtonClick}><img src={BurgerMenuIcon}></img></button>
+      <button onClick={handleButtonClick}><img src="BurgerMenuIcon"></img></button>
       {showChildren && children}
     </div>
   );

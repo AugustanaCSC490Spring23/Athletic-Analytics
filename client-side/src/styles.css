@@ -15,6 +15,7 @@
     justify-content: center;
     flex-wrap: wrap;
 }
+
 /* ************* Below is the NAV BAR Styling  ************* */
 .navbar{
     background-color: rgb(241, 241, 241);
@@ -37,7 +38,7 @@
     align-items: center;
 }
 
-/* This is the Item styling  (just the bullet points tbh*/
+/* This is the Item styling  (just fixes bullet points tbh)*/
 .navButton {
     margin-left: 2vw;
     margin-right: 2vw; 
@@ -79,7 +80,7 @@
     width: inherit;
 }
 
-.childrenButton button{
+.navChildrenBtn button{
     background-color: none;
     position:relative;
     text-align: center;
@@ -205,7 +206,10 @@ input:focus{
     border-radius: .5rem;
 }
 
-.squadCard{
+.squadCard-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     height: 50vh;
     width: 90vw;
     margin:1vh;
@@ -214,9 +218,23 @@ input:focus{
     box-shadow: 3px 3px 3px 3px black;
 }
 
-.squadCard h1{
-    margin-left: 3rem;
+.squadCard-header{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-decoration: underline;
+
 }
+
+
+.squadInfo{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-decoration: underline;
+    display: flex;
+    justify-content: space-between;
+
+}
+
 .squadContainer p {
     width: 100vw;
     height: 10vh;
@@ -249,11 +267,14 @@ input:focus{
 
 }
 
+ /* removes outline after selecting an option */
+.filterButton select:focus {
+    outline: none;
+  } 
+  
+
 .filterButton select:hover {
     cursor:pointer;
-    border: none;
-}
-.filterButton select:active{
     border: none;
 }
 

@@ -1,6 +1,7 @@
 import { Link, useMatch, useResolvedPath } from 'react-router-dom';
 import navButton from "./NavButton.js";
 import DisplayChildrenButton from './DisplayChildrenBtn.js';
+import BurgerMenuIcon from "../icons/BurgerMenuIcon.svg"
 
     
   export default function Navbar(){
@@ -13,28 +14,30 @@ import DisplayChildrenButton from './DisplayChildrenBtn.js';
                 
                 {/* Below is the HamburgerMenu on Nav Bar */}
                 <div className="hamburgerMenu " > 
-                    <div className="hamburgerMenuBtn" >
-                        <DisplayChildrenButton>
-                                <ul>
+                    <div className="hamburgerMenuBtn"> 
+                        <div className="navChildrenBtn">
+                            <DisplayChildrenButton>
+                                    <ul>
 
-                                <div className="hamburgerListItem">
-                                    <Link to="/"><div>Home</div></Link>
-                                </div>
-                                <div className="hamburgerListItem">  
-                                    <Link to="/Squadranking" > <div>Squad Rank</div></Link>
-                                </div>
-                                <div className="hamburgerListItem"> 
-                                    <Link to="/Indranking" > <div>Individual Rankings</div></Link>
-                                </div>
-                                <div className="hamburgerListItem"> 
-                                    <Link to="/" > <div>Records</div></Link>
-                                </div>
-                                <div className="hamburgerListItem"> 
-                                    <Link to="/" > <div>Recruiting</div></Link>
-                                </div>
-                        
-                            </ul>
-                        </DisplayChildrenButton>
+                                    <div className="hamburgerListItem">
+                                        <Link to="/"><div>Home</div></Link>
+                                    </div>
+                                    <div className="hamburgerListItem">  
+                                        <Link to="/Squadranking" > <div>Squad Rank</div></Link>
+                                    </div>
+                                    <div className="hamburgerListItem"> 
+                                        <Link to="/Indranking" > <div>Individual Rankings</div></Link>
+                                    </div>
+                                    <div className="hamburgerListItem"> 
+                                        <Link to="/" > <div>Records</div></Link>
+                                    </div>
+                                    <div className="hamburgerListItem"> 
+                                        <Link to="/" > <div>Recruiting</div></Link>
+                                    </div>
+                            
+                                </ul>
+                            </DisplayChildrenButton>
+                        </div>
                     </div>
         
                 </div>
