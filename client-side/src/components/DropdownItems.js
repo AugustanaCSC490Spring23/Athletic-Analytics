@@ -22,3 +22,4 @@ export const DropdownItems = [
         cName: 'dropdown-item'
     
     }
+]
