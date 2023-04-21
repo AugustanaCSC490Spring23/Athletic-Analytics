@@ -6,7 +6,7 @@ import Searchbar from "../components/Searchbar.js"
 export default function Home(){
     return(
 
-        <div className="container" >
+        <div className="homeContainer" >
             {/* This is the search bar component */}
             <Searchbar/>
 

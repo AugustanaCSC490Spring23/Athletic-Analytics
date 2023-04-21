@@ -1,5 +1,5 @@
 export default function features(){
-    return <div className="featuresContainer">
+    return <div className=".container">
         <div className="featureHeader">
             <h1>What Athletic Analytics offers...</h1>
 

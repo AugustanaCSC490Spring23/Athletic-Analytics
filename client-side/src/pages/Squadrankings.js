@@ -47,7 +47,7 @@ export default function Squadranking(){
     //}, []);
 
     return (
-    <div>
+    <div className="homeContainer">
         <div className='squadHeader'>
             <h2> Squad Statistics </h2>
             <p>This page will allow you to view stats by school to view their best events, highest scorers, etc.

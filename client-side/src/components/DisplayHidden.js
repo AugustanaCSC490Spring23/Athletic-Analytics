@@ -1,18 +1,17 @@
 import React, { useState } from "react";
 
 const DisplayHidden = ({ children }) => {
-  const [showChildren, setShowChildren] = useState(false);
+const [showChildren, setShowChildren] = useState(false);
 
-  const handleButtonClick = () => {
+const handleButtonClick = () => {
     setShowChildren(!showChildren);
-  };
+};
 
-  return (
+return (
     <div className="showChildren">
       <div onClick={handleButtonClick}></div>
       {showChildren && children}
     </div>
-  );
-};
+  );};
 
 export default DisplayHidden;

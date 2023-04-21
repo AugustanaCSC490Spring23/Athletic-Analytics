@@ -1,9 +1,11 @@
+import React, { useState } from "react";
 import { Link, useMatch, useResolvedPath } from 'react-router-dom';
 import navButton from "./NavButton.js";
 import ToggleNavDropDown from './ToggleNavDropDown.js';
-import BurgerMenuIcon from "../icons/BurgerMenuIcon.svg"
+import BurgerMenuIcon from "../icons/BurgerMenuIcon.svg";
+import handleButtonClick from "./ToggleNavDropDown.js";
 
-    
+  
   export default function Navbar(){
     
     return (
@@ -13,33 +15,33 @@ import BurgerMenuIcon from "../icons/BurgerMenuIcon.svg"
             <div className="navMenu">
                 
                 {/* Below is the HamburgerMenu on Nav Bar */}
-                <div className="hamburgerMenu " > 
                     <div className="hamburgerMenuBtn"> 
                         <div className="navChildrenBtn">
-                            <ToggleNavDropDown>
+                            
+                            <ToggleNavDropDown> {/* className=showChildren */}
+                                
                                     <ul>
 
                                     <div className="hamburgerListItem">
-                                        <Link to="/"><div>Home</div></Link>
+                                        <Link to="/" onClick={handleButtonClick} ><div>Home</div></Link>
                                     </div>
                                     <div className="hamburgerListItem">  
-                                        <Link to="/Squadranking" > <div>Squad Rank</div></Link>
+                                        <Link to="/Squadranking" onClick={handleButtonClick}> <div>Squad Rank</div></Link>
                                     </div>
                                     <div className="hamburgerListItem"> 
-                                        <Link to="/Indranking" > <div>Individual Rankings</div></Link>
+                                        <Link to="/Indranking" onClick={handleButtonClick}> <div>Individual Rankings</div></Link>
                                     </div>
                                     <div className="hamburgerListItem"> 
-                                        <Link to="/" > <div>Records</div></Link>
+
+                                        <Link to="/" onClick={handleButtonClick}> <div>Records</div></Link>
                                     </div>
                                     <div className="hamburgerListItem"> 
-                                        <Link to="/" > <div>Recruiting</div></Link>
+                                        <Link to="/" onClick={handleButtonClick}  > <div>Recruiting</div></Link>
                                     </div>
                             
                                 </ul>
                             </ToggleNavDropDown>
                         </div>
-                    </div>
-        
                 </div>
             </div>
 
@@ -76,8 +78,6 @@ function CustomLink({to, children, ...props }){
     )
 
 }
-
-
 
 
 
