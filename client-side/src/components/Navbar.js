@@ -1,6 +1,6 @@
 import { Link, useMatch, useResolvedPath } from 'react-router-dom';
 import navButton from "./NavButton.js";
-import DisplayChildrenButton from './DisplayChildrenBtn.js';
+import ToggleNavDropDown from './ToggleNavDropDown.js';
 import BurgerMenuIcon from "../icons/BurgerMenuIcon.svg"
 
     
@@ -16,7 +16,7 @@ import BurgerMenuIcon from "../icons/BurgerMenuIcon.svg"
                 <div className="hamburgerMenu " > 
                     <div className="hamburgerMenuBtn"> 
                         <div className="navChildrenBtn">
-                            <DisplayChildrenButton>
+                            <ToggleNavDropDown>
                                     <ul>
 
                                     <div className="hamburgerListItem">
@@ -36,7 +36,7 @@ import BurgerMenuIcon from "../icons/BurgerMenuIcon.svg"
                                     </div>
                             
                                 </ul>
-                            </DisplayChildrenButton>
+                            </ToggleNavDropDown>
                         </div>
                     </div>
         

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Axios from 'axios';
+import DisplayHidden from "./DisplayHidden";
 
 //import SearchIcon from '@mui/icons-material/Search';
 
@@ -17,29 +18,37 @@ export default function Searchbar(){
       return(
 
         <div className="searchbar">
-            <div>
+            
                 <div className="searchInputs">
                     <input type="text" placeholder="Search a college or Athlete..." onChange={(e) => setSearch(e.target.value)} />
                     <div className ='searchIcon'>
                         {/* <SearchIcon/> */}
-                    </div>
-                        {search.length != 0 && 
+                    </div >
+
+                    <div className="searchbar-results">
+                            {search.length != 0 && 
                         
-                         trackList.filter((val) => {
-                           
+                            trackList.filter((val) => {
+                            
                             return search.toLowerCase() === '' 
                             ? val 
                             : val.Athlete.toLowerCase().includes(search);
                             }).map((val) => {
                                 return ( 
-                                <a className='dataItem' href={val.link} target="_blank">
-                                    {val.Athlete}
+                                <a >
+                                    <p className='dataItem' href={val.link} target="_blank">
+                                        {val.Athlete}
+                                        
+                                    </p>
                                 </a>
-                                 );
-                             })}
+                                    );
+                                })}
+
+
+                    </div>
                         
                 </div>
-            </div>
+            
 
 
         </div>
