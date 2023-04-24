@@ -13,7 +13,7 @@ export default function Home(){
             {/* This is where you'll put cards
              that display on the homepage when the database updates the web scrape*/}
 
-        <div className='squadCard'> <h1>Where we will post web scrape updates (new times/records)</h1> </div>
+            <div className='updateCard'> <h1>Where we will post web scrape updates (new times/records)</h1> </div>
 
         </div>
 

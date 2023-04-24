@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Link, useMatch, useResolvedPath } from 'react-router-dom';
 import navButton from "./NavButton.js";
 import ToggleNavDropDown from './ToggleNavDropDown.js';
-import BurgerMenuIcon from "../icons/BurgerMenuIcon.svg";
 import handleButtonClick from "./ToggleNavDropDown.js";
 
   
@@ -16,8 +15,6 @@ import handleButtonClick from "./ToggleNavDropDown.js";
                 
                 {/* Below is the HamburgerMenu on Nav Bar */}
                     <div className="hamburgerMenuBtn"> 
-                        <div className="navChildrenBtn">
-                            
                             <ToggleNavDropDown> {/* className=showChildren */}
                                 
                                     <ul>
@@ -41,7 +38,6 @@ import handleButtonClick from "./ToggleNavDropDown.js";
                             
                                 </ul>
                             </ToggleNavDropDown>
-                        </div>
                 </div>
             </div>
 

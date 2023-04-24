@@ -117,7 +117,8 @@ export default function Squadranking(){
             */}
 
 
-                <select className="manEvents" >
+                <select className="manEvents" placeholder="Event" >
+                    
                     <option> Event </option>
                     <option > 100m Dash</option>
                     <option > 200m Dash</option>
@@ -150,8 +151,7 @@ export default function Squadranking(){
                     <h3> Score </h3>
                     <div className="squadResult">
 
-                    {/*    
-                        <DisplayChildren>
+                       
                             {trackList.map((val) => {
                             return (
                                 <a className='dataItem' href={val.link} target="_blank">
@@ -160,8 +160,7 @@ export default function Squadranking(){
 
                             );
                             })} 
-                         </DisplayChildren>
-                        */}
+                        
                     </div>
 
 

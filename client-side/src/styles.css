@@ -1,6 +1,4 @@
 /* Need to style::
-        dropdown menu for squad selection
-        searchbar options
         squad card styling
 
 */
@@ -9,22 +7,37 @@
     box-sizing: border-box;
 }
 
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
 .container {
+
 }
 .homeContainer{
     border-left: solid black;
     border-right: solid black;
     border-bottom: solid black;
+    width: 80vw;
+
     border-radius: .5rem;
-    margin-left: 6.75vw;
+    margin-left: 7.75vw;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    height: 175vh;
-    width: 80vw;
+    height: 170vh;
     background-repeat: no-repeat;
     background-size: 110%;
     padding-top: 2rem;
@@ -38,6 +51,31 @@
     flex-wrap: wrap;
     background-color: white;
     border-radius: .5rem;
+}
+.featuresContainer {
+    border-left: solid black;
+    border-right: solid black;
+    border-bottom: solid black;
+    margin-left: 7.75vw;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.aboutContainer{
+    border-left: solid black;
+    border-right: solid black;
+    border-bottom: solid black;
+    height: 150vh;
+    width: 80vw;
+    border-radius: .5rem;
+    margin-left: 7.75vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
 }
 
 /* ******* Dropdown component ******* */
@@ -129,6 +167,10 @@
     font-family:'PT Sans',helvetica;
   }
 
+.hamburgerMenuBtn button:hover{
+    cursor: pointer;
+}
+
 .hamburgerMenuBtn ul{
 
     border: solid black;
@@ -162,7 +204,9 @@
     margin-top: 3vh;
 
 }      
-        
+    
+
+/* ************* Homepage ************* */
 /* ************* Below is the searchbar styling  ************* */
 .searchBar{
     height: 5vh;
@@ -215,17 +259,11 @@
     padding-left: 3vw;
     padding-top: .25vh;
     border: 1px solid rgb(167, 164, 164);
-
-
-
 }
 
-.searchbar-results .dataItem:hover{
-    
+.searchbar-results .dataItem:hover{  
     background-color: rgb(224, 224, 224);
     cursor: pointer;
-
-
 }
 
 .searchIcon{
@@ -248,18 +286,62 @@ input:focus{
     color: black;
 }
 
+.updateCard{
+    height: 50vh;
+    width: 60vw;
+    position: absolute;
+    margin-top: 20vh;
+    border-radius: .5rem;
+    box-shadow: 3px 3px 3px 3px black;
+
+}
 
 
 
 /* ************* This is the styling of the Squad rankings page ************* */
+.filterButton {
+    height: 3vh;
+    width: 15vw;
+    margin: 1vw;
+    margin-right: 2vw;
+    background-color: white;
+    border-radius: .5rem;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 3px 3px 3px 3px black;
 
+    
+}
 
+/* ************** This is the styling of the filter options ************* */
+
+/* styles text of the option in the filterButton*/
+.filterButton select{
+    border: none;
+    font-size: 1vw;
+    height:inherit;
+
+}
+
+ /* removes outline after selecting an option */
+.filterButton select:focus {
+    outline: none;
+  } 
+  
+/* styles what happens when user hovers over filterButton*/
+.filterButton select:hover {
+    cursor:pointer;
+    border: none;
+}
+
+/* Styling of the header text inside the squadHeader box */
 .squadHeader h2{
     padding-left: 5vw;
     color: rgb(88, 88, 88);
     text-shadow:rgb(0, 0, 0) -1px .5px;
     text-decoration: underline black;
 }
+/* Styling of the paragraph text inside the squadHeader box */
 
 .squadHeader p{
     padding-left: 5vw;
@@ -268,6 +350,7 @@ input:focus{
 
 .squadCard-header{
     display: flex;
+
     flex-wrap: wrap;
     justify-content: space-between;
     height: 50vh;
@@ -295,6 +378,7 @@ input:focus{
 }
 
 /* ********** SQUAD SELECT DROPDOWN STYLING ********** */
+
 
 /* This just styles the text */
 .squadChildren{
@@ -324,43 +408,14 @@ input:focus{
     padding: 3vh 2vw;
 }
 
-.filterButton {
-    height: 3vh;
-    width: 15vw;
-    margin: 1vw;
-    margin-right: 2vw;
-    background-color: white;
-    border-radius: .5rem;
-    text-align: center;
-    overflow: hidden;
-    box-shadow: 3px 3px 3px 3px black;
-
-    
-}
-
-/* ************** This is the styling of the filter options ************* */
-.filterButton select{
-    border: none;
-    font-size: 2vw;
-    height:inherit;
-
-}
-
- /* removes outline after selecting an option */
-.filterButton select:focus {
-    outline: none;
-  } 
-  
-
-.filterButton select:hover {
-    cursor:pointer;
-    border: none;
-}
 
 /* ************* This is the styling of the features page  ************* */
 
 .featureHeader{
-    margin-left: 3rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 /* This styles the format of the list of items */
@@ -373,9 +428,36 @@ input:focus{
 
 /* This styles the actual items */
 .featureCard{
-    margin: 2rem;
-    border: solid black;
-    padding: 3rem;
+    height: 20vh;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: left;
+    margin-left: 3vw;
 
 
+}
+.featureCard h3{
+    width: 50vw;
+    text-decoration: underline;
+
+}
+
+.featureCard p{
+    margin-left: 10vw;
+    margin-right: 5vw;;
+}
+
+
+/* ************* About Page ************* */
+
+.bioCard{
+    height: 20vh;
+    width: 75vw;
+    margin-top: 2vh;
+    padding: 2vw;
+    border: solid 1px;
+    border-radius: 0rem 1rem 0rem 1rem;
+    box-shadow: 3px 3px 3px 3px black;
+
+    
 }
