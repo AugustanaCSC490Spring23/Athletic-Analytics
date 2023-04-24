@@ -62,7 +62,7 @@ for i in oConferenceList:
                 data[-1].insert(5, "")
                 data[-1].insert(2, "")
             
-            #Removes (55) and # from the time and distance events
+            #Removes unecessary nformation from the times
             if len(data[-1][4].split()) > 1:
                 data[-1][4] = data[-1][4].split()[0]
                 
