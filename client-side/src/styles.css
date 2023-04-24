@@ -26,12 +26,12 @@ p{
 .container {
 
 }
+
 .homeContainer{
     border-left: solid black;
     border-right: solid black;
     border-bottom: solid black;
     width: 80vw;
-
     border-radius: .5rem;
     margin-left: 7.75vw;
     display: flex;
@@ -42,6 +42,7 @@ p{
     background-size: 110%;
     padding-top: 2rem;
 }
+
 .squadContainer {
     height: 100vh;
     width: 80vw;
@@ -52,6 +53,7 @@ p{
     background-color: white;
     border-radius: .5rem;
 }
+
 .featuresContainer {
     border-left: solid black;
     border-right: solid black;
@@ -61,7 +63,6 @@ p{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
 }
 
 .aboutContainer{
@@ -75,13 +76,11 @@ p{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
 }
 
 /* ******* Dropdown component ******* */
 .childrenButton button:hover{
     cursor: pointer;
-
 }
 
 .childrenButton img{
@@ -101,8 +100,6 @@ p{
     border-bottom: solid black;
     padding: 2vh;
     margin-top: 2vh;
-
-
 }
 
 .navbarItems{
@@ -120,7 +117,6 @@ p{
     color: inherit;    
     text-align: center;
     list-style: none;
-
 }
 
 /* This styles the text inside the button */
@@ -129,7 +125,6 @@ p{
     text-decoration: none;
     color: inherit;
     font-size: 2vw;
-
 }
 
 /* This styles what happens when the cursor hovers over a navButton*/
@@ -149,6 +144,7 @@ p{
     color: black;
     border-radius: 1rem;
 }
+
 /* Below is the Hamburger Menu Styling on Nav Bar */
 
 .hamburgerMenu {
@@ -165,14 +161,13 @@ p{
     border: none;
     text-decoration: none;
     font-family:'PT Sans',helvetica;
-  }
+}
 
 .hamburgerMenuBtn button:hover{
     cursor: pointer;
 }
 
 .hamburgerMenuBtn ul{
-
     border: solid black;
     border-top-right-radius: .5rem;
     border-bottom-right-radius: .5rem;
@@ -185,8 +180,6 @@ p{
     margin: 2vh;
     list-style: none;
     padding-left: 1vw;
-
-
 }
 
 /* This is the actual styling of text inside the dropdownMenu */
@@ -195,6 +188,7 @@ p{
     color: black;
     font-size: 1.28571429rem;
 }
+
 .hamburgerListItem a:hover{
     text-decoration: underline;
 }
@@ -205,8 +199,8 @@ p{
 
 }      
     
-
 /* ************* Homepage ************* */
+
 /* ************* Below is the searchbar styling  ************* */
 .searchBar{
     height: 5vh;
@@ -234,17 +228,12 @@ p{
     height: 5vh;
     width: 60vw;
     box-shadow: 3px 3px 3px 3px black;
-
 }
 
-
 .searchbar-results{
-
     height: 3vh;
     border-width: 1px;
     border-radius: .5rem;
-
-
 }
 
 /* this styles the formatting and search results themselves*/
@@ -293,7 +282,6 @@ input:focus{
     margin-top: 20vh;
     border-radius: .5rem;
     box-shadow: 3px 3px 3px 3px black;
-
 }
 
 
@@ -309,8 +297,6 @@ input:focus{
     text-align: center;
     overflow: hidden;
     box-shadow: 3px 3px 3px 3px black;
-
-    
 }
 
 /* ************** This is the styling of the filter options ************* */
@@ -320,7 +306,6 @@ input:focus{
     border: none;
     font-size: 1vw;
     height:inherit;
-
 }
 
  /* removes outline after selecting an option */
@@ -341,6 +326,7 @@ input:focus{
     text-shadow:rgb(0, 0, 0) -1px .5px;
     text-decoration: underline black;
 }
+
 /* Styling of the paragraph text inside the squadHeader box */
 
 .squadHeader p{
@@ -350,7 +336,6 @@ input:focus{
 
 .squadCard-header{
     display: flex;
-
     flex-wrap: wrap;
     justify-content: space-between;
     height: 50vh;
@@ -362,10 +347,7 @@ input:focus{
     padding-left: 2rem;
     padding-right: 2rem;
     text-decoration: underline;
-
-
 }
-
 
 .squadInfo{
     width: 65vw;
@@ -374,7 +356,6 @@ input:focus{
     text-decoration: underline;
     display: flex;
     justify-content: space-between;
-
 }
 
 /* ********** SQUAD SELECT DROPDOWN STYLING ********** */
@@ -382,25 +363,23 @@ input:focus{
 
 /* This just styles the text */
 .squadChildren{
-    
     width:85vw;
     background-color: none;
     border: solid black;
     text-decoration: none;
     font-family:'PT Sans',helvetica;
-    height: 50vh;
-
-    
+    height: 50vh;  
 }
-
 
 .squadChildren .showChildren {
     display: flex;
     justify-items: space-between;
 }
+
 .squadChildren .showChildren h3{
     margin-left: 2rem;
 }
+
 .squadContainer p {
     width: 100vw;
     height: 10vh;
@@ -413,9 +392,20 @@ input:focus{
 
 .featureHeader{
     margin-top: 2rem;
+    width: 50vw;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    
+}
+
+.featureHeader h1{
+    font-size: 4vh;
+}
+
+.featureHeader img{
+    width: 50vw;
+
 }
 
 /* This styles the format of the list of items */
@@ -423,7 +413,6 @@ input:focus{
     display: flex;
     justify-content: left;
     flex-wrap: wrap;
-    
 }
 
 /* This styles the actual items */
@@ -433,9 +422,8 @@ input:focus{
     flex-wrap:wrap;
     justify-content: left;
     margin-left: 3vw;
-
-
 }
+
 .featureCard h3{
     width: 50vw;
     text-decoration: underline;
@@ -449,10 +437,14 @@ input:focus{
 
 
 /* ************* About Page ************* */
+.aboutContainer h1{
+    width: 100vw;
+    margin-left: 20vw;
+}
 
 .bioCard{
     height: 30vh;
-    width: inherit;
+    width: 80vh;
     margin: 2vh;
     padding: 2vw;
     border: solid 1px;
@@ -462,10 +454,10 @@ input:focus{
     align-items: center;
 }
 
-
 .bioCard p{
     margin-right: 1.25vw;
 }
+
 .photo-and-name{
     width:25vw;
     display: flex;
@@ -476,16 +468,14 @@ input:focus{
 
 .photo-and-name h3{
     margin-right: 5vw;
-
     font-size: 1.25vw;
     width: 8vw;
 }
+
 .photo-and-name img{
     border: solid black;
     margin-top: 3vh;
     margin-right: 5vw;
     height:10rem;
     width:8rem;
-
-
 }
