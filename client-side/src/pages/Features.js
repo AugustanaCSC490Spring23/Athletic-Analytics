@@ -4,7 +4,6 @@ export default function features(){
         <div className="featureHeader">
             <h1>Made for both Coaches and Athletes</h1>
             <img src={image} alt="block-start"/>
-
         </div>
         
         <div className="featureItems"> 

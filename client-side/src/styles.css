@@ -65,6 +65,17 @@ p{
     flex-wrap: wrap;
 }
 
+.FAQcontainer{
+    border-left: solid black;
+    border-right: solid black;
+    border-bottom: solid black;
+    margin-left: 7.75vw;
+    height: 90vh;
+    width: 80vw;
+
+
+}
+
 .aboutContainer{
     border-left: solid black;
     border-right: solid black;
@@ -434,6 +445,21 @@ input:focus{
     margin-left: 10vw;
     margin-right: 5vw;;
 }
+
+/* ************* FAQ Page ************* */
+
+.FAQcontainer h1{
+    margin-top: 2rem;
+    margin-left: 2rem;
+
+}
+
+.question{
+    border-top:  solid 3px;
+    margin: 5rem;
+    margin-top: 2rem;
+}
+
 
 
 /* ************* About Page ************* */
