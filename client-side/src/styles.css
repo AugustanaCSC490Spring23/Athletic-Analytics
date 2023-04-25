@@ -54,6 +54,15 @@ p{
     border-radius: .5rem;
 }
 
+.indContainer{
+    border-left: solid black;
+    border-right: solid black;
+    border-bottom: solid black;
+    margin-left: 7.75vw;
+    height:200vh;
+    width: 80vw;
+}
+
 .featuresContainer {
     border-left: solid black;
     border-right: solid black;
@@ -70,7 +79,7 @@ p{
     border-right: solid black;
     border-bottom: solid black;
     margin-left: 7.75vw;
-    height: 90vh;
+    height: 110vh;
     width: 80vw;
 
 
@@ -397,6 +406,57 @@ input:focus{
     text-align: center;
     padding: 3vh 2vw;
 }
+/* ************* This is the styling of the Individual Rankings page  ************* */
+
+
+.selectOptions{
+    margin-left: 9.5vw;
+    display: flex;
+    justify-content: center;
+    width: 60vw;
+
+}
+
+.indHeader{
+    margin-left: 3vw;
+}
+
+.eventTable-header{
+    margin-left: 3vw;
+}
+.eventTable{
+    height: 100vh;
+    width: 65vw;
+    margin-left: 8vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border: solid black 6px;
+    box-shadow: 3px 3px 3px 3px black;
+
+    
+}
+
+.tableStat{
+    height: inherit;
+    width: 8vw;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    font-size: 1vw;
+    padding: 2vh;
+    border-right: solid 1px black;
+}
+
+.tableStat:nth-child(7){
+    border:none;
+}
+.eventTable-header{
+    text-decoration: underline;
+    width:50vw;
+}
+
+
 
 
 /* ************* This is the styling of the features page  ************* */

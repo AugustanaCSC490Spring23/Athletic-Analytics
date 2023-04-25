@@ -1,9 +1,8 @@
-import React, { useState, useEffect} from "react";
-//import DropdownItems from "../components/DropdownItems";
 import Axios from 'axios';
-import DisplayHidden from "../components/DisplayHidden";
-export default function Squadranking(){
+import React, { useState, useEffect} from "react";
 
+
+export default function NavButton(){
     const[click, setClick] = useState (false);
     const Hoverable= () => setClick(!click);
 
@@ -21,14 +20,7 @@ export default function Squadranking(){
         sendGetRequest(val);
        // console.log("SetDivision 2 " + selectDiv);
     }
-    function setConference(e) {
-        return e.target.value;
-    }
-    const conference = setConference(conference);
-    console.log(conference);
-    const [divList, setDivList] = useState([]);
-    const [confList, setConfList] = useState([]);
-
+    const [trackList, setTrackList] = useState([]);
     const sendGetRequest = async (division) => {
         try {
             const axiosLink = "http://localhost:3001/" + division;
@@ -37,7 +29,7 @@ export default function Squadranking(){
             console.log(typeof(response.data));
             console.log("data recieved");
             console.log(response.data);
-            setDivList(response.data);  
+            setTrackList(response.data);  
         } catch (err) {
             console.error(err);
         } 
@@ -53,15 +45,7 @@ export default function Squadranking(){
     //    sendGetRequest()
     //}, []);
 
-    return (
-    <div className="homeContainer">
-        <div className='squadHeader'>
-            <h2> Squad Statistics </h2>
-            <p>This page will allow you to view stats by school to view their best events, highest scorers, etc.
-                Select a division and event to display squad rankings.
-            </p>
-        </div>
-
+    return(
         <div className="squadContainer">
             <div className='filterButton'>
                 {/*e=>setSelectDiv(e.target.value)*/}
@@ -85,8 +69,8 @@ export default function Squadranking(){
 
 
             <div className='filterButton'>
-                <select onChange={conference}>
-                    <option> Select Conference  </option>
+                <select >
+                    <option> Conference  </option>
                     <option >Conference I</option>
                     <option >Conference II</option>
                     <option >Conference III</option>
@@ -149,84 +133,7 @@ export default function Squadranking(){
 
                 </select>
             </div>
-
-            <div className='squadCard'>
-                <div className="squadCard-header">
-                    <h3> Rank </h3>
-                    {divList.map((val) => {
-                    return (
-                        <a className='dataItem' href={val.link} target="_blank">
-                            {val.Rank }
-                        </a>
-                    );
-                    }
-                        )}
-                    <h3> Team </h3>
-                    {divList.map((val) => {
-                    return (
-                        <a className='dataItem' href={val.link} target="_blank">
-                            {val.Team}
-                        </a>
-                    );
-                    }
-                        )}
-                    <h3> Conference </h3>
-                    {divList.map((val) => {
-                    return (
-                        <a className='dataItem' href={val.link} target="_blank">
-                            {val.Conference }
-                        </a>
-                    );
-                    }
-                        )}
-                    <h3> Score </h3> 
-                    {divList.map((val) => {
-                    return (
-                        <a className='dataItem' href={val.link} target="_blank">
-                            {val.Time}
-                            {val.Distance}
-                            {val.Points}
-                        </a>
-                    );
-                    }
-                        )} 
-
-                </div>
-
-                <div className="squadInfo">
-                    <div className="squadChildren">
-                        
-                        <DisplayHidden>
-
-                            <div className="rankDiv">
-                                <h3> Rank </h3>
-                                
-                            </div>
-
-                            <div className="teamDiv">
-                                <h3> Team </h3>
-                                
-                            </div>
-                            <div className="confDiv">
-                                <h3> Conference </h3>
-
-                                                            
-                            </div>
-                            <div className="scoreDiv">
-                                <h3> Score </h3>
-                                                            
-                            </div>
-
-
-
-                        </DisplayHidden>
-
-                    </div>
-                </div>
-            </div>   
         </div>
-    </div>
 
- 
     )
 }
