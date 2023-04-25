@@ -444,9 +444,13 @@ input:focus{
     flex-wrap: wrap;
     justify-content: center;
     align-items: left;
+    flex-wrap: wrap;
     font-size: 1vw;
     padding: 2vh;
     border-right: solid 1px black;
+}
+.tableStat a{
+    width: 8vw;
 }
 
 .tableStat a{
