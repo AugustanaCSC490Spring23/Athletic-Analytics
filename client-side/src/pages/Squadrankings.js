@@ -58,9 +58,9 @@ export default function Squadranking(){
         <div className="squadContainer">
         <div className='filterButton'>
                 {/*e=>setSelectDiv(e.target.value)*/}
-                <select onChange={setDivision}>
-                    <option value ='DivisionI'>Men's</option>
-                    <option value ='DivisionII'>Women's</option>
+                <select>
+                    <option>Men's</option>
+                    <option>Women's</option>
                 </select>
             </div>
 
@@ -78,7 +78,7 @@ export default function Squadranking(){
 
 
             <div className='filterButton'>
-                <select >
+                <select>
                     <option> Select Conference  </option>
                     <option >Conference I</option>
                     <option >Conference II</option>
@@ -145,17 +145,43 @@ export default function Squadranking(){
             <div className='squadCard'>
                 <div className="squadCard-header">
                     <h3> Rank </h3>
-                    <h3> Team </h3>
-                    <h3> Conference </h3>
-                    <h3> Score </h3>
                     {trackList.map((val) => {
                     return (
                         <a className='dataItem' href={val.link} target="_blank">
-                            {val.Athlete}
+                            {val.Rank}
                         </a>
                     );
                     }
-                        )}  
+                        )}
+                    <h3> Team </h3>
+                    {trackList.map((val) => {
+                    return (
+                        <a className='dataItem' href={val.link} target="_blank">
+                            {val.Team}
+                        </a>
+                    );
+                    }
+                        )}
+                    <h3> Conference </h3>
+                    {trackList.map((val) => {
+                    return (
+                        <a className='dataItem' href={val.link} target="_blank">
+                            {val.Conference}
+                        </a>
+                    );
+                    }
+                        )}
+                    <h3> Score </h3> 
+                    {trackList.map((val) => {
+                    return (
+                        <a className='dataItem' href={val.link} target="_blank">
+                            {val.Time}
+                            {val.Distance}
+                            {val.Points}
+                        </a>
+                    );
+                    }
+                        )} 
 
                 </div>
 

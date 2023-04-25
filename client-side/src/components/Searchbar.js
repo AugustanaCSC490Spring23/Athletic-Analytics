@@ -23,6 +23,7 @@ export default function Searchbar(){
                     <div className ='searchIcon'>
                         {/* <SearchIcon/> */}
                     </div>
+                        
                         {search.length != 0 && 
                         
                          trackList.filter((val) => {
