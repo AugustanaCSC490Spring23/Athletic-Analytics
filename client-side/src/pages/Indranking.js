@@ -1,11 +1,19 @@
 import React, { useState, useEffect} from "react";
 import Axios from 'axios';
 export default function Indranking(){
+  /*  const D3confNames =["AARTFC", 'ARC', 'CAC', "CC", 'CCIW', "CSAC", "CCC", "E8", "GNAC", "HCHC", "IIAC"
+, "LC", 'LL', "LEC", "MIAA", "MAC", "MWC", "MIAC", "NECC", "NESCAC", "NAC", "NCAC", "NEAC", "NACC",
+"NWC", "OAC", "ODAC"]; */
     
     function setDivision(e) {
         const val = e.target.value;
+     //   setConference(val);
         sendGetRequest(val);
     }
+  /*  function setConference(division) {
+        return (); 
+
+    } */
     const [divList, setDivList] = useState([]);
 
     const sendGetRequest = async (division) => {
@@ -21,7 +29,7 @@ export default function Indranking(){
             console.error(err);
         } 
     }
-    
+   
     
     
     
@@ -58,7 +66,7 @@ export default function Indranking(){
 
 
                 <div className='filterButton'>
-                    <select >
+                    <select>
                         <option> Conference  </option>
                         <option >Conference I</option>
                         <option >Conference II</option>
