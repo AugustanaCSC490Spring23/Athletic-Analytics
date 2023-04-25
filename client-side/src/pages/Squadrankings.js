@@ -21,7 +21,14 @@ export default function Squadranking(){
         sendGetRequest(val);
        // console.log("SetDivision 2 " + selectDiv);
     }
-    const [trackList, setTrackList] = useState([]);
+    function setConference(e) {
+        return e.target.value;
+    }
+    const conference = setConference(conference);
+    console.log(conference);
+    const [divList, setDivList] = useState([]);
+    const [confList, setConfList] = useState([]);
+
     const sendGetRequest = async (division) => {
         try {
             const axiosLink = "http://localhost:3001/" + division;
@@ -30,7 +37,7 @@ export default function Squadranking(){
             console.log(typeof(response.data));
             console.log("data recieved");
             console.log(response.data);
-            setTrackList(response.data);  
+            setDivList(response.data);  
         } catch (err) {
             console.error(err);
         } 
@@ -78,7 +85,7 @@ export default function Squadranking(){
 
 
             <div className='filterButton'>
-                <select>
+                <select onChange={conference}>
                     <option> Select Conference  </option>
                     <option >Conference I</option>
                     <option >Conference II</option>
@@ -146,16 +153,16 @@ export default function Squadranking(){
             <div className='squadCard'>
                 <div className="squadCard-header">
                     <h3> Rank </h3>
-                    {trackList.map((val) => {
+                    {divList.map((val) => {
                     return (
                         <a className='dataItem' href={val.link} target="_blank">
-                            {val.Rank}
+                            {val.Rank }
                         </a>
                     );
                     }
                         )}
                     <h3> Team </h3>
-                    {trackList.map((val) => {
+                    {divList.map((val) => {
                     return (
                         <a className='dataItem' href={val.link} target="_blank">
                             {val.Team}
@@ -164,16 +171,16 @@ export default function Squadranking(){
                     }
                         )}
                     <h3> Conference </h3>
-                    {trackList.map((val) => {
+                    {divList.map((val) => {
                     return (
                         <a className='dataItem' href={val.link} target="_blank">
-                            {val.Conference}
+                            {val.Conference }
                         </a>
                     );
                     }
                         )}
                     <h3> Score </h3> 
-                    {trackList.map((val) => {
+                    {divList.map((val) => {
                     return (
                         <a className='dataItem' href={val.link} target="_blank">
                             {val.Time}
