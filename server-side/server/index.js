@@ -16,7 +16,7 @@ const db = mysql.createPool({
 });
 
 app.get("/DivisionIII", (req, res) => {
-  const getOutput = "SELECT * FROM AARTFC2 LIMIT 3"
+  const getOutput = "SELECT * FROM AARTFC2 ORDER BY Event_ID, AARTFC2.Rank LIMIT 10"
   db.query(getOutput, (err, result) => {
     res.send(result);
   });
