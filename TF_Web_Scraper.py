@@ -22,7 +22,6 @@ diii = [4268, 4248, 4237, 4270, 4246, 4301, 4267, 4242, 4245, 4244, 4273,
 #       4292,4232,4225,4286,4223,4290,4275,4227,4226,4293,4288]
 o = 0
 for i in diii:
-    name = 'output' + str(i) + '.csv'
     urlName = 'https://www.tfrrs.org/lists/' + str(i) + '/'
     url = urlName
     response = requests.get(url)
@@ -34,7 +33,6 @@ for i in diii:
     events = soup.find_all('h3')
     events = [event.text.strip() for event in events]
     conference = events[0]
-    
     # splitting off outdoor performance list
     con = conference.split()
     if len(con)==7:
@@ -42,6 +40,7 @@ for i in diii:
         con = ""
     else:
         conference = " ".join(con[0:-3])
+    name = conference + '.csv'
     
     # Getting the headers for the columns
     # o==0 is just so that that
@@ -64,6 +63,7 @@ for i in diii:
             he.append('Event')
             he.append('Conference')
             he.append('Gender')
+            he.append('Event_ID')
             break
         o=1
     data.append(he)
@@ -121,7 +121,7 @@ for i in diii:
                             time=str(minute) + sec
                         cols[4]=time
                 
-                elif k<=22:
+                elif k<=24:
                     split = cols[4].split(":")
                     if len(split)>1:
                         minute=split[0]
@@ -151,7 +151,7 @@ for i in diii:
                     cols.append(date)
                     cols.append(wind)
                 # checking for the distance events
-                elif k>22:
+                elif k>24:
                     split = cols[4].split('.')
                     if len(split)>1:
                         if event=="Long Jump" or event == "Triple Jump":
@@ -209,7 +209,7 @@ for i in diii:
                 cols.append(event)
                 cols.append(conference)
                 cols.append(gender)
-                # cols.append(k)
+                cols.append(k)
                 # if event == "10,000 Meters":
                 #     print(cols)
                 #     split=cols[4].split(":")
@@ -219,4 +219,4 @@ for i in diii:
     with open(name, 'w', newline='') as csvfile:
         writer = csv.writer(csvfile)
         writer.writerows(data)
-        print(i)
+        print(conference)
