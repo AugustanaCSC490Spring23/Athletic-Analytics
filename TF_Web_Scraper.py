@@ -40,6 +40,9 @@ for i in diii:
         con = ""
     else:
         conference = " ".join(con[0:-3])
+    con = conference.split()
+    if len(con)>1:
+        conference = "_".join(con)
     name = conference + '.csv'
     
     # Getting the headers for the columns
