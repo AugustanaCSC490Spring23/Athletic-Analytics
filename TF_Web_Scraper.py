@@ -21,12 +21,28 @@ diii = [4268, 4248, 4237, 4270, 4246, 4301, 4267, 4242, 4245, 4244, 4273,
 #       4283,4295,4276,4285,4289,4299,4284,4291,4233,4287,4294,
 #       4292,4232,4225,4286,4223,4290,4275,4227,4226,4293,4288]
 o = 0
-for i in diii:
+
+# for p in range(3):
+# w = 0
+# if w==0:
+#     if p==0:
+#         csvname = "diii.csv"
+#         name = diii
+#     if p==1:
+#         csvname = "dii.csv"
+#         name=dii
+#     else:
+#         csvname = "di.csv"
+#        name=di
+name=diii
+csvname="diii.csv"
+    # w=1
+data = []
+for i in name:
     urlName = 'https://www.tfrrs.org/lists/' + str(i) + '/'
     url = urlName
     response = requests.get(url)
     soup = BeautifulSoup(response.content, 'html.parser')
-    data = []
     colleges = []
     rows = soup.find_all('tr')
     headers = soup.find_all('thead')
@@ -219,7 +235,6 @@ for i in diii:
                 #     print(split)
                 #     cols[4]=":".join(split[0:2])
                 data.append(cols)
-    with open(name, 'w', newline='') as csvfile:
-        writer = csv.writer(csvfile)
-        writer.writerows(data)
-        print(conference)
+with open(csvname, 'w', newline='') as csvfile:
+    writer = csv.writer(csvfile)
+    writer.writerows(data)
