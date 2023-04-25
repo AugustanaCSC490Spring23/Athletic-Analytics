@@ -38,8 +38,7 @@ export default function Indranking(){
             
             <div className='indHeader'>
                 <h2> Individual Statistics </h2>
-                <p>This page will allow you to view stats by school to view their best events, highest scorers, etc.
-                    Select a division and event to display squad rankings.
+                <p>This page will allow you to view an individual athlete's recorded stats for each of their events and how they rank in their conference
                 </p>
             </div>
 

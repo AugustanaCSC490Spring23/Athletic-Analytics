@@ -441,6 +441,7 @@ input:focus{
     height: inherit;
     width: 8vw;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: left;
     flex-wrap: wrap;
@@ -448,6 +449,10 @@ input:focus{
     padding: 2vh;
     border-right: solid 1px black;
 }
+.tableStat a{
+    width: 8vw;
+}
+
 .tableStat a{
     width: 8vw;
 }
