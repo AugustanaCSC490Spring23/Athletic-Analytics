@@ -1,4 +1,30 @@
+import React, { useState, useEffect} from "react";
+import Axios from 'axios';
 export default function Indranking(){
+    
+    function setDivision(e) {
+        const val = e.target.value;
+        sendGetRequest(val);
+    }
+    const [divList, setDivList] = useState([]);
+
+    const sendGetRequest = async (division) => {
+        try {
+            const axiosLink = "http://localhost:3001/" + division;
+            console.log("Send get request " + axiosLink);
+            const response = await Axios.get(axiosLink); 
+            console.log(typeof(response.data));
+            console.log("data recieved");
+            console.log(response.data);
+            setDivList(response.data);  
+        } catch (err) {
+            console.error(err);
+        } 
+    }
+    
+    
+    
+    
     return (
         <div className="indContainer">
             
@@ -13,15 +39,15 @@ export default function Indranking(){
                 <div className='filterButton'>
                     {/*e=>setSelectDiv(e.target.value)*/}
                     <select >
-                        <option value ='DivisionI'>Men's</option>
-                        <option value ='DivisionII'>Women's</option>
+                        <option>Men's</option>
+                        <option>Women's</option>
                     </select>
                 </div>
 
 
                 <div className='filterButton'>
                     {/*e=>setSelectDiv(e.target.value)*/}
-                    <select >
+                    <select onChange={setDivision}>
                         <option> Division </option>
                         <option value ='DivisionI'>Division I</option>
                         <option value ='DivisionII'>Division II</option>
@@ -106,38 +132,90 @@ export default function Indranking(){
             <div className="eventTable">
                     <div className="tableStat">
                         <h3> Rank </h3>
-                                    
+                        {divList.map((val) => {
+                            return (
+                                <a className='dataItem' href={val.link} target="_blank">
+                                    {val.Rank}
+                                </a>
+                            );
+                            }
+                        )}         
                     </div>
 
                     <div className="tableStat">
                         <h3> Athlete </h3>
-                        
+                        {divList.map((val) => {
+                            return (
+                                <a className='dataItem' href={val.link} target="_blank">
+                                    {val.Athlete}
+                                </a>
+                            );
+                        }
+                        )}
                     </div>
 
                     <div className="tableStat">
                         <h3> Year </h3>
-
+                        {divList.map((val) => {
+                            return (
+                                <a className='dataItem' href={val.link} target="_blank">
+                                    {val.Year}
+                                </a>
+                            );
+                            }
+                        )}
                                                     
                     </div>
 
                     <div className="tableStat">
                         <h3> Team </h3>
-                                                    
+                        {divList.map((val) => {
+                            return (
+                                <a className='dataItem' href={val.link} target="_blank">
+                                    {val.Team}
+                                </a>
+                            );
+                            }
+                        )}                       
                     </div>
 
                     <div className="tableStat">
                         <h3> Mark </h3>
-                                                    
+                        {divList.map((val) => {
+                            return (
+                                <a className='dataItem' href={val.link} target="_blank">
+                                    {val.Time}
+                                    {val.Distance}
+                                    {val.Points}
+
+                                </a>
+                            );
+                            }
+                        )}                       
                     </div>
 
                     <div className="tableStat">
                         <h3> Date </h3>
-                                                    
+                        {divList.map((val) => {
+                            return (
+                                <a className='dataItem' href={val.link} target="_blank">
+                                    {val.Meet_Date}
+                                </a>
+                            );
+                            }
+                        )}                           
                     </div>
 
                     <div className="tableStat">
                         <h3> Wind </h3>
-                                                    
+                        {divList.map((val) => {
+                            return (
+                                <a className='dataItem' href={val.link} target="_blank">
+                                    {val.Wind}
+                                </a>
+                            );
+                            }
+                        )}                     
                     </div>
 
 

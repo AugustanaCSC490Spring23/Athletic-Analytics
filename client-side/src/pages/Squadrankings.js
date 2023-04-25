@@ -21,13 +21,13 @@ export default function Squadranking(){
         sendGetRequest(val);
        // console.log("SetDivision 2 " + selectDiv);
     }
-    function setConference(e) {
+    /*function setConference(e) {
         return e.target.value;
     }
     const conference = setConference(conference);
-    console.log(conference);
+    console.log(conference); */
     const [divList, setDivList] = useState([]);
-    const [confList, setConfList] = useState([]);
+    //const [confList, setConfList] = useState([]);
 
     const sendGetRequest = async (division) => {
         try {
@@ -85,7 +85,7 @@ export default function Squadranking(){
 
 
             <div className='filterButton'>
-                <select onChange={conference}>
+                <select /*onChange={conference}*/>
                     <option> Select Conference  </option>
                     <option >Conference I</option>
                     <option >Conference II</option>
