@@ -170,11 +170,27 @@ export default function Squadranking(){
                     <div className="squadChildren">
                         
                         <DisplayHidden>
-                            <h3> Rank </h3>
-                            //This is where we are going to place the data
-                            <h3> Team </h3>
-                            <h3> Average </h3>
-                            <h3> Conference </h3>
+
+                            <div className="rankDiv">
+                                <h3> Rank </h3>
+                                
+                            </div>
+
+                            <div className="teamDiv">
+                                <h3> Team </h3>
+                                
+                            </div>
+                            <div className="confDiv">
+                                <h3> Conference </h3>
+
+                                                            
+                            </div>
+                            <div className="scoreDiv">
+                                <h3> Score </h3>
+                                                            
+                            </div>
+
+
 
                         </DisplayHidden>
 

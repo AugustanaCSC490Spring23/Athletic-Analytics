@@ -8,6 +8,7 @@ export default function Searchbar(){
 
     const [trackList, setTrackList] = useState([]);
     const [search, setSearch] = useState('');
+    var searchList = [];
    // console.log(search);
     useEffect(() => {
       Axios.get("http://localhost:3001/DivisionIII").then((response) => {
@@ -26,7 +27,21 @@ export default function Searchbar(){
                     </div >
 
                     <div className="searchbar-results">
-                            {search.length != 0 && 
+                    {/*Need to create logic statement removing duplicates
+                    
+                    !searchList.includes(val.Athlete) &&
+
+
+
+
+                    searchList uses a push function to add to the list in react.js
+                    
+                    
+                    
+                    */} 
+                            {
+                            
+                             search.length != 0 && 
                         
                             trackList.filter((val) => {
                             
@@ -34,11 +49,11 @@ export default function Searchbar(){
                             ? val 
                             : val.Athlete.toLowerCase().includes(search);
                             }).map((val) => {
+
                                 return ( 
                                 <a >
                                     <p className='dataItem' href={val.link} target="_blank">
                                         {val.Athlete}
-                                        
                                     </p>
                                 </a>
                                     );

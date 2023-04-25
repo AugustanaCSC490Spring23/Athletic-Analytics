@@ -16,20 +16,20 @@ const db = mysql.createPool({
 });
 
 app.get("/DivisionIII", (req, res) => {
-  const getOutput = "SELECT * FROM CCIW LIMIT 3"
+  const getOutput = "SELECT * FROM AARTFC2 LIMIT 3"
   db.query(getOutput, (err, result) => {
     res.send(result);
   });
 }); 
 
 app.get("/DivisionII", (req, res) => {
-  const getOutput = "SELECT * FROM CCIW LIMIT 2"
+  const getOutput = "SELECT * FROM AARTFC2 LIMIT 2"
   db.query(getOutput, (err, result) => {
     res.send(result);
   });
 }); 
 app.get("/DivisionI", (req, res) => {
-  const getOutput = "SELECT * FROM CCIW LIMIT 1"
+  const getOutput = "SELECT * FROM AARTFC2 LIMIT 1"
   db.query(getOutput, (err, result) => {
     res.send(result);
   });
