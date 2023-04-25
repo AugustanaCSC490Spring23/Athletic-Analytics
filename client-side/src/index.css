@@ -9,5 +9,12 @@ body {
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    monospace, 'Milan';
+}
+
+
+/* ********** font-styling ********** */
+@font-face{
+  font-family: 'Paperboard';
+  src: local('PaperBoard'), url(./fonts/Paperboard.ttf);
 }

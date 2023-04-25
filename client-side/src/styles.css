@@ -1,20 +1,105 @@
+/* Need to style::
+        squad card styling
+
+*/
+
 * {
     box-sizing: border-box;
 }
 
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
 .container {
-    height: 100vh;
-    width: 100vw;
-    background-position: left;
+
+}
+
+.homeContainer{
+    border-left: solid black;
+    border-right: solid black;
+    border-bottom: solid black;
+    width: 80vw;
+    border-radius: .5rem;
+    margin-left: 7.75vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 170vh;
     background-repeat: no-repeat;
     background-size: 110%;
     padding-top: 2rem;
+}
+
+.squadContainer {
+    height: 100vh;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-content:baseline;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: .5rem;
+}
+
+.featuresContainer {
+    border-left: solid black;
+    border-right: solid black;
+    border-bottom: solid black;
+    margin-left: 7.75vw;
+    width: 80vw;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
+
+.FAQcontainer{
+    border-left: solid black;
+    border-right: solid black;
+    border-bottom: solid black;
+    margin-left: 7.75vw;
+    height: 90vh;
+    width: 80vw;
+
+
+}
+
+.aboutContainer{
+    border-left: solid black;
+    border-right: solid black;
+    border-bottom: solid black;
+    height: 150vh;
+    width: 80vw;
+    border-radius: .5rem;
+    margin-left: 7.75vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* ******* Dropdown component ******* */
+.childrenButton button:hover{
+    cursor: pointer;
+}
+
+.childrenButton img{
+    display: block;
+    height: 30px;
+    width: 50px;
+}
+
 
 /* ************* Below is the NAV BAR Styling  ************* */
 .navbar{
@@ -26,8 +111,6 @@
     border-bottom: solid black;
     padding: 2vh;
     margin-top: 2vh;
-
-
 }
 
 .navbarItems{
@@ -45,7 +128,6 @@
     color: inherit;    
     text-align: center;
     list-style: none;
-
 }
 
 /* This styles the text inside the button */
@@ -54,7 +136,6 @@
     text-decoration: none;
     color: inherit;
     font-size: 2vw;
-
 }
 
 /* This styles what happens when the cursor hovers over a navButton*/
@@ -67,57 +148,49 @@
 
 /* ************* This is the div tag for the NavMenu ************* */
 .navMenu {
+    margin-left: 2.3vw;
+    margin-top: 7.2vh;
     height: 70px;
     width: 50px;
     color: black;
     border-radius: 1rem;
 }
+
 /* Below is the Hamburger Menu Styling on Nav Bar */
 
 .hamburgerMenu {
-    margin-top: 3vh;
+    z-index: 5;
+    position: relative;
+    margin-top: 3.65vh;
     height: inherit;
     width: inherit;
 }
 
-.navChildrenBtn button{
+.hamburgerMenuBtn button{
     background-color: none;
-    position:relative;
     text-align: center;
     border: none;
     text-decoration: none;
     font-family:'PT Sans',helvetica;
-    
-    
-  }
-
-.childrenButton button:hover{
-    cursor: pointer;
-
 }
 
-.childrenButton img{
-    display: block;
-    height: 30px;
-    width: 50px;
+.hamburgerMenuBtn button:hover{
+    cursor: pointer;
 }
 
 .hamburgerMenuBtn ul{
-    border-top: solid black;
-    border-right: solid black;
-    border-bottom: solid black;
+    border: solid black;
     border-top-right-radius: .5rem;
     border-bottom-right-radius: .5rem;
-    position: absolute;
+    z-index: 5;
+    position: relative;
     left: 0;
     height: 60vh;
     width: 25vw;
     background-color: rgb(255, 255, 255);
     margin: 2vh;
     list-style: none;
-    padding-left: 0;
-
-
+    padding-left: 1vw;
 }
 
 /* This is the actual styling of text inside the dropdownMenu */
@@ -126,6 +199,7 @@
     color: black;
     font-size: 1.28571429rem;
 }
+
 .hamburgerListItem a:hover{
     text-decoration: underline;
 }
@@ -135,17 +209,26 @@
     margin-top: 3vh;
 
 }      
-        
+    
+/* ************* Homepage ************* */
+
 /* ************* Below is the searchbar styling  ************* */
 .searchBar{
-    z-index: 0;
+    height: 5vh;
+    width: 80vw;
+
 }
+
 .searchInputs{
     display: flex;
-    margin-bottom: 5vh;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .searchInputs input{
+    /* Maybe delete */
+    position: relative;
+    z-index: 0;
     border: none;
     border-radius: 2px;
     border-top-right-radius: 0px;
@@ -156,7 +239,31 @@
     height: 5vh;
     width: 60vw;
     box-shadow: 3px 3px 3px 3px black;
+}
 
+.searchbar-results{
+    height: 3vh;
+    border-width: 1px;
+    border-radius: .5rem;
+}
+
+/* this styles the formatting and search results themselves*/
+.searchbar-results .dataItem{
+    z-index: 1;
+    position: relative; 
+    background-color: white;
+    margin: 0;
+    margin-right: 3vw;
+    height: 3vh;
+    width: 59vw;
+    padding-left: 3vw;
+    padding-top: .25vh;
+    border: 1px solid rgb(167, 164, 164);
+}
+
+.searchbar-results .dataItem:hover{  
+    background-color: rgb(224, 224, 224);
+    cursor: pointer;
 }
 
 .searchIcon{
@@ -179,11 +286,51 @@ input:focus{
     color: black;
 }
 
+.updateCard{
+    height: 50vh;
+    width: 60vw;
+    position: absolute;
+    margin-top: 20vh;
+    border-radius: .5rem;
+    box-shadow: 3px 3px 3px 3px black;
+}
 
 
 
 /* ************* This is the styling of the Squad rankings page ************* */
+.filterButton {
+    height: 3vh;
+    width: 15vw;
+    margin: 1vw;
+    margin-right: 2vw;
+    background-color: white;
+    border-radius: .5rem;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 3px 3px 3px 3px black;
+}
 
+/* ************** This is the styling of the filter options ************* */
+
+/* styles text of the option in the filterButton*/
+.filterButton select{
+    border: none;
+    font-size: 1vw;
+    height:inherit;
+}
+
+ /* removes outline after selecting an option */
+.filterButton select:focus {
+    outline: none;
+  } 
+  
+/* styles what happens when user hovers over filterButton*/
+.filterButton select:hover {
+    cursor:pointer;
+    border: none;
+}
+
+/* Styling of the header text inside the squadHeader box */
 .squadHeader h2{
     padding-left: 5vw;
     color: rgb(88, 88, 88);
@@ -191,19 +338,11 @@ input:focus{
     text-decoration: underline black;
 }
 
+/* Styling of the paragraph text inside the squadHeader box */
+
 .squadHeader p{
     padding-left: 5vw;
     padding-right: 5vw
-}
-
-.squadContainer {
-    height: 80vh;
-    display: flex;
-    justify-content: center;
-    align-content:baseline;
-    flex-wrap: wrap;
-    background-color: white;
-    border-radius: .5rem;
 }
 
 .squadCard-header{
@@ -211,28 +350,45 @@ input:focus{
     flex-wrap: wrap;
     justify-content: space-between;
     height: 50vh;
-    width: 90vw;
-    margin:1vh;
+    width: 65vw;
+    margin-top:5vh;
     border-radius: .5rem;
     background-color: white;
     box-shadow: 3px 3px 3px 3px black;
-}
-
-.squadCard-header{
     padding-left: 2rem;
     padding-right: 2rem;
     text-decoration: underline;
-
 }
 
-
 .squadInfo{
+    width: 65vw;
     padding-left: 2rem;
     padding-right: 2rem;
     text-decoration: underline;
     display: flex;
     justify-content: space-between;
+}
 
+/* ********** SQUAD SELECT DROPDOWN STYLING ********** */
+
+
+/* This just styles the text */
+.squadChildren{
+    width:85vw;
+    background-color: none;
+    border: solid black;
+    text-decoration: none;
+    font-family:'PT Sans',helvetica;
+    height: 50vh;  
+}
+
+.squadChildren .showChildren {
+    display: flex;
+    justify-items: space-between;
+}
+
+.squadChildren .showChildren h3{
+    margin-left: 2rem;
 }
 
 .squadContainer p {
@@ -242,46 +398,25 @@ input:focus{
     padding: 3vh 2vw;
 }
 
-.filterButton {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 5vh;
-    width: 20vw;
-    margin: 1vw;
-    background-color: white;
-    border-radius: .5rem;
-    text-align: center;
-    overflow: hidden;
-    box-shadow: 3px 3px 3px 3px black;
-
-    
-}
-
-/* ************** This is the styling of the filter options ************* */
-.filterButton select{
-    border: none;
-    font-size: large;
-    height:inherit;
-    width: inherit -1vw;
-
-}
-
- /* removes outline after selecting an option */
-.filterButton select:focus {
-    outline: none;
-  } 
-  
-
-.filterButton select:hover {
-    cursor:pointer;
-    border: none;
-}
 
 /* ************* This is the styling of the features page  ************* */
 
 .featureHeader{
-    margin-left: 3rem;
+    margin-top: 2rem;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.featureHeader h1{
+    font-size: 4vh;
+}
+
+.featureHeader img{
+    width: 50vw;
+
 }
 
 /* This styles the format of the list of items */
@@ -289,14 +424,84 @@ input:focus{
     display: flex;
     justify-content: left;
     flex-wrap: wrap;
-    
 }
 
 /* This styles the actual items */
 .featureCard{
-    margin: 2rem;
+    height: 20vh;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: left;
+    margin-left: 3vw;
+}
+
+.featureCard h3{
+    width: 50vw;
+    text-decoration: underline;
+
+}
+
+.featureCard p{
+    margin-left: 10vw;
+    margin-right: 5vw;;
+}
+
+/* ************* FAQ Page ************* */
+
+.FAQcontainer h1{
+    margin-top: 2rem;
+    margin-left: 2rem;
+
+}
+
+.question{
+    border-top:  solid 3px;
+    margin: 5rem;
+    margin-top: 2rem;
+}
+
+
+
+/* ************* About Page ************* */
+.aboutContainer h1{
+    width: 100vw;
+    margin-left: 20vw;
+}
+
+.bioCard{
+    height: 30vh;
+    width: 80vh;
+    margin: 2vh;
+    padding: 2vw;
+    border: solid 1px;
+    border-radius: 0rem 1rem 0rem 1rem;
+    box-shadow: 3px 3px 3px 3px black;
+    display: flex;
+    align-items: center;
+}
+
+.bioCard p{
+    margin-right: 1.25vw;
+}
+
+.photo-and-name{
+    width:25vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2vw;
+}
+
+.photo-and-name h3{
+    margin-right: 5vw;
+    font-size: 1.25vw;
+    width: 8vw;
+}
+
+.photo-and-name img{
     border: solid black;
-    padding: 3rem;
-
-
+    margin-top: 3vh;
+    margin-right: 5vw;
+    height:10rem;
+    width:8rem;
 }

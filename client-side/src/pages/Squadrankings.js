@@ -1,7 +1,7 @@
 import React, { useState, useEffect} from "react";
 //import DropdownItems from "../components/DropdownItems";
 import Axios from 'axios';
-import DisplayChildrenButton from "../components/DisplayChildrenBtn";
+import DisplayHidden from "../components/DisplayHidden";
 export default function Squadranking(){
 
     const[click, setClick] = useState (false);
@@ -47,7 +47,7 @@ export default function Squadranking(){
     //}, []);
 
     return (
-    <div>
+    <div className="homeContainer">
         <div className='squadHeader'>
             <h2> Squad Statistics </h2>
             <p>This page will allow you to view stats by school to view their best events, highest scorers, etc.
@@ -56,7 +56,7 @@ export default function Squadranking(){
         </div>
 
         <div className="squadContainer">
-        <div className='filterButton'>
+            <div className='filterButton'>
                 {/*e=>setSelectDiv(e.target.value)*/}
                 <select>
                     <option>Men's</option>
@@ -68,7 +68,7 @@ export default function Squadranking(){
             <div className='filterButton'>
                 {/*e=>setSelectDiv(e.target.value)*/}
                 <select onChange={setDivision}>
-                    <option> Select Division </option>
+                    <option> Division </option>
                     <option value ='DivisionI'>Division I</option>
                     <option value ='DivisionII'>Division II</option>
                     <option value ='DivisionIII'>Division III</option>
@@ -117,8 +117,9 @@ export default function Squadranking(){
             */}
 
 
-                <select className="manEvents" >
-                    <option> Select Event  </option>
+                <select className="manEvents" placeholder="Event" >
+                    
+                    <option> Event </option>
                     <option > 100m Dash</option>
                     <option > 200m Dash</option>
                     <option > 400m Dash </option>
@@ -186,25 +187,21 @@ export default function Squadranking(){
                 </div>
 
                 <div className="squadInfo">
-                    <div className="squadChildrenButton">
+                    <div className="squadChildren">
                         
-                    <DisplayChildrenButton>
-                        <h3> Rank </h3>
-                        <h3> Team </h3>
-                        <h3> Average </h3>
-                        <h3> Conference </h3>
+                        <DisplayHidden>
+                            <h3> Rank </h3>
+                            //This is where we are going to place the data
+                            <h3> Team </h3>
+                            <h3> Average </h3>
+                            <h3> Conference </h3>
 
-                    </DisplayChildrenButton>
+                        </DisplayHidden>
 
                     </div>
-
                 </div>
             </div>   
-                    
-
         </div>
-
-
     </div>
 
  
