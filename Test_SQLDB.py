@@ -7,28 +7,32 @@ Created on Mon Apr  3 18:19:37 2023
 
 import requests 
 from bs4 import BeautifulSoup
-import csv
+import pandas as pd
+from sqlalchemy import create_engine
+import pyodbc
 
-diii = [4268, 4248, 4237, 4270, 4246, 4301, 4267, 4242, 4245, 4244, 4273,
-        4247, 4272, 4243, 4249, 4250, 4251, 4252, 4254, 4238, 4253, 4274,
-        4258, 4294, 4240, 4255, 4256, 4269, 4257, 4222, 4260, 4259,
-        4261, 4235, 4234, 4265, 4262, 4236, 4263, 4264, 4271, 4266]
-dii = [4200,4191,4180,4181,4194,4182,4183,4184,4199,4196,4198,
-        4189,4185,4195,4186,4187,4179,4192,4193,4188,4190,4197]
-#diii = [4222]
 
-di = [4280,4277,4279,4278,4296,4231,4281,4282,4229,4228,4224,4230,
-      4283,4295,4276,4285,4289,4299,4284,4291,4233,4287,4294,
-      4292,4232,4225,4286,4223,4290,4275,4227,4226,4293,4288]
+# diii = [4268, 4248, 4237, 4270, 4246, 4301, 4267, 4242, 4245, 4244, 4273,
+#         4247, 4272, 4243, 4249, 4250, 4251, 4252, 4254, 4238, 4253, 4274,
+#         4258, 4294, 4240, 4255, 4256, 4269, 4257, 4222, 4260, 4259,
+#         4261, 4235, 4234, 4265, 4262, 4236, 4263, 4264, 4271, 4266]
+# dii = [4200,4191,4180,4181,4194,4182,4183,4184,4199,4196,4198,
+#         4189,4185,4195,4186,4187,4179,4192,4193,4188,4190,4197]
+diii = [4222]
+
+# di = [4280,4277,4279,4278,4296,4231,4281,4282,4229,4228,4224,4230,
+#       4283,4295,4276,4285,4289,4299,4284,4291,4233,4287,4294,
+#       4292,4232,4225,4286,4223,4290,4275,4227,4226,4293,4288]
 o = 0
 
-for p in range(3):
+for p in range(1):
     if p==0:
+        csvname = "diii.csv"
         division = diii
-    elif p==1:
-        division=dii
-    elif p==2:
-        division=di
+    # if p==1:
+    #     division=dii
+    # else:
+    #     division=di
     data = []
     for i in division:
         urlName = 'https://www.tfrrs.org/lists/' + str(i) + '/'
@@ -80,7 +84,7 @@ for p in range(3):
                 he.append('Event_ID')
                 break
             o=1
-        data.append(he)
+        #data.append(he)
         # k=0 is for events
         k=0
         for row in rows:
@@ -241,7 +245,11 @@ for p in range(3):
                     #     print(split)
                     #     cols[4]=":".join(split[0:2])
                     data.append(cols)
-        with open(name, 'w', newline='') as csvfile:
-            writer = csv.writer(csvfile)
-            writer.writerows(data)
-            print(conference)
+        dataframes = {}
+        df = pd.DataFrame(data, columns = he)
+        conn = pyodbc.connect('Driver={SQL Server};'
+                      'Server=104.197.133.232;'
+                      'Database=diii;'
+                      'Trusted_Connection=yes;')
+        # engine = create_engine('mysql+mysqldb://root:AthleticAnalytics@104.197.133.232/diii')
+        # df.to_sql(con=engine, name='Test_Scrap', if_exists='replace', index=False)
