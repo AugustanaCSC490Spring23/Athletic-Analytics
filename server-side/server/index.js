@@ -1,5 +1,3 @@
-//import Indranking from '../../client-side/src/pages/Indranking';
-
 const express = require('express');
 const app = express();
 const mysql = require('mysql');
@@ -16,16 +14,24 @@ const db = mysql.createPool({
   password: 'AthleticAnalytics',
   database: 'diii'
 });
-//POSSIBLE QUERY OPTION FOR OTHER PAGES
-/*function getQueries(string) {
-  const conferenceNames = string;
-}*/
 app.get("/DivisionIII", (req, res) => {
   const getOutput = "SELECT * FROM DIII LIMIT 10"
   db.query(getOutput, (err, result) => {
     res.send(result);
   });
 }); 
+
+app.get("/IndivRankings/DIII", (req, res) => {
+  const query = req.query.query;
+  db.query(query, (err, result) => {
+    if (err) {
+      console.log("Query " + query);
+      res.status(500).send(err);
+    } else {
+      res.send(result);
+    }
+  });
+});
 
 app.get("/DivisionII", (req, res) => {
   const getOutput = "SELECT * FROM AARTFC ORDER BY Event_ID, AARTFC.Rank LIMIT 5"
