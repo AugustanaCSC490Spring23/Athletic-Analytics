@@ -1,37 +1,64 @@
 import React, { useState, useEffect} from "react";
 import Axios from 'axios';
 export default function Indranking(){
-    const D3confNames =["AARTFC", 'American_Rivers', 'CAC', "CC", 'CCIW', "CSAC", "CCC", "E8", "GNAC", "HCHC", "IIAC"
-, "LC", 'LL', "LEC", "MIAA", "MAC", "MWC", "MIAC", "NECC", "NESCAC", "NAC", "NCAC", "NEAC", "NACC",
-"NWC", "OAC", "ODAC"];
+    const D3confNames =["AARTFC", 'American_Rivers', 'American_Southwest', "Atlantic_East", 'CCIW', "CCS", 
+    "CSAC", "CUNYAC", "Centennial_Conference", "Coast-to-Coast", 'Commonwealth_Coast', "Empire_8", "Great_Northeast"];
 
-    const menEvents = ["100m Dash", "200m Dash", "400m Dash", "800m Dash", "1500m Run", "5000m Run"
-        , "10,000m Run", "3000m Steeplechase", "110m Hurdles", "400m Hurdles", "Shotput Throw", "Discus Throw", 
-        "Javelin Throw", "Hammer Throw", "High Jump", "Long Jump", "Triple Jump", "Pole Vault", "Decathlon"];
-    const womenEvents = ["100m Dash", "200m Dash", "400m Dash", "800m Dash", "1500m Run", "5000m Run"
-        , "10,000m Run", "3000m Steeplechase", "100m Hurdles", "400m Hurdles", "Shotput Throw", "Discus Throw", 
-        "Javelin Throw", "Hammer Throw", "High Jump", "Long Jump", "Triple Jump", "Pole Vault", "Heptathlon"];
+    const menEvents = ["100 Meters", "200 Meters", "400 Meters", "800 Meters", "1500 Meters", "5000 Meters"
+        , "10,000 Meters", "3000 Steeplechase", "110 Hurdles", "400 Hurdles", "Shot put", "Discus", 
+        "Javelin", "Hammer", "High Jump", "Long Jump", "Triple Jump", "Pole Vault", "Decathlon"];
+    const womenEvents = ["100 Meters", "200 Meters", "400 Meters", "800 Meters", "1500 Meters", "5000 Meters"
+    , "10,000 Meters", "3000 Steeplechase", "100 Hurdles", "400 Hurdles", "Shot put", "Discus", 
+    "Javelin", "Hammer", "High Jump", "Long Jump", "Triple Jump", "Pole Vault", "Heptathlon"];
 
     
     const [divList, setDivList] = useState([]);
-    const [divSelect, setDivSelect] = useState("");
-    const [genSelect, setGenSelect] = useState('');    
+    const [divSelect, setDivSelect] = useState('');
+    const [genSelect, setGenSelect] = useState(''); 
+    const [confSelect, setConfSelect] = useState('');
+    const [eventSelect, setEventSelect] = useState('');
 
-    let divType = null;
+    let confType = null;
     let confOptions = null;
     let genType = null;
     let eventOptions = null;
 
     function setDivision(e) {
         const val = e.target.value;
-        setDivSelect(val);
-     //   setConference(val);
-        sendGetRequest(val);
+        if (val === "Division") {
+            setDivSelect('');
+        } else {
+            setDivSelect(val);
+        }
+        console.log(val);
+    }
+    function setConference(e) {
+        const val = e.target.value;
+        if (val === "Conference") {
+            setConfSelect('');
+        } else {
+            setConfSelect(val);
+        }
+        console.log(val);
+    }
+    function setEvent(e) {
+        const val = e.target.value;
+        if (val === "Event") {
+            setEventSelect('');
+        } else {
+            setEventSelect(val);
+        }
+        console.log(val);
     }
     function setGender(e) {
-        setGenSelect(e.target.value);
+        const val = e.target.value;
+        if (val === "Sex") {
+            setGenSelect('');
+        } else {
+            setGenSelect(val);
+        }
+        console.log(val);
     }
-
     if(genSelect === "Men") {
         genType = menEvents;
     } else if(genSelect === "Women") {
@@ -43,19 +70,106 @@ export default function Indranking(){
     }
 
     if(divSelect === "DivisionI") {
-        divType = null; //Division 1 conferences
+        confType = null; //Division 1 conferences
     } else if(divSelect === "DivisionII") {
-        divType = null; //Division 2 conferences
+        confType = null; //Division 2 conferences
     } else if(divSelect === "DivisionIII") {
-        divType = D3confNames;
+        confType = D3confNames;
     }
 
-    if(divType) {
-        confOptions = divType.map((e) => <option key={e}>{e}</option>);
+    if(confType) {
+        confOptions = confType.map((e) => <option key={e}>{e}</option>);
     }
-
-
-    const sendGetRequest = async (division) => {
+    function setResults(e) {
+        const val = e.target.value;
+        if(val === "Results") {
+            const dSelect = divSelect;
+            const cSelect= confSelect;
+            const gSelect = genSelect;
+            const eSelect = eventSelect;
+            console.log(dSelect);
+            console.log(cSelect);
+            console.log(gSelect);
+            console.log(eSelect);
+            sendGetRequest(dSelect, cSelect, gSelect, eSelect);
+        }
+    }
+    const sendGetRequest = async (division, conference, gender, event) => {
+        try {
+            if (division === 'DivisionIII') {
+                if (conference !== '') {
+                    if (gender !== '' && event !== '') {
+                        const response = await Axios.get('http://localhost:3001/IndivRankings/DIII', {
+                            params: {
+                                query: `SELECT * FROM DIII WHERE Conference = '${conference}' AND Gender = '${gender}' AND Event = '${event}' LIMIT 10`
+                            }
+                        })
+                        setDivList(response.data);
+                    } else if (gender !== '' && event === '') {
+                        const response = await Axios.get('http://localhost:3001/IndivRankings/DIII', {
+                            params: {
+                                query: `SELECT * FROM DIII WHERE Conference = '${conference}' AND Gender = '${gender}' LIMIT 10`
+                            }
+                        })
+                        setDivList(response.data);
+                    } else {
+                        const response = await Axios.get('http://localhost:3001/IndivRankings/DIII', {
+                            params: {
+                                query: `SELECT * FROM DIII WHERE Conference = '${conference}' LIMIT 10`
+                            }
+                        })
+                        setDivList(response.data);
+                    }
+                } else {
+                    if (gender !== '' && event !== '') {
+                        const response = await Axios.get('http://localhost:3001/IndivRankings/DIII', {
+                            params: {
+                                query: `SELECT * FROM DIII WHERE Gender = '${gender}' AND Event = '${event}' LIMIT 10`
+                            }
+                        })
+                        setDivList(response.data);
+                    } else if (gender !== '' && event === '') {
+                        const response = await Axios.get('http://localhost:3001/IndivRankings/DIII', {
+                            params: {
+                                query: `SELECT * FROM DIII WHERE Gender = '${gender}' LIMIT 10`
+                            }
+                        })
+                        setDivList(response.data);
+                    } else {
+                        const response = await Axios.get('http://localhost:3001/IndivRankings/DIII', {
+                            params: {
+                                query: `SELECT * FROM DIII LIMIT 10`
+                            }
+                        })
+                        setDivList(response.data);
+                    }
+                }
+            } 
+        } catch (err) {
+            console.log(err);
+        }
+    }
+      
+      
+        /*  try {
+            if (division === 'DivisionIII') {
+                const response = await Axios.get('http://localhost:3001/IndivRankings/DIII', {
+                    params: {
+                        query: 'SELECT * FROM DIII LIMIT 10'
+                    }
+                })
+                console.log(typeof(response.data));
+                console.log('data retrieved');
+                console.log(response.data);
+                setDivList(response.data);        
+            }
+            else {
+                const response = await Axios.get('http://localhost:3001/');
+                console.log("Blank list recieved");
+                console.log(response.data);
+                setDivList(response.data);
+            } */
+  /*  const sendGetRequest = async (division) => {
         
         try {
             const axiosLink = "http://localhost:3001/" + division;
@@ -68,8 +182,7 @@ export default function Indranking(){
         } catch (err) {
             console.error(err);
         } 
-    }
-   
+    }*/
     return (
         <div className="indContainer">
             
@@ -90,7 +203,7 @@ export default function Indranking(){
                 </div>
 
                 <div className='filterButton'>
-                    <select>
+                    <select onChange={setConference}>
                         <option>Conference</option>
                         {confOptions}
                     </select>
@@ -99,16 +212,23 @@ export default function Indranking(){
                 <div className='filterButton'>
                     {/*e=>setSelectDiv(e.target.value)*/}
                     <select onChange={setGender}>
-                        <option>Men & Women</option>
+                        <option>Sex</option>
                         <option>Men</option>
                         <option>Women</option>
                     </select>
                 </div>
 
                 <div className='filterButton'>
-                    <select className="Events" placeholder="Event" >
+                    <select className="Events" placeholder="Event" onChange={setEvent} >
                         <option>Event</option>
                         {eventOptions}
+                    </select>
+                </div>
+
+                <div className='filterButton'>
+                    <select onChange={setResults} >
+                        <option></option>
+                        <option>Results</option>
                     </select>
                 </div>
 
