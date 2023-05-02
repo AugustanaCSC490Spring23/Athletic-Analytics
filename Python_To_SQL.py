@@ -9,8 +9,6 @@ Created on Mon Apr  3 18:19:37 2023
 import requests 
 from bs4 import BeautifulSoup
 import pandas as pd
-# from sqlalchemy import create_engine
-# import pyodbc
 import mysql.connector
 
 diii = [4268, 4248, 4237, 4270, 4246, 4301, 4267, 4242, 4245, 4244, 4273,
@@ -61,7 +59,6 @@ for p in range(3):
         if conference == "IC4A/ECAC":
             con = conference.split("/")
             conference = "_".join(con)
-        name = conference + '.csv'
         
         # Getting the headers for the columns
         # o==0 is just so that that
@@ -87,7 +84,6 @@ for p in range(3):
                 he.append('Event_ID')
                 break
             o=1
-        #data.append(he)
         # k=0 is for events
         k=0
         for row in rows:
@@ -149,7 +145,6 @@ for p in range(3):
                             sec = split[1].split("\n")
                             sec = sec[0].split("(")
                             sec = float(sec[0])
-                            #sec = round(float(split[1].strip().replace("\n","")))
                             if event == "400 Meters":
                                 minute = float(minute)*60
                                 time = minute+sec
@@ -214,15 +209,7 @@ for p in range(3):
                                 temp2[7]=meet
                                 temp2.append(date)
                                 temp2.append("")
-                                # print(len(temp2))
-                                # break
-                                # if len(cols)!= 9:
-                                #     temp2[7]=""
-                                # else:
-                                #     temp2[7]=temp2[8]
-                                #     del temp2[8]
                                 cols=temp2
-                                #print(event)
                     if event=="Heptathlon" or event=="Decathlon":
                         points=cols[4]
                         meet=cols[5]
@@ -233,20 +220,10 @@ for p in range(3):
                         cols.append(meet)
                         cols.append(date)
                         cols.append("")
-                    # adding NaN if there is nothing in wind column
-                    # if len(cols)==7:
-                    #     cols.append('')
-                    # elif len(cols)==8 and cols[7]=='':
-                    #     cols[7]=''
                     cols.append(event)
                     cols.append(conference)
                     cols.append(gender)
                     cols.append(k)
-                    # if event == "10,000 Meters":
-                    #     print(cols)
-                    #     split=cols[4].split(":")
-                    #     print(split)
-                    #     cols[4]=":".join(split[0:2])
                     data.append(cols)
     df = pd.DataFrame(data, columns = he)
     
@@ -257,7 +234,6 @@ for p in range(3):
               database="trackData"
             )
     cursor = mydb.cursor()
-    #cursor.execute("select diii;")
     drop = 'DROP TABLE IF EXISTS ' + d + ';'
     cursor.execute(drop)
     table = ("CREATE TABLE `" + d +"`("
@@ -281,17 +257,4 @@ for p in range(3):
         sql = "INSERT INTO " + d + " VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)"
         cursor.execute(sql, tuple(row))
         mydb.commit()
-    # Execute query
-    # sql = "SELECT * FROM diii.test"
-    # cursor.execute(sql)
-    # Fetch all the records
-    # result = cursor.fetchall()
-    # for i in result:
-    #     print(i)
     print("done")
-#        conn = pyodbc.connect('Driver={SQL Server};'
-#                      'Server=104.197.133.232;'
-#                      'Database=diii;'
-#                      'Trusted_Connection=yes;')
-        # engine = create_engine('mysql+mysqldb://root:AthleticAnalytics@104.197.133.232/diii')
-        # df.to_sql(con=engine, name='Test_Scrap', if_exists='replace', index=False)
