@@ -2,7 +2,8 @@
 """
 Created on Mon Apr  3 18:19:37 2023
 
-@author: jespe
+@author: brianholton
+@help: jacobspeirer
 """
 
 import requests 
@@ -173,7 +174,7 @@ for p in range(3):
                             cols.append(meet)
                         elif cols[7] != "":
                             wind=cols[7]
-                            if cols[7]=="NWI":
+                            if cols[7]!="NWI":
                                 wind=""
                             cols[7]=meet
                         cols[5]=""
@@ -190,7 +191,7 @@ for p in range(3):
                                 distance = temp2[4]
                                 meet=temp2[6]
                                 date=temp2[7]
-                                if temp2[8]=="NWI":
+                                if temp2[8]!="NWI":
                                     wind=""
                                 else:
                                     wind=temp2[8]
