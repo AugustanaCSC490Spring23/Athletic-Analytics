@@ -237,10 +237,10 @@ for p in range(3):
     drop = 'DROP TABLE IF EXISTS ' + d + ';'
     cursor.execute(drop)
     table = ("CREATE TABLE `" + d +"`("
-             "`Ranking` int,"
+             "`Rank` int,"
              "`Athlete` text,"
              "`Year` text,"
-             "`College` text,"
+             "`Team` text,"
              "`Time` text DEFAULT NULL,"
              "`Distance` text DEFAULT NULL,"
              "`Points` text DEFAULT NULL,"
