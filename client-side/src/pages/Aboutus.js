@@ -1,4 +1,5 @@
 import vallejo from "../authorPhotos/Vallejo.png"
+import cathcart from "../authorPhotos/Cathcart.png"
 
 export default function aboutus(){
     return (
@@ -20,7 +21,13 @@ export default function aboutus(){
         </div>
 
         <div className="bioCard">        
-            <h3> Jon Cathcart </h3>
+            <div className="photo-and-name">
+                <img src={cathcart} alt="jon"/>
+                <h3> Jon Cathcart</h3>
+
+            </div>
+            <p> Currently a senior at Augustana College majoring in computer science. Responsible 
+                for back-end react and data manipulation with the external sourced database</p>
         </div>
 
         <div className="bioCard">       

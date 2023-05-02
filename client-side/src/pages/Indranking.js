@@ -1,22 +1,62 @@
 import React, { useState, useEffect} from "react";
 import Axios from 'axios';
 export default function Indranking(){
-  /*  const D3confNames =["AARTFC", 'ARC', 'CAC', "CC", 'CCIW', "CSAC", "CCC", "E8", "GNAC", "HCHC", "IIAC"
+    const D3confNames =["AARTFC", 'American_Rivers', 'CAC', "CC", 'CCIW', "CSAC", "CCC", "E8", "GNAC", "HCHC", "IIAC"
 , "LC", 'LL', "LEC", "MIAA", "MAC", "MWC", "MIAC", "NECC", "NESCAC", "NAC", "NCAC", "NEAC", "NACC",
-"NWC", "OAC", "ODAC"]; */
+"NWC", "OAC", "ODAC"];
+
+    const menEvents = ["100m Dash", "200m Dash", "400m Dash", "800m Dash", "1500m Run", "5000m Run"
+        , "10,000m Run", "3000m Steeplechase", "110m Hurdles", "400m Hurdles", "Shotput Throw", "Discus Throw", 
+        "Javelin Throw", "Hammer Throw", "High Jump", "Long Jump", "Triple Jump", "Pole Vault", "Decathlon"];
+    const womenEvents = ["100m Dash", "200m Dash", "400m Dash", "800m Dash", "1500m Run", "5000m Run"
+        , "10,000m Run", "3000m Steeplechase", "100m Hurdles", "400m Hurdles", "Shotput Throw", "Discus Throw", 
+        "Javelin Throw", "Hammer Throw", "High Jump", "Long Jump", "Triple Jump", "Pole Vault", "Heptathlon"];
+
     
+    const [divList, setDivList] = useState([]);
+    const [divSelect, setDivSelect] = useState("");
+    const [genSelect, setGenSelect] = useState('');    
+
+    let divType = null;
+    let confOptions = null;
+    let genType = null;
+    let eventOptions = null;
+
     function setDivision(e) {
         const val = e.target.value;
+        setDivSelect(val);
      //   setConference(val);
         sendGetRequest(val);
     }
-  /*  function setConference(division) {
-        return (); 
+    function setGender(e) {
+        setGenSelect(e.target.value);
+    }
 
-    } */
-    const [divList, setDivList] = useState([]);
+    if(genSelect === "Men") {
+        genType = menEvents;
+    } else if(genSelect === "Women") {
+        genType = womenEvents;
+    }
+    
+    if(genType) {
+        eventOptions = genType.map((e) => <option key={e}>{e}</option>);
+    }
+
+    if(divSelect === "DivisionI") {
+        divType = null; //Division 1 conferences
+    } else if(divSelect === "DivisionII") {
+        divType = null; //Division 2 conferences
+    } else if(divSelect === "DivisionIII") {
+        divType = D3confNames;
+    }
+
+    if(divType) {
+        confOptions = divType.map((e) => <option key={e}>{e}</option>);
+    }
+
 
     const sendGetRequest = async (division) => {
+        
         try {
             const axiosLink = "http://localhost:3001/" + division;
             console.log("Send get request " + axiosLink);
@@ -30,9 +70,6 @@ export default function Indranking(){
         } 
     }
    
-    
-    
-    
     return (
         <div className="indContainer">
             
@@ -41,17 +78,7 @@ export default function Indranking(){
                 <p>This page will allow you to view an individual athlete's recorded stats for each of their events and how they rank in their conference
                 </p>
             </div>
-
             <div className="selectOptions">
-                <div className='filterButton'>
-                    {/*e=>setSelectDiv(e.target.value)*/}
-                    <select >
-                        <option>Men's</option>
-                        <option>Women's</option>
-                    </select>
-                </div>
-
-
                 <div className='filterButton'>
                     {/*e=>setSelectDiv(e.target.value)*/}
                     <select onChange={setDivision}>
@@ -62,78 +89,33 @@ export default function Indranking(){
                     </select>
                 </div>
 
-
-
                 <div className='filterButton'>
                     <select>
-                        <option> Conference  </option>
-                        <option >Conference I</option>
-                        <option >Conference II</option>
-                        <option >Conference III</option>
+                        <option>Conference</option>
+                        {confOptions}
                     </select>
                 </div>
 
-
+                <div className='filterButton'>
+                    {/*e=>setSelectDiv(e.target.value)*/}
+                    <select onChange={setGender}>
+                        <option>Men & Women</option>
+                        <option>Men</option>
+                        <option>Women</option>
+                    </select>
+                </div>
 
                 <div className='filterButton'>
-                
-                        {/*    <select className="womenEvents" >
-                                <option> Select Event</option>
-                                <option > 100m Dash</option>
-                                <option > 200m Dash</option>
-                                <option > 400m Dash </option>
-                                <option > 800m Dash </option>
-                                <option > 1500m Run </option>
-                                <option > 5000m Run </option>
-                                <option > 10,000m Run </option>
-                                <option > 3000m Steeplechase </option>
-                                <option > 100m Hurdles </option>
-                                <option > 400m Hurdles </option>
-                                <option > Shotput Throw </option>
-                                <option > Discus Throw </option>
-                                <option > Javelin Throw </option>
-                                <option > Hammer Throw </option>
-                                <option > High Jump </option>
-                                <option > Long Jump</option>
-                                <option > Triple Jump</option>
-                                <option > Pole Vault</option>
-                                <option > Heptathlon </option>
-
-                                
-                            </select>
-                        */}
-
-
-                    <select className="manEvents" placeholder="Event" >
-                        
-                        <option> Event </option>
-                        <option > 100m Dash</option>
-                        <option > 200m Dash</option>
-                        <option > 400m Dash </option>
-                        <option > 800m Dash </option>
-                        <option > 1500m Run </option>
-                        <option > 5000m Run </option>
-                        <option > 10,000m Run </option>
-                        <option > 3000m Steeplechase </option>
-                        <option > 110m Hurdles </option>
-                        <option > 400m Hurdles </option>
-                        <option > Shotput Throw </option>
-                        <option > Discus Throw </option>
-                        <option > Javelin Throw </option>
-                        <option > Hammer Throw </option>
-                        <option > High Jump </option>
-                        <option > Long Jump</option>
-                        <option > Triple Jump</option>
-                        <option > Pole Vault</option>
-                        <option > Decathlon </option>
-
+                    <select className="Events" placeholder="Event" >
+                        <option>Event</option>
+                        {eventOptions}
                     </select>
                 </div>
 
 
             </div>
             <div className="eventTable-header">
-                <h1> Event </h1>
+                <h1> Event: </h1>
 
             </div>
             <div className="eventTable">

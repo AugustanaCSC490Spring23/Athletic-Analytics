@@ -21,20 +21,20 @@ const db = mysql.createPool({
   const conferenceNames = string;
 }*/
 app.get("/DivisionIII", (req, res) => {
-  const getOutput = "SELECT * FROM AARTFC ORDER BY Event_ID, AARTFC.Rank LIMIT 10"
+  const getOutput = "SELECT * FROM DIII LIMIT 10"
   db.query(getOutput, (err, result) => {
     res.send(result);
   });
 }); 
 
 app.get("/DivisionII", (req, res) => {
-  const getOutput = "SELECT * FROM AARTFC LIMIT 2"
+  const getOutput = "SELECT * FROM AARTFC ORDER BY Event_ID, AARTFC.Rank LIMIT 5"
   db.query(getOutput, (err, result) => {
     res.send(result);
   });
 }); 
 app.get("/DivisionI", (req, res) => {
-  const getOutput = "SELECT * FROM AARTFC LIMIT 1"
+  const getOutput = "SELECT * FROM AARTFC ORDER BY Event_ID, AARTFC.Rank LIMIT 1"
   db.query(getOutput, (err, result) => {
     res.send(result);
   });
