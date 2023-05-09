@@ -21,7 +21,19 @@ app.get("/DivisionIII", (req, res) => {
   });
 }); 
 
-app.get("/IndivRankings/DIII", (req, res) => {
+app.get("/IndivRankings", (req, res) => {
+  const query = req.query.query;
+  db.query(query, (err, result) => {
+    if (err) {
+      console.log("Query " + query);
+      res.status(500).send(err);
+    } else {
+      res.send(result);
+    }
+  });
+});
+
+app.get("/SquadRankings/Colleges", (req, res) => {
   const query = req.query.query;
   db.query(query, (err, result) => {
     if (err) {
@@ -32,6 +44,18 @@ app.get("/IndivRankings/DIII", (req, res) => {
     }
   });
 }); 
+
+app.get("/SquadRankings/TopResults", (req, res) => {
+  const query = req.query.query;
+  db.query(query, (err, result) => {
+    if (err) {
+      console.log("Query " + query);
+      res.status(500).send(err);
+    } else {
+      res.send(result);
+    }
+  });
+});
 app.get("/", (req, res)=> {
   res.send([]);
 });
