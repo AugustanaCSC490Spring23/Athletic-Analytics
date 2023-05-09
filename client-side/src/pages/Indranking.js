@@ -1,8 +1,10 @@
 import React, { useState, useEffect} from "react";
 import Axios from 'axios';
 export default function Indranking(){
-    const D3confNames =["AARTFC", 'American_Rivers', 'American_Southwest', "Atlantic_East", 'CCIW', "CCS", 
-    "CSAC", "CUNYAC", "Centennial_Conference", "Coast-to-Coast", 'Commonwealth_Coast', "Empire_8", "Great_Northeast"];
+    const D3confNames =['AARTFC', 'American_Rivers', 'American_Southwest', 'Atlantic_East', 'CCIW', 'CCS', 'Centennial_Conference', 'Coast-to-Coast', 'Commonwealth_Coast', 'CSAC', 
+    'CUNYAC','Empire_8', 'Great_Northeast', 'HCAC', 'Landmark_Conference', 'Liberty_League', 'Little_East', 'MASCAC', 'MIAC', 'Michigan_Intercollegiate', 
+    'Middle_Atlantic', 'Midwest_Conference', 'NACC', 'NEICAAA', 'NESCAC', 'NEWMAC', 'NJAC', 'North_Atlantic_Conference', 'North_Coast_AC', 'Northwest_Conference', 
+    'OAC', 'ODAC', 'Presidents_AC', 'SAA', 'SCAC', 'SCIAC', 'SLIAC', 'SUNYAC', 'UAA', 'UMAC', 'USA_South', 'WIAC'];
 
     const menEvents = ["100 Meters", "200 Meters", "400 Meters", "800 Meters", "1500 Meters", "5000 Meters"
         , "10,000 Meters", "3000 Steeplechase", "110 Hurdles", "400 Hurdles", "Shot put", "Discus", 
@@ -82,6 +84,7 @@ export default function Indranking(){
     }
     function setResults(e) {
         const val = e.target.value;
+        console.log(val);
         if(val === "Results") {
             const dSelect = divSelect;
             const cSelect= confSelect;
@@ -101,21 +104,21 @@ export default function Indranking(){
                     if (gender !== '' && event !== '') {
                         const response = await Axios.get('http://localhost:3001/IndivRankings/DIII', {
                             params: {
-                                query: `SELECT * FROM DIII WHERE Conference = '${conference}' AND Gender = '${gender}' AND Event = '${event}' LIMIT 10`
+                                query: `SELECT * FROM diii WHERE Conference = '${conference}' AND Gender = '${gender}' AND Event = '${event}' LIMIT 10`
                             }
                         })
                         setDivList(response.data);
                     } else if (gender !== '' && event === '') {
                         const response = await Axios.get('http://localhost:3001/IndivRankings/DIII', {
                             params: {
-                                query: `SELECT * FROM DIII WHERE Conference = '${conference}' AND Gender = '${gender}' LIMIT 10`
+                                query: `SELECT * FROM diii WHERE Conference = '${conference}' AND Gender = '${gender}' LIMIT 10`
                             }
                         })
                         setDivList(response.data);
                     } else {
                         const response = await Axios.get('http://localhost:3001/IndivRankings/DIII', {
                             params: {
-                                query: `SELECT * FROM DIII WHERE Conference = '${conference}' LIMIT 10`
+                                query: `SELECT * FROM diii WHERE Conference = '${conference}' LIMIT 10`
                             }
                         })
                         setDivList(response.data);
@@ -124,65 +127,32 @@ export default function Indranking(){
                     if (gender !== '' && event !== '') {
                         const response = await Axios.get('http://localhost:3001/IndivRankings/DIII', {
                             params: {
-                                query: `SELECT * FROM DIII WHERE Gender = '${gender}' AND Event = '${event}' LIMIT 10`
+                                query: `SELECT * FROM diii WHERE Gender = '${gender}' AND Event = '${event}' LIMIT 10`
                             }
                         })
                         setDivList(response.data);
                     } else if (gender !== '' && event === '') {
                         const response = await Axios.get('http://localhost:3001/IndivRankings/DIII', {
                             params: {
-                                query: `SELECT * FROM DIII WHERE Gender = '${gender}' LIMIT 10`
+                                query: `SELECT * FROM diii WHERE Gender = '${gender}' LIMIT 10`
                             }
                         })
                         setDivList(response.data);
                     } else {
                         const response = await Axios.get('http://localhost:3001/IndivRankings/DIII', {
                             params: {
-                                query: `SELECT * FROM DIII LIMIT 10`
+                                query: `SELECT * FROM diii LIMIT 10`
                             }
                         })
                         setDivList(response.data);
                     }
                 }
-            } 
+            }
         } catch (err) {
             console.log(err);
         }
     }
-      
-      
-        /*  try {
-            if (division === 'DivisionIII') {
-                const response = await Axios.get('http://localhost:3001/IndivRankings/DIII', {
-                    params: {
-                        query: 'SELECT * FROM DIII LIMIT 10'
-                    }
-                })
-                console.log(typeof(response.data));
-                console.log('data retrieved');
-                console.log(response.data);
-                setDivList(response.data);        
-            }
-            else {
-                const response = await Axios.get('http://localhost:3001/');
-                console.log("Blank list recieved");
-                console.log(response.data);
-                setDivList(response.data);
-            } */
-  /*  const sendGetRequest = async (division) => {
-        
-        try {
-            const axiosLink = "http://localhost:3001/" + division;
-            console.log("Send get request " + axiosLink);
-            const response = await Axios.get(axiosLink); 
-            console.log(typeof(response.data));
-            console.log("data recieved");
-            console.log(response.data);
-            setDivList(response.data);  
-        } catch (err) {
-            console.error(err);
-        } 
-    }*/
+
     return (
         <div className="indContainer">
             
@@ -225,26 +195,22 @@ export default function Indranking(){
                     </select>
                 </div>
 
-                <div className='filterButton'>
-                    <select onChange={setResults} >
-                        <option></option>
-                        <option>Results</option>
-                    </select>
-                </div>
-
-
+                <button onClick={setResults}>
+                    <option>Results</option>
+                </button>
+                
             </div>
             <div className="eventTable-header">
-                <h1> Event: </h1>
+                <h1> {eventSelect} </h1>
 
             </div>
             <div className="eventTable">
                     <div className="tableStat">
-                        <h3> Rank </h3>
+                        <h3> Ranking </h3>
                         {divList.map((val) => {
                             return (
                                 <a className='dataItem' href={val.link} target="_blank">
-                                    {val.Rank}
+                                    {val.Ranking}
                                 </a>
                             );
                             }
@@ -277,11 +243,11 @@ export default function Indranking(){
                     </div>
 
                     <div className="tableStat">
-                        <h3> Team </h3>
+                        <h3> College </h3>
                         {divList.map((val) => {
                             return (
                                 <a className='dataItem' href={val.link} target="_blank">
-                                    {val.Team}
+                                    {val.College}
                                 </a>
                             );
                             }

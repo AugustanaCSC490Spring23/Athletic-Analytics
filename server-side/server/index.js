@@ -12,10 +12,10 @@ const db = mysql.createPool({
   host: '104.197.133.232',
   user: 'root',
   password: 'AthleticAnalytics',
-  database: 'diii'
+  database: 'trackData'
 });
 app.get("/DivisionIII", (req, res) => {
-  const getOutput = "SELECT * FROM DIII LIMIT 10"
+  const getOutput = "SELECT * FROM diii LIMIT 10"
   db.query(getOutput, (err, result) => {
     res.send(result);
   });
@@ -30,19 +30,6 @@ app.get("/IndivRankings/DIII", (req, res) => {
     } else {
       res.send(result);
     }
-  });
-});
-
-app.get("/DivisionII", (req, res) => {
-  const getOutput = "SELECT * FROM AARTFC ORDER BY Event_ID, AARTFC.Rank LIMIT 5"
-  db.query(getOutput, (err, result) => {
-    res.send(result);
-  });
-}); 
-app.get("/DivisionI", (req, res) => {
-  const getOutput = "SELECT * FROM AARTFC ORDER BY Event_ID, AARTFC.Rank LIMIT 1"
-  db.query(getOutput, (err, result) => {
-    res.send(result);
   });
 }); 
 app.get("/", (req, res)=> {
