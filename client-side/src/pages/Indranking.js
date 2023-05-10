@@ -227,7 +227,7 @@ export default function Indranking(){
                                     <a className='stat' href={val.link} target="_blank"><p>{val.Rank}</p></a>
                                     <a className='stat' href={val.link} target="_blank"><p>{val.Athlete}</p></a>                                   
                                     <a className='stat' href={val.link} target="_blank"><p>{val.Year}</p></a> 
-                                    <a className='stat' href={val.link} target="_blank"><p>{val.Team}</p></a> 
+                                    <a className='stat' href={val.link} target="_blank"><p>{val.College}</p></a> 
                                     <a className='stat' href={val.link} target="_blank"><p>{val.Time}{val.Distance}{val.Points}</p></a> 
                                     <a className='stat' href={val.link} target="_blank"><p>{val.Meet_Date}</p></a> 
                                     <a className='stat' href={val.link} target="_blank"><p>{val.Wind}</p></a> 
