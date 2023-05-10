@@ -50,7 +50,7 @@ export default function NavButton(){
             <div className='filterButton'>
                 {/*e=>setSelectDiv(e.target.value)*/}
                 <select onChange={setDivision}>
-                    <option value ='DivisionI'>Men's</option>
+                    <option value ='DivisionI'      >Men's</option>
                     <option value ='DivisionII'>Women's</option>
                 </select>
             </div>

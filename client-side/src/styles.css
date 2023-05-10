@@ -59,7 +59,7 @@ p{
     border-right: solid black;
     border-bottom: solid black;
     margin-left: 7.75vw;
-    height:200vh;
+    height: 290vh;
     width: 80vw;
 }
 
@@ -257,7 +257,7 @@ p{
 }
 
 /* this styles the formatting and search results themselves*/
-.searchbar-results .dataItem{
+.searchbar-results .stat{
     z-index: 1;
     position: relative; 
     background-color: white;
@@ -306,7 +306,8 @@ input:focus{
 
 
 
-/* ************* This is the styling of the Squad rankings page ************* */
+/* ************* This is the styling of the filter buttons on both the Ind Rankings and
+                                    Squad rankings page ************* */
 .filterButton {
     height: 3vh;
     width: 15vw;
@@ -410,60 +411,137 @@ input:focus{
 
 
 .selectOptions{
-    margin-left: 9.5vw;
+    margin-left: 2.5vw;
     display: flex;
     justify-content: center;
-    width: 60vw;
+    width: 75vw;
+    margin-bottom: 10vh;
 
 }
 
+.submit-button{
+    height: 3vh;
+    width: 15vw;
+    margin: 1vw;
+    margin-right: 2vw;
+    background-color: white;
+    border-radius: .5rem;
+    box-shadow: 3px 3px 3px 3px black;
+    font-size: x-small;
+
+}
+.submit-button:hover{
+    cursor: pointer;
+    background-color: lightslategray;
+}
 .indHeader{
     margin-left: 3vw;
 }
 
-.eventTable-header{
-    margin-left: 3vw;
-}
-.eventTable{
-    height: 100vh;
-    width: 65vw;
+/*This is the styling for the stat table in ind.ranking*/
+.eventTable-title{
+    margin-top: .75vh;
     margin-left: 8vw;
+    font-size: 1.25vh;
+}
+
+/* Styling for the actual table itself (color, size, shape) */
+.eventTable{
+    height: 260vh;
+    width: 70vw;
+    margin-left: 4.5vw;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     border: solid black 6px;
     box-shadow: 3px 3px 3px 3px black;
-
-    
+    border-radius: .5rem;
+    background-color: rgb(176, 209, 241);
+    border-bottom: black 2px solid;
 }
 
-.tableStat{
-    height: inherit;
-    width: 8vw;
+/*This styles divs surrounding the stat headers*/
+.stat-headers{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: left;
-    flex-wrap: wrap;
+    align-items: center;
+    text-decoration: underline;
+    width:62vw;
+    height: 1.5vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.stat-headers h3:nth-child(1){
+    width: 15%;
+}
+
+.stat-headers h3:nth-child(2){
+    width:18%;
+}
+
+.stat-headers h3:nth-child(3){
+    width:12%;
+}
+
+.stat-headers h3:nth-child(4){
+    width:14.5%;
+}
+
+.stat-headers h3:nth-child(5){
+    width:13%;
+}
+
+.stat-headers h3:nth-child(6){
+    width:18.5%;
+}
+
+
+
+
+
+/* Styling for the presentation of each person's stat */
+.dataRow{
+    display: flex;
+    width: 60vw;
+    height: 5vh;
+}
+.dataRow a{
+    width: 13%;
+    display: flex;
+    justify-content: center; 
+}
+
+.dataRow a:nth-child(1){
+    justify-content: left;
+    padding-left: 1.25vw;
+}
+.dataRow a:nth-child(2){
+    justify-content: left;
+}
+.dataRow a:nth-child(6){
+    justify-content: right;
+}
+
+.dataRow a:nth-child(7){
+    justify-content: right;
+    padding-right: 1.75vw;
+}
+.tableStat{
+    height: 60rem;
     font-size: 1vw;
     padding: 2vh;
-    border-right: solid 1px black;
-}
-.tableStat a{
-    width: 8vw;
 }
 
 .tableStat a{
-    width: 8vw;
+    height: 50%;
+    width: 30%;
 }
 
-.tableStat:nth-child(7){
-    border:none;
-}
-.eventTable-header{
-    text-decoration: underline;
-    width:50vw;
-}
+
+
+
+
+
 
 
 
