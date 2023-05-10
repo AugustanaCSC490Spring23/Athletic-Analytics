@@ -87,20 +87,16 @@ export default function Indranking(){
     if(confType) {
         confOptions = confType.map((e) => <option key={e}>{e}</option>);
     }
-    function setResults(e) {
-        const val = e.target.value;
-        console.log(val);
-        if(val === "Results") {
-            const dSelect = divSelect;
-            const cSelect = confSelect;
-            const sSelect = sexSelect;
-            const eSelect = eventSelect;
-            console.log(dSelect);
-            console.log(cSelect);
-            console.log(sSelect);
-            console.log(eSelect);
-            sendGetRequest(dSelect, cSelect, sSelect, eSelect);
-        }
+    function setResults() {
+        const dSelect = divSelect;
+        const cSelect = confSelect;
+        const sSelect = sexSelect;
+        const eSelect = eventSelect;
+        console.log(dSelect);
+        console.log(cSelect);
+        console.log(sSelect);
+        console.log(eSelect);
+        sendGetRequest(dSelect, cSelect, sSelect, eSelect);
     }
     const sendGetRequest = async (division, conference, sex, event) => {
         try {
@@ -155,153 +151,7 @@ export default function Indranking(){
             console.log(err);
         }
     }
-            
-            /*if (division === 'DivisionIII') {
-                if (conference !== '') {
-                    if (sex !== '' && event !== '') {
-                        const response = await Axios.get('http://localhost:3001/IndivRankings/DIII', {
-                            params: {
-                                query: `SELECT * FROM diii WHERE Conference = '${conference}' AND Gender = '${sex}' AND Event = '${event}' LIMIT 10`
-                            }
-                        })
-                        setDivList(response.data);
-                    } else if (sex !== '' && event === '') {
-                        const response = await Axios.get('http://localhost:3001/IndivRankings/DIII', {
-                            params: {
-                                query: `SELECT * FROM diii WHERE Conference = '${conference}' AND Gender = '${sex}' LIMIT 10`
-                            }
-                        })
-                        setDivList(response.data);
-                    } else {
-                        const response = await Axios.get('http://localhost:3001/IndivRankings/DIII', {
-                            params: {
-                                query: `SELECT * FROM diii WHERE Conference = '${conference}' LIMIT 10`
-                            }
-                        })
-                        setDivList(response.data);
-                    }
-                } else {
-                    if (sex !== '' && event !== '') {
-                        const response = await Axios.get('http://localhost:3001/IndivRankings/DIII', {
-                            params: {
-                                query: `SELECT * FROM diii WHERE Gender = '${sex}' AND Event = '${event}' ORDER BY Time, Distance DESC, Points DESC LIMIT 10`
-                            }
-                        })
-                        setDivList(response.data);
-                    } else if (sex !== '' && event === '') {
-                        const response = await Axios.get('http://localhost:3001/IndivRankings/DIII', {
-                            params: {
-                                query: `SELECT * FROM diii WHERE Gender = '${sex}' ORDER BY Time, Event ID LIMIT 10`
-                            }
-                        })
-                        setDivList(response.data);
-                    } else {
-                        const response = await Axios.get('http://localhost:3001/IndivRankings/DIII', {
-                            params: {
-                                query: `SELECT * FROM diii LIMIT 10`
-                            }
-                        })
-                        setDivList(response.data);
-                    }
-                }
-            } else if (division === 'DivisionII') {
-                if (conference !== '') {
-                    if (sex !== '' && event !== '') {
-                        const response = await Axios.get('http://localhost:3001/IndivRankings/DII', {
-                            params: {
-                                query: `SELECT * FROM dii WHERE Conference = '${conference}' AND Gender = '${sex}' AND Event = '${event}' LIMIT 10`
-                            }
-                        })
-                        setDivList(response.data);
-                    } else if (sex !== '' && event === '') {
-                        const response = await Axios.get('http://localhost:3001/IndivRankings/DII', {
-                            params: {
-                                query: `SELECT * FROM dii WHERE Conference = '${conference}' AND Gender = '${sex}' LIMIT 10`
-                            }
-                        })
-                        setDivList(response.data);
-                    } else {
-                        const response = await Axios.get('http://localhost:3001/IndivRankings/DII', {
-                            params: {
-                                query: `SELECT * FROM dii WHERE Conference = '${conference}' LIMIT 10`
-                            }
-                        })
-                        setDivList(response.data);
-                    }
-                } else {
-                    if (sex !== '' && event !== '') {
-                        const response = await Axios.get('http://localhost:3001/IndivRankings/DII', {
-                            params: {
-                                query: `SELECT * FROM dii WHERE Gender = '${sex}' AND Event = '${event}' ORDER BY Time, Distance DESC, Points DESC LIMIT 10`
-                            }
-                        })
-                        setDivList(response.data);
-                    } else if (sex !== '' && event === '') {
-                        const response = await Axios.get('http://localhost:3001/IndivRankings/DII', {
-                            params: {
-                                query: `SELECT * FROM dii WHERE Gender = '${sex}' ORDER BY Time, Event ID LIMIT 10`
-                            }
-                        })
-                        setDivList(response.data);
-                    } else {
-                        const response = await Axios.get('http://localhost:3001/IndivRankings/DII', {
-                            params: {
-                                query: `SELECT * FROM dii LIMIT 10`
-                            }
-                        })
-                        setDivList(response.data);
-                    }
-                }
-            } else if (division === 'DivisionI') {
-                if (conference !== '') {
-                    if (sex !== '' && event !== '') {
-                        const response = await Axios.get('http://localhost:3001/IndivRankings/DI', {
-                            params: {
-                                query: `SELECT * FROM di WHERE Conference = '${conference}' AND Gender = '${sex}' AND Event = '${event}' LIMIT 10`
-                            }
-                        })
-                        setDivList(response.data);
-                    } else if (sex !== '' && event === '') {
-                        const response = await Axios.get('http://localhost:3001/IndivRankings/DI', {
-                            params: {
-                                query: `SELECT * FROM di WHERE Conference = '${conference}' AND Gender = '${sex}' LIMIT 10`
-                            }
-                        })
-                        setDivList(response.data);
-                    } else {
-                        const response = await Axios.get('http://localhost:3001/IndivRankings/DI', {
-                            params: {
-                                query: `SELECT * FROM di WHERE Conference = '${conference}' LIMIT 10`
-                            }
-                        })
-                        setDivList(response.data);
-                    }
-                } else {
-                    if (sex !== '' && event !== '') {
-                        const response = await Axios.get('http://localhost:3001/IndivRankings/DI', {
-                            params: {
-                                query: `SELECT * FROM di WHERE Gender = '${sex}' AND Event = '${event}' ORDER BY Time, Distance DESC, Points DESC LIMIT 10`
-                            }
-                        })
-                        setDivList(response.data);
-                    } else if (sex !== '' && event === '') {
-                        const response = await Axios.get('http://localhost:3001/IndivRankings/DI', {
-                            params: {
-                                query: `SELECT * FROM di WHERE Gender = '${sex}' ORDER BY Time, Event ID LIMIT 10`
-                            }
-                        })
-                        setDivList(response.data);
-                    } else {
-                        const response = await Axios.get('http://localhost:3001/IndivRankings/DI', {
-                            params: {
-                                query: `SELECT * FROM di LIMIT 10`
-                            }
-                        })
-                        setDivList(response.data);
 
-                    }
-                }
-            } */
     return (
         <div className="indContainer">
             

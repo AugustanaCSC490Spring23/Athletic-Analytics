@@ -27,15 +27,14 @@ export default function Squadranking(){
     
     const [squadList, setSquadList] = useState([]);
     const [collegeList, setCollegeList] = useState([]);
-    const [divList, setDivList] = useState([]);
     const [divSelect, setDivSelect] = useState('');
     const [sexSelect, setSexSelect] = useState(''); 
-    const [confSelect, setConfSelect] = useState('');
+  //  const [confSelect, setConfSelect] = useState('');
     const [eventSelect, setEventSelect] = useState('');
     const [sumList, setSumList] = useState([]);
 
-    let confType = null;
-    let confOptions = null;
+   // let confType = null;
+   // let confOptions = null;
     let sexType = null;
     let eventOptions = null;
 
@@ -48,7 +47,7 @@ export default function Squadranking(){
         }
         console.log(val);
     }
-    function setConference(e) {
+   /* function setConference(e) {
         const val = e.target.value;
         if (val === "Conference") {
             setConfSelect('');
@@ -56,7 +55,7 @@ export default function Squadranking(){
             setConfSelect(val);
         }
         console.log(val);
-    }
+    }*/
     function setEvent(e) {
         const val = e.target.value;
         if (val === "Event") {
@@ -84,7 +83,7 @@ export default function Squadranking(){
     if(sexType) {
         eventOptions = sexType.map((e) => <option key={e}>{e}</option>);
     }
-
+/*
     if(divSelect === "di") {
         confType = D1confNames; //Division 1 conferences
     } else if(divSelect === "dii") {
@@ -95,89 +94,42 @@ export default function Squadranking(){
 
     if(confType) {
         confOptions = confType.map((e) => <option key={e}>{e}</option>);
-    }
+    } */
 
-    function SetParameters(e) {
-        const val = e.target.value;
-        console.log(val);
-        if(val === "changes") {
-            const dSelect = divSelect;
-            const cSelect= confSelect;
-            const sSelect = sexSelect;
-            const eSelect = eventSelect;
-         //   console.log(dSelect);
-          //  console.log(cSelect);
-          //  console.log(sSelect);
-           // console.log(eSelect);
-            SendCollegeRequest(dSelect, cSelect, sSelect, eSelect);
-            while (squadList === []) {
-                SendSquadRequest(dSelect, sSelect, eSelect);
-            }
+    useEffect(() => {
+        console.log('function effect');
+      }, []);
+    function SetResults() {
+        SendCollegeRequest(divSelect, sexSelect, eventSelect);
         }
-    }
-    function SetResults(e) {
-        const val = e.target.value;
-        console.log(val);
-        if(val === "Results") {
-            AddMarks();
-        }
-    } 
+    
+/*    function SetResults() {
+        SendSquadRequest(divSelect, sexSelect, eventSelect);
+    } */
+  /*  useEffect(() => {
+        console.log('squadList Updated');
+      }, [collegeList]); */
    // var collegeList = {};
-    const SendCollegeRequest = async (division, conference, sex, event) => {
+    const SendCollegeRequest = async (division, sex, event) => {
         console.log('College Request');
         try {
-            if (conference !== '') {
+            if(division !== '') {
                 if (sex !== '' && event !== '') {
                     const response = await Axios.get('http://localhost:3001/SquadRankings/Colleges', {
                         params: {
-                            query: `SELECT College from ${division} 
-                                WHERE Gender = '${sex}' AND Event = '${event}' AND Conference = '${conference}'
-                                Group by College, Event_ID HAVING Count(College) >= 4 order by College;`
-                        }
-                    })
-                    console.log(response.data);
-                    setCollegeList(response.data);
-                } else if (sex !== '' && event === '') {
-                    const response = await Axios.get('http://localhost:3001/SquadRankings/Colleges', {
-                        params: {
-                            query: `SELECT * FROM ${division} WHERE Conference = '${conference}' AND Gender = '${sex}' LIMIT 10`
-                        }
-                    })
-                    setDivList(response.data);
-                } else {
-                    const response = await Axios.get('http://localhost:3001/IndivRankings', {
-                        params: {
-                            query: `SELECT * FROM ${division} WHERE Conference = '${conference}' LIMIT 10`
-                        }
-                    })
-                    setDivList(response.data);
-                }
-            } else if (conference === '') {
-                if (sex !== '' && event !== '') {
-                    const response = await Axios.get('http://localhost:3001/SquadRankings/Colleges', {
-                            params: {
-                                query: `SELECT College from ${division} 
+                            /*query: `SELECT College from ${division} 
                                 WHERE Gender = '${sex}' AND Event = '${event}'
-                                Group by College, Event_ID HAVING Count(College) >= 4 order by College;`
-                            }
+                                GROUP BY College, Event_ID HAVING Count(College) >= 4 order by College;`*/
+                            query: `SELECT College, Conference, ROUND(SUM(Time),2) AS sum_time, ROUND(AVG(Time), 2) 
+                            AS avg_time FROM 
+                                (SELECT College, Conference, Time, ROW_NUMBER() OVER (PARTITION BY College, Conference) 
+                                    AS row_num FROM ${division} WHERE Gender = '${sex}' AND Event = '${event}'
+                            ) ${division} WHERE row_num <= 4 GROUP BY College, Conference ORDER BY avg_time LIMIT 10;`
+                        }
                     })
                     console.log(response.data);
-                    setCollegeList(response.data);
-                } else if (sex !== '' && event === '') {
-                    const response = await Axios.get('http://localhost:3001/IndivRankings', {
-                        params: {
-                            query: `SELECT * FROM ${division} WHERE Gender = '${sex}' LIMIT 10`
-                        }
-                    })
-                    setDivList(response.data);
-                } else {
-                    const response = await Axios.get('http://localhost:3001/IndivRankings', {
-                        params: {
-                            query: `SELECT * FROM ${division} LIMIT 10`
-                        }
-                    })
-                    setDivList(response.data);
-                }
+                    setSquadList(response.data);
+                } 
             }
         } catch (err) {
             console.log(err);
@@ -186,36 +138,61 @@ export default function Squadranking(){
     const SendSquadRequest = async (division, sex, event) => {
         console.log('Squad Request');
         console.log(collegeList);
-        try {
-            let i = 0;
+        /*try {
             let squadLists = [];
-            while (i < collegeList.length) {
-                const college = Object.values(collegeList[i])
-                const collegeName = college[0];
-                const collegeResponse = await Axios.get('http://localhost:3001/SquadRankings/TopResults', {
-                    params: {
-                        query: `SELECT * from ${division} 
-                        Where College = '${collegeName}' AND Gender = '${sex}' and Event = '${event}' limit 4;`
-                    }
-                })
-                console.log(collegeResponse.data);
-                squadLists.push(collegeResponse.data);
-                i++;
+            if (collegeList.length > 95) {
+                for (let i = 0; i < 95; i++) {
+                    const college = Object.values(collegeList[i])
+                    const collegeName = college[0];
+                    const collegeResponse = await Axios.get('http://localhost:3001/SquadRankings/TopResults', {
+                        params: {
+                            query: `SELECT * from ${division} 
+                            Where College = '${collegeName}' AND Gender = '${sex}' and Event = '${event}' limit 4;`
+                        }
+                    })
+                    console.log(collegeResponse.data);
+                    squadLists.push(collegeResponse.data);
+                } for (let j = 95; j < collegeList.length; j++) {
+                    const college = Object.values(collegeList[j])
+                    const collegeName = college[0];
+                    const collegeResponse = await Axios.get('http://localhost:3001/SquadRankings/TopResults', {
+                        params: {
+                            query: `SELECT * from ${division} 
+                            Where College = '${collegeName}' AND Gender = '${sex}' and Event = '${event}' limit 4;`
+                        }
+                    })
+                    console.log(collegeResponse.data);
+                    squadLists.push(collegeResponse.data);
+                }
+                console.log(squadLists);
+                setSquadList(squadLists);
+            } else {
+                let i = 0;
+                while (i < collegeList.length) {
+                    const college = Object.values(collegeList[i])
+                    const collegeName = college[0];
+                    const collegeResponse = await Axios.get('http://localhost:3001/SquadRankings/TopResults', {
+                        params: {
+                            query: `SELECT * from ${division} 
+                            Where College = '${collegeName}' AND Gender = '${sex}' and Event = '${event}' limit 4;`
+                        }
+                    })
+                    console.log(collegeResponse.data);
+                    squadLists.push(collegeResponse.data);
+                    i++;
+                }
+                console.log(squadLists);
+                setSquadList(squadLists);
             }
-            console.log(squadLists);
-            setSquadList(squadLists);
         } catch (err) {
             console.log(err);
-        }
+        }*/
     }
-    function AddMarks() {
+ /*   function AddMarks() {
         console.log("add marks entered");
-  /*      const dSelect= divSelect;
-        const sSelect = sexSelect;
-        const eSelect = eventSelect;
-        sendSquadRequest(dSelect, sSelect, eSelect); */
         const list = squadList.map((list) =>
         list.map((val) => val.Time));
+        console.log(list);
         let sums = [];
         var sum = 0;
         for (let i = 0; i < list.length; i++) {
@@ -229,7 +206,7 @@ export default function Squadranking(){
         }
         console.log(sums);
         setSumList(sums);
-    }
+    } */
     return (
     <div className="homeContainer">
         <div className='squadHeader'>
@@ -264,20 +241,16 @@ export default function Squadranking(){
                 </select>
             </div>
 
-            <div className='filterButton'>
+           {/*<div className='filterButton'>
                 <select onChange={setConference}>
                     <option>Conference </option>
                     {confOptions}
                 </select>
-            </div>
-
-            <button onClick={SetParameters}>
-                <option value = 'changes'>Save Changes</option>
-            </button>
+    </div>*/}
 
             <button onClick={SetResults}>
-                <option value='Results'>Results</option>
-            </button> 
+                <option>Results</option>
+            </button>
 
             <div className='squadCard'>
                 <div className="squadCard-header">
@@ -309,10 +282,11 @@ export default function Squadranking(){
                     }
                         )}
                     <h3> Score </h3> 
-                        {sumList.map((val) => {
+                        {squadList.map((val) => {
                             return (
                                 <ul key = {val.id}>
-                                    {val}
+                                    {val.sum_time}
+                                    {val.avg_time}
                                 </ul>
                             )
                         })}
