@@ -172,10 +172,10 @@ export default function Indranking(){
                 </div>
 
                 <div className='filterButton'>
-                    <select onChange={setConference}>
-                        <option>Conference</option>
-                        {confOptions}
-                    </select>
+                        <select onChange={setConference}>
+                            <option>Conference</option>
+                            {confOptions}
+                        </select>
                 </div>
 
                 <div className='filterButton'>
@@ -201,22 +201,43 @@ export default function Indranking(){
             </div>
             <div className="eventTable-header">
                 <h1> {eventSelect} </h1>
-
             </div>
+
+            <div className="eventTable-title">
+                <h1>{eventSelect}</h1>
+            </div>
+
+
             <div className="eventTable">
                     <div className="tableStat">
-                        <h3> Ranking </h3>
+                        
+                        <div className="stat-headers">
+                            <h3> Rank </h3>
+                            <h3> Athlete </h3>
+                            <h3> Year </h3>
+                            <h3> College </h3>
+                            <h3> Mark </h3>                            
+                            <h3> Date </h3>
+                            <h3> Wind </h3>
+                        </div>
+
                         {divList.map((val) => {
                             return (
-                                <a className='dataItem' href={val.link} target="_blank">
-                                    {val.Ranking}
-                                </a>
+                                <div className='dataRow'>
+                                    <a className='stat' href={val.link} target="_blank"><p>{val.Rank}</p></a>
+                                    <a className='stat' href={val.link} target="_blank"><p>{val.Athlete}</p></a>                                   
+                                    <a className='stat' href={val.link} target="_blank"><p>{val.Year}</p></a> 
+                                    <a className='stat' href={val.link} target="_blank"><p>{val.Team}</p></a> 
+                                    <a className='stat' href={val.link} target="_blank"><p>{val.Time}{val.Distance}{val.Points}</p></a> 
+                                    <a className='stat' href={val.link} target="_blank"><p>{val.Meet_Date}</p></a> 
+                                    <a className='stat' href={val.link} target="_blank"><p>{val.Wind}</p></a> 
+                                </div>
                             );
                             }
                         )}         
                     </div>
 
-                    <div className="tableStat">
+                    {/* <div className="tableStat">
                         <h3> Athlete </h3>
                         {divList.map((val) => {
                             return (
@@ -290,7 +311,7 @@ export default function Indranking(){
                             );
                             }
                         )}                     
-                    </div>
+                    </div> */}
 
 
 
