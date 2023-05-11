@@ -255,41 +255,26 @@ export default function Squadranking(){
             <div className='squadCard'>
                 <div className="squadCard-header">
                     <h3> Rank </h3>
+                    <h3> College </h3>
+                    <h3> Conference </h3>
+                    <h3> Score </h3> 
+                </div>
+
+                <div className="squadTableStats">
+                        
+
                     {squadList.map((val) => {
                         return (
-                            <a key= {val.id} className='dataItem' href={val.link} target="_blank">
-                                {val.Ranking}
-                            </a>
+                            <div className='squadDataRow'>
+                                <a className='squadStat' href={val.link} target="_blank"><p>{val.Ranking}</p></a>
+                                <a className='squadStat' href={val.link} target="_blank"><p>{val.College}</p></a>                                   
+                                <a className='squadStat' href={val.link} target="_blank"><p>{val.Conference}</p></a> 
+                                <a className='squadStat' href={val.link} target="_blank"><ul key = {val.id}>{val.sum_time}{val.avg_time}</ul></a>
+                            </div>
+
                         );
-                    }
-                    )}  
-                    <h3> College </h3>
-                    {squadList.map((val) => {
-                    return (
-                        <a key= {val.id} className='dataItem' href={val.link} target="_blank">
-                            {val.College}
-                        </a>
-                    );
-                    }
-                        )}
-                    <h3> Conference </h3>
-                    {squadList.map((val) => {
-                    return (
-                        <a key= {val.id} className='dataItem' href={val.link} target="_blank">
-                            {val.Conference}
-                        </a>
-                    );
-                    }
-                        )}
-                    <h3> Score </h3> 
-                        {squadList.map((val) => {
-                            return (
-                                <ul key = {val.id}>
-                                    {val.sum_time}
-                                    {val.avg_time}
-                                </ul>
-                            )
-                        })}
+                        }
+                    )}         
                 </div>
 
                 <div className="squadInfo">
@@ -319,8 +304,8 @@ export default function Squadranking(){
 
 
                         </DisplayHidden>
+                        </div>
 
-                    </div>
                 </div>
             </div>   
         </div>

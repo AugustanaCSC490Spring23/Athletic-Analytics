@@ -35,7 +35,7 @@ import logo from "../icons/AALogo.png";
                                         <Link to="/" onClick={handleButtonClick}> <div>Records</div></Link>
                                     </div>
                                     <div className="hamburgerListItem"> 
-                                        <Link to="/" onClick={handleButtonClick}  > <div>Recruiting</div></Link>
+                                        <Link to="/Schoolprofiles" onClick={handleButtonClick}  > <div>School profiles</div></Link>
                                     </div>
                             
                                 </ul>

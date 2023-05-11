@@ -368,7 +368,8 @@ input:focus{
     padding-right: 5vw
 }
 
-.squadCard-header{
+
+.squadCard{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -381,6 +382,19 @@ input:focus{
     padding-left: 2rem;
     padding-right: 2rem;
     text-decoration: underline;
+
+}
+
+/* Still gotta style this */
+.squadCard-header{
+}
+.squadTableStats{
+    display: flex; 
+    flex-wrap: wrap;
+    padding: 1vh;
+}
+.squadDataRow{
+
 }
 
 .squadInfo{

@@ -8,6 +8,8 @@ import Features from "./pages/Features";
 import Login from "./pages/Login";
 import Indranking from "./pages/Indranking";
 import Squadranking from "./pages/Squadrankings";
+import Schoolprofiles from "./pages/Schoolprofiles";
+
 import {Routes, Route} from "react-router-dom";
 
 
@@ -24,6 +26,8 @@ function App() {
           <Route path="/login" element={<Login />}/>
           <Route path="/Indranking" element={<Indranking />}/>
           <Route path="/Squadranking" element={<Squadranking />}/>
+          <Route path="/Schoolprofiles" element={<Schoolprofiles />}/>
+
         </Routes>
       </div>
     </>
