@@ -72,7 +72,7 @@ for p in range(3):
                 he[1] = 'Athlete'
                 he[4]='Time'
                 meet = he[5]
-                he[5] = 'Distance'
+                he[5] = 'Distance_(m)'
                 date = he[6]
                 he[6]='Points'
                 wind = he[7]
@@ -126,18 +126,18 @@ for p in range(3):
                         temp.append(date)
                         temp.append("")
                         cols=temp
-                        split = cols[4].split(":")
-                        if len(split)>1:
-                            minute=split[0]
-                            sec = split[1].split("\n")
-                            sec = round(float(sec[0]))
-                            if sec<60:
-                                time = str(minute) + ":"+str(sec)
-                            else:
-                                minute=int(minute)+1
-                                sec=":00"
-                                time=str(minute) + sec
-                            cols[4]=time
+                        # split = cols[4].split(":")
+                        # if len(split)>1:
+                        #     minute=split[0]
+                        #     sec = split[1].split("\n")
+                        #     sec = round(float(sec[0]))
+                        #     if sec<60:
+                        #         time = str(minute) + ":"+str(sec)
+                        #     else:
+                        #         minute=int(minute)+1
+                        #         sec=":00"
+                        #         time=str(minute) + sec
+                        #     cols[4]=time
                     
                     elif k<=24:
                         split = cols[4].split(":")
@@ -146,23 +146,23 @@ for p in range(3):
                             sec = split[1].split("\n")
                             sec = sec[0].split("(")
                             sec = float(sec[0])
-                            if event == "400 Meters":
-                                minute = float(minute)*60
-                                time = minute+sec
-                                time = str(time)
-                            else:
-                                sec = round(sec)
-                                sec = int(sec)
-                                if sec<60:
-                                    if sec<10:
-                                       time = str(minute) + ":0"+str(sec) 
-                                    else:
-                                       time = str(minute) + ":"+str(sec)
-                                else:
-                                    minute=int(minute)+1
-                                    sec=":00"
-                                    time=str(minute) + sec
-                            cols[4]=time
+                            # if event == "400 Meters":
+                            #     minute = float(minute)*60
+                            #     time = minute+sec
+                            #     time = str(time)
+                            # else:
+                            #     sec = round(sec)
+                            #     sec = int(sec)
+                            #     if sec<60:
+                            #         if sec<10:
+                            #            time = str(minute) + ":0"+str(sec) 
+                            #         else:
+                            #            time = str(minute) + ":"+str(sec)
+                            #     else:
+                            #         minute=int(minute)+1
+                            #         sec=":00"
+                            #         time=str(minute) + sec
+                            # cols[4]=time
                         meet=cols[5]
                         date=cols[6]
                         if len(cols)==7:
@@ -184,7 +184,8 @@ for p in range(3):
                         if len(split)>1:
                             if event=="Long Jump" or event == "Triple Jump":
                                 temp2=cols
-                                distance = temp2[4]
+                                distance = temp2[4].split("m")
+                                distance=distance[0]
                                 meet=temp2[6]
                                 date=temp2[7]
                                 if temp2[8]!="NWI":
@@ -242,9 +243,9 @@ for p in range(3):
              "`Athlete` text,"
              "`Year` text,"
              "`College` text,"
-             "`Time` text DEFAULT NULL,"
-             "`Distance` text DEFAULT NULL,"
-             "`Points` text DEFAULT NULL,"
+             "`Time` double DEFAULT NULL,"
+             "`Distance` double DEFAULT NULL,"
+             "`Points` double DEFAULT NULL,"
              "`Meet` text,"
              "`Meet_Date` text,"
              "`Wind` text DEFAULT NULL,"
