@@ -3,6 +3,7 @@ import { Link, useMatch, useResolvedPath } from 'react-router-dom';
 import navButton from "./NavButton.js";
 import ToggleNavDropDown from './ToggleNavDropDown.js';
 import handleButtonClick from "./ToggleNavDropDown.js";
+import logo from "../icons/AALogo.png";
 
   
   export default function Navbar(){
@@ -14,7 +15,8 @@ import handleButtonClick from "./ToggleNavDropDown.js";
             <div className="navMenu">
                 
                 {/* Below is the HamburgerMenu on Nav Bar */}
-                    <div className="hamburgerMenuBtn"> 
+                    <div className="hamburgerMenuBtn"   >
+
                             <ToggleNavDropDown> {/* className=showChildren */}
                                 
                                     <ul>

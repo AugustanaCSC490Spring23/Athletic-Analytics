@@ -21,7 +21,7 @@ export default function Searchbar(){
         <div className="searchbar">
             
                 <div className="searchInputs">
-                    <input type="text" placeholder="Search a college or Athlete..." onChange={(e) => setSearch(e.target.value)} />
+                    <input type="text" placeholder="Search an Athlete..." onChange={(e) => setSearch(e.target.value)} />
                     <div className ='searchIcon'>
                         {/* <SearchIcon/> */}
                     </div >
