@@ -262,7 +262,6 @@ for p in range(3):
             cursor.execute(sql, tuple(row))
         except:
             print(row)
-            break
         mydb.commit()
         if row[12] not in conf:
             if len(conf)>1:
