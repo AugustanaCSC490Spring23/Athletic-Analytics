@@ -158,6 +158,12 @@ export default function Squadranking(){
                         }  
                     })}
                     <h3> Conference </h3>
+                    <h3> Score </h3> 
+                </div>
+
+                <div className="squadTableStats">
+                        
+
                     {squadList.map((val) => {
                         if ((val.sum_time >= val.avg_time * 4 && val.sum_dist === null && val.sum_points === 0)
                         || (val.sum_dist >= val.avg_dist * 4 && val.sum_time === 0 && val.sum_points === 0)
@@ -242,8 +248,8 @@ export default function Squadranking(){
 
 
                         </DisplayHidden>
+                        </div>
 
-                    </div>
                 </div>
             </div>   
         </div>
