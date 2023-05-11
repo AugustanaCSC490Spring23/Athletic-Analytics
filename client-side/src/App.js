@@ -5,7 +5,6 @@ import Home from "./pages/Home";
 import About from "./pages/Aboutus";
 import Faq from "./pages/Faq";
 import Features from "./pages/Features";
-import Login from "./pages/Login";
 import Indranking from "./pages/Indranking";
 import Squadranking from "./pages/Squadrankings";
 import Schoolprofiles from "./pages/Schoolprofiles";
@@ -23,11 +22,9 @@ function App() {
           <Route path="/features" element={<Features />}/>
           <Route path="/about" element={<About />}/>
           <Route path="/faq" element={<Faq />}/>
-          <Route path="/login" element={<Login />}/>
           <Route path="/Indranking" element={<Indranking />}/>
           <Route path="/Squadranking" element={<Squadranking />}/>
           <Route path="/Schoolprofiles" element={<Schoolprofiles />}/>
-
         </Routes>
       </div>
     </>
