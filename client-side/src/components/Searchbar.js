@@ -13,6 +13,7 @@ export default function Searchbar(){
     useEffect(() => {
       Axios.get("http://localhost:3001/DivisionIII").then((response) => {
         setTrackList(response.data);
+        console.log(response.data);
         //console.log(JSON.stringify(response.data, null, 2))
       });
     }, []);
@@ -39,21 +40,18 @@ export default function Searchbar(){
                     
                     
                     */} 
-                            {
-                            
-                             search.length != 0 && 
-                        
+                            {search.length != 0 && 
                             trackList.filter((val) => {
                             
                             return search.toLowerCase() === '' 
                             ? val 
-                            : val.Athlete.toLowerCase().includes(search);
+                            : val.College.toLowerCase().includes(search);
                             }).map((val) => {
 
                                 return ( 
                                 <a >
                                     <p className='dataItem' href={val.link} target="_blank">
-                                        {val.Athlete}
+                                        {val.College}
                                     </p>
                                 </a>
                                     );

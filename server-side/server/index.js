@@ -15,7 +15,7 @@ const db = mysql.createPool({
   database: 'trackData'
 });
 app.get("/DivisionIII", (req, res) => {
-  const getOutput = "SELECT * FROM diii LIMIT 10"
+  const getOutput = "SELECT DISTINCT College FROM dii"
   db.query(getOutput, (err, result) => {
     res.send(result);
   });

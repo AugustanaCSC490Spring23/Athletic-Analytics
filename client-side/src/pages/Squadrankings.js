@@ -71,9 +71,6 @@ export default function Squadranking(){
                 if (sex !== '' && event !== '') {
                     const response = await Axios.get('http://localhost:3001/SquadRankings/Colleges', {
                         params: {
-                            /*query: `SELECT College from ${division} 
-                                WHERE Gender = '${sex}' AND Event = '${event}'
-                                GROUP BY College, Event_ID HAVING Count(College) >= 4 order by College;`*/
                             query: `SELECT College, Conference, SUM(Time) AS sum_time, AVG(Time) 
                             AS avg_time, SUM(Distance) AS sum_dist, AVG(Distance) AS avg_dist, 
                             SUM(Points) AS sum_points, AVG(Points) AS avg_points FROM 
