@@ -7,16 +7,6 @@ export default function Squadranking(){
     const[click, setClick] = useState (false);
     const Hoverable= () => setClick(!click);
 
-    const D3confNames =['American_Rivers', 'American_Southwest', 'Atlantic_East', 'CCIW', 'CCS', 'Centennial_Conference', 'Coast-to-Coast', 'Commonwealth_Coast', 'CSAC', 
-    'CUNYAC','Empire_8', 'Great_Northeast', 'HCAC', 'Landmark_Conference', 'Liberty_League', 'Little_East', 'MASCAC', 'MIAC', 'Michigan_Intercollegiate', 
-    'Middle_Atlantic', 'Midwest_Conference', 'NACC', 'NESCAC', 'NEWMAC', 'NJAC', 'North_Atlantic_Conference', 'North_Coast_AC', 'Northwest_Conference', 
-    'OAC', 'ODAC', 'Presidents_AC', 'SAA', 'SCAC', 'SCIAC', 'SLIAC', 'SUNYAC', 'UAA', 'UMAC', 'USA_South', 'WIAC'];
-
-    const D2confNames = ['CACC', 'CCAA', 'CIAA', 'Conference_Carolinas', 'ECC', 'G-MAC', 'GLIAC', 'GLVC', 'GNAC', 'Great_American', 'Gulf_South', 'Lone_Star', 
-    'MIAA', 'Mountain_East', 'Northeast-10', 'Northern_Sun', 'PacWest', 'Peach_Belt', 'PSAC', 'RMAC', 'SIAC', 'South_Atlantic'];
-
-    const D1confNames = ['ACC', 'ASUN', 'America_East', 'Atlantic_10', 'Big_East', 'Big_12', 'Big_Sky'];
-
     const menEvents = ["100 Meters", "200 Meters", "400 Meters", "800 Meters", "1500 Meters", "5000 Meters"
         , "10,000 Meters", "3000 Steeplechase", "110 Hurdles", "400 Hurdles", "Shot put", "Discus", 
         "Javelin", "Hammer", "High Jump", "Long Jump", "Triple Jump", "Pole Vault", "Decathlon"];
@@ -26,15 +16,10 @@ export default function Squadranking(){
 
     
     const [squadList, setSquadList] = useState([]);
-    const [collegeList, setCollegeList] = useState([]);
     const [divSelect, setDivSelect] = useState('');
     const [sexSelect, setSexSelect] = useState(''); 
-  //  const [confSelect, setConfSelect] = useState('');
     const [eventSelect, setEventSelect] = useState('');
-    const [sumList, setSumList] = useState([]);
 
-   // let confType = null;
-   // let confOptions = null;
     let sexType = null;
     let eventOptions = null;
 
@@ -47,15 +32,7 @@ export default function Squadranking(){
         }
         console.log(val);
     }
-   /* function setConference(e) {
-        const val = e.target.value;
-        if (val === "Conference") {
-            setConfSelect('');
-        } else {
-            setConfSelect(val);
-        }
-        console.log(val);
-    }*/
+
     function setEvent(e) {
         const val = e.target.value;
         if (val === "Event") {
@@ -83,33 +60,10 @@ export default function Squadranking(){
     if(sexType) {
         eventOptions = sexType.map((e) => <option key={e}>{e}</option>);
     }
-/*
-    if(divSelect === "di") {
-        confType = D1confNames; //Division 1 conferences
-    } else if(divSelect === "dii") {
-        confType = D2confNames; //Division 2 conferences
-    } else if(divSelect === "diii") {
-        confType = D3confNames;
-    }
-
-    if(confType) {
-        confOptions = confType.map((e) => <option key={e}>{e}</option>);
-    } */
-
-    useEffect(() => {
-        console.log('function effect');
-      }, []);
+   
     function SetResults() {
         SendCollegeRequest(divSelect, sexSelect, eventSelect);
         }
-    
-/*    function SetResults() {
-        SendSquadRequest(divSelect, sexSelect, eventSelect);
-    } */
-  /*  useEffect(() => {
-        console.log('squadList Updated');
-      }, [collegeList]); */
-   // var collegeList = {};
     const SendCollegeRequest = async (division, sex, event) => {
         console.log('College Request');
         try {
@@ -120,11 +74,12 @@ export default function Squadranking(){
                             /*query: `SELECT College from ${division} 
                                 WHERE Gender = '${sex}' AND Event = '${event}'
                                 GROUP BY College, Event_ID HAVING Count(College) >= 4 order by College;`*/
-                            query: `SELECT College, Conference, ROUND(SUM(Time),2) AS sum_time, ROUND(AVG(Time), 2) 
-                            AS avg_time FROM 
-                                (SELECT College, Conference, Time, ROW_NUMBER() OVER (PARTITION BY College, Conference) 
+                            query: `SELECT College, Conference, SUM(Time) AS sum_time, AVG(Time) 
+                            AS avg_time, SUM(Distance) AS sum_dist, AVG(Distance) AS avg_dist, 
+                            SUM(Points) AS sum_points, AVG(Points) AS avg_points FROM 
+                                (SELECT College, Conference, Time, Distance, Points, ROW_NUMBER() OVER (PARTITION BY College, Conference) 
                                     AS row_num FROM ${division} WHERE Gender = '${sex}' AND Event = '${event}'
-                            ) ${division} WHERE row_num <= 4 GROUP BY College, Conference ORDER BY avg_time LIMIT 10;`
+                            ) ${division} WHERE row_num <= 4 GROUP BY College, Conference ORDER BY avg_time, avg_dist DESC, avg_Points DESC;`
                         }
                     })
                     console.log(response.data);
@@ -135,78 +90,7 @@ export default function Squadranking(){
             console.log(err);
         }
     }
-    const SendSquadRequest = async (division, sex, event) => {
-        console.log('Squad Request');
-        console.log(collegeList);
-        /*try {
-            let squadLists = [];
-            if (collegeList.length > 95) {
-                for (let i = 0; i < 95; i++) {
-                    const college = Object.values(collegeList[i])
-                    const collegeName = college[0];
-                    const collegeResponse = await Axios.get('http://localhost:3001/SquadRankings/TopResults', {
-                        params: {
-                            query: `SELECT * from ${division} 
-                            Where College = '${collegeName}' AND Gender = '${sex}' and Event = '${event}' limit 4;`
-                        }
-                    })
-                    console.log(collegeResponse.data);
-                    squadLists.push(collegeResponse.data);
-                } for (let j = 95; j < collegeList.length; j++) {
-                    const college = Object.values(collegeList[j])
-                    const collegeName = college[0];
-                    const collegeResponse = await Axios.get('http://localhost:3001/SquadRankings/TopResults', {
-                        params: {
-                            query: `SELECT * from ${division} 
-                            Where College = '${collegeName}' AND Gender = '${sex}' and Event = '${event}' limit 4;`
-                        }
-                    })
-                    console.log(collegeResponse.data);
-                    squadLists.push(collegeResponse.data);
-                }
-                console.log(squadLists);
-                setSquadList(squadLists);
-            } else {
-                let i = 0;
-                while (i < collegeList.length) {
-                    const college = Object.values(collegeList[i])
-                    const collegeName = college[0];
-                    const collegeResponse = await Axios.get('http://localhost:3001/SquadRankings/TopResults', {
-                        params: {
-                            query: `SELECT * from ${division} 
-                            Where College = '${collegeName}' AND Gender = '${sex}' and Event = '${event}' limit 4;`
-                        }
-                    })
-                    console.log(collegeResponse.data);
-                    squadLists.push(collegeResponse.data);
-                    i++;
-                }
-                console.log(squadLists);
-                setSquadList(squadLists);
-            }
-        } catch (err) {
-            console.log(err);
-        }*/
-    }
- /*   function AddMarks() {
-        console.log("add marks entered");
-        const list = squadList.map((list) =>
-        list.map((val) => val.Time));
-        console.log(list);
-        let sums = [];
-        var sum = 0;
-        for (let i = 0; i < list.length; i++) {
-            for (let j = 0; j < list[i].length; j++) {
-                const mark = list[i][j];
-                sum = sum + parseFloat(mark);
-                
-            }
-            sums.push(sum.toFixed(2));
-            sum = 0;
-        }
-        console.log(sums);
-        setSumList(sums);
-    } */
+
     return (
     <div className="homeContainer">
         <div className='squadHeader'>
@@ -255,7 +139,27 @@ export default function Squadranking(){
             <div className='squadCard'>
                 <div className="squadCard-header">
                     <h3> Rank </h3>
+                    {squadList.map((val) => {
+                        return (
+                            <a key= {val.id} className='dataItem' href={val.link} target="_blank">
+                                {}
+                            </a>
+                        );
+                    }
+                    )}  
                     <h3> College </h3>
+                    {squadList.map((val) => {
+                        if ((val.sum_time >= val.avg_time * 4 && val.sum_dist === null && val.sum_points === 0)
+                        || (val.sum_dist >= val.avg_dist * 4 && val.sum_time === 0 && val.sum_points === 0)
+                        || (val.sum_points >= val.avg_points * 4 && val.sum_time === 0 && val.sum_dist === null)
+                        ) {
+                            return (
+                                <a key= {val.id} className='dataItem' href={val.link} target="_blank">
+                                    {val.College} <br></br>
+                                </a>
+                            );
+                        }  
+                    })}
                     <h3> Conference </h3>
                     <h3> Score </h3> 
                 </div>
@@ -264,17 +168,60 @@ export default function Squadranking(){
                         
 
                     {squadList.map((val) => {
-                        return (
-                            <div className='squadDataRow'>
-                                <a className='squadStat' href={val.link} target="_blank"><p>{val.Ranking}</p></a>
-                                <a className='squadStat' href={val.link} target="_blank"><p>{val.College}</p></a>                                   
-                                <a className='squadStat' href={val.link} target="_blank"><p>{val.Conference}</p></a> 
-                                <a className='squadStat' href={val.link} target="_blank"><ul key = {val.id}>{val.sum_time}{val.avg_time}</ul></a>
-                            </div>
-
-                        );
-                        }
-                    )}         
+                        if ((val.sum_time >= val.avg_time * 4 && val.sum_dist === null && val.sum_points === 0)
+                        || (val.sum_dist >= val.avg_dist * 4 && val.sum_time === 0 && val.sum_points === 0)
+                        || (val.sum_points >= val.avg_points * 4 && val.sum_time === 0 && val.sum_dist === null)) {
+                            return (
+                                <a key= {val.id} className='dataItem' href={val.link} target="_blank">
+                                    {val.Conference}
+                                </a>
+                            );
+                        }  
+                    })}
+                    <h3> Total </h3> 
+                        {squadList.map((val) => {
+                            if (val.sum_time >= val.avg_time * 4 && val.sum_dist === null && val.sum_points === 0) {   
+                                return (
+                                    <a key= {val.id} className='dataItem' href={val.link} target="_blank">
+                                        {val.sum_time.toFixed(2)}
+                                    </a>
+                                );
+                            } else if (val.sum_dist >= val.avg_dist * 4 && val.sum_time === 0 && val.sum_points === 0) {   
+                                return (
+                                    <a key= {val.id} className='dataItem' href={val.link} target="_blank">
+                                        {val.sum_dist.toFixed(2)}
+                                    </a>
+                                );
+                            } else if (val.sum_points >= val.avg_points * 4 && val.sum_time === 0 && val.sum_dist === null) {
+                                return (
+                                    <a key= {val.id} className='dataItem' href={val.link} target="_blank">
+                                        {val.sum_points.toFixed(2)}
+                                    </a>
+                                );
+                            }
+                        })}
+                    <h3> Avg. </h3> 
+                        {squadList.map((val) => {
+                            if (val.sum_time >= val.avg_time * 4 && val.sum_dist === null && val.sum_points === 0) {
+                                return (
+                                    <a key= {val.id} className='dataItem' href={val.link} target="_blank">
+                                        {val.avg_time.toFixed(2)}
+                                    </a>
+                                );
+                            } else if (val.sum_dist >= val.avg_dist * 4 && val.sum_time === 0 && val.sum_points === 0) {   
+                                return (
+                                    <a key= {val.id} className='dataItem' href={val.link} target="_blank">
+                                        {val.avg_dist.toFixed(2)}
+                                    </a>
+                                );
+                            } else if (val.sum_points >= val.avg_points * 4 && val.sum_time === 0 && val.sum_dist === null) {
+                                return (
+                                    <a key= {val.id} className='dataItem' href={val.link} target="_blank">
+                                        {val.avg_points.toFixed(2)}
+                                    </a>
+                                );
+                            }
+                        })}
                 </div>
 
                 <div className="squadInfo">

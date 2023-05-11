@@ -104,21 +104,21 @@ export default function Indranking(){
                 if (sex !== '' && event !== '') {
                     const response = await Axios.get('http://localhost:3001/IndivRankings', {
                         params: {
-                            query: `SELECT * FROM ${division} WHERE Conference = '${conference}' AND Gender = '${sex}' AND Event = '${event}' LIMIT 10`
+                            query: `SELECT * FROM ${division} WHERE Conference = '${conference}' AND Gender = '${sex}' AND Event = '${event}' ORDER BY Time, Distance DESC, Points DESC LIMIT 50`
                         }
                     })
                     setDivList(response.data);
                 } else if (sex !== '' && event === '') {
                     const response = await Axios.get('http://localhost:3001/IndivRankings', {
                         params: {
-                            query: `SELECT * FROM ${division} WHERE Conference = '${conference}' AND Gender = '${sex}' LIMIT 10`
+                            query: `SELECT * FROM ${division} WHERE Conference = '${conference}' AND Gender = '${sex}' ORDER BY Event_ID, Time, Distance DESC, Points DESC LIMIT 50`
                         }
                     })
                     setDivList(response.data);
                 } else {
                     const response = await Axios.get('http://localhost:3001/IndivRankings', {
                         params: {
-                            query: `SELECT * FROM ${division} WHERE Conference = '${conference}' LIMIT 10`
+                            query: `SELECT * FROM ${division} WHERE Conference = '${conference}' ORDER BY Event_ID, Time, Distance DESC, Points DESC LIMIT 50`
                         }
                     })
                     setDivList(response.data);
@@ -127,21 +127,21 @@ export default function Indranking(){
                 if (sex !== '' && event !== '') {
                     const response = await Axios.get('http://localhost:3001/IndivRankings', {
                         params: {
-                            query: `SELECT * FROM ${division} WHERE Gender = '${sex}' AND Event = '${event}' ORDER BY Time, Distance DESC, Points DESC LIMIT 10`
+                            query: `SELECT * FROM ${division} WHERE Gender = '${sex}' AND Event = '${event}' ORDER BY Time, Distance DESC, Points DESC LIMIT 50`
                         }
                     })
                     setDivList(response.data);
                 } else if (sex !== '' && event === '') {
                     const response = await Axios.get('http://localhost:3001/IndivRankings', {
                         params: {
-                            query: `SELECT * FROM ${division} WHERE Gender = '${sex}' LIMIT 10`
+                            query: `SELECT * FROM ${division} WHERE Gender = '${sex}' ORDER BY Event_ID, Time, Distance DESC, Points DESC LIMIT 50`
                         }
                     })
                     setDivList(response.data);
                 } else {
                     const response = await Axios.get('http://localhost:3001/IndivRankings', {
                         params: {
-                            query: `SELECT * FROM ${division} LIMIT 10`
+                            query: `SELECT * FROM ${division} ORDER BY Event_ID, Time, Distance DESC, Points DESC LIMIT 50`
                         }
                     })
                     setDivList(response.data);
@@ -199,9 +199,6 @@ export default function Indranking(){
                 </button>
                 
             </div>
-            <div className="eventTable-header">
-                <h1> {eventSelect} </h1>
-            </div>
 
             <div className="eventTable-title">
                 <h1>{eventSelect}</h1>
@@ -224,7 +221,7 @@ export default function Indranking(){
                         {divList.map((val) => {
                             return (
                                 <div className='dataRow'>
-                                    <a className='stat' href={val.link} target="_blank"><p>{val.Rank}</p></a>
+                                    <a className='stat' href={val.link} target="_blank"><p>{val.Ranking}</p></a>
                                     <a className='stat' href={val.link} target="_blank"><p>{val.Athlete}</p></a>                                   
                                     <a className='stat' href={val.link} target="_blank"><p>{val.Year}</p></a> 
                                     <a className='stat' href={val.link} target="_blank"><p>{val.College}</p></a> 
