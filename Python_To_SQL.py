@@ -23,18 +23,23 @@ di = [4280,4277,4279,4278,4296,4231,4281,4282,4229,4228,4224,
       4230,4283,4295,4276,4285,4289,4299,4284,4291,4233,4287,
       4292,4232,4225,4286,4223,4290,4275,4227,4226,4293,4288]
 
-time_e=["100 Meters","200 Meters","400 Meters","800 Meters","Mile",
-        "1500 Meters","3000 Meters","5000 Meters","10,000 Meters",
-        "100 Hurdles","110 Hurdles","400 Hurdles","3000 Steeplechase"]
+# time_e=["100 Meters","200 Meters","400 Meters","800 Meters","Mile",
+#         "1500 Meters","3000 Meters","5000 Meters","10,000 Meters",
+#         "100 Hurdles","110 Hurdles","400 Hurdles","3000 Steeplechase"]
+time_e = {"100 Meters":1,"200 Meters":3,"400 Meters":5,"800 Meters":7,"1500 Meters":9,
+      "Mile":11,"3000 Meters":13,"5000 Meters":15,"10,000 Meters":17,
+        "100 Hurdles":19,"110 Hurdles":21,"400 Hurdles":23,"3000 Steeplechase":25}
 
-team_e=["4 x 100 Relay", "4 x 400 Relay","4 x 800 Relay"]
+# team_e=["4 x 100 Relay", "4 x 400 Relay","4 x 800 Relay"]
+team_e = {"4 x 100 Relay":27, "4 x 400 Relay":29,"4 x 800 Relay":31}
 
-dis_e=["High Jump","Pole Vault","Long Jump","Triple Jump",
-       "Shot Put","Discus","Hammer","Javelin"]
-
+# dis_e=["High Jump","Pole Vault","Long Jump","Triple Jump",
+#        "Shot Put","Discus","Hammer","Javelin"]
+dis_e={"High Jump":33,"Pole Vault":35,"Long Jump":37,"Triple Jump":39,
+       "Shot Put":41,"Discus":43,"Hammer":45,"Javelin":47}
 o = 0
 
-for p in range(3):
+for p in range(1):
     if p==0:
         division = diii
         d = "diii"
@@ -95,14 +100,13 @@ for p in range(3):
                 he.append('Event_ID')
                 break
             o=1
-        # k=0 is for events
-        k=0
+        j=0
         for row in rows:
                 cols = row.find_all('td')
                 cols = [col.text.strip() for col in cols]
                 if cols==[]:
-                    k=k+1
-                    event = events[k].split()
+                    j=j+1
+                    event = events[j].split()
                     gender=event[-1]
                     event = " ".join(event[0:len(event)-1])
                     if gender == '(Men)':
@@ -139,6 +143,10 @@ for p in range(3):
                             sec = sec[0].split("(")
                             cols[4]=float(sec[0])
                             cols[5]=cols[4]
+                        if gender=='Women':
+                            k=team_e[event]+1
+                        else:
+                            k=team_e[event]
                     
                     # timed events
                     elif event in time_e:
@@ -161,17 +169,18 @@ for p in range(3):
                             cols[5]=cols[4]
                         if len(cols)==7:
                             wind=""
-                            cols.append(meet)
+                            cols.append(0.0)
                         elif cols[7] != "":
                             wind=cols[7]
-                            if cols[7]!="NWI":
-                                wind=""
-                            cols[7]=meet
                         cols[6]=0.0
                         cols[7]=0.0
                         cols.append(meet)
                         cols.append(date)
                         cols.append(wind)
+                        if gender=='Women':
+                            k=time_e[event]+1
+                        else:
+                            k=time_e[event]
                     # distance events
                     elif event in dis_e:
                         split = cols[4].split('.')
@@ -182,10 +191,7 @@ for p in range(3):
                                 distance=distance[0]
                                 meet=temp2[6]
                                 date=temp2[7]
-                                if temp2[8]!="NWI":
-                                    wind=""
-                                else:
-                                    wind=temp2[8]
+                                wind=temp2[8]
                                 temp2[4]=""
                                 temp2[5]=0.0
                                 temp2[6]=float(distance)
@@ -209,6 +215,10 @@ for p in range(3):
                                 temp2.append(date)
                                 temp2.append("")
                                 cols=temp2
+                        if gender=='Women':
+                            k=dis_e[event]+1
+                        else:
+                            k=dis_e[event]
                     if event=="Heptathlon" or event=="Decathlon":
                         points=cols[4]
                         meet=cols[5]
@@ -220,6 +230,10 @@ for p in range(3):
                         cols.append(meet)
                         cols.append(date)
                         cols.append("")
+                        if event=="Heptathlon":
+                            k=49
+                        else:
+                            k=50
                     cols.append(event)
                     cols.append(conference)
                     cols.append(gender)
@@ -239,21 +253,21 @@ for p in range(3):
     drop = 'DROP TABLE IF EXISTS ' + d + ';'
     cursor.execute(drop)
     table = ("CREATE TABLE `" + d +"`("
-             "`Ranking` int,"
-             "`Athlete` text,"
-             "`Year` text,"
-             "`College` text,"
-             "`Time_I` text DEFAULT NULL,"
-             "`Time_S` double DEFAULT NULL,"
-             "`Distance_m` double DEFAULT NULL,"
-             "`Points` double DEFAULT NULL,"
-             "`Meet` text,"
-             "`Meet_Date` text,"
-             "`Wind` text DEFAULT NULL,"
-             "`Event` text,"
-             "`Conference` text,"
-             "`Gender` text,"
-             "`Event_ID` int)")
+              "`Ranking` int,"
+              "`Athlete` text,"
+              "`Year` text,"
+              "`College` text,"
+              "`Time_I` text DEFAULT NULL,"
+              "`Time_S` double DEFAULT NULL,"
+              "`Distance_m` double DEFAULT NULL,"
+              "`Points` double DEFAULT NULL,"
+              "`Meet` text,"
+              "`Meet_Date` text,"
+              "`Wind` text DEFAULT NULL,"
+              "`Event` text,"
+              "`Conference` text,"
+              "`Gender` text,"
+              "`Event_ID` int)")
     cursor.execute(table)
     print("Table is created")
     for i, row in df.iterrows():
@@ -264,9 +278,10 @@ for p in range(3):
             print(row)
         mydb.commit()
         if row[12] not in conf:
-            if len(conf)>1:
+            if len(conf)>=1:
                 print(conf[-1] + " conference done")
             conf.append(row[12])
+    print(conf[-1] + " conference done")
     sql = "UPDATE `" + d + "` SET `Time_I` = NULL WHERE `Time_I` = '';"
     cursor.execute(sql)
     sql = "UPDATE `" + d + "` SET `Time_S` = NULL WHERE `Time_S` = 0.0;"
@@ -274,5 +289,7 @@ for p in range(3):
     sql = "UPDATE `" + d + "` SET `Distance_m` = NULL WHERE `Distance_m` = 0.0;"
     cursor.execute(sql)
     sql = "UPDATE `" + d + "` SET `Points` = NULL WHERE `Points` = 0.0;"
+    cursor.execute(sql)
+    sql = "UPDATE `" + d + "` SET `Wind` = NULL WHERE `Wind` = '';"
     cursor.execute(sql)
     print(d + " done")
