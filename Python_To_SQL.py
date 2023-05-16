@@ -20,7 +20,7 @@ dii = [4200,4191,4180,4181,4194,4182,4183,4184,4199,4196,4198,
         4189,4185,4195,4186,4187,4179,4192,4193,4188,4190,4197]
 
 di = [4280,4277,4279,4278,4296,4231,4281,4282,4229,4228,4224,
-      4230,4283,4295,4276,4285,4289,4299,4284,4291,4233,4287,
+      4230,4283,4276,4285,4289,4299,4284,4291,4233,4287,
       4292,4232,4225,4286,4223,4290,4275,4227,4226,4293,4288]
 
 # time_e=["100 Meters","200 Meters","400 Meters","800 Meters","Mile",
@@ -70,9 +70,6 @@ for p in range(1):
             conference = " ".join(con[0:-3])
         con = conference.split()
         if len(con)>1:
-            conference = "_".join(con)
-        if conference == "IC4A/ECAC":
-            con = conference.split("/")
             conference = "_".join(con)
         
         # Getting the headers for the columns
@@ -230,7 +227,7 @@ for p in range(1):
                         cols.append(meet)
                         cols.append(date)
                         cols.append("")
-                        if event=="Heptathlon":
+                        if event=="Decathlon":
                             k=49
                         else:
                             k=50
