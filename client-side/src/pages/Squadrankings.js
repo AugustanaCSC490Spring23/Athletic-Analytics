@@ -249,7 +249,8 @@ export default function Squadranking(){
                         })}
                 </div>
 
-                <div className="squadInfo">
+            </div>  
+            <div className="squadInfo">
                     <div className="squadChildren">
                         
                         <DisplayHidden>
@@ -279,7 +280,7 @@ export default function Squadranking(){
                         </div>
 
                 </div>
-            </div>   
+ 
         </div>
     </div>
 
