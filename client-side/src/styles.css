@@ -325,7 +325,7 @@ input:focus{
                                     Squad rankings page ************* */
 .filterButton {
     height: 3vh;
-    width: 15vw;
+    width: 20vw;
     margin: 1vw;
     margin-right: 2vw;
     background-color: white;
@@ -335,6 +335,18 @@ input:focus{
     box-shadow: 3px 3px 3px 3px black;
 }
 
+.resultsButton{
+    background-color: white;
+    border-radius: .5rem;
+    width: 30%;
+    margin: 8vw;
+    margin-bottom: 1vh;
+}
+
+.resultsButton:hover{
+    background-color: gray;
+    cursor: pointer;
+}
 /* ************** This is the styling of the filter options ************* */
 
 /* styles text of the option in the filterButton*/
@@ -370,11 +382,9 @@ input:focus{
     padding-right: 5vw
 }
 
-
+/* This styling designs the card itself (background) */
 .squadCard{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     height: 50vh;
     width: 65vw;
     margin-top:5vh;
@@ -387,28 +397,63 @@ input:focus{
 
 }
 
-/* Still gotta style this */
+/* dont edit */
 .squadCard-header{
     display: flex;
 }
 
+/* Used to edit the spacing of the headers */
 .squadCard-header h3{
-    margin-left: 22%;
+    margin-left: 8%;
     font-size: 2vw;
+    height: 1vh;
 }
 
 .squadCard-header h3:nth-child(1){
-    margin-left: 8%;
+    margin-left: 1%;
 }
-.squadTableStats{
-    display: flex; 
+.squadCard-header h3:nth-child(2){
+    margin-left: 11%;
+}
+
+.squadCard-header h3:nth-child(4){
+    margin-left: 9%;
+}
+
+
+.squadCard-header h3:nth-child(5){
+    margin-left: 16%;
+
+}
+
+/* used to edit how the data of the squad ranks are presented */
+.table-items{
+    display: flex;
+    align-items:start;
+    margin-left: 9vw;
+}
+.table-items a{
+    
+    height: 4vh;
+    width: 10vw;
+    margin-top: .5vw;
+    margin-left: 22%;
+    font-size: 2vw;
+
+
+}
+
+.table-items a:nth-child(3){
+    margin-left: 3vw;
+}
+.dataColumn{
+    
+    display: flex;
     flex-wrap: wrap;
-    padding: 1vh;
-}
-.squadDataRow{
-
+    width: 100%;
 }
 
+/* This is the styling for the stuff below the squad menu that slides out */
 .squadInfo{
     width: 65vw;
     padding-left: 2rem;

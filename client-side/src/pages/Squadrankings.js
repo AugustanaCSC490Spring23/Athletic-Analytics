@@ -145,94 +145,111 @@ export default function Squadranking(){
                 </select>
     </div>*/}
 
-            <button onClick={SetResults}>
+            <button className="resultsButton" onClick={SetResults}>
                 <option>Results</option>
             </button>
 
             <div className='squadCard'>
-                <div className="squadCard-header">
-                    <h3> Rank </h3>
-                    {squadList.map((val) => {
-                        return (
-                            <a key= {val.id} className='dataItem' href={val.link} target="_blank">
-                                {}
-                            </a>
-                        );
-                    }
-                    )}  
-                    <h3> College </h3>
-                    {squadList.map((val) => {
-                        if ((val.sum_time >= val.avg_time * 4 && val.sum_dist === 0 && val.sum_points === 0)
-                        || (val.sum_dist >= val.avg_dist * 4 && val.sum_time === 0 && val.sum_points === 0)
-                        || (val.sum_points >= val.avg_points * 4 && val.sum_time === 0 && val.sum_dist === 0)
-                        ) {
-                            return (
-                                <a key= {val.id} className='dataItem' href={val.link} target="_blank">
-                                    {val.College} <br></br>
-                                </a>
-                            );
-                        }  
-                    })}
-                    <h3> Conference </h3>
-                    {squadList.map((val) => {
-                        if ((val.sum_time >= val.avg_time * 4 && val.sum_dist === 0 && val.sum_points === 0)
-                        || (val.sum_dist >= val.avg_dist * 4 && val.sum_time === 0 && val.sum_points === 0)
-                        || (val.sum_points >= val.avg_points * 4 && val.sum_time === 0 && val.sum_dist === 0)) {
-                            return (
-                                <a key= {val.id} className='dataItem' href={val.link} target="_blank">
-                                    {val.Conference}
-                                </a>
-                            );
-                        }  
-                    })}
-                    <h3> Total </h3> 
-                        {squadList.map((val) => {
-                            if (val.sum_time >= val.avg_time * 4 && val.sum_dist === 0 && val.sum_points === 0) {   
-                                const convertedTime = convertTime(val.sum_time);
-                                return (
-                                    <a key= {val.id} className='dataItem' href={val.link} target="_blank">
-                                        {convertedTime} <br></br>
-                                    </a>
-                                );
-                            } else if (val.sum_dist >= val.avg_dist * 4 && val.sum_time === 0 && val.sum_points === 0) {   
-                                return (
-                                    <a key= {val.id} className='dataItem' href={val.link} target="_blank">
-                                        {val.sum_dist.toFixed(2)} <br></br>
-                                    </a>
-                                );
-                            } else if (val.sum_points >= val.avg_points * 4 && val.sum_time === 0 && val.sum_dist === 0) {
-                                return (
-                                    <a key= {val.id} className='dataItem' href={val.link} target="_blank">
-                                        {val.sum_points.toFixed(2)} <br></br>
-                                    </a>
-                                );
-                            }
-                        })}
-                    <h3> Avg. </h3> 
-                        {squadList.map((val) => {
-                            if (val.sum_time >= val.avg_time * 4 && val.sum_dist === 0 && val.sum_points === 0) {
-                                const convertedTime = convertTime(val.avg_time);
-                                return (
-                                    <a key= {val.id} className='dataItem' href={val.link} target="_blank">
-                                    {convertedTime} <br></br>
-                                    </a>
-                                );
-                            } else if (val.sum_dist >= val.avg_dist * 4 && val.sum_time === 0 && val.sum_points === 0) {   
-                                return (
-                                    <a key= {val.id} className='dataItem' href={val.link} target="_blank">
-                                        {val.avg_dist.toFixed(2)} <br></br>
-                                    </a>
-                                );
-                            } else if (val.sum_points >= val.avg_points * 4 && val.sum_time === 0 && val.sum_dist === 0) {
-                                return (
-                                    <a key= {val.id} className='dataItem' href={val.link} target="_blank">
-                                        {val.avg_points.toFixed(2)} <br></br>
-                                    </a>
-                                );
-                            }
-                        })}
+
+                <div className="squadCardContent">
+
+                        <div className="squadCard-header">
+                            <h3> Rank </h3>
+                            <h3> College </h3>
+                            <h3> Conference </h3>
+                            <h3> Total </h3> 
+                            <h3> Avg. </h3> 
+                        </div>
+
+                        <div className="table-items">
+                        <div className="dataColumn">
+                                {squadList.map((val) => {
+                                    if ((val.sum_time >= val.avg_time * 4 && val.sum_dist === 0 && val.sum_points === 0)
+                                    || (val.sum_dist >= val.avg_dist * 4 && val.sum_time === 0 && val.sum_points === 0)
+                                    || (val.sum_points >= val.avg_points * 4 && val.sum_time === 0 && val.sum_dist === 0)
+                                    ) {
+                                        return (
+                                            <a key= {val.id} className='dataItem' href={val.link} target="_blank">
+                                                {val.College} <br></br>
+                                            </a>
+                                        );
+                                    }  
+                                })}
+
+                        </div>
+
+                        <div className="dataColumn">
+                                {squadList.map((val) => {
+                                    if ((val.sum_time >= val.avg_time * 4 && val.sum_dist === 0 && val.sum_points === 0)
+                                    || (val.sum_dist >= val.avg_dist * 4 && val.sum_time === 0 && val.sum_points === 0)
+                                    || (val.sum_points >= val.avg_points * 4 && val.sum_time === 0 && val.sum_dist === 0)) {
+                                        return (
+                                            <a key= {val.id} className='dataItem' href={val.link} target="_blank">
+                                                {val.Conference}
+                                            </a>
+                                        );
+                                    }  
+                                })}
+        
+                        </div>
+
+                        <div className="dataColumn">                
+                                    {squadList.map((val) => {
+                                    if (val.sum_time >= val.avg_time * 4 && val.sum_dist === 0 && val.sum_points === 0) {   
+                                        const convertedTime = convertTime(val.sum_time);
+                                        return (
+                                            <a key= {val.id} className='dataItem' href={val.link} target="_blank">
+                                                {convertedTime} <br></br>
+                                            </a>
+                                        );
+                                    } else if (val.sum_dist >= val.avg_dist * 4 && val.sum_time === 0 && val.sum_points === 0) {   
+                                        return (
+                                            <a key= {val.id} className='dataItem' href={val.link} target="_blank">
+                                                {val.sum_dist.toFixed(2)} <br></br>
+                                            </a>
+                                        );
+                                    } else if (val.sum_points >= val.avg_points * 4 && val.sum_time === 0 && val.sum_dist === 0) {
+                                        return (
+                                            <a key= {val.id} className='dataItem' href={val.link} target="_blank">
+                                                {val.sum_points.toFixed(2)} <br></br>
+                                            </a>
+                                        );
+                                    }
+                                })}
+                        </div>
+
+                        <div className="dataColumn">
+                                    {squadList.map((val) => {
+                                    if (val.sum_time >= val.avg_time * 4 && val.sum_dist === 0 && val.sum_points === 0) {
+                                        const convertedTime = convertTime(val.avg_time);
+                                        return (
+                                            <a key= {val.id} className='dataItem' href={val.link} target="_blank">
+                                            {convertedTime} <br></br>
+                                            </a>
+                                        );
+                                    } else if (val.sum_dist >= val.avg_dist * 4 && val.sum_time === 0 && val.sum_points === 0) {   
+                                        return (
+                                            <a key= {val.id} className='dataItem' href={val.link} target="_blank">
+                                                {val.avg_dist.toFixed(2)} <br></br>
+                                            </a>
+                                        );
+                                    } else if (val.sum_points >= val.avg_points * 4 && val.sum_time === 0 && val.sum_dist === 0) {
+                                        return (
+                                            <a key= {val.id} className='dataItem' href={val.link} target="_blank">
+                                                {val.avg_points.toFixed(2)} <br></br>
+                                            </a>
+                                        );
+                                    }
+                                })}
+
+                        </div>
+
+
                 </div>
 
+
+
+                </div>
             </div>  
             <div className="squadInfo">
                     <div className="squadChildren">
