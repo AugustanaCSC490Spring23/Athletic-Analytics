@@ -1,5 +1,7 @@
 import "../App.js";
 import React, { useState, useEffect} from "react";
+import { Link, useMatch, useResolvedPath } from 'react-router-dom';
+
 
 
 export default function Schoolprofiles(){
@@ -18,7 +20,7 @@ export default function Schoolprofiles(){
             </div>
 
             <div className="eventDetails">
-                <div className="EventHeader">       <h3> Rank </h3>        <h3> Name </h3>     <h3> Year </h3>      <h3> Mark </h3>      <h3> Date </h3>       </div>
+                <div className="stat-headers">      <h3> Rank </h3>        <h3> Name </h3>     <h3> Year </h3>      <h3> Mark </h3>      <h3> Date </h3>       </div>
                 {/* {divList.map((val) => {
                             return (
                                 <div className='dataRow'>

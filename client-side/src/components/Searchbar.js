@@ -49,11 +49,13 @@ export default function Searchbar(){
                             }).map((val) => {
 
                                 return ( 
-                                <a >
-                                    <p className='dataItem' href={val.link} target="_blank">
-                                        {val.College}
-                                    </p>
-                                </a>
+                               // <Link to="/Schoolprofiles"  >
+                                    <a >
+                                        <p className='dataItem' href={val.link} target="_blank">
+                                            {val.College}
+                                        </p>
+                                    </a>
+                              //  </Link>
                                     );
                                 })}
 
@@ -67,4 +69,6 @@ export default function Searchbar(){
         </div>
 
     )
+
+
 }
