@@ -11,7 +11,6 @@ export default function Home(){
             <div><img className="homeLogo" src={HomeLogo} alt="AALogo"/></div>
 
             {/* This is the search bar component */}
-            <Searchbar/>
 
             {/* This is where you'll put cards
              that display on the homepage when the database updates the web scrape*/}

@@ -389,6 +389,16 @@ input:focus{
 
 /* Still gotta style this */
 .squadCard-header{
+    display: flex;
+}
+
+.squadCard-header h3{
+    margin-left: 22%;
+    font-size: 2vw;
+}
+
+.squadCard-header h3:nth-child(1){
+    margin-left: 8%;
 }
 .squadTableStats{
     display: flex; 

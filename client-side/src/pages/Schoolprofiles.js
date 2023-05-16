@@ -19,7 +19,7 @@ export default function Schoolprofiles(){
                 </select> */}
             </div>
 
-            <div className="eventDetails">
+            <div className="E">
                 <div className="stat-headers">      <h3> Rank </h3>        <h3> Name </h3>     <h3> Year </h3>      <h3> Mark </h3>      <h3> Date </h3>       </div>
                 {/* {divList.map((val) => {
                             return (

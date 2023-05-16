@@ -70,10 +70,10 @@ export default function Squadranking(){
                 if (sex !== '' && event !== '') {
                     const response = await Axios.get('http://localhost:3001/SquadRankings/Colleges', {
                         params: {
-                            query: `SELECT College, Conference, SUM(Time) AS sum_time, AVG(Time) 
-                            AS avg_time, SUM(Distance) AS sum_dist, AVG(Distance) AS avg_dist, 
+                            query: `SELECT College, Conference, SUM(Time_S) AS sum_time, AVG(Time_S) 
+                            AS avg_time, SUM(Distance_m) AS sum_dist, AVG(Distance_m) AS avg_dist, 
                             SUM(Points) AS sum_points, AVG(Points) AS avg_points FROM 
-                                (SELECT College, Conference, Time, Distance, Points, ROW_NUMBER() OVER (PARTITION BY College, Conference) 
+                                (SELECT College, Conference, Time_S, Distance_m, Points, ROW_NUMBER() OVER (PARTITION BY College, Conference) 
                                     AS row_num FROM ${division} WHERE Gender = '${sex}' AND Event = '${event}'
                             ) ${division} WHERE row_num <= 4 GROUP BY College, Conference ORDER BY avg_time, avg_dist DESC, avg_Points DESC;`
                         }
@@ -214,7 +214,8 @@ export default function Squadranking(){
                         })}
                 </div>
 
-                <div className="squadInfo">
+            </div>  
+            <div className="squadInfo">
                     <div className="squadChildren">
                         
                         <DisplayHidden>
@@ -244,7 +245,7 @@ export default function Squadranking(){
                         </div>
 
                 </div>
-            </div>   
+ 
         </div>
     </div>
 
