@@ -64,6 +64,7 @@ export default function Squadranking(){
    
     function SetResults() {
         SendCollegeRequest(divSelect, sexSelect, eventSelect);
+        setCurrentPage(1);
         }
     const SendCollegeRequest = async (division, sex, event) => {
         console.log('College Request');
@@ -77,10 +78,9 @@ export default function Squadranking(){
                             SUM(Points) AS sum_points, AVG(Points) AS avg_points, Event_ID FROM 
                                 (SELECT College, Conference, Time_S, Distance_m, Points, Event_ID, ROW_NUMBER() OVER (PARTITION BY College, Conference) 
                                     AS row_num FROM ${division} WHERE Gender = '${sex}' AND Event = '${event}'
-                            ) ${division} WHERE row_num <= 4 GROUP BY College, Conference, Event_ID ORDER BY avg_time, avg_dist DESC, avg_Points DESC Limit 20;`
+                            ) ${division} WHERE row_num <= 4 GROUP BY College, Conference, Event_ID ORDER BY avg_time, avg_dist DESC, avg_Points DESC;`
                         }
                     })
-                    console.log(response.data);
                     setSquadList(response.data);
                 } 
             }
@@ -94,16 +94,29 @@ export default function Squadranking(){
         const minutes = Math.floor(totalMilliseconds / (1000 * 60));
         const secondsRemaining = Math.floor((totalMilliseconds % (1000 * 60)) / 1000);
         const millisecondsRemaining = Math.floor(totalMilliseconds % 1000);
-       // const millisecondsRound = Math.round(millisecondsRemaining, 1)
-        console.log(millisecondsRemaining)
         const millisecondsRound = Math.round(millisecondsRemaining / 10, 1)
-        console.log(millisecondsRound)
         if (minutes === 0) {
             return `${secondsRemaining}.${millisecondsRound}`;
         } else {
             return `${minutes}:${secondsRemaining}.${millisecondsRound}`;
         }
     }
+    const resultsPerPage = 20; // Number of results to display per page
+
+// Variables to manage current page state
+    const [currentPage, setCurrentPage] = useState(1);
+    const startIndex = (currentPage - 1) * resultsPerPage;
+    const endIndex = startIndex + resultsPerPage;
+
+// Filtered and paginated squadList
+    const filteredSquadList = squadList.filter((val) => 
+        (val.sum_time >= val.avg_time * 4 && val.sum_dist === 0 && val.sum_points === 0) ||
+        (val.sum_dist >= val.avg_dist * 4 && val.sum_time === 0 && val.sum_points === 0) ||
+        (val.sum_points >= val.avg_points * 4 && val.sum_time === 0 && val.sum_dist === 0)
+    );
+    const totalPages = Math.ceil(filteredSquadList.length / resultsPerPage); // Total number of pages
+
+    const currentResults = filteredSquadList.slice(startIndex, endIndex);
     return (
     <div className="homeContainer">
         <div className='squadHeader'>
@@ -152,41 +165,44 @@ export default function Squadranking(){
             <div className='squadCard'>
                 <div className="squadCard-header">
                     <h3> Rank </h3>
-                    {squadList.map((val) => {
-                        return (
-                            <a key= {val.id} className='dataItem' href={val.link} target="_blank">
-                                {}
-                            </a>
-                        );
-                    }
-                    )}  
+                    {currentResults.map((val, index) => (
+                        <div key={index}>
+                            <span>{startIndex + index + 1}</span>
+                        </div>
+                    ))}
                     <h3> College </h3>
-                    {squadList.map((val) => {
-                        if ((val.sum_time >= val.avg_time * 4 && val.sum_dist === 0 && val.sum_points === 0)
-                        || (val.sum_dist >= val.avg_dist * 4 && val.sum_time === 0 && val.sum_points === 0)
-                        || (val.sum_points >= val.avg_points * 4 && val.sum_time === 0 && val.sum_dist === 0)
-                        ) {
-                            return (
-                                <a key= {val.id} className='dataItem' href={val.link} target="_blank">
-                                    {val.College} <br></br>
-                                </a>
-                            );
-                        }  
-                    })}
+                    {currentResults.map((val) => (
+                        <a key={val.id} className='dataItem' href={val.link} target="_blank">
+                            {val.College} <br></br>
+                        </a>
+                    ))}
+    
+                    {/* Pagination buttons */}
+                    {currentPage > 1 && (
+                        <button onClick={() => setCurrentPage(currentPage - 1)}>Previous</button>
+                    )}
+    
+                    {currentPage < totalPages && (
+                        <button onClick={() => setCurrentPage(currentPage + 1)}>Next</button>
+                    )}
+                    
                     <h3> Conference </h3>
-                    {squadList.map((val) => {
-                        if ((val.sum_time >= val.avg_time * 4 && val.sum_dist === 0 && val.sum_points === 0)
-                        || (val.sum_dist >= val.avg_dist * 4 && val.sum_time === 0 && val.sum_points === 0)
-                        || (val.sum_points >= val.avg_points * 4 && val.sum_time === 0 && val.sum_dist === 0)) {
-                            return (
-                                <a key= {val.id} className='dataItem' href={val.link} target="_blank">
-                                    {val.Conference}
-                                </a>
-                            );
-                        }  
-                    })}
+                    {currentResults.map((val) => (
+                        <a key={val.id} className='dataItem' href={val.link} target="_blank">
+                            {val.Conference} <br></br>
+                        </a>
+                    ))}
+    
+                    {/* Pagination buttons 
+                    {currentPage > 1 && (
+                        <button onClick={() => setCurrentPage(currentPage - 1)}>Previous</button>
+                    )}
+    
+                    {currentPage < totalPages && (
+                        <button onClick={() => setCurrentPage(currentPage + 1)}>Next</button>
+                    )}*/}
                     <h3> Total </h3> 
-                        {squadList.map((val) => {
+                        {currentResults.map((val) => {
                             if (val.sum_time >= val.avg_time * 4 && val.sum_dist === 0 && val.sum_points === 0) {   
                                 const convertedTime = convertTime(val.sum_time);
                                 return (
@@ -209,7 +225,7 @@ export default function Squadranking(){
                             }
                         })}
                     <h3> Avg. </h3> 
-                        {squadList.map((val) => {
+                        {currentResults.map((val) => {
                             if (val.sum_time >= val.avg_time * 4 && val.sum_dist === 0 && val.sum_points === 0) {
                                 const convertedTime = convertTime(val.avg_time);
                                 return (
