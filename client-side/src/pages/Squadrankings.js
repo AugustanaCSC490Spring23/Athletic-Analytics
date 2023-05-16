@@ -70,12 +70,12 @@ export default function Squadranking(){
                 if (sex !== '' && event !== '') {
                     const response = await Axios.get('http://localhost:3001/SquadRankings/Colleges', {
                         params: {
-                            query: `SELECT College, Conference, SUM(Time) AS sum_time, AVG(Time) 
-                            AS avg_time, SUM(Distance) AS sum_dist, AVG(Distance) AS avg_dist, 
-                            SUM(Points) AS sum_points, AVG(Points) AS avg_points FROM 
-                                (SELECT College, Conference, Time, Distance, Points, ROW_NUMBER() OVER (PARTITION BY College, Conference) 
+                            query: `SELECT College, Conference, SUM(Time_S) AS sum_time, AVG(Time_S) 
+                            AS avg_time, SUM(Distance_m) AS sum_dist, AVG(Distance_m) AS avg_dist, 
+                            SUM(Points) AS sum_points, AVG(Points) AS avg_points, Event_ID FROM 
+                                (SELECT College, Conference, Time_S, Distance_m, Points, Event_ID, ROW_NUMBER() OVER (PARTITION BY College, Conference) 
                                     AS row_num FROM ${division} WHERE Gender = '${sex}' AND Event = '${event}'
-                            ) ${division} WHERE row_num <= 4 GROUP BY College, Conference ORDER BY avg_time, avg_dist DESC, avg_Points DESC;`
+                            ) ${division} WHERE row_num <= 4 GROUP BY College, Conference, Event_ID ORDER BY avg_time, avg_dist DESC, avg_Points DESC limit 10;`
                         }
                     })
                     console.log(response.data);
@@ -87,6 +87,17 @@ export default function Squadranking(){
         }
     }
 
+    function convertTime(seconds) {
+        const totalMilliseconds = seconds * 1000;
+        const minutes = Math.floor(totalMilliseconds / (1000 * 60));
+        const secondsRemaining = Math.floor((totalMilliseconds % (1000 * 60)) / 1000);
+        const millisecondsRemaining = Math.floor(totalMilliseconds % 1000);
+        if (minutes === 0) {
+            return `${secondsRemaining}.${millisecondsRemaining}`;
+        } else {
+            return `${minutes}:${secondsRemaining}.${millisecondsRemaining}`;
+        }
+    }
     return (
     <div className="homeContainer">
         <div className='squadHeader'>
@@ -145,9 +156,9 @@ export default function Squadranking(){
                     )}  
                     <h3> College </h3>
                     {squadList.map((val) => {
-                        if ((val.sum_time >= val.avg_time * 4 && val.sum_dist === null && val.sum_points === 0)
+                        if ((val.sum_time >= val.avg_time * 4 && val.sum_dist === 0 && val.sum_points === 0)
                         || (val.sum_dist >= val.avg_dist * 4 && val.sum_time === 0 && val.sum_points === 0)
-                        || (val.sum_points >= val.avg_points * 4 && val.sum_time === 0 && val.sum_dist === null)
+                        || (val.sum_points >= val.avg_points * 4 && val.sum_time === 0 && val.sum_dist === 0)
                         ) {
                             return (
                                 <a key= {val.id} className='dataItem' href={val.link} target="_blank">
@@ -158,9 +169,9 @@ export default function Squadranking(){
                     })}
                     <h3> Conference </h3>
                     {squadList.map((val) => {
-                        if ((val.sum_time >= val.avg_time * 4 && val.sum_dist === null && val.sum_points === 0)
+                        if ((val.sum_time >= val.avg_time * 4 && val.sum_dist === 0 && val.sum_points === 0)
                         || (val.sum_dist >= val.avg_dist * 4 && val.sum_time === 0 && val.sum_points === 0)
-                        || (val.sum_points >= val.avg_points * 4 && val.sum_time === 0 && val.sum_dist === null)) {
+                        || (val.sum_points >= val.avg_points * 4 && val.sum_time === 0 && val.sum_dist === 0)) {
                             return (
                                 <a key= {val.id} className='dataItem' href={val.link} target="_blank">
                                     {val.Conference}
@@ -170,10 +181,11 @@ export default function Squadranking(){
                     })}
                     <h3> Total </h3> 
                         {squadList.map((val) => {
-                            if (val.sum_time >= val.avg_time * 4 && val.sum_dist === null && val.sum_points === 0) {   
+                            if (val.sum_time >= val.avg_time * 4 && val.sum_dist === 0 && val.sum_points === 0) {   
+                                const convertedTime = convertTime(val.sum_time);
                                 return (
                                     <a key= {val.id} className='dataItem' href={val.link} target="_blank">
-                                        {val.sum_time.toFixed(2)}
+                                        {convertedTime}
                                     </a>
                                 );
                             } else if (val.sum_dist >= val.avg_dist * 4 && val.sum_time === 0 && val.sum_points === 0) {   
@@ -182,7 +194,7 @@ export default function Squadranking(){
                                         {val.sum_dist.toFixed(2)}
                                     </a>
                                 );
-                            } else if (val.sum_points >= val.avg_points * 4 && val.sum_time === 0 && val.sum_dist === null) {
+                            } else if (val.sum_points >= val.avg_points * 4 && val.sum_time === 0 && val.sum_dist === 0) {
                                 return (
                                     <a key= {val.id} className='dataItem' href={val.link} target="_blank">
                                         {val.sum_points.toFixed(2)}
@@ -192,19 +204,23 @@ export default function Squadranking(){
                         })}
                     <h3> Avg. </h3> 
                         {squadList.map((val) => {
-                            if (val.sum_time >= val.avg_time * 4 && val.sum_dist === null && val.sum_points === 0) {
-                                return (
-                                    <a key= {val.id} className='dataItem' href={val.link} target="_blank">
-                                        {val.avg_time.toFixed(2)}
-                                    </a>
-                                );
+                            if (val.sum_time >= val.avg_time * 4 && val.sum_dist === 0 && val.sum_points === 0) {
+                                if(val.Event_ID >= 7 && val.Event_ID <= 18) {
+
+                                } else {
+                                    return (
+                                        <a key= {val.id} className='dataItem' href={val.link} target="_blank">
+                                            {val.avg_time.toFixed(2)}
+                                        </a>
+                                    );
+                                }
                             } else if (val.sum_dist >= val.avg_dist * 4 && val.sum_time === 0 && val.sum_points === 0) {   
                                 return (
                                     <a key= {val.id} className='dataItem' href={val.link} target="_blank">
                                         {val.avg_dist.toFixed(2)}
                                     </a>
                                 );
-                            } else if (val.sum_points >= val.avg_points * 4 && val.sum_time === 0 && val.sum_dist === null) {
+                            } else if (val.sum_points >= val.avg_points * 4 && val.sum_time === 0 && val.sum_dist === 0) {
                                 return (
                                     <a key= {val.id} className='dataItem' href={val.link} target="_blank">
                                         {val.avg_points.toFixed(2)}

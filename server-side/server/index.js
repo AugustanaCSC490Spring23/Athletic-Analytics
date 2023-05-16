@@ -14,12 +14,18 @@ const db = mysql.createPool({
   password: 'AthleticAnalytics',
   database: 'trackData'
 });
-app.get("/DivisionIII", (req, res) => {
-  const getOutput = "SELECT DISTINCT College FROM dii"
+app.get("/Searchbar", (req, res) => {
+  const getOutput = "SELECT DISTINCT College FROM di UNION SELECT DISTINCT College FROM dii UNION SELECT DISTINCT College FROM diii"
   db.query(getOutput, (err, result) => {
     res.send(result);
   });
 }); 
+app.get("/SchoolProfile", (req, res) => {
+  const getOutput = "SELECT DISTINCT College FROM dii"
+  db.query(getOutput, (err, result) => {
+    res.send(result);
+  });
+});
 
 app.get("/IndivRankings", (req, res) => {
   const query = req.query.query;

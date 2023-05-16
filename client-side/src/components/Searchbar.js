@@ -8,62 +8,45 @@ export default function Searchbar(){
 
     const [trackList, setTrackList] = useState([]);
     const [search, setSearch] = useState('');
-    var searchList = [];
-   // console.log(search);
     useEffect(() => {
-      Axios.get("http://localhost:3001/DivisionIII").then((response) => {
+      Axios.get("http://localhost:3001/Searchbar").then((response) => {
         setTrackList(response.data);
         console.log(response.data);
-        //console.log(JSON.stringify(response.data, null, 2))
       });
     }, []);
+
+    const handleInputChange = (event) => {
+        setSearch(event.target.value);
+      };
+    const handleResult = (val) => {
+        console.log('Clicked ' + val.College);
+    }
       return(
 
         <div className="searchbar">
             
                 <div className="searchInputs">
-                    <input type="text" placeholder="Search an Athlete..." onChange={(e) => setSearch(e.target.value)} />
+                    <input type="text" placeholder="Search a College..." onChange={handleInputChange} />
                     <div className ='searchIcon'>
                         {/* <SearchIcon/> */}
                     </div >
-
                     <div className="searchbar-results">
-                    {/*Need to create logic statement removing duplicates
-                    
-                    !searchList.includes(val.Athlete) &&
-
-
-
-
-                    searchList uses a push function to add to the list in react.js
-                    
-                    
-                    
-                    */} 
-                            {search.length != 0 && 
-                            trackList.filter((val) => {
-                            
-                            return search.toLowerCase() === '' 
+                        {search.length !== 0 && trackList.filter((val) => {
+                            return search === '' 
                             ? val 
-                            : val.College.toLowerCase().includes(search);
-                            }).map((val) => {
-
+                            : val.College.toLowerCase().includes(search.toLowerCase());
+                            }).map((val, index) => {
                                 return ( 
-                                <a >
-                                    <p className='dataItem' href={val.link} target="_blank">
-                                        {val.College}
-                                    </p>
-                                </a>
-                                    );
-                                })}
-
-
+                                    <a key={index} href={val.link} target="_blank" onClick={() => handleResult(val)}>
+                                        <p className='dataItem'>
+                                            {val.College}
+                                        </p>
+                                    </a>
+                                );
+                            })
+                        }
                     </div>
-                        
                 </div>
-            
-
-
         </div>
 
     )
