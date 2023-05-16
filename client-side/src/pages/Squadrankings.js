@@ -77,7 +77,7 @@ export default function Squadranking(){
                             SUM(Points) AS sum_points, AVG(Points) AS avg_points, Event_ID FROM 
                                 (SELECT College, Conference, Time_S, Distance_m, Points, Event_ID, ROW_NUMBER() OVER (PARTITION BY College, Conference) 
                                     AS row_num FROM ${division} WHERE Gender = '${sex}' AND Event = '${event}'
-                            ) ${division} WHERE row_num <= 4 GROUP BY College, Conference, Event_ID ORDER BY avg_time, avg_dist DESC, avg_Points DESC;`
+                            ) ${division} WHERE row_num <= 4 GROUP BY College, Conference, Event_ID ORDER BY avg_time, avg_dist DESC, avg_Points DESC Limit 20;`
                         }
                     })
                     console.log(response.data);
