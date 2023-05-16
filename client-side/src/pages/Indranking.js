@@ -9,7 +9,10 @@ export default function Indranking(){
     const D2confNames = ['CACC', 'CCAA', 'CIAA', 'Conference_Carolinas', 'ECC', 'G-MAC', 'GLIAC', 'GLVC', 'GNAC', 'Great_American', 'Gulf_South', 'Lone_Star', 
     'MIAA', 'Mountain_East', 'Northeast-10', 'Northern_Sun', 'PacWest', 'Peach_Belt', 'PSAC', 'RMAC', 'SIAC', 'South_Atlantic'];
 
-    const D1confNames = ['ACC', 'ASUN', 'America_East', 'Atlantic_10', 'Big_East', 'Big_12', 'Big_Sky'];
+    const D1confNames = ['ACC', 'America_East', 'ASUN', 'Atlantic_10', 'Big_12', 'BIG_EAST', 'Big_Sky', 'Big_South', 'Big_Ten', 'Big_West', 
+    'CAA_(Colonial)', 'Conference_USA','Horizon_League', 'IC4A_ECAC', 'Ivy_League', 'MEAC', 'Metro_Atlantic_(MAAC)', 'Mets', 
+    'Mid-American_(MAC)', 'Missouri_Valley_(MVC)', 'Mountain_West', 'Northeast_Conference', 'Ohio_Valley_(OVC)', 'Pac-12', 
+    'Patriot_League', 'SEC', 'Southern_Conference', 'Southland_Conference', 'Sun_Belt', 'SWAC', 'The_American', 'The_Summit_League', 'WAC'];
 
     const menEvents = ["100 Meters", "200 Meters", "400 Meters", "800 Meters", "1500 Meters", "5000 Meters"
         , "10,000 Meters", "3000 Steeplechase", "110 Hurdles", "400 Hurdles", "Shot put", "Discus", 
@@ -36,6 +39,7 @@ export default function Indranking(){
             setDivSelect('');
         } else {
             setDivSelect(val);
+            setConfSelect('');
         }
         console.log(val);
     }
@@ -104,21 +108,21 @@ export default function Indranking(){
                 if (sex !== '' && event !== '') {
                     const response = await Axios.get('http://localhost:3001/IndivRankings', {
                         params: {
-                            query: `SELECT * FROM ${division} WHERE Conference = '${conference}' AND Gender = '${sex}' AND Event = '${event}' ORDER BY Time, Distance DESC, Points DESC LIMIT 50`
+                            query: `SELECT * FROM ${division} WHERE Conference = '${conference}' AND Gender = '${sex}' AND Event = '${event}' ORDER BY Time_S, Distance_m DESC, Points DESC LIMIT 50`
                         }
                     })
                     setDivList(response.data);
                 } else if (sex !== '' && event === '') {
                     const response = await Axios.get('http://localhost:3001/IndivRankings', {
                         params: {
-                            query: `SELECT * FROM ${division} WHERE Conference = '${conference}' AND Gender = '${sex}' ORDER BY Event_ID, Time, Distance DESC, Points DESC LIMIT 50`
+                            query: `SELECT * FROM ${division} WHERE Conference = '${conference}' AND Gender = '${sex}' ORDER BY Event_ID, Time_S, Distance_m DESC, Points DESC LIMIT 50`
                         }
                     })
                     setDivList(response.data);
                 } else {
                     const response = await Axios.get('http://localhost:3001/IndivRankings', {
                         params: {
-                            query: `SELECT * FROM ${division} WHERE Conference = '${conference}' ORDER BY Event_ID, Time, Distance DESC, Points DESC LIMIT 50`
+                            query: `SELECT * FROM ${division} WHERE Conference = '${conference}' ORDER BY Event_ID, Time_S, Distance_m DESC, Points DESC LIMIT 50`
                         }
                     })
                     setDivList(response.data);
@@ -127,21 +131,21 @@ export default function Indranking(){
                 if (sex !== '' && event !== '') {
                     const response = await Axios.get('http://localhost:3001/IndivRankings', {
                         params: {
-                            query: `SELECT * FROM ${division} WHERE Gender = '${sex}' AND Event = '${event}' ORDER BY Time, Distance DESC, Points DESC LIMIT 50`
+                            query: `SELECT * FROM ${division} WHERE Gender = '${sex}' AND Event = '${event}' ORDER BY Time_S, Distance_m DESC, Points DESC LIMIT 50`
                         }
                     })
                     setDivList(response.data);
                 } else if (sex !== '' && event === '') {
                     const response = await Axios.get('http://localhost:3001/IndivRankings', {
                         params: {
-                            query: `SELECT * FROM ${division} WHERE Gender = '${sex}' ORDER BY Event_ID, Time, Distance DESC, Points DESC LIMIT 50`
+                            query: `SELECT * FROM ${division} WHERE Gender = '${sex}' ORDER BY Event_ID, Time_S, Distance_m DESC, Points DESC LIMIT 50`
                         }
                     })
                     setDivList(response.data);
                 } else {
                     const response = await Axios.get('http://localhost:3001/IndivRankings', {
                         params: {
-                            query: `SELECT * FROM ${division} ORDER BY Event_ID, Time, Distance DESC, Points DESC LIMIT 50`
+                            query: `SELECT * FROM ${division} ORDER BY Event_ID, Time_S, Distance_m DESC, Points DESC LIMIT 50`
                         }
                     })
                     setDivList(response.data);
@@ -219,96 +223,46 @@ export default function Indranking(){
                         </div>
 
                         {divList.map((val) => {
-                            return (
-                                <div className='dataRow'>
-                                    <a className='stat' href={val.link} target="_blank"><p>{val.Ranking}</p></a>
-                                    <a className='stat' href={val.link} target="_blank"><p>{val.Athlete}</p></a>                                   
-                                    <a className='stat' href={val.link} target="_blank"><p>{val.Year}</p></a> 
-                                    <a className='stat' href={val.link} target="_blank"><p>{val.College}</p></a> 
-                                    <a className='stat' href={val.link} target="_blank"><p>{val.Time}{val.Distance}{val.Points}</p></a> 
-                                    <a className='stat' href={val.link} target="_blank"><p>{val.Meet_Date}</p></a> 
-                                    <a className='stat' href={val.link} target="_blank"><p>{val.Wind}</p></a> 
-                                </div>
-                            );
+                            if (val.Time_I !== '') {
+                                return (
+                                    <div className='dataRow'>
+                                        <a key= {val.id} className='stat' href={val.link} target="_blank"><p>{val.Ranking}</p></a>
+                                        <a key= {val.id} className='stat' href={val.link} target="_blank"><p>{val.Athlete}</p></a>                                   
+                                        <a key= {val.id} className='stat' href={val.link} target="_blank"><p>{val.Year}</p></a> 
+                                        <a key= {val.id} className='stat' href={val.link} target="_blank"><p>{val.College}</p></a> 
+                                        <a key= {val.id} className='stat' href={val.link} target="_blank"><p>{val.Time_I}</p></a> 
+                                        <a key= {val.id} className='stat' href={val.link} target="_blank"><p>{val.Meet_Date}</p></a> 
+                                        <a key= {val.id} className='stat' href={val.link} target="_blank"><p>{val.Wind}</p></a> 
+                                    </div>
+                                );
+                            } else if (val.Distance_m !== 0) {
+                                return (
+                                    <div className='dataRow'>
+                                        <a key= {val.id} className='stat' href={val.link} target="_blank"><p>{val.Ranking}</p></a>
+                                        <a key= {val.id} className='stat' href={val.link} target="_blank"><p>{val.Athlete}</p></a>                                   
+                                        <a key= {val.id} className='stat' href={val.link} target="_blank"><p>{val.Year}</p></a> 
+                                        <a key= {val.id} className='stat' href={val.link} target="_blank"><p>{val.College}</p></a> 
+                                        <a key= {val.id} className='stat' href={val.link} target="_blank"><p>{val.Distance_m}m</p></a> 
+                                        <a key= {val.id} className='stat' href={val.link} target="_blank"><p>{val.Meet_Date}</p></a> 
+                                        <a key= {val.id} className='stat' href={val.link} target="_blank"><p>{val.Wind}</p></a> 
+                                    </div>
+                                );
+                            } else if (val.Points !== 0) {
+                                return (
+                                    <div className='dataRow'>
+                                        <a key= {val.id} className='stat' href={val.link} target="_blank"><p>{val.Ranking}</p></a>
+                                        <a key= {val.id} className='stat' href={val.link} target="_blank"><p>{val.Athlete}</p></a>                                   
+                                        <a key= {val.id} className='stat' href={val.link} target="_blank"><p>{val.Year}</p></a> 
+                                        <a key= {val.id} className='stat' href={val.link} target="_blank"><p>{val.College}</p></a> 
+                                        <a key= {val.id} className='stat' href={val.link} target="_blank"><p>{val.Points}</p></a> 
+                                        <a key= {val.id} className='stat' href={val.link} target="_blank"><p>{val.Meet_Date}</p></a> 
+                                        <a key= {val.id} className='stat' href={val.link} target="_blank"><p>{val.Wind}</p></a> 
+                                    </div>
+                                );
                             }
-                        )}         
-                    </div>
-
-                    {/* <div className="tableStat">
-                        <h3> Athlete </h3>
-                        {divList.map((val) => {
-                            return (
-                                <a className='dataItem' href={val.link} target="_blank">
-                                    {val.Athlete}
-                                </a>
-                            );
                         }
-                        )}
+)}         
                     </div>
-
-                    <div className="tableStat">
-                        <h3> Year </h3>
-                        {divList.map((val) => {
-                            return (
-                                <a className='dataItem' href={val.link} target="_blank">
-                                    {val.Year}
-                                </a>
-                            );
-                            }
-                        )}
-                                                    
-                    </div>
-
-                    <div className="tableStat">
-                        <h3> College </h3>
-                        {divList.map((val) => {
-                            return (
-                                <a className='dataItem' href={val.link} target="_blank">
-                                    {val.College}
-                                </a>
-                            );
-                            }
-                        )}                       
-                    </div>
-
-                    <div className="tableStat">
-                        <h3> Mark </h3>
-                        {divList.map((val) => {
-                            return (
-                                <a className='dataItem' href={val.link} target="_blank">
-                                    {val.Time}
-                                    {val.Distance}
-                                    {val.Points}
-
-                                </a>
-                            );
-                            }
-                        )}                       
-                    </div>
-
-                    <div className="tableStat">
-                        <h3> Date </h3>
-                        {divList.map((val) => {
-                            return (
-                                <a className='dataItem' href={val.link} target="_blank">
-                                    {val.Meet_Date}
-                                </a>
-                            );
-                            }
-                        )}                           
-                    </div>
-
-                    <div className="tableStat">
-                        <h3> Wind </h3>
-                        {divList.map((val) => {
-                            return (
-                                <a className='dataItem' href={val.link} target="_blank">
-                                    {val.Wind}
-                                </a>
-                            );
-                            }
-                        )}                     
-                    </div> */}
 
 
 

@@ -1,13 +1,14 @@
 import "../App.js";
 import React, { useState, useEffect} from "react";
-import { Link, useMatch, useResolvedPath } from 'react-router-dom';
-
+import Searchbar from "../components/Searchbar.js"
 
 
 export default function Schoolprofiles(){
+    
     return ( <div className="schoolprofilesContainer">'
         <h1> School Profiles </h1>
         <p> This page allows you to search a school to see their top athletes, as well as the roster for each school's event</p>
+        <div><Searchbar/></div>
 
         <div className="topAthleteTable">                               </div>
         <div className="eventSelectTable">  
