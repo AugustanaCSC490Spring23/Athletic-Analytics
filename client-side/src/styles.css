@@ -31,6 +31,7 @@ p{
     border-left: solid black;
     border-right: solid black;
     border-bottom: solid black;
+    height: 170vh;
     width: 80vw;
     border-radius: .5rem;
     margin-left: 7.75vw;
@@ -38,7 +39,6 @@ p{
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
-    height: 170vh;
     background-repeat: no-repeat;
     background-size: 110%;
     padding-top: 2rem;
@@ -173,7 +173,7 @@ p{
 /* This is the styling of the nav bar logo image */
 .navLogo{
     background-color: none;
-    height: 5.5vh;
+    height: 5vh;
     border-radius: .25rem;
 
     
@@ -238,6 +238,32 @@ p{
 
 .homeLogo{
     height: 30vw;
+    width: 90%;
+}
+
+.home-display{
+    height: 120vh;
+    width: 80%;
+    border: solid purple;
+    display: inline;
+
+}
+.heroCard{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10vw;
+    padding: 5vw;
+    box-shadow: 3px 3px 3px 3px black;
+    height: 20%;
+
+}
+.heroCard .uh{
+    width: 1=30vw;
+    border: solid black;
+}
+.heroCard p{
+    font-size: 2.5vw;
 }
 
 /* ************* Below is the searchbar styling  ************* */
@@ -267,30 +293,28 @@ p{
     width: 60vw;
     box-shadow: 3px 3px 3px 3px black;
     margin-top: 5vh;
+    margin-bottom: 5vh;
 
 }
 
-.searchbar-results{
-    height: 3vh;
-    border-width: 1px;
-    border-radius: .5rem;
-}
 
 /* this styles the formatting and search results themselves*/
-.searchbar-results .stat{
+.dataItem {
     z-index: 1;
     position: relative; 
     background-color: white;
     margin: 0;
     margin-right: 3vw;
+    margin-left: 4vw;
     height: 3vh;
-    width: 59vw;
+    width: 57vw;
     padding-left: 3vw;
-    padding-top: .25vh;
+    padding-top: .2em;
     border: 1px solid rgb(167, 164, 164);
+    border-radius: .25rem;
 }
 
-.searchbar-results .dataItem:hover{  
+.dataItem:hover{  
     background-color: rgb(224, 224, 224);
     cursor: pointer;
 }
@@ -301,14 +325,8 @@ input:focus{
 }
 
 
-.dataResult .dataItem{
-    width: 10vw;
-    height:5vh;
-    display:flex;
-    align-items: center;
-    color: black;
-}
 
+/* I dont remember what this stuff is anymore */
 .updateCard{
     height: 40vh;
     width: 60vw;

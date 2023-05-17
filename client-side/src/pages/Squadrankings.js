@@ -285,7 +285,7 @@ export default function Squadranking(){
                 </div>
  
         </div>
-    </div>
+   
 
  
     )

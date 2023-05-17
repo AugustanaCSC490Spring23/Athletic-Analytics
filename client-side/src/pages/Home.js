@@ -12,9 +12,31 @@ export default function Home(){
 
             {/* This is the search bar component */}
 
-            {/* This is where you'll put cards
-             that display on the homepage when the database updates the web scrape*/}
+            {/* This is where you'll put cards */}
+            <div className="home-display">
 
+                <div className="heroCard">
+                    <div className="uh">
+                        <div>PlaceHolder</div>
+                        </div>
+                    <p>Squad Rank</p>
+                </div>   
+
+                <div className="heroCard">
+                    <div className="uh">
+                        <div>PlaceHolder</div>
+                    </div>
+                    <p>Individual Rankings</p>
+                    </div>
+                <div className="heroCard">
+                    <div className="uh">
+                        <div>PlaceHolder</div>
+                    </div>
+                    <p>School Profiles</p>
+                    </div>
+
+
+            </div>
 
         </div>
 

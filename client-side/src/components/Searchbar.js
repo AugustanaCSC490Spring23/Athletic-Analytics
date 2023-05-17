@@ -27,10 +27,7 @@ export default function Searchbar(){
             
                 <div className="searchInputs">
                     <input type="text" placeholder="Search a College..." onChange={handleInputChange} />
-                    <div className ='searchIcon'>
-                        {/* <SearchIcon/> */}
-                    </div >
-                    <div className="searchbar-results">
+                       {/* we need a max number of result items */}
                         {search.length !== 0 && trackList.filter((val) => {
                             return search === '' 
                             ? val 
@@ -45,7 +42,7 @@ export default function Searchbar(){
                                 );
                             })
                         }
-                    </div>
+
                 </div>
         </div>
 
