@@ -20,12 +20,6 @@ app.get("/Searchbar", (req, res) => {
     res.send(result);
   });
 }); 
-app.get("/SchoolProfile", (req, res) => {
-  const getOutput = "SELECT DISTINCT College FROM dii"
-  db.query(getOutput, (err, result) => {
-    res.send(result);
-  });
-});
 
 app.get("/IndivRankings", (req, res) => {
   const query = req.query.query;
@@ -52,6 +46,18 @@ app.get("/SquadRankings/Colleges", (req, res) => {
 }); 
 
 app.get("/SquadRankings/TopResults", (req, res) => {
+  const query = req.query.query;
+  db.query(query, (err, result) => {
+    if (err) {
+      console.log("Query " + query);
+      res.status(500).send(err);
+    } else {
+      res.send(result);
+    }
+  });
+});
+
+app.get("/SchoolProfile", (req, res) => {
   const query = req.query.query;
   db.query(query, (err, result) => {
     if (err) {

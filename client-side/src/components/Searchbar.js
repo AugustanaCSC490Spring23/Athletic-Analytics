@@ -4,21 +4,24 @@ import DisplayHidden from "./DisplayHidden";
 
 //import SearchIcon from '@mui/icons-material/Search';
 
-export default function Searchbar(){
+const Searchbar = ({ onSearch }) => {
 
     const [trackList, setTrackList] = useState([]);
     const [search, setSearch] = useState('');
+    const [selectedValue, setSelectedValue] = useState('');
     useEffect(() => {
       Axios.get("http://localhost:3001/Searchbar").then((response) => {
         setTrackList(response.data);
         console.log(response.data);
       });
     }, []);
-
-    const handleInputChange = (event) => {
-        setSearch(event.target.value);
-      };
+      
+    const handleInputChange = (e) => {
+        setSearch(e.target.value);
+    };
+      
     const handleResult = (val) => {
+<<<<<<< HEAD
         console.log('Clicked ' + val.College);
     }
       return(
@@ -45,8 +48,7 @@ export default function Searchbar(){
 
                 </div>
         </div>
-
-    )
-
-
-}
+      </div>
+    );
+  };
+export default Searchbar; 

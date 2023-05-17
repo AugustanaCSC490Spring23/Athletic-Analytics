@@ -222,11 +222,11 @@ export default function Indranking(){
                             <h3> Wind </h3>
                         </div>
 
-                        {divList.map((val) => {
+                        {divList.map((val, index) => {
                             if (val.Time_I !== '') {
                                 return (
-                                    <div className='dataRow'>
-                                        <a key= {val.id} className='stat' href={val.link} target="_blank"><p>{val.Ranking}</p></a>
+                                    <div key={index} className='dataRow'>
+                                        <a key= {val.id} className='stat' href={val.link} target="_blank"><p>{index + 1}</p></a>
                                         <a key= {val.id} className='stat' href={val.link} target="_blank"><p>{val.Athlete}</p></a>                                   
                                         <a key= {val.id} className='stat' href={val.link} target="_blank"><p>{val.Year}</p></a> 
                                         <a key= {val.id} className='stat' href={val.link} target="_blank"><p>{val.College}</p></a> 
@@ -237,8 +237,8 @@ export default function Indranking(){
                                 );
                             } else if (val.Distance_m !== 0) {
                                 return (
-                                    <div className='dataRow'>
-                                        <a key= {val.id} className='stat' href={val.link} target="_blank"><p>{val.Ranking}</p></a>
+                                    <div key={index} className='dataRow'>
+                                        <a key= {val.id} className='stat' href={val.link} target="_blank"><p>{index + 1}</p></a>
                                         <a key= {val.id} className='stat' href={val.link} target="_blank"><p>{val.Athlete}</p></a>                                   
                                         <a key= {val.id} className='stat' href={val.link} target="_blank"><p>{val.Year}</p></a> 
                                         <a key= {val.id} className='stat' href={val.link} target="_blank"><p>{val.College}</p></a> 
@@ -249,8 +249,8 @@ export default function Indranking(){
                                 );
                             } else if (val.Points !== 0) {
                                 return (
-                                    <div className='dataRow'>
-                                        <a key= {val.id} className='stat' href={val.link} target="_blank"><p>{val.Ranking}</p></a>
+                                    <div key={index} className='dataRow'>
+                                        <a key= {val.id} className='stat' href={val.link} target="_blank"><p>{index + 1}</p></a>
                                         <a key= {val.id} className='stat' href={val.link} target="_blank"><p>{val.Athlete}</p></a>                                   
                                         <a key= {val.id} className='stat' href={val.link} target="_blank"><p>{val.Year}</p></a> 
                                         <a key= {val.id} className='stat' href={val.link} target="_blank"><p>{val.College}</p></a> 
