@@ -158,7 +158,7 @@ export default function Squadranking(){
                 </select>
     </div>*/}
 
-            <button onClick={SetResults}>
+            <button className="resultsButton" onClick={SetResults}>
                 <option>Results</option>
             </button>
 
@@ -249,6 +249,9 @@ export default function Squadranking(){
                         })}
                 </div>
 
+
+
+                </div>
             </div>  
             <div className="squadInfo">
                     <div className="squadChildren">
