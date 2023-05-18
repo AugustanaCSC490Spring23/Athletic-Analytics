@@ -23,23 +23,75 @@ di = [4280,4277,4279,4278,4296,4231,4281,4282,4229,4228,4224,
       4230,4283,4276,4285,4289,4299,4284,4291,4233,4287,
       4292,4232,4225,4286,4223,4290,4275,4227,4226,4293,4288]
 
-# time_e=["100 Meters","200 Meters","400 Meters","800 Meters","Mile",
-#         "1500 Meters","3000 Meters","5000 Meters","10,000 Meters",
-#         "100 Hurdles","110 Hurdles","400 Hurdles","3000 Steeplechase"]
 time_e = {"100 Meters":1,"200 Meters":3,"400 Meters":5,"800 Meters":7,"1500 Meters":9,
       "Mile":11,"3000 Meters":13,"5000 Meters":15,"10,000 Meters":17,
         "100 Hurdles":19,"110 Hurdles":21,"400 Hurdles":23,"3000 Steeplechase":25}
 
-# team_e=["4 x 100 Relay", "4 x 400 Relay","4 x 800 Relay"]
 team_e = {"4 x 100 Relay":27, "4 x 400 Relay":29,"4 x 800 Relay":31}
 
-# dis_e=["High Jump","Pole Vault","Long Jump","Triple Jump",
-#        "Shot Put","Discus","Hammer","Javelin"]
 dis_e={"High Jump":33,"Pole Vault":35,"Long Jump":37,"Triple Jump":39,
        "Shot Put":41,"Discus":43,"Hammer":45,"Javelin":47}
-o = 0
 
-for p in range(1):
+def eventHeaders(headers):
+    for head in headers:
+        he = head.find_all('th')
+        he=[h.text.strip() for h in he]
+        he[0]='Rank'
+        he[1] = 'Athlete'
+        he[4]='Time_(I)'
+        meet,he[5] = he[5],'Time_I'
+        date,he[6] = he[6],'Distance_(m)'
+        wind,he[7] = he[7],'Points'
+        he.append(meet)
+        he.append(date)
+        he.append(wind)
+        he.append('Event')
+        he.append('Conference')
+        he.append('Gender')
+        he.append('Event_ID')
+        break
+    return he
+
+def formatTimeString(timeString):
+    timeCom = rowCols[4].split(":")
+    comLen = len(timeCom)
+    if len(timeCom)>1:
+        minute=split[0]
+        sec = timeCom[1].split("\n")
+        sec = sec[0].split("(")
+        sec = float(sec[0])
+        time = (float(minute)*60)+sec
+    else:
+        sec = timeCom[0].split("\n")
+        sec = sec[0].split("(")
+        rowCols[4]=float(sec[0])
+        rowCols[5]=rowCols[4]
+    return time, comLen
+
+def eventIDNum(event, gender):
+    if gender=="Women":
+        if event in time_e:
+            idNum = time_e[event]+1
+        elif event in team_e:
+            idNum = team_e[event]+1
+        else:
+            idNum = dis_e[event]+1
+    else:
+        if event in time_e:
+            idNum = time_e[event]
+        elif event in team_e:
+            idNum = team_e[event]
+        else:
+            idNum = dis_e[event]
+    return idNum
+
+url = 'https://www.tfrrs.org/lists/4200/'
+response = requests.get(url)
+soup = BeautifulSoup(response.content, 'html.parser')
+headers = soup.find_all('thead')
+headers=eventHeaders(headers)
+
+for p in range(3):
     if p==0:
         division = diii
         d = "diii"
@@ -62,46 +114,21 @@ for p in range(1):
         events = [event.text.strip() for event in events]
         conference = events[0]
         # splitting off outdoor performance list
-        con = conference.split()
-        if len(con)==7:
+        conf = conference.split()
+        if len(conf)==7:
             conference = "CCS"
-            con = ""
         else:
-            conference = " ".join(con[0:-3])
-        con = conference.split()
-        if len(con)>1:
-            conference = "_".join(con)
+            conference = " ".join(conf[0:-3])
+        confSplit = conference.split()
+        if len(conf)>1:
+            conference = "_".join(conf)
         
-        # Getting the headers for the columns
-        # o==0 is just so that that
-        # section of code runs only once
-        if o == 0:
-            for head in headers:
-                he = head.find_all('th')
-                he=[h.text.strip() for h in he]
-                he[0]='Rank'
-                he[1] = 'Athlete'
-                he[4]='Time_(I)'
-                meet = he[5]
-                date = he[6]
-                wind = he[7]
-                he[5]='Time_(S)'
-                he[6] = 'Distance_(m)'
-                he[7]='Points'
-                he.append(meet)
-                he.append(date)
-                he.append(wind)
-                he.append('Event')
-                he.append('Conference')
-                he.append('Gender')
-                he.append('Event_ID')
-                break
-            o=1
+        # event, including conference, finder per empty row counter
         j=0
         for row in rows:
-                cols = row.find_all('td')
-                cols = [col.text.strip() for col in cols]
-                if cols==[]:
+                rowCols = row.find_all('td')
+                rowCols = [col.text.strip() for col in rowCols]
+                if rowCols==[]: #blank row
                     j=j+1
                     event = events[j].split()
                     gender=event[-1]
@@ -110,135 +137,87 @@ for p in range(1):
                         gender = 'Men'
                     elif gender == '(Women)':
                         gender = 'Women'
-                if cols!=[]:
+                else:
                     # team events
                     if event in team_e:
-                        temp=cols
-                        college=temp[1]
-                        temp[1]=temp[3]
-                        time=temp[2]
-                        temp[2]="NA"
-                        temp[3]=college
-                        meet=temp[4]
-                        date=temp[5]
-                        temp[4]=time
-                        temp.append(0.0)
-                        temp.append(0.0)
-                        temp.append(meet)
-                        temp.append(date)
-                        temp.append("")
-                        cols=temp
-                        split = cols[4].split(":")
-                        if len(split)>1:
-                            minute=split[0]
-                            sec = split[1].split("\n")
-                            sec = float(sec[0])
-                            time = (float(minute)*60)+sec
-                            cols[5]=time
-                        else:
-                            sec = split[0].split("\n")
-                            sec = sec[0].split("(")
-                            cols[4]=float(sec[0])
-                            cols[5]=cols[4]
-                        if gender=='Women':
-                            k=team_e[event]+1
-                        else:
-                            k=team_e[event]
+                        rowCols[1],rowCols[3]=rowCols[3],rowCols[1]
+                        rowCols[4],rowCols[2]=rowCols[2],"NA"
+                        meet=rowCols[4]
+                        date=rowCols[5]
+                        rowCols.append(0.0)
+                        rowCols.append(0.0)
+                        rowCols.append(meet)
+                        rowCols.append(date)
+                        rowCols.append("")
+                        rowCols[5],timeLen = formatTimeString(rowCols[4])
+                        if timeLen==1:
+                            rowCols[4]=rowCols[5]
                     
                     # timed events
                     elif event in time_e:
-                        meet=cols[5]
-                        date=cols[6]
-                        split = cols[4].split(":")
-                        if len(split)>1:
-                            minute=split[0]
-                            sec = split[1].split("\n")
-                            sec = sec[0].split("(")
-                            sec = float(sec[0])
-                            time = (float(minute)*60)+sec
-                            cols[5]=time
-                            if event == "400 Meters":
-                                cols[4]=time
-                        else:
-                            sec = split[0].split("\n")
-                            sec = sec[0].split("(")
-                            cols[4]=float(sec[0])
-                            cols[5]=cols[4]
-                        if len(cols)==7:
+                        meet=rowCols[5]
+                        date=rowCols[6]
+                        rowCols[5],timeLen = formatTimeString(rowCols[4])
+                        if timeLen==1 or event == "400 Meters":
+                            rowCols[4]=rowCols[5]
+                        if len(rowCols)==7 or rowCols[7]=="":
                             wind=""
-                            cols.append(0.0)
-                        elif cols[7] != "":
-                            wind=cols[7]
-                        cols[6]=0.0
-                        cols[7]=0.0
-                        cols.append(meet)
-                        cols.append(date)
-                        cols.append(wind)
-                        if gender=='Women':
-                            k=time_e[event]+1
+                            rowCols.append(0.0)
                         else:
-                            k=time_e[event]
+                            wind=rowCols[7]
+                        rowCols[6]=0.0
+                        rowCols[7]=0.0
+                        rowCols.append(meet)
+                        rowCols.append(date)
+                        rowCols.append(wind)
+                            
                     # distance events
                     elif event in dis_e:
-                        split = cols[4].split('.')
+                        split = rowCols[4].split('.')
                         if len(split)>1:
-                            if event=="Long Jump" or event == "Triple Jump":
-                                temp2=cols
-                                distance = temp2[4].split("m")
-                                distance=distance[0]
-                                meet=temp2[6]
-                                date=temp2[7]
-                                wind=temp2[8]
-                                temp2[4]=""
-                                temp2[5]=0.0
-                                temp2[6]=float(distance)
-                                temp2[7]=0.0
-                                temp2[8]=meet
-                                temp2.append(date)
-                                temp2.append(wind)
-                                cols=temp2
+                            if rowCols[8]!="":
+                                wind=rowCols[8]
                             else:
-                                temp2=cols
-                                distance = temp2[4]
-                                distance = temp2[4].split("m")
-                                distance=distance[0]
-                                meet=temp2[6]
-                                date=temp2[7]
-                                temp2[4]=""
-                                temp2[5]=0.0
-                                temp2[6]=float(distance)
-                                temp2[7]=0.0
-                                temp2.append(meet)
-                                temp2.append(date)
-                                temp2.append("")
-                                cols=temp2
-                        if gender=='Women':
-                            k=dis_e[event]+1
-                        else:
-                            k=dis_e[event]
-                    if event=="Heptathlon" or event=="Decathlon":
-                        points=cols[4]
-                        meet=cols[5]
-                        date=cols[6]
-                        cols[4]=""
-                        cols[5]=0.0
-                        cols[6]=0.0
-                        cols.append(float(points))
-                        cols.append(meet)
-                        cols.append(date)
-                        cols.append("")
+                                wind=""
+                            distance = rowCols[4].split("m")
+                            distance=distance[0]
+                            meet=rowCols[6]
+                            date=rowCols[7]
+                            rowCols[4]=0.0
+                            rowCols[5]=0.0
+                            rowCols[6]=float(distance)
+                            rowCols[7]=0.0
+                            rowCols[8]=meet
+                            rowCols.append(date)
+                            rowCols.append(wind)
+                            
+                    # points events
+                    elif event=="Heptathlon" or event=="Decathlon":
+                        points=rowCols[4]
+                        meet=rowCols[5]
+                        date=rowCols[6]
+                        rowCols[4]=0.0
+                        rowCols[5]=0.0
+                        rowCols[6]=0.0
+                        rowCols.append(float(points))
+                        rowCols.append(meet)
+                        rowCols.append(date)
+                        rowCols.append("")
                         if event=="Decathlon":
-                            k=49
+                            eventID=49
                         else:
-                            k=50
-                    cols.append(event)
-                    cols.append(conference)
-                    cols.append(gender)
-                    cols.append(k)
-                    data.append(cols)
-    print(d + " cols done")
+                            eventID=50
+                            
+                    eventID = eventIDNum(event, gender)
+                    # appending descriptor variables
+                    rowCols.append(event)
+                    rowCols.append(conference)
+                    rowCols.append(gender)
+                    rowCols.append(eventID)
+                    data.append(rowCols)
+    print(d + " rows done")
     conf = []
-    df = pd.DataFrame(data, columns = he)
+    df = pd.DataFrame(data, columns = headers)
     
     mydb = mysql.connector.connect(
               host="104.197.133.232",
@@ -254,7 +233,7 @@ for p in range(1):
               "`Athlete` text,"
               "`Year` text,"
               "`College` text,"
-              "`Time_I` text DEFAULT NULL,"
+              "`Time_I` double DEFAULT NULL,"
               "`Time_S` double DEFAULT NULL,"
               "`Distance_m` double DEFAULT NULL,"
               "`Points` double DEFAULT NULL,"
@@ -279,7 +258,10 @@ for p in range(1):
                 print(conf[-1] + " conference done")
             conf.append(row[12])
     print(conf[-1] + " conference done")
-    sql = "UPDATE `" + d + "` SET `Time_I` = NULL WHERE `Time_I` = '';"
+    
+    # replacing zeroes and blanks in
+    # certain columns with null
+    sql = "UPDATE `" + d + "` SET `Time_I` = NULL WHERE `Time_I` = 0.0;"
     cursor.execute(sql)
     sql = "UPDATE `" + d + "` SET `Time_S` = NULL WHERE `Time_S` = 0.0;"
     cursor.execute(sql)
