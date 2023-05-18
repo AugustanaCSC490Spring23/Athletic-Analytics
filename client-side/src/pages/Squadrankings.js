@@ -17,9 +17,11 @@ export default function Squadranking(){
 
     
     const [squadList, setSquadList] = useState([]);
+    const [athletesList, setAthletesList] = useState([]);
     const [divSelect, setDivSelect] = useState('');
     const [sexSelect, setSexSelect] = useState(''); 
     const [eventSelect, setEventSelect] = useState('');
+    const [collegeSelect, setCollegeSelect] = useState('');
 
     let sexType = null;
     let eventOptions = null;
@@ -117,6 +119,25 @@ export default function Squadranking(){
     const totalPages = Math.ceil(filteredSquadList.length / resultsPerPage); // Total number of pages
 
     const currentResults = filteredSquadList.slice(startIndex, endIndex);
+
+    function handleCollegeClick(college) {
+        setCollegeSelect(college);
+        sendAthletesRequest(divSelect, sexSelect, eventSelect, college)
+    }
+
+    const sendAthletesRequest = async (division, sex, event, college) => {
+        try {
+            const response = await Axios.get('http://localhost:3001/SquadRankings/Colleges', {
+                        params: {
+                            query: `Select * FROM ${division} WHERE College = '${college}' AND Gender = '${sex}' AND Event = '${event}' limit 4`
+                        }
+                    })
+                    console.log(response.data);
+                    setAthletesList(response.data);
+        } catch (err) {
+            console.log(err);
+        }
+    }
     return (
     <div className="homeContainer">
         <div className='squadHeader'>
@@ -172,7 +193,7 @@ export default function Squadranking(){
                     ))}
                     <h3> College </h3>
                     {currentResults.map((val) => (
-                        <a key={val.id} className='dataItem' href={val.link} target="_blank">
+                        <a key={val.id} className='dataItem' href={val.link} target="_blank" onClick={() => handleCollegeClick(val.College)}>
                             {val.College} <br></br>
                         </a>
                     ))}
@@ -252,29 +273,57 @@ export default function Squadranking(){
 
 
                 </div>
-            </div>  
+            </div>
             <div className="squadInfo">
                     <div className="squadChildren">
-                        
                         <DisplayHidden>
-
+                        <h2> {collegeSelect} </h2>
                             <div className="rankDiv">
-                                <h3> Rank </h3>
+                                <h3>  </h3>
                                 
                             </div>
 
-                            <div className="teamDiv">
-                                <h3> Team </h3>
-                                
+                            <div className="athleteDiv">
+                                <h3> Athlete </h3>
+                                {athletesList.map((val) => (
+                                    <a key={val.id} className='dataItem' href={val.link} target="_blank">
+                                        {val.Athlete} <br></br>
+                                     </a>
+                                ))}
                             </div>
 
-                            <div className="confDiv">
-                                <h3> Conference </h3>
+                            <div className="yearDiv">
+                                <h3> Year </h3>
+                                {athletesList.map((val) => (
+                                    <a key={val.id} className='dataItem' href={val.link} target="_blank">
+                                        {val.Year} <br></br>
+                                    </a>
+                                ))}
+                            </div>
 
+                            <div className="timeDiv">
+                                <h3> Time/Mark </h3>
+                                {athletesList.map((val) => (
+                                    <a key={val.id} className='dataItem' href={val.link} target="_blank">
+                                        {val.Time_I}{val.Distance_m}{val.Points} <br></br>
+                                    </a>
+                                ))}
                             </div>
                             <div className="scoreDiv">
-                                <h3> Score </h3>
-                                                            
+                                <h3> Meet Date </h3>
+                                {athletesList.map((val) => (
+                                    <a key={val.id} className='dataItem' href={val.link} target="_blank">
+                                        {val.Meet_Date} <br></br>
+                                    </a>
+                                ))}                       
+                            </div>
+                            <div className="windDiv">
+                                <h3> Wind </h3>
+                                {athletesList.map((val) => (
+                                    <a key={val.id} className='dataItem' href={val.link} target="_blank">
+                                        {val.Wind} <br></br>
+                                    </a>
+                                ))}                           
                             </div>
 
 
@@ -285,8 +334,6 @@ export default function Squadranking(){
                 </div>
  
         </div>
-    </div>
-
  
     )
 }
