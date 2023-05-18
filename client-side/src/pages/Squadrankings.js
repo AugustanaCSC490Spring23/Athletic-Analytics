@@ -172,7 +172,7 @@ export default function Squadranking(){
                     ))}
                     <h3> College </h3>
                     {currentResults.map((val) => (
-                        <a key={val.id} className='dataItem' href={val.link} target="_blank">
+                        <a key={val.id} className='squadItem' href={val.link} target="_blank">
                             {val.College} <br></br>
                         </a>
                     ))}
@@ -188,7 +188,7 @@ export default function Squadranking(){
                     
                     <h3> Conference </h3>
                     {currentResults.map((val) => (
-                        <a key={val.id} className='dataItem' href={val.link} target="_blank">
+                        <a key={val.id} className='squadItem' href={val.link} target="_blank">
                             {val.Conference} <br></br>
                         </a>
                     ))}
@@ -206,19 +206,19 @@ export default function Squadranking(){
                             if (val.sum_time >= val.avg_time * 4 && val.sum_dist === 0 && val.sum_points === 0) {   
                                 const convertedTime = convertTime(val.sum_time);
                                 return (
-                                    <a key= {val.id} className='dataItem' href={val.link} target="_blank">
+                                    <a key= {val.id} className='squadItem' href={val.link} target="_blank">
                                         {convertedTime} <br></br>
                                     </a>
                                 );
                             } else if (val.sum_dist >= val.avg_dist * 4 && val.sum_time === 0 && val.sum_points === 0) {   
                                 return (
-                                    <a key= {val.id} className='dataItem' href={val.link} target="_blank">
+                                    <a key= {val.id} className='squadItem' href={val.link} target="_blank">
                                         {val.sum_dist.toFixed(2)} <br></br>
                                     </a>
                                 );
                             } else if (val.sum_points >= val.avg_points * 4 && val.sum_time === 0 && val.sum_dist === 0) {
                                 return (
-                                    <a key= {val.id} className='dataItem' href={val.link} target="_blank">
+                                    <a key= {val.id} className='squadItem' href={val.link} target="_blank">
                                         {val.sum_points.toFixed(2)} <br></br>
                                     </a>
                                 );
@@ -229,19 +229,19 @@ export default function Squadranking(){
                             if (val.sum_time >= val.avg_time * 4 && val.sum_dist === 0 && val.sum_points === 0) {
                                 const convertedTime = convertTime(val.avg_time);
                                 return (
-                                    <a key= {val.id} className='dataItem' href={val.link} target="_blank">
+                                    <a key= {val.id} className='squadItem' href={val.link} target="_blank">
                                     {convertedTime} <br></br>
                                     </a>
                                 );
                             } else if (val.sum_dist >= val.avg_dist * 4 && val.sum_time === 0 && val.sum_points === 0) {   
                                 return (
-                                    <a key= {val.id} className='dataItem' href={val.link} target="_blank">
+                                    <a key= {val.id} className='dataIsquadItemtem' href={val.link} target="_blank">
                                         {val.avg_dist.toFixed(2)} <br></br>
                                     </a>
                                 );
                             } else if (val.sum_points >= val.avg_points * 4 && val.sum_time === 0 && val.sum_dist === 0) {
                                 return (
-                                    <a key= {val.id} className='dataItem' href={val.link} target="_blank">
+                                    <a key= {val.id} className='squadItem' href={val.link} target="_blank">
                                         {val.avg_points.toFixed(2)} <br></br>
                                     </a>
                                 );

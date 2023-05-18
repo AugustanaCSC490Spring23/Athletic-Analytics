@@ -21,7 +21,6 @@ const Searchbar = ({ onSearch }) => {
     };
       
     const handleResult = (val) => {
-<<<<<<< HEAD
         console.log('Clicked ' + val.College);
     }
       return(
@@ -48,7 +47,6 @@ const Searchbar = ({ onSearch }) => {
 
                 </div>
         </div>
-      </div>
     );
   };
 export default Searchbar; 

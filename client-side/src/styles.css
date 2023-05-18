@@ -240,17 +240,26 @@ p{
     height: 30vw;
     width: 90%;
 }
-
+#homeLogo {
+    opacity: 0; /* Hide the image initially */
+    transition: opacity 1s; /* Apply the fade-in transition effect */
+  }
+    .homeCard h2{
+    z-index: 1;
+    position:relative;
+    display: flex;
+    justify-content: right;
+    margin-right: 18%;
+    
+}
 .home-display{
     height: 120vh;
     width: 80%;
-    border: solid purple;
     display: inline;
 
 }
 .heroCard{
     display: flex;
-    flex-direction: row;
     align-items: center;
     margin: 10vw;
     padding: 5vw;
@@ -258,9 +267,24 @@ p{
     height: 20%;
 
 }
-.heroCard .uh{
-    width: 1=30vw;
-    border: solid black;
+
+.heroCard:hover{
+    cursor: pointer;
+    background-color: grey;
+}
+.squadIcon{
+    height: inherit;
+    width: 80%;
+}
+
+.indIcon{
+    width: 60%;
+    margin-left: 9%;
+}
+
+.schoolIcon{
+    width: 60%;
+    margin-left: 14%;
 }
 .heroCard p{
     font-size: 2.5vw;
@@ -280,6 +304,7 @@ p{
 }
 
 .searchInputs input{
+    z-index: 1;
     position: relative;
     z-index: 0;
     border: none;
@@ -300,7 +325,7 @@ p{
 
 /* this styles the formatting and search results themselves*/
 .dataItem {
-    z-index: 1;
+    z-index: 3;
     position: relative; 
     background-color: white;
     margin: 0;
@@ -418,6 +443,11 @@ input:focus{
 /* dont edit */
 .squadCard-header{
     display: flex;
+    flex-wrap: wrap;
+}
+
+.squadItem{
+
 }
 
 /* Used to edit the spacing of the headers */
