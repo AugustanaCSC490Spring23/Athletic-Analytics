@@ -45,6 +45,10 @@ import logo from "../icons/AALogo.png";
 
             {/* Below is the Nav Bar Buttons */}
             <div className='navButton'>
+                <CustomLink to="/" className="active"><img className="logo" src={logo} alt="home-redirect-logo"/></CustomLink>
+            </div>
+
+            <div className='navButton'>
                 <CustomLink to="/features" className="active">Features</CustomLink>
             </div>
 

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../icons/AALogo.png";
+import burger from "../icons/burgerIcon.png";
 
   const ToggleNavDropDown = ({ children }) => {
   const [showChildren, setShowChildren] = useState(false);
@@ -10,7 +10,7 @@ import logo from "../icons/AALogo.png";
 
   return (
     <div className="navDropdown">
-      <button onClick={handleButtonClick}><img className="navLogo" src={logo} alt="AALogo"/></button>
+      <button onClick={handleButtonClick}><img className="burger" src={burger} alt="burgerIcon"/></button>
       {showChildren && children}
     </div>
   );

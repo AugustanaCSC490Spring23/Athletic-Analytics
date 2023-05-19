@@ -1,8 +1,3 @@
-/* Need to style::
-        squad card styling
-
-*/
-
 * {
     box-sizing: border-box;
 }
@@ -30,8 +25,7 @@ p{
 .homeContainer{
     border-left: solid black;
     border-right: solid black;
-    border-bottom: solid black;
-    height: 170vh;
+    height: 200vh;
     width: 80vw;
     border-radius: .5rem;
     margin-left: 7.75vw;
@@ -46,7 +40,7 @@ p{
 
 .squadContainer {
     height: 100vh;
-    width: 80vw;
+    width: 70vw;
     display: flex;
     justify-content: center;
     align-content:baseline;
@@ -75,6 +69,9 @@ p{
     flex-wrap: wrap;
 }
 
+/* #featuresContainer {
+    transition: ;
+} */
 .FAQcontainer{
     border-left: solid black;
     border-right: solid black;
@@ -112,6 +109,18 @@ p{
 
 
 /* ************* Below is the NAV BAR Styling  ************* */
+
+.navDropdown img{
+    display: flex;
+    align-items: center;
+    width: 4vw;
+    
+}
+
+.navDropdown img:hover{
+    background-color: gray;
+    border-radius: 50%;
+}
 .navbar{
     background-color: rgb(241, 241, 241);
     display: flex;
@@ -142,6 +151,13 @@ p{
     color: inherit;    
     text-align: center;
     list-style: none;
+}
+
+.navButton img{
+    width: 5vw;
+    display: flex;
+    align-items: center;
+    margin-right: 40vw;
 }
 
 /* This styles the text inside the button */
@@ -237,14 +253,18 @@ p{
 /* ************* Homepage ************* */
 
 .homeLogo{
-    height: 30vw;
+    height: 20vw;
     width: 90%;
+    margin-left: 5%;
 }
+
+/* animation for homeLogo */
 #homeLogo {
     opacity: 0; /* Hide the image initially */
     transition: opacity 1s; /* Apply the fade-in transition effect */
   }
-    .homeCard h2{
+
+.homeCard h2{
     z-index: 1;
     position:relative;
     display: flex;
@@ -259,31 +279,53 @@ p{
 
 }
 .heroCard{
+    z-index: 1;
     display: flex;
     align-items: center;
     margin: 10vw;
     padding: 5vw;
     box-shadow: 3px 3px 3px 3px black;
-    height: 20%;
-
+    height: 15%;
+    width: 70%;
 }
+#heroCard1{
+    transform: translateX(-200%); /* Position the image outside the viewport on the left */
+    transition: transform 1s; /* Apply the slide-in transition effect */
+}
+#heroCard2{
+    transform: translateX(200%); /* Position the image outside the viewport on the left */
+    transition: transform 1s; /* Apply the slide-in transition effect */
+}
+ #heroCard3{
+    transform: translateX(-200%); /* Position the image outside the viewport on the left */
+    transition: transform 1s; /* Apply the slide-in transition effect */
+ }
 
+  
 .heroCard:hover{
     cursor: pointer;
     background-color: grey;
 }
+
+.heroCard a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
 .squadIcon{
     height: inherit;
-    width: 80%;
+    width: 60%;
 }
 
 .indIcon{
-    width: 60%;
+    width: 30%;
     margin-left: 9%;
 }
 
 .schoolIcon{
-    width: 60%;
+    width: 30%;
     margin-left: 14%;
 }
 .heroCard p{
@@ -427,27 +469,53 @@ input:focus{
 
 /* This styling designs the card itself (background) */
 .squadCard{
-    display: flex;
-    height: 50vh;
-    width: 65vw;
+    height: auto;
+    width: 70vw;
     margin-top:5vh;
     border-radius: .5rem;
     background-color: white;
     box-shadow: 3px 3px 3px 3px black;
     padding-left: 2rem;
     padding-right: 2rem;
-    text-decoration: underline;
 
 }
 
 /* dont edit */
 .squadCard-header{
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.squad-column{
+    text-decoration: none;
+    height: auto;
+    width: 20%;
+}
+
+.squad-column:nth-child(4){
+    margin-left: 5vw;
+}
+
+.squad-column h3{
+    font-size: 5vw;
 }
 
 .squadItem{
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+    margin-left: 1vw;
+    height: 3vh;
+    font-size: 1vw;
+}
 
+.pagination-btn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3vh;
+}
+
+.pagination-btn button:nth-child(2){
+    margin-left: 2vw;
 }
 
 /* Used to edit the spacing of the headers */
@@ -502,27 +570,27 @@ input:focus{
 }
 
 /* This is the styling for the stuff below the squad menu that slides out */
-.squadInfo{
+/* .squadInfo{
     width: 65vw;
     padding-left: 2rem;
     padding-right: 2rem;
     text-decoration: underline;
     display: flex;
     justify-content: space-between;
-}
+} */
 
 /* ********** SQUAD SELECT DROPDOWN STYLING ********** */
 
 
 /* This just styles the text */
-.squadChildren{
+/* .squadChildren{
     width:85vw;
     background-color: none;
     border: solid black;
     text-decoration: none;
     font-family:'PT Sans',helvetica;
     height: 50vh;  
-}
+} */
 
 .squadChildren .showChildren {
     display: flex;
@@ -548,7 +616,6 @@ input:focus{
     justify-content: center;
     width: 75vw;
     margin-bottom: 10vh;
-
 }
 
 .submit-button{
@@ -572,8 +639,10 @@ input:focus{
 
 /*This is the styling for the stat table in ind.ranking*/
 .eventTable-title{
-    margin-top: .75vh;
-    margin-left: 8vw;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    margin-bottom: 1vh;
     font-size: 1.25vh;
 }
 
