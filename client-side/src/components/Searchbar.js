@@ -21,34 +21,44 @@ const Searchbar = ({ onSearch }) => {
     };
       
     const handleResult = (val) => {
-<<<<<<< HEAD
-        console.log('Clicked ' + val.College);
-    }
-      return(
-
-        <div className="searchbar">
-            
-                <div className="searchInputs">
-                    <input type="text" placeholder="Search a College..." onChange={handleInputChange} />
-                       {/* we need a max number of result items */}
-                        {search.length !== 0 && trackList.filter((val) => {
-                            return search === '' 
-                            ? val 
-                            : val.College.toLowerCase().includes(search.toLowerCase());
-                            }).map((val, index) => {
-                                return ( 
-                                    <a key={index} href={val.link} target="_blank" onClick={() => handleResult(val)}>
-                                        <p className='dataItem'>
-                                            {val.College}
-                                        </p>
-                                    </a>
-                                );
-                            })
-                        }
-
-                </div>
+      setSelectedValue(val.College);
+      setSearch(val.College);
+      onSearch(val.College)
+  };
+    
+  return (
+    <div className="searchbar">
+      <div className="searchInputs">
+        <input
+          type="text"
+          placeholder="Search a College..."
+          value={search}
+          onChange={handleInputChange}
+        />
+        <div className="searchIcon">{/* <SearchIcon/> */}</div>
+        <div className="searchbar-results">
+          {search.length !== 0 &&
+            trackList
+              .filter((val) =>
+                search === ''
+                  ? val
+                  : val.College.toLowerCase().includes(search.toLowerCase())
+              )
+              .map((val, index) => {
+                return (
+                  <a
+                    key={index}
+                    href={val.link}
+                    target="_blank"
+                    onClick={() => handleResult(val)}
+                  >
+                    <p className="dataItem">{val.College}</p>
+                  </a>
+                );
+              })}
         </div>
       </div>
-    );
-  };
+    </div>
+  );
+};
 export default Searchbar; 
