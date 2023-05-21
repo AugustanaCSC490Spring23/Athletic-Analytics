@@ -1,4 +1,5 @@
 import "../App.js";
+import "./SchoolProfiles.css"
 import React, { useState, useEffect} from "react";
 import Axios from 'axios';
 import Searchbar from "../components/Searchbar.js";
@@ -94,10 +95,15 @@ export default function Schoolprofiles(){
         }
     }
     return ( 
+
+
     <div className="schoolprofilesContainer">'
         <h1> School Profiles </h1>
         <p> This page allows you to search a school to see their top athletes, as well as the roster for each school's event</p>
-        <Searchbar onSearch={handleSearch} />
+        
+        {/* need javascript to be able to input the school selection into a query that generates the school profile table */}
+        
+        <Searchbar onSearch={handleSearch}/>
         <div className="selectOptions">  
             <div className='filterButton'>
                 {/*e=>setSelectDiv(e.target.value)*/}
@@ -117,8 +123,10 @@ export default function Schoolprofiles(){
                     <option>Results</option>
             </button>
         </div>
-            <div className="E">
-                <div className="stat-headers">      <h3> Event </h3>        <h3> Name </h3>     <h3> Year </h3>      <h3> Mark </h3>      <h3> Date </h3>       </div>
+            {/* Need javascript to auto fill the number of tables needed per school selection  */}
+            <div className="schoolTable">
+                <div className="schoolName">Augustana College</div>
+                <div className="schoolTableHeaders">      <h3> Event </h3>        <h3> Name </h3>     <h3> Year </h3>      <h3> Mark </h3>      <h3> Date </h3>       </div>
                 {athletesList.map((val, index) => {
                     if (val.Time_I !== '') {
                         return (

@@ -1,8 +1,9 @@
 import React, { useState } from "react";
+import "./NavBar.css"
 import { Link, useMatch, useResolvedPath } from 'react-router-dom';
 import navButton from "./NavButton.js";
-import ToggleNavDropDown from './ToggleNavDropDown.js';
-import handleButtonClick from "./ToggleNavDropDown.js";
+import DropdownMenu from './DropdownMenu.js';
+import handleButtonClick from "./DropdownMenu.js";
 import logo from "../icons/AALogo.png";
 
   
@@ -17,7 +18,7 @@ import logo from "../icons/AALogo.png";
                 {/* Below is the HamburgerMenu on Nav Bar */}
                     <div className="hamburgerMenuBtn"   >
 
-                            <ToggleNavDropDown> {/* className=showChildren */}
+                            <DropdownMenu> {/* className=showChildren */}
                                 
                                     <ul>
 
@@ -39,13 +40,13 @@ import logo from "../icons/AALogo.png";
                                     </div>
                             
                                 </ul>
-                            </ToggleNavDropDown>
+                            </DropdownMenu>
                 </div>
             </div>
 
             {/* Below is the Nav Bar Buttons */}
             <div className='navButton'>
-                <CustomLink to="/" className="active"><img className="logo" src={logo} alt="home-redirect-logo"/></CustomLink>
+                <Link to="/" className="active"><img className="logo" src={logo} alt="home-redirect-logo"/></Link>
             </div>
 
             <div className='navButton'>

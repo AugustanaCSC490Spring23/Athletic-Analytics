@@ -1,4 +1,5 @@
 import "../App.js";
+import "./Home.css";
 import { Link, useMatch, useResolvedPath } from 'react-router-dom';
 import Searchbar from "../components/Searchbar.js"
 import HomeLogo from "../icons/HomePageLogo.png"

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import "./Searchbar.css";
 import Axios from 'axios';
 import DisplayHidden from "./DisplayHidden";
 
