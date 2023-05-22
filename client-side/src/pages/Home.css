@@ -1,0 +1,81 @@
+/* ************* Homepage ************* */
+
+.homeLogo{
+    height: 20vw;
+    width: 90%;
+    margin-left: 5%;
+}
+
+/* animation for homeLogo */
+#homeLogo {
+    opacity: 0; /* Hide the image initially */
+    transition: opacity 1s; /* Apply the fade-in transition effect */
+  }
+
+.homeCard h2{
+    z-index: 1;
+    position:relative;
+    display: flex;
+    justify-content: right;
+    margin-right: 18%;
+    
+}
+.home-display{
+    height: 120vh;
+    width: 80%;
+    display: inline;
+
+}
+.heroCard{
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    margin: 10vw;
+    padding: 5vw;
+    box-shadow: 3px 3px 3px 3px black;
+    height: 15%;
+    width: 70%;
+}
+#heroCard1{
+    transform: translateX(-200%); /* Position the image outside the viewport on the left */
+    transition: transform 1s; /* Apply the slide-in transition effect */
+}
+#heroCard2{
+    transform: translateX(200%); /* Position the image outside the viewport on the left */
+    transition: transform 1s; /* Apply the slide-in transition effect */
+}
+ #heroCard3{
+    transform: translateX(-200%); /* Position the image outside the viewport on the left */
+    transition: transform 1s; /* Apply the slide-in transition effect */
+ }
+
+  
+.heroCard:hover{
+    cursor: pointer;
+    background-color: grey;
+}
+
+.heroCard a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.squadIcon{
+    height: inherit;
+    width: 60%;
+}
+
+.indIcon{
+    width: 30%;
+    margin-left: 9%;
+}
+
+.schoolIcon{
+    width: 30%;
+    margin-left: 14%;
+}
+.heroCard p{
+    font-size: 2.5vw;
+}

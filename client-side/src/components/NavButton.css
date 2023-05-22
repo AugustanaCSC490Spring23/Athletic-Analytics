@@ -1,0 +1,31 @@
+/* This is the Item styling  (just fixes bullet points tbh)*/
+.navButton {
+    margin-left: 2vw;
+    margin-right: 2vw; 
+    color: inherit;    
+    text-align: center;
+    list-style: none;
+}
+
+.navButton img{
+    width: 5vw;
+    display: flex;
+    align-items: center;
+    margin-right: 40vw;
+}
+
+/* This styles the text inside the button */
+.navButton a{
+    padding:1rem;
+    text-decoration: none;
+    color: inherit;
+    font-size: 2vw;
+}
+
+/* This styles what happens when the cursor hovers over a navButton*/
+.navButton a:hover {
+    border-radius: .5vw;
+    text-decoration: underline black;
+    cursor:pointer;
+}
+

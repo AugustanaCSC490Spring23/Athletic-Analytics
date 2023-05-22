@@ -1,0 +1,36 @@
+
+/* ************* Below is the NAV BAR Styling  ************* */
+
+.navDropdown img{
+    display: flex;
+    align-items: center;
+    width: 4vw;
+    
+}
+
+.navDropdown img:hover{
+    background-color: gray;
+    border-radius: 50%;
+}
+.navbar{
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    border-bottom: solid black;
+    padding-right: 2vh;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+
+}
+
+.navbarItems{
+    height:  50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+

@@ -1,33 +1,20 @@
-/* So far this component is unused. 
-I found an easier way to do it through HTML but 
-this may be needed later */
+import React, { useState } from "react";
+import "./DropdownMenu.css"
+import burger from "../icons/burgerIcon.png";
 
+  const ToggleNavDropDown = ({ children }) => {
+  const [showChildren, setShowChildren] = useState(false);
 
-import React, { useState, useEffect } from "react";
-import {DropdownItems} from "./DropdownItems";
+  const handleButtonClick = () => {
+    setShowChildren(!showChildren);
+  };
 
-export default function DropdownMenu(  ){
+  return (
+    <div className="navDropdown">
+      <button onClick={handleButtonClick}><img className="burger" src={burger} alt="burgerIcon"/></button>
+      {showChildren && children}
+    </div>
+  );
+};
 
-    const[click, setClick] = useState (false);
-    const handleClick= () => setClick(!click);
-    
-
-    return(
-
-        <ul className='DropdownMenu' >
-                {DropdownItems.map((item) => {
-                    return( 
-                        <li key={item.id}>
-                            {item.title}
-                        </li>
-                    )
-                })}
-
-        </ul>
-
-
-    )
-
-
-}
-
+export default ToggleNavDropDown;

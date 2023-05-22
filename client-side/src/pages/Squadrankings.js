@@ -183,23 +183,104 @@ export default function Squadranking(){
                 <option>Results</option>
             </button>
 
+
             <div className='squadCard'>
                 <div className="squadCard-header">
-                    <h3> Rank </h3>
-                    {currentResults.map((val, index) => (
-                        <div key={index}>
-                            <span>{startIndex + index + 1}</span>
-                        </div>
-                    ))}
-                    <h3> College </h3>
-                    {currentResults.map((val) => (
-                        <a key={val.id} className='dataItem' href={val.link} target="_blank" onClick={() => handleCollegeClick(val.College)}>
-                            {val.College} <br></br>
-                        </a>
-                    ))}
-    
-                    {/* Pagination buttons */}
-                    {currentPage > 1 && (
+                    <div className="squad-column">
+                        <h3> Rank </h3>
+                        {currentResults.map((val, index) => (
+                            
+                            
+                            
+                            <div key={index} className='squadItem'>
+                                <span>{startIndex + index + 1}</span>
+                            </div>
+                        ))}
+
+                    </div>
+                    <div className="squad-column">
+
+                        <h3> College </h3>
+
+
+                        {currentResults.map((val) => (
+                            <div key={val.id} className='squadItem' href={val.link} target="_blank">
+                                {val.College} <br></br>
+                            </div>
+                        ))}
+        
+
+                    </div>
+                    <div className="squad-column">
+                        <h3> Conference </h3>
+                        {currentResults.map((val) => (
+                            <div key={val.id} className='squadItem' href={val.link} target="_blank">
+                                {val.Conference} <br></br>
+                            </div>
+                        ))}
+                    </div>
+
+                    <div className="squad-column">
+                        <h3> Total </h3> 
+                            {currentResults.map((val) => {
+                                if (val.sum_time >= val.avg_time * 4 && val.sum_dist === 0 && val.sum_points === 0) {   
+                                    const convertedTime = convertTime(val.sum_time);
+                                    return (
+                                        <div key= {val.id} className='squadItem' href={val.link} target="_blank">
+                                            {convertedTime} <br></br>
+                                        </div>
+                                    );
+                                } else if (val.sum_dist >= val.avg_dist * 4 && val.sum_time === 0 && val.sum_points === 0) {   
+                                    return (
+                                        <div key= {val.id} className='squadItem' href={val.link} target="_blank">
+                                            {val.sum_dist.toFixed(2)}m <br></br>
+                                        </div>
+                                    );
+                                } else if (val.sum_points >= val.avg_points * 4 && val.sum_time === 0 && val.sum_dist === 0) {
+                                    return (
+                                        <div key= {val.id} className='squadItem' href={val.link} target="_blank">
+                                            {val.sum_points.toFixed(2)} <br></br>
+                                        </div>
+                                    );
+                                }
+                            })}
+                    </div>
+
+                    <div className="squad-column">
+                        <h3> Avg. </h3> 
+                            {currentResults.map((val) => {
+                                if (val.sum_time >= val.avg_time * 4 && val.sum_dist === 0 && val.sum_points === 0) {
+                                    const convertedTime = convertTime(val.avg_time);
+                                    return (
+                                        <div key= {val.id} className='squadItem' href={val.link} target="_blank">
+                                        {convertedTime} <br></br>
+                                        </div>
+                                    );
+                                } else if (val.sum_dist >= val.avg_dist * 4 && val.sum_time === 0 && val.sum_points === 0) {   
+                                    return (
+                                        <div key= {val.id} className='squadItem' href={val.link} target="_blank">
+                                            {val.avg_dist.toFixed(2)}m <br></br>
+                                        </div>
+                                    );
+                                } else if (val.sum_points >= val.avg_points * 4 && val.sum_time === 0 && val.sum_dist === 0) {
+                                    return (
+                                        <div key= {val.id} className='squadItem' href={val.link} target="_blank">
+                                            {val.avg_points.toFixed(2)} <br></br>
+                                        </div>
+                                    );
+                                }
+                            })}
+                    </div>
+
+
+
+
+
+                </div>
+
+                <div className="pagination-btn">
+                                                                {/* Pagination buttons */}
+                                                                {currentPage > 1 && (
                         <button onClick={() => setCurrentPage(currentPage - 1)}>Previous</button>
                     )}
     
@@ -207,67 +288,7 @@ export default function Squadranking(){
                         <button onClick={() => setCurrentPage(currentPage + 1)}>Next</button>
                     )}
                     
-                    <h3> Conference </h3>
-                    {currentResults.map((val) => (
-                        <a key={val.id} className='dataItem' href={val.link} target="_blank">
-                            {val.Conference} <br></br>
-                        </a>
-                    ))}
-    
-                    {/* Pagination buttons 
-                    {currentPage > 1 && (
-                        <button onClick={() => setCurrentPage(currentPage - 1)}>Previous</button>
-                    )}
-    
-                    {currentPage < totalPages && (
-                        <button onClick={() => setCurrentPage(currentPage + 1)}>Next</button>
-                    )}*/}
-                    <h3> Total </h3> 
-                        {currentResults.map((val) => {
-                            if (val.sum_time >= val.avg_time * 4 && val.sum_dist === 0 && val.sum_points === 0) {   
-                                const convertedTime = convertTime(val.sum_time);
-                                return (
-                                    <a key= {val.id} className='dataItem' href={val.link} target="_blank">
-                                        {convertedTime} <br></br>
-                                    </a>
-                                );
-                            } else if (val.sum_dist >= val.avg_dist * 4 && val.sum_time === 0 && val.sum_points === 0) {   
-                                return (
-                                    <a key= {val.id} className='dataItem' href={val.link} target="_blank">
-                                        {val.sum_dist.toFixed(2)} <br></br>
-                                    </a>
-                                );
-                            } else if (val.sum_points >= val.avg_points * 4 && val.sum_time === 0 && val.sum_dist === 0) {
-                                return (
-                                    <a key= {val.id} className='dataItem' href={val.link} target="_blank">
-                                        {val.sum_points.toFixed(2)} <br></br>
-                                    </a>
-                                );
-                            }
-                        })}
-                    <h3> Avg. </h3> 
-                        {currentResults.map((val) => {
-                            if (val.sum_time >= val.avg_time * 4 && val.sum_dist === 0 && val.sum_points === 0) {
-                                const convertedTime = convertTime(val.avg_time);
-                                return (
-                                    <a key= {val.id} className='dataItem' href={val.link} target="_blank">
-                                    {convertedTime} <br></br>
-                                    </a>
-                                );
-                            } else if (val.sum_dist >= val.avg_dist * 4 && val.sum_time === 0 && val.sum_points === 0) {   
-                                return (
-                                    <a key= {val.id} className='dataItem' href={val.link} target="_blank">
-                                        {val.avg_dist.toFixed(2)} <br></br>
-                                    </a>
-                                );
-                            } else if (val.sum_points >= val.avg_points * 4 && val.sum_time === 0 && val.sum_dist === 0) {
-                                return (
-                                    <a key= {val.id} className='dataItem' href={val.link} target="_blank">
-                                        {val.avg_points.toFixed(2)} <br></br>
-                                    </a>
-                                );
-                            }
-                        })}
+
                 </div>
 
 
