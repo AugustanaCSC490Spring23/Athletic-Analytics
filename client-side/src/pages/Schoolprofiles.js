@@ -125,8 +125,8 @@ export default function Schoolprofiles(){
         </div>
             {/* Need javascript to auto fill the number of tables needed per school selection  */}
             <div className="schoolTable">
-                <div className="schoolName">Augustana College</div>
-                <div className="schoolTableHeaders">      <h3> Event </h3>        <h3> Name </h3>     <h3> Year </h3>      <h3> Mark </h3>      <h3> Date </h3>       </div>
+                <div className="schoolName">{college}</div>
+                <div className="schoolTableHeaders">      <h3> Event </h3>        <h3> Name </h3>     <h3> Year </h3>      <h3> Mark </h3>      <h3> Date </h3>  <h3> Wind </h3>     </div>
                 {athletesList.map((val, index) => {
                     if (val.Time_I !== '') {
                         return (

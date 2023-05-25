@@ -234,7 +234,7 @@ export default function Squadranking(){
                                 } else if (val.sum_dist >= val.avg_dist * 4 && val.sum_time === 0 && val.sum_points === 0) {   
                                     return (
                                         <div key= {val.id} className='squadItem' href={val.link} target="_blank">
-                                            {val.sum_dist.toFixed(2)} <br></br>
+                                            {val.sum_dist.toFixed(2)}m <br></br>
                                         </div>
                                     );
                                 } else if (val.sum_points >= val.avg_points * 4 && val.sum_time === 0 && val.sum_dist === 0) {
@@ -259,8 +259,8 @@ export default function Squadranking(){
                                     );
                                 } else if (val.sum_dist >= val.avg_dist * 4 && val.sum_time === 0 && val.sum_points === 0) {   
                                     return (
-                                        <div key= {val.id} className='dataIsquadItemtem' href={val.link} target="_blank">
-                                            {val.avg_dist.toFixed(2)} <br></br>
+                                        <div key= {val.id} className='squadItem' href={val.link} target="_blank">
+                                            {val.avg_dist.toFixed(2)}m <br></br>
                                         </div>
                                     );
                                 } else if (val.sum_points >= val.avg_points * 4 && val.sum_time === 0 && val.sum_dist === 0) {
