@@ -28,7 +28,7 @@ export default function FAQ(){
             <h1>Frequently Asked Questions</h1>
             <div id="q1" className='question'>
                 <h2>Q: Where do we get our data?</h2>
-                <p> We get our data from TFRRS.com. 
+                <p>A: We get our data from TFRRS.com. 
                     We claim no ownership rights to the data on this website. 
                     We simply take the data and make it digestible for the average Joe.
                 </p>
@@ -36,18 +36,25 @@ export default function FAQ(){
 
             <div id="q2" className='question'>
                 <h2>Q: What are Squad Rankings?</h2>
-                <p>A: Squad Rankings calculates their average time a school records </p>
+                <p>A: Squad Rankings calculates the average mark per event based on their top four copmpeting athletes </p>
             </div>
 
             <div id="q3" className='question'>
                 <h2>Q: What are Individual Rankings?</h2>
-                <p>A: Individual Rankings shows individual player stats such as what school they attend, what their event rankning, and all of their recorded times.</p>
+                <p>A: Individual Rankings shows the stats of the top 50 athletes for each event such as what school they attend, what year in college they are, what their ranking per event is.</p>
             </div>
 
             <div id="q4" className='question'>
-                <h2>Q: How do we calculate our meet predicitons? </h2>
-                <p>A: Ask Bryan Holt. He knows. (:</p>
+                <h2>Q: What are School Profiles?</h2>
+                <p>A: School Profiles give a more in-depth view of a school's roster by displaying the top 5 athletes for each event</p>
             </div>
+
+            <div id="q4" className='question'>
+            </div>
+
+            <div id="q4" className='question'>
+            </div>
+
 
         </div>
 

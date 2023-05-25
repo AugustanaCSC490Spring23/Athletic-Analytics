@@ -1,0 +1,50 @@
+/* ************* This is the styling of the Individual Rankings page  ************* */
+
+.indContainer{
+    border-left: solid black;
+    border-right: solid black;
+    border-bottom: solid black;
+    margin-left: 7.75vw;
+    height: auto;
+    width: 80vw;
+}
+
+
+
+
+.selectOptions{
+    margin-left: 2.5vw;
+    display: flex;
+    justify-content: center;
+    width: 75vw;
+    margin-bottom: 10vh;
+}
+
+.submit-button{
+    height: 3.2vh;
+    width: 15vw;
+    margin: 1vw;
+    margin-right: 2vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: .5rem;
+    box-shadow: 3px 3px 3px 3px black;
+    font-size: 75%;
+
+}
+.submit-button:hover{
+    cursor: pointer;
+    background-color: lightslategray;
+}
+.indHeader{
+    padding: 6vw;
+}
+
+.indHeader p{
+    margin-top: 3vh;
+}
+
+
+
+
+
+

@@ -1,5 +1,6 @@
 import React, { useState, useEffect} from "react";
 import Axios from 'axios';
+import "./Indranking.css";
 import DataTable from "react-data-table-component"
 export default function Indranking(){
     const D3confNames =['American_Rivers', 'American_Southwest', 'Atlantic_East', 'CCIW', 'CCS', 'Centennial_Conference', 'Coast-to-Coast', 'Commonwealth_Coast', 'CSAC', 
@@ -227,14 +228,25 @@ export default function Indranking(){
         }
     }
 
+
+
+
+
+    // *************** HTML ***************
+
+
     return (
         <div className="indContainer">
             
             <div className='indHeader'>
                 <h2> Individual Statistics </h2>
-                <p>This page will allow you to view an individual athlete's recorded stats for each of their events and how they rank in their conference
+                <p>This page will allow you to view the top 50 athletes for each event depending on the selected filters.
+                </p>
+                <p>
+                    You must at least select a division to display stat information.
                 </p>
             </div>
+
             <div className="selectOptions">
                 <div className='filterButton'>
                     {/*e=>setSelectDiv(e.target.value)*/}
@@ -269,7 +281,7 @@ export default function Indranking(){
                     </select>
                 </div>
 
-                <button onClick={setResults}>
+                <button onClick={setResults} className='submit-button'>
                     <option>Results</option>
                 </button>
                 
@@ -284,8 +296,9 @@ export default function Indranking(){
                     columns={columns}
                     data={divList}
                     striped
-                    pagination
-                    paginationPerPage={30}
+                    paginationPerPage={50}
+                    paginationPerPageOptions={50}
+                    responsive
                     customStyles={tableCustomStyles}
 
                 />
