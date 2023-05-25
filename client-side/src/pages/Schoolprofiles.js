@@ -18,8 +18,6 @@ export default function Schoolprofiles(){
     const [athletesList, setAthletesList] = useState([]);
 
     const handleSearch = (value) => {
-        // Use the search value for other functionalities within App.js
-        // Example: Call a function, make an API request, update state, etc.
         console.log('Search value:', value);
         setCollege(value);
       };
@@ -64,6 +62,7 @@ export default function Schoolprofiles(){
     }
 
     const sendGetRequest = async (college, sex, event) => {
+        let dataList = [];
         try {
             if (event !== '') {
                 const response = await Axios.get('http://localhost:3001/SchoolProfile', {
@@ -75,10 +74,10 @@ export default function Schoolprofiles(){
                             SELECT * FROM diii WHERE College = '${college}' AND Gender = '${sex}' AND Event = '${event}';`
                         }
                 })
-                console.log(response.data);
-                setAthletesList(response.data);
+                dataList = response.data;
             } else if (event === '') {
-                const response = await Axios.get('http://localhost:3001/SchoolProfile', {
+                if (sex !== '') {
+                    const response = await Axios.get('http://localhost:3001/SchoolProfile', {
                         params: {
                             query: `Select * FROM di WHERE College = '${college}' AND Gender = '${sex}'
                             UNION 
@@ -86,22 +85,30 @@ export default function Schoolprofiles(){
                             UNION 
                             SELECT * FROM diii WHERE College = '${college}' AND Gender = '${sex}';`
                         }
-                })
-                console.log(response.data);
-                setAthletesList(response.data);
+                    })
+                    dataList = response.data;
+                } else {
+                    const response = await Axios.get('http://localhost:3001/SchoolProfile', {
+                        params: {
+                            query: `Select * FROM di WHERE College = '${college}'
+                            UNION 
+                            SELECT * FROM dii WHERE College = '${college}'
+                            UNION 
+                            SELECT * FROM diii WHERE College = '${college}';`
+                        }
+                    })
+                    dataList = response.data;
+                }
             }
+            setAthletesList(dataList);
         } catch (err) {
             console.log(err);
         }
     }
     return ( 
-
-
-    <div className="schoolprofilesContainer">'
+    <div className="schoolprofilesContainer">
         <h1> School Profiles </h1>
         <p> This page allows you to search a school to see their top athletes, as well as the roster for each school's event</p>
-        
-        {/* need javascript to be able to input the school selection into a query that generates the school profile table */}
         
         <Searchbar onSearch={handleSearch}/>
         <div className="selectOptions">  
@@ -123,49 +130,29 @@ export default function Schoolprofiles(){
                     <option>Results</option>
             </button>
         </div>
-            {/* Need javascript to auto fill the number of tables needed per school selection  */}
             <div className="schoolTable">
                 <div className="schoolName">{college}</div>
                 <div className="schoolTableHeaders">      <h3> Event </h3>        <h3> Name </h3>     <h3> Year </h3>      <h3> Mark </h3>      <h3> Date </h3>  <h3> Wind </h3>     </div>
                 {athletesList.map((val, index) => {
+                    let value = '';
                     if (val.Time_I !== '') {
-                        return (
-                            <div key={index} className='dataRow'>
-                                <p key={val.id} className='stat' href={val.link} target="_blank">{val.Event}</p>
-                                <p key={val.id} className='stat' href={val.link} target="_blank">{val.Athlete}</p>
-                                <p key={val.id} className='stat' href={val.link} target="_blank">{val.Year}</p>
-                                <p key={val.id} className='stat' href={val.link} target="_blank">{val.College}</p>
-                                <p key={val.id} className='stat' href={val.link} target="_blank">{val.Time_I}</p>
-                                <p key={val.id} className='stat' href={val.link} target="_blank">{val.Meet_Date}</p>
-                                <p key={val.id} className='stat' href={val.link} target="_blank">{val.Wind}</p>
-                            </div>
-                        );
+                        value = val.Time_I;
                     } else if (val.Distance_m !== 0) {
-                        return (
-                            <div key={index} className='dataRow'>
-                                <p key={val.id} className='stat' href={val.link} target="_blank">{val.Event}</p>
-                                <p key={val.id} className='stat' href={val.link} target="_blank">{val.Athlete}</p>
-                                <p key={val.id} className='stat' href={val.link} target="_blank">{val.Year}</p>
-                                <p key={val.id} className='stat' href={val.link} target="_blank">{val.College}</p>
-                                <p key={val.id} className='stat' href={val.link} target="_blank">{val.Distance_m}</p>
-                                <p key={val.id} className='stat' href={val.link} target="_blank">{val.Meet_Date}</p>
-                                <p key={val.id} className='stat' href={val.link} target="_blank">{val.Wind}</p>
-                            </div>
-                        );
+                        value = val.Distance_m + 'm';
                     } else if (val.Points !== 0) {
+                        value = val.Points;
+                    }
                         return (
-
-                            <div key={index}  className='dataRow'>
-                                <p key={val.id} className='stat' href={val.link} target="_blank">{val.Event}</p>
-                                <p key={val.id} className='stat' href={val.link} target="_blank">{val.Athlete}</p>
-                                <p key={val.id} className='stat' href={val.link} target="_blank">{val.Year}</p>
-                                <p key={val.id} className='stat' href={val.link} target="_blank">{val.College}</p>
-                                <p key={val.id} className='stat' href={val.link} target="_blank">{val.Points}</p>
-                                <p key={val.id} className='stat' href={val.link} target="_blank">{val.Meet_Date}</p>
-                                <p key={val.id} className='stat' href={val.link} target="_blank">{val.Wind}</p>
+                            <div key={index} className='schoolRow'>
+                                <a key={val.id} className='stat' href={val.link} target="_blank"><p>{val.Event}</p></a>
+                                <a key={val.id} className='stat' href={val.link} target="_blank"><p>{val.Athlete}</p></a>
+                                <a key={val.id} className='stat' href={val.link} target="_blank"><p>{val.Year}</p></a>
+                                <a key={val.id} className='stat' href={val.link} target="_blank"><p>{val.College}</p></a>
+                                <a key={val.id} className='stat' href={val.link} target="_blank"><p>{value}</p></a>
+                                <a key={val.id} className='stat' href={val.link} target="_blank"><p>{val.Meet_Date}</p></a>
+                                <a key={val.id} className='stat' href={val.link} target="_blank"><p>{val.Wind}</p></a>
                             </div>
                         );
-                    }
                 })}     
 
             </div>

@@ -12,7 +12,7 @@ export default function Squadranking(){
 
 
     /*
-        *GET RID OF IC4A_ECAC CONFERENCE IN TABLES*
+        *GET RID OF IC4A_ECAC & METS CONFERENCES IN TABLES*
     */
     const[click, setClick] = useState (false);
     const Hoverable= () => setClick(!click);
@@ -30,8 +30,7 @@ export default function Squadranking(){
     const [divSelect, setDivSelect] = useState('');
     const [sexSelect, setSexSelect] = useState(''); 
     const [eventSelect, setEventSelect] = useState('');
-    const [collegeSelect, setCollegeSelect] = useState('');
-
+    const [collegeSelect, setCollegeSelect] = useState(null);
     let sexType = null;
     let eventOptions = null;
 
@@ -79,6 +78,7 @@ export default function Squadranking(){
         }
     const SendCollegeRequest = async (division, sex, event) => {
         console.log('College Request');
+        console.log(division)
         try {
             if(division !== '') {
                 if (sex !== '' && event !== '') {
@@ -87,13 +87,33 @@ export default function Squadranking(){
                             query: `SELECT College, Conference, SUM(Time_S) AS sum_time, AVG(Time_S) 
                             AS avg_time, SUM(Distance_m) AS sum_dist, AVG(Distance_m) AS avg_dist, 
                             SUM(Points) AS sum_points, AVG(Points) AS avg_points, Event_ID FROM 
-                                (SELECT College, Conference, Time_S, Distance_m, Points, Event_ID, ROW_NUMBER() OVER (PARTITION BY College, Conference) 
+                                (SELECT College, Conference, Time_S, Distance_m, Points, Event_ID, ROW_NUMBER() 
+                                    OVER (PARTITION BY College, Conference) 
                                     AS row_num FROM ${division} WHERE Gender = '${sex}' AND Event = '${event}'
-                            ) ${division} WHERE row_num <= 4 GROUP BY College, Conference, Event_ID ORDER BY avg_time, avg_dist DESC, avg_Points DESC;`
+                                ) ${division} WHERE row_num <= 4 GROUP BY College, Conference, Event_ID 
+                            ORDER BY avg_time, avg_dist DESC, avg_Points DESC;`
                         }
                     })
                     setSquadList(response.data);
                 } 
+            } else if (division === '') {
+                const response = await Axios.get('http://localhost:3001/SquadRankings/Colleges', {
+                    params: {
+                        query: `SELECT College, Conference, SUM(Time_S) AS sum_time, AVG(Time_S) 
+                        AS avg_time, SUM(Distance_m) AS sum_dist, AVG(Distance_m) AS avg_dist, 
+                        SUM(Points) AS sum_points, AVG(Points) AS avg_points, Event_ID FROM (
+                            SELECT College, Conference, Time_S, Distance_m, Points, Event_ID, ROW_NUMBER() OVER (PARTITION BY College, Conference) 
+                            AS row_num FROM di WHERE Gender = '${sex}' AND Event = '${event}'
+                            UNION ALL
+                            SELECT College, Conference, Time_S, Distance_m, Points, Event_ID, ROW_NUMBER() OVER (PARTITION BY College, Conference)
+                            AS row_num FROM dii WHERE Gender = '${sex}' AND Event = '${event}'
+                            UNION ALL
+                            SELECT College, Conference, Time_S, Distance_m, Points, Event_ID, ROW_NUMBER() OVER (PARTITION BY College, Conference)
+                            AS row_num FROM diii WHERE Gender = '${sex}' AND Event = '${event}'
+                        ) combined WHERE row_num <= 4 GROUP BY College, Conference, Event_ID ORDER BY avg_time, avg_dist DESC, avg_Points DESC;`
+                    }
+                })
+                setSquadList(response.data);
             }
         } catch (err) {
             console.log(err);
@@ -133,16 +153,31 @@ export default function Squadranking(){
         setCollegeSelect(college);
         sendAthletesRequest(divSelect, sexSelect, eventSelect, college)
     }
-
+              
     const sendAthletesRequest = async (division, sex, event, college) => {
         try {
-            const response = await Axios.get('http://localhost:3001/SquadRankings/Colleges', {
+            if (division !== '') {
+                const response = await Axios.get('http://localhost:3001/SquadRankings/Colleges', {
                         params: {
                             query: `Select * FROM ${division} WHERE College = '${college}' AND Gender = '${sex}' AND Event = '${event}' limit 4`
                         }
                     })
                     console.log(response.data);
                     setAthletesList(response.data);
+            } else if (division === '') {
+                const response = await Axios.get('http://localhost:3001/SquadRankings/Colleges', {
+                        params: {
+                            query: `Select * FROM di WHERE College = '${college}' AND Gender = '${sex}' AND Event = '${event}'
+                            UNION
+                            Select * FROM dii WHERE College = '${college}' AND Gender = '${sex}' AND Event = '${event}'
+                            UNION
+                            Select * FROM diii WHERE College = '${college}' AND Gender = '${sex}' AND Event = '${event}' limit 4`
+                        }
+                    })
+                    console.log(response.data);
+                    setAthletesList(response.data);
+            }
+            
         } catch (err) {
             console.log(err);
         }
@@ -181,13 +216,6 @@ export default function Squadranking(){
                 </select>
             </div>
 
-           {/*<div className='filterButton'>
-                <select onChange={setConference}>
-                    <option>Conference </option>
-                    {confOptions}
-                </select>
-    </div>*/}
-
             <button className="resultsButton" onClick={SetResults}>
                 <option>Results</option>
             </button>
@@ -198,27 +226,20 @@ export default function Squadranking(){
                     <div className="squad-column">
                         <h3> Rank </h3>
                         {currentResults.map((val, index) => (
-                            
-                            
-                            
-                            <div key={index} className='squadItem'>
+                            <div key={val.id} className='squadItem'>
                                 <span>{startIndex + index + 1}</span>
                             </div>
                         ))}
 
                     </div>
                     <div className="squad-column">
-
                         <h3> College </h3>
-
-
                         {currentResults.map((val) => (
-                            <div key={val.id} className='squadItem' href={val.link} target="_blank">
+                            <div key={val.id} className='squadItem' href={val.link} target="_blank" onClick={() => handleCollegeClick(val.College)}>
                                 {val.College} <br></br>
                             </div>
+                            
                         ))}
-        
-
                     </div>
                     <div className="squad-column">
                         <h3> Conference </h3>
@@ -232,61 +253,39 @@ export default function Squadranking(){
                     <div className="squad-column">
                         <h3> Total </h3> 
                             {currentResults.map((val) => {
+                                let displayData = '';
                                 if (val.sum_time >= val.avg_time * 4 && val.sum_dist === 0 && val.sum_points === 0) {   
-                                    const convertedTime = convertTime(val.sum_time);
-                                    return (
-                                        <div key= {val.id} className='squadItem' href={val.link} target="_blank">
-                                            {convertedTime} <br></br>
-                                        </div>
-                                    );
+                                    displayData = convertTime(val.sum_time)
                                 } else if (val.sum_dist >= val.avg_dist * 4 && val.sum_time === 0 && val.sum_points === 0) {   
-                                    return (
-                                        <div key= {val.id} className='squadItem' href={val.link} target="_blank">
-                                            {val.sum_dist.toFixed(2)}m <br></br>
-                                        </div>
-                                    );
+                                    displayData = val.sum_dist.toFixed(2) + 'm';
                                 } else if (val.sum_points >= val.avg_points * 4 && val.sum_time === 0 && val.sum_dist === 0) {
-                                    return (
-                                        <div key= {val.id} className='squadItem' href={val.link} target="_blank">
-                                            {val.sum_points.toFixed(2)} <br></br>
-                                        </div>
-                                    );
-                                }
+                                    displayData = val.sum_points.toFixed(2)
+                                } return (
+                                    <div key= {val.id} className='squadItem' href={val.link} target="_blank">
+                                        {displayData} <br></br>
+                                    </div>
+                                );
                             })}
                     </div>
 
                     <div className="squad-column">
                         <h3> Avg. </h3> 
                             {currentResults.map((val) => {
-                                if (val.sum_time >= val.avg_time * 4 && val.sum_dist === 0 && val.sum_points === 0) {
-                                    const convertedTime = convertTime(val.avg_time);
-                                    return (
-                                        <div key= {val.id} className='squadItem' href={val.link} target="_blank">
-                                        {convertedTime} <br></br>
-                                        </div>
-                                    );
+                                let displayData = '';
+                                if (val.sum_time >= val.avg_time * 4 && val.sum_dist === 0 && val.sum_points === 0) {   
+                                    displayData = convertTime(val.avg_time)
                                 } else if (val.sum_dist >= val.avg_dist * 4 && val.sum_time === 0 && val.sum_points === 0) {   
-                                    return (
-                                        <div key= {val.id} className='squadItem' href={val.link} target="_blank">
-                                            {val.avg_dist.toFixed(2)}m <br></br>
-                                        </div>
-                                    );
+                                    displayData = val.avg_dist.toFixed(2) + 'm';
                                 } else if (val.sum_points >= val.avg_points * 4 && val.sum_time === 0 && val.sum_dist === 0) {
-                                    return (
-                                        <div key= {val.id} className='squadItem' href={val.link} target="_blank">
-                                            {val.avg_points.toFixed(2)} <br></br>
-                                        </div>
-                                    );
-                                }
+                                    displayData = val.avg_points.toFixed(2)
+                                } return (
+                                    <div key= {val.id} className='squadItem' href={val.link} target="_blank">
+                                        {displayData} <br></br>
+                                    </div>
+                                );
                             })}
                     </div>
-
-
-
-
-
                 </div>
-
                 <div className="pagination-btn">
                                                                 {/* Pagination buttons */}
                                                                 {currentPage > 1 && (
@@ -296,23 +295,16 @@ export default function Squadranking(){
                     {currentPage < totalPages && (
                         <button onClick={() => setCurrentPage(currentPage + 1)}>Next</button>
                     )}
-                    
-
                 </div>
-
-
-
                 </div>
             </div>
+            
+            <div className="squadDetails">
+            {collegeSelect && (
             <div className="squadInfo">
                     <div className="squadChildren">
-                        <DisplayHidden>
                         <h2> {collegeSelect} </h2>
-                            <div className="rankDiv">
-                                <h3>  </h3>
-                                
-                            </div>
-
+        
                             <div className="athleteDiv">
                                 <h3> Athlete </h3>
                                 {athletesList.map((val) => (
@@ -355,17 +347,14 @@ export default function Squadranking(){
                                     </a>
                                 ))}                           
                             </div>
-
-
-
-                        </DisplayHidden>
                         </div>
 
                 </div>
+            )}
  
 
         </div>
- 
+    </div>
     )
     
 
