@@ -286,74 +286,9 @@ export default function Squadranking(){
                             })}
                     </div>
                 </div>
-                <div className="pagination-btn">
-                                                                {/* Pagination buttons */}
-                                                                {currentPage > 1 && (
-                        <button onClick={() => setCurrentPage(currentPage - 1)}>Previous</button>
-                    )}
-    
-                    {currentPage < totalPages && (
-                        <button onClick={() => setCurrentPage(currentPage + 1)}>Next</button>
-                    )}
-                </div>
                 </div>
             </div>
-            
-            <div className="squadDetails">
-            {collegeSelect && (
-            <div className="squadInfo">
-                    <div className="squadChildren">
-                        <h2> {collegeSelect} </h2>
-        
-                            <div className="athleteDiv">
-                                <h3> Athlete </h3>
-                                {athletesList.map((val) => (
-                                    <a key={val.id} className='dataItem' href={val.link} target="_blank">
-                                        {val.Athlete} <br></br>
-                                     </a>
-                                ))}
-                            </div>
-
-                            <div className="yearDiv">
-                                <h3> Year </h3>
-                                {athletesList.map((val) => (
-                                    <a key={val.id} className='dataItem' href={val.link} target="_blank">
-                                        {val.Year} <br></br>
-                                    </a>
-                                ))}
-                            </div>
-
-                            <div className="timeDiv">
-                                <h3> Time/Mark </h3>
-                                {athletesList.map((val) => (
-                                    <a key={val.id} className='dataItem' href={val.link} target="_blank">
-                                        {val.Time_I}{val.Distance_m}{val.Points} <br></br>
-                                    </a>
-                                ))}
-                            </div>
-                            <div className="scoreDiv">
-                                <h3> Meet Date </h3>
-                                {athletesList.map((val) => (
-                                    <a key={val.id} className='dataItem' href={val.link} target="_blank">
-                                        {val.Meet_Date} <br></br>
-                                    </a>
-                                ))}                       
-                            </div>
-                            <div className="windDiv">
-                                <h3> Wind </h3>
-                                {athletesList.map((val) => (
-                                    <a key={val.id} className='dataItem' href={val.link} target="_blank">
-                                        {val.Wind} <br></br>
-                                    </a>
-                                ))}                           
-                            </div>
-                        </div>
-
-                </div>
-            )}
  
-
-        </div>
     </div>
     )
     

@@ -287,6 +287,7 @@ export default function Indranking(){
                     striped
                     paginationPerPage={50}
                     paginationPerPageOptions={50}
+                    responsive
                     customStyles={tableCustomStyles}
                 />
 
