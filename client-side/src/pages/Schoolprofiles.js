@@ -131,37 +131,38 @@ export default function Schoolprofiles(){
                     if (val.Time_I !== '') {
                         return (
                             <div key={index} className='dataRow'>
-                                <a key= {val.id} className='stat' href={val.link} target="_blank"><p>{val.Event}</p></a>
-                                <a key= {val.id} className='stat' href={val.link} target="_blank"><p>{val.Athlete}</p></a>                                   
-                                <a key= {val.id} className='stat' href={val.link} target="_blank"><p>{val.Year}</p></a> 
-                                <a key= {val.id} className='stat' href={val.link} target="_blank"><p>{val.College}</p></a> 
-                                <a key= {val.id} className='stat' href={val.link} target="_blank"><p>{val.Time_I}</p></a> 
-                                <a key= {val.id} className='stat' href={val.link} target="_blank"><p>{val.Meet_Date}</p></a> 
-                                <a key= {val.id} className='stat' href={val.link} target="_blank"><p>{val.Wind}</p></a> 
+                                <p key={val.id} className='stat' href={val.link} target="_blank">{val.Event}</p>
+                                <p key={val.id} className='stat' href={val.link} target="_blank">{val.Athlete}</p>
+                                <p key={val.id} className='stat' href={val.link} target="_blank">{val.Year}</p>
+                                <p key={val.id} className='stat' href={val.link} target="_blank">{val.College}</p>
+                                <p key={val.id} className='stat' href={val.link} target="_blank">{val.Time_I}</p>
+                                <p key={val.id} className='stat' href={val.link} target="_blank">{val.Meet_Date}</p>
+                                <p key={val.id} className='stat' href={val.link} target="_blank">{val.Wind}</p>
                             </div>
                         );
                     } else if (val.Distance_m !== 0) {
                         return (
                             <div key={index} className='dataRow'>
-                                <a key={val.id} className='stat' href={val.link} target="_blank"><p>{val.Event}</p></a>
-                                <a key={val.id} className='stat' href={val.link} target="_blank"><p>{val.Athlete}</p></a>
-                                <a key={val.id} className='stat' href={val.link} target="_blank"><p>{val.Year}</p></a>
-                                <a key={val.id} className='stat' href={val.link} target="_blank"><p>{val.College}</p></a>
-                                <a key={val.id} className='stat' href={val.link} target="_blank"><p>{val.Distance_m}m</p></a>
-                                <a key={val.id} className='stat' href={val.link} target="_blank"><p>{val.Meet_Date}</p></a>
-                                <a key={val.id} className='stat' href={val.link} target="_blank"><p>{val.Wind}</p></a>
+                                <p key={val.id} className='stat' href={val.link} target="_blank">{val.Event}</p>
+                                <p key={val.id} className='stat' href={val.link} target="_blank">{val.Athlete}</p>
+                                <p key={val.id} className='stat' href={val.link} target="_blank">{val.Year}</p>
+                                <p key={val.id} className='stat' href={val.link} target="_blank">{val.College}</p>
+                                <p key={val.id} className='stat' href={val.link} target="_blank">{val.Distance_m}</p>
+                                <p key={val.id} className='stat' href={val.link} target="_blank">{val.Meet_Date}</p>
+                                <p key={val.id} className='stat' href={val.link} target="_blank">{val.Wind}</p>
                             </div>
                         );
                     } else if (val.Points !== 0) {
                         return (
-                            <div key={index} className='dataRow'>
-                                <a key={val.id} className='stat' href={val.link} target="_blank"><p>{val.Event}</p></a>
-                                <a key={val.id} className='stat' href={val.link} target="_blank"><p>{val.Athlete}</p></a>
-                                <a key={val.id} className='stat' href={val.link} target="_blank"><p>{val.Year}</p></a>
-                                <a key={val.id} className='stat' href={val.link} target="_blank"><p>{val.College}</p></a>
-                                <a key={val.id} className='stat' href={val.link} target="_blank"><p>{val.Points}</p></a>
-                                <a key={val.id} className='stat' href={val.link} target="_blank"><p>{val.Meet_Date}</p></a>
-                                <a key={val.id} className='stat' href={val.link} target="_blank"><p>{val.Wind}</p></a>
+
+                            <div key={index}  className='dataRow'>
+                                <p key={val.id} className='stat' href={val.link} target="_blank">{val.Event}</p>
+                                <p key={val.id} className='stat' href={val.link} target="_blank">{val.Athlete}</p>
+                                <p key={val.id} className='stat' href={val.link} target="_blank">{val.Year}</p>
+                                <p key={val.id} className='stat' href={val.link} target="_blank">{val.College}</p>
+                                <p key={val.id} className='stat' href={val.link} target="_blank">{val.Points}</p>
+                                <p key={val.id} className='stat' href={val.link} target="_blank">{val.Meet_Date}</p>
+                                <p key={val.id} className='stat' href={val.link} target="_blank">{val.Wind}</p>
                             </div>
                         );
                     }
