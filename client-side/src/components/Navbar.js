@@ -6,32 +6,6 @@ import DropdownMenu from './DropdownMenu.js';
 import handleButtonClick from "./DropdownMenu.js";
 import logo from "../icons/HomePageLogo.png";
 
-window.addEventListener('load', function() {
-    
-    var fade1 = document.getElementById('fade1');
-    fade1.style.opacity = '1'
-
-    var fade2 = document.getElementById('fade2');
-    fade2.style.opacity = '1'
-
-
-    var featureCard1 = document.getElementById('featureCard1');
-    featureCard1.style.opacity = '1'
-
-    var featureCard2 = document.getElementById('featureCard2');
-    featureCard2.style.opacity = '1'
-
-    var featureCard3 = document.getElementById('featureCard3');
-    featureCard3.style.opacity = '1'
-
-    var featureCard4 = document.getElementById('featureCard4');
-    featureCard4.style.opacity = '1'
-
-    var featureCard5 = document.getElementById('featureCard5');
-    featureCard5.style.opacity = '1'
-  
-  });
-
 
   export default function Navbar(){
     
