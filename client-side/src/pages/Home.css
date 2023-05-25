@@ -10,7 +10,7 @@
 #homeLogo {
     opacity: 0; /* Hide the image initially */
     transition: opacity 1s; /* Apply the fade-in transition effect */
-  }
+}
 
 .homeCard h2{
     z-index: 1;
@@ -36,6 +36,7 @@
     height: 15%;
     width: 70%;
 }
+
 #heroCard1{
     transform: translateX(-200%); /* Position the image outside the viewport on the left */
     transition: transform 1s; /* Apply the slide-in transition effect */

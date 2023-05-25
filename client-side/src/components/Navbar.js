@@ -46,15 +46,15 @@ import logo from "../icons/HomePageLogo.png";
             </div>
 
             <div className='navButton'>
-                <CustomLink to="/features" className="active">Features</CustomLink>
+                <Link to="/features" >Features</Link>
             </div>
 
             <div className='navButton'>
-                <CustomLink to="/faq" className="active">FAQ</CustomLink>
+                <Link to="/faq" >FAQ</Link>
             </div>
 
             <div className='navButton'>
-                <CustomLink to="/about" className="active">About</CustomLink>
+                <Link to="/about" >About</Link>
             </div>
 
 
@@ -62,20 +62,6 @@ import logo from "../icons/HomePageLogo.png";
         </div>
 
     )
-}
-
-function CustomLink({to, children, ...props }){
-    const resolvedPath = useResolvedPath(to)
-    const isActive = useMatch({path: resolvedPath.pathname, end: true})
-    return(
-        <li className={isActive === to ? "active" : ""}>
-            <Link to={to} {...props}>
-                {children}
-            </Link>
-        </li>
-
-    )
-
 }
 
 

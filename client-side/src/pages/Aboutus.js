@@ -1,6 +1,7 @@
 import "./Aboutus.css";
 import vallejo from "../authorPhotos/Vallejo.png";
 import cathcart from "../authorPhotos/Cathcart.png";
+import holton from "../authorPhotos/Brian.png"
 
 export default function aboutus(){
     return (
@@ -8,7 +9,9 @@ export default function aboutus(){
         <h1> Meet the creators:   </h1>
 
         <div className="bioCard">
-            <h3> Bryan Holt </h3>
+            <img src={holton} alt="brian"/>
+
+            <h3> Brian Holton </h3>
             <p> Senior at Augustana College majoring in computer science and data analytics. 
                 Responsible for getting the online data for the website, data cleaning, as well as database management.
             </p>

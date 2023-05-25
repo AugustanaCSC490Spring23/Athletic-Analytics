@@ -3,6 +3,7 @@ import "./SchoolProfiles.css"
 import React, { useState, useEffect} from "react";
 import Axios from 'axios';
 import Searchbar from "../components/Searchbar.js";
+import DataTable from "react-data-table-component"
 
 export default function Schoolprofiles(){
     const menEvents = ["100 Meters", "200 Meters", "400 Meters", "800 Meters", "1500 Meters", "5000 Meters"
@@ -14,13 +15,85 @@ export default function Schoolprofiles(){
     
     const [college, setCollege] = useState('');
     const [eventSelect, setEventSelect] = useState('');
-    const [sexSelect, setSexSelect] = useState(''); 
+    const [sexSelect, setSexSelect] = useState('Men'); 
     const [athletesList, setAthletesList] = useState([]);
 
     const handleSearch = (value) => {
         console.log('Search value:', value);
         setCollege(value);
       };
+    
+
+      let columns = [
+        {
+            name: 'Sex',
+            selector: row => row.Gender
+          },
+        {
+            name: 'Event',
+            selector: row => row.Event
+          },
+        {
+          name: 'Athlete',
+          selector: row => row.Athlete
+        },
+        {
+          name: 'Year',
+          selector: row => row.Year
+        },
+        {
+          name: 'Meet Date',
+          selector: row => row.Meet_Date
+        },
+      ];
+
+      if (athletesList.length > 0) {
+        if (athletesList.Time_S !== 0) {
+          columns.splice(3, 0,{
+            name: 'Time',
+            selector: row => row.Time_I
+          });
+        }
+    
+        if (athletesList.Distance_m !== 0) {
+          columns.splice(4, 0,{
+            name: 'Distance',
+            selector: row => row.Distance_m + 'm'
+          });
+        }
+    
+        if (athletesList.Points !== 0) {
+          columns.splice(5, 0,{
+            name: 'Points',
+            selector: row => row.Points
+          });
+        }
+        if (athletesList.Wind !== '') {
+            columns.push({
+              name: 'Wind',
+              selector: row => row.Wind
+            });
+          }
+      }
+    
+        const tableCustomStyles = {
+        headRow: {
+          style: {
+            color:'#223336',
+            backgroundColor: '#e7eef0'
+          },
+        },
+        rows: {
+          style: {
+            color: "STRIPEDCOLOR",
+            backgroundColor: "STRIPEDCOLOR"
+          },
+          stripedStyle: {
+            color: "NORMALCOLOR",
+            backgroundColor: "#d0d0d0"
+          }
+        }
+      }
     
     let sexType = null;
     let eventOptions = null;
@@ -36,12 +109,7 @@ export default function Schoolprofiles(){
     }
     function setSex(e) {
         const val = e.target.value;
-        if (val === "Sex") {
-            setSexSelect('');
-        } else {
-            setSexSelect(val);
-        }
-        console.log(val);
+        setSexSelect(val);
     }
     if(sexSelect === "Men") {
         sexType = menEvents;
@@ -115,7 +183,6 @@ export default function Schoolprofiles(){
             <div className='filterButton'>
                 {/*e=>setSelectDiv(e.target.value)*/}
                 <select onChange={setSex}>
-                    <option>Sex</option>
                     <option>Men</option>
                     <option>Women</option>
                 </select>
@@ -130,37 +197,17 @@ export default function Schoolprofiles(){
                     <option>Results</option>
             </button>
         </div>
-            <div className="schoolTable">
-                <div className="schoolName">{college}</div>
-                <div className="schoolTableHeaders">      <h3> Event </h3>        <h3> Name </h3>     <h3> Year </h3>      <h3> Mark </h3>      <h3> Date </h3>  <h3> Wind </h3>     </div>
-                {athletesList.map((val, index) => {
-                    let value = '';
-                    if (val.Time_I !== '') {
-                        value = val.Time_I;
-                    } else if (val.Distance_m !== 0) {
-                        value = val.Distance_m + 'm';
-                    } else if (val.Points !== 0) {
-                        value = val.Points;
-                    }
-                        return (
-                            <div key={index} className='schoolRow'>
-                                <a key={val.id} className='stat' href={val.link} target="_blank"><p>{val.Event}</p></a>
-                                <a key={val.id} className='stat' href={val.link} target="_blank"><p>{val.Athlete}</p></a>
-                                <a key={val.id} className='stat' href={val.link} target="_blank"><p>{val.Year}</p></a>
-                                <a key={val.id} className='stat' href={val.link} target="_blank"><p>{val.College}</p></a>
-                                <a key={val.id} className='stat' href={val.link} target="_blank"><p>{value}</p></a>
-                                <a key={val.id} className='stat' href={val.link} target="_blank"><p>{val.Meet_Date}</p></a>
-                                <a key={val.id} className='stat' href={val.link} target="_blank"><p>{val.Wind}</p></a>
-                            </div>
-                        );
-                })}     
+            <div className="schoolTable"> 
+                <DataTable
+                    columns={columns}
+                    data={athletesList}
+                    striped
+                    paginationPerPage={50}
+                    paginationPerPageOptions={50}
+                    customStyles={tableCustomStyles}
+                />    
 
+                
             </div>
-
-
-    
-    
-    
-    
-    </div>
+        </div>
 )}

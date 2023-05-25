@@ -2,7 +2,15 @@ import React, { useState, useEffect} from "react";
 import "./SquadStats.css";
 import Axios from 'axios';
 import DisplayHidden from "../components/DisplayHidden";
+import DataTable from "react-data-table-component";
+
+
+
 export default function Squadranking(){
+
+
+
+
     /*
         *GET RID OF IC4A_ECAC & METS CONFERENCES IN TABLES*
     */
@@ -343,7 +351,12 @@ export default function Squadranking(){
 
                 </div>
             )}
+ 
+
         </div>
     </div>
     )
+    
+
+
 }
