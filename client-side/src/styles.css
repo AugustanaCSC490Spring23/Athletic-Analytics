@@ -20,9 +20,6 @@ p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.container {
-
-}
 
 .homeContainer{
     border-left: solid black;
@@ -41,15 +38,28 @@ p{
 }
 
 .squadContainer {
-    height: 100vh;
+    height: auto; /* Adjust the height as needed */
     width: 70vw;
+    margin-top: 20px; /* Increase or decrease the margin as needed */
     display: flex;
     justify-content: center;
-    align-content:baseline;
+    align-items: baseline;
     flex-wrap: wrap;
     background-color: white;
-    border-radius: .5rem;
-}
+    border-radius: 0.5rem;
+  }
+  
+  .squadDetails {
+    height: auto; /* Adjust the height as needed */
+    width: 70vw;
+    margin-top: 20px; /* Increase or decrease the margin as needed */
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 0.5rem;
+  }
 
 .indContainer{
     border-left: solid black;
@@ -290,27 +300,27 @@ p{
 }
 
 /* This is the styling for the stuff below the squad menu that slides out */
-/* .squadInfo{
+ .squadInfo{
     width: 65vw;
     padding-left: 2rem;
     padding-right: 2rem;
     text-decoration: underline;
     display: flex;
     justify-content: space-between;
-} */
+}
 
 /* ********** SQUAD SELECT DROPDOWN STYLING ********** */
 
 
 /* This just styles the text */
-/* .squadChildren{
+.squadChildren{
     width:85vw;
     background-color: none;
     border: solid black;
     text-decoration: none;
     font-family:'PT Sans',helvetica;
     height: 50vh;  
-} */
+}
 
 .squadChildren .showChildren {
     display: flex;

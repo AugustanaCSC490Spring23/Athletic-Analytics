@@ -60,3 +60,30 @@
 .schoolTableHeaders h3{
     width: 18%;
 }
+
+.schoolRow{
+    display: flex;
+    width: 60vw;
+    height: 5vh;
+}
+.schoolRow a{
+    width: 13%;
+    display: flex;
+    justify-content: center; 
+}
+
+.schoolRow a:nth-child(1){
+    justify-content: left;
+    padding-left: 1.25vw;
+}
+.schoolRow a:nth-child(2){
+    justify-content: left;
+}
+.schoolRow a:nth-child(6){
+    justify-content: right;
+}
+
+.schoolRow a:nth-child(7){
+    justify-content: right;
+    padding-right: 1.75vw;
+}
