@@ -1,5 +1,6 @@
 import React, { useState, useEffect} from "react";
 import Axios from 'axios';
+import DataTable from "react-data-table-component"
 export default function Indranking(){
     const D3confNames =['American_Rivers', 'American_Southwest', 'Atlantic_East', 'CCIW', 'CCS', 'Centennial_Conference', 'Coast-to-Coast', 'Commonwealth_Coast', 'CSAC', 
     'CUNYAC','Empire_8', 'Great_Northeast', 'HCAC', 'Landmark_Conference', 'Liberty_League', 'Little_East', 'MASCAC', 'MIAC', 'Michigan_Intercollegiate', 
@@ -20,6 +21,75 @@ export default function Indranking(){
     const womenEvents = ["100 Meters", "200 Meters", "400 Meters", "800 Meters", "1500 Meters", "5000 Meters"
     , "10,000 Meters", "3000 Steeplechase", "100 Hurdles", "400 Hurdles", "Shot put", "Discus", 
     "Javelin", "Hammer", "High Jump", "Long Jump", "Triple Jump", "Pole Vault", "Heptathlon"];
+
+
+
+    
+
+      
+
+    const columns = [
+
+
+
+        {
+            name: 'Rank',
+            selector: (row, index) => index+1
+            
+        },
+        {
+            name: 'Athlete',
+            selector: row=> row.Athlete
+        },
+        {
+            name: 'Year',
+            selector: row=> row.Year
+        },
+        {
+            name: 'College',
+            selector: row => row.College
+        },
+        {
+            name: 'Time',
+            selector: row => row.Time_I
+        },
+        {
+            name: 'Distance',
+            selector: row => row.Distance_m
+        },
+        {
+            name: 'Points',
+            selector: row => row.Points
+        },
+        {
+            name: 'Meet Date',
+            selector: row => row.Meet_Date
+        },
+        {
+            name: 'Wind',
+            selector: row => row.Wind
+        }
+    
+    ];
+    
+        const tableCustomStyles = {
+        headRow: {
+          style: {
+            color:'#223336',
+            backgroundColor: '#e7eef0'
+          },
+        },
+        rows: {
+          style: {
+            color: "STRIPEDCOLOR",
+            backgroundColor: "STRIPEDCOLOR"
+          },
+          stripedStyle: {
+            color: "NORMALCOLOR",
+            backgroundColor: "#d0d0d0"
+          }
+        }
+      }
 
     
     const [divList, setDivList] = useState([]);
@@ -102,6 +172,7 @@ export default function Indranking(){
         console.log(eSelect);
         sendGetRequest(dSelect, cSelect, sSelect, eSelect);
     }
+
     const sendGetRequest = async (division, conference, sex, event) => {
         try {
             if (conference !== '') {
@@ -209,43 +280,15 @@ export default function Indranking(){
             </div>
 
 
-            <div className="eventTable">
-                    <div className="tableStat">
-                        
-                        <div className="stat-headers">
-                            <h3> Rank </h3>
-                            <h3> Athlete </h3>
-                            <h3> Year </h3>
-                            <h3> College </h3>
-                            <h3> Mark </h3>                            
-                            <h3> Date </h3>
-                            <h3> Wind </h3>
-                        </div>
+                <DataTable
+                    columns={columns}
+                    data={divList}
+                    striped
+                    pagination
+                    paginationPerPage={30}
+                    customStyles={tableCustomStyles}
 
-                        {divList.map((val, index) => {
-                            let value = '';
-                            if (val.Time_I !== '') {
-                                value = val.Time_I;
-                            } else if (val.Distance_m !== 0) {
-                                value = val.Distance_m + 'm';
-                            } else if (val.Points !== 0) {
-                                value = val.Points;
-                            }
-                            return (
-                                <div key={index} className='dataRow'>
-                                    <a key= {val.id} className='stat' href={val.link} target="_blank"><p>{index + 1}</p></a>
-                                    <a key= {val.id} className='stat' href={val.link} target="_blank"><p>{val.Athlete}</p></a>                                   
-                                    <a key= {val.id} className='stat' href={val.link} target="_blank"><p>{val.Year}</p></a> 
-                                    <a key= {val.id} className='stat' href={val.link} target="_blank"><p>{val.College}</p></a> 
-                                    <a key= {val.id} className='stat' href={val.link} target="_blank"><p>{value}</p></a> 
-                                    <a key= {val.id} className='stat' href={val.link} target="_blank"><p>{val.Meet_Date}</p></a> 
-                                    <a key= {val.id} className='stat' href={val.link} target="_blank"><p>{val.Wind}</p></a> 
-                                </div>
-                            );
-                        }
-)}         
-                    </div>
-            </div>
+                />
 
         </div>
 
