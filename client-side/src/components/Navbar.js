@@ -6,7 +6,33 @@ import DropdownMenu from './DropdownMenu.js';
 import handleButtonClick from "./DropdownMenu.js";
 import logo from "../icons/HomePageLogo.png";
 
+window.addEventListener('load', function() {
+    
+    var fade1 = document.getElementById('fade1');
+    fade1.style.opacity = '1'
+
+    var fade2 = document.getElementById('fade2');
+    fade2.style.opacity = '1'
+
+
+    var featureCard1 = document.getElementById('featureCard1');
+    featureCard1.style.opacity = '1'
+
+    var featureCard2 = document.getElementById('featureCard2');
+    featureCard2.style.opacity = '1'
+
+    var featureCard3 = document.getElementById('featureCard3');
+    featureCard3.style.opacity = '1'
+
+    var featureCard4 = document.getElementById('featureCard4');
+    featureCard4.style.opacity = '1'
+
+    var featureCard5 = document.getElementById('featureCard5');
+    featureCard5.style.opacity = '1'
   
+  });
+
+
   export default function Navbar(){
     
     return (
@@ -22,18 +48,18 @@ import logo from "../icons/HomePageLogo.png";
                                     
                                         <ul className="menu">
 
-                                        <div className="listItem">  
-                                            <Link to="/Squadranking" onClick={handleButtonClick}> <div>Squad Rank</div></Link>
-                                        </div>
-                                        <div className="listItem"> 
-                                            <Link to="/Indranking" onClick={handleButtonClick}> <div>Individual Rankings</div></Link>
-                                        </div>
-                                        <div className="listItem"> 
-                                            <Link to="/Schoolprofiles" onClick={handleButtonClick}  > <div>School profiles</div></Link>
-                                        </div>
-                                        <div className="listItem"> 
-                                            <Link to="/" onClick={handleButtonClick}> <div>Records</div></Link>
-                                        </div>
+                                            <div className="listItem">  
+                                                <Link to="/Squadranking" onClick={handleButtonClick}> <div>Squad Rank</div></Link>
+                                            </div>
+                                            <div className="listItem"> 
+                                                <Link to="/Indranking" onClick={handleButtonClick}> <div>Individual Rankings</div></Link>
+                                            </div>
+                                            <div className="listItem"> 
+                                                <Link to="/Schoolprofiles" onClick={handleButtonClick}  > <div>School profiles</div></Link>
+                                            </div>
+                                            <div className="listItem"> 
+                                                <Link to="/" onClick={handleButtonClick}> <div>Records</div></Link>
+                                            </div>
 
                                 
                                     </ul>
@@ -42,8 +68,7 @@ import logo from "../icons/HomePageLogo.png";
                 </div>
 
             {/* Below is the Nav Bar Buttons */}
-            <div className='homeButton'>
-                <Link to="/" className="active"><img className="logo" src={logo} alt="home-redirect-logo"/></Link>
+            <div className='navButton'>
             </div>
 
             <div className='navButton'>
