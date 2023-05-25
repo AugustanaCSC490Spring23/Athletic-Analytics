@@ -1,5 +1,6 @@
-import vallejo from "../authorPhotos/Vallejo.png"
-import cathcart from "../authorPhotos/Cathcart.png"
+import "./Aboutus.css";
+import vallejo from "../authorPhotos/Vallejo.png";
+import cathcart from "../authorPhotos/Cathcart.png";
 
 export default function aboutus(){
     return (
@@ -8,6 +9,9 @@ export default function aboutus(){
 
         <div className="bioCard">
             <h3> Bryan Holt </h3>
+            <p> Senior at Augustana College majoring in computer science and data analytics. 
+                Responsible for getting the online data for the website, data cleaning, as well as database management.
+            </p>
         </div>
 
         <div className="bioCard">
@@ -27,11 +31,12 @@ export default function aboutus(){
 
             </div>
             <p> Currently a senior at Augustana College majoring in computer science. Responsible 
-                for back-end react and data manipulation with the external sourced database</p>
+                for back-end react and data manipulation with the external sourced database. Also aided in the creation of a few front-end javascript components</p>
         </div>
 
         <div className="bioCard">       
             <h3> Jacob Speirer </h3>
+            <p> Currently a senior at Augustana College majoring in computer science. </p>
         </div>
 
     </div>    

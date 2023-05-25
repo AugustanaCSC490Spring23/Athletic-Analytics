@@ -1,11 +1,12 @@
 /* ************* This is the div tag for the NavMenu ************* */
 .navMenu {
-    margin-left: 2.3vw;
-    margin-top: 2.2vh;
     height: 70px;
     width: 50px;
     color: black;
     border-radius: 1rem;
+
+    padding-top: 1.5vh;
+    padding-left: 2vh;
 }
 
 /* This is the styling of the nav bar logo image */
@@ -22,52 +23,47 @@
 
 /* Below is the Hamburger Menu Styling on Nav Bar */
 
-.hamburgerMenu {
-    z-index: 5;
-    position: relative;
-    margin-top: 3.65vh;
-    height: inherit;
-    width: inherit;
-}
-.hamburgerMenuBtn button{
+.DropdownButtonContainer button{
     background-color: none;
     text-align: center;
     border: none;
     text-decoration: none;
-    font-family:'PT Sans',helvetica;
 }
 
-.hamburgerMenuBtn button:hover{
+.DropdownButtonContainer button:hover{
     cursor: pointer;
 }
 
-.hamburgerMenuBtn ul{
+.DropdownButtonContainer ul{
+    height: 40vh;
+    width: 25vw;
+    z-index: 5;
+    position: relative;
+    list-style: none;
+    padding-left: 1vw;
+    margin-top: .75vh;
+
+
+    background-color: rgb(255, 255, 255);
     border: solid black;
     border-top-right-radius: .5rem;
     border-bottom-right-radius: .5rem;
-    z-index: 5;
-    position: relative;
-    height: 60vh;
-    width: 25vw;
-    background-color: rgb(255, 255, 255);
-    list-style: none;
-    padding-left: 1vw;
-    float: left
+
 }
 
 /* This is the actual styling of text inside the dropdownMenu */
-.hamburgerListItem a{
+.listItem a{
     text-decoration: none;
     color: black;
     font-size: 1.28571429rem;
 }
 
-.hamburgerListItem a:hover{
+.listItem a:hover{
     text-decoration: underline;
 }
 
 /* This is the styling for between items in the list */
- .hamburgerListItem {
+ .listItem {
     margin-top: 3vh;
 
 }      

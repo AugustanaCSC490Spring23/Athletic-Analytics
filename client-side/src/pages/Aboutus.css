@@ -1,0 +1,42 @@
+.aboutContainer h1{
+    width: 100vw;
+    margin-left: 20vw;
+}
+
+.bioCard{
+    height: 30vh;
+    width: 80vh;
+    margin: 2vh;
+    padding: 2vw;
+    border: solid 1px;
+    border-radius: 0rem 1rem 0rem 1rem;
+    box-shadow: 3px 3px 3px 3px black;
+    display: flex;
+    align-items: center;
+}
+
+.bioCard p{
+    margin-right: 1.25vw;
+}
+
+.photo-and-name{
+    width:25vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2vw;
+}
+
+.photo-and-name h3{
+    margin-right: 5vw;
+    font-size: 1.25vw;
+    width: 8vw;
+}
+
+.photo-and-name img{
+    border: solid black;
+    margin-top: 3vh;
+    margin-right: 5vw;
+    height:10rem;
+    width:8rem;
+}

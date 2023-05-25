@@ -1,0 +1,86 @@
+/* ************* This is the styling of the features page  ************* */
+
+.featureHeader{
+    margin-top: 2rem;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.featureHeader h1{
+    color: rgb(58, 150, 139);
+
+    font-size: 4vh;
+}
+
+.featureHeader img{
+    width: 50vw;
+
+}
+
+/* This styles the format of the list of items */
+.featureItems{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+/* This styles the actual items */
+.featureCard{
+    height: 20vh;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: left;
+    padding: 5%;
+    margin: 5%;
+    margin-left: 3vw;
+    background:rgb(240, 162, 188);
+    box-shadow: 3px 3px 3px 3px rgb(150, 84, 106);
+    border-radius: .5rem;
+
+}
+
+.featureCard h3{
+    display: flex;
+    color: rgb(58, 150, 139);
+    width: 50vw;
+
+}
+
+.featureCard p{
+    margin-left: 10vw;
+    margin-right: 5vw;;
+}
+
+#fade1 {
+    opacity: 0; /* Hide the image initially */
+    transition: opacity 1s; /* Apply the fade-in transition effect */
+}
+#fade2 {
+    opacity: 0; /* Hide the image initially */
+    transition: opacity 1s; /* Apply the fade-in transition effect */
+}
+
+#featureCard1 {
+    transform: translateX(-200%); /* Position the image outside the viewport on the left */
+    transition: transform 1s; /* Apply the slide-in transition effect */
+  }
+#featureCard2 {
+    transform: translateX(200%); /* Position the image outside the viewport on the left */
+    transition: transform 1s; /* Apply the slide-in transition effect */
+  }
+#featureCard3 {
+    transform: translateX(-200%); /* Position the image outside the viewport on the left */
+    transition: transform 1s; /* Apply the slide-in transition effect */
+  }
+#featureCard4 {
+    transform: translateX(200%); /* Position the image outside the viewport on the left */
+    transition: transform 1s; /* Apply the slide-in transition effect */
+}
+#featureCard5 {
+    transform: translateX(-200%); /* Position the image outside the viewport on the left */
+    transition: transform 1s; /* Apply the slide-in transition effect */
+  }
+
