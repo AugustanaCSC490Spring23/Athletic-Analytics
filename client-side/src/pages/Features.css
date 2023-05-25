@@ -1,5 +1,16 @@
 /* ************* This is the styling of the features page  ************* */
 
+.featuresContainer {
+    border-left: solid black;
+    border-right: solid black;
+    border-bottom: solid black;
+    margin-left: 7.75vw;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 .featureHeader{
     margin-top: 2rem;
     width: 50vw;

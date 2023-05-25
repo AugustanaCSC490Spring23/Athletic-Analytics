@@ -4,7 +4,7 @@ import { Link, useMatch, useResolvedPath } from 'react-router-dom';
 import navButton from "./NavButton.js";
 import DropdownMenu from './DropdownMenu.js';
 import handleButtonClick from "./DropdownMenu.js";
-import logo from "../icons/HomePageLogo.png";
+import home from "../icons/homeIcon.png";
 
 
   export default function Navbar(){
@@ -31,9 +31,6 @@ import logo from "../icons/HomePageLogo.png";
                                             <div className="listItem"> 
                                                 <Link to="/Schoolprofiles" onClick={handleButtonClick}  > <div>School profiles</div></Link>
                                             </div>
-                                            <div className="listItem"> 
-                                                <Link to="/" onClick={handleButtonClick}> <div>Records</div></Link>
-                                            </div>
 
                                 
                                     </ul>
@@ -43,18 +40,20 @@ import logo from "../icons/HomePageLogo.png";
 
             {/* Below is the Nav Bar Buttons */}
             <div className='navButton'>
+                <Link to="/home" onClick={handleButtonClick}><img src={home}/></Link>
+
             </div>
 
             <div className='navButton'>
-                <Link to="/features" >Features</Link>
+                <Link to="/features" onClick={handleButtonClick}>Features</Link>
             </div>
 
             <div className='navButton'>
-                <Link to="/faq" >FAQ</Link>
+                <Link to="/faq" onClick={handleButtonClick}>FAQ</Link>
             </div>
 
             <div className='navButton'>
-                <Link to="/about" >About</Link>
+                <Link to="/about" onClick={handleButtonClick}>About</Link>
             </div>
 
 

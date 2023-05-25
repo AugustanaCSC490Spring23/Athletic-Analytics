@@ -46,30 +46,27 @@ export default function features(){
                 
                 <h3>Squad Rankings </h3>
                 <p>
-                    Check out a school's  average ranking and marks for any event.
+                    Check out a school's average ranking and marks based on their top 4 athletes for any event!
                 </p>
             
             </div>
 
             <div class="featureCard" id="featureCard2">
                 <h3>Individual Rankings</h3>
-                <p> See individual athlete progression, achievements and how they compare to the rest of their conference.</p>
+                <p> View the top 50 athletes and their marks for any event!</p>
             </div>
 
             <div class="featureCard" id="featureCard3">
-                    <h3>Interdivisional Mark Comparision</h3>
-                    <p>Compare marks between athletes between divisions.</p>
-
-            </div>
-            <div class="featureCard" id="featureCard4">
-                    <h3>Meet Predictor</h3>
-                    <p>Choose any school and see how they compare against one another based on previous times.</p>
-            </div>
-
-            <div class="featureCard" id="featureCard5">
                 <h3>Live Mark Updates</h3>
-                <p> All our data update daily to provide accurate comparisons and rankings.</p>
+                <p> All data is updated daily to provide accurate rankings and comparisons.</p>
             </div>
+
+            <div class="featureCard" id="featureCard4">
+                <h3>School Profiles</h3>
+                <p> Search a school and see their top 5 athletes for any event.</p>
+            </div>
+
+
 
 
 

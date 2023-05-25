@@ -1,17 +1,33 @@
+.aboutContainer{
+    border-left: solid black;
+    border-right: solid black;
+    border-bottom: solid black;
+    height: 150vh;
+    width: 80vw;
+    border-radius: .5rem;
+    margin-left: 7.75vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
 .aboutContainer h1{
-    width: 100vw;
-    margin-left: 20vw;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
 }
 
 .bioCard{
-    height: 30vh;
-    width: 80vh;
+    height: auto;
+    width: auto;
     margin: 2vh;
     padding: 2vw;
     border: solid 1px;
     border-radius: 0rem 1rem 0rem 1rem;
     box-shadow: 3px 3px 3px 3px black;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -20,20 +36,23 @@
 }
 
 .photo-and-name{
-    width:25vw;
+    width: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding: 2vw;
+
 }
 
 .photo-and-name h3{
+    margin-top: 5%;
     margin-right: 5vw;
-    font-size: 1.25vw;
+    font-size:auto;
     width: 8vw;
 }
 
 .photo-and-name img{
+    display: inline;
     border: solid black;
     margin-top: 3vh;
     margin-right: 5vw;
