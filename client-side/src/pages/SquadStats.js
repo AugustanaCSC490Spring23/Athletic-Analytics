@@ -1,4 +1,5 @@
 import React, { useState, useEffect} from "react";
+import "./SquadStats.css";
 import Axios from 'axios';
 import DisplayHidden from "../components/DisplayHidden";
 export default function Squadranking(){

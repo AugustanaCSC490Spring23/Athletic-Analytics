@@ -4,7 +4,7 @@
 .navDropdown img{
     display: flex;
     align-items: center;
-    width: 4vw;
+    width: 5vh;
     
 }
 
@@ -12,6 +12,7 @@
     background-color: gray;
     border-radius: 50%;
 }
+
 .navbar{
     background-color: rgb(241, 241, 241);
     display: flex;
@@ -32,5 +33,12 @@
     justify-content: space-between;
     align-items: center;
 }
+.homeButton img{
+    width:15vh;
+    padding-top: 1vh;
 
+}
 
+.navButton{
+    width: 10vh;
+}
