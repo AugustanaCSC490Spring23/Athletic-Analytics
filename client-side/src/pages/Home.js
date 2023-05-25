@@ -33,7 +33,7 @@ export default function Home(){
 
         <div className="homeContainer" >
             <div className="homeCard">
-                <img className="homeLogo" src={HomeLogo} alt="AALogo" id="homeLogo"/>
+                <img className='homeLogo' src={HomeLogo} alt="AALogo" id='homeLogo'/>
             </div>
 
             <div className="home-display">

@@ -23,55 +23,63 @@ export default function Indranking(){
     , "10,000 Meters", "3000 Steeplechase", "100 Hurdles", "400 Hurdles", "Shot put", "Discus", 
     "Javelin", "Hammer", "High Jump", "Long Jump", "Triple Jump", "Pole Vault", "Heptathlon"];
 
-
-
+    const [divList, setDivList] = useState([]);
+    const [divSelect, setDivSelect] = useState('');
+    const [sexSelect, setSexSelect] = useState(''); 
+    const [confSelect, setConfSelect] = useState('');
+    const [eventSelect, setEventSelect] = useState('');
     
-
-      
-
-    const columns = [
-
-
-
+    let columns = [
         {
-            name: 'Rank',
-            selector: (row, index) => index+1
-            
+          name: 'Rank',
+          selector: (row, index) => index + 1
         },
         {
-            name: 'Athlete',
-            selector: row=> row.Athlete
+          name: 'Athlete',
+          selector: row => row.Athlete
         },
         {
-            name: 'Year',
-            selector: row=> row.Year
+          name: 'Year',
+          selector: row => row.Year
         },
         {
-            name: 'College',
-            selector: row => row.College
+          name: 'College',
+          selector: row => row.College
         },
         {
+          name: 'Meet Date',
+          selector: row => row.Meet_Date
+        },
+      ];
+
+      if (divList.length > 0) {
+        if (divList[0].Time_S !== 0) {
+          columns.splice(3, 0,{
             name: 'Time',
             selector: row => row.Time_I
-        },
-        {
-            name: 'Distance',
-            selector: row => row.Distance_m
-        },
-        {
-            name: 'Points',
-            selector: row => row.Points
-        },
-        {
-            name: 'Meet Date',
-            selector: row => row.Meet_Date
-        },
-        {
-            name: 'Wind',
-            selector: row => row.Wind
+          });
         }
     
-    ];
+        if (divList[0].Distance_m !== 0) {
+          columns.splice(3, 0,{
+            name: 'Distance',
+            selector: row => row.Distance_m + 'm'
+          });
+        }
+    
+        if (divList[0].Points !== 0) {
+          columns.splice(3, 0,{
+            name: 'Points',
+            selector: row => row.Points
+          });
+        }
+        if (divList[0].Wind !== '') {
+            columns.push({
+              name: 'Wind',
+              selector: row => row.Wind
+            });
+          }
+      }
     
         const tableCustomStyles = {
         headRow: {
@@ -91,13 +99,6 @@ export default function Indranking(){
           }
         }
       }
-
-    
-    const [divList, setDivList] = useState([]);
-    const [divSelect, setDivSelect] = useState('');
-    const [sexSelect, setSexSelect] = useState(''); 
-    const [confSelect, setConfSelect] = useState('');
-    const [eventSelect, setEventSelect] = useState('');
 
     let confType = null;
     let confOptions = null;
@@ -220,6 +221,7 @@ export default function Indranking(){
                             query: `SELECT * FROM ${division} ORDER BY Event_ID, Time_S, Distance_m DESC, Points DESC LIMIT 50`
                         }
                     })
+                    console.log(response.data)
                     setDivList(response.data);
                 }
             }
@@ -291,7 +293,6 @@ export default function Indranking(){
                 <h1>{eventSelect}</h1>
             </div>
 
-
                 <DataTable
                     columns={columns}
                     data={divList}
@@ -300,7 +301,6 @@ export default function Indranking(){
                     paginationPerPageOptions={50}
                     responsive
                     customStyles={tableCustomStyles}
-
                 />
 
         </div>
