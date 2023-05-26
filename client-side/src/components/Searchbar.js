@@ -1,15 +1,11 @@
 import React, { useState, useEffect } from "react";
 import "./Searchbar.css";
 import Axios from 'axios';
-import DisplayHidden from "./DisplayHidden";
-
-//import SearchIcon from '@mui/icons-material/Search';
 
 const Searchbar = ({ onSearch }) => {
 
     const [trackList, setTrackList] = useState([]);
     const [search, setSearch] = useState('');
-    const [selectedValue, setSelectedValue] = useState('');
     useEffect(() => {
       Axios.get("http://localhost:3001/Searchbar").then((response) => {
         setTrackList(response.data);
@@ -22,7 +18,6 @@ const Searchbar = ({ onSearch }) => {
     };
       
     const handleResult = (val) => {
-      setSelectedValue(val.College);
       setSearch(val.College);
       onSearch(val.College)
   };
@@ -36,7 +31,6 @@ const Searchbar = ({ onSearch }) => {
           value={search}
           onChange={handleInputChange}
         />
-        <div className="searchIcon">{/* <SearchIcon/> */}</div>
         <div className="searchbar-results">
           {search.length !== 0 &&
             trackList

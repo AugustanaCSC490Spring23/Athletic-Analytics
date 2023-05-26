@@ -1,8 +1,10 @@
+/* ************* About Us Page ************* */
+
 .aboutContainer{
     border-left: solid black;
     border-right: solid black;
     border-bottom: solid black;
-    height: 150vh;
+    height: auto;
     width: 80vw;
     border-radius: .5rem;
     margin-left: 7.75vw;
@@ -10,14 +12,11 @@
     justify-content: center;
     flex-wrap: wrap;
 }
-
-
 .aboutContainer h1{
     margin-top: 5%;
     display: flex;
     justify-content: center;
 }
-
 .bioCard{
     height: auto;
     width: auto;
@@ -30,11 +29,9 @@
     justify-content: center;
     align-items: center;
 }
-
 .bioCard p{
     margin-right: 1.25vw;
 }
-
 .photo-and-name{
     width: auto;
     display: flex;
@@ -43,14 +40,12 @@
     padding: 2vw;
 
 }
-
 .photo-and-name h3{
     margin-top: 5%;
     margin-right: 5vw;
     font-size:auto;
     width: 8vw;
 }
-
 .photo-and-name img{
     display: inline;
     border: solid black;

@@ -1,7 +1,8 @@
 import "./Aboutus.css";
 import vallejo from "../authorPhotos/Vallejo.png";
 import cathcart from "../authorPhotos/Cathcart.png";
-import holton from "../authorPhotos/Brian.png"
+import holton from "../authorPhotos/Brian.png";
+import speirer from "../authorPhotos/Speirer.png";
 
 export default function aboutus(){
     return (
@@ -13,7 +14,6 @@ export default function aboutus(){
                 <img src={holton} alt="brian"/>
                 <h3> Brian Holton </h3>
             </div>
-
             <p> Senior at Augustana College majoring in computer science and data analytics. 
                 Responsible for getting the online data for the website, data cleaning, as well as database management.
             </p>
@@ -43,18 +43,12 @@ export default function aboutus(){
 
         <div className="bioCard">     
             <div className="photo-and-name">
+                <img src={speirer} alt="brian"/>
                 <h3> Jacob Speirer </h3>
             </div>
-            <p> Currently a senior at Augustana College majoring in computer science. Responsible for the google cloud stuff. </p>
+            <p> Currently a senior at Augustana College majoring in computer science. Responsible for Web Scraping, Google Cloud Functions, automation. </p>
         </div>
-
-    </div>    
-
-        
-        
-        
-        
-        
+    </div>     
         
         )
 }

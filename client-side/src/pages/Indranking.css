@@ -1,4 +1,4 @@
-/* ************* This is the styling of the Individual Rankings page  ************* */
+/* ************* Individual Rankings Page  ************* */
 
 .indContainer{
     border-left: solid black;
@@ -8,10 +8,6 @@
     height: auto;
     width: 80vw;
 }
-
-
-
-
 .selectOptions{
     margin-left: 2.5vw;
     display: flex;
@@ -19,7 +15,6 @@
     width: 75vw;
     margin-bottom: 10vh;
 }
-
 .submit-button{
     height: 3.2vh;
     width: 15vw;
@@ -37,14 +32,15 @@
 }
 .indHeader{
     padding: 6vw;
+    
 }
-
+.indHeader h2{
+    padding-left: 5vw;
+    color: rgb(88, 88, 88);
+    text-decoration: underline black;
+    margin-bottom: 5%;
+}
 .indHeader p{
     margin-top: 3vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
-
-
-
-
-

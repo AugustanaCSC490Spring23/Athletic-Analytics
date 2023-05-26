@@ -2,103 +2,105 @@ import React, { useState } from "react";
 import Axios from 'axios';
 import "./Indranking.css";
 import DataTable from "react-data-table-component"
-export default function Indranking(){
-    const D3confNames =['American_Rivers', 'American_Southwest', 'Atlantic_East', 'CCIW', 'CCS', 'Centennial_Conference', 'Coast-to-Coast', 'Commonwealth_Coast', 'CSAC', 
-    'CUNYAC','Empire_8', 'Great_Northeast', 'HCAC', 'Landmark_Conference', 'Liberty_League', 'Little_East', 'MASCAC', 'MIAC', 'Michigan_Intercollegiate', 
-    'Middle_Atlantic', 'Midwest_Conference', 'NACC', 'NESCAC', 'NEWMAC', 'NJAC', 'North_Atlantic_Conference', 'North_Coast_AC', 'Northwest_Conference', 
-    'OAC', 'ODAC', 'Presidents_AC', 'SAA', 'SCAC', 'SCIAC', 'SLIAC', 'SUNYAC', 'UAA', 'UMAC', 'USA_South', 'WIAC'];
+export default function Indranking() {
+    const D3confNames = ['American_Rivers', 'American_Southwest', 'Atlantic_East', 'CCIW', 'CCS', 'Centennial_Conference', 'Coast-to-Coast', 'Commonwealth_Coast', 'CSAC',
+        'CUNYAC', 'Empire_8', 'Great_Northeast', 'HCAC', 'Landmark_Conference', 'Liberty_League', 'Little_East', 'MASCAC', 'MIAC', 'Michigan_Intercollegiate',
+        'Middle_Atlantic', 'Midwest_Conference', 'NACC', 'NESCAC', 'NEWMAC', 'NJAC', 'North_Atlantic_Conference', 'North_Coast_AC', 'Northwest_Conference',
+        'OAC', 'ODAC', 'Presidents_AC', 'SAA', 'SCAC', 'SCIAC', 'SLIAC', 'SUNYAC', 'UAA', 'UMAC', 'USA_South', 'WIAC'];
 
-    const D2confNames = ['CACC', 'CCAA', 'CIAA', 'Conference_Carolinas', 'ECC', 'G-MAC', 'GLIAC', 'GLVC', 'GNAC', 'Great_American', 'Gulf_South', 'Lone_Star', 
-    'MIAA', 'Mountain_East', 'Northeast-10', 'Northern_Sun', 'PacWest', 'Peach_Belt', 'PSAC', 'RMAC', 'SIAC', 'South_Atlantic'];
+    const D2confNames = ['CACC', 'CCAA', 'CIAA', 'Conference_Carolinas', 'ECC', 'G-MAC', 'GLIAC', 'GLVC', 'GNAC', 'Great_American', 'Gulf_South', 'Lone_Star',
+        'MIAA', 'Mountain_East', 'Northeast-10', 'Northern_Sun', 'PacWest', 'Peach_Belt', 'PSAC', 'RMAC', 'SIAC', 'South_Atlantic'];
 
-    const D1confNames = ['ACC', 'America_East', 'ASUN', 'Atlantic_10', 'Big_12', 'BIG_EAST', 'Big_Sky', 'Big_South', 'Big_Ten', 'Big_West', 
-    'CAA_(Colonial)', 'Conference_USA','Horizon_League', 'Ivy_League', 'MEAC', 'Metro_Atlantic_(MAAC)', 'Mets', 
-    'Mid-American_(MAC)', 'Missouri_Valley_(MVC)', 'Mountain_West', 'Northeast_Conference', 'Ohio_Valley_(OVC)', 'Pac-12', 
-    'Patriot_League', 'SEC', 'Southern_Conference', 'Southland_Conference', 'Sun_Belt', 'SWAC', 'The_American', 'The_Summit_League', 'WAC'];
+    const D1confNames = ['ACC', 'America_East', 'ASUN', 'Atlantic_10', 'Big_12', 'BIG_EAST', 'Big_Sky', 'Big_South', 'Big_Ten', 'Big_West',
+        'CAA_(Colonial)', 'Conference_USA', 'Horizon_League', 'Ivy_League', 'MEAC', 'Metro_Atlantic_(MAAC)', 'Mets',
+        'Mid-American_(MAC)', 'Missouri_Valley_(MVC)', 'Mountain_West', 'Northeast_Conference', 'Ohio_Valley_(OVC)', 'Pac-12',
+        'Patriot_League', 'SEC', 'Southern_Conference', 'Southland_Conference', 'Sun_Belt', 'SWAC', 'The_American', 'The_Summit_League', 'WAC'];
 
     const menEvents = ["100 Meters", "200 Meters", "400 Meters", "800 Meters", "1500 Meters", "5000 Meters"
-        , "10,000 Meters", "3000 Steeplechase", "110 Hurdles", "400 Hurdles", "Shot put", "Discus", 
+        , "10,000 Meters", "3000 Steeplechase", "110 Hurdles", "400 Hurdles", "Shot put", "Discus",
         "Javelin", "Hammer", "High Jump", "Long Jump", "Triple Jump", "Pole Vault", "Decathlon"];
     const womenEvents = ["100 Meters", "200 Meters", "400 Meters", "800 Meters", "1500 Meters", "5000 Meters"
-    , "10,000 Meters", "3000 Steeplechase", "100 Hurdles", "400 Hurdles", "Shot put", "Discus", 
-    "Javelin", "Hammer", "High Jump", "Long Jump", "Triple Jump", "Pole Vault", "Heptathlon"];
+        , "10,000 Meters", "3000 Steeplechase", "100 Hurdles", "400 Hurdles", "Shot put", "Discus",
+        "Javelin", "Hammer", "High Jump", "Long Jump", "Triple Jump", "Pole Vault", "Heptathlon"];
 
     const [divList, setDivList] = useState([]);
     const [divSelect, setDivSelect] = useState('');
-    const [sexSelect, setSexSelect] = useState(''); 
+    const [sexSelect, setSexSelect] = useState('');
     const [confSelect, setConfSelect] = useState('');
     const [eventSelect, setEventSelect] = useState('');
-    
+
     let columns = [
         {
-          name: 'Rank',
-          selector: (row, index) => index + 1
+            name: 'Rank',
+            selector: (row, index) => index + 1
         },
         {
-          name: 'Athlete',
-          selector: row => row.Athlete
+            name: 'Athlete',
+            selector: row => row.Athlete
         },
         {
-          name: 'Year',
-          selector: row => row.Year
+            name: 'Year',
+            selector: row => row.Year
         },
         {
-          name: 'College',
-          selector: row => row.College
+            name: 'College',
+            selector: row => row.College
         },
         {
-          name: 'Meet Date',
-          selector: row => row.Meet_Date
+            name: 'Meet Date',
+            selector: row => row.Meet_Date
         },
-      ];
+    ];
 
-      if (divList.length > 0) {
+    if (divList.length > 0) {
         if (divList[0].Time_S !== 0) {
-          columns.splice(3, 0,{
-            name: 'Time',
-            selector: row => row.Time_I
-          });
+            columns.splice(3, 0, {
+                name: 'Time',
+                selector: row => row.Time_I
+            });
         }
-    
+
         if (divList[0].Distance_m !== 0) {
-          columns.splice(3, 0,{
-            name: 'Distance',
-            selector: row => row.Distance_m + 'm'
-          });
+            columns.splice(3, 0, {
+                name: 'Distance',
+                selector: row => row.Distance_m + 'm'
+            });
         }
-    
+
         if (divList[0].Points !== 0) {
-          columns.splice(3, 0,{
-            name: 'Points',
-            selector: row => row.Points
-          });
+            columns.splice(3, 0, {
+                name: 'Points',
+                selector: row => row.Points
+            });
         }
         if (divList[0].Wind !== '') {
             columns.push({
-              name: 'Wind',
-              selector: row => row.Wind
+                name: 'Wind',
+                selector: row => row.Wind
             });
-          }
-      }
-    
-        const tableCustomStyles = {
+        }
+    }
+
+    //   This styles the dataTable component
+    const tableCustomStyles = {
         headRow: {
-          style: {
-            color:'#223336',
-            backgroundColor: '#e7eef0'
-          },
+            style: {
+                color: '#223336',
+                backgroundColor: '#e7eef0',
+                fontSize: '25px'
+            },
         },
         rows: {
-          style: {
-            color: "STRIPEDCOLOR",
-            backgroundColor: "STRIPEDCOLOR"
-          },
-          stripedStyle: {
-            color: "NORMALCOLOR",
-            backgroundColor: "#d0d0d0"
-          }
+            style: {
+                color: "STRIPEDCOLOR",
+                backgroundColor: "STRIPEDCOLOR"
+            },
+            stripedStyle: {
+                color: "NORMALCOLOR",
+                backgroundColor: "#d0d0d0"
+            }
         }
-      }
+    }
 
     let confType = null;
     let confOptions = null;
@@ -142,25 +144,25 @@ export default function Indranking(){
         }
         console.log(val);
     }
-    if(sexSelect === "Men") {
+    if (sexSelect === "Men") {
         sexType = menEvents;
-    } else if(sexSelect === "Women") {
+    } else if (sexSelect === "Women") {
         sexType = womenEvents;
     }
-    
-    if(sexType) {
+
+    if (sexType) {
         eventOptions = sexType.map((e) => <option key={e}>{e}</option>);
     }
 
-    if(divSelect === "di") {
+    if (divSelect === "di") {
         confType = D1confNames; //Division 1 conferences
-    } else if(divSelect === "dii") {
+    } else if (divSelect === "dii") {
         confType = D2confNames; //Division 2 conferences
-    } else if(divSelect === "diii") {
+    } else if (divSelect === "diii") {
         confType = D3confNames; //Division 3 conferences
     }
 
-    if(confType) {
+    if (confType) {
         confOptions = confType.map((e) => <option key={e}>{e}</option>);
     }
     function setResults() {
@@ -230,17 +232,10 @@ export default function Indranking(){
             console.log(err);
         }
     }
-
-
-
-
-
-    // *************** HTML ***************
-
-
+   
     return (
         <div className="indContainer">
-            
+
             <div className='indHeader'>
                 <h2> Individual Statistics </h2>
                 <p>This page will allow you to view the top 50 athletes for each event depending on the selected filters.
@@ -255,17 +250,17 @@ export default function Indranking(){
                     {/*e=>setSelectDiv(e.target.value)*/}
                     <select onChange={setDivision}>
                         <option> Division </option>
-                        <option value ='di'>Division I</option>
-                        <option value ='dii'>Division II</option>
-                        <option value ='diii'>Division III</option>
+                        <option value='di'>Division I</option>
+                        <option value='dii'>Division II</option>
+                        <option value='diii'>Division III</option>
                     </select>
                 </div>
 
                 <div className='filterButton'>
-                        <select onChange={setConference}>
-                            <option>Conference</option>
-                            {confOptions}
-                        </select>
+                    <select onChange={setConference}>
+                        <option>Conference</option>
+                        {confOptions}
+                    </select>
                 </div>
 
                 <div className='filterButton'>
@@ -287,36 +282,25 @@ export default function Indranking(){
                 <button onClick={setResults} className='submit-button'>
                     <option>Results</option>
                 </button>
-                
+
             </div>
 
             <div className="eventTable-title">
                 <h1>{eventSelect}</h1>
             </div>
 
-                <DataTable
-                    columns={columns}
-                    data={divList}
-                    striped
-                    paginationPerPage={50}
-                    paginationPerPageOptions={50}
-                    responsive
-                    customStyles={tableCustomStyles}
-                />
+            <DataTable
+                columns={columns}
+                data={divList}
+                striped
+                paginationPerPage={50}
+                paginationPerPageOptions={50}
+                responsive
+                customStyles={tableCustomStyles}
+                className="customDataTable"
+            />
 
         </div>
-
-
-
-
-
-
-
-
     )
-    
-    
-    
-    
-    
+
 }

@@ -69,18 +69,6 @@ p{
     box-shadow: 3px 3px 3px 3px black;
 }
 
-.resultsButton{
-    background-color: white;
-    border-radius: .5rem;
-    width: 30%;
-    margin: 8vw;
-    margin-bottom: 1vh;
-}
-
-.resultsButton:hover{
-    background-color: gray;
-    cursor: pointer;
-}
 /* ************** This is the styling of the filter options ************* */
 
 /* styles text of the option in the filterButton*/

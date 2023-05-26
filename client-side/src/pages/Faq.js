@@ -10,15 +10,11 @@ export default function FAQ(){
         var q3  = document.getElementById('q3');
         var q4  = document.getElementById('q4');
 
-        
         // fade-in for home logo
         q1.style.opacity = '1';
         q2.style.opacity = '1';
         q3.style.opacity = '1';
         q4.style.opacity = '1';
-
-        
-      
       });
       
     return (
@@ -54,11 +50,7 @@ export default function FAQ(){
 
             <div id="q4" className='question'>
             </div>
-
-
         </div>
-
-
     </div>
 
     )

@@ -1,48 +1,65 @@
+/* ************* School Profiles Page ************* */
+
 .schoolprofilesContainer{
-    height: 100vw;
-    width: 80vw;
+    height: auto;
+    min-height: 100vh;
+    width: auto;
     margin-left: 10vw;
+    margin-right: 10vw;
     padding-top: 5vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-left: solid black;
     border-right: solid black;
+    padding-bottom: 5vh;
+    border-bottom: solid black;
+    border-radius: .5rem;
 
 }
-
 .schoolprofilesContainer h1{
     text-decoration: underline;
     padding: 2vw;
 }
-
 .schoolprofilesContainer p{
     margin-left: 10vw;
     margin-right: 10vw;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
+.resultsButton{
+    background-color: white;
+    border-radius: .5rem;
+    height: 5vh;
+    width: 20%;
+    margin: 5vw;
+    margin-bottom: 2vh;
+}
+.resultsButton:hover{
+    background-color: gray;
+    cursor: pointer;
+}
 .schoolTable{
     /* styles the formatting of data */
-    height: 260vh;
+    height: auto;
     width: 70vw;
     
     /* styles the design of the table */
     border: solid black 6px;
     box-shadow: 3px 3px 3px 3px black;
     border-radius: .5rem;
-    background-color: rgb(176, 209, 241);
     border-bottom: black 2px solid;
 
 }
-
+.collegeName{
+    margin-bottom: 2vh;
+}
 .schoolName{
     font-size: 3vw;
     margin-top: 3vh;
     margin-left: 4vw;
+    margin-bottom: 4vh;
     text-decoration: underline;
 }
-
 .schoolTableHeaders{
     width: 100%;
     display: flex;
@@ -51,23 +68,22 @@
     margin-top: 3%;
 
 }
-
 .schoolTableHeaders h3{
     width: 18%;
 }
-
 .dataRow{
     width: 50%;
     height: 8vh;
     
 }
-
 .collegeName{
     font-size: 3vw;
     margin-right: 50vw;
 }
-
 .stat{
     font-size: 8;
     margin: 5%;
+}
+.customSchoolTable .rdt_TableRow {
+    font-size: 15px;
 }

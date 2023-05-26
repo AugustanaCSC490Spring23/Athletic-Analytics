@@ -1,4 +1,4 @@
-/* ************* This is the styling of the features page  ************* */
+/* ************* Features Page  ************* */
 
 .featuresContainer {
     border-left: solid black;
@@ -10,7 +10,6 @@
     justify-content: center;
     flex-wrap: wrap;
 }
-
 .featureHeader{
     margin-top: 2rem;
     width: 50vw;
@@ -19,13 +18,11 @@
     flex-wrap: wrap;
     
 }
-
 .featureHeader h1{
     color: rgb(58, 150, 139);
 
     font-size: 4vh;
 }
-
 .featureHeader img{
     width: 50vw;
 
@@ -41,9 +38,11 @@
 /* This styles the actual items */
 .featureCard{
     height: 20vh;
+    width: 90%;
     display: flex;
     flex-wrap:wrap;
     justify-content: left;
+    align-items: center;
     padding: 5%;
     margin: 5%;
     margin-left: 3vw;
@@ -52,19 +51,17 @@
     border-radius: .5rem;
 
 }
-
 .featureCard h3{
     display: flex;
     color: rgb(58, 150, 139);
-    width: 50vw;
+    font-size: 180%;
 
 }
-
 .featureCard p{
     margin-left: 10vw;
-    margin-right: 5vw;;
+    margin-right: 5vw;
+    font-size: 110%
 }
-
 #fade1 {
     opacity: 0; /* Hide the image initially */
     transition: opacity 1s; /* Apply the fade-in transition effect */
@@ -73,7 +70,6 @@
     opacity: 0; /* Hide the image initially */
     transition: opacity 1s; /* Apply the fade-in transition effect */
 }
-
 #featureCard1 {
     transform: translateX(-200%); /* Position the image outside the viewport on the left */
     transition: transform 1s; /* Apply the slide-in transition effect */
@@ -93,5 +89,4 @@
 #featureCard5 {
     transform: translateX(-200%); /* Position the image outside the viewport on the left */
     transition: transform 1s; /* Apply the slide-in transition effect */
-  }
-
+}
