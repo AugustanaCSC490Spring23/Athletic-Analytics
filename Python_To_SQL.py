@@ -265,7 +265,7 @@ for p in range(1):
     
     # replacing zeroes and blanks in
     # certain columns with null
-    sql = "UPDATE `" + d + "` SET `Time_I` = NULL WHERE `Time_I` = 0.0;"
+    sql = "UPDATE `" + d + "` SET `Time_I` = NULL WHERE `Time_I` = '-';"
     cursor.execute(sql)
     sql = "UPDATE `" + d + "` SET `Time_S` = NULL WHERE `Time_S` = 0.0;"
     cursor.execute(sql)
@@ -273,6 +273,7 @@ for p in range(1):
     cursor.execute(sql)
     sql = "UPDATE `" + d + "` SET `Points` = NULL WHERE `Points` = 0.0;"
     cursor.execute(sql)
-    sql = "UPDATE `" + d + "` SET `Wind` = NULL WHERE `Wind` = '';"
+    sql = "UPDATE `" + d + "` SET `Wind` = NULL WHERE `Wind` = '-';"
     cursor.execute(sql)
     print(d + " done")
+mydb.close()
