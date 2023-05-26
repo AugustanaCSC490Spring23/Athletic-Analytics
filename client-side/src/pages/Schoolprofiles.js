@@ -197,6 +197,7 @@ export default function Schoolprofiles(){
                     <option>Results</option>
             </button>
         </div>
+        <div className='collegeName'>{college}</div>
             <div className="schoolTable"> 
                 <DataTable
                     columns={columns}

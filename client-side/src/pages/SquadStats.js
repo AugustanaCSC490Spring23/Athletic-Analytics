@@ -26,11 +26,91 @@ export default function Squadranking(){
 
     
     const [squadList, setSquadList] = useState([]);
-    const [athletesList, setAthletesList] = useState([]);
+    //const [athletesList, setAthletesList] = useState([]);
     const [divSelect, setDivSelect] = useState('');
     const [sexSelect, setSexSelect] = useState(''); 
     const [eventSelect, setEventSelect] = useState('');
-    const [collegeSelect, setCollegeSelect] = useState(null);
+    const [currentPage, setCurrentPage] = useState(1);
+    const [itemsPerPage] = useState(20);
+    //const [collegeSelect, setCollegeSelect] = useState(null);
+
+    useEffect(() => {
+
+      }, []);
+
+      
+    const handlePageChange = (pageNumber) => {
+        console.log('inside page change ' + pageNumber)
+        setCurrentPage(pageNumber);
+      };
+    let columns = [
+        {
+          name: 'Rank',
+          selector: (row, index) => index + 1 + ((currentPage - 1) * itemsPerPage),
+          sortable: false
+        },
+        {
+          name: 'College',
+          selector: row => row.College
+        },
+        {
+          name: 'Conference',
+          selector: row => row.Conference
+        }
+      ];
+      if (squadList.length > 0) {
+        if (squadList[0].sum_time !== 0) {
+          columns.push({
+            name: 'Total',
+            selector: row => convertTime(row.sum_time)
+          });
+          columns.push({
+            name: 'Average',
+            selector: row => convertTime(row.avg_time)
+          });
+        }
+    
+        if (squadList[0].sum_dist !== 0) {
+            columns.push({
+              name: 'Total',
+              selector: row => row.sum_dist.toFixed(2) + 'm'
+            });
+            columns.push({
+                name: 'Average',
+                selector: row => row.avg_dist.toFixed(2) + 'm'
+              });
+          }
+    
+          if (squadList[0].sum_points !== 0) {
+            columns.push({
+              name: 'Total',
+              selector: row => row.sum_points.toFixed(2)
+            });
+            columns.push({
+                name: 'Average',
+                selector: row => row.avg_points.toFixed(2)
+              }); 
+          }
+      }
+      const tableCustomStyles = {
+        headRow: {
+          style: {
+            color:'#223336',
+            backgroundColor: '#e7eef0'
+          },
+        },
+        rows: {
+          style: {
+            color: "STRIPEDCOLOR",
+            backgroundColor: "STRIPEDCOLOR"
+          },
+          stripedStyle: {
+            color: "NORMALCOLOR",
+            backgroundColor: "#d0d0d0"
+          }
+        }
+      }
+    
     let sexType = null;
     let eventOptions = null;
 
@@ -74,11 +154,9 @@ export default function Squadranking(){
    
     function SetResults() {
         SendCollegeRequest(divSelect, sexSelect, eventSelect);
-        setCurrentPage(1);
+        //setCurrentPage(1);
         }
     const SendCollegeRequest = async (division, sex, event) => {
-        console.log('College Request');
-        console.log(division)
         try {
             if(division !== '') {
                 if (sex !== '' && event !== '') {
@@ -94,7 +172,12 @@ export default function Squadranking(){
                             ORDER BY avg_time, avg_dist DESC, avg_Points DESC;`
                         }
                     })
-                    setSquadList(response.data);
+                    const filteredSquadList = response.data.filter((val) => 
+                        (val.sum_time >= val.avg_time * 4 && val.sum_dist === 0 && val.sum_points === 0) ||
+                        (val.sum_dist >= val.avg_dist * 4 && val.sum_time === 0 && val.sum_points === 0) ||
+                        (val.sum_points >= val.avg_points * 4 && val.sum_time === 0 && val.sum_dist === 0)
+                    );
+                    setSquadList(filteredSquadList);
                 } 
             } else if (division === '') {
                 const response = await Axios.get('http://localhost:3001/SquadRankings/Colleges', {
@@ -113,7 +196,12 @@ export default function Squadranking(){
                         ) combined WHERE row_num <= 4 GROUP BY College, Conference, Event_ID ORDER BY avg_time, avg_dist DESC, avg_Points DESC;`
                     }
                 })
-                setSquadList(response.data);
+                const filteredSquadList = response.data.filter((val) => 
+                        (val.sum_time >= val.avg_time * 4 && val.sum_dist === 0 && val.sum_points === 0) ||
+                        (val.sum_dist >= val.avg_dist * 4 && val.sum_time === 0 && val.sum_points === 0) ||
+                        (val.sum_points >= val.avg_points * 4 && val.sum_time === 0 && val.sum_dist === 0)
+                    );
+                setSquadList(filteredSquadList);
             }
         } catch (err) {
             console.log(err);
@@ -132,24 +220,8 @@ export default function Squadranking(){
             return `${minutes}:${secondsRemaining}.${millisecondsRound}`;
         }
     }
-    const resultsPerPage = 20; // Number of results to display per page
 
-// Variables to manage current page state
-    const [currentPage, setCurrentPage] = useState(1);
-    const startIndex = (currentPage - 1) * resultsPerPage;
-    const endIndex = startIndex + resultsPerPage;
-
-// Filtered and paginated squadList
-    const filteredSquadList = squadList.filter((val) => 
-        (val.sum_time >= val.avg_time * 4 && val.sum_dist === 0 && val.sum_points === 0) ||
-        (val.sum_dist >= val.avg_dist * 4 && val.sum_time === 0 && val.sum_points === 0) ||
-        (val.sum_points >= val.avg_points * 4 && val.sum_time === 0 && val.sum_dist === 0)
-    );
-    const totalPages = Math.ceil(filteredSquadList.length / resultsPerPage); // Total number of pages
-
-    const currentResults = filteredSquadList.slice(startIndex, endIndex);
-
-    function handleCollegeClick(college) {
+ /*   function handleCollegeClick(college) {
         setCollegeSelect(college);
         sendAthletesRequest(divSelect, sexSelect, eventSelect, college)
     }
@@ -181,7 +253,7 @@ export default function Squadranking(){
         } catch (err) {
             console.log(err);
         }
-    }
+    } */
     return (
     <div className="homeContainer">
         <div className='squadHeader'>
@@ -223,68 +295,21 @@ export default function Squadranking(){
 
             <div className='squadCard'>
                 <div className="squadCard-header">
-                    <div className="squad-column">
-                        <h3> Rank </h3>
-                        {currentResults.map((val, index) => (
-                            <div key={val.id} className='squadItem'>
-                                <span>{startIndex + index + 1}</span>
-                            </div>
-                        ))}
-
-                    </div>
-                    <div className="squad-column">
-                        <h3> College </h3>
-                        {currentResults.map((val) => (
-                            <div key={val.id} className='squadItem' href={val.link} target="_blank" onClick={() => handleCollegeClick(val.College)}>
-                                {val.College} <br></br>
-                            </div>
-                            
-                        ))}
-                    </div>
-                    <div className="squad-column">
-                        <h3> Conference </h3>
-                        {currentResults.map((val) => (
-                            <div key={val.id} className='squadItem' href={val.link} target="_blank">
-                                {val.Conference} <br></br>
-                            </div>
-                        ))}
-                    </div>
-
-                    <div className="squad-column">
-                        <h3> Total </h3> 
-                            {currentResults.map((val) => {
-                                let displayData = '';
-                                if (val.sum_time >= val.avg_time * 4 && val.sum_dist === 0 && val.sum_points === 0) {   
-                                    displayData = convertTime(val.sum_time)
-                                } else if (val.sum_dist >= val.avg_dist * 4 && val.sum_time === 0 && val.sum_points === 0) {   
-                                    displayData = val.sum_dist.toFixed(2) + 'm';
-                                } else if (val.sum_points >= val.avg_points * 4 && val.sum_time === 0 && val.sum_dist === 0) {
-                                    displayData = val.sum_points.toFixed(2)
-                                } return (
-                                    <div key= {val.id} className='squadItem' href={val.link} target="_blank">
-                                        {displayData} <br></br>
-                                    </div>
-                                );
-                            })}
-                    </div>
-
-                    <div className="squad-column">
-                        <h3> Avg. </h3> 
-                            {currentResults.map((val) => {
-                                let displayData = '';
-                                if (val.sum_time >= val.avg_time * 4 && val.sum_dist === 0 && val.sum_points === 0) {   
-                                    displayData = convertTime(val.avg_time)
-                                } else if (val.sum_dist >= val.avg_dist * 4 && val.sum_time === 0 && val.sum_points === 0) {   
-                                    displayData = val.avg_dist.toFixed(2) + 'm';
-                                } else if (val.sum_points >= val.avg_points * 4 && val.sum_time === 0 && val.sum_dist === 0) {
-                                    displayData = val.avg_points.toFixed(2)
-                                } return (
-                                    <div key= {val.id} className='squadItem' href={val.link} target="_blank">
-                                        {displayData} <br></br>
-                                    </div>
-                                );
-                            })}
-                    </div>
+                    <DataTable
+                    columns={columns}
+                    data={squadList}
+                    striped
+                    pagination
+                    paginationPerPage={itemsPerPage}
+                    responsive
+                    customStyles={tableCustomStyles}
+                    paginationTotalRows={squadList.length}
+                    paginationPerPageOptions={[10, 20, 30, 40, 50]}
+                    onChangePage={handlePageChange}
+                    paginationComponentOptions={{
+                        noRowsPerPage: true
+                    }}
+                    />
                 </div>
                 </div>
             </div>

@@ -1,4 +1,4 @@
-import React, { useState, useEffect} from "react";
+import React, { useState } from "react";
 import Axios from 'axios';
 import "./Indranking.css";
 import DataTable from "react-data-table-component"
@@ -216,12 +216,13 @@ export default function Indranking(){
                     })
                     setDivList(response.data);
                 } else {
+                    console.log('hi');
                     const response = await Axios.get('http://localhost:3001/IndivRankings', {
                         params: {
                             query: `SELECT * FROM ${division} ORDER BY Event_ID, Time_S, Distance_m DESC, Points DESC LIMIT 50`
                         }
                     })
-                    console.log(response.data)
+                    console.log(response.data);
                     setDivList(response.data);
                 }
             }

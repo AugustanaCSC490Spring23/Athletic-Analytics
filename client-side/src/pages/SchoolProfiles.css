@@ -62,7 +62,10 @@
     
 }
 
-
+.collegeName{
+    font-size: 3vw;
+    margin-right: 50vw;
+}
 
 .stat{
     font-size: 8;
